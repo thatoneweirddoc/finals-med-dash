@@ -237,7 +237,9 @@
           <option value="50">50 questions</option>
         </select>
       </div>
-      <div class="excl-h">Exclude topics <span class="excl-count" id="exclCount"></span></div>
+      <div class="excl-h">Include topics <span class="excl-count" id="inclCount"></span></div>
+      <div class="excl-grid" id="inclGrid"></div>
+      <div class="excl-h">Excluded <span class="excl-count" id="exclCount"></span></div>
       <div class="excl-grid" id="exclGrid"></div>
       <div class="row">
         <button class="act" id="genSess">Generate</button>
@@ -680,8 +682,16 @@ document.querySelectorAll('nav button').forEach(b => b.onclick = () => {
 // system dropdown
 $('fSys').innerHTML = [...BUILT,...UNBUILT].map(s => `<option>${esc(s)}</option>`).join('');
 
-// start-session exclusion checkboxes
+// start-session exclusion checkboxes — Include and Exclude are two views of
+// the same underlying set, kept in sync in both directions
 const ALL_SYSTEMS = [...BUILT, ...UNBUILT];
+
+$('inclGrid').innerHTML = ALL_SYSTEMS.map((s,i) => `
+  <div class="excl-row">
+    <input type="checkbox" id="in${i}" value="${esc(s)}" checked>
+    <label for="in${i}">${esc(s)}</label>
+  </div>`).join('');
+
 $('exclGrid').innerHTML = ALL_SYSTEMS.map((s,i) => `
   <div class="excl-row">
     <input type="checkbox" id="ex${i}" value="${esc(s)}">
@@ -691,8 +701,20 @@ $('exclGrid').innerHTML = ALL_SYSTEMS.map((s,i) => `
 function updateExclCount(){
   const n = document.querySelectorAll('#exclGrid input:checked').length;
   $('exclCount').textContent = n ? `(${n} excluded)` : '';
+  $('inclCount').textContent = `(${ALL_SYSTEMS.length - n} of ${ALL_SYSTEMS.length})`;
 }
-$('exclGrid').addEventListener('change', updateExclCount);
+
+$('inclGrid').addEventListener('change', e => {
+  const i = e.target.id.replace('in','');
+  $('ex'+i).checked = !e.target.checked;   // unchecking include = checking exclude
+  updateExclCount();
+});
+$('exclGrid').addEventListener('change', e => {
+  const i = e.target.id.replace('ex','');
+  $('in'+i).checked = !e.target.checked;   // checking exclude = unchecking include
+  updateExclCount();
+});
+updateExclCount();
 
 $('genSess').onclick = async () => {
   const n = $('sessLen').value;
