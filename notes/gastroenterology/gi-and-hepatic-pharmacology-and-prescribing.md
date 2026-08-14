@@ -1,7 +1,7 @@
 ---
 title: "GI & Hepatic Pharmacology & Prescribing"
 system: "Gastroenterology"
-sources: [Gastroenterology Master Notes]
+sources: [Gastroenterology Master Notes, General Surgery & Gastroenterology (ANU) — crohn’s disease]
 tags: [Hepatic, GI, IBD, UC]
 updated: "2026-08-14"
 ---
@@ -287,3 +287,39 @@ BNF and NICE (GORD/PUD, IBD, antiemetics, prescribing in hepatic impairment); EC
 
 
 ---
+
+
+---
+
+
+### General Surgery & Gastroenterology (ANU) — crohn’s disease — GI & Hepatic Pharmacology & Prescribing
+
+- DEFINITION: Chronic transmural GIT inflammation that may involve the entire GIT from mouth to perianal area
+- EPIDEMIOLOGY: Bimodal distribution (15-40 years, 60-80 years), M=F, ↑ incidence in Caucasians and Ashkenazi Jews
+- PATHOGENESIS: Current theory involves inappropriate mucosal immune response to commensal bacteria in the gut lumen in a genetically susceptible host that might have been exposed to environmental triggers. Initially inflammatory infiltrate around intestinal crypts 🡪 ulceration of superficial mucosa 🡪 progresses to involve deeper layers 🡪 thickens the bowel wall 🡪 scarring, luminal narrowing, stricture formation 🡪 obstruction + ↓absorption.
+- Most common location is ileum and ascending colon.
+- VIENNA CLASSIFICATION OF CD
+
+![](notes/images/general-surgery-and-gastroenterology-anu/img012.jpg)
+
+- RISK FACTORS: Caucasian, age, FHx, smoking, OCP, ↑refined sugar
+- HISTORYCharacteristic triad – abdominal pain (cramping/constant usually in RLQ/peri-umbilical regions; exacerbated by eating), diarrhoea (possible constipation/obstipation in obstruction), weight loss
+- Fevers, fatigue, haematochezia (microscopic/gross), oral (ulcers, mouth/gum pain), oesophageal (dysphagia, odynophagia), gastroduodenal (upper abd pain, gastric outlet obstruction), perianal (pain, skin tags, anal fissures, abscesses)
+
+- INVESTIGATIONS
+- FBC (anaemia, leucocytosis), iron studies (to demonstrate consistency with iron deficiency), serum B12, serum folate, CMP (in severe/chronic disease 🡪 ↓albumin, ↓cholesterol, ↓ Ca2+), CRP and ESR, stool testing, AXR (bowel wall thickening, bowel/colonic dilatation, calcification, sacroiliitis, abscess), CT abdomen (localisation of disease, fistula, abscess, extra-mural complications), MRI abdomen/pelvis (when IV contrast contraindicated)
+- Colonoscopy/gastroscopy: exploration, tissue biopsy, skip lesions (focal ulceration adjacent to normal mucosa), polypoid mucosal changes (cobblestone appearance)
+- DIFFERENTIAL DIAGNOSES: UC, IBS, CRC, infectious colitis (diarrhoea, acute Sx, infections with Shigella/ Salmonella/  Campylobacter/ E.Coli/ C.Diff/ CMV)
+- TREATMENT AND MANAGEMENT
+- Lifestyle: smoking cessation, fluids in acute exacerbations, enteral diet for symptomatic management, supplementation (Vit D, Ca2+, Mg2+, Zn, Fe, B12)
+- PharmacologyFor mild disease: 5-ASA compounds (aminosalicylates) e.g. sulfazaline/mesalamine (↑ effective in mild UC)
+- For moderate disease: immunomodulators e.g. 6-mercaptopurine (6-MP, azathioprine, and methotrexate (less often) often used to maintain remission and as steroid-sparing agents; may require &gt;3 mo for beneficial effect
+- For severe disease: biologics (anti-TNF agents) e.g. Infliximab IV or adalimumab SC and proven for effective treatment of fistulae and medically refractory CD
+- For flares: steroids e.g. prednisolone, methylprednisolone or IV hydrocortisone + antibiotics (metronidazole/ ciprofloxacin)
+
+- Surgery: generally reserved for medically refractory disease and complications; not curative
+- COMPLICATIONS:
+- Fistulas (enterovesical, retroperitoneum, enterovaginal, enterocutaneous)
+- Extraintestinal (arthritis large joints, eye involvement uveitis/iritis/episcleritis, skin involvement erythaema nodosum/pyoderma gangrenosum, primary sclerosing cholangitis, secondary amyloidosis)
+- Malnutrition (↓ Vit D 🡪 osteopenia,  ↓B12 🡪 pernicious anaemia)
+- PROGNOSIS: patients typically have intermittent exacerbation followed by remission, mild ↓ in life expectancy

@@ -1,8 +1,8 @@
 ---
 title: "Diabetes & Endocrine Emergencies (acute — very high yield)"
 system: "Endocrine"
-sources: [Endocrine Master Notes]
-tags: [Diabetes, DKA, HHS, JBDS]
+sources: [Endocrine Master Notes, Endocrinology (ANU) — HYPOGLYCAEMIA, Endocrinology (ANU) — hyperosmolar hyperglycemic state, Endocrinology (ANU) — insulin]
+tags: [Diabetes, DKA, HHS, IV]
 updated: "2026-08-14"
 ---
 
@@ -108,3 +108,58 @@ updated: "2026-08-14"
 *Companion to the Endocrine Finals Study Plan. Cross-checked against Greenspan's *Basic & Clinical Endocrinology*, Endocrine Society guidelines, NICE CKS/BNF, and Merck Manual Professional. Discriminator table + sources at the end of each section. British/Australian spelling. ⚑ = point where an older textbook is out of date.*
 
 ---
+
+
+---
+
+
+### Endocrinology (ANU) — insulin — Diabetes & Endocrine Emergencies (acute — very high yield)
+
+Definition: anabolic peptide hormone produced and secreted from pancreatic β cells located to counteract hyperglycaemia
+
+Synthesis: Preproinsulin (synthesised in RER) → cleavage of “pre-signal” → proinsulin (stored in secretory granules) → cleavage of proinsulin → exocytosis of insulin and C-peptide equally
+
+Function: primarily contributing to the generation of energy reserves and glycaemic control
+
+- Carbohydrate metabolism: Insulin is the only hormone in the body that lowers the blood glucose level.
+- Protein metabolism: stimulates protein synthesis
+- Lipid metabolism: maintains a fat depot and has an antiketogenic effect
+- Electrolyte regulation: stimulates intracellular potassium accumulation
+
+Receptors
+
+- Insulin-dependent glucose transporters:
+- GLUT4: adipose tissue, striated muscle (exercise can also increase GLUT4 expression)
+- Insulin-independent transporters (GLUT 1, 2, 3,5) :
+- Mnemonic BRICK L: Brain, RBCs, Intestine, Cornea, Kidney, Liver
+- Brain utilizes glucose for metabolism normally and ketone bodies during starvation
+- RBCs utilize glucose because they lack mitochondria for aerobic metabolism.
+- Glucose enters β cells → ↑ ATP generated from glucose metabolism → closes K+ channels (target of sulfonylureas) and depolarizes β cell membrane → voltage-gated Ca2+ channels open → Ca2+ infux and stimulation of insulin exocytosis
+
+
+---
+
+
+### Endocrinology (ANU) — hyperosmolar hyperglycemic state — Diabetes & Endocrine Emergencies (acute — very high yield)
+
+| DEFINITION | Primarily affects patients with T2DMCharacterized by hyperglycaemia, hyperosmolality, and dehydration without ketosis |
+| --- | --- |
+| PATHOPHYSIOLOGY | Often precipitated by sepsis, stroke, MI, CHF, renal failure, trauma, drugs (glucocorticoids, immunosuppressants, phenytoin, diuretics), dialysis, recent surgery, burnPartial or relative insulin deﬁciency ↓ glucose utilization in muscle, fat, liver while inducing hyperglucagonemia and hepatic glucose production (glucagon, adrenaline, cortisol, GH)In comparison to DKA, in HHS, the presence of a small amount of insulin prevents the development of ketosis by inhibiting lipolysis and in turn ketogenesisHHS is characterised by symptoms of marked dehydration and loss of electrolytes due to predominating hyperglycaemia and osmotic diuresis. The dehydration is more severe withMore gradual onset Increased duration of metabolic decompensation plusImpaired ﬂuid intake which is common in bedridden or elderlyVolume contraction → decreased renal function → increasing hyperglycaemia and osmolality → shift of fluid from neurons into ECF →  mental obtundation and coma |
+| INVESTIGATIONS | Bloods (BGL, FBC, EUC, ketones)BGL: 44.4 - 133 mmol/LSerum osmolality: &gt;320 mosm/kgHCO3-: &gt;18 mEq/LNa: in mild dehydration hyponatremia due shifting, however in severe dehydration hypernatremia Arterial pH: &gt;7.30 Ketones absent or mild (if starvation)UrinalysisGlycosuriaNegative ketones |
+| PRESENTATION | Insidious onset preceded by weakness, polyuria and polydipsia Dehydration: orthostatic changes e.g. hypotension, weight loss, dry mucous membranes, sunken eyesDecreased LOC: lethargy, confusion, seizures (due to high serum osmolality) Kussmaul’s respiration is absent unless the underlying precipitant has also caused a metabolic acidosis |
+| MANAGEMENT | Same resuscitation measures as DKARehydrationIV fluids: 1 L/h NS initiallyEvaluate corrected serum Na+If corrected serum Na+ high or normal, switch to 0.45% NaCl (4-14 mL/ kg/h)If corrected serum Na+ low, maintain NS (4-14 mL/kg/h)When serum BG reaches 13.9 mmol/L switch to D5WK+ replacementLess severe K+ depletion compared to DKAif serum K+&lt;3.3 mmol/L, hold insulin and give 40 mEq/L K+ replacementif K+ is 3.3-5.0, give KCl 20-30 mEq/L IV fluidif serum K+ ≥5.5 mmol/L, check K+ every 2 hSearch for precipitating eventInsulin therapyUse only regular insulinInitially load 0.1 U/kg body weight insulin R bolusMaintenance 0.1 U/kg/h insulin R infusion or IMCheck serum glucose hourlyIn general lower insulin requirement compared to DKA |
+| PROGNOSIS | Overall mortality approaches 50% primarily because of the older patient population and underlying aetiology/precipitant |
+| COMPLICATIONS | Mucormycosis, cerebral oedema, cardiac arrhthmias |
+
+
+---
+
+
+### Endocrinology (ANU) — HYPOGLYCAEMIA — Diabetes & Endocrine Emergencies (acute — very high yield)
+
+| DEFINITION | Defined clinically as a fasting plasma glucose level &lt;3.9 mmol/L |
+| --- | --- |
+| AETIOLOGY | Iatrogenic excess insulin: overdose on insulin or anti-hyperglycaemic (sulfonylurea, meglitinide)Autoimmune hypoglycaemia: autoantibodies to insulin/insulin receptorEndogenous excess insulin: insulinoma (pancreatic β turmour)Alcohol: chronic useDrugs: beta blockersHereditary/acquired conditions: liver/kidney failure, malnutrition, hypopituitarism or primary adrenal insufficiency (Addison’s Disease), fructose intolerance, glycogen storage diseaseNewborn: infant of diabetic mother, inborn error of carbohydrate metabolism, gluconeogenic enzyme deficiency |
+| PRESENTATION | Whipple’s triadSerum glucose &lt;2.5 mmol/L in males and &lt;2.2 mmol/L in females Neuroglycopenic symptoms Rapid relief provided by administration of glucoseAdrenergic symptoms Typically occur first; caused by autonomic nervous system activitySymptoms: palpitations, tachycardia, sweating, anxiety, tremor,Neuroglycopenic symptoms Caused by decreased activity of CNSSymptoms: dizziness, headache, blurry vision, mental dullness, fatigue, confusion, seizures, coma |
+| INVESTIGATIONS | Cause: LFTs, EUC, drug and toxins, cortisol levelsDiabetes: glucose, serum ketones, insulin, pro-insulin, C-peptide, insulin antibodies |
+| MANAGEMENT | If patient is conscious: oral glucose 15-20g or fast-acting carbohydrates such as glucose tablets, candy or juiceIf patient is unconscious20 mL of 50% glucose IV and regular serum glucose monitoringIf this is not possible, give 0.5-1.0 mg of glucagon IM or SC |

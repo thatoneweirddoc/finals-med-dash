@@ -1,8 +1,8 @@
 ---
 title: "Congenital, Inherited & Special Groups"
 system: "Cardiology"
-sources: [Cardiology Notes]
-tags: [Congenital, BP, HTN, VSD]
+sources: [Cardiology Notes, Cardiovascular (ANU) — aortic dissection]
+tags: [Congenital, HTN, BP, VSD]
 updated: "2026-08-14"
 ---
 
@@ -76,3 +76,21 @@ updated: "2026-08-14"
 ---
 
 *End of Installment 4. Next: **Installment 5 — Section 11 (Cardiovascular Pharmacology & Prescribing)**.*
+
+
+---
+
+
+### Cardiovascular (ANU) — aortic dissection — Congenital, Inherited & Special Groups
+
+| Definition | Separation in the aortic wall intima 🡪 blood flow into new false channel composed of the inner and outer layers of the media |
+| --- | --- |
+| Epidemiology | 40-70 y/o, M&gt;F |
+| Aetiology | Location: ascending aorta (65%), descending (20%), aortic arch (10%), abdominal aorta (5%)Most common: HTN 🡪 degeneration 🡪 aortic media damageOther: CTD (e.g. Marfan’s, Ehlers-Danlos), congenital (coarctation of aorta, bicuspid aortic valves, PDA), trauma, vasculitis, infection, amphetamines/cocaine, atherosclerosis |
+| Classification: | STANFORD A: affects ascending aortaSTANFORD B: begins beyond brachiocephalic vessels (distal to left subclavian artery) ![](notes/images/cardiovascular-anu/img036.jpg) |
+| Pathophysiology | Transverse tear in aortic intima→ blood enters the media of the aorta and forms a false lumen in the intima-media space → hematoma forms, causing ↑ pressure within aortic wall 🡪 rupture🡪 occlusion of branching vessel 🡪 ischemia |
+| Presentation | Severe ripping or tearing substernal/retrosternal pain (± neck, jaw, abdomen pain). The pain migrates as the dissected wall propagates caudallySyncope, abdominal pain, dyspnoea, diaphoresis, confusionAsymmetric left and right BP or pulse |
+| Investigations | CXR AP: widened mediastinum &gt; 8 mmTOE: aortic valve/thoracic aorta (in unstable pts, renal insufficiency, contrast allergy)Contrast CTA (gold standard): ↑ sensitivity, ↑ specificityECG: LVH ± ischemic changes, pericarditis, heart blockBloods: ↑lactate, amylase (rule out pancreatitis), troponin (usually negative) |
+| Differentials | ACS, pericarditis, aortic aneurysm, P |
+| Management | Stanford A dissections require immediate surgeryStanford B dissections are generally treated conservatively unless complications Conservative: analgesia (morphine), resuscitation, control HTN (target sBP: 90-120 mmHg with IV labetalol, esmolol or propranolol followed by IV sodium nitroprusside)Surgery: open with polyester graft implantation or endovascular (aortic stent implantation) |
+| Complications | Aortic rupture, MI, aortic regurgitation, cardiac tamponade, pericarditis, stroke, acute renal failure, weakness of lower extremities/acute paraplegia |

@@ -1,8 +1,8 @@
 ---
 title: "Hepatology"
 system: "Gastroenterology"
-sources: [Gastroenterology Master Notes]
-tags: [Hepatology, INR, IV, MASLD]
+sources: [Gastroenterology Master Notes, General Surgery & Gastroenterology (ANU) — CIRRHOSIS, General Surgery & Gastroenterology (ANU) — Hepatic encephalopathy, General Surgery & Gastroenterology (ANU) — viral hepatitis, General Surgery & Gastroenterology (ANU) — wilson’s disease]
+tags: [Hepatology, INR, RNA, HCV]
 updated: "2026-08-14"
 ---
 
@@ -169,3 +169,82 @@ Robbins & Cotran (hepatic pathology); EASL/AASLD guidance (acute liver failure, 
 *Companion to the Gastroenterology Finals Study Plan. Cross-checked against Robbins & Cotran, Kumar & Clark, Oxford Handbook of Clinical Surgery, BSG/IAP-APA (pancreatitis), NICE (gallstones NG118, pancreatitis NG104), BNF, and Merck Manual Professional. Discriminator table + sources at the end of each section. British/Australian spelling. ⚑ = point where guidance has recently changed.*
 
 ---
+
+
+---
+
+
+### General Surgery & Gastroenterology (ANU) — viral hepatitis — Hepatology
+
+- CLINICAL FEATURES
+- Mostly subclinical
+- Flu-like prodrome 🡪 jaundice by 1-2 weeks (N/V, anorexia, headaches, fatigue, myalgia, low-grade fever, arthralgia, urticaria especially HBV)
+- Icteric (clinical jaundice) phase 🡪 pale stools, dark urine, hepatosplenomegaly, RUQ pain, cervical lymphadenopathy
+- Hx of IVDU, tattoo, blood transfusion, unprotected sex, travel, non-immunized, endemic regions (poor sanitation)
+- HEP ARNA virus with faecal-oral transmission
+- Hx: travel, fatigue, nausea, arthralgia, fever, jaundice
+- Diagnosed by ↑transaminases, + anti-HAV IgM [note: + anti-HAV IgG (=immunity from prior infection/recent disease]
+
+- HEP BTransmitted via sexual activity/blood/IVDU
+- Acute (+ve HBsAg, HBeaG, IgM)
+- Chronic (+ve HBsAg, HBeaG, IgG, AST, ALT)
+- Resolved infection (anti HBs +, IgG, Anti-HBe)
+- Immunization (anti-HBs)
+
+- HEP CRNA requires blood borne/IVDU transmission (not sex)
+- Ab (+) and HCV-RNA (+) = INFECTED (chronic carrier)
+- Ab (-) and HCV-RNA (+) = ACUTE (just got the virus and haven’t had enough time to mount a response i.e. Ab is low)
+- Ab (+) and HCV-RNA (-) = someone who has been TREATED
+
+- HEP DRequires Hep A; causes more aggressive disease
+
+- INVESTIGATIONS: ↑ AST, ALT (AST: ALT &lt; 1), hepatitis serology (IgM antibody directed to the virus), cirrhosis on biopsy
+- TREATMENT: hepatocellular carcinoma screening with U/S, anti-virals Tenofovir/adefovir, inteferon alpha + ribavirin, cease ETOH (increases risk of disease progression), educate about blood and sexual practices, diet (↓Na, ↑protein, fluid restriction), liver transplant
+
+
+---
+
+
+### General Surgery & Gastroenterology (ANU) — wilson’s disease — Hepatology
+
+- DEFINITION: autosomal recessive defect in copper metabolism (gene ATP7B)
+- CLINICAL MANIFESTATIONS: Asterixis, Basal ganglia degeneration (parkinsonism), Ceruloplasmin decreases (copper carrying decreases), Cirrhosis, Corneal deposits (Kayser-Fleischer ring), Cerebellum (dysarthria, dysphagia, incoordination, ataxia), Dementia/psychosis
+- Suspected if ↑ liver enzymes with clinical manifestations at young age
+
+
+---
+
+
+### General Surgery & Gastroenterology (ANU) — CIRRHOSIS — Hepatology
+
+- DEFINITION: liver damage with diffuse architectural distortion, replacement with scar tissue, regenerative nodules
+- STAGES
+- Stage 1- compensated, asymptomatic, 10-20 yr survival with normal lie expectancy
+- Stage 2- decompensation, development of complications
+- AETIOLOGY: alcoholic/non-alcoholic fatty liver disease, chronic viral hepatitis, drugs (methotrexate, paracetamol), haemochromatosis, AI hepatitis, PBC, Gilbert’s, Wilson’s alpha anti-trypsin deficiency, occupational exposure to hepatotoxins (e.g. vinyl chloride)
+
+![](notes/images/general-surgery-and-gastroenterology-anu/img023.jpg)
+
+- CLINICAL PRESENTATION: RUQ pain, N/V, fatigue, easy bruising, anorexia, pruritus, gynaecomastia, splenomegaly
+- COMPLICATIONS: Varices, Ascites/Anemia, Renal failure (pre-renal from over-diuresis 🡪 ATN 🡪 HRS), Infections, Coagulopathy, Encephalopathy, Sepsis/
+- Portal HTN 🡪 ventilation-perfusion mismatch 🡪 intrapulmonary shunting/limitation of oxygen diffusion 🡪 hepatopulmonary syndrome 🡪 dyspnoea, platypnoea, orthodeoxia
+- INVESTIGATIONS
+- Bloods-↓platelet (earliest finding) 🡪 ↑INR 🡪 ↓albumin 🡪 ↑bilirubin 🡪 ↓glucose (pre-terminal)
+- Fibrotest- combination of clinical and biochemical markers to predict degree of fibrosis
+- Imaging- U/S, CT (varices, nodular liver texture, splenomegaly, ascites), gastroscopy
+- TREATMENT: treat underlying disorder, ↓ insults (EtOH, heptotoxic drugs, immunize for Hep A/B), manage complications, liver transplantation (if no EtOH for &gt; 6 months, use MELD score)
+- ![](notes/images/general-surgery-and-gastroenterology-anu/img024.jpg)
+PROGNOSIS
+- Child-Pugh Score for Severity
+- MELD- Na score for transplant to predict 3 month survival and used to stratify patients on transplant list; based on creatinine, INR, bilirubin and serum Na+
+- Usual causes of death in cirrhosis: renal failure (hepatorenal syndrome), sepsis, GI bleed, or HCC
+
+
+---
+
+
+### General Surgery & Gastroenterology (ANU) — Hepatic encephalopathy — Hepatology
+
+- DEFINITION: potentially reversible neuropsychiatric syndrome secondary to liver disease
+- PATHOPHYSIOLOGY: porto systemic shun taround hepatocytes and ↓ hepatocellular function ↑ systemic toxins (believed to be ammonia from gut, fatty acids, amino acids etc) which go to the brain
+- PRECIPITATING FACTORS: Haemorrhage in Gi tract/ HypoK+, Excess protein, Paracentesis, Alkalosis/Anaemia, Trauma, Infection, Colon surgery, Sedatives

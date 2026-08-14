@@ -1,7 +1,7 @@
 ---
 title: "GI Bleeding & the Acute Abdomen"
 system: "Gastroenterology"
-sources: [Gastroenterology Master Notes]
+sources: [Gastroenterology Master Notes, General Surgery & Gastroenterology (ANU) — MALLORY-WEISS TEAR, General Surgery & Gastroenterology (ANU) — acute appendicitis, General Surgery & Gastroenterology (ANU) — large bowel obstruction, General Surgery & Gastroenterology (ANU) — small bowel obstruction]
 tags: [Bleeding, GI, CT, AXR]
 updated: "2026-08-14"
 ---
@@ -137,3 +137,128 @@ NICE CG141/NG12 (acute upper GI bleeding, transfusion, risk scoring); **Villanue
 *Companion to the Gastroenterology Finals Study Plan. Cross-checked against Robbins & Cotran, Kumar & Clark, EASL/AASLD hepatology guidance, BSG/BASL, NICE (cirrhosis NG50), and Merck Manual Professional. Discriminator table + sources at the end. British/Australian spelling. ⚑ = point where guidance has recently changed. This is the highest-yield block of the whole system.*
 
 ---
+
+
+---
+
+
+### General Surgery & Gastroenterology (ANU) — MALLORY-WEISS TEAR — GI Bleeding & the Acute Abdomen
+
+- DEFINITION: non-transmural/ oesophageal laceration (partial thickness tear) at or near the gastro-oesophageal junction
+- EPIDEMIOLOGY: M&gt;F, 3-15% of upper GI bleeding, incident ↑ with age
+- PATHOGENESIS: secondary to sudden ↑ in intra-abdominal pressure from retching/vomiting against a closed glottis 🡪 distension 🡪 acute gastro-oesophageal laceration 🡪 bleeding from submucosal arteries
+- RISK FACTORS: condition causing retching/vomiting/straining, hiatus hernia, heavy EtOH
+- HISTORY:  hematemesis ± melaena (classically following an episode of retching); sudden large hematemesis (can be fatal); may be accompanies by epigastric/back pain
+- INVESTIGATIONS:Bloods- FBC (Hb, Hct, platelets usually unremarkable in acute settings), INR, EUC, LFT, Group and Hold
+- Flexible oesophagogastrodueodenoscopy: focal lesions with normal appearing adjacent mucosa (as opposed to other ulcerative, diffuse diseases); most tears heal within 24-48 hours (won’t be seen if endoscopy delayed)
+- Chest XRay- contrast swallow
+
+- DIFFERENTIAL DIAGNOSES: Oesophagitis, Boerhaave’s syndrome, peptic ulcer, oesophageal varices, oesophageal cancer
+- TREATMENT AND MANAGEMENT: Most tears heal spontaneously however if bleeding doesn’t cease, endoscopic intervention with adrenaline injection ± haemoclip placement/thermal therapy/band ligation.  Evaluate fluid loss and replace with IVF/electrolytes and blood transfusion if necessary. Cease NSAIDS/anticoagulants and start antigastric acid therapy (PPI/H2 antagonists), anti-emetics (ondansetron/promethazine). Surgery should be reserved for situations where endoscopic haemostasis of bleeding has failed or transmural oesophageal perforation is a problem
+- PROGNOSIS: Portal hypertension and coagulopathy are risk factors for re-bleeding (occurs in ~8-15% of cases). High risk factors for re-bleeding include &gt;65 y/o, hematemesis at presentation, hemodynamic instability, alcoholism, aspirin/NSAID use and comorbidities.
+
+
+---
+
+
+### General Surgery & Gastroenterology (ANU) — small bowel obstruction — GI Bleeding & the Acute Abdomen
+
+- DEFINITION: normal flow of intraluminal contents interrupted in small bowel
+- AETIOLOGY (MNEUMONIC SHAVING):
+- Strictures
+- Hernias (3rd; incisional, internal or external hernia)
+- Adhesions (1st)
+- Volvulus
+- Intussusception
+- Neoplasm (2nd; primary vs metastases from colon/ovarian/pancreatic/gastric)
+- Gallstone (biliary-enteric fistula)
+- TOP 3 causes (mneumonic ABC)- Adhesions, Bulge (hernias), Cancer
+- TYPES: Partial: portion of intestinal lumen is occluded, allows passage of some gas &amp; fluid, ↓ risk of strangulation
+- Complete: the lumen of the intestine is occluded, no passage of gas or stool, ↑risk of strangulation
+- Closed-loop: segment of intestine is obstructed both proximally and distally e.g. in volvulus ↑ intraluminal pressure from gas and fluid that cannot escape, ↑ riskof strangulation due to bowel wall ischemia
+
+- PATHOGENESIS:
+- Proximal to blockage 🡪 progressive dilatation
+- Distal to blockage 🡪 decompression as luminal contents pass.
+- Bowel wall become oedematous and loses normal absorptive function 🡪 fluid sequestered into bowel lumen.
+- Ongoing emesis 🡪 metabolic alkalosis losing Na, K, H and CL.
+- If bowel dilatation excessive 🡪 intramural vessels become compromised 🡪 perfusion to wall of intestine reduced 🡪 ischemia 🡪 necrosis + perforation
+- RISK FACTORS: prior abd/pelvic surgery, abd wall/groin hernia, intestinal inflammation, prior irradiationHistory: N/V, distension, relative constipation in partial obstruction, obstipation (no stool/gas) in complete obstruction, feculent vomiting (late disease), Sx of adhesions/bulge/cancer
+- Proximal SI- profuse vomiting, rarely feculent, more epigastric discomfort as opposed to pain
+- Mid-late SI- cramping crescendo-decrescendo peri-umbilical pain (poorly localised), vomiting following pain
+
+- EXAMINATION: dehydration, abd exam (surgical scars, hernias, distension, abnormal masses, “tinkling”/muffled bowel sounds, hyper resonance to percussion)
+- INVESTIGATIONS:Vitals- SIRS criteria (?ischemia)
+- Bloods- FBC, EUC, ABG (lactate acidosis in ischemia), Group &amp; Hold, LFTs, BUN
+- Urinalysis
+- Erect and supine AXR (dilated looks of bowel &gt;3mm in SB, &gt;6mm in LB, &gt;9mm in caecum; air fluid levels, proximal bowel dilatation + distal bowel collapse, ?pneumoperitoneum, paucity of air in colon)
+- CT scan can show obstruction and sites of ischemia (dilated loops of bowel, air fluid level, sites of ischemia, aetiology, transition point for point of obstruction, donut sign/kinks for adhesion)Ischemic bowel/strangulation pneumatosis intestinalis, thickened bowel wall, air in portal vein, free intraperitoneal fluid, differential wall enhancements (↓ IV contrast uptake in affected bowel)
+
+- Angiography for acute mesenteric arterial occlusion
+- Water-soluble contrast medium (WSCM) is recommended for both diagnostic and therapeutic purposes in patients undergoing nonoperative management
+
+- DIFFERENTIAL DIAGNOSES: ileus, LBO
+- TREATMENT AND MANAGEMENTSimple (conservative) vs. Complete/Strangulated (surgical emergency)
+- NGT suction (therapeutic to decompress stomach + bowel)- inserted immediately to relieve vomiting, avoid aspiration, ↓complications of further distention.
+- Conservative (partial SBO, Crohn’s, Carcinomatosis): NGT decompression, NBM, fluid and electrolyte resuscitation, GI rest, parenteral nutrition, anti-emetic (not metacloperamide as it is a pro-kinetic), ABx (if suspecting strangulation)
+- Surgery: Indicated in complete obstruction, closed loop obstruction and in ischemia/necrosis/perforation); lyse adhesive bands/resect tumour/remove foreign body; gangrenous bowel must be resected
+- If adhesions cannot be freed and a bypass cannot be accomplished, prolonged decompression through a gastrostomy/jejunostomy tube and parenteral nutrition for several wks may allow spontaneous resolution
+
+- COMPLICATIONS: strangulation/necrosis/perforation (surgical emergency), hypovolemic shock, electrolyte disturbance, metabolic alkalosis
+- OtherPARALYTIC ILEUS: Temporary, reversible impairment of intestinal motility frequently caused by abd operations, infections, inflammation, medications (opiates, anaesthetics, psychotropic) and electrolyte abnormalities. Passing gas is a useful indicator.
+- INTESTINAL ISCHEMIA
+- TUMOURS OF SMALL INTESTINE
+- SHORT GUT SYNDROME: ↓SA/length of small bowel causing insufficient intestinal absorption leading to  diarrhoea, malnutrition and dehydration. Ileum reabsorbs bile salts and vitamin B12, thus resection is less tolerated.
+
+![](notes/images/general-surgery-and-gastroenterology-anu/img008.jpg)
+Large bowel
+
+
+---
+
+
+### General Surgery & Gastroenterology (ANU) — large bowel obstruction — GI Bleeding & the Acute Abdomen
+
+- DEFINITION: Normal flow of intraluminal contents interrupted in large bowel
+- AETIOLOGY: top 3 causes- 1. CRC, 2. Volvulus (sigmoid &gt; caecal) 3. Diverticulitis; can also be caused by chronic constipation, IBD stricture, radiation stricture, volvulus or adhesions
+- PATHOGENESIS: proximally, progressive dilatation; distally, decompression as luminal contents pass
+- HISTORY:Open loop (10-20%; safer)- incompetent ileocecal valve allows relief of colonic pressure as contents reflux into ileum (similar presentation to SBO)
+- Closed loop (80-90%; dangerous)-competent ileocaecal valve resulting in proximal/distal occlusions
+- Insidious onset compared to SBO, deep cramping hypogastric pain
+
+- ABD EXAMINATION: distension, abnormal masses, hyper-resonance
+- INVESTIGATIONS: bloods (FBC, EUC, CEA), erect/supine AXR, CT abd (site, aetiology, complications)
+
+![](notes/images/general-surgery-and-gastroenterology-anu/img014.jpg)
+
+- DIFFERENTIAL DIAGNOSES: ileus, toxic megacolon (commonly associated with C. Diff, Hx of ABx use), SBO (earlier pain that is more superior, Hx of abdo surgery/hernia repair)
+- TREATMENT AND MANAGEMENT
+- Conservative: 75% of LBO ultimately requires surgery, supportive (IV fluids, electrolyte replacement, analgesia)
+- Surgery: usually requires resection + temporary diverting colostomy; volvulus requires sigmoidoscopy to decompress and followed by operative reduction; stomas used if not safe/unable to anastomose/defunctioning to let it join before being used
+- COMPLICATIONS: ischemia, necrosis, perforation, anastomotic leak from surgery
+
+
+---
+
+
+### General Surgery & Gastroenterology (ANU) — acute appendicitis — GI Bleeding & the Acute Abdomen
+
+- DEFINITION: acute inflammation of the appendix
+- EPIDEMIOLOGY: Early teens-late 40s
+- AETIOLOGY: faecal matter, lymphoid hyperplasia (↑ lymphocytes in the lymph nodes)
+- PATHOGENESIS: Faecolith/enlarged lymphoid follicles/ inspissated barium/parasites/tumours 🡪 appendiceal luminal obstruction 🡪 lumen distal to obstruction fills with mucus 🡪 closed-loop obstruction 🡪 ↑ intraluminal pressure 🡪 distension 🡪 bacteria (e.g. E Coli) rapidly colonisation 🡪 intraluminal pressure &gt; venous pressure 🡪 ↓ drainage 🡪 engorgement/congestion of appendix 🡪 inflammatory response 🡪 spreads to serosa/parietal peritoneum 🡪 RLQ pain 🡪 small arterioles thrombosed 🡪 ischemia 🡪 necrosis 🡪 perforation 🡪 bacteria and pus leak out from dying appendix wall 🡪 fistula/absess
+- PAIN: Initially, inflammation irritates visceral peritoneum 🡪 referred pain to umbilical area (embryonic midgut; visceral afferent fibers from appendix follow same nerve  distribution of small intestine; T10 origins). Disease progression 🡪 irritates parietal peritoneum 🡪 localised RLQ pain (McBurney’s Point; pain carried by somatosensory T12 nerves with specific dermatomal distribution)
+- RISK FACTORS: ↓dietary fibre
+- HISTORY: onset over 12-24 hours, constant umbilical pain that shifts to the RLQ, anorexia (↓ appetite), N/V, fever
+- EXAMINATION: Vitals abnormal, McBurney’s Sign (tenderness 2/3 between ASIS and umbilicus), Rosving’s Sign (R-sided pain upon deep left palpation), Psoas Sign (RLQ pain on passive extension of right hip), Obturator Sign (pain with passive flexion and internal rotation of right hip); peritonism upon rupture
+- ![](notes/images/general-surgery-and-gastroenterology-anu/img018.jpg)
+INVESTIGATIONS:
+- Bloods- FBC (mild leucocytosis with left shift; leucocytosis &gt; 20,000=probable perforation; Hb/MCV for blood loss anaemia), EUC, LFT, CRP, pancreatic enzymes, bHCG
+- Urinalysis
+- CXR- pneumoperitoneum
+- U/S- thick-walled appendix, excludes gynae causes e.g. ovarian cyst/ectopic pregnancy/tubo-ovarian abscess
+- Abdominal and pelvic CT scan- enlarged appendix (&gt;6mm), peri-appendiceal stranding, faecolith presence, inflammatory changes
+- DIFFERENTIAL DIAGNOSES: mesenteric adenitis, viral gastroenteritis, meckel’s diverticulitis, intussusception, right-sided ureteric stone, ectopic pregnancy, ovarian torsion
+- TREATMENT AND MANAGEMENT: ABCD, NBM, IVF, analgesia, MAG ABx, anti-emetics, appendicectomy
+- COMPLICATIONS: perforation, peritonitis, sepsis/septic shock, abscess, carcinoma,
+- PROGNOSIS: Rapid treatment yields good prognosis

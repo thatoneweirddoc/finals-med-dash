@@ -1,8 +1,8 @@
 ---
 title: "Antimicrobial Pharmacology"
 system: "Infectious Disease"
-sources: [Infectious Disease Master Notes]
-tags: [Antimicrobial, MRSA, VRE, ESBL]
+sources: [Infectious Disease (ANU) — MECHANISM OF ACTION, Infectious Disease (ANU) — beta-lactam antibiotics, Infectious Disease Master Notes]
+tags: [Antimicrobial, MRSA, CNS, VRE]
 updated: "2026-08-14"
 ---
 
@@ -100,3 +100,55 @@ Four core mechanisms — every resistant organism uses at least one:
 **Sources:** WHO AWaRe antibiotic book (2024–25 edition); IDSA 2026 AMR guidance (ESBL/AmpC/CRE/DTR-Pseudomonas/CRAB); BNF; Kumar & Clark; StatPearls. Beta-lactam cross-reactivity rate cross-checked against current allergy/immunology society position statements.
 
 ---
+
+
+---
+
+
+### Infectious Disease (ANU) — MECHANISM OF ACTION — Antimicrobial Pharmacology
+
+Bactericidal
+
+- Kill bacteria by inhibiting cell wall synthesis
+- “Very finely proficient at ccell murder”: vancomycin, fluoroquinolones, penicillin, aminoglycosides, cephalosporins, carbapenems, metronidazole
+
+Bacteriostatic
+
+- Arrest bacterial growth, by interfering with bacterial protein production, DNA replication, bacterial cellular metabolism
+- “ECSTaTIC”: erythromycin, clindamycin, sulfamethoxazole, trimethoprim, tetracyclines, chloramphenicol
+
+
+---
+
+
+### Infectious Disease (ANU) — beta-lactam antibiotics — Antimicrobial Pharmacology
+
+- Includes penicillin, carbapenem’s, aztreonam and cephalosporins
+- Mechanism of action:
+- Inhibits cell wall synthesis by binding to penicillin-binding proteins which inhibits peptidoglycan cross-linking
+- Beta-lactam antibiotics are bactericidal
+- CNS penetration: only when meninges are inflamed
+- Exceptions: ceftriaxone and aztreonam always have good CNS penetration
+- Route of elimination: primarily renal (ceftriaxone is both renal and biliary)
+- General adverse effects
+- Penicillin allergy (hypersensitivity reactions)
+- Jarisch-Herxheimer reaction
+- Beta-lactamase inhibitors
+- Beta-lactamases, which are usually produced by gram-negative and anaerobic organisms, can split the beta-lactam ring and render certain beta-lactam antibiotics ineffective
+- Beta-lactamase inhibitors increase the spectrum of antibiotic activity (mnemonic CAST): Clavulanic Acid, Sulbactam, Tazobactam
+
+| BETA-LACTAM | MECHANISM OF ACTION | ORGANISM | SIDE-EFFECTS |
+| --- | --- | --- | --- |
+| PENICILLIN | ClassicPenicillin G (IV/IM)Penicillin V (PO) | Gram-positiveGram-negativeSpirochetes | Haemolytic AnaemiaSeizures |
+| Anti-staphylococcal Nafcillin, dicloxacillin, oxacillin, methicillinIntrinsically, beta-lactamase resistant through the addition of bulky side chains | Gram positive: non-MRSA S. aureus | Interstitial nephritis |
+| AminopenicillinsPO/IV amoxicillin (± clavulanate)IV/IM ampicillin (± sulbactam)Susceptible to beta-lactamase degradation | Wider spectrumGram-positive aerobes and gram negative bacilliHHELPSSS (H. pylori, H. influenza, E.coli, Listeria, Proteus, Salmonella, Shigella, Spirochetes, Enterococci) | DiarrhoeaPseudomembranous colitisDrug-induced rash |
+| UreidopenicillinIV piperacillin (+ tazobactam) | Gram negative bacilli (pseudomonas)Anaerobes Gram-positive aerobes |  |
+| CarboxypenicillinsIV ticarcillin/carbenicillinIntrinsically beta-lactamase resistant | Gram-negative bacilli (pseudomonas) |  |
+| CARBAPENEM | Penetrate CSFIntrinsic beta-lactamase resistance | Broad-spectrum Gram-positive cocciGram-negative | Last resort due to significant adverse effectsSecondary fungal infectionLower seizure threshowlGI upsetSkin rashThrombophlebitis |
+| MONOBACTAM | Intrinsic beta-lactamase resistanceIV aztreonam | Very effective against gram-negative bacilli only (opposite of vancomycin)Alternative to penicillin-allergic patients and aminoglycosides for patients with renal impairment | GI upset |
+| CEPHALOSPORIN | Cephalosporins can be LAME because they don't act against Listeria, Atypical organisms (Chlamydia, Mycoplasma), MRSA , and Enterococci! |
+| 1st generationOral: cephalexinIV, IM: cefazolin | Gram-positive cocciGram-negative: PEcK (proteus, E.coli, Klebsiella) | Cross-reactivity in patients with penicillin allergies Autoimmune haemolytic anaemiaVitamin K deficiency → increased bleeding tendencyWhen consumed with alcohol (flushing, tachycardia, hypotension)Lower seizure thresholdIncrease the nephrotoxicity of aminoglycosides |
+| 2nd generationPO cefuroximeIV cefoxitin/cefuroxime | Gram-positive cocciHEN PEcKS (H.influenza, Enterobacter, Neisseria, Proteus, E.coli, Klebsiella, Serratia) |
+| 3rd generationOral cefiximeIV ceftriaxone, cefotaximeIM ceftriaxone | Severe gram-negative infections resistant to other beta-lactamsCeftazidime/cefoperazone effective against PseudomonasCeftriaxone (good CNS penetration) is used in meningitis |
+| 4th generationIV cefepime | Gram-negative (including pseudomonas)Severe infections (sepsis  pneumonia, UTI/biliary, peritonitis) |
+| 5th generationIV ceftaroline | Gram-positive (including MRSA!)Gram-negative (not Pseudomonas)Complicated skin and soft tissue infections |

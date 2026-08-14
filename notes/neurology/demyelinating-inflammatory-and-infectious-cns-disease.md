@@ -1,8 +1,8 @@
 ---
 title: "Demyelinating, Inflammatory and Infectious CNS Disease"
 system: "Neurology"
-sources: [Neurology Master Notes]
-tags: [Demyelinating, MS, CSF, NMOSD]
+sources: [Neurology (ANU) — encephalitis, Neurology (ANU) — meningitis, Neurology Master Notes]
+tags: [Demyelinating, MS, IV, CSF]
 updated: "2026-08-14"
 ---
 
@@ -236,3 +236,44 @@ The general rule: **a subacute, otherwise unexplained neurological syndrome in a
 **2024 revisions of the McDonald criteria** (published in *Lancet Neurology*, 2025) — optic nerve as a fifth topography, central vein sign and paramagnetic rim lesions, kappa free light chains, relaxation of the dissemination-in-time requirement, and diagnosis in asymptomatic individuals ⚑; the overdiagnosis caveat is stated in the criteria themselves. NICE **NG220** (MS in adults) and ABN DMT prescribing guidance — relapse steroids, DMT selection and monitoring. International consensus criteria for **NMOSD** (2015) and **MOGAD** (2023). NICE **NG240** *Meningitis (bacterial) and meningococcal disease* (March 2024) — antibiotics within 1 hour, blood tests and LP before antibiotics where safe. UK Joint Specialist Societies guideline on suspected bacterial meningitis in adults — empirical ceftriaxone ± amoxicillin, dexamethasone 10 mg 6-hourly for 4 days, CT-before-LP criteria; the *Listeria* age threshold is given as **>60** in UK guidance and **>50** in US (IDSA) guidance — both figures appear in practice, so quote the UK one in a UK/Australian exam and be aware of the other. ABN national guidelines on the management of suspected viral encephalitis — aciclovir dose and duration. WHO and NICE TB guidance — 12-month CNS regimen with adjunctive steroids. Merck Manual Professional and StatPearls — abscess, cryptococcal disease, neurosyphilis, prion disease, paraneoplastic antibody table.
 
 ---
+
+
+---
+
+
+### Neurology (ANU) — meningitis — Demyelinating, Inflammatory and Infectious CNS Disease
+
+| Definition | Inflammation of the meninges (layers covering brain and spinal cord) |
+| --- | --- |
+| Epidemiology | Peaks in children &lt; 5 y/o |
+| Aetiology | Bacterial depending on age groupPremature/newborns- GBS, Listeria monocytogenesOlder children – N. meningitides, S. pneumoniae, HIBAdults – N. meningitides, S. pneumoniae, L. monocytogenesImmunocompromised or certain parts of the world – Mycobacterium tuberculosisViral: enteroviruses, HSV-2, VZV, mumps, HIVFungal/parasitic in immunocompromised- cryptococcus neoformans, candida speciesNon-infectious causes- iatrogenic (Abx, NSAIDs, IV IgG), malignancy, CTD (SLE), vasculitis |
+| Differentials | Encephalitis, neoplasms |
+| Risk Factors | Age, unvaccinated, Indigenous, immunosuppression (premature children, HIV/AIDS, DM, asplenia), head trauma, cranial anatomical defects, prior viral infection, exposure (day care, school, travel) |
+| Pathophysiology | Hematogenous spread or direct extension from skin/nasal cavity 🡪 subarachnoid space 🡪 IgA protease inactivates host antibody &amp; surface characteristics 🡪 mucosal colonisation 🡪 immune inflammatory response 🡪 cytokine 🡪 cerebral oedema (vasogenic, interstitial, cytotoxic) 🡪 ↑ICP |
+| Presentation | Classic triad- fever, nuchal rigidity, altered LOCCharacteristic skin rash- red/purple petechial/purpuric rashHeadache (+ photophobia) and signs of ↑ICPInitial infection:  diarrhoea, respiratory distress, hypotensionABANK- Ant fontanelle bulge in infants, Brudzinski’s, Opisthontonos, Nuchal rigidity, Kernig’s signKernig’s: pt supine, thigh flexed to 90o, attempts to straighten leg are met with resistanceBrudzinski’s: flexion of neck causes involuntary flexion of knee and hipsOpisthotonos: rigid spasm of body with the back fully arched and heels/head bent back |
+| Investigation | Bloods- FBC (↑WBC), ↑CRP, EUC, BUN, BSLBlood culture x2 sites- sensitivity and serum PCRUrine MCS, throat swab and swab of infectious sites (rash)Lumbar puncture: opening pressure (ICP), cell count, WBC, RBC, glucose, protein, microscopy, gram stain, PCR, acid-fast stain (?Tb); CSF cloudy in bacterial meningitisCT before LP in immunocompromised, Hx of CNS disease, new onset seizure, papilloedema, altered LOC, focal neurological deficit ![](notes/images/neurology-anu/img021.jpg) |
+| Management | Supportive: IVF (maintain normal BP, preserve cerebral perfusion, ↑ bed head, monitor bloods)Bacterial: Empirical IV ABx therapy Age &lt; week: ampicillin + cefotaxime IV OR ampicillin ± an aminoglycoside IVWeek-3 months: cefotaxime + vancomycinAge &gt; 3months: vancomycin (add ampicillin IV if risk factors for infection with L. monocytogenes present: age &gt;50, alcoholism, immunocompromised)Monitorfor ototoxicity and nephrotoxicityAdjunct corticosteroid (dexamethasone 10mg/6h IV) to ↓ hearing loss + ↓ neuro  sequelaeViral: supportive care (except HSV – IV acyclovir) Prophylaxis: public health report if HIB or N. meningitides, vaccinations once recovered for H. influenza meningitis, close contacts of HIB treated with ciprofloxacin |
+| Immunisation | Children (HIB, S. pneumoniae, N. meningitidis), adults  (N. meningitides, S. pneumoniae) |
+| Complications | Acute: SIADH, shock, DIC, ↑ ICP, brain abscess, spread of infection (osteomyelitis, septic arthritis)Chronic: seizures, ↓hearing, cognitive delay (learning difficulties), neuro deficits, hydrocephalusMortality: pneumococcus &gt; meningococcus &gt; HiB |
+
+
+---
+
+
+### Neurology (ANU) — encephalitis — Demyelinating, Inflammatory and Infectious CNS Disease
+
+| Definition | Inflammation of the brain parenchyma |
+| --- | --- |
+| Epidemiology | Bimodal age distribution: &lt;20 or &gt; 50 years old |
+| Aetiology | Most commonly unidentifiedInfective (↓%): viral (enterovirus, herpes is most common), bacterial (lyme disease borrelia burgdoferi, mycoplasma, Tb, syphilis), fungal (Cryptococcus, candida), parasitic (toxoplasma)Non-infective: CT disorders, vasculitis, drugs (NSAIDS, ABx, antivirals), metabolic, neoplasms |
+| Differentials | Meningitis, encephalopathy |
+| Risk Factors | Immunodeficiency (prone to CMV encephalitis), location &amp; season, occupation (e.g. abattoir- Q fever) |
+| Pathophysiology | In viral, virus replicates in local/regional tissue (GIT, skin, urogenital, respiratory) 🡪 neuronal involvement. CNS dissemination occurs by haematogenous routes or retrograde axonal transport |
+| Presentation | General: fever, rash, malaise, N/V, recent infection elsewhere (respiratory, GIT, skin)Parenchymal involvement: Altered mental state (withdrawal, apathy, personality, hallucinations), seizures, cerebral function abnormal in encephalitis (normal in meningitis), focal neuro (hemiparesis, CN palsies, aphasias, apraxias etc.)Meningeal involvement: headache, nuchal rigidity |
+| Investigation | Vitals (febrile) and examination (focal neuro deficits)Bloods- FBC (↑WCC- lymphocytes in viral, neutrophils in bacterial), ↑CRP, EUC, serum PCR (viral)Throat swab, urine MCS, swabbing sites of infectionLumbar puncture: opening pressure (ICP), cell count, glucose, protein, microscopy, stain, PCRCT head, MRI: for HSV encephalitis (medial temporal lobe necrosis), EEG shows early focal slowing and periodic discharges  EEG: seizure activity Brain tissue biopsy guided via imaging if diagnosis is unclear |
+| Management | Supportive: fluid (maintain BP, ↓cerebral perfusion), bed rest, ↑ head of bed, monitor vitalsTreat: IV antibiotics if bacterial, IV acyclovir (10 mg/kg/8h IV over 1h) until HSV encephalitis is ruled outVaccinations after recovery |
+| Complications | HSV encephalitis 🏳 has a high mortality rateComplications: stroke, seizures, memory loss, hypothalamic/autonomic dysfunction |
+
+CNS TUMOURs
+
+![](notes/images/neurology-anu/img022.jpg)

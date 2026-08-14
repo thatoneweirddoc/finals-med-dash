@@ -1,8 +1,8 @@
 ---
 title: "MSK & Rheumatology Pharmacology & Prescribing"
 system: "MSK & Rheumatology"
-sources: [MSK & Rheumatology Notes]
-tags: [Rheumatology, RA, NSAID, MSK]
+sources: [MSK & Rheumatology Notes, Rheumatology & Immunology (ANU) — fibromyalgia]
+tags: [Rheumatology, RA, MSK, NSAID]
 updated: "2026-08-14"
 ---
 
@@ -94,3 +94,18 @@ updated: "2026-08-14"
 
 ##### Sources
 Kumar & Clark; Robbins; StatPearls (osteoporosis, osteomalacia, Paget's, AVN); NICE/NOGG osteoporosis guidance (DEXA T-score thresholds, FRAX, bisphosphonate first-line) — WHO T-score ≤ −2.5 cross-checked with the endocrine build; BNF (NSAID/steroid/DMARD/bisphosphonate cautions, methotrexate–trimethoprim and azathioprine–allopurinol interactions, TPMT). Drug sequencing anchored to the **2020 ACR gout** (start-low allopurinol, target <6 mg/dL [<0.36 mmol/L], HLA-B*5801), **2021 ACR RA** (methotrexate anchor; JAK-inhibitor MACE/VTE/malignancy warning) and **2022 ASAS-EULAR axSpA** guidance. Denosumab rebound-fracture warning and bisphosphonate ONJ/atypical-fracture cautions confirmed in ≥2 sources. Isolated raised ALP with normal calcium/phosphate as the Paget's signature verified in Kumar & Clark and StatPearls.
+
+
+---
+
+
+### Rheumatology & Immunology (ANU) — fibromyalgia — MSK & Rheumatology Pharmacology & Prescribing
+
+| Definition | Neurosensory disorder characterised by chronic (&gt; 3 months), widespread, non-articular pain with characteristic tender points |
+| --- | --- |
+| Epidemiology | F&gt;M, age range 20-50 years |
+| Aetiology | Incompletely understood but likely multifactorial (genetic, environmental e.g. stress, dysregulation of neuroendocrine and ANS) |
+| Presentation | Chronic, widespread pain, primarily where muscles and tendons attach to bones (tender points)Headache, fatigue, morning stiffness, unrefreshing sleepCognitive dysfunction (“fibro fog”)ParaesthesiaANS dysfunction: digestion, weight fluctuations, palpitations, sexual dysfunction, night swefts |
+| Differentials | Chronic fatigue syndrome, IBS, psychiatric disorders, sleep disorders, inflammatory rheumatic disease (SLE, RA) |
+| Investigations | Fibromyalgia is a clinical diagnosis THE 1990 AMERICAN COLLEGE OF RHEUMATOLOGY (ACR) FIBROMYALGIA DIAGNOSTIC CRITERIATender points: ≥ 11 of 18 fibromyalgia-associated localized areas of painPain-affected areas: all four regions of the body (left and right halves of the body, as well as both the upper and lower parts) and the axial skeletonDuration: ≥ 3 monthsTHE 2010 ACR PRELIMINARY DIAGNOSTIC CRITERIAIntensity and extent of widespread painSeverity of cognitive and somatic symptoms Without tender point examination Laboratory values and imaging are normal (helpful for excluding other causes) |
+| Management | GENERAL: dietary recommendations, sleep hygiene, regular exercise, stress reductionNON-PHARMACOLOGICAL: PT, CBTPHARMACOLOGICAL: low-dose TCA e.g. amitriptyline, SSNRIs e.g. duloxetine, milnacipran, anti-convulsant e.g. pregabalin, gabapentin, avoid narcotics Consider comorbidities in treatment planning e.g. sleep disorders |

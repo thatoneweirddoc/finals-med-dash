@@ -1,7 +1,7 @@
 ---
 title: "Reproductive, Metabolic & Multi-Gland Endocrinology"
 system: "Endocrine"
-sources: [Endocrine Master Notes]
+sources: [Endocrine Master Notes, Endocrinology (ANU) — Thyroglossaal cyst, Endocrinology (ANU) — metabolic syndrome, Endocrinology (ANU) — tumours of pancreas]
 tags: [Reproductive, MEN, PCOS, RET]
 updated: "2026-08-14"
 ---
@@ -86,3 +86,41 @@ Cessation of ovarian function → oestrogen deficiency: vasomotor symptoms, urog
 Endocrine Society/relevant guidelines (PCOS Rotterdam criteria, MEN, neuroendocrine tumours); NICE CKS (amenorrhoea, menopause, obesity); Merck Manual Professional; BNF (drug causes of gynaecomastia). Incretin obesity pharmacotherapy flagged ⚑ and cross-checked against current NICE/guideline positions.
 
 ---
+
+
+---
+
+
+### Endocrinology (ANU) — tumours of pancreas — Reproductive, Metabolic & Multi-Gland Endocrinology
+
+| GLUCAGONOMA | Tumour of pancreatic α cells → overproduction of glucagonPresentation: dermatitis (necrolytic migratory erythema), diabetes (hyperglycaemia), DVT, declining weight, depressionTreatment: octreotide, surgery |
+| --- | --- |
+| INSULINOMA | Tumour of pancreatic β cells → overproduction of insulin → hypoglycaemiaPresentation: Whipple’s triad, ↑ C-peptide levels∼ 10% of cases associated with MEN 1 syndromeTreatment: surgical resection |
+| SOMATOSTATINOMA | Tumour of pancreatic δ cells → overproduction of somatostatin → ↓ secretion of secretin,cholecystokinin, glucagon, insulin, gastrin, gastric inhibitory peptide (GIP)Presentation: diabetes/glucose intolerance, steatorrhea, gallstones, achlorhydriaTreatment: surgical resection, somatostatin analogs (e.g., octreotide) for symptom control |
+
+
+---
+
+
+### Endocrinology (ANU) — metabolic syndrome — Reproductive, Metabolic & Multi-Gland Endocrinology
+
+| DEFINITION | Also known as insulin resistance syndrome or Syndrome XSeveral risk factors that increase the risk of cardiovascular disease, type 2 diabetes, and fatty liverPresence of ≥ 3 of the following conditions (or already receiving medical treatment for them) Insulin resistance: fasting glucose ≥ 100 mg/dLElevated blood pressure: ≥ 130/85 mm HgElevated triglycerides: ≥ 150 mg/dL Low HDL-C: in men &lt; 40 mg/dL; in women &lt; 50 mg/dLAbdominal obesity: waist circumference ≥ 102 cm in men; ≥ 88 cm in women |
+| --- | --- |
+| MANAGEMENT | First-line: lifestyle modificationsDietary changes: calorie restriction, healthy foods (e.g., fruit/vegetables, protein-rich, unsaturated fats, sodium-restricted)Physical activity: minimum of 30 minutes moderate exercise per day (2.5 hours per week) , which increases insulin sensitivity, lowers blood pressure, and promotes weight lossMedical therapy: treat hypertension, diabetes mellitus, and dyslipidaemiaBariatric surgery: if BMI ≥ 40 and no success with dietary and lifestyle changes Sleeve gastrectomy: large part of the greater curvature is removed, so that the remaining stomach resembles a sleeveRoux-en-Y gastric bypass |
+
+thyroid disorders
+
+
+---
+
+
+### Endocrinology (ANU) — Thyroglossaal cyst — Reproductive, Metabolic & Multi-Gland Endocrinology
+
+| DEFINITION | A fibrous cyst that is a remnant of the thyroglossal duct that forms during the embryonic development of the thyroid gland |
+| --- | --- |
+| EPIDEMIOLOGY | Most common midline neck mass in childrenMost common before the age of 20 |
+| PATHOGENESIS | The thyroid gland originates from the foramen cecum at the base of the tongue and descends caudally into the neck, creating the thyroglossal duct. If the duct fails to obliterate, midline neck cysts or ectopic thyroid tissue can develop anywhere along the path of the thyroglossal duct. These cysts can be filled with fluid or mucous, and may enlarge if they become infected. Most lesions are infrahyoid |
+| PRESENTATION | Painless, firm midline mass that is usually near the hyoid bone (can be painful if infected)Lump: feels smooth, moves up with protrusion of tongueDyspnoeaDysphagiaDyspepsia |
+| INVESTIGATIONS | Neck and thyroid examinationUltrasound: evaluate cyst and confirm location of thyroidScreen TSH levels: may contain ectopic thyroid tissue which produce hormonesFine needle biopsy: If an infection is suspected, for Gram stain and culture (including AFB and mycobacterial culture) |
+| COMPLICATIONS | Infection of the cyst and abscess formation, sinus tract extension to the skin, possible ectopic thyroid tissue, possible malignancy arising from ectopic thyroid tissue |
+| MANAGEMENT | Sistrunk operation: cystectomy and excision of central hyoid bone to minimise recurrenceTotal thyroidectomy is controversial, but is advised in older patients with large tumours |

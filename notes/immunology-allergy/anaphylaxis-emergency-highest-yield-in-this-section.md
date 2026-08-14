@@ -1,8 +1,8 @@
 ---
 title: "Anaphylaxis ⚑ (emergency — highest yield in this section)"
 system: "Immunology & Allergy"
-sources: [Immunology & Allergy Master Notes]
-tags: [Anaphylaxis, IM, IV, UK]
+sources: [Immunology & Allergy Master Notes, Rheumatology & Immunology (ANU) — Anaphylaxis]
+tags: [Anaphylaxis, IV, IM, GI]
 updated: "2026-08-14"
 ---
 
@@ -59,3 +59,17 @@ updated: "2026-08-14"
 **Follow-up (the marks people drop):** **serum mast cell tryptase** — ideally as soon as feasible after treatment, a second sample 1–2 hours later, and a **baseline sample ≥24 hours** after resolution; adrenaline auto-injector prescription with training; written emergency plan; referral to a specialist allergy clinic; document the trigger clearly in the notes and allergy record.
 
 ---
+
+
+---
+
+
+### Rheumatology & Immunology (ANU) — Anaphylaxis — Anaphylaxis ⚑ (emergency — highest yield in this section)
+
+| Definition | Life-threatening type I hypersensitivity reaction which can lead to distributive shock (circulatory failure) |
+| --- | --- |
+| Aetiology | Exaggerated immune-mediated hypersensitivity reaction that leads to systemic vasoactive mediator release (histamine, leukotrienes, prostaglandins and smooth muscle reactive chemicals) → increased vascular permeability, and vasodilationAllergic (foods e.g. nuts/shellfish, stings, drugs e.g. penicillin/NSAIDs/ACE-I)Non-allergic (exercise-induced) |
+| Presentation | Skin or mucous membranes: flushing, urticaria, pruritus, erythema, swelling of the eyelids, or angioedemaRespiratory: nasal congestion, cough, sneezing, hoarseness, chest tightness, stridordyspnoea (bronchospasm, laryngeal oedema)Cardiovascular: hypotension, tachycardia, chest pain (myocardial ischemia due to hypoxia and hypotension)GI: abdominal pain, nausea, and vomiting (especially in food allergies) |
+| Criteria for Diagnosis | Acute onset (within 1 hour of exposure) with involvement of the skin, mucosal tissue and at least one of the following: 1) respiratory compromise or 2) hypotension/end-organ dysfunctionLikely exposure to an allergenReduced blood pressure after exposure to a KNOWN allergen |
+| Differentials | Septic shock, asthma, angioedema |
+| Management | Withdrawal of offending agent if applicable (e.g., in drug reactions)Airway: examination of airway and intubation if obstruction seems imminent (+ “B” and “C”)IM adrenaline (1:1000) 0.3 – 0.5 mg in lateral thighPaediatric dose of adrenaline: 0.01 mg/kg IM up to 0.5mg q5-15minPositioning: The patient should be placed in a recumbent/supine position with elevation of the lower extremitiesO2 by facemaskIf patient is hypotensive: volume replacement with crystalloid (normal saline 1–2 L IV rapid bolus)Bronchospasm and no benefit of adrenaline: nebulized salbutamolAntihistamines (competitive inhibition of histamine at receptor, reducing histamine-mediated effects and symptoms e.g., increased vascular permeability, vasodilation, swelling, pruritus)H1 antihistamine (e.g., diphenhydramine) IV for urticariaH2 antihistamine (e.g., ranitidine) IVHydrocortisone 100mg IV/methylprednisolone 1mg/kg IV x 24 hoursContinuous monitoring of blood pressure, heart rate, heart function, and pulse oximetry; urine output should also be monitored in hypotensive patients receiving resuscitation.Monitor for 4-6 hours in ED minimum and arrange follow up within 24-48 hours (educate about potential second biphasic reaction and avoidance of allergens) |

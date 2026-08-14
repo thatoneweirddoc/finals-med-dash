@@ -1,8 +1,8 @@
 ---
 title: "Physiology, Cancer Biology & Anatomy"
 system: "Haematology & Oncology"
-sources: [Haematology & Oncology Notes]
-tags: [Physiology, VII, PT, INR]
+sources: [Haematology & Oncology Notes, Haematology (ANU) — chronic myeloid leukemia, Oncology (ANU) — chronic myeloid leukemia, Oncology (ANU) — renal cell carcinoma]
+tags: [Physiology, BCR, ABL, VII]
 updated: "2026-08-14"
 ---
 
@@ -190,3 +190,50 @@ The thymus (anterior mediastinum) involutes after puberty. **Thymic pathology is
 
 ##### Sources
 Hoffbrand's Essential Haematology (haematopoiesis, haemostasis, red-cell physiology); Guyton & Hall (O₂ dissociation curve, coagulation); Robbins & Cotran Pathologic Basis of Disease (hallmarks of cancer, oncogenes/tumour-suppressors, metastasis, Knudson two-hit); StatPearls (splenic function, hyposplenism, marrow anatomy). No threshold disagreements at this foundational level.
+
+
+---
+
+
+### Haematology (ANU) — chronic myeloid leukemia — Physiology, Cancer Biology & Anatomy
+
+| Definition | Myeloproliferative neoplasm that involves excessive proliferation of the myeloid lineage (especially granulocytes)Caused by a cytogenetic aberration (Philadelphia chromosome 22) causing BCR-ABL translocation |
+| --- | --- |
+| Epidemiology | M&gt;F, peak incidence 50-60 years (middle age to elderly) |
+| Aetiology | Idiopathic (most cases), ionising radiation, hydrocarbons (benzene)Philadelphia chromosome found in &gt; 90% |
+| Pathophysiology | Reciprocal translocation between chromosome 9 and 22 → formation of the Philadelphia chromosome t(9;22) → fusion of ABL and BCR genes on chromosome 22 → BCR-ABL gene → active tyrosine kinase with increased enzyme activity →uncontrolled granulocyte proliferation |
+| Presentation | CHRONIC PHASE: 85% DIAGNOSED HEREPeripheral film: &lt;10% blasts ± slightly ↑ eosinophils/basophilsSymptoms: nil significant, constitutionalACCELERATED PHASECirculating blasts (10-19%) with increasing peripheral basophils (pruritus)Symptoms:AnaemiaThrombocytopaenia (petechial bleeding)Neutropenia (infection and fever)Pleocytosis (splenic/myocardial infarctions, retinal vessel occlusion, priapism, myelofibrosis in terminal phase)SplenomegalyBLAST CRISISMore aggressive course, blasts fail to differentiateBlasts (&gt;20%) in peripheral blood or bone marrowReflective of acute leukemia (1/3 ALL, 2/3 AML) |
+| Investigation | FBC: extreme leucocytosis, basophilia, eosinophilia, ↓/normal RBC, ↑/↓ plateletsCML causes the most severe leukocytosis (&gt;500,000/μl) of all forms of leukemia! Increasing Basophilia is a sign of acceleration!Blood film: extreme leukocytosis with mid-stage progenitor cellsCytochemistry: ↓leukocyte alkaline phosphatase (LAP) → distinguished featureCytogenetics: confirmation of BCR-ABL (Philadelphia chromosome) fusion geneBone marrow: myeloid hyperplasia with left shift, ↑ megakaryocytes, mild fibrosis |
+| Treatment | Symptomatic: allopurinol, antihistaminesTargeted therapy: first-line for chronic and accelerated phaseTyrosine kinase inhibitors: imatinib which selectively inhibit the enzyme tyrosine kinase → inhibits proliferation and induces apoptosis of cells with the BCR-ABL mutationLifelong treatmentAllogeneic stem cell transplantation: if targeted therapy is not successful or in young patients without any major comorbidities (the only curative option)Cell count normalization: supportive therapy if targeted therapy fails through hydroxyurea Blast phase: acute leukemia treatment |
+| Prognosis | SURVIVAL DEPENDENT ON RESPONSEComplete cytogenetic response on imatinib by 18 months of therapy: 6 year overall survival &gt;90%Those who do NOT achieve complete cytogenetic response on imatinib: 6 year overall survival of 66%ACUTE PHASE (BLAST CRISIS – USUALLY WITHIN 3-5 YEAR)2/3 develop a picture similar to AML: unresponsive to remission induction1/3 develop a picture similar to ALL: remission induction (return to chronic phase) achievable |
+
+
+---
+
+
+### Oncology (ANU) — chronic myeloid leukemia — Physiology, Cancer Biology & Anatomy
+
+| DEFINITION | Myeloproliferative neoplasm that involves excessive proliferation of the myeloid lineage (especially granulocytes)Caused by a cytogenetic aberration (Philadelphia chromosome 22) causing BCR-ABL translocation |
+| --- | --- |
+| EPIDEMIOLOGY | M&gt;F, peak incidence 50-60 years (middle age to elderly) |
+| AETIOLOGY | Idiopathic (most cases), ionising radiation, hydrocarbons (benzene)Philadelphia chromosome found in &gt; 90% |
+| PATHOPHYSIOLOGY | Reciprocal translocation between chromosome 9 and 22 → formation of the Philadelphia chromosome t(9;22) → fusion of ABL and BCR genes on chromosome 22 → BCR-ABL gene → active tyrosine kinase with increased enzyme activity →uncontrolled granulocyte proliferation |
+| PRESENTATION | CHRONIC PHASE: 85% DIAGNOSED HEREPeripheral film: &lt;10% blasts ± slightly ↑ eosinophils/basophilsSymptoms: nil significant, constitutionalACCELERATED PHASECirculating blasts (10-19%) with increasing peripheral basophils (pruritus)Symptoms:AnaemiaThrombocytopaenia (petechial bleeding)Neutropenia (infection and fever)Pleocytosis (splenic/myocardial infarctions, retinal vessel occlusion, priapism, myelofibrosis in terminal phase)SplenomegalyBLAST CRISISMore aggressive course, blasts fail to differentiateBlasts (&gt;20%) in peripheral blood or bone marrowReflective of acute leukemia (1/3 ALL, 2/3 AML) |
+| INVESTIGATION | FBC: extreme leucocytosis, basophilia, eosinophilia, ↓/normal RBC, ↑/↓ plateletsCML causes the most severe leukocytosis (&gt;500,000/μl) of all forms of leukemia! Increasing Basophilia is a sign of acceleration!Blood film: extreme leukocytosis with mid-stage progenitor cellsCytochemistry: ↓leukocyte alkaline phosphatase (LAP) → distinguished featureCytogenetics: confirmation of BCR-ABL (Philadelphia chromosome) fusion geneBone marrow: myeloid hyperplasia with left shift, ↑ megakaryocytes, mild fibrosis |
+| TREATMENT | Symptomatic: allopurinol, antihistaminesTargeted therapy: first-line for chronic and accelerated phaseTyrosine kinase inhibitors: imatinib which selectively inhibit the enzyme tyrosine kinase → inhibits proliferation and induces apoptosis of cells with the BCR-ABL mutationLifelong treatmentAllogeneic stem cell transplantation: if targeted therapy is not successful or in young patients without any major comorbidities (the only curative option)Cell count normalization: supportive therapy if targeted therapy fails through hydroxyurea Blast phase: acute leukemia treatment |
+| PROGNOSIS | SURVIVAL DEPENDENT ON RESPONSEComplete cytogenetic response on imatinib by 18 months of therapy: 6 year overall survival &gt;90%Those who do NOT achieve complete cytogenetic response on imatinib: 6 year overall survival of 66%ACUTE PHASE (BLAST CRISIS – USUALLY WITHIN 3-5 YEAR)2/3 develop a picture similar to AML: unresponsive to remission induction1/3 develop a picture similar to ALL: remission induction (return to chronic phase) achievable |
+
+
+---
+
+
+### Oncology (ANU) — renal cell carcinoma — Physiology, Cancer Biology & Anatomy
+
+- Malignant: RCC, transitional cell carcinoma, sarcoma
+- Benign: adenoma, angiomyolipoma, oncocytoma, hyperdense cysts
+
+| RENAL CELL CARCINOMA | Epidemiology: 85% of renal cancers, M&gt;F, 60-80 years oldRisk Factors: Smoking, pre-existic conditions (cystic kidney disease, renal pelvic stones, obesity, HTN, immunodeficiency, Hep C, sickle cell disease), toxinsHereditary (usually younger age): Von-Hippel-Lindau syndrome (RCC: 3 letters: chrom. 3), tuberous sclerosis Pathophysiology: adenocarcinomas from PCT epithelium (~80% are histologically clear cell RCCs)Histology: highly vascular; polygonal clear cells (lipids-gold colour- and carbohydrates)Presentation: Renal/Oncology: haematuria, palpable flank mass, 2° polycythaemia, colicky flank pain, constitutional Sx, HTN (renin secretion), ↓EPO (anaemia, pallor, lethargy)Triad: haematuria, flank pain, palpable flank mass (5-10% present with this)Paraneoplastic (ectopic EPO, ACTH, PTHrP, renin): HTN, ↑Ca2+, polycythemia, secondary hypercortisolism, Stauffer’s syndrome (non-metastatic ↑ LFT and clotting abnormalities), limbic encephalitis (memory loss, psychosis, depression)Local spread: varicocele, Budd-Chiari (lower limb oedema, ascites, hepatic dysfunction)Symptoms of metastasis: lung, boneSpread:Lymph nodes of renal hilum 🡪 para-aortic nodesGrowth into the renal vein and IVC 🡪 hematogenously to lung and boneDiagnostics:Abdominal CT with contrast: thickened irregular walls, variable enhancement, calcificationRenal U/S: renal lesion(s) with variable echogenicityMetastatic disease: bone scan, thoracic CT/MRI (cannonball metastases)Bloods and urinalysis: ↓Hb, ↑Ca2+, ↑AST/ALT/ALP, BUN/Cr, hematuriaRenal biopsy not generally recommendedTreatment: Stage I: ablation, partial nephrectomyStage II-IV: radical nephrectomyImmunotherapy and/or targeted therapy (for metastatic disease, rarely curative)Interferon-a (immunotherapy)Recombinant cytokines (interleukin-2)Tyrosine kinase inhibitors (metastatic disease)Resistant to chemotherapy and radiation therapy |
+| --- | --- |
+| TRANSITIONAL CELL CARCINOMA | Transitional epitheliumMost common tumour of urinary tract system (renal calyces, renal pelvis, ureters, bladder) Risk factors (mnemonic: PSAC): phenacetin, smoking, aniline dyes, cyclophosphamidePresentation: Bladder: painless haematuria (no casts), pain (clot retention, nerve invasion)Kidney/ureter: haematuria, flank painInvestigations: cytological exam of urine (malignant cells), U/S/CT/MRITreatment: Renal Pelvis/ureter: Nephro-ureterectomy; radiation/chemo has little valueBladder: transurethral resection (small) or cystectomy (invading into muscular layers) |
+| RENAL ONCOCYTOMA | Benign epithelial cell tumour arising from collecting ducts Histology: large eosinophilic cells with abundant mitochondria without perinuclear clearing (vs chromophobe renal cell carcinoma)Characteristics: not confined to kidney 🡪 can develop in thyroid, pancreas or pituitary glandPresentation: painless haematuria, flank pain, abdominal masTreatment: surveillance, nephrectomy (if ↑ in size), often resected to exclude RCC |
+| NEPHROBLASTOMA (WILMS TUMOUR) | Epidemiology: early childhood (ages 2–4)Pathophysiology: mutations of tumour suppressor genes WT1/2 on chromosome 11. May be a part of several syndromes (WAGR complex, Denys-Drash, Beckwith-Wiedemann)Characteristics: embryonic glomerular structuresPresentation: large, palpable, unilateral flank mass, haematuria |

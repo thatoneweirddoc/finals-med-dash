@@ -1,8 +1,8 @@
 ---
 title: "Neurological Emergencies and Disorders of Consciousness"
 system: "Neurology"
-sources: [Neurology Master Notes]
-tags: [Neurological, ICP, CRASH, FVC]
+sources: [Neurology (ANU) — brainstem, Neurology (ANU) — increased icp 🏳, Neurology (ANU) — lambert-eaton syndrome, Neurology Master Notes]
+tags: [Neurological, ICP, CT, CRASH]
 updated: "2026-08-14"
 ---
 
@@ -218,3 +218,57 @@ In the UK, testing is performed by two suitably experienced doctors (one a consu
 Brain Trauma Foundation Guidelines (4th ed) — ICP >22 mmHg, CPP 60–70 mmHg. NICE **NG232** head injury — CT indications and timings, anticoagulation rule. **CRASH** and **CRASH-3** — steroid harm, tranexamic acid benefit. ILAE operational definition of status epilepticus (t₁ = 5 min, t₂ = 30 min) and the **ESETT** trial — equivalence of levetiracetam, valproate and fosphenytoin. NICE **NG234** spinal metastases and metastatic spinal cord compression — dexamethasone 16 mg, whole-spine MRI within 24 hours. Academy of Medical Royal Colleges *A Code of Practice for the Diagnosis and Confirmation of Death* — brainstem testing and apnoea threshold. Merck Manual Professional and StatPearls — herniation syndromes, coma assessment, NMS vs serotonin syndrome, neuromuscular respiratory failure thresholds. The 20/30/40 respiratory thresholds are quoted consistently in Neurocritical Care Society and GBS/myasthenia reviews; the FVC <15 mL/kg intubation figure is confirmed in ≥2 independent sources.
 
 ---
+
+
+---
+
+
+### Neurology (ANU) — brainstem — Neurological Emergencies and Disorders of Consciousness
+
+- CN 1-4= midbrain, 5-8=pons, 9-12= medulla
+- Median CN nuclei= 3, 4, 6, 12
+- Lateral CN nuclei= 1, 5, 7, 8, 9, 10, 11
+- Lateral brainstem (4S)- sympathetic plexus, spinothalamic, spinocerebellar, sensory nuclei of the CNV
+- Median brainstem (4M)- motor nuclei of CN 3, 4, 6, 12, motor tract (corticospinal), medical lemniscus (dorsal column in brain stem), and median longitudinal fasiculus (connects CN3 and CN6, commonly affected in MS)
+
+![](notes/images/neurology-anu/img005.jpg)
+
+spinal cord
+
+
+---
+
+
+### Neurology (ANU) — increased icp 🏳 — Neurological Emergencies and Disorders of Consciousness
+
+| Epidemiology | Any age, any location |
+| --- | --- |
+| Aetiology | Normal ICP &lt; 15 mmHGMass (primary/metastatic tumour, cyst), head injury, haemorrhage, infection (meningitis, encephalitis, abscess), hydrocephalus, cerebral oedema (vasogenic, cytotoxic, interstitial, osmotic in acute ↓Na+ and hepatic encephalopathy), status epilepticus |
+| Presentation | Acute ↑ICP | Chronic ↑ICP |
+| Cushing’s Triad: HTN, bradycardia (late), irregular Cheyne-Stokes respiratory pattern; in 1/3 casesHeadache (worse in morning, bending, coughing, Valsalva, recumbence)N/V +++Altered GCS +++Hx of TraumaPupil changes + Extra-occular movements:Constriction 🡪 dilation↓ Visual acuity (peripheral visual field loss)Optic disc (subtle changes of papilloedema)Extra-occular movements: CN VI Palsy Herniation syndromeFocal neurological deficits | Headache (same aggravating features)N/V +Altered GCS +Pupil Changes + EOMPapilloedemaVisual changes (optic atrophy/blindness)Often full EOMHerniation Syndrome if acute on chronic presentationFocal neurological deficits |
+
+**Diagnosis**
+
+- Bloods- FBC&lt; EUC, BSL, serum osmolality, coags, blood culture, toxicology screen
+- Urgent CT/MRI
+- LP if safe- measure opening pressure!!
+- Serial ICP where appropriate
+
+**Treatment**
+
+**Mnemonic ICP Headd- I**ntubate**, C**alm (sedate)**, P**lace drain**, H**yperventilate to achieve normocarbia**, E**levate head**, A**dequate BP**, D**iuretic (mannitol), **D**ecompression (consult neurosurgery** **for focal causes e.g. haematomas, for craniotomy/burr hole)
+
+
+---
+
+
+### Neurology (ANU) — lambert-eaton syndrome — Neurological Emergencies and Disorders of Consciousness
+
+| Definition | Autoimmune disorder of NMJ, against voltage-gated Ca2+ channels |
+| --- | --- |
+| Epidemiology | Usually begins in later life, rarely occurs in children |
+| Aetiology | Can be paraneoplastic (50% are associated with malignancies, particularly SCLC)Antibodies to voltage-gated Ca2+ channels on pre-synaptic membrane |
+| Presentation | Gait difficulty before eye signsAutonomic involvement (dry mouth, constipation, impotence)Hyporeflexia and weakness (improved after exercise)Diplopia and respiratory muscle involvement are rare |
+|  | EMG: repetitive stimulation 🡪 incremental responseANTI-P/Q VOLTAGE-GATED CALCIUM-CHANNEL SEROLOGYCHEST CT SCAN: SCLC |
+| Treatment | ACH MODULATION: ↑ ACh release (3,4-diaminopyridine), ↓ ACh degradation (pyridostigmine)IMMUNOMODULATION: prednisone, plasmapheresis, IVIg |
+| Complications | Aspiration pneumonia, respiratory failure, SCLC |

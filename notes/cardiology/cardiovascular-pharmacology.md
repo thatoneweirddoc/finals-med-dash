@@ -1,8 +1,8 @@
 ---
 title: "Cardiovascular Pharmacology"
 system: "Cardiology"
-sources: [Cardiology Notes]
-tags: [Cardiovascular, HF, ACS, II]
+sources: [Cardiology Notes, Cardiovascular (ANU) — Anti-arrhythmics]
+tags: [Cardiovascular, II, HF, ACS]
 updated: "2026-08-14"
 ---
 
@@ -108,3 +108,20 @@ updated: "2026-08-14"
 ---
 
 *End of Installment 5. Next: **Installment 6 — Section 12 (Exam Preparation & Applied Skills: data interpretation, OSCE, emergencies)**.*
+
+
+---
+
+
+### Cardiovascular (ANU) — Anti-arrhythmics — Cardiovascular Pharmacology
+
+| Class I- Na+ Channel Blockers | Ia | “Double Quarter Pounder” = Disopyramide, Quinidine, ProcainamideMedium blockage |
+| --- | --- | --- |
+| Ib | Lidocaine, MexiletineFast blockage |
+| Ic | “More Fries Please” =Moricizine, Flecainide, PropafenoneSlow blockage |
+| Class II- B-Blockers | Metoprolol, propranolol, esmolol, atenolol, timolol, carvedilol |
+| Class III- K+ Channel Blockers | SAID: Sotalol (Class II/III), Amiodarone, Ibutilide, Dofetilide |
+| Class IV- CCBs | Cardio-selective: verapamil, diltiazem |
+| Adenosine | ↑K+ out of cells 🡪 hyperpolarising cell 🡪 ↓ICa 🡪 ↓AV node conduction |
+| Mg2+ | In torsades de pointes and digoxin toxicity |
+| Ivabradine | Selective inhibition of funny Na+ channels, prolonging depolarisationIn chronic stable angina where B-blockers contra-indicated |

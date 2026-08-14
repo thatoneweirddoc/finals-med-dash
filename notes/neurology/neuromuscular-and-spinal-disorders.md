@@ -1,8 +1,8 @@
 ---
 title: "Neuromuscular and Spinal Disorders"
 system: "Neurology"
-sources: [Neurology Master Notes]
-tags: [Neuromuscular, GBS, MRI, CIDP]
+sources: [Neurology (ANU) — DUCHENNE MUSCULAR DYSTROPHY, Neurology (ANU) — PERIPHERAL NEUROPATHIES, Neurology (ANU) — botulism, Neurology (ANU) — bulbar palsy, Neurology (ANU) — guillain-barre syndrome- demyelinating neuropathy, Neurology (ANU) — vertigo, Neurology Master Notes]
+tags: [Neuromuscular, GBS, HIV, CIDP]
 updated: "2026-08-14"
 ---
 
@@ -255,3 +255,179 @@ Preformed toxin (canned/home-preserved food), wound botulism (injecting drug use
 EFNS/PNS and ABN guidance on **GBS** and **CIDP** — IVIg versus plasma exchange equivalence, lack of steroid benefit in GBS, the >8-week criterion for CIDP. **International consensus guidance for management of myasthenia gravis** (Sanders et al. 2016; 2020 update) and the **MGTX** thymectomy trial — thymectomy indications, treatment sequencing, and the newer complement and FcRn agents ⚑. NICE **NG59** (low back pain and sciatica) — imaging restraint and against gabapentinoids for sciatica. Preston & Shapiro — neurophysiological patterns (decrement vs increment, axonal vs demyelinating). Merck Manual Professional and StatPearls — entrapment neuropathies, myopathy classification, Bell's palsy steroid evidence, HINTS examination. The HINTS examination's superiority to early MRI in acute vestibular syndrome is from Kattah et al. (*Stroke*, 2009) and is confirmed in current emergency-medicine and neurology reviews ⚑. Bell's palsy steroid benefit and the 72-hour window are consistent between the Cochrane review and NICE CKS.
 
 ---
+
+
+---
+
+
+### Neurology (ANU) — botulism — Neuromuscular and Spinal Disorders
+
+| Aetiology | Neuroparalytic infection from neurotoxin from anaerobic, spore-forming Clostridium botulinumEnters via wounds/ingestion (honey, corn syrup)Toxin blocks Ach release at NMJ 🡪 flaccid paralysis |
+| --- | --- |
+| Presentation | Afebrile, descending, flaccid paralysis: diplopia, ptosis, dysarthria, dysphagia, progressive paralysis of limbs, respiratory failureAutonomic: dry mouth, fixed/dilated pupils, urinary/cardiac/GI dysfunctionNo sensory signs |
+| Diagnosis | Clinical (don’t delay treatment); samples (later confirmation by culture/PCR) |
+| Treatment | Admit to ICU, botulinum antitoxin, benzylpennicilin, metronidazole |
+
+
+---
+
+
+### Neurology (ANU) — PERIPHERAL NEUROPATHIES — Neuromuscular and Spinal Disorders
+
+| Diagnostics approach | DIFFERENTIATE: motor, sensory, autonomic, mixedPATTERN OF DEFICIT: symmetry, focal vs diffuse, upper vs lower limb, CN involvementTEMPORAL PATTERN: acute/chronic, relapsing/remitting, constant/progressiveHISTORY: PMHx, FHx, exposures (toxins, sexual, travel, insects), systemicDETAILED NEURO EXAM: peripheral, CN, respiratory status |
+| --- | --- |
+| Classification | ![](notes/images/neurology-anu/img034.jpg) MONORADICULOPATHY: single nerve root e.g. disc herniationPOLYRADICULOPATHY: ↑dermatome deficits in multiple nerve root lesions e.g. cauda equinePLEXOPATHY: nerve plexus e.g. brachial, lumbosacralMONONEUROPATHY: single nerve deficit e.g. carpal tunnel (tinel’s/phalen’s positive, thenar muscle wasting, sensory deficit), Bell’s palsyMONONEUROPATHY MULTIPLEX: affecting multiple discrete nerves (asymmetric)POLYNEUROPATHY: symmetrical distal stocking-glove pattern e.g. in DM, renal disease, SLE |
+| Anatomy | Fibre Class | Modality | Function |
+| A | α | Efferent to muscles: motor |
+|  | β | Afferent from skin and joints; fine touch and proprioception |
+|  | γ | Efferent to muscle spindles: muscle tone |
+|  | δ | Afferent sensory nerves: pain, cold temperature, crude touch |
+| B | Autonomic | Autonomic: presynaptic autonomic nerves |
+| C | Autonomic + sensory | Postganglionic sympathetic: various autonomic functionsAfferent sensory nerves: pain, warm temperature, touch |
+
+**Differentials**
+
+- VASCULAR
+- INFECTIOUS: axonal/demyelination (HIV, Lyme), infilrative (Leprosy)
+- IMMUNE: GBS, CIDP (chronic inflammatory demyelinating polyneuropathy)
+- HEREDITARY: Charcot-Marie Tooth Disease
+- NEOPLASTIC: axonal/demyelination (paraneoplastic, myeloma, lymphoma)
+- TOXIN: EtOH, heavy metals (i.e. lead), medications
+- METABOLIC: DM, hypothyroidism, renal failure
+- NUTRITIONAL: ↓B12
+- OTHER: porphyria, amyloid
+
+| DISEASE | SENSORY | MOTOR | AUTONOMIC | FIBER SIZE | COMMON CLINICAL PRESENTATION |
+| --- | --- | --- | --- | --- | --- |
+| Diabetes | +++ | ± | ++ | S &gt; L | Burning starting in feet; ‘glove and stocking’ |
+| Alcohol | +++ | ± | ++ | S &gt; L | Burning in feetOften cerebellar, ocular or cognitive features |
+|  |  |  |  |  |
+| Critical illness | ++ |  | ++ | Mixed | Weakness, difficulty weaning from ventilator |
+| Vitamin B 12 | +++ | − | − | L &gt; S | Sensory ataxia, often dorsal column signs |
+| Uremia | +++ | ± | + | S &gt; L | Glove and stocking |
+| Malignancy | +++ | ++ | ± | Variable | Variable, may have other neurological features, may have cachexia and muscle weakness |
+| Liver failure | +++ | + | ± | S &gt; L | Glove and stocking |
+| Anti-MAG | ++ | ++ | − | Both | Slowly progressive glove and stocking |
+| MGUS | ++ | ++ | + | S &gt; L | Glove and stocking |
+| POEMS | ++ | ++ | + | Both | Progressive sensorimotor involvement with other features of myeloma |
+| Amyloidosis | ++ | ± | +++ | S &gt; L | Painful neuropathy with autonomic dysfunction |
+| Chemotherapy | +++ | + | ± | L&gt;S | Glove and stocking pattern—may be rapidly progressive with repeat exposure |
+| HIV | +++ | + | ± | Both | Progressive glove and stocking |
+| Hereditary (multiple) | Variable | Variable | Variable | Variable | Typically do not have dysesthesia or pain (may be present late) |
+
+**Dr McGarity’s List for Peripheral Neuropathy**
+
+- Genetic: Charcot-Marie Tooth
+- Autoimmune: GBS, CIDP
+- Toxins: EtOH, chemotherapy, heavy metal (Pb), fluoroquinolones, thalidomide, statins, HIV drugs
+- Environmental: hypoxia, prolonged hypothermia, trauma
+- Systemic: DM, amyloidosis, hypothyroid, ↓ vitamin B12, Lyme Disease, HIV
+
+**Investigations**
+
+- NEUROPHYSIOLOGY: assess presence and extent; only for large fibre function
+- BLOODS: FBC, EUCs, LFTs, fasting blood sugar, glucose tolerance test, serum and urine protein electrophoresis with immunofixation, B12, ESR, ANA/ANCA, HIV/syphillis
+
+**Treatment**
+
+- ANALGESIA: ↓ dose TCA (amitriptyline/gabapentin)
+- SECONDARY PREVENTION: regular podiatry review and foot care
+
+**Axonal vs demyelinating**
+
+![](notes/images/neurology-anu/img035.jpg)
+
+
+---
+
+
+### Neurology (ANU) — guillain-barre syndrome- demyelinating neuropathy — Neuromuscular and Spinal Disorders
+
+| Definition | Acute rapidly evolving demyelinating in inflammatory polyradiculoneuropathy that often starts in the distal lower limbs and ascends |
+| --- | --- |
+| Aetiology | Autoimmune, preceded by infection (URTI and gastroenteritis, most commonly C.jejuni, CMV, EBV) |
+| Variants | ACUTE INFLAMMATORY DEMYELINATING POLYNEUROPATHY (AIDP)Autoimmune disorder that destroys Schwann cells, impacting on nerve conductionProgressive, fairly symmetric muscle weakness and absent/depressed tendon reflexesLower extremities before upper extremities + proximal muscles before distal musclesACUTE MOTOR AXONAL NEUROPATHY (AMAN)Preceded by Campylobacter jejuni infectionOccurs frequently in Japan and China, particularly in young peopleSelective involvement of motor nervesACUTE MOTOR AND SENSORY AXONAL NEUROPATHY (AMSAN)Severe form with marked axonal degenerationAffects both motor and sensory fibresOTHERSMiller Fisher syndrome: ophthalmoplegia + ataxia + areflexiaBickerstaff encephalitis:  encephalopathy + hyperreflexia +/- Miller FisherPharyngeal-cervical-brachial weakness: weakness of oropharyngeal, neck and shoulder muscles with swallowing dysfunctionParaparesis |
+| Pathology | Many infectious agents induce antibody production that cross-react with specific antigens that are distributed throughout the myelin in the PNSLymphocytic infiltration of spinal roots and peripheral nerves followed by macrophage- mediated, multifocal stripping of myelin 🡪  defects in propagation of electrical nerve impulses, with eventual absence/delay in conduction 🡪 flaccid paralysis Recovery is typically associated with re-myelination |
+| Presentation | RANGE: very acute and symmetrical to exceedingly slow and asymmetricalCommonly follow an acute gastrointestinal or respiratory tract infectionASCENDING BILATERAL MOTOR WEAKNESS: ↓ reflexes, dyspnoea, dysarthria, dysphagia, facial + respiratory weaknessPERIPHERAL SENSORY IMPAIRMENT: paraesthesia in hands and feet, pain very common (&gt;50% of time; variable in site and extent) DYSAUTONOMIA: constipation, urinary retention, postural hypotension, tachycardia |
+| Investigations | Diagnosis predominantly clinicalLP: cytoalbumin dissociation, ↑CSF protein without ↑ WCC (inflammation of nerve roots); in 80-90% of patients at one weekNCS/EMG: axonal vs demyelinating; serial EMG helpful as conduction abnormalities progress ANTIBODIES: serum IgG antibodies to GQ1b (Miller-Fisher; 85-90% sensitivity and also in Bickerstaff encephalitis + pharyngeal-cervical brachial variant)DIAGNOSTIC CRITERIA: ![](notes/images/neurology-anu/img036.jpg) |
+| Management | IVIg or plasmapheresis, ± pain management, monitor vitals (supportive Tx: fluids, analgesia, respiration) |
+| Prognosis | Good- 85% make full functional recovery within 6-12 monthsDeath is commonly due to acute respiratory failure |
+
+Myopathy
+
+MYOPATHIES are characterized by prominent symmetric proximal weakness and absent sensory changes
+
+
+---
+
+
+### Neurology (ANU) — DUCHENNE MUSCULAR DYSTROPHY — Neuromuscular and Spinal Disorders
+
+| Definition | Progressive, generalised disease of muscle from a lack of dystrophin (structural protein) |
+| --- | --- |
+| Epidemiology | 1: 4,000 males |
+| Aetiology | Characterised be progressive skeletal and cardiac muscle degenerationGenetic mutation to Xp21 gene – either hereditary (2/3) or spontaneous (1/3)Muscle fibre fragility →  fibre breakdown → necrosis and regenerationIn brain (↓ IQ), smooth muscles (cardiomyopathy, ↑ intestinal transit), platelets (↑blood loss, thrombotic risk) |
+| Presentation | Proximal muscle weakness by 3; positive Gower’s sign, waddling gait, toe walkingPseudohypertrophy of calf muscles (muscle replaced by fat) and wasting of thigh muscles↓ reflexesNon-progressive delayed motor and cognitive development (dysfunctional dystrophin in brain) Cardiomyopathy |
+| Investigations | Serum CK (50-100 x normal) and lactate dehydrogenase↑ transaminasesGenetic: Xp21 mutation in both Duchenne/BeckerFHx (pedigree)Muscle biopsy/EMG |
+| Treatment | SUPPORTIVE: physiotherapy, wheelchairs, bracesCARDIAC HEALTH MONITORING and early intervention with carvedilol and perindoprilBONE HEALTH MONITORING and intervention (vitamin D, bisphosphonates)STEROIDS: prednisoneSURGERY for scoliosis (if necessary) |
+| Differentials | ![](notes/images/neurology-anu/img038.jpg) |
+| Complications | Scoliosis, osteoporosis (↑fractures), ↓ mobility (wheelchair bound by 12), respiratory weakness/failure, cardiomyopathy/cardiac failureDeath due to pneumonia/respiratory failure or CHF in 2nd -3rd decade |
+
+Cranial nerves
+
+![](notes/images/neurology-anu/img039.jpg)
+
+![](notes/images/neurology-anu/img040.jpg)
+
+
+---
+
+
+### Neurology (ANU) — bulbar palsy — Neuromuscular and Spinal Disorders
+
+| Definition | LMN in motor nuclei of medulla, affecting CN IX, X, XI, and XII |
+| --- | --- |
+| Aetiology | MND, GBS, poliomyelitis, subactute meningitis (carcinoma, lymphoma), neurosyphillis, brainstem CVA |
+| Presentation | Dysphagia, nasal speech (Donald duck- squeezing words out of tight lips), slurring of speech, tongue atrophic/fasciculation, weakness of soft palate (can’t say “ahh”), jaw jerk absent, gag reflex absent |
+| Differential | PSEUDOBULBAR PALSY: bilateral UMN lesion generally in the internal capsule, often caused by strokeCaused commonly by: MS, MND, high brainstem tumours, head injuryPresentation: Bilateral impairment of CN IX, X, XI, XII, ↑ gag reflex, ↑ jaw jerk, spastic tongue, absent palate movement, labile emotions, spastic speech |
+| Treatment | Symptomatic relief |
+
+
+---
+
+
+### Neurology (ANU) — vertigo — Neuromuscular and Spinal Disorders
+
+- DEFINITION: illusion of rotational, linear, or tilting movement of self or environment, produced by peripheral (inner ear) or central (brainstem-cerebellum) stimulation
+- Important to distinguish vertigo from other causes of “dizziness”
+- Sense of balance is dependent on vestibular function (sensation of head position and movement in space), proprioception (joint position sense), and visual function
+
+| Symptoms | Peripheral | Central |
+| --- | --- | --- |
+| Imbalance | Moderate to severe | Mild to moderate |
+| N/V | Severe | Variable |
+| Auditory | Common | Rare |
+| Neurological | Rare | Common |
+| Compensation | Rapid | Slow |
+| Nystagmus | Unidirectional, horizontal/rotatory | Bidirectional, horizontal/vertical; may have rare findings e.g. relative afferent pupillary defect (in demyelination) |
+| Causes | VESTIBULAR NEURITIS/LABRYINTHITIS: acute onset of disabling vertigo with N/V, imbalance without hearing loss that lasts days to weeks, affecting CNVIII due to a viral infection/post-viral (measles, mumps, herpes zoster)Vestibular neuronitis: inflammation of the vestibular portion of CNVIIILabyrinthitis: inflammation of vestibular and cochlear BPPV: acute attacks of transient vertigo lasting seconds to minutes due to certain head positions, accompanies by torsional nystagmus due loose crystalline matter within the semicircular canals (otoliths), impacting upon stereocilia and causing vestibular mismatch with movements in a particular direction (test with Hallpike)MENIERE’S DISEASE: episodic attacks of tinnitus, hearing loss, aural fullness and vertigo lasting minutes to hrs due to inadequate absorption of endolymph 🡪 endolymphatic hydrops that distorts membranous labyrinthACOUSTIC NEUROMA | Stroke, migraine, demyelination |
+|  |  |  |
+
+**
+![](notes/images/neurology-anu/img047.jpg)
+**
+
+**
+![](notes/images/neurology-anu/img048.jpg)
+**
+
+loss of consciousness/syncope
+
+![](notes/images/neurology-anu/img049.jpg)
+
+|  | Cardiogenic | Neurogenic | Vasovagal | Metabolic |
+| --- | --- | --- | --- | --- |
+| Prodromal | No aura Sudden, unexpectedMay have palpitations | Aura (sensory changes) | Exposure to certain trigger, light-headed, nausea, hot or cold, clammyNo auraSudden | Nausea, hunger, dizziness, shaking, clammy and cold, sweating, slow onset |
+| During | LOC - seconds | Seizure activity (jerking, tongue biting, incontinence), LOC minutes for seizures | LOC- secondsN/V/diaphoresis | LOC time period varies |
+| Post-drome | Nil or minimal recovery time | Recovery period ≥ 1hr, feels tired, myalgia and injuries present | Brief (minutes) recovery time | Recovery period varies |
+| Causes | Arrhythmia, orthostatic hypotension, heart block, aortic/carotid stenosis, PE, carotid sinus hypersensitivity | Non-epileptic seizure, SDH, epilepsy, TIA, stroke, anxiety/hyperventilation |  | Hypoglycaemia, EtOH, drugs |

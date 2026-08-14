@@ -168,6 +168,75 @@ def derive_tags(title, body, limit=4):
     return (first_word + top)[:limit] or ["general"]
 
 
+def keywords(text: str) -> set:
+    """Content words for crude topic matching."""
+    stop = {"the", "and", "for", "with", "of", "in", "to", "a", "an", "disease",
+            "disorders", "disorder", "notes", "section", "clinical", "acute",
+            "chronic", "management", "assessment", "high", "yield", "key",
+            "quick", "reference", "differentials", "system", "systems"}
+    ws = re.findall(r"[a-z]{3,}", text.lower())
+    return {w for w in ws if w not in stop}
+
+
+def split_by_headings(md: str, levels=(1, 2)):
+    """Split a secondary source into (title, body) on its own H1/H2 headings."""
+    pat = re.compile(r"^(#{%d,%d})\s+(.+)$" % (min(levels), max(levels)), re.M)
+    marks = [(m.start(), m.end(), m.group(2).strip()) for m in pat.finditer(md)]
+    if not marks:
+        return []
+    out = []
+    for i, (_, end, title) in enumerate(marks):
+        stop = marks[i + 1][0] if i + 1 < len(marks) else len(md)
+        body = md[end:stop].strip()
+        if word_count(body) >= 40:
+            out.append((title, body))
+    return out
+
+
+def match_topic(chunk_title: str, snapshot: dict, threshold=1.5):
+    """Best topic for a secondary-source chunk. None if no confident match.
+
+    Title-only matching fails badly here: the Word notes are organised by disease
+    ("asthma", "atrial fibrillation") while the master notes use category titles
+    ("Obstructive Airway Disease", "Arrhythmias and Conduction Disorders"), so
+    the two share no words. So also score how *densely* the chunk's key terms
+    appear in each topic's body.
+
+    Density matters rather than presence: "asthma" appears in the pharmacology
+    note and the physiology note too, so a binary "does it occur" test ties every
+    topic at the same score and the winner ends up being whichever happened to be
+    first. Frequency per 1000 words picks the topic actually about it.
+    """
+    ck = keywords(chunk_title)
+    if not ck:
+        return None
+
+    best, best_score = None, 0.0
+    for t, body in snapshot.items():
+        tk = keywords(t)
+        bw = max(1, word_count(body))
+
+        # Mentions of the chunk's terms per 1000 words of the topic. Deliberately
+        # uncapped: capping ties every topic that mentions "asthma" at the ceiling
+        # and the winner becomes whichever was inserted first, which is how every
+        # obstructive-airway chunk previously ended up filed under physiology.
+        per_k = sum(body.count(w) for w in ck) / bw * 1000
+
+        # A title-word match is stronger evidence than any density, so it is
+        # scaled to outrank it rather than being averaged in.
+        title_score = 0.0
+        if tk:
+            overlap = len(ck & tk)
+            if overlap:
+                title_score = (overlap / min(len(ck), len(tk))) * 20.0
+
+        score = max(title_score, per_k)
+        if score > best_score:
+            best, best_score = t, score
+
+    return best if best_score >= threshold else None
+
+
 def build(config, out_root, only_system=None):
     today = date.today().isoformat()
     built = []
@@ -202,6 +271,39 @@ def build(config, out_root, only_system=None):
 
         sysdir = os.path.join(out_root, slug)
         os.makedirs(sysdir, exist_ok=True)
+
+        # Secondary sources (e.g. the ANU Word notes) are a genuinely different
+        # account of the same material, so per the merge style they are stacked
+        # under the matching topic rather than woven in. Chunks that don't match
+        # any topic go to a per-system "Additional Notes" topic instead of being
+        # dropped — nothing from a source is discarded.
+        unmatched = []
+        secondary = sysdef.get("secondary", [])
+        if secondary:
+            # Snapshot the topic bodies from the PRIMARY sources only. Matching
+            # against the live dict creates a feedback loop: the first chunk
+            # appended to a topic enlarges it, which makes the next chunk match
+            # the same topic more strongly, and everything lands in one note.
+            snapshot = {t: " ".join(b for _, b in blocks).lower()
+                        for t, blocks in topics.items()}
+
+        for src in secondary:
+            path = src["path"]
+            if not os.path.exists(path):
+                print(f"  ! missing secondary source, skipping: {path}", file=sys.stderr)
+                continue
+            label = src.get("label", os.path.basename(path))
+            with open(path, encoding="utf-8") as fh:
+                md = fh.read()
+            for ctitle, cbody in split_by_headings(md):
+                target = match_topic(ctitle, snapshot)
+                if target:
+                    topics[target].append((f"{label} — {ctitle}", cbody))
+                else:
+                    unmatched.append((f"{label} — {ctitle}", cbody))
+
+        if unmatched:
+            topics["Additional Notes"] = unmatched
 
         for title, blocks in topics.items():
             tslug = slugify(title)

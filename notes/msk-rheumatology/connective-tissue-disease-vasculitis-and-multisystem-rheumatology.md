@@ -1,8 +1,8 @@
 ---
 title: "Connective Tissue Disease, Vasculitis & Multisystem Rheumatology"
 system: "MSK & Rheumatology"
-sources: [MSK & Rheumatology Notes]
-tags: [Connective, ANCA, SLE, ACR]
+sources: [MSK & Rheumatology Notes, Rheumatology & Immunology (ANU) — Systemic lupus eryhthematous, Rheumatology & Immunology (ANU) — polymyalgia rheumatica, Rheumatology & Immunology (ANU) — scleroderma]
+tags: [Connective, ANCA, ANA, SLE]
 updated: "2026-08-14"
 ---
 
@@ -143,3 +143,49 @@ Granulomatous **large-vessel vasculitis** in the **over-50s**, affecting branche
 
 ##### Sources
 Kumar & Clark; Robbins; StatPearls (SLE, APS, systemic sclerosis, GCA, ANCA vasculitis, fibromyalgia). **2019 EULAR/ACR SLE classification criteria** (ANA ≥1:80 obligatory entry; weighted additive criteria; ≥10 points) verified against the published criteria. **2021 ACR/Vasculitis Foundation guidelines** for GCA (immediate high-dose glucocorticoids; tocilizumab as steroid-sparing) and for ANCA-associated vasculitis (rituximab or cyclophosphamide + glucocorticoids ± plasma exchange). Chapel Hill Consensus nomenclature for the vasculitis vessel-size classification. GCA ESR threshold, temporal-artery biopsy skip-lesion caveat, and PMR steroid-responsiveness cross-checked in ≥2 sources. Scleroderma renal crisis → ACE inhibitor confirmed in Kumar & Clark and StatPearls.
+
+
+---
+
+
+### Rheumatology & Immunology (ANU) — Systemic lupus eryhthematous — Connective Tissue Disease, Vasculitis & Multisystem Rheumatology
+
+| Definition | Multisystem autoimmune disease characterised by autoantibodies that produce chronic inflammatory reactions in a variety of organs (skin, joints, kidney) |
+| --- | --- |
+| Epidemiology | F:M=10:1, peak incidence 20-40 y/o |
+| Aetiology | Genetic predisposition: HLA-DR2, HLA-DR3 in which there is defects in apoptotic clearance → nuclear particles captures by APC → anti-nuclear antibodies, anti-dsDNA antibodies. There is cytotoxic inflammatory processes and tissue injury by B cells, IL-6, IL-17, IL-18 and TNF-aHormonal: ↑oestrogenImmunological: ANA, anti-dsDNA autoantibodiesEnvironmental: infection, UV radiation, smoking, vitamin D deficiencyDrug-induced: anti-HTN, anti-convulsant, anti-arrhythmic, isoniazid, biologics, OCP |
+| Pathophysiology |  |
+| Presentation | Mnemonic (MD SOAP BRAIN): malar rash, discoid rash, serositis (pleuritis/pericarditis), oral/nasal ulcers, ANA, photosensitivity, blood, renal, arthritis, immune, neurologicGeneral: fever, fatigueSkin: malar rash, photosensitivity, discoid rash, oral ulcersJoints: arthralgia, arthritisMusculoskeletal: lymphadenopathy, myalgiaSerositis: pleuritis, pericarditisKidneys: nephritis with proteinuria (lupus nephritis)Heart: myocardium/pericardium/valve/coronary artery involvement, libman-sacks endocarditisLungs: pneumonitis, interstitial lung disease, pulmonary HTNGastrointestinal: oesophagitis, hepatitis, pancreatitisVascular: Raynaud’s phenomenon, vasculitis, thromboembolismNeurological: seizures, psychosis, personality changes |
+| ACR Criteria | Dermatological: malar rash, discoid rash, photosensitivity, oral/nasopharyngeal ulcersOrgans: non-erosive arthritis, pleuritis/pericarditis, renal disorder with cellular casts, neurologicalLaboratory:Haematologic: autoimmune haemolytic anaemia, thrombopenia, leukopenia, lymphopeniaImmunology: anti-dsDNA, anti-Dm, or anti-phospholipid antibodiesAntinuclear antibodies (ANA) |
+| Investigations | ANA (98% sensitivity, poor specificity)Anti-dsDNA and anti-Sm (95-99% specificity)Anti-dsDNA titre and serum complement (C3, C4) to monitor treatment responseAntiphospholipid antibody (↑ clotting and aPTT)Further testing:Lupus band test on skinKidney biopsy in lupus nephritisImaging: other organ/joint evaluation |
+| Management | General: avoid long-term steroid use, avoid sun exposure, stop smoking, immunise patients before starting immunosuppressantsMedicalBasic: hydroxychloroquineInduction: Administered until disease remission is achievedGlucocorticoidsImmunosuppressive (azathioprine, cyclophosphamide, mycophenolate, methotrexate)Other: bisphosphonates, calcium, vitamin D to combat osteoporosis |
+| Complications | Lupus nephritis, atherosclerosis, pulmonary HTN, osteoporosis, APS, thrombosis |
+
+
+---
+
+
+### Rheumatology & Immunology (ANU) — scleroderma — Connective Tissue Disease, Vasculitis & Multisystem Rheumatology
+
+| Definition | Abnormal growth of connective tissue → diffuse thickening, hardening of skin/inner organs |
+| --- | --- |
+| Pathophysiology | Non-inflammatory autoimmune disorder characterised by widespread small vessel vasculopathy, production of autoantibodies and fibroblast dysfunction causing fibrosis |
+| Aetiology | Associated with HLA-DR1 |
+| Presentation | CREST Syndrome: C- calcinosis cutis; R- Raynaud’s phenomenon; E- Esophageal hypomotility; S- Sclerodactyly; T- Telangiectasia |
+| Investigations | ANA (90% of cases)Limited SSc: anticentromere antibodies (ACA)Diffuse SSc: Anti-Scl070, Anti-RNA polymerase IIISerum protein electrophoresis: ↑ γ-globulinsCXR: pulmonary involvement and other tests based on organ-specific symptoms |
+| Treatment | General: PT, prevent dry skinImmunosuppressants e.g. MTXOrgan-specific e.g. PPIs in cases of GORD, ACE-I for renal HTN crisis |
+
+
+---
+
+
+### Rheumatology & Immunology (ANU) — polymyalgia rheumatica — Connective Tissue Disease, Vasculitis & Multisystem Rheumatology
+
+| Definition | Characterised by pain and stiffness (no muscle weakness) in proximal extremities (girdle area) |
+| --- | --- |
+| Epidemiology | F&gt;M, age of onset &gt; 50 years, most common inflammatory rheumatic disease in the elderly |
+| Aetiology | Unknown, possibly contributed by genetic predisposition (HLA-DR4) and GCA (in ~15%) |
+| Presentation | Constitutional: fever, weight loss, night sweats, symptoms of anaemiaMood: depressedPain and stiffness of symmetrical proximal muscles: neck, shoulder, hip girdles, thighsGel phenomenon: stiffness after prolonged activityGCA symptoms |
+| Investigations | Bloods: ↑ESR, ↑CRP, leucocytosis, normochromic anaemia, normal CK, neg RF, no autoantibodiesImaging: bursitis on ultrasound of affected joints |
+| Diagnosis | ![](notes/images/rheumatology-and-immunology-anu/img008.jpg) |
+| Management | Low-dose oral glucocorticoids (prednisone 15-20 mg OD which is tapered with symptom resolution)No improvement after 2 weeks or relapse: increase doseMonitor for steroid side effects: osteoporosis prevention, symptoms of GCA |

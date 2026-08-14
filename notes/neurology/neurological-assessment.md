@@ -1,7 +1,7 @@
 ---
 title: "Neurological Assessment"
 system: "Neurology"
-sources: [Neurology Master Notes]
+sources: [Neurology (ANU) — myasthenia gravis (MG), Neurology Master Notes]
 tags: [Neurological, CT, CSF, MS]
 updated: "2026-08-14"
 ---
@@ -241,3 +241,20 @@ Work top-down. The key first split is **UMN versus LMN**, then the distribution.
 Kumar & Clark *Clinical Medicine* (10th ed) and Macleod's *Clinical Examination* — history, examination, gait patterns. Blumenfeld *Neuroanatomy through Clinical Cases* — localisation framework. NICE NG128 (stroke and TIA), NG232 (head injury), NG127 (suspected neurological conditions) — imaging indications and timings. Merck Manual Professional and StatPearls — CSF profiles, GCS, coma assessment. CSF values cross-checked between Kumar & Clark and Merck Manual Professional; the CSF:serum glucose ratio cut-off of <0.4 for bacterial meningitis is consistent across both. Albuminocytological dissociation timing in GBS from Brain/Cochrane-cited GBS reviews and StatPearls. ⚑ DWI–FLAIR mismatch as a selection tool for unknown-onset stroke derives from the WAKE-UP trial and is incorporated in current AHA/ASA and ESO stroke guidance.
 
 ---
+
+
+---
+
+
+### Neurology (ANU) — myasthenia gravis (MG) — Neurological Assessment
+
+| Definition | Progressive autoimmune disease mediated by antibodies to nicotinic acetylcholine receptors [anti-AChR or anti-MuSK] on post-synaptic side of NMJ and T cells are implicated |
+| --- | --- |
+| How synapses work | NT packed into synaptic vesicles- at the NMJ this is AChWhen AP arrives at pre-synaptic terminal, depolarization opens voltage-gated Ca2+ channels. In Lambert-Eaton, this stage of synaptic transmission if affectedCa2+ influx through voltage-gated Ca2+ channels triggers fusion of synaptic vesicles with pre-synaptic membrane 🡪 NT released from vesicle into synaptic cleftNT cross synaptic cleft by diffusion and bind to post-synaptic receptors 🡪 depolarization of post-synaptic membrane (end-plate potential). This triggers muscle contraction at NMJ and onward transmission of AP in neurons. In MG, antibodies block the post-synaptic AChR, preventing end-plate potential from becoming large enough to trigger muscle contraction 🡪 muscle weaknessAcetylcholinesterase degrades transmitter: uptake into the pre-synaptic terminal or glial cells, or by diffusion away from synapse. Anticholinesterase treatments for MG (e.g. pyridostigmine) ↓ degradation of ACh ↑ chance to trigger end-plate potential |
+| Epidemiology | Bimodal age of onset- 20s (mostly women) and 60s (mostly men)15% of patients have associated thymic neoplasia, 85% have thymic hyperplasia |
+| Pathology | Acetylcholine receptor antibody (AChR Ab) Muscle-specific kinase antibody (MuSK) is seen in more than 50% of the remaining patients.Antibody 🡪 inadequate signaling resulting from a single vesicle release pre-synaptically 🡪 ↓ receptors or impaired signaling pathways.Results 🡪 ↑ in the number of vesicles released in response to a single action potential. This may compensate adequately at rest; but with activity, the pre-synaptic store of vesicles may be exhausted and this leads to the development of clinical weakness |
+| Presentation | Progressively worsening (exacerbated with repetitive movements, relieved by rest)Ocular: ptosis, diplopia, peek sign of orbicularis fatigability (eyelids begin to separate after manual opposition to sustained closure)Bulbar: altered speech, dysphagia, chewing, SOB (respiratory muscle weakness)Limited facial expressionWaddling gait, hard to hold up neck No change in reflexes, sensation or coordinationExacerbating features: pregnancy, ↓K+, infection, over-treatment, climate change, emotion, exercise, gentamicin, opiates, tetracycline, quinine, B-blockers |
+| Investigations | ANTIBODIES: ↑anti-AChR in 90% (70% in MG variant confined to ocular muscles). If anti-AChR negative, look for MuSK antibodies (muscle-specific tyrosine kinase, especially in ♀)EMG: decremental muscle response to repetitive nerve stimulation ± single-fibre jitterIMAGING: CT to exclude thymomaOTHER: Ptosis improves by &gt; 2mm after ice to eyelid for &gt; 2 min- neat, non-invasive, non-diagnosticTensilon (endrophonium) test- rare, dangerous (bradycardia, hypotension, sweating, salivation); giving short-acting AChesterase inhibitor to ↑ in Ach at NMJ for temporary symptomatic relief |
+| Treatment | SYMPTOM CONTROL: anticholinesterase (pyridostigmine 60-120 mg PO up to 6 x daily; max 1.2g/d; watch for SLUDGE syndrome)IMMUNOSUPPRESSION: treat relapses with prednisolone (or azathioprine, cyclophosphamide) and ↓ dose on remission (may take months); consider osteoporosis prophylaxisTHYMECTOMY: beneficial effects even with pts without a thymoma (especially in younger patients with onset &lt; 5 years previously and poor response to medical therapy) |
+| Prognosis | 30% eventual spontaneous remission |
+| Myasthenia crisis | Life-threatening respiratory muscle weakness [hard to differentiate from cholinergic crisis (rare)]Tx: ventilator support, plasmapheresis (remove AChR antibodies) or IVIg, treat trigger e.g. infection |

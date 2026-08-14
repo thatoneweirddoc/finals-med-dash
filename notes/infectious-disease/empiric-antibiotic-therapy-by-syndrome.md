@@ -1,8 +1,8 @@
 ---
 title: "Empiric Antibiotic Therapy by Syndrome"
 system: "Infectious Disease"
-sources: [Infectious Disease Master Notes]
-tags: [Empiric, MRSA, UTI, ESBL]
+sources: [Infectious Disease (ANU) — empiric antibiotic theraPY, Infectious Disease (ANU) — other antibiotics, Infectious Disease Master Notes]
+tags: [Empiric, CNS, MRSA, DNA]
 updated: "2026-08-14"
 ---
 
@@ -99,3 +99,45 @@ Bacterial meningitis — empirical therapy **must not be delayed** for imaging o
 **Sources:** WHO AWaRe antibiotic book; NICE (CAP, UTI, meningitis, neutropenic sepsis, SSTI guidance); BNF; IDSA. Empiric agent choices illustrate the reasoning framework — defer to local antibiogram in practice.
 
 ---
+
+
+---
+
+
+### Infectious Disease (ANU) — empiric antibiotic theraPY — Empiric Antibiotic Therapy by Syndrome
+
+- Choose antibiotics to cover for most likely and lethal organisms for the type of infection prior to obtaining laboratory results (usually reserved for serious infections)
+- Adjust antibiotic(s) based on C&amp;S
+- If causative organism identified, use antibiotic to which organism is sensitive
+- If causative organism not identified, re-evaluate need for ongoing antimicrobial therapy (and continue with empiric antibiotics if indicated)
+
+
+---
+
+
+### Infectious Disease (ANU) — other antibiotics — Empiric Antibiotic Therapy by Syndrome
+
+| BETA-LACTAM | MECHANISM OF ACTION | ORGANISM | SIDE-EFFECTS |
+| --- | --- | --- | --- |
+| VANCOMYCIN | Tricyclic glycopeptideInhibits cell wall synthesis and growth of peptidoglycan chainCNS penetration when meninges inflamesContraindicated in pregnancy | Gram-positive onlyMRSAS.epidermidisEnterococciClostridium difficile | NephrotoxicityOtotoxicityAnaphylactoid reactions in rapid infusion (red man syndrome)ThrombophlebitisNeutropenia |
+| FOSFOMYCIN | Inhibits cell wall synthesis by inhibiting the formation of N-acetylmuramic acid (in cell wall)BactericidalCNS penetration when meninges inflamedRenal elimination | Women with uncomplicated UTis | Mild electrolyte imbalance (hypernatremia, hypokalaemia)Diarrhoaa |
+| DAPTOMYCIN | Incorporate K+ channels into cell membrane of pathogens → rapid membrane depolarisationInhibits DNA, RNA, and protein synthesisPoor CNS penetrationRenal elimination | Gram-positive aerobesMRSA (but not MRSA pneumonia) | Reversible myopathyRhabdomyolysisAllergic pneumonitis |
+| SULFONAMIDES AND TRIMETHOPRIM | Both are bacteriostatic but become bactericidal when combinedSulfonamides inhibit bacterial folic acid synthesisTMP inhibits dihydrofolate reductase (DHFR), a key enzyme in purine synthesisOral or IV cotrimoxazole= trimethoprim (TMP) + sulfamethoxazole (SMX)Oral sulfisoxazoleOral sulfadiazine + pyrimethamineGood CNS penetrationPrimarily renal eliminationContraindicated in last trimester of pregnancy and lactating women | SMXGram-positive bacteriaGram-negative bacteriaSimple urinary tract infections (UTIs)NocardiaChlamydiaTMP/SMXShigellaSalmonellaRecurring UTIsProphylaxis and treatment of P. jiroveciiProphylaxis of toxoplasmosis | SMXHyperkalaemiaExanthemGastrointestinal distressPhotosensitivityNephrotoxic Haemolytic anaemia in G6PD-deficiencyDisplaces albumin-binding drugs (warfarin)TMP: Megaloblastic anaemiaLeukopeniaGranulocytopeniaHyperkalaemia |
+| FLUOROQUINOLONES | BactericidalBlocks transcription or replicationOral: norfloxacin, moxifloxacin, gemifloxacinOral/IV ciprofloxacin, ofloxacin, levofloxacinGood CNS penetrationPrimarily renal eliminationContraindicated in &lt;18 years, pregnancy, lactating women, QT prolongation, epilepsy | Gram-negative bacilli (urinary, GI)Genital pathogens (gonorrhoea, chlamydia)AnaerobesAtypical pneumonia (Legionella, Mycoplasma, Chlamydiophila)Ciprofloxacin effective against Pseudomonas | Damages growing cartilage in childrenAchilles tendon ruptureHyper/hypo-glycaemiaPeripheral neuropathy↓ seizure thresholdQT prolongationPhotosensitivity |
+| AMINOGLYCOSIDES | Bacteriostatic: inhibits bacterial protein synthesis by binding to the 30S subunit of bacterial ribosomeBactericidalGentamicin, amikacin, tobramycin, streptomycin, neomycinPoor CNS penetrationRenal eliminationTeratogenic | Severe gram-negative bacilli infectionsNot effective against anaerobesStreptomycin: mycobacterium Tb, M.avium-intracellulare | NephrotoxicityOtotoxicityNeuromuscular blockade |
+| TETRACYCLINES | BacteriostaticBactericidal: ↓ binding of aminoacyl tRNA to 30s subunitTetracycline, doxycycline, democlocycline, minocyclinePoor CNS penetrationRenal elimination except for GI elimination from doxycyclineCI: children &lt; 8 years, pregnancy, lactating women, renal failure (except doxycycline) | AcneAtypical: Borrelia, Mycoplasma, Rickettsia, Chlamydia | HepatotoxicityDeposition in bones/teethOesophagitisPhotosensitivity |
+| MACROLIDES | BacteriostaticBactericidal: inhibits protein synthesis by binding to ribosomal subunit and sterically blocking peptide growthPO/IV erythromycin/azithromycin Oral clarithromycinPoor CNS penetrationBiliary eliminationContraindications: pregnancy | Atypical pneumoniaURTIsSTIs (chlamydia)Gram-positive cocciBordetella pertussisNeisseria | GI discomfortQT prolongationAcute cholestatic hepatitisEosinophiliaExanthemCYP3A4 inhibition |
+| CLINDAMYCIN | Inhibits bacterial protein synthesis by binding the 50S subunit of the bacterial ribosomeBacteriostaticPoor CNS penetrationRenal/biliary elimination | Anaerobes in places not covered by Metranidazole | GI side-effectsPseudomembranous colitisFever |
+| METRONIDAZOLE | Enters cells as  a prodrug → activated in bacteria Inhibits DNA synthesis and DNA damage by oxidation → DNA degradation → cell death | Anaerobic (gut and groin) |  |
+
+anti-virals
+
+| DRUGS | COVERAGE | MECHANISM OF ACTION |
+| --- | --- | --- |
+| ACYCLOVIR/ VALACYCLOVIR | HSV 1,2 , VZV | Guanosine analog inhibits viral DNA polymerase |
+| GANCICLOVIR | CMV, HSV- 1,2, VZV, HHV-6, EBV | Guanosine analog inhibits viral DNA polymerase |
+| FOSCAMET | CMV, acyclovir-resistant HSV, VZV | Pyrophosphate analog inhibits viral DNA polymerase |
+| INTERFERON-Α-2A OR 2B | Chronic hepatitis B or C HPV | Inhibits viral protein synthesis |
+| RIBAVIRIN | Chronic hepatitis C, RSV, Lassa fever | Guanosine analog with multiple postulated MoAs |
+
+Bone and joint infections

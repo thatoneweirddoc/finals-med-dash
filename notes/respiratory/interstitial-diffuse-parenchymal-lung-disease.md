@@ -1,8 +1,8 @@
 ---
 title: "Interstitial (Diffuse Parenchymal) Lung Disease"
 system: "Respiratory"
-sources: [Respiratory Master Notes]
-tags: [Interstitial, ILD, IPF, UIP]
+sources: [Respiratory (ANU) — cystic fibrosis, Respiratory (ANU) — interstitial disease, Respiratory (ANU) — sarcoidosis, Respiratory Master Notes]
+tags: [Interstitial, ILD, IPF, NSIP]
 updated: "2026-08-14"
 ---
 
@@ -104,3 +104,48 @@ ATS/ERS/JRS/ALAT IPF diagnosis & treatment guidelines (UIP pattern, antifibrotic
 *Companion to the Respiratory Finals Study Plan. Guideline anchors: **ESC 2019 acute PE**, **2022 ESC/ERS pulmonary hypertension**, BTS/NICE VTE, **BTS/NICE CAP & pneumonia**, WHO/NICE **TB**. Discriminator table + sources at the end of each section. ⚑ = changed from older textbooks. British/Australian spelling.*
 
 ---
+
+
+---
+
+
+### Respiratory (ANU) — cystic fibrosis — Interstitial (Diffuse Parenchymal) Lung Disease
+
+| Definition | Autosomal recessive disorder caused by mutation in cystic fibrosis transmembrane conductance regulator (CFTR) gene |
+| --- | --- |
+| Pathophysiology | Mutated CFTR gene → defective Cl- channel → inability to transport intracellular Cl- across the membrane → exocrine glands (sweat, mammary, salivary) produce hyperviscous secretions → accumulation of secretions and blockage of glands → chronic inflammation → organ damage |
+| Presentation | GASTROINTESTINALFrequent in infancyMeconium ileus in first 24-48 hours of birthPancreatic insufficiency: steatorrhea, malabsorption, diarrhoea, ↓ vitamin A/D/E/K, diabetesLiver and bile duct: cholecystolithiasis, cholestasis, cirrhosis, portal HTNRESPIRATORYFrequent in adulthoodChronic lung infections: S. aureus, P. aeruginosa, B. cepacian, aspergillus fumigatusObstructive lung disease with bronchiectasisExpiratory wheeze, barrel chest, digital clubbingSWEAT GLANDS: salty sweatMUSCULOSKELETAL: osteopenia, frequent fractures, kyphoscoliosisUROGENITAL: nephrolithiasis, frequent UTIsGENITAL: ↓ fertility, males (obstructive azoospermia, absent VD, undescended testes), females (viscous cervical mucus, menstrual abnormalities) |
+| Investigations | Sweat chloride test: ≥60 mmol/L on two occasionsCTFR gene mutation: via CVS/amniocentesis sampling, or in sweat-test -ve but suspicious adultsAbnormal nasal potential difference test: voltage measurements before and after CFTR chloride transport stimulation show abnormal epithelial secretion of chloridePFTs: ↓FEV1:FVC (obstructive pattern) |
+| Management | General: chest physiotherapy, diet (high calorie), pancreatic enzyme and vitamin supplements, preventative annual vaccine (influenza, pneumococcal)Bronchodilators: salbutamol ± ipratropium bromideMucolytic: to reduce mucus viscosityHypertonic saline nebulisationAntibiotics: treating pulmonary infectionsGlucocorticoids: in chronic rhinosinusitis |
+
+Restrictive Lung Disease
+
+
+---
+
+
+### Respiratory (ANU) — interstitial disease — Interstitial (Diffuse Parenchymal) Lung Disease
+
+| Definition | Heterogenous groups of disorders characterised by inflammatory ± fibrotic process of alveolar wallsThis can eventually impair lung function and gas exchange |
+| --- | --- |
+| Aetiology | Idiopathic pulmonary fibrosis (diagnosis of exclusion) is the most commonOther idiopathic subtypesDesquamative interstitial pneumonia (DIP)Nonspecific interstitial pneumonia (NSIP)Cryptogenic organizing pneumonia (COP)Acute interstitial pneumonia (AIP)Other (not included below): pulmonary vasculitis e.g. GPA/Wegener’s, Goodpasture’s, idiopathic pulmonary hemosiderosis |
+| UPPER LUNG DISEASE (FASSTEN) Farmer’s lung (hypersensitivity pneumonitis) Ankylosing spondylitis Sarcoidosis Silicosis TBEosinophilic granuloma (Langerhans-cell histiocytosis) Neurofibromatosis | LOWER LUNG DISEASE (BADRASHI) Bronchiolitis obliterans with organizing pneumonia (BOOP) Asbestosis Drugs (methotrexate, amiodarone, illicit drugs, radiation, nitrofurtoin, bleomysin, busulfan)Rheumatologic disease, Aspiration Scleroderma Hamman Rich (acute interstitial pneumonia),Idiopathic pulmonary fibrosis |
+| Presentation | Underlying disease symptomsExertional dyspnoeaPersistent non-productive coughCrackles (dry, fine, end-respiratory)Clubbing (especially in IPF and asbestosis)In IPF, the majority of patients do not response to therapy and progressive to resp failure |
+| Investigations | AUSCULTATION: bi-basal inspiratory crackles, rales, inspiratory squeaks (adv disease)PFTS: restrictive patternCXR OR HRCT: reticular opacities (fibrosis), ground-glass opacities, honey-combingABG: hypoxemia, respiratory alkalosis with disease progressionBIOPSY: to confirm diagnosis in atypical/rapidly progressive symptomsSCREEN FOR AUTOIMMUNE/RHEUMATIC DISEASE |
+| Management | Depends on aetiologySupportive: cease insults, O2, chest physiotherapy, smoking cessation, weight lossAntibiotics if indicated1Corticosteroids and immune modulatorsLung transplant in end-stage |
+
+
+---
+
+
+### Respiratory (ANU) — sarcoidosis — Interstitial (Diffuse Parenchymal) Lung Disease
+
+| Definition | Idiopathic noncaseating granulomatous multi-system disease with lung involvement in 90%Now, numerous HLA antigens have been shown to play a role (thus familial sarcoidosis recognised) |
+| --- | --- |
+| Epidemiology | Commonly found in African American females and Northern European Caucasians |
+| Pathophysiology | T-cell dysfunction and ↑ B-cell activity → local immune hyperactivity and inflammation→non-caseating granulomas commonly in the lungs and lymphatic system → pulmonary fibrosisAffects lungs, liver, eyes, skin nervous system, heart and kidney |
+| Presentation | Mnemonic: GRUELINGGranulomas, General (fever, cough, malaise, weight loss, dyspnoea)aRthritisUveitisErythema nodosumLymphadenopathyInterstitial fibrosisNegative TB testGammaglobulinemia |
+| Investigations | CXR/CT:Stage 0: normal radiographStage I: bilateral hilar lymphadenopathy ± right paratracheal lymphadenopathyStage II: bilateral hilar lymphadenopathy and diffuse interstitial diseaseStage III: interstitial disease only (reticulonodular pattern or nodular pattern)Stage IV: pulmonary fibrosis (honeycombing) used to stage the disease.BIOPSY (GOLD STANDARD): noncaseating granulomas, giant cells and bronchoalveolar lavage (BAL) showed ↑ CD4+/CD8+ ratioPFTS: restrictive/obstructive pattern and ↓ diffusion capacityOTHER: ↑ ACE, hypercalcemia, hypercalciuria, ↑ alkaline phosphatase (with liver involvement), lymphopenia, cranial nerve defects, arrhythmias |
+| Treatment | Isolated disease: usually no treatment (spontaneously resolves)Systemic corticosteroids are indicated for deteriorating respiratory function, constitutional symptoms, hypercalcemia, or extrathoracic organ involvement |
+
+Acute Respiratory Failure

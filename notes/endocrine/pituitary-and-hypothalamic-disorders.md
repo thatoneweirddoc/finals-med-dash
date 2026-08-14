@@ -1,8 +1,8 @@
 ---
 title: "Pituitary & Hypothalamic Disorders"
 system: "Endocrine"
-sources: [Endocrine Master Notes]
-tags: [Pituitary, GH, ACTH, ADH]
+sources: [Endocrine Master Notes, Endocrinology (ANU) — Hypopituitarism, Endocrinology (ANU) — PROLACTINOMA, Endocrinology (ANU) — anterior pituitary, Endocrinology (ANU) — function, Endocrinology (ANU) — pituitary adenoma, Endocrinology (ANU) — posterior pituitary]
+tags: [Pituitary, GH, ACTH, TSH]
 updated: "2026-08-14"
 ---
 
@@ -78,3 +78,138 @@ Deficiency of ADH (**cranial**) or renal resistance to it (**nephrogenic**) → 
 Greenspan's *Basic & Clinical Endocrinology*; Endocrine Society guidelines (acromegaly, hyperprolactinaemia, hyponatraemia); NICE CKS; Merck Manual Professional. The order of hormone loss and DDAVP responses are standard, cross-checked across the above.
 
 ---
+
+
+---
+
+
+### Endocrinology (ANU) — function — Pituitary & Hypothalamic Disorders
+
+- Modifies gene transcription by binding to nuclear receptors
+- Biological effects:
+- Carbohydrate metabolism: gluconeogenesis and glycogenolysis
+- Protein metabolism: proteolysis &gt; protein synthesis, causing a net loss of muscle protein
+- Lipid metabolism: lipolysis
+- Na-K pump activity: increases activity of this pump → ↑ basal metabolic rate ↑ O2 consumption, respiratory rate, body temperature
+- Systemic effects:
+- Cardiovascular: ↑β1 receptors → ↑ cardiac output, heart rate, contractility
+- Respiratory : maintains normal hypoxic and hypercapnic drive in respiratory centre
+- Gastrointestinal:  ↑ gut motility
+- Neuromuscular: ↑ speed of muscle contraction and relaxation
+- Skeletal: ↑ bone turnover, resorption and bone growth (synergism with GH)
+- SNS: ↑ expression of β-adrenoreceptors, leading to increased sensitivity to catecholamines
+- CNS: brain maturation
+
+
+---
+
+
+### Endocrinology (ANU) — anterior pituitary — Pituitary & Hypothalamic Disorders
+
+Arises as an upward outgrowth from the roof of the mouth (Rathke pouch)
+
+![](notes/images/endocrinology-anu/img019.jpg)
+
+The anterior pituitary produces two different types of hormones:
+
+- Tropic hormones: affects target cells indirectly by stimulating other endocrine glands first
+- Non-tropic hormones: direct effect on target cells
+
+| HYPOTHALAMUS | PITUITARY GLAND | TARGET ORGAN | FUNCTION | PHYSIOLOGY | INHIBITORY STIMULUS | SECRETORY STIMULUS |
+| --- | --- | --- | --- | --- | --- | --- |
+| TROPIC HORMONES |
+| CRH | ACTH | Adrenal cortex | Stimulates growth of adrenal cortex and secretion of hormones | PolypeptideDiurnal (highest in AM, lowest at midnight) | Dexamethasone;Cortisol | CRHInsulin-induced hypoglycaemia; VasopressinFever/stress |
+| TRH | TSH | Thyroid | Stimulates growth of thyroid and T3/T4 secretion | Glycoprotein | T3, T4Opiates, DA | TRH, epinephrine, prostaglandins |
+| GnRH (gonadotropin-releasing hormone) | LH (luteinizing hormone)FSH (follicle-stimulating hormone) | GonadsOvariesTesticles | Stimulates gonads via cAMPOvary:LH: production of androgens (thecal cells) which are converted to oestrogens (granulosa cells); induced luteinisation in folliclesFSH: growth of granulosa cells in ovarian follicle; controls oestrogen formationTestesLH: production of testosterone (Leydig cells)FSH: production of spermatozoa (Sertoli cells) | PolypeptideGlycoproteinsSecreted in pulsatile fashion | OestrogenProgesteroneTestosteroneInhibinContinuous GnRH infusion | Pulsatile GnRH |
+| NON-TROPIC HORMONES |
+| GNRH (growth hormone-releasing hormone) | GH (growth hormone, somatotropin) |  | Stimulates growth and has an anabolic effect on the body ↓ Glucose uptake into cells↑ Lipolysis↑ Protein synthesis in muscle↑ Production of IGF-1 which stimulates bone/cartilage growth | PolypeptideActs indirectly through serum factors synthesised in the liver: IGF-1 (somatomedin-CSerum GH undetectable for most of the day and suppressed after meals high in glucoseSustained rise during sleep | Glucose challengeGlucocorticoidsHypothyroidismSomatostatinDopamine D2 receptor agonistsIGF-1 (long-loop)Tonically by dopamine | GNRHInsulin-induced hypoglycaemiaExerciseREM sleepArginine, clonidine, propranolol, L-dopa |
+| Somatostatin |
+| MSH-RH (melanocyte-stimulating hormone-releasing hormone) | MSH (melanocyte-stimulating hormone) |  | Skin: hyperpigmentation due to stimulation of melanocytes |  |  |  |
+| Melanocyte-inhibiting hormone |
+| TRH (thyrotropin-releasing hormone, thyroliberin) | Prolactin |  | Breast tissue: growth and lactationInhibits GnRH secretion | PolypeptideEpisodic secretion | Dopamine | SleepStress, hypoglycaemiaPregnancy, breastfeedingMid-menstrual cycleSexual activityTRHDrugs: psychotropics, antihypertensives, dopamine, antagonists, opiates, high dose oestrogen |
+| PIH (prolactin-inhibiting hormone) |
+
+
+---
+
+
+### Endocrinology (ANU) — posterior pituitary — Pituitary & Hypothalamic Disorders
+
+Arises as a downward outgrowth from the diencephalon
+
+| POSTERIOR PITUITARY GLAND | TARGET ORGAN | FUNCTION | PHYSIOLOGY | INHIBITORY STIMULUS | SECRETORY STIMULUS |
+| --- | --- | --- | --- | --- | --- |
+| ADH (vasopressin) | Renal collecting ducts on V2 receptors | Insertion of aquaporin channels, increasing water reabsorption and concentrating urineBlood pressure control | OctapeptideOsmoreceptors in hypothalamus detect serum osmolalityContracted plasma volume detected by baroreceptors is a more potent stimulus than ↑ osmolality | ↓ serum osmolality | Hypovolemia or ↓ effective circulatory volume↑serum osmolalityStress, pain, fever, paraneoplasticLung/brain pathology |
+| Oxytocin |  | Uterine contractionBreast milk secretion | Not a peptide | EtOH | SucklingDistention of female genital tract during labour via stretch receptors |
+
+
+---
+
+
+### Endocrinology (ANU) — Hypopituitarism — Pituitary & Hypothalamic Disorders
+
+| DEFINITION | Inadequate production of ≥1 anterior pituitary hormones as a result of trauma to pituitary gland ± hypothalamus |
+| --- | --- |
+| AETIOLOGY | Intrasellar/parasellar masses Non-secretory pituitary macroadenomas (≥ 10 mm in diameter) are the most common cause Other: internal carotid artery aneurysms, meningiomas, craniopharyngiomas, Rathke's cleft cyst Pituitary apoplexy Sheehan syndrome: postpartum necrosis of the pituitary gland, usually following PPHTraumatic brain injury (especially around the skull base)Infiltration of the pituitary and/or hypothalamusHemochromatosisInfections: meningitis, TBCongenital deficiency of hypothalamic hormonesGnRH deficiency (Kallman syndrome) |
+| PATHOGENESIS | Hypopituitarism becomes symptomatic when &gt; 80% of pituitary cells are damagedIn most cases, hypopituitarism develops slowly (e.g. adenomas, post-irradiation) Certain cases of hypopituitarism develop rapidly (e.g. pituitary apoplexy) |
+| PRESENTATION | ACTH: fatigue, weight loss, hypoglycaemia, anaemia, hyponatremia, failure to thrive and delayed puberty in childrenGH: short stature in childrenTSH: tiredness, cold intolerance, constipation, weight gain, hair lossLH and FSH: oligo- or amenorrhea, infertility, decreased facial/body hair and muscle mass in men, delayed pubertyProlactin: inability to breastfeedADH: symptoms of diabetes insipidus (extreme thirst, polydipsia, hypernatremia)Oxytocin: usually asymptomatic- only needed during labour and breastfeeding |
+| INVESTIGATIONS | Triple bolus test: rapid sequence of IV infusion of insulin, GnRH, and TRHInsulin → hypoglycaemia → increased GH and ACTH/cortisolGnRH → increased LH and FSHTRH → increased TSH and PRLGnRH and TRH stimulation tests are very limited in their utility; the insulin tolerance test is the only truly useful test in the triple bolus assessment |
+| MANAGEMENT | Transsphenoidal resection in cases of pituitary macroadenomaHormone replacement therapyGrowth hormone deficiency: GH replacement in children onlyTSH deficiency: administration of levothyroxine ACTH deficiency: glucocorticoid replacement therapy with increased dosage during periods of stress. When this is suspected, immediate treatment necessary to prevent adrenal crisis!GnRH deficiencyMalesIf fertility is desired: exogenous gonadotropins (e.g, HCG) should be administeredIf fertility is not desired: testosterone replacement therapyFemales: oestrogen replacement therapy with/without progesteroneProlactin deficiency: no treatment is requiredCentral diabetes insipidus: desmopressin |
+
+
+---
+
+
+### Endocrinology (ANU) — pituitary adenoma — Pituitary & Hypothalamic Disorders
+
+| DEFINITION | Benign tumour of the pituitary gland |
+| --- | --- |
+| EPIDEMIOLOGY | Peak incidence ~ 35-60 years old |
+| AETIOLOGY | Most cases occur sporadicallySome cases (~5%) have genetic association with MEN 1 |
+| PATHOLOGY | Pathology: usually clonal in origin, with a single cell having altered growth control and feedback regulation, leading to development of the adenomaType of tumour according to size:Microadenoma: ≤ 10 mm; have no mass effect and have very little risk of growth, and usually occur physiologically as a result of pregnancyMacroadenoma: &gt; 10 mm; cause mass effects (dural sac, optic chiasm, CN III/IV/V/VI)Functional adenoma: secretory pituitary adenomas (60%) → hyperpituitarismMost secrete one pituitary hormone.The presence of multiple pituitary hormones should also raise the suspicion of atypical pituitary adenomas or pituitary carcinomasType | Frequency | Pathophysiology |
+| Lactotroph adenoma (prolactinoma) | ~40% | Hyperprolactinemia |
+| Somatroph adenoma | ~15% | ↑Growth hormone → acromegaly/gigantism |
+| Corticotroph adenoma (Cushing’s Disease) | ~5% | ↑ACTH → secondary hypercortisolism |
+| Thyrotroph adenoma | ~1% | ↑TSH → secondary hyperthyroidism |
+
+- Non-functional adenoma:  compression of the infundibulum stalk cuts off stimulating factors from reaching the anterior pituitary, and results in hypopituitarism
+
+PRESENTATION
+
+- Local mass effects:  bitemporal hemianopsia due to compression of optic chiasm, diplopia due to oculomotor nerve palsy; decreased visual acuity, facial numbness, headache
+- Hyperpituitarism: PRL (galactorrhoea), GH (acromegaly in adults, gigantism in children), ACTH (Cushing’s disease = Cushing’s syndrome caused by a pituitary tumour)
+- Tumours secreting LH, FSH, and TSH are rare
+
+INVESTIGATIONS
+
+- Contrast brain MRI: intrasellar mass
+- Hormone assays: prolactin, insulin-like growth factor, 21-hour urine cortisol, TFTs
+- Perimetry: visual field defects
+
+DIFFERENTIALS
+
+Craniopharyngioma (in children), meningioma, lymphocytic histiocytosis
+
+MANAGEMENT
+
+- Trans-sphenoidal surgery
+- Prolactinomas: dopamine agonist (e.g. bromocriptine) first lie and transsphenoidal hypophysectomy ± adjuvant RT second line
+- Non-secretory pituitary microadenomas(incidentalomas): no treatment (only follow-up)
+- Other pituitary adenomas: transsphenoidal hypophysectomy first line and pituitary irradiation second line
+
+Following transsphenoidal resection and/or pituitary irradiation, patients may develop hypopituitarism and potentially require lifelong hormone replacement therapy!
+
+
+---
+
+
+### Endocrinology (ANU) — PROLACTINOMA — Pituitary & Hypothalamic Disorders
+
+| AEITOLOGY | Prolactinoma: most common functional adenoma which may be induced by oestrogens and grow in pregnancyPituitary stalk compression: reduces dopaminergic inhibition of prolactin releasePrimary hypothyroidism: increased TRHDopamine antagonist therapy e.g. antipsychotics Decreased clearance due to chronic renal failure or severe liver disease (prolactin is metabolised by both the kidney and liver) |
+| --- | --- |
+| PATHOGENESIS | Prolactin stimulates milk production in the breast and inhibits GnRH and gonadotropin secretion |
+| PRESENTATION | Bitemporal hemianopsiaFemale: galactorrhoea, amenorrhoea, infertility, osteoporosisMale: galactorrhoea (rare), hypogonadism, impotence, gynaecomastia, osteoperosis erectile dysfunction |
+| INVESTIGATIONS | Serum prolactin &gt; 200 mg/MLSerum TSH, liver enzymes, creatinineMRI shows a sellar turcica lesion |
+| MANAGEMENT | First line: dopamine agonists (e.g. cabergoline, bromocriptine) which cause pituitary adenoma to shrinkSecond line: transsphenoidal hypophysectomy ± adjuvant radiotherapy which is indicated in adenomas refractory to medical management or with compressive effects (e.g. visual loss)Cease insulting drugs |
+
+Adrenal Gland Disorders

@@ -1,7 +1,7 @@
 ---
 title: "Haematology–Oncology Pharmacology & Prescribing"
 system: "Haematology & Oncology"
-sources: [Haematology & Oncology Notes]
+sources: [Haematology & Oncology Notes, Oncology (ANU) — pulmonary nodule]
 tags: [Haematology, IV, VTE, DNA]
 updated: "2026-08-14"
 ---
@@ -121,3 +121,25 @@ High-yield safety points, each an exam favourite:
 
 ##### Sources
 BNF (dosing, interactions, monitoring); Hoffbrand's Essential Haematology; NICE (anticoagulation, chemotherapy safety, antiemetics); StatPearls; Martindale. ⚑ TKI/immunotherapy/CAR-T agents and their toxicities, DOAC-first anticoagulation, and the vincristine-intrathecal and methotrexate-weekly never-events reflect current safety guidance emphasised beyond older textbooks.
+
+
+---
+
+
+### Oncology (ANU) — pulmonary nodule — Haematology–Oncology Pharmacology & Prescribing
+
+BENIGN (70%)
+
+- Infectious granuloma (histoplasmosis, coccidiomycosis, TB, atypical mycobacteria)
+- Other infections (bacterial abscess, PCP, aspergilloma)
+- Benign neoplasms (hamartoma, lipoma, fibroma)
+- Vascular (AV malformation, pulmonary varix)
+- Developmental (bronchogenic cyst)
+- Inflammatory (granulomatosis with polyangiitis, rheumatoid nodule, sarcoidosis)
+- Other (infarct, pseudotumour, rounded atelectasis, lymph nodes, amyloidoma)
+
+BENIGN VS. MALIGNANT
+
+| BENIGN | MALIGNANT |
+| --- | --- |
+| &lt;3 cm, round, regularSmooth marginCalcified patternCentral “popcorn” pattern if hamartomaUsually no cavitation: if cavitating, wall is smooth and thin, no other lung pathologyDoubles in &lt;1 month or &gt;2 years | &gt;3 cm, irregular, spiculated	Ill-defined or notched marginUsually not calcified; if calcified, pattern is eccentricNo satellite lesionsCavitation with thick walMay have pleural effusionsLymphadenopathyDoubles in &gt;1 month or &lt; 2 years |

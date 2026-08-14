@@ -1,8 +1,8 @@
 ---
 title: "Obstructive Airway Disease"
 system: "Respiratory"
-sources: [Respiratory Master Notes]
-tags: [Obstructive, ICS, CF, PEF]
+sources: [Respiratory (ANU) — asthma, Respiratory (ANU) — asthma medications, Respiratory (ANU) — bronchiectasis, Respiratory Master Notes]
+tags: [Obstructive, ICS, SABA, COPD]
 updated: "2026-08-14"
 ---
 
@@ -103,3 +103,89 @@ Permanent, abnormal **bronchial dilatation** from the **"vicious cycle"** of inf
 GINA 2025 (Track 1 ICS-formoterol; SABA-only not recommended); GOLD 2025 (ABE groups, eosinophil-guided ICS, exacerbation & LTOT guidance); BTS/SIGN British asthma guideline & BTS acute asthma severity criteria; BTS bronchiectasis guideline; CF Trust / BTS CF standards and CFTR-modulator evidence. Thresholds (asthma severity PEF cut-offs, LTOT PaO₂, eosinophil counts) cross-checked between the guideline body and Merck Manual Professional.
 
 ---
+
+
+---
+
+
+### Respiratory (ANU) — asthma — Obstructive Airway Disease
+
+| Definition | Chronic respiratory disorder with persistent airway inflammation, reversible airway obstruction and hyper-responsiveness that present as episodic exacerbations (asthma) |
+| --- | --- |
+| Aetiology | EXTRINSIC ASTHMA (ALLERGIC)Onset in childhoodAtopy: IgE-mediated type I hypersensitivity to allergen → mast cell degranulation, histamine Environmental allergens: pollen, dust mites, domestic animals, mould sporesINTRINSIC ASTHMA (NON-ALLERGIC)Onset usually middle ageIrritant asthma: irritant → ↑ release of neutrophils → submucosal oedema → airway obstructionAspirin-induced asthma: NSAID inhibition of COX-1 → ↓ PGE2  → ↑ leukotrienes and inflammation → submucosal oedema → airway obstructionTriggers: occupational fumes/dusts, smoking, physical activity, cold weather, infection (URTI, chronic sinusitis/rhinitis), stress, GORD, drugs (aspirin, NSAIDs, B-blockers) |
+| Pathophysiology | Airway obstruction → V/Q mismatch → hypoxemia → ↑ ventilation → ↓ PaCO2 → ↑ pH and muscle fatigue → ↓ ventilation, ↑ PaCO2, ↓ pH |
+| Pathology | ![](notes/images/respiratory-anu/img012.jpg) Lumen containing mucous plugThickened BMHyperplasia and hypertrophy of smooth muscles Degranulated mast cellsAbundance of polymorphsRed-staining eosinophils |
+| Presentation | Dyspnoea, wheezing, chest tightness, dry cough (nocturnal), sputumSEVERE SYMPTOMS: pulsus paradoxus, hypoxemia,PHYSICAL EXAM: hyper/hypo-ventilation, ↓air-entry, accessory muscles, expiratory wheeze, pulsus paradoxus, signs of atopy (eczema, urticaria, angioedema, rash)SIGNS OF POOR ASTHMA CONTROL (mnemonic: DANGERS)Daytime symptoms ≥ 4 times/weekActivities reducedNight-tieGP visitsED visitsRescue puffer (SABA) ≥ 4≥ times/weekSchool/work absences |
+| Investigation | O2 SATURATIONAUSCULTATION: prolonged expiratory phase with wheezing, ↓ breath sounds, tachypnoeaPERCUSSION: hyper-resonance, inferior diaphragmSPIROMETRY: obstructive lung disease, &gt; 12% improvement in FEV1 with bronchodilatorPEFR: two measurements (waking prior bronchodilator and before bed after a bronchodilator), variable airflow limitationABG: respiratory alkalosis in mild/acute attack (tachypnoea), respiratory acidosis in severe diseaseCXR: low flattened diaphragm, wide intercostal spaces, barrel chestALLERGIC SKIN PRICK TESTING |
+| Classification |  | INTERMITTENT | MILD | MODERATE | SEVERE |
+| SYMPTOMS | ≤2 d/week | ~2d/week | Most days | Daily |
+| NIGHT SYMPTOMS | Rare | 3-4 times/month | 1-2times/week | Most nights |
+| FEV1 | &gt;80% | &gt;80% | 60-80% | &lt;60% |
+
+**Differentials**
+
+Bronchitis, acute exacerbation of COPD, inhaled foreign body, cystic fibrosis, PE, pneumothorax
+
+**Acute management**
+
+- Adrenergic agonist e.g. salbutamol (inhaled β2-agonist via MDI or spacer)
+- Steroids (PO or IV)
+- Theopyine
+- Hydration
+- Masked O2, IV MgSO4
+- Anticholinergic , Adrenaline (if anaphylaxis)
+
+**Long-term management**
+
+GOALS: **↓** symptoms, preserve lung function, prevent permanent lung damage, ↓ drug SE
+
+- Corticosteroid and/or other asthma prophylactic agents – usually through combination devices
+- β2 agonist prior to exposure to a known trigger
+- Review and adjust drug treatment according to step approach
+- Provide information and tools for self-management (asthma management plan)
+- Training in correct inhaler technique (MDI)
+- Canister shaken
+- Patient exhales to FRC
+- Aerosol nozzle placed to open mouth
+- Patient inhales
+- Breath held ~10 second
+
++ Educate benefits of a spacer
+
+- Information to maximize adherence
+- Information about avoiding triggers
+- Lifestyle modifications e.g. smoking cessation, diet, immunization and weight control
+- Managing flare-ups when they occur
+- Regularly reassess: control, spirometry, inhaler technique, adherence, triggers, comorbidities
+
+**Complications**
+
+- STATUS ASTHMATICUS: extreme asthma exacerbation that does not respond to bronchodilators
+- AIRWAY REMODELLING: predispose to COPD development
+
+
+---
+
+
+### Respiratory (ANU) — asthma medications — Obstructive Airway Disease
+
+| β2-adrenergic agonists e.g.  salbutamol (SABA) | Selective β2-adrenoreceptor agonists in smooth muscle → smooth muscle relaxation, bronchodilation | SE: tachycardia, arrhythmias, hypokalemia |
+| --- | --- | --- |
+| Anticholinergics ipratropium (short-acting), tiotropium (long-acting) | Competitive antagonists of Ach in bronchial smooth muscles → blocks muscarinic (M3) receptors, → ↓ smooth muscle contraction and airway constriction | SE: dry mouth, nausea, headache |
+| Phosphodiesterase inhibitors e.g. theophylline | Inhibits phosphodiesterase → ↑ cAMP levels and smooth muscle relaxation →bronchodilation | SE: arrhythmias, CNS (headache, sleeplessness, seizure, nervousness), ↑ gastric acid secretion, ↑ GORD |
+| Glucocorticoid e.g. prednisolone (oral) hydrocortisone (IV) | For prevention not acute attacks- suppresses inflammation and immune response | SE: Cushing’s syndrome, osteoporosis, immunosuppression |
+| Leukotriene inhibitors e.g. Montelukast, Zafirlukast, Zileuton | Block cysteinyl leukotrienes in smooth muscles of the airways →inhibits inflammation responsible | SE: Abdominal pain, GI disturbance, Headache |
+
+
+---
+
+
+### Respiratory (ANU) — bronchiectasis — Obstructive Airway Disease
+
+| Definition | Irreversible dilatation of bronchial tree due to inflammatory destruction of elastic and muscular components of the airway walls |
+| --- | --- |
+| Aetiology | Combination of local infection/inflammation and either inadequate clearance, airway obstruction or impaired host defencesPULMONARY INFECTIONS: viral, bacterial (P.aeruginosa, S.aureus, H.influenzae, myobacteria), fungalIMPAIRED SECRETION CLEARANCE/MUCUS PLUGGING: cystic fibrosis, primary ciliary dyskinesia (Kartagener syndrome), allergic bronchopulmonary aspergillosisBRONCHIAL NARROWING/OBSTRUCTION: COPD, aspiration, tumoursIMMUNODEFICIENCYCHRONIC INFLAMMATORY DISEASES: RA, Sjogren, Crohn’s |
+| Pathophysiology | VICIOUS CYCLE HYPOTHESIS: Larger airways: loss of elastin, smooth muscle and cartilage leading to permanent dilatationSmaller airways: inflammatory process leads to airflow obstructionDamaged airways act as a nidus for subsequent colonisation and infection |
+| Presentation | Chronic productive cough with copious mucopurulent sputumRhinosinusitisRecurrent infectionDyspnoeaHaemoptysisDigital clubbing (uncommon)Pleuritic chest painFatigue/weight loss |
+| Investigations | ![](notes/images/respiratory-anu/img013.jpg) RESPIRATORY: clubbing, auscultation crepitations, wheezeBLOODS: WBC, ↑eosinophil (in bronchopulmonary aspergillosis)SPIROMETRY: ↓FEV1/FVCCHEST X-RAY: “tram track” lines, ↑ lung markingsHRCT: dilated bronchi with thickened walls, signet-ring appearance, tram track lines, ballooned cysts at end of bronchiSPUTUM CULTURESWEAT CHLORIDE: rule out CFBRONCHOSCOPY: visualise tumours, foreign bodies and can be used in combination with BRONCHOALVEOLAR LAVAGE (BAL) for staining and culture |
+| Treatment | General: smoking cessation, vaccinations (influenzae, pneumococcal), respiratory physiotherapy, aiway clearance therapyAntibiotics for infective exacerbationsInhaled corticosteroids or long-term macrolide for anti-inflammatory effectBrochodilator and hyperosmolar agentSevere: lobectomy, pulmonary artery embolisation (pulmonary haemorrhage), lung transplant |

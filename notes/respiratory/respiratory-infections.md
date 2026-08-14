@@ -1,8 +1,8 @@
 ---
 title: "Respiratory Infections"
 system: "Respiratory"
-sources: [Respiratory Master Notes]
-tags: [Respiratory, TB, NICE, CAP]
+sources: [Respiratory (ANU) — pneumonia, Respiratory (ANU) — tuberculosis, Respiratory Master Notes]
+tags: [Respiratory, TB, CURB, CAP]
 updated: "2026-08-14"
 ---
 
@@ -108,3 +108,105 @@ NICE pneumonia guideline (NG138, CAP/HAP, CURB-65, empirical antibiotics); BTS C
 *Companion to the Respiratory Finals Study Plan. Guideline anchors: **BTS Pleural Disease 2023**, **IASLC/UICC TNM 9th edition (in use from 1 Jan 2025)**, NICE lung cancer. Discriminator table + sources at the end of each section. ⚑ = changed from older textbooks. British/Australian spelling.*
 
 ---
+
+
+---
+
+
+### Respiratory (ANU) — pneumonia — Respiratory Infections
+
+| Definition | Inflammation of the alveolar spaces and/or the interstitial tissues of the lungsPRIMARY PNEUMONIA: no apparent pre-existing conditionsSECONDARY PNEUMONIA: Bronchial asthma, COPD, heart failure, cystic fibrosisViral URTI with bacterial superinfectionPost-obstructive pneumonia and/o anatomical abnormalitiesAspiration (aspiration pneumonia)COMMUNITY-ACQUIRED PNEUMONIA (CAP): acquired outside of a health care establishmentHOSPITAL-ACQUIRED PNEUMONIA (HAP): nosocomial with onset &gt; 48 hours after admissionTYPICAL PNEUMONIA: classic symptoms with lobar/bronchopneumoniaATYPICAL PNEUMONIA: less distinct classical symptoms and often unremarkable findings on auscultation and percussion. It manifests as interstitial pneumonia |
+| --- | --- |
+| Aetiology | COMMUNITY AQUIREDTypical: S. pneumoniae, H. influenza, S. aureusAtypical: mycoplasma pneumoniae, chlamydophila pneumoniae, legionella pneumophila, Coxiella burnettiiHOSPITAL ACQUIREDGram-negative: pseudomonas aeruginosa, EnterobacteriaceaeS. aureus or MRSAS. pneumoniaeIMMUNOCOMPROMISED PATIENTS: encapsulated bacteria, pneumocystis jirovecci, aspergillus fumigatus, candida, CMV, mycobacterium TbINFANTS: E.coli, GBS, Strep, pneumoniae, H.influenzae |
+| Risk Factors | Old age (&gt;65)ImmobilityChronic disease (cardiopulmonary, congenital e.g. cystic fibrosis)Immunosuppression (HIV, DM, alcoholism, medications) | SmokingTravelHigh-risk occupationRecent respiratory infection |
+| Pathogenesis | MICROBES INVADE THE LRT by inhalation, aspiration or oropharyngeal/gastric contents, haematogenous deposition (S. aureus in IVDU), local invasion from contiguous structures, and direct inoculation (stab wounds), and reactivationIMPAIRED HOST DEFENCES e.g. ciliary motion (smoker, CF), cough reflex (GORD, elderly), immunodeficiency (post-splenectomy, cancer, steroids DM, HIV), and aspiration problems This results in microbial infiltration of parenchyma → alveolar/interstitial inflammation → V/Q mismatch with right to left shunt → hypoxia |
+| Pathophysiology | ENGORGEMENT (4 – 12 HOURS):Serous pours into the alveolar spaces from leaking blood vessels, replacing the air with liquidCapillary leak results in dyspnoea and presence of crepitations on auscultationRED HEPATISATION (NEXT 48 HOURS):RBCs, WBCs and fibrin fill the lungLung assumes a red liver-like appearance due to increase in densityGREY HEPATISATION (3 – 8 DAYS):RBCs disintegrate, with persistence of neutrophils and fibrinLung assumes a grey appearanceRESOLUTION (7 DAYS TO WEEKS):Macrophages lyses the contents, restoring the original structure |
+| Patterns | Bronchopneumonia | ![](notes/images/respiratory-anu/img018.jpg) Extremes of lifeImmunocompromised patientsMultiple areas that follow bronchial tree distributionCan involve both lungs and/or ≥1 lobe of an individual lungPneumococci, streptococci, S. aureus |
+| Lobar pneumonia | ![](notes/images/respiratory-anu/img019.jpg) Young, healthy adultsSingle area of consolidation that affects a lobe of the lungSeldom affects ≥1 lungs and not usually bilateralPrimarily caused by pneumococci |
+| Interstitial pneumonia | AtypicalParticularly caused by mycoplasma and viral infections |
+| Miliary pneumonia | Multiple small infiltrations caused by haematogenous dissemination e.g. tuberculosis |
+
+**Presentation**
+
+TYPICAL
+
+- High fever and chills; malaise
+- Productive cough with purulent sputum
+- Pleuritic chest pain (which can project to epigastric region, particularly in children)
+- Respiratory exam: ↑HR, ↑RR,  lung percussion dullness, coarse wet inspiratory crackles, bronchial breath sounds, ↑ vocal resonance/fremitus, ↓ chest expansion
+
+ATYPICAL
+
+- Low fever, no chills
+- Non-productive, dry cough
+- Dyspnoea
+- Extrapulmonary: fatigue, headaches, sore throat, myalgias, eryhthema multiforme, auscultation often remarkable
+
+**Investigations**
+
+- BLOOD: ↑ESR, ↑CRP, BUN, leucocytosis, ↑procalcitonin, troponin/CK
+- ABG: rule out respiratory failure
+- SPUTUM/BLOOD CULTURE, PCR/ANTIBODY (chlamydia)
+- URINE: legionella antigen, pneumococcal antigen
+- CXR:
+- Lobar pneumonia: extensive opacity in one lobe, air bronchogram, unilateral pleural effusion
+- Bronchopneumonia: patchy infiltrates, air bronchogram
+- Atypical/interstitial: diffuse reticular opacity, absent (or minimal) consolidation)
+- Consider thorax CT, pleurocentesis, bronchoscopy
+
+**CURB-65 Criteria for Hospitalisation**
+
+- Confusion: disorientation, impaired consciousness
+- Urea ≥ 20 mg/dL
+- Respiratory rate ≥ 30/min
+- Blood pressure: systolic BP ≤ 90 mm Hg or diastolic BP ≤ 60 mm Hg
+- Age ≥ 65 years
+- Interpretation
+- Each finding is appointed 1 point; max. 5 points possible
+- CURB-65 score ≤ 1: Outpatient
+- CURB-65 score ≥ 2: Hospitalization
+- CURB-65 score ≥ 4: ICU
+
+**Treatment**
+
+- GENERAL
+
+- Rest with regular pulse oximetry monitoring
+- Physiotherapy to encourage cough
+- Supplemental O2
+- IVF to avoid dehydration
+- Medication: salbutamol, analgesia, antipyretics, mucolytics, anti-tussive (e.g. codeine)
+
+- EMPIRICAL TREATMENT WITH ANTIBIOTICS
+
+- Macrolide (azithromycin),
+- Doxycline
+- Fluoroquinolone (lecofloxacin, moxifloxacin)
+- Antipneumococcal beta-lactam (amoxicillin ± clavulanate; ceftriaxone; cefotaxime)
+- Antipseudomonal beta-lactam (tazobactam)
+- Add vancomycin if MRSA suspected
+
+**Complications**
+
+Pleuritis, pleural effusion, empyema, sepsis, respiratory failure, ARDs, lung abscess
+
+**Prevention**
+
+Pneumococcal and influenza vaccine, smoking cessation
+
+
+---
+
+
+### Respiratory (ANU) — tuberculosis — Respiratory Infections
+
+| Definition | Bacterial infection caused by Myobacterium Tuberculosis, typically affecting the lungs |
+| --- | --- |
+| Epidemiology | Globally, leading infectious cause of deathOverall incidence has been declining, despite one-third of the population affectedCountries with high incidence: India, Indonesia, China, Nigeria, Pakistan, South Africa |
+| Aetiology | MYCOBACTERIA TUBERCULOSIS Non-motile, aerobic, gram-positive, acid-fast (can survive gastric secretions) bacilli with Rich lipid cell wallSpread mostly via droplet contaminationMycobacterium bovis commonly for GI Tb, predominantly infected via contaminated cow’s milkTuberculous granulomaActivated macrophages and other immune cells surround the site of infectionCaseous necrosis Calcium deposits visible on x-rayRISK FACTORSImmunosuppressionDrug abuse and alcoholismMalnutritionDMPre-existing lung damage e.g. silicosis, COPDPoverty and congregate settings |
+| Classification | LATENT: asymptomatic infection contained by host immune defences (~95%)PRIMARY: symptomatic, active disease (~5%)SECONDARY: symptomatic reactivation of prev dormant TB at pulmonary/extra-pulmonary site |
+| Pathophysiology | Alveolar macrophages phagocytose the TB bacteria but cannot eliminate themBy hiding inside the macrophages, TB bacteria do not provoke humoral immune response and thus antibody detection tests play no role in the diagnosis of TBPhagocytosed M. tuberculosis can only be destroyed by activated T lymphocytesInfection usually contained in the lung by formation of caseating granulomas that limit damage to the lungs and bacterial disseminationThe bacteria may remain dormant in the granulomas for many years (latent TB)Immunosuppression (compromised T cell function) → dormant bacteria become active, replicate in the macrophages and spread into the lungs and other organs (active TB) |
+| Presentation | LATENT INFECTION: asymptomatic, non-contagiousACTIVE INFECTIONConstitutional: fever, weight loss, night sweats (“drenching”), fatigue, lymphadenopathyPulmonary (80%): dyspnoea, productive cough (possibly haemoptysis) lasting &gt; 3 weeksContagiousVariantsMiliary: lungs, abdominal organs, marrow, CNS with millet seed-like lesions in lung on CXRLymphadenitis, pleurisy, pericarditis, hepatitis, peritonitis, meningitis, osteomyelitis (vertebral = Pott’s disease), adrenal (causing Addison’s disease), renal, ovary, dermatological (lupus vulgaris primarily in the face) |
+| Investigations | LATENT TBWho? Those at risk of reactivation or who would benefit from treatmentMantoux skin test: 0.1mL purified protein derivative (PPD) injected intradermally into ventral surface lower armTest takes 4-6 weeks to become positiveLimited sensitivity and specificity (~70%) and can reveal prior TB exposure (doesn’t exclude active disease)False positives in those who have had BCG vaccine or are malnutritionedIFN-γ release assay (IGRA)Measures the level of IRN-γ expressed by T cells after coming into contact with M. tuberculosis using an ELISA test Results available within 24 hoursFewer false positives, as this test detects antigen NOT present in BCG vaccineACTIVE DISEASEMORNING SPUTUM: 3 consecutive days for acid-fast bacilli smear and cultureCXR: Reactivated disease: upper lobe cavitary lung lesionsPrimary TB: Nodular/alveolar infiltrates (middle/upper lobe in primary; apical in secondary)Cavitation uncommonHilar lymphadenopathyPleural effusions (unilateral, exudative)Ghon complex: sequele of primary Tb infection |
+| Management | General: airborne isolationEmpiric antibiotic therapy (RIPE): rifampicin, isoniazid, pyrazinamide, ethambutol for 2 months (SE: hepatotoxicity, peripheral polyneuropathy)Continuation phase: isoniazid + rifampicin for 4 monthsLatent Tb infection: Isoniazid monotherapy for 9 months in IGRA/PPD positivePost-exposure management: active treatment in IGRA/PPD positiveTb is a reportable disease to Public Health |
+| Prevention | BCG Vaccine: 80% effective against paediatric milliary Tb and meningeal Tb (effectiveness in adults debatable)Air-borne isolation for active pulmonary diseaseNotification to public health/workplacePost-exposure management |

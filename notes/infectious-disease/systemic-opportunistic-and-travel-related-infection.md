@@ -1,7 +1,7 @@
 ---
 title: "Systemic, Opportunistic and Travel-Related Infection"
 system: "Infectious Disease"
-sources: [Infectious Disease Master Notes]
+sources: [Infectious Disease (ANU) — TRAVELLER’S DIARRHOEA, Infectious Disease Master Notes]
 tags: [Systemic, PUO, TB, MRSA]
 updated: "2026-08-14"
 ---
@@ -190,3 +190,13 @@ Most acute gastroenteritis is self-limiting and managed with rehydration alone �
 | SIRS vs Sepsis-3 ⚑ | SIRS no longer part of the formal definition; sepsis = organ dysfunction (SOFA ≥2) from infection |
 | Primary vs secondary syphilis | Primary = painless chancre; secondary = disseminated rash incl. palms/soles |
 | Cellulitis vs necrotising fasciitis | Pain out of proportion + rapid spread + crepitus/necrosis → necrotising fasciitis, urgent surgery |
+
+
+---
+
+
+### Infectious Disease (ANU) — TRAVELLER’S DIARRHOEA — Systemic, Opportunistic and Travel-Related Infection
+
+| AETIOLOGY | Bacterial (80-90%): E.coli, Campylobacter, Shigella, Salmonella, Vibrio  Viral: norovirus, rotavirus, and astrovirus account for 5-8% Protozoal (rarely): Giardia, Entamoeba histolytica, Cryptosporidium, Cyclospora Pathogen-negative traveller’s diarrhea common despite exhaustive microbiological workup |
+| --- | --- |
+| TREATMENT | RehydrationTreat symptoms: anti-diarrhoea (e.g. loperamide)Empiric antibiotics: ciprofloxacin, azithromycin, rifaximin |

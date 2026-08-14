@@ -1,8 +1,8 @@
 ---
 title: "Endocrine Physiology"
 system: "Endocrine"
-sources: [Endocrine Master Notes]
-tags: [Endocrine, GH, PTH, ADH]
+sources: [Endocrine Master Notes, Endocrinology (ANU) — glucocorticoid excess]
+tags: [Endocrine, ACTH, GH, PTH]
 updated: "2026-08-14"
 ---
 
@@ -115,3 +115,22 @@ One rule governs every endocrine dynamic test:
 Guyton & Hall *Textbook of Medical Physiology* (endocrinology chapters); Greenspan's *Basic & Clinical Endocrinology*; Robbins & Cotran *Pathologic Basis of Disease* (endocrine system); Merck Manual Professional (principles of endocrinology). Second-messenger groupings and the calcium loop are standard physiology, cross-checked across the above.
 
 ---
+
+
+---
+
+
+### Endocrinology (ANU) — glucocorticoid excess — Endocrine Physiology
+
+| AETIOLOGY | Exogenous (iatrogenic) Cushing's syndrome (most common)Prolonged glucocorticoid therapy Endogenous Cushing's syndromePrimary hypercortisolism (ACTH-independent Cushing's syndrome which is 5-10% of endogenous)Adrenal AdenomasAdrenal carcinomas (more common in children)Secondary hypercortisolism (ACTH dependent)Pituitary ACTH production (Cushing's disease) (~ 75%) in pituitary adenoma (usually microadenoma) Ectopic ACTH production (~15%), seen in paraneoplastic syndrome (SCLC, RCC)  of ACTH secretion |
+| --- | --- |
+| MECHANISM OF CORTISOL | Cortisol is normally deactivated by the enzyme 11β-hydroxysteroid dehydrogenase in the epithelial cells of the renal tubule11β-hydroxysteroid dehydrogenase converts cortisol to cortisone (which has lesser mineralocorticoid activity)When cortisol levels surge (as occurs with ectopic ACTH production) the enzyme 11β-hydroxysteroid dehydrogenase becomes saturatedAs a result, cortisol that is not inactivated is free to bind to mineralocorticoid receptors causing hypertension and hypokalaemia |
+| PATHOGENESIS |  |
+| PRESENTATION(mneumonic SMENO) | SkinThin, easily bruisable skin with stretch marks (classically purple abdominal striae) and/or ecchymosesHirsutismAcneFlushing of the faceDelayed wound healing |
+| MSKOsteoporosis, osteopenia, fractures - due to inhibition of calcitriol synthesis Muscle atrophy/weakness - catabolic effect |
+| EndocrineWeight gain characterized by central obesity, moon facies, and a buffalo hump - relocation of fat from periphery to centreFemales: decreased libido, virilization, and/or irregular menstrual cycles through inhibition of GnRHInsulin resistance Dyslipidaemia |
+| Neuropsychological: Lethargy, depression, sleep disturbance, psychosis |
+| Other: Secondary hypertension (90% of cases) - mineralocorticoid effect, enhanced sympatheticInfectionsPeptic ulcer diseaseCataracts |
+| INVESTIGATIONS | ![](notes/images/endocrinology-anu/img024.jpg) Bloods: hyperNa+, hypoK+, metabolic alkalosis, hyperglycaemia, hyperlipidaemia (cholesterol and triglycerides), leukocytosis (predominantly neutrophilic), eosinopenia, thrombocytosisScreening Diagnostic tests24-hour urine cortisol - ↑cortisolLow-dose dexamethasone suppression test  - late night dexamethasone (suppresses ACTH) followed by morning serum cortisol level (still elevated)↑ midnight salivary cortisol↑ midnight serum cortisolIdentifying Primary versus SecondarySerum ACTH levelsIf low - suspect primary (adrenal adenoma - then do CT/MRI abdomenIf high suspect secondary and now must differentiate between Ectopic/Cushing's DiseaseHigh-dose dexamethasone suppression test Suppression (to &gt;50%) = Cushing's Disease (higher doses DO have the ability to suppress the adenoma)Nil suppression - ectopic ACTH production  CRH Stimulation test ACTH and cortisol levels increase further: Cushing's diseaseNo increase in ACTH or cortisol levels: ectopic ACTH production |
+| MANAGEMENT | EXOGENOUS Cushing's syndromeConsider lowering the dose of glucocorticoidsConsider the use of alternatives to glucocorticoids (e.g. azathioprine)ENDOGENOUS Cushing's syndromeSurgery (if operable disease)Pituitary adenoma: transsphenoidal resection of the pituitary adenoma ACTH-secreting ectopic tumour: resection of the ectopic foci (e.g. bronchial carcinoid)Inoperable disease: adrenocortical tumour (laparoscopic or open adrenalectomy)Drugs to suppress cortisol synthesis: metyrapone, mitotane, ketoconazole |
+| COMPLICATIONS | Cardiovascular disease, hypertension, diabetes mellitus, osteoporosis, nephrolithiasis |

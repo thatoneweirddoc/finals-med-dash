@@ -1,8 +1,8 @@
 ---
 title: "Key Differentials Quick-Reference (a view of the Phase-4 recognition summary — not authored separately)"
 system: "Gastroenterology"
-sources: [Gastroenterology Master Notes]
-tags: [Differentials, LFT, GI, UC]
+sources: [Gastroenterology Master Notes, General Surgery & Gastroenterology (ANU) — irritiable bowel syndrome]
+tags: [Differentials, GI, LFT, IBD]
 updated: "2026-08-14"
 ---
 
@@ -53,3 +53,16 @@ updated: "2026-08-14"
 *Companion to the Gastroenterology Finals Study Plan. Cross-checked against Guyton & Hall (physiology), Ganong, Gray's Anatomy / Last's Anatomy, Robbins & Cotran, and Kumar & Clark. Discriminator table + sources at the end of each section. British/Australian spelling. ⚑ = point where an older textbook is commonly out of date or guidance has recently changed.*
 
 ---
+
+
+---
+
+
+### General Surgery & Gastroenterology (ANU) — irritiable bowel syndrome — Key Differentials Quick-Reference (a view of the Phase-4 recognition summary — not authored separately)
+
+- DEFINITION: functional boweld isease; more than just a label for GI symptoms unexplained after rnormal investigations
+- CLINICAL PRESENTATION: stool habits alternating b/w diarrhoea and constipation, mucous in stool,  bloating, abdominal cramping, flatulence , often exacerbated by life stresses
+- INVESTIGATIONS: FBC, ESR (exclude IBD), TTG coeliac disease, stool studies MCS/OCP, colonoscopy
+- MANAGEMENT: lifestyle modification, dietary modification, cognitive therapy
+
+rectum and anus

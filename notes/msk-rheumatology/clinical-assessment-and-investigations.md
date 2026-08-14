@@ -1,8 +1,8 @@
 ---
 title: "Clinical Assessment & Investigations"
 system: "MSK & Rheumatology"
-sources: [MSK & Rheumatology Notes]
-tags: [Clinical, SLE, RA, CRP]
+sources: [MSK & Rheumatology Notes, Orthopaedics (SNEHA) — Examination of radiographs, Orthopaedics (SNEHA) — inflammatory joint diseases, Rheumatology & Immunology (ANU) — PLASMA PROTEINS ASSOCIATED WITH INFLAMMATORY REACTIONS (play a role in innate immunity), Rheumatology & Immunology (ANU) — systemic-onset juvenile idiopathic arthritis (still’s disease)]
+tags: [Clinical, RA, SLE, CRP]
 updated: "2026-08-14"
 ---
 
@@ -144,3 +144,127 @@ Uveitis/red eye (spondyloarthropathy, sarcoid), psoriasis/nail pitting (PsA), or
 
 ##### Sources
 Kumar & Clark *Clinical Medicine*; Oxford Handbook of Clinical Medicine (autoantibody and synovial-fluid tables); Robbins (antibody–disease associations); StatPearls (synovial fluid analysis, ANCA); Versus Arthritis / Arthritis Research UK REMS & GALS resources. Synovial-fluid WCC thresholds (>50,000 supporting septic arthritis, with the caveat that no cut-off reliably excludes it) are consistent across StatPearls and Oxford Handbook; crystal birefringence directions cross-checked in ≥2 sources. DEXA T-score threshold (WHO −2.5) confirmed in bone-health guidance.
+
+
+---
+
+
+### Orthopaedics (SNEHA) — Examination of radiographs — Clinical Assessment & Investigations
+
+AP and lateral films 🡪 look at each radiograph from a wide to medium to close up look.
+
+- Bone – normal shape, size, contour or are they thicker or thinner than normal, shorter/longer or abnormally curved
+- Joints – bony components in correct alignment or displaced / angled
+- Bone texture – paget’s disease, avascular necrosis, osteoporosis, new bone formation.
+- Contours of bone – contours of bine, noting any abnormality en route. Make a list on an anatomical base: assess ligamentous attachments, joint margins, the joint space and the cortical and cancellous bone elements.
+- Comparison films
+- Oblique projections
+- Localized views
+- Stress films - radiograph of the joint in use.
+
+#### FURTHER INVESTIGATIONS
+
+Additional screening tests include:
+
+- ESR, CRP
+- FBC with differential
+- Rheumatoid factor and anti-CCP
+- Serum calcium, phosphate and alp
+- Serum uric acid
+- Chest x-ray
+- Synovial fluid aspiration for MCS, gram stain, micrscopy for monosodium urate crystals and pyrophosphate crystals.
+
+Additional imaging techniques
+
+- CT scans
+- AP and lateral tomography
+- MRI scans
+- Ultrasound - fluid? Haemarthrosis, pyarthrosis.
+
+Functional imaging techniques
+
+- Technetium bone scans – 99mtc-methylene diphosphonate) 🡪 sensitive to areas of unusual bone rebuilding activity since it is taken up by osteoblast cells. 🡪 sensitive to fractures and bone tumors, including metastases
+- SPECT (single-photon electron 🡪 better localization and assessment of an active area discovered by a technetium bone scan
+- PET (flurodeoxyglucose positron emission tomography)
+
+
+---
+
+
+### Orthopaedics (SNEHA) — inflammatory joint diseases — Clinical Assessment & Investigations
+
+Hyaline cartilage is composed of type 2 collagen, water, proteoglycans and chondrocytes.
+
+- Collagen: resist tensile stresses and transmit force
+- Water &amp; proteoglycans: turgor and elasticity
+- Chondrocytes: synthesis and digest matrix; secrete degrading enzymes in an inactive form and enrich matrix with enzyme inhibitors
+
+Diseases that destroy articulate cartilage do so by activating catabolic enzyme, decreasing inhibitors 🡪 accelerated rate of matrix breakdown. Cytokines such as il-1 and TNF trigger the degradative process; their sources include chondrocytes, synoviocytes, fibroblasts, and inflammatory cells. Destruction of articular cartilage by indigenous cells is an important mechanism in many joint diseases.
+
+| Inflammatory arthritis |
+| --- |
+| Rheumatoid arthritis | Autoimmune disorder targeting the joint synoviumChronic synovitis and pannus formation lead to articular surface degeneration and eventually joint destructionWomen 3:1; labs: +rf, hla-dr4; monocytes mediate the disease effectMultiple extra-articular manifestations: ocular, skin nodules, vasculitisCharacterized by warm, painful joints with progressive deformity (e.g., ulnar deviation of fingers)Radiographic findings: 1. Joint space narrowing, 2. Osteopenia, 3. Bone/joint erosionTreatment: primarily medical until advanced stages necessitate surgical reconstruction |
+| Gout | Monosodium urate crystal deposition in joint/synoviumLabs: elevated serum uric acid; synovial analysis: negatively birefringent crystalsTypical presentation: monoarticular arthritis (1st mtpj #1 site); symptoms can be self-limitingTreatment consists of indomethacin (nsaid) &amp; colchicine |
+| Pseudogout | Deposition of calcium pyrophosphate dihydrate crystals (cppd) in the jointChondrocalcinosis (calcification of cartilage) can also occur (e.g., calcification of meniscus)Monoarticular arthritis in older patient is typical presentation; women&gt;menSynovial analysis shows weakly positive birefringent crystals |
+| Psoaratic Arthritis | History: asymmetrical poly-articular joint pain and stiffness, swelling of fingers, morning stiffness, psoriatic overlying skin changes (dryness, rash), DIP joints,  better with activity,Physical signs: nail pitting (mimic fungal infection), ridges, onycholysis, rash, sausage fingers |
+| Reactive Arthritis | Aeitology: post chlamydia or GI infection arthritis, knee and ankle joints Reiter's syndrome  - Triad: urethritis, conjunctivitis, arthritis.Presentation: asymmetrical arthritis, Pain in morning, swelling, redness, warmth, constitutional symptoms Labs: +hla-b27Management: steroids, NSAIDs |
+
+| OSteoarthritis |
+| --- |
+| Definition | Degenerative joint disease involving degradation of joints, including articular cartilage and subchondral bone |
+| Aeitology | Genetics: collagen defects, proteoglycan defects, enzyme Biomechanics: occupation, sport, muscle bulk Inflammation |
+| Anatomy | Articular Cartilage 65 – 80% water, of which is in gel formCollagen types ii (predominant), ix and xi form string bag which holds proteoglycans and water gelHyaluronan binds aggrecan molecules that attract water, keeping them all within the collagen meshObtaining nutrients:During compression – water exudes outDuring relaxation – system springs back, and hence water from synovial fluid, along with new nutrients, come into the cartilageShock absorber:Fluid changes shape within the cartilage, acting to absorb the pressure of movement |
+| Pathogenesis | There is a failure in maintaining the homeostatic balance of the cartilage matrix synthesis and degradationMatrix metalloproteinase are enzymes that catalyse both collagen and proteoglycan degradation, and are found in increased concentrations in osteoarthritic cartilageOsteoarthritic process involve not only the cartilage, but also other joint structures, leading to:Irregular thickening and remodelling of subchondral bone with sclerosis and cystsCapsular thickening and fibrosisLoss of volume of articular cartilageSynovial inflammationOsteophytosis and soft tissue growth at joint marginCommonly affects:Small joints – dip, pip, base of thumbWeight-bearing joints – spine, hips and kneesEarly OA – chondrocytes proliferate, secrete inflammatory mediators, collagens and proteoglycans and proteases 🡪 remodel cartilaginous matrix and initiate secondary inflammatory changes in synovium and subchondral boneLate OA – repetitive injury and chronic inflammation lead to chondrocyte drop out, marked loss of cartilage and extensive subchondral bone changes |
+| presentation | Risk factors: age&gt;50, female, obesity, physical/manual labourHistory: deep achy pain, functional difficulties, insidious osnet, morning stiffnessOsteophytes may impinge on spinal foramina 🡪 cervical and lumbar nerve root compression  🡪 radicular pain, muscle spasms, muscle atrophy, neurological deficitsExam: boney deformities, limited ROM, crepitus, effusion |
+| Investigations | X-ray of affected joints:New bone formation (osteophytes)Joint space narrowingSubchondral sclerosis and cystsSerum CRP and ESR: Should be normal in OAUsed to rule out inflammatory arthritis |
+| DDx | Bursitits, gout, pseudogout, RA, psoriatic arthritis |
+| Management | Protection of affected joints from overloadingWeight loss, use of walking sticks, off-loading bracesStrengthen supporting muscles around joints:PhysiotherapyImprove joint function:Hyaluronic acid injectionGlucosamine, chondroitin sulphate, fish oilSome people experience mild to moderate pain reliefIf benefits not seen within 8 weeks, then not likely to be beneficialPain reliefAnalgesics or NSAIDs or opioidsIntra-articular steroid injections every 6-12 weeksSurgical treatmentNon-arthroplasty: osteotomy, athrodeiss, excision, cartilage implantation, stem cell therapy Athroplasty: TKA, hemi-arthroplasty |
+| Complications | Functional decline and inability to perform activities of daily lifeSpinal stenosis in cervical and lumbar oaCan cause neurogenic claudication, which is characterised by back and leg painNsaid-related gi bleeding or renal dysfunction |
+
+| Rheumatoid arthritis |
+| --- |
+| Definition | Chronic inflammatory arthropathy primarily affecting small joints of the hands and feet |
+| Pathophysiology | Inflamed synovium is central, and shows:Increased angiogenesisCellular hyperplasiaInflux of inflammatory cellsThis very inflammatory setting, when not treated, leads to the eventual destruction of the involved jointPathology leads to:Synovial pannusArticular cartilage and subchondral bone destructionJoint space obliterationReplacement by fibrous and granulation tissueLoose of cartilage fragments (rice bodies)Inflammation can also affect various organs of the body |
+| Presentation | Risk Factors: old age, female, smoking (weak)History: Joint painMorning stiffnessPleuritic chest pain – pleurisy or pleural effusionsClinical course is extremely variable.Worsening pain and disabilityDisease begins slowly and insidiouslyEarly RA: malaise, fatigue, and generalized MSK pain Joints: symmetrical and small joints usually, progresses to larger jointsSwollen, warm, painful and particularly stiff with activity Exam: Joint swellingRheumatoid nodulesScleritis and/or uveitis – inflammatory effect on eyeVasculitic lesions – some sort of vasculitisCharacteristic Hand Findings ![](notes/images/orthopaedics-sneha/img022.jpg)  ![](notes/images/orthopaedics-sneha/img023.jpg) |
+| ACR Criteria | Morning stiffness &gt; 1 hourSoft tissue swelling &gt; 3 jointsSwelling of hand joints (pip, mcp, wrist)Symmetrical soft tissue swellingSubcutaneous nodulesSerum rheumatoid factor (cp antibodies)Erosions or periarticular osteopenia in hand or wrist joints on x-ray (1 – 4 for greater than 6 weeks continuous) |
+| Investigations | Rheumatoid factor:Highly sensitive, but not specificAround 70% of patients with ra are positive for rheumatoid factorAnti-cyclic citrullinated peptide (anti-ccp) antibody:Helpful in rheumatoid factor negative patientsAround 70% of patients with ra are positive for anti-ccp antibodyX-rays and bone scans:Uniform joint space narrowingErosionsSoft-tissue swellingPeri-articular osteopenia |
+| Management | DmardsSulfasalazineGold compoundsPenicillamineHydroxychloroquineMethotrexateGlucocorticoidsLeplunomideNSAIDSOther recommendationsIf a combination of dmards do not reduce symptoms, then biological dmards may be required:AnakinraEtanerceptInfliximabIf disease cannot be controlled via pharmacological means, a joint replacement is an option |
+| Complications | Felty’s syndrome – RA + neutropenia + splenomegalyWork disabilityIncreased coronary artery disease |
+
+![](notes/images/orthopaedics-sneha/img024.jpg)
+
+![](notes/images/orthopaedics-sneha/img025.jpg)
+
+![](notes/images/orthopaedics-sneha/img026.jpg)
+
+
+---
+
+
+### Rheumatology & Immunology (ANU) — PLASMA PROTEINS ASSOCIATED WITH INFLAMMATORY REACTIONS (play a role in innate immunity) — Clinical Assessment & Investigations
+
+- ACUTE PHASE PROTEINS: liver releases 30 acute-phase reactants, including CRP, ferritin, fibrinogen, α1-antitrypsin, haptoglobin, procalcitonin, IL-6
+- NOTABLE NEGATIVE ACUTE PHASE REACTANTS: albumin, transferrin, anti-thrombin
+- COMPLEMENT SYSTEM: after stimulation from Ab-complexes by pathogens → compliment activation →enhance functions of antibodies and phagocytesClassical pathway: IgM or IgG binds to pathogen (via C1)
+- Alternative pathway: direct activation by pathogen rather than Ab-Ag complexes (via C3)
+- Causes: opsonisation (C3), bacteria lysis (C5-9) and activation of mast cells/granulocytes (C3/C4/C5)
+
+- PRO-INFLAMMATORY CYTOKINESIFN-α: ↑MHC I expression
+- IFN-β: stimulates NK cells and cytotoxic
+- IFN-γ: activated macrophages
+- TNF-α: pyrogenic, cytotoxic, mediates septic shock
+- Interleukins: IL-1, 2, 4, 6
+- Arachidonic acid derivatives: PGE2/PGI2 increases pain sensation, vasodilation, and inhibits platelet aggregation and  leukotrienes which cause chemotaxis, exudation and bronchoconstriction
+
+
+---
+
+
+### Rheumatology & Immunology (ANU) — systemic-onset juvenile idiopathic arthritis (still’s disease) — Clinical Assessment & Investigations
+
+- Commonly affects children between the ages of 2–4 years
+- Arthritis involving ≥ 1 joint
+- Intermittent fever that lasts for at least 2 weeks with fever spikes occurring on at least 3 consecutive days
+- ≥ 1 extra-articular manifestation (e.g., salmon-pink rash, lymphadenopathy, splenomegaly/hepatomegaly, serositis)
+
+crystal-induced arthropathies

@@ -1,8 +1,8 @@
 ---
 title: "Endocrine Anatomy"
 system: "Endocrine"
-sources: [Endocrine Master Notes]
-tags: [Endocrine, III, ACTH, LH]
+sources: [Endocrine Master Notes, Endocrinology (ANU) — Hypothalamus, Endocrinology (ANU) — Pituitary Gland (hypophysis), Endocrinology (ANU) — anatomy of thyoid gland, Endocrinology (ANU) — types of endocrine cells]
+tags: [Endocrine, ANU, III, ACTH]
 updated: "2026-08-14"
 ---
 
@@ -101,3 +101,61 @@ Gray's Anatomy for Students; Moore's *Clinically Oriented Anatomy*; Langman's *M
 *Companion to the Endocrine Finals Study Plan. Interpretation-heavy section — the logic here recurs in every endocrine data-interpretation question. Cross-checked against Greenspan's *Basic & Clinical Endocrinology*, the Endocrine Society clinical practice guidelines, and Merck Manual Professional; specific dynamic-test thresholds confirmed against current guidance. Discriminator table + sources at the end. British/Australian spelling. ⚑ = point where an older textbook is commonly out of date.*
 
 ---
+
+
+---
+
+
+### Endocrinology (ANU) — types of endocrine cells — Endocrine Anatomy
+
+- ![](notes/images/endocrinology-anu/img003.jpg)
+Islets of Langerhans are distributed throughout the exocrine pancreas
+- Only comprise of 1% of the total pancreas, but richly nourished by the blood supply
+- Three cell types:
+- α (20%) – glucagon
+- β (70%) – insulin
+- δ (10%) – somatostatin
+- Proinsulin (the precursor to insulin) is made up of three chains; A and B connected by a C chain
+- To make insulin, the C-peptide is cleaved and A and B joined together
+
+
+---
+
+
+### Endocrinology (ANU) — anatomy of thyoid gland — Endocrine Anatomy
+
+![](notes/images/endocrinology-anu/img007.jpg)
+
+![](notes/images/endocrinology-anu/img008.jpg)
+
+- Bilateral lobes connected by the isthmus
+- Important surrounding structures: internal jugular vein, oesophagus, recurrent laryngeal nerves
+- Vascular supply
+- Arterial – superior and inferior thyroid arteries
+- Venous – superior, middle and inferior thyroid veins
+- Structure: within each lobe, there is a matrix of septae, composed of around 20 – 40 evenly spaced dispersed follicles which synthesise and secrete the thyroid hormone. A ring of follicular cells surround colloid, a highly proteinaceous material that stores thyroid hormone (thyroglobulin). There are also parafolluclar C-cells that produce calcitonin that ↓ bone resorption of Ca2+ and thus↓serum Ca2+, opposing the effects of PTH
+
+
+---
+
+
+### Endocrinology (ANU) — Hypothalamus — Endocrine Anatomy
+
+- Ventral part of the diencephalon (forebrain) composed of several nuclei
+- Regulates hormonal pathways and autonomic functions e.g. control of body temperature and food intake
+- Hormones of the hypothalamus mostly affect hormonal secretion of the anterior pituitary gland.
+- There are two types of hormones
+- Releasing hormones (increase hormonal secretion from the pituitary gland)
+- Inhibiting hormones (decrease hormonal secretion from the pituitary gland)
+
+
+---
+
+
+### Endocrinology (ANU) — Pituitary Gland (hypophysis) — Endocrine Anatomy
+
+- Small bean-shaped organ in the midline depression of the sphenoid bone (sella turcica) in the middle cranial fossa
+- Connects to the hypothalamus through the pituitary stalk (infundibulum)
+- Divides into two parts:
+- Anterior pituitary gland (adenohypophysis)
+- Posterior pituitary gland (neurohypophysis)

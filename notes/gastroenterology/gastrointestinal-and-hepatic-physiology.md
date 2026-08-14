@@ -1,7 +1,7 @@
 ---
 title: "Gastrointestinal & Hepatic Physiology"
 system: "Gastroenterology"
-sources: [Gastroenterology Master Notes]
+sources: [Gastroenterology Master Notes, General Surgery & Gastroenterology (ANU) — GASTROINTESTINAL STROMAL TUMOUR]
 tags: [Gastrointestinal, ECL, CCK, GLP]
 updated: "2026-08-14"
 ---
@@ -121,3 +121,18 @@ The liver has a **dual blood supply** — ~75% from the **portal vein** (nutrien
 Guyton & Hall *Textbook of Medical Physiology* and Ganong (secretion, motility, gut hormones, absorption, bilirubin); Kumar & Clark *Clinical Medicine* (clinical correlation); Robbins & Cotran (hepatic zonation, injury patterns). Stable physiology — not web-searched.
 
 ---
+
+
+---
+
+
+### General Surgery & Gastroenterology (ANU) — GASTROINTESTINAL STROMAL TUMOUR — Gastrointestinal & Hepatic Physiology
+
+- Most common mesenchymal neoplasm of GI tract
+- Derived from interstitial cells of Cajal (Auerbach’s plexus 🡪 autonomous pacemaker function 🡪 peristalsis)
+- RISK FACTORS/AETIOLOGY: tyrosine kinase mutations (75-80%), Type IA neurofibromatosis, Carney’s triad
+- Most common in stomach (50%), proximal SI (25%) but can occur anywhere along GI tract
+- SIGNS/SYMPTOMS: vague abdominal mass, feeling of abdominal fullness with secondary bleeding or anaemia
+- Often incidental finding on CT, laparotomy, endoscopy
+- TREATMENT: Surgical resection (resection &gt; 2cm, endoscopy &lt;2cm), localised GIST (surgical resection, lymphadenectomy, adjuvant chemo with Imatinib), advanced disease (palliative intent chemo Imatinib, metastectomy)
+- PROGNOSIS: Metastatic potential depends on tumour size (&gt;10cm), mitotic activity (&gt;5 figures), nuclear pleomorphism, location (extra-gastric location); metastases to liver, omentum, peritoneum, nodal

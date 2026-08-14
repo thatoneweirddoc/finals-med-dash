@@ -1,8 +1,8 @@
 ---
 title: "Neuropharmacology and Key Medications"
 system: "Neurology"
-sources: [Neurology Master Notes]
-tags: [Neuropharmacology, MS, MG, GBS]
+sources: [Neurology (ANU) — multiple sclerosis, Neurology Master Notes]
+tags: [Neuropharmacology, MS, MG, MRI]
 updated: "2026-08-14"
 ---
 
@@ -508,3 +508,23 @@ BNF and the Australian Medicines Handbook — doses, cautions and monitoring. NI
 *Parent files: `neurology_notes_part1_physiology_anatomy.md`, `part2_assessment`, `part3_cerebrovascular`, `part4_emergencies`, `part5_seizures_headache`, `part6_demyelination_infection`, `part7_movement_neurodegeneration`, `part8_neuromuscular_spinal`, `part9_neurooncology_functional`, `part10_pharmacology`, plus `neurology_study_plan.md` and `neurology_anatomy_sheet.svg`.*
 
 ---
+
+
+---
+
+
+### Neurology (ANU) — multiple sclerosis — Neuropharmacology and Key Medications
+
+| Definition | Chronic inflammatory disease of the CNS, characterised with relapsing remitting/progressive neurological Sx due to inflammation, demyelination + axonal degenerationMostly in cord, brainstem and optic nerve lesions |
+| --- | --- |
+| Epidemiology | W:M=2:1, typically presents between 20- 40 y/o |
+| Pathology | CARDINAL FEATURES: plaques of demyelination in CNS white matter (and sometimes grey matter)INFLAMMATORY: infection/metabolic stress 🡪 activated lymphocytes in periphery 🡪 T cells attach to receptor on endothelial cells 🡪 CNS 🡪 cytokines 🡪 toxicity + macrophages 🡪 demyelinationDEGENERATION: demyelination 🡪 disrupts axonal support 🡪 axonal degeneration and lossChronically, scarring with glial changes and axonal loss occurs |
+| Classification | ![](notes/images/neurology-anu/img032.jpg) RELAPSING-REMITTING (RRMS): 65%; multiple discrete attacks, improvement between episodes being variable; may become secondary progressiveSECONDARY PROGRESSIVE (SPMS): following a relapsing-remitting pattern for years, a patient may cease having defined relapses, although deficits may slowly worsen.PRIMARY PROGRESSIVE (PPMS): associated with an inexorable ↓ in function over time without any of the typical relapses.PROGRESSIVE-RELAPSING (PRMS): distinct relapse episodes with or without resolution of acute symptoms between attacks |
+| Aetiology | GENETIC: polygenetic, particularly susceptive is the HLA DRB1; FHxENVIRONMENTAL: ↓ sun exposure, ↓ vitamin D stores, viruses (e.g. EBV) |
+| Diagnosis | MCDONALD CRITERIADissemination in time: ≥ 2 attacks, simultaneous asymptomatic gadolinium-enhancing and non-enhancing MRI lesions at any time, or new T2/gadolinium-enhancing lesion(s) on follow-up MRIDissemination in space: ≥1 T2 lesions on MRI in 2/4 CNS regions (periventricular, juxtacortical, infratentorial, spinal cord) or developing a second attack that implicates a different CNS region |
+| Presentation | ≥ 2 distinct episodes of demyelination, typically insidious onsetTypical presentation: vertigo, diplopia, nystagmusSENSORY LOSS of vibration, proprioception, pain + light touch (not conform to dermatomal map)Numbness, pins &amp; needles, ↓ vibration sense, facial pain, dysphagiaEYE Optic neuritis: commonly unilateral eye pain, worse on movement and in heat (Uhthoff’s sign)Other: blurry vision, visual loss, diplopia Marcus Gun pupil (relative afferent pupillary defect), papillitis (optic disc swelling), optic atrophy, nystagmus FATIGUEBOWEL/BLADDER/SEXUAL DYSFUNCTIONPAIN: trigeminal neuralgia, Lhermitte’s sign (electric shock sensation radiating down the back with neck flexion), back pain, tonic spasms, heightened sensitivityUMN SIGNSVERTIGOCEREBELLAR: gait, discoordination, dysarthria, dysmetria, tremors, dysdiadochokinesiaDEPRESSION and COGNITIVE DYSFUNCTIONSPMS: classically weakness of legs with cerebellar impairments in armsUncommon symptoms: visual field defects, aphasia, apraxia, progressive hemiparesis |
+| MS Eponyms | Devic’s syndrome: neuromyelitis opticaLhermitte’s signUhthoff’s phenomenonCharles Bonnett syndrome (rare): ↓ acuity/temporary blindness, complex visual hallucinationsPulfrich effect: unequal eye latencies 🡪 disorientationArgyll Robertson pupil: pupil constricted, unreactive to light, reacts to accomodation |
+| Investigations | Diagnosis: requiring dissemination of CNS-demyelinating lesions in both space and timeMRI: demyelinated plaques, appearing as hyperintense lesions on T2-weighted MRIActive lesions- enhancement with gadoliniumIn typical locations (four aforementioned)Dawson’s fingers: periventricular lesions extending into corpus callosumif MRI inconclusive,CSF: oligoclonal bands in 90%,↑IgG concentrationEvoked potentials (visual/auditory/somatosensory): delayed but well-preserved wave formsBlood tests: exclude other inflammatory disorders ![](notes/images/neurology-anu/img033.jpg) MRI: FLAIR transverse image shows three periventricular white matter hyperintensities, and one subcortical hyperintensity in the frontal lobe (arrows) |
+| Management | LIFESTYLE AND SOCIAL: multidisciplinary team, exercise, smoking cessation, avoiding stressors, support groups, psychosocial issuesFIRST/ACUTE ATTACKS: glucocorticoids (first-line; methylprednisolone 0.5-1g/24h IV/PO for 2-5d; use maximum twice/year), plasma exchange (second-line)DISEASE MODIFYING DRUGS: ↓ relapse, ↓ progression, ↓ speed of MRI lesion accumulationFor relapsing-remitting MS: Deimethyl fumarate for mild-mod; monoclonal antibodies (alemtuzumab, natalizumab) SYMPTOM CONTROLSpasticity: baclofen (GABA agonist)/gabapentin (first line); tizanidine/dantrolene (second line); benzodiazepines (third line)Urgency/frequency: self-catherization, anti-muscarinic (tolterodine), anticholinergicFatigue: amantadine, CBT, exerciseTremor: botulinum toxin injectionsPain: analgesics, carbamazepine (neuralgia) |
+| Complications | BROWN-SÉQUARD SYNDROME: due to MS/trauma involving complete hemisection of spinal cord 🡪 involves anterolateral + DCML pathways 🡪 ↓ motor function, light touch, proprioception, vibration of ipsilateral side below lesion + ↓ pain, temperature on contralateral side a few vertebral spaces below lesion DCML PATHWAY: ipsilateral ↓of tactile sensation and proprioceptionSPINOTHALAMAIC PATHWAY: contralateral ↓ of pain and temperature sensationDESCENDING MOTOR TRACTS: causing ipsilateral hemiparesis |
+| Prognosis | GOOD PROGNOSTIC INDICATORS: female, young, RRMS, presenting with optic neuritis, low burden of disease on initial MRI, low rate of relapse early in disease  PPMS: poor prognosis, higher rates of disability, poor response to therapy |

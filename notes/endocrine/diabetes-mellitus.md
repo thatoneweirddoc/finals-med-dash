@@ -1,8 +1,8 @@
 ---
 title: "Diabetes Mellitus"
 system: "Endocrine"
-sources: [Endocrine Master Notes]
-tags: [Diabetes, NICE, CKD, GLP]
+sources: [Endocrine Master Notes, Endocrinology (ANU) — type 1 diabetes mellitis, Endocrinology (ANU) — type 2 diabetes mellitus]
+tags: [Diabetes, GLP, NICE, OGTT]
 updated: "2026-08-14"
 ---
 
@@ -95,3 +95,70 @@ updated: "2026-08-14"
 **NICE NG28** (type 2 diabetes management — updated first-line dual therapy); ADA *Standards of Care in Diabetes*; WHO diagnostic criteria; NICE NG17 (type 1). Updated first-line dual therapy, SGLT2i cardiorenal role and closed-loop technology flagged ⚑ and cross-checked against current NICE/ADA guidance.
 
 ---
+
+
+---
+
+
+### Endocrinology (ANU) — type 1 diabetes mellitis — Diabetes Mellitus
+
+| DEFINITION | Metabolic disease characterised by chronic hyperglycaemia due to auto-immune destruction of pancreatic β cells, leading to absolute insulin deficiency |
+| --- | --- |
+| EPIDEMIOLOGY | Usually &lt;30 years of ageMore common in Caucasians (Less common in Asians, Hispanics, Aboriginals and Blacks)Accounts for 5-10% of all DM |
+| AETIOLOGY | 1) AUTOIMMUNE Associated with HLA-DQ and HLA-DR gene polymorphismsIn susceptible patients environmental factors (usually a viral infection) → autoantibodies → immune-mediated (Type IV Hypersensitivity) destruction of pancreatic β cells by autoreactive T cells → symptomatic when 80-90% β cells have been destroyed → absolute insulin deficiency → glucose is unable to enter cells via GLUT-4 → hyperglycaemia in blood but hypoglycaemia in cell  ![](notes/images/endocrinology-anu/img005.jpg) Up to 90% of patients will have islet cell antibodies to at least one of 3 antigens:Glutamic acid decarboxylase (GAD)Tyrosine phosphatase-2 protein (IA2)Insulin (IAA)In response, the body secretes counter-regulatory hormones to intracellular hypoglycaemia:Glucagon: promotes gluconeogenesis and glycogenolysisAdrenaline: promotes glucagon secretion and lipolysis of adipose tissueCortisol: promotes gluconeogenesis and decreases GLUT-4 translocationGrowth hormone: promotes gluconeogenesisThis causes blood hyperglycaemia which cannot enter the cellChronic hyperglycaemia leads to the production of:Advanced glycosylated end-products: non-enzymatic glycosylation of proteins e.g. haemoglobinIntracellular fructose: glucose metabolised by aldose reductase to sorbitol and eventually fructose in cells that do not require insulin for glucose transport (e.g. nerves, kidney, lenses and blood vessels)Reactive oxygen species, TGF-β and VEGF2. IDIOPATHICRare, with stronger genetic component and increased incidence in African/AsiaNOTESCoeliac, AI thyroid disease, MG and pernicious anaemia share HLA-DQ2 genotype with TMD1Onset related to: congenital rubella syndrome, enteroviruses. Vitamin D may be protective |
+| PRESENTATION | Polyuria and polydipsia: serum hyperglycaemia → renal osmotic excretion → ↑ urine productionPolyphagia and weight loss: cellular hypoglycaemia → ↑ energy production by lipolysisNon-specific: fatigue, visual disturbances (blurred vision), calf cramps, poor wound healing (e.g. recurrent cellulitis, candidiasis etc.), pruritis, abdominal (pain, N/V) |
+| INVESTIGATIONS | Random plasma glucose:&gt;11.1 mmol/L, with presence of symptoms of polyuria, polydipsia, unexplained weight lossFasting plasma glucose:No caloric intake for at least 8 hoursPositive for diabetes if &gt;7.0mmol/LHbA1c:Reflects degree of hyperglycaemia over preceding 3 monthsAllows monitoring of patient’s control over their diabetesGAD, IA2 and IAA autoantibodiesC peptide↓ levels indicate absolute insulin deficiency → T1DMUrine analysisMicroalbuminuria (diabetic nephropathy), glucosuria, ketone bodies (DKA) |
+| DIAGNOSTIC CRITERIA |  | Diabetes mellitus | Pre-diabetes | Healthy |
+| Fasting plasma glucose (FPG) in mg/dL (mmol/L) | ≥ 126 (≥ 7.0) | 100–125 (5.6–6.9)Impaired fasting glucose | &lt; 100 (&lt; 5.6) |
+| 2-hour glucose value after OGTT  in mg/dL (mmol/L) | ≥ 200 (≥ 11.1) | 140–199 (7.8–11.0)Impaired glucose tolerance | &lt; 140 (&lt; 7.8) |
+| HbA1c in % | ≥ 6.5 | 5.7–6.4 | &lt; 5.7 |
+
+- Presence of classic symptoms (polyuria, polydipsia, polyphagia, weight loss, blurry vision, nocturia, ketonuria) PLUS RBG ≥ 11.1 mmol/L
+- On at least two separate occasions:
+- FPG ≥ 7.0 mmol/L (fasting = no caloric intake for at least 8 h)
+- 2 hour 75 g OGTT ≥ 11.1 mmol/L
+- RPG ≥ 11.1 mmol/L
+- HbA1c ≥6.5%
+
+MANAGEMENT
+
+| Individual treatment target | Blood glucose control and regular glycemic monitoring (HbA1c)Blood pressure controlImproved lipid profile |
+| --- | --- |
+| Lifestyle modification | Consultation with dietician, endocrinologist, support teamDiet: ↓ fats, sodium, alcohol, caffeine, carbohydrates, smokingExerciseSelf-management education |
+| Medical Treatment | INSULIN THERAPYUsed at onset of diagnosisPrinciples: Exogenous insulin depends on the residual insulin production of the pancreasThe initial total daily dose of insulin should be 0.6–1.0 U/kgAfter beginning insulin Tx, there is often a temporary↓ in exogenous insulin demandRoutes: Subcutaneous injections: inject at different sites to prevent lipodystrophy (which ↓ absorption)Continuous subcutaneous insulin infusion pumpIV infusion (regular insulin only)Conditions that require insulin adjustments: physical activity, illness, stress, changes in diet, surgeryRegimensConventional: fixed regimen of insulin injections: usually twice daily injection of insulin (mixture of 30% regular insulin and 70% intermediate insulin) with self-monitoring of blood glucose levelsIntensiveBasal-bolus regimen: basal insulin 1–2 times daily,  + bolus insulin injection 30–45 minutes before meals adjusted to pre-prandial blood glucose measurements, meal size and time of dayInsulin pump: continuous subcutaneous insulin infusion (regular or rapid-acting insulin analogs). Basal and bolus insulin may be managed individuallyInsulin preparationsPRANDIAL (BOLUS) INSULINSRapid-acting insulin analogues (10-15 minute onset, ~ 3.5 hour duration)Insulin aspart (Novorapid)Insulin lispro (Humalog)Insulin glulisine (Apidra)Short Acting Insulins (30 min onset)Regular insulin - Humulin R(+)2. BASAL INSULINSIntermediate Acting (1-3 hour onset - 18 hour duration)NPH insulin, also known as isophane insulin (Humulin N)Long-acting basal insulin analogues (90 minute onset, 24 hour duration)Insulin detemir (Levemir®) Insulin glargine 100 units/mL (Lantus®)Insulin glargine 300 units/mL (Toujeo)PRE-MIXED INSULINSPremixed regular Insulin A Humulin 30/70 or Novolin 30/70 (30% regular insulin, 70% isophane)Premixed Insulin AnaloguesBiphasic insulin aspart (NovoMix 30®)b) Insulin lispro/lispro protamine (Humalog Mix25® and Mix50®) |
+| Monitoring complications | Monitoring weight, abdominal circumference, BP, lipids, RFTs, injection sites in insulin therapy patientsYearly eye examAnnual urine testingFoot exam for neuropathy and ulcersRoutine psychological screeningVaccines |
+
+
+---
+
+
+### Endocrinology (ANU) — type 2 diabetes mellitus — Diabetes Mellitus
+
+| DEFINITION | Hyperglycaemia in the context of insulin resistance and relative lack of insulin |
+| --- | --- |
+| EPIDEMIOLOGY | Common in both the developed and developing world, but remains uncommon in the underdeveloped worldF&gt;MAccounts for &gt;90% of DM |
+| AETIOLOGY | Genetic predisposition and environmental factorsStrong correlation with metabolic syndromeNon-modifiable risk factors: age, genetics, family history, Aboriginal descent, history of GDM, PCOSModifiable risk factors: dyslipidaemia, hypertension, obesity, physical inactivity, CVD |
+| PATHOPHYSIOLOGY | Two major mechanisms: peripheral insulin resistance  + pancreatic β cell dysfunction In the initial stages of disease, insulin resistance is compensated by increased insulin secretion Over time, insulin resistance progresses, while insulin secretion capacity declinesAfter a period of impaired glucose tolerance with isolated postprandial hyperglycaemia, diabetes manifests with fasting hyperglycaemia |
+| PRESENTATION | Onset: gradual, majority of patients asymptomatic and complications may be the first clinical signPolyuria and polydipsia: serum hyperglycaemia → renal osmotic excretion → ↑ urine production → nocturiaPolyphagia and weight loss: cellular hypoglycaemia → ↑ energy production by lipolysisNon-specific: fatigue, visual disturbances (blurred vision), calf cramps, poor wound healing (e.g. recurrent cellulitis, candidiasis etc.), pruritis, paraesthesiaAcanthosis nigricans: dark, velvety patches in body folds and creasesChronic hyperglycaemia: stroke, IHD, vascular disease, nephropathy, neuropathy, blurred vision |
+| INVESTIGATIONS | Fasting plasma glucose: &gt;7.0mmol/L (MUST be repeated)Random plasma glucose: &gt;11.1mmol/LConvenient, but lacks accuracy compared to fasting plasma glucoseUsed if symptoms present such as polyuria, polydipsia or weight loss2-hour post-load glucose after 75g OGTT: &gt;11.1mmol/LHbA1c: degree of hyperglycaemia over preceding 3 months and to monitor controlC peptide: ↑ in T2DM Monitor for micro and macrovascular complications |
+| MANAGEMENT | Goals of Management | Glycaemic controlHbA1c &lt; 53 mmol/mol (7%) generally  but should be individualizedFasting and pre-prandial concentration: 4 to 8 mmol/LControl other risk factors for micro and macrovascular diseaseLDL-C: Primary &lt;2, secondary less than 1.8 mmol/LHDL-C: &gt;1 mmol/LTotal cholesterol &lt; 4 mmol/LTriglycerides &lt; 2 mmol/LBP: &lt;130/80 |
+| Individual treatment target | Blood glucose control and regular glycemic monitoring (HbA1c)Blood pressure controlImproved lipid profile |
+| Lifestyle modification | Consultation with dietician, endocrinologist, support teamDiet: ↓ fats, sodium, alcohol, caffeine, carbohydrates, smokingExerciseSelf-management education |
+| Medical Treatment | ANTI-HYPERGLCAEMIC THERAPYMetformin aloneConsider dual anti-hyperglycemic therapy at this pointSulfonylureaDPP-4 inhibitor GLP-1 agonistAcarboseThiazolidinedionesBegin insulin therapy (continue metformin)Basal insulin infusion Mixed insulin fusion or basal-bolus regimen |
+| Monitoring complications | Monitoring weight, abdominal circumference, BP, lipids, RFTs, injection sites in insulin therapy patientsYearly eye examAnnual urine testingFoot exam for neuropathy and ulcersRoutine psychological screeningVaccines |
+
+ANTI-HYPERGLYCAEIMIC AGENTS
+
+![](notes/images/endocrinology-anu/img006.jpg)
+
+| Metformin | Dose: maximum 3 g, initially 500 mg oral BDMoA: reduces hepatic glucose production (through AMP-activated protein kinase) and  sensitizes peripheral tissues to insulin (to increase glucose uptake)Side effects:Gastrointestinal intolerance (abdominal discomfort, bloating, diarrhoea, anorexia) thus take with food andtitrate graduallyLactic acidosisContraindications:Renal failure (excreted by kidneys): (GFR 60-90 = max 2g, GFR &lt;30 = max 1 g, contraindicated in GFR&lt;30)Severe illness e.g. acute cardiac failure |
+| --- | --- |
+| Sulfonylureas | Examples: gliclazide, glipizide, glimepiride, glibenclamideMoA: increase insulin secretion via the pancreatic sulfonylurea receptorSide Effects: Weight gainHypoglycaemiaLonger-acting sulfonylureas (glibenclamide and glimepiride) should usually be avoided in older people with type 2 diabetes |
+| Sodium-glucose linked transporter 2 (SGLT-2) Inhibitor | Example: Dapagliﬂozin (forxiga)MoA: enhances urinary glucose excretion by inhibiting glucose reabsorption in the proximal renal tubuleSide effects: UTI/genital infections, hyperlipidaemia, weight lossContraindications: Renal impairment |
+| Incretin-based therapies | Overview:GLP-1 (glucagon-like peptide-1) and GIP (glucose-dependent insulinotropic peptide) are produced in the gut and stimulate insulin release from the pancreas following an oral glucose loadGLP-1 also inhibits secretion of glucagon which inhibits gastric emptying and thus delays glucose absorptionGLP-1 also has direct effects on appetite centres in the brain and has been shown to increase satiety and reduce food intakeDipeptidyl peptidase-4 inhibitors (e.g. linagliptin, saxagliptin, sitagliptin, vildagliptin) are oral drugs that inhibit the activity of DPP-4, the enzyme that rapidly breaks down GLP-1 and GIPSide effects: well toleratedContraindications: previous pancreatitis (rare)Glucagon like peptide-1 receptor agonists (e.g. exenatide, liraglutide)GLP-1 receptor agonists administered subcutaneous injectionSide effects: well toleratedContraindications: previous pancreatitis (rare) |
+| Acarbose | MoA: inhibits alpha-glucosidase and so delays carbohydrate digestion and glucose absorption, leading to a decrease in postprandial glucose peaksSide effects: GI effects: flatulence, bloating and diarrhoea |
+
+COMPLICATIONS
+
+- Hyperosmolar hyperglycaemic state
+- Pancreatic failure leading to T1DM

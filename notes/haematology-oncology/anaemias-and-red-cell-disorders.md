@@ -1,7 +1,7 @@
 ---
 title: "Anaemias & Red Cell Disorders"
 system: "Haematology & Oncology"
-sources: [Haematology & Oncology Notes]
+sources: [Haematology & Oncology Notes, Haematology (ANU) — iron studies]
 tags: [Anaemias, EPO, AIHA, MCV]
 updated: "2026-08-14"
 ---
@@ -118,3 +118,22 @@ Normocytic anaemia = acute blood loss, ACD, CKD (↓EPO — treat with EPO analo
 
 ##### Sources
 Hoffbrand's Essential Haematology (MCV/reticulocyte framework, haemolysis, haemoglobinopathies); BSH guidelines on iron deficiency, sickle cell disease and AIHA; NICE CKS anaemia/B12–folate; StatPearls (G6PD, hereditary spherocytosis, PNH, aplastic anaemia); Robbins (thalassaemia genetics). Hb diagnostic cut-offs follow WHO (men <130, women <120 g/L); labs vary slightly. ⚑ Hydroxycarbamide and JAK2 testing reflect current practice not in older textbooks.
+
+
+---
+
+
+### Haematology (ANU) — iron studies — Anaemias & Red Cell Disorders
+
+- TRANSFERRIN: transports iron in blood
+- TIBC: indirectly measures transferrin
+- FERRITIN: 1° iron storage protein of body
+
+|  | SERUM IRON | SERUM FERRITIN | % IRON SATURATION | TRANSFERRIN/ TIBC | RETICULOCYTE COUNT | RDW |
+| --- | --- | --- | --- | --- | --- | --- |
+| IRON DEFICIENCY | ↓ | ↓ | ↓ | ↑ | ↓ | ↑ |
+| ANAEMIA OF CHRONIC DISEASE | ↓ | ↑ | ↓ | ↓ | ↓ | Normal |
+| THALASSEMIA | Normal to ↑* | Normal to ↑* | Normal to ↑* | Normal to ↓* | Normal or ↑ | Normal (occasionally ↑) |
+| SIDEROBLASTIC ANAEMIA | ↑ | ↑ | ↑ | ↓ | ↓ | ↑ |
+
+* If iron overload is present (e.g., due to multiple transfusions, ineffective erythropoiesis, ↑ GI iron absorption)

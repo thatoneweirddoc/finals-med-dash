@@ -1,8 +1,8 @@
 ---
 title: "Clinical Assessment & Dynamic Testing"
 system: "Endocrine"
-sources: [Endocrine Master Notes]
-tags: [Clinical, GH, ACTH, DST]
+sources: [Endocrine Master Notes, Endocrinology (ANU) — acromegaly]
+tags: [Clinical, GH, IGF, ACTH]
 updated: "2026-08-14"
 ---
 
@@ -133,3 +133,18 @@ Greenspan's *Basic & Clinical Endocrinology* (dynamic function testing); Endocri
 *Companion to the Endocrine Finals Study Plan. Cross-checked against Greenspan's *Basic & Clinical Endocrinology*, Endocrine Society and (thyroid) ATA/BTA guidance, NICE CKS, and Merck Manual Professional. Discriminator table + sources at the end of each section. British/Australian spelling. ⚑ = point where an older textbook is commonly out of date.*
 
 ---
+
+
+---
+
+
+### Endocrinology (ANU) — acromegaly — Clinical Assessment & Dynamic Testing
+
+| DEFINITION | Chronic, progressive multi-system disease due to excessive amounts of growth hormonesBenign pituitary adenomas lead to an excess secretion of growth hormone (GH) and insulin-like growth factor 1 (IGF-1) |
+| --- | --- |
+| EPIDEMIOLOGY | Often occurs in middle-aged men or womenEqual distribution between the sexes |
+| AETIOLOGY | Benign growth hormone-secreting pituitary adenoma (&gt; 95% of cases)Very rare: neuroendocrine or hypothalamic tumours, paraneoplastic syndromes |
+| PATHOGENESIS | Physiology of GH and IGF-1: hypothalamus secretes GHRH → ↑ secretion of GH  → GH induces IGF-1 synthesis → ↑ serum IGF-1 :Binds to IGF-1/insulin receptors → cell growth and proliferation, inhibits programmed cell deathProliferative effects on bone, cartilage, skeletal muscle, skin, soft tissue, and organsPathological glucose tolerance caused by binding to insulin receptorsSecretion of somatostatin from the hypothalamus → ↓ serum GH and IGF-1 (negative feedback)Effects of a pituitary adenomaOverproduction of GH → abnormally high serum IGF-1 levels → overstimulation of cell growth and proliferation → symptoms of acromegalyTumour mass compresses neighbouring structures (e.g., optic nerve) → symptoms of mass effectImpaired secretion of other pituitary hormones possible, especially gonadotropins → ↓ LH and FSH → ↓ oestrogen and testosteroneExcess GH secretion before the conclusion of longitudinal growth (i.e., prior to epiphyseal plate closure) leads to pituitary gigantism with a possible height of ≥2 m. After epiphyseal plate closure, GH excess causes acromegaly, but no change in height! |
+| PRESENTATION | Risk Factors: MEN-1Arthralgia, arthritisBlood pressure raisedCarpal tunnel syndrome, colonic polyps, cardiovascular disease (HTN, LVH, cardiomyopathy)Diabetes mellitus Enlarged organs (kidney, thyroid), enlargement of hands and feet, coarsening of facial features, thickening of calvarium, enlarges nose/forehead/jaw (macrognathia)Visual field defect (mass effects → bitemporal hemianopsia), headachesGonad Females (oligomenorrhoea, amenorrhoea, galactorrhoea, vaginal atrophy)Male (erectile dysfunction, decreased libido, ↓ testicular volume) |
+| INVESTIGATIONS | ![](notes/images/endocrinology-anu/img020.jpg) |
+| MANAGEMENT | Surgery: transsphenoidal adenectomyMedicationSomatostatin analogs (e.g. octreotide, lanreotide) Dopamine agonists (e.g. cabergoline) GH receptor antagonists (e.g. pegvisomant) RadiotherapyConventional fractionated radiotherapy Stereotactic radiosurgery (e.g. Gamma Knife, Cyber Knife, proton beam) |

@@ -1,7 +1,7 @@
 ---
 title: "Hypersensitivity Reactions (Types I–IV)"
 system: "Immunology & Allergy"
-sources: [Immunology & Allergy Master Notes]
+sources: [Immunology & Allergy Master Notes, Rheumatology & Immunology (ANU) — Allergic Rhinitis]
 tags: [Hypersensitivity, IV, II, III]
 updated: "2026-08-14"
 ---
@@ -29,3 +29,15 @@ updated: "2026-08-14"
 **Testing:** skin prick testing and specific IgE for Type I; patch testing for Type IV contact dermatitis. **Discriminator: prick = immediate/IgE; patch = delayed/T-cell.**
 
 ---
+
+
+---
+
+
+### Rheumatology & Immunology (ANU) — Allergic Rhinitis — Hypersensitivity Reactions (Types I–IV)
+
+| Definition | Acute/chronic rhinitis caused by exposure to an inhaled allergen |
+| --- | --- |
+| Aetiology | Type I hypersensitivity reaction Genetic predisposition to atopy in which the nasal mucosa mast cells have surface IgE, triggering local allergic reaction |
+| Presentation | Recurrent episode of sneezing, nasal congestion, rhinorrhoea, post-nasal dripItchy nose and throatPale, boggy nasal mucosa with hypertrophic turbinates and/or nasal polyps (in long-standing cases)Cobblestone appearance of posterior pharyngeal wallAssociated: allergic conjunctivitis (redness, excessive tearing, itching eyes), atopic dermatitis, bronchial asthma, recurrent sinusitis, otitis media |
+| Management | Avoid exposure to putative allergen (e.g. allergen, dust)1ST LINE:Intranasal sprays (antihistamines e.g. azelastine, decongestants for ≤3 days e.g. α1-sympathicomimetics, corticosteroids, sodium cromoglycate, ipratropium)Oral drugs (antihistamines e.g. cetirizine, decongestants e.g. α1-sympathicomimetics, leukotriene receptor antagonists e.g. Montelukast)2ND LINE: immunotherapy (controlled exposure to gradually ↑ doses of allergen to hyposensitise the IgE response)3RD LINE: resection of hypertrophic nasal turbinates to relieve nasal obstruction |

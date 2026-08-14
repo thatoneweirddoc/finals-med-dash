@@ -1,7 +1,7 @@
 ---
 title: "Neurophysiology"
 system: "Neurology"
-sources: [Neurology Master Notes]
+sources: [Neurology (ANU) — Adrenergic receptors, Neurology (ANU) — Cholinergic receptors, Neurology (ANU) — embryology and areas of the brain, Neurology (ANU) — spinocerebellar tract, Neurology Master Notes]
 tags: [Neurophysiology, GABA, CSF, ICP]
 updated: "2026-08-14"
 ---
@@ -163,3 +163,55 @@ Sleep cycles roughly every 90 minutes through N1–N3 (slow-wave, restorative, w
 | Sleep stage of sleepwalking vs nightmares | N3 slow-wave vs REM |
 
 ---
+
+
+---
+
+
+### Neurology (ANU) — Adrenergic receptors — Neurophysiology
+
+| α1 | Located on: vascular smooth muscle (skin, splanchnic), GIT and bladder sphincters, radial muscle of irisExcitatory effects: contraction of vessels and sphincters, constriction of musclesPrazosin is an antagonist used for bladder obstruction |
+| --- | --- |
+| α2 | Located on: sympathetic post-ganglionic nerve terminals, platelets, fat cells and walls of GITInhibitory effects: relaxation or dilatationClonidine is an agonist used in the treatment of hypertension |
+| β1 | Located in: heart (SA node, AV node and ventricular muscle)Excitatory effects: increase HR, increase conduction velocity, increase contractilityProponalol, metoprolol, etc. are antagonists used in the treatment of hypertension |
+| β2 | Located on: vascular smooth muscle (skeletal muscle), bronchial smooth muscle, walls of GIT and bladderInhibitory effects: dilatation of vessels, relaxation of bronchial smooth muscles and bladder wallSalbutamol is an agonist used in asthma |
+
+
+---
+
+
+### Neurology (ANU) — Cholinergic receptors — Neurophysiology
+
+| Nicotonic | Located in: autonomic ganglia of SNS and PNS; NMJ; adrenal medullaActivated by ACh or nicotineExcitatory effects |
+| --- | --- |
+| Muscarinic | Located in: heart, smooth muscle, glandsActivated by ACh or muscarineInhibitory effect in the heart: decrease HR, decrease conduction velocity in AV nodeExcitatory effect in smooth muscle and glands: increase GI motility, increase secretionsAtropine is an antagonist and is used for treatment of certain bradycardias |
+
+anatomy
+
+
+---
+
+
+### Neurology (ANU) — embryology and areas of the brain — Neurophysiology
+
+![](notes/images/neurology-anu/img003.jpg)
+
+![](notes/images/neurology-anu/img004.jpg)
+
+| Area | Function | Pathology |
+| --- | --- | --- |
+| Frontal Lobe | Executive functions- decision making, planning, problem solving, thinkingCognitionIntelligenceVoluntary motor control | Personality changeIrritability and aggressionDisinhibitionApathyWeakness on one side of body/face |
+| Parietal Lobe | Dominant (L); non-dominant (R)Somatosensory informationVisusospatial processing | Loss of sensation in part of the bodyAphasiaHemispatial neglect |
+| Temporal Lobe | RecognitionLanguage Learning and memory | Fits (temporal lobe epilepsy)Short term memory lossInability to recall words |
+| Occipital Lobe | Vision | Loss of vision |
+| Cerebellum | Co-ordination of voluntary movementsMotor-learningBalance | Problems with balance and co-ordinationIntention tremor |
+
+
+---
+
+
+### Neurology (ANU) — spinocerebellar tract — Neurophysiology
+
+| Spinocerebellar Tracts |
+| --- |
+| Carry unconscious proprioceptive information to ipsilateral cerebellum to co-ordinate + refine motor movementsTransmit information from the muscles to the cerebellumFour pathways- the anterior and posterior spinocerebellar and cuneocerebellar tracts.Lesions present as an ipsilateral loss of muscle co-ordination. However, unlikely to be damaged in isolation, usually accompanied by lesions to descending motor tracts (muscle weakness, paralysis) |

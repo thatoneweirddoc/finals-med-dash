@@ -1,8 +1,8 @@
 ---
 title: "Respiratory Anatomy"
 system: "Respiratory"
-sources: [Respiratory Master Notes]
-tags: [Respiratory, IVC, BTS, II]
+sources: [Respiratory (ANU) — chest x-ray, Respiratory (ANU) — diaphragm, Respiratory Master Notes]
+tags: [Respiratory, IVC, BTS, ANU]
 updated: "2026-08-14"
 ---
 
@@ -104,3 +104,33 @@ Gray's Anatomy for Students; Moore's *Clinically Oriented Anatomy*; Merck Manual
 *Companion to the Respiratory Finals Study Plan. Anchors: ATS/ERS spirometry & PFT interpretation standards, BTS/ARTP, Merck Manual Professional, Talley & O'Connor clinical examination. Data-interpretation is the highest-yield finals skill — this section is deliberately pattern-heavy. Discriminator table + sources at the end. ⚑ = commonly out-of-date in older texts.*
 
 ---
+
+
+---
+
+
+### Respiratory (ANU) — diaphragm — Respiratory Anatomy
+
+- ![](notes/images/respiratory-anu/img005.jpg)
+At the level of ribs 11 and 12
+- Structures perforating the diaphragm: I (IVC) ate (8) ten (10) eggs (esophagus) at (aorta) twelve (12)
+- T8: vena cava
+- T10: oesophagus
+- T12: aortic hiatus
+- Innervated by C3, 4, and 5 (phrenic nerve)
+
+physiology
+
+
+---
+
+
+### Respiratory (ANU) — chest x-ray — Respiratory Anatomy
+
+| PATTERN | SIGNS | COMMON DDX |
+| --- | --- | --- |
+| Consolidation (“Airspace disease”) | Air bronchogram, silhouette sign,  less visible blood vessels | Acute: water (pulmonary edema), pus (pneumonia), blood (hemorrhage) Chronic: neoplasm (lymphoma), inﬂammatory (eosinophilic pneumonia), infection (TB, fungal |
+| Reticular (“Interstitial disease”) | ↑ linear markings, honeycombing (IPF) | ILD (IPF, collagen vascular disease, asbestos, drugs) |
+| Nodular | Cavitary vs. non-cavitary | Cavitary: neoplasm, infectious, inﬂammatory (RA, Granulomatosis with Polyangiitis [GPA]) |
+
+Obstructive Lung Disease

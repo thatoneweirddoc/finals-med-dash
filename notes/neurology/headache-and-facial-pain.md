@@ -1,8 +1,8 @@
 ---
 title: "Headache and Facial Pain"
 system: "Neurology"
-sources: [Neurology Master Notes]
-tags: [Headache, IIH, NICE, CSF]
+sources: [Neurology (ANU) — Cluster headache, Neurology (ANU) — Idiopathic intracranial hypertension, Neurology (ANU) — migraine, Neurology (ANU) — temporal arteritis/ GCa (Vasculitis) 🏳, Neurology (ANU) — tension type, Neurology (ANU) — trigeminal neuralgia, Neurology Master Notes]
+tags: [Headache, CSF, MRI, IIH]
 updated: "2026-08-14"
 ---
 
@@ -151,3 +151,91 @@ MRI shows **diffuse smooth pachymeningeal enhancement, brain sagging, subdural c
 NICE **NG217** *Epilepsies in children, young people and adults* (2022) — first-line drug choices by seizure type, EEG/MRI timing, drug-resistant definition. ILAE 2017 operational classification and the 2014 practical definition of epilepsy. **MHRA** drug safety updates (Jan 2024 and Nov 2023) — valproate not to be started under 55 without two specialists, extension of warnings to men, and topiramate Pregnancy Prevention Programme; cross-checked against NICE NG217 and the Epilepsy Society summaries. DVLA *Assessing Fitness to Drive*. **ICHD-3** — diagnostic criteria for migraine, tension-type headache, TACs and medication-overuse headache. **British Society for Rheumatology** *Guideline on the diagnosis and treatment of giant cell arteritis* (2020) — ultrasound halo sign as a first-line test, steroid regimens, tocilizumab. Friedman diagnostic criteria for IIH and the **IIH:WT** trial — opening pressure >25 cmH₂O and weight management. NICE technology appraisals for erenumab, fremanezumab, galcanezumab, eptinezumab, rimegepant and atogepant ⚑. Numeric thresholds (aura 5–60 min, headache 4–72 h, opening pressure >25 cmH₂O, medication-overuse day counts) confirmed in both ICHD-3 and Merck Manual Professional.
 
 ---
+
+
+---
+
+
+### Neurology (ANU) — migraine — Headache and Facial Pain
+
+| Classification | Common migraine (no aura)≥ 5 attacks fulfilling each of the following criteria and not attributable to any other disorder4-72 h duration≥ 2 of: unilateral, pulsating, moderate-severe pain, aggravated by routine physical activity≥1 of : N/V, photophobia/phonophobia/osmophobiaClassic migraine (with aura) ≥ 2 attacks with a reversible aura (visual/sensory/dysphasic/vertiningous; no motor weakness)≥ 2 of homonoymous visual symptoms/unilateral sensory Sx lasting ≥5 and ≤60 minutesComplicated migraine: with severe/persistent sensorimotor deficitsBasilar-type (occipital headache with diplopia, vertigo, ataxia, and altered LOC)Others: hemisensory or ophthalmoplegic Acephalgic migraine (i.e. migraine equivalent): aura without headache |
+| --- | --- |
+| Pathogenesis | Depolarizing wave of “cortical spreading depression”🡪 aura, trigeminal afferent fibre activation, vasoconstriction/dilation, chemical mediators activating central pain pathways |
+| Epidemiology | 12% of adults, F&gt;M, age of onset ~ 10-30 y/o, 20% with aura, 80% without auraFun fact: OCP contraindicated with complicated migraine due to risk of stroke |
+| Risk Factors | FHx, female, obesity |
+| Triggers | Stress, ↑/↓ sleep (fatigue), drugs (oestrogen, nitroglycerin), hormonal changes (menstruation), caffeine, chocolate, tyramine (red wine), nitrites (processed meats), motion sickness |
+| Differentials | Tension/cluster headache, temporal arteritis, SAH, ischemic stroke, cerebrl neoplasm |
+| Presentation | Prodrome: hours or days before (gradual onset); altered mood, sleepiness, appetite change, psychomotor agitation/retardation, autonomic Sx (N/V)Aura: fully reversible symptom of focal cerebral dysfunction, immediately preceding the headache but can occur in associationHeadache (mod-severe; crescendo pattern) POUND (pulsating/photophobia/phonophoia, one day duration, unilateral, N/V, debilitating)Bilateral in 40% of cases; agg by exercise/stress/fatigue/drugs and rel by dark quiet roomsPostdrome period: tired, ‘washed-out’, impaired concentration |
+| Investigations | Clinical diagnosis, ESR (exclude temporal arteritis), lumbar puncture &amp; CSF culture normal  (abnormal in SAH, meningitis), CT/MRI (SOL, ischemia, SAH) |
+| Management | Avoid triggers + hydration + behavioral modificationAnalgesia (NSAIDS/paracetamol in mild, triptans in severe)Symptomatic (anti-emetics e.g. metoclopramide)Prophylaxis (B-blockers e.g. propranalol, calcium-channel blockers e.g. verapamil, anti-depressants e.g. TCA, anti-convulsants) |
+
+
+---
+
+
+### Neurology (ANU) — tension type — Headache and Facial Pain
+
+| Cause | Release of inflammatory agents 🡪 sensitisations of peripheral trigeminal afferents and ultimately in central hypersensitivity; stimulation of extra-cranial nociceptive pathways by muscle contraction |
+| --- | --- |
+| Presentation | Bilateral, dull ache (mild-mod) with a gradual onset (lasting minutes- days)Band-like pressure around the head and down the neck (fronto-temporal, nuchal-occipital)Relieved with analgesia; nil N/V, photophobia/phonophobia‘Chronic daily headache’ - frequent attacks or chronic unremitting tension headache, which usually evolves from infrequent tension headache over many years. |
+| Triggers | Stress, depression, anxiety, noise, hunger, sleep deprivation |
+| Investigation | Clinical diagnosis |
+| Management | Non-pharmacological (massage, stretching, heat/postural correction, CBT when episodic/constant, relaxation, stress-management, ↓ caffeine)Pharmacological (simple analgesia or amitriptyline) |
+
+
+---
+
+
+### Neurology (ANU) — Cluster headache — Headache and Facial Pain
+
+| Features | Unknown aetiology, affects &lt; 0.1 % of adults, M &gt; F |
+| --- | --- |
+| Presentation | Asymptomatic for months Attacks will cluster together suddenly (8-10 per/day) with same attack for &lt; 3h at same time of daySudden unilateral eye pain (retro-orbital), frequently awakening pt (AM&gt;PM), stabbing/constantRelieved by walking aroundAss: unilateral Horner’s syndrome (rhinorrhoea, lacrimation, conjunctival injection, sagging eyelid) |
+| Triggers | Often EtOH |
+| Investigation | Clinical diagnosis, only primary headache you should do one-time brain imaging with CT/MRI |
+| Management | High-flow O2 (first-line), triptans (second-line)Prophylaxis (Ca2+ channel blockers – so the patient doesn’t need O2  all the time)Can consider corticosteroids (short-term), verapamil 260 mg, lithium 900mg |
+
+
+---
+
+
+### Neurology (ANU) — temporal arteritis/ GCa (Vasculitis) 🏳 — Headache and Facial Pain
+
+| Classification ≥3 criteria; 94% sensitivity | 1. Age of onset ≥ 30, 2. new headache (temporal), 3. temporal artery abnormality (tenderness, ↓ pulsations, firm/nodular/incompressible, nil arteriosclerosis), 4. ↑ESR (≥50 mm/h), 5. abnormal artery biopsy (mononuclear cell infiltration/granulomatous inflammation with multinucleated giant cells) |
+| --- | --- |
+| Epidemiology | F:M= 2:1 |
+| Presentation | New onset temporal headache, scalp tendernessSudden, painless loss of vision and/or diplopia (ophthalmic/PCA narrowing; can affect both eyes)Tongue/jaw claudication; polymyalgia rheumatica (proximal myalgia, constitutional Sx, ↑ESR) |
+| Investigations | Clinical suspicion, ↑ESR, ↑CRP, temporal artery biopsy gold standard, possible US/MRI |
+| Treatment | High dose corticosteroid: prednisone (initial dose 40-60 mg) and then tapering off for 4 weeks with symptomatic resolution (Do not wait to treat)Prevention: low dose aspirin to ↓ visual loss, TIA, or strokeAdditional: Vit D, dietary Ca2+ and bisphosphonate to prevent glucocorticoid-induced osteoperosis |
+| Prognosis | ↑ risk of thoracic aortic aneurysm and dissection (annual CXR for up to 10 years) |
+
+
+---
+
+
+### Neurology (ANU) — Idiopathic intracranial hypertension — Headache and Facial Pain
+
+| Definition | ↑ICP with papilloedema but w/o mass, hydrocephalus, infection, HTN encephalopathy |
+| --- | --- |
+| Aetiology | Assoc with: dural sinus thrombosis, 4Fs (fat/forties/female/fertile), use of TCA/OCP/retinoids (for acne) |
+| Presentation | Insidious headache, with similar features to VST although less acuteVisual: CN VI palsy, diploplia, transient visual obscurations, scotoma (↑blind spot) |
+| Investigation | MRI-brain (with/without contrast)- rule out VST, mass, infection, hydrocephalusLP- opening pressure &gt; 20 mmHg, normal CSF analysisOphthalmologic: fields, acuity, papilloedema |
+| Management | Lifestyle: weight loss, fluid/salt restriction, cease insultsPharmacotherapy: acetazolamide (↓CSF prod.), thiazide diuretic or furosemideSurgery- serial LPs, shunts, optic nerve sheath decompression (if progressive ↓ visual acuity)Long term- 2 year follow up to rule out occult tumour, ophthalmology follow up |
+| Prognosis | Usually self-limited, recurrence in 10% |
+
+infectious
+
+
+---
+
+
+### Neurology (ANU) — trigeminal neuralgia — Headache and Facial Pain
+
+| Presentation | Paroxysms of intense pain in the face (lasting seconds), following distribution of the trigeminal nerveUnilateral, typically mandibular/maxillary |
+| --- | --- |
+| Triggers | Washing area, shaving, eating, talking, dental prostheses |
+| Secondary causes | Compression of trigeminal root by anomalous/aneurysmal intracranial vessels or a tumour, chronic meningeal inflammation, MS, zoster |
+| Differentials | TMJ |
+| Treatment | Carbamazepine (anti-epileptic drug), morphine and oxycodone, surgery (but poor prognosis) |
+
+Spinal cord injury

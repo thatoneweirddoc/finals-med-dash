@@ -1,8 +1,8 @@
 ---
 title: "Clinical Assessment & Investigation"
 system: "Respiratory"
-sources: [Respiratory Master Notes]
-tags: [Clinical, COPD, ILD, DLCO]
+sources: [Respiratory (ANU) — SPIROMETRY, Respiratory Master Notes]
+tags: [Clinical, FVC, COPD, ILD]
 updated: "2026-08-14"
 ---
 
@@ -145,3 +145,22 @@ ATS/ERS Technical Standard on spirometry & interpretation (2019/2022 — LLN, re
 *Companion to the Respiratory Finals Study Plan. Guideline anchors: **GINA 2025**, **GOLD 2025**, BTS/SIGN asthma, BTS bronchiectasis & CF standards, ATS/ERS/JRS/ALAT IPF guidelines, BTS ILD. Discriminator table + sources at the end of each section. ⚑ = changed from older textbooks. British/Australian spelling.*
 
 ---
+
+
+---
+
+
+### Respiratory (ANU) — SPIROMETRY — Clinical Assessment & Investigation
+
+![](notes/images/respiratory-anu/img010.jpg)
+
+- Measure of lung function and capacity; deep breathe in  blow as fast, long and deep (effort dependent)
+- Measures FEV1, FVC, and FEV1/FVC
+
+| OBSTRUCTIVE LUNG DISEASE | RESTRICTIVE LUNG DISEASE |
+| --- | --- |
+| ↓ airflow → air trapping in lungs(↑RV/FRC/TLC) | Reduced lung capacity causes ↓ lung volumes (FVC, TLC) |
+| ↓ FEV1 (&lt;80%) | ↓ FEV1 (&lt;80%) |
+| Normal FVC (&gt;80%) | ↓ FVC (&lt;80%) |
+| ↓FEV1/FVC (&lt;0.7) | Normal or ↑ FEV1/FVC (0.7-0.8/&gt;0.8) |
+| COPD, asthma, bronchiectasis, cystic fibrosis, bronchiolitis, α1- antitrypsin deficiency | Alveolar (oedema, haemorrhage, pus, pulmonary fibrosis)Interstitial lung disease (pneumonias), Inflammatory (sarcoid, cryptogenic pneumonitis), IdiopathicNeuromuscular e.g. MG, phrenic nerve palsyThoracic (kyphoscoliosis, ascites, obesity, pregnancy, ankylosing spondylitis) |

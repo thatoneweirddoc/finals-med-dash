@@ -1,8 +1,8 @@
 ---
 title: "Respiratory Physiology"
 system: "Respiratory"
-sources: [Respiratory Master Notes]
-tags: [Respiratory, DLCO, RV, HPV]
+sources: [Respiratory (ANU) — 1. ventilation of alveoli, Respiratory (ANU) — 2. perfusion, Respiratory (ANU) — 3. diffusion, Respiratory (ANU) — Compliance, Respiratory (ANU) — RESPIRATORY TREE, Respiratory (ANU) — lung volumes, Respiratory Master Notes]
+tags: [Respiratory, RV, DLCO, FRC]
 updated: "2026-08-14"
 ---
 
@@ -89,3 +89,149 @@ Ideal V/Q ≈ **0.8** overall. Gravity makes both ventilation and perfusion grea
 Guyton & Hall *Textbook of Medical Physiology* (respiration & gas transport chapters); West *Respiratory Physiology: The Essentials*; Merck Manual Professional (respiratory physiology). The mechanism of oxygen-induced hypercapnia (V/Q + Haldane rather than "loss of hypoxic drive") is consistent across BTS oxygen guidance and current respiratory physiology texts.
 
 ---
+
+
+---
+
+
+### Respiratory (ANU) — RESPIRATORY TREE — Respiratory Physiology
+
+![](notes/images/respiratory-anu/img001.jpg)
+
+|  | NUMBER | CILIA | SMOOTH MUSCLE | CARTILAGE |
+| --- | --- | --- | --- | --- |
+| TRACHEA | 1 | Yes | Yes | Yes |
+| BRONCHI | 2,4, 8 | Yes | Yes | Patchy |
+| BRONCHIOLES | - | Yes | Yes | No |
+| RESPIRATORY BRONCHIOLES | - | Some | Some | No |
+| ALVEOLAR DUCTS | - | No | Some | No |
+| ALVEOLAR SACS | 6 x 108 | No | No | No |
+
+CONDUCTING ZONE
+
+- Function: warms, humidifies and filters the air but does not participate in gas exchange
+- Components: large airways (nose, nasopharynx, larynx, trachea, bronchi) and small airways (bronchioles)
+- Smooth muscle: sympathetic adrenergic β2 receptors → relaxation and dilation; parasympathetic cholinergic activate muscarinic receptors → contraction and constriction
+- Cartilage
+- Goblet cells
+- Pseudostratified ciliated columnar cells transition to cuboidal cells at the beginning of terminal bronchioles
+
+RESPIRATORY ZONE
+
+- Function: gas exchange
+- Components: respiratory bronchioles, alveolar ducts, alveoli
+- No smooth muscle
+- Cilia terminate in respiratory bronchioles
+- Respiratory bronchioles contain mostly cuboidal cells, then simple squamous cells up to alveoli
+- Alveoli have
+- Type I pneumocytes: 97% of alveolar surfaces; squamous; thin for optimal gas diffusion
+- Type II pneumocytes: These are cuboidal and clustered, secreting surfactant from lamellar bodies → ↓ surface tension, prevents alveolar collapse, ↓ lung recoil and ↑ compliance
+- Macrophages
+
+
+---
+
+
+### Respiratory (ANU) — 1. ventilation of alveoli — Respiratory Physiology
+
+- MUSCLES OF INSPIRATION: diaphragm, external intercostals, accessory muscles
+- MUSCLES OF EXPIRATION (NORMALLY PASSIVE): abdominal muscles, internal intercostals
+- SURFACTANT: prevents alveolar collapse and alveoli can overcome surface tension and adequately expand
+
+BREATHING CYCLE
+
+- At rest:
+
+- Alveolar pressure = atmospheric pressure
+- Intrapleural pressure is negative (lung trying to collapse and chest wall trying to expand)
+
+- During inspiration:
+
+- Diaphragm contracts 🡪↑ volume of thorax 🡪 alveolar pressure ↓ to less than atmospheric 🡪 air flows into lungs
+- Intrapleural pressure becomes more negative
+
+- During expiration:
+
+- Elastic force of lungs 🡪 increases alveolar pressure 🡪 air flows out of lungs 🡪 lung volume returns to FRC
+- Intrapleural returns to normal during passive expiration
+- During forced expiration 🡪 intrapleural pressure becomes positive 🡪 compresses airway
+
+VENTILATION RATE
+
+**VA =VE x VD**
+
+- VA=alveolar ventilation= volume of gas per unit time that reaches alveoli
+- VE=minute ventilation=total volume of gas entering lungs per minute= VT (tidal volume) x RR
+- VD =physiological dead space
+
+
+---
+
+
+### Respiratory (ANU) — 2. perfusion — Respiratory Physiology
+
+- Pulmonary circulation 25/10 versus 120/80 in systemic but the flow is the same (↓ resistance in pulmonary circulation)
+- Optimal gas exchange = match between alveolar ventilation and perfusion
+- Decreased ventilation: physiological dead-space, bullae, emphysema
+- Decreased perfusion: direct shunting of deoxygenated blood
+
+CONTROL OF RESPIRATION
+
+![](notes/images/respiratory-anu/img006.jpg)
+
+ALVEOLAR MODEL
+
+![](notes/images/respiratory-anu/img007.jpg)
+
+
+---
+
+
+### Respiratory (ANU) — 3. diffusion — Respiratory Physiology
+
+- O2 diffuses from the alveoli into the blood and CO2 diffuses from the blood into the alveoli according to their concentration gradients. Thus [O2] in alveoli &gt; blood and [CO2] in alveoli &lt; blood.
+- Diffusion is affected by thickness of membrane and surface area
+- O2 binding to Hb is dependent on PaO2 – where oxygen carriage is sigmoid
+- ![](notes/images/respiratory-anu/img008.jpg)
+CO2 dissolved in plasma, bound to Hb, and as HCO3- (mostly)
+
+CO2 + H2O ⇌ H2CO3 ⇌ H+ + HCO3-; conversion by carbonic anhydrase
+
+- BOHR’S EFFECT:
+- Tissues: ↑ CO2 levels shifts O2-Hb curve to the right, aiding O2 unloading
+- Lungs: ↓CO2 levels shifts O2-Hb curve to the left, aiding O2 loading
+- HALDANE’S EFFECT
+- Tissues: deoxygenated Hb has higher affinity for CO2 carriage
+- Lungs: oxygenated Hb has lower affinity for CO2 carriage
+- FACTORS THAT CAUSE A RIGHT SHIFT (CADET): CO2, acid, 2,3-DPG, exercise, temperature increase
+
+
+---
+
+
+### Respiratory (ANU) — Compliance — Respiratory Physiology
+
+- ELASTIC RECOIL: tendency for lungs to collapse inward and chest wall to spring outward
+- AT FRC:
+- Inward pull of lung is balanced by outward pull of chest wall, and system pressure is atmospheric
+- Airway + alveolar pressures are 0
+- Intra-pleural pressure is negative (prevents atelectasis)
+- When pressure outside lungs is negative, lungs expand and lung volume increases
+- Similarly, when pressure outside lungs is positive, lungs collapse
+- HIGH COMPLIANCE: lung easier to fill (emphysema, normal aging); surfactant increases compliance
+- LOW COMPLIANCE: lung harder to fill (pulmonary fibrosis, pneumonia, NRDS, pulmonary oedema)
+
+
+---
+
+
+### Respiratory (ANU) — lung volumes — Respiratory Physiology
+
+![](notes/images/respiratory-anu/img009.jpg)
+
+- TIDAL VOLUME (VT): volume of air inspired/expired with a normal breath (400-500ml or 5ml/kg body weight)
+- RESIDUAL VOLUME (RV): volume of gas left in the lung after maximal expiration; stabilises the alveoli
+- FORCED VITAL CAPACITY (FVC): the total volume of air expelled from the lungs after maximum inspiratory effort followed by maximum forced expiration
+- FUNCTIONAL RESIDUAL CAPACITY (FRC): volume of air left in the lungs after normal expiration; including respiratory reserve volume and residual volume
+- FORCED EXPIRATORY VOLUME (FEV1): The volume of air exhaled in 1 second
+- TOTAL LUNG CAPACITY (TLC): Total gas volume in the lung when it is maximally inflated.

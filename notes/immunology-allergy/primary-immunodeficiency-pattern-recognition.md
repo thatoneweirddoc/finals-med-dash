@@ -1,8 +1,8 @@
 ---
 title: "Primary Immunodeficiency — Pattern Recognition"
 system: "Immunology & Allergy"
-sources: [Immunology & Allergy Master Notes]
-tags: [Primary, RCUK, IM, II]
+sources: [Immunology & Allergy Master Notes, Rheumatology & Immunology (ANU) — Immunodeficiency]
+tags: [Primary, II, III, IV]
 updated: "2026-08-14"
 ---
 
@@ -78,3 +78,38 @@ Robbins & Cotran (hypersensitivity classification, immunodeficiency); Kumar & Cl
 **Threshold cross-checks:** adult 500-microgram IM dose and the 5-minute repeat interval confirmed in both the RCUK guideline and the associated *Resuscitation* journal evidence update; the 2/6/12-hour observation tiers confirmed in both NICE NG258 and RCUK 2021; the 10–20% figure for absent skin changes and ~5% biphasic reaction rate confirmed across RCUK and independent emergency-medicine guideline summaries. Where ANZCOR/ASCIA differ from RCUK, both framings are given rather than silently picking one.
 
 **Cross-references (not duplicated here):** rheumatic-disease immunology, autoantibodies and complement in SLE → MSK build Sections 1.4 and 3.3 · asthma → Respiratory build · transfusion reactions and IgA deficiency → Haem/Onc build Section 6.3 · immunosuppressed-host infection framework and post-splenectomy prophylaxis → Infectious Disease build Section 5.2 · myasthenia gravis → Neurology build Section 10.6.
+
+
+---
+
+
+### Rheumatology & Immunology (ANU) — Immunodeficiency — Primary Immunodeficiency — Pattern Recognition
+
+- TYPES: congenital or acquired (infection, malnutrition, aging, malignancy, iatrogenic e.g. chemo)
+- EPIDEMIOLOGY: individual deficiencies are rare
+
+Arthocentesis
+
+- DIAGNOSTIC: determine cause of pain or swelling in the joint
+- THERAPEUTIC: removal of excess fluid may help lessen pain and improve antibiotic
+- SYNOVIAL FLUID CHARACTERISTIC:
+- Crystals: gout (urate), pseudogout (pyrophosphate)
+- WCC: bacterial septic; may be slightly elevated in RA, psoaritic and reactive arthritis
+- Blood: hemarthrosis from trauma or fracture
+- Fat: fracture
+- Non-inflammatory: OA
+
+Hypersensivity
+
+- HYPERSENSITIVITY: the immune system, which normally serves a protective role, has a harmful effect. The hypersensitivity reactions can be memorized with the mnemonic ACID: A – Allergic/Anaphylactic/Atopic (Type I); C – Cytotoxic (Type II); I – Immune complex deposition (Type III); D – Delayed (Type IV)
+- ALLERGY: abnormal immunological response to an otherwise harmless environmental stimulus
+- AUTOIMMUNITY: abnormal immunological response directed against an antigen that is actually part of the body itself
+
+|  | PATHOPHYSIOLOGY | EXAMPLES |
+| --- | --- | --- |
+| TYPE I: IMMEDIATE | IgE-mediated mast cell and basophil degranulation →histamine and inflammatory mediators (prostaglandins, leukotrienes) | Allergic reactions (food, drug)AnaphylaxisAsthma |
+| TYPE II: ANTIBODY-MEDIATED | IgM and IgG antibodies bind to antigens on the cells of particular tissue types→ complement activation and lysis or phagocytosis of cells | Acute haemolytic transfusion reactionPernicious anaemia Goodpasture’sGrave’s diseaseITPHashimoto’s thyroiditisRFMyasthenia gravis |
+| TYPE III: IMMUNE-COMPLEX MEDIATED | Antibodies bind to antigens in circulation → immune complex formation and deposition in particular tissues → inflammation | Post-strep GNIgA nephropathySerum sicknessSLE |
+| TYPE IV: DELAYED T-CELL-MEDIATED | Contact of antigen with pre-sensitised T lymphocytes → macrophage activation and inflammatory reaction in tissue | Contact dermatitisMultiple sclerosisGBSGraft-versus-host diseaseMantoux testT1DM |
+
+Allergic Reactions

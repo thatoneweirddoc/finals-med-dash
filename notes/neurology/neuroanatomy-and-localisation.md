@@ -1,8 +1,8 @@
 ---
 title: "Neuroanatomy and localisation"
 system: "Neurology"
-sources: [Neurology Master Notes]
-tags: [Neuroanatomy, LMN, CN, III]
+sources: [Neurology (ANU) — MOTOR NEURON DISEASE/AMYTROPHIC LATERAL SCLEROSIS, Neurology (ANU) — aphasia, Neurology (ANU) — bell’s palsy, Neurology (ANU) — sensory pathway, Neurology (ANU) — spinal cord, Neurology Master Notes]
+tags: [Neuroanatomy, LMN, UMN, CN]
 updated: "2026-08-14"
 ---
 
@@ -226,3 +226,77 @@ Autonomic failure appears in MSA, Parkinson's, diabetes, amyloidosis and GBS: po
 Guyton & Hall *Textbook of Medical Physiology* (14th ed) — membrane and cerebral circulation physiology, CSF dynamics, autoregulation range. Kandel *Principles of Neural Science* — synaptic transmission, basal ganglia circuitry. Snell *Clinical Neuroanatomy* and Blumenfeld *Neuroanatomy through Clinical Cases* — tracts, brainstem syndromes, cranial nerves. Kumar & Clark and Merck Manual Professional — clinical correlates. StatPearls — Horner's syndrome localisation, Brown-Séquard, anterior cord syndrome. Brain Trauma Foundation Guidelines (4th ed) — ICP >22 mmHg treatment threshold and CPP 60–70 mmHg target ⚑ (older texts quote >20 mmHg; both figures appear in current practice, and the BTF value is the one to quote). CSF opening pressure 10–20 cmH₂O confirmed in Merck Manual Professional and StatPearls; the >25 cmH₂O threshold for IIH is from the Friedman diagnostic criteria and is used in current neuro-ophthalmology practice.
 
 ---
+
+
+---
+
+
+### Neurology (ANU) — spinal cord — Neuroanatomy and localisation
+
+|  | UMN | LMN |
+| --- | --- | --- |
+| Function | Inhibitory effect on muscle stretch reflex | Motor component of muscle reflex |
+| Reflexes | Hyperreflexia | Hyporeflexia |
+| Tone | Hypertonia (spasticity)Decorticate rigidity: lesion above midbrain e.g. stroke/head injury/tumour 🡪 stiff, bent arms, clenched fists, extended legsDecerberate rigidity: below midbrain e.g. in midbrain/pons 🡪 arms/legs extended, toes outwards, head/neck arched backwards | Hypotonia (flaccidity) |
+| Muscle atrophy | Absent until disuse atrophy | Wasting atrophy |
+| Fasciculations | Absent | Present |
+| Babinski sign | Positive (Dorsiflexion) | Negative |
+| Voluntary movement | Decresed speed | Lost |
+| Area of body | Large area | Small area |
+
+cerebrovascular disease
+
+
+---
+
+
+### Neurology (ANU) — aphasia — Neuroanatomy and localisation
+
+| Definition | Acquired language impairment affecting comprehension and production of words/sentences/discourse |
+| --- | --- |
+| Physiology | ![](notes/images/neurology-anu/img027.jpg) PRIMARY AUDITORY CORTEX: receives information from the cerebral cortex and processes soundsWERNICKE REGION (Brodmann area 22 in left posterior section of superior temporal gyrus): receives information from primary auditory context; auditory comprehension of speechARCUATE FASCICULUS: relays information from Wernicke’s  (posterior) to Broca’s (anterior)BROCA REGION (Brodmann area 44 in left posterior inferior frontal gyrus): functions to generate sounds and speak with proper syntaxPRIMARY MOTOR CORTEX: sends signals to body parts for production of sound (jaw, tongue etc.) |
+| Classification | BROCA'S APHASIA: expressive aphasia, classically sparse output and agrammatism; can comprehend language but cannot speak fluently WERNICKE'S APHASIA: receptive aphasia, cannot comprehend language but can speak fluently; classically voluminous but meaningless speech with paraphasias and neologisms (word salad)  CONDUCTION APHASIA: fluent aphasia with impaired repetition GLOBAL APHASIA: mute or non-word utterances |
+
+![](notes/images/neurology-anu/img028.jpg)
+
+
+---
+
+
+### Neurology (ANU) — MOTOR NEURON DISEASE/AMYTROPHIC LATERAL SCLEROSIS — Neuroanatomy and localisation
+
+| Aetiology | Cluster of neurodegenerative diseases characterised by selective loss of neurons in motor cortex, cranial nerve nuclei, and anterior horn cellsUMN and LMN can be affected- no sensory loss/ sphincter disturbance (thus distinguishing it from MS and polyneuropathies) or eye movements (distinguishing it from MG) |
+| --- | --- |
+| Patterns | ALS/AMYOTROPHIC LATERAL SCLEROSIS: loss of motor neurons in motor cortex and anterior horn of cord 🡪 UMN + LMN signs. Worse prognosis if bulbar onset, ↑ age, ↓FVCPROGRESSIVE BULBAR PALSY: only affects cranial nerves IX-XIIPROGRESSIVE MUSCULAR ATROPHY: anterior horn cell lesion 🡪 LMN signs only, affecting distal muscle groups before proximal; better prognosis than ALSPRIMARY LATERAL SCLEROSIS (RARE): loss of Betz cells in motor cortex 🡪 UMN signs, spastic leg weakness, pseudobulbar palsy; no cognitive decline |
+| Presentation | Limb motor:  segmental and asymmetrical UMN and LMN symptomsBulbar findings: dysarthria (flaccid or spastic), dysphagia ,tongue atrophy and fasciculations, facialweakness and atrophyPseudobulbar affect, frontotemporal dementia (up to 10%)Sparing of sensation, ocular muscles, and sphincters |
+| Investigations | EMG: chronic denervation and reinnervation, fasciculationsNCS: to rule out peripheral neuropathy (i.e.multifocal motor neuropathy with conduction block)CT/MRI: to rule out cord disease/compression |
+| Treatment | MULTIDISCIPLINARY: neurologist, palliative, physio/OT, speech therapist, dietician, social servicesRILUZOLE: NMDA receptor antagonist🡪 glutamate release; modestly slows disease progressionPHARMACOTHERAPY for spasticity/cramping, hypersalivation, and pseudobulbar affectNON-PHARMACOLOGICAL: ↑ caloric diet, ventilator, early nutrition, rehabilitation, psychosocial |
+| Prognosis | Median survival 3 year; death due to respiratory failure |
+
+PnS
+
+
+---
+
+
+### Neurology (ANU) — bell’s palsy — Neuroanatomy and localisation
+
+| Definition | LMN lesion that affects all branches of the facial nerve |
+| --- | --- |
+| Presentation | ![](notes/images/neurology-anu/img043.jpg) UMN FOR THE FACIAL NERVE  have contralateral, bilateral innervation (affecting muscles in the lower quadrant of the face below eyes). UMN lesion 🡪 spastic paralysis in  contralateral lower quadrant One-sided facial droop that presents within 72 hoursUMN FOR THE HYPOGLOSSAL NERVE only provide contralateral innervation. UMN lesion for CN XII 🡪 deviation of the tongue to the contralateral side |
+| Differentials | Stroke, tumour (may not affect all branches) |
+| Treatmeny | Prednisolone, surgical decompression (if necessary) |
+
+
+---
+
+
+### Neurology (ANU) — sensory pathway — Neuroanatomy and localisation
+
+| Dorsal Column/Medial Leminiscal |
+| --- |
+| Fine touch, proprioception, vibration from lower and upper limbsSensory loss will be ipsilateral DCML lesions occur in ↓B12, Tabes dorsalis (a neurological disorder seen in neurosyphilis) ![](notes/images/neurology-anu/img044.jpg) |
+
+| Spinothalamic Tracts |
+| --- |
+| ![](notes/images/neurology-anu/img045.jpg) Anterior tract carries crude touch and pressure; lateral tract carries pain and temperaturePrimary neurones enter the spinal cord 🡪 ascend 1-2 levels 🡪 terminante in the substantia gelatinosa 🡪 secondary neurones arise from here and immediately decussate, terminating at the thalamus 🡪 tertiary neurones then ascend from the ventral posterolateral nucleus of the thalamus, through the internal capsule into the sensory cortex.Damage to the anterior and lateral spinothalamic tracts will cause contralateral sensory loss |

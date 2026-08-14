@@ -1,8 +1,8 @@
 ---
 title: "Clinical Assessment & Investigation"
 system: "Gastroenterology"
-sources: [Gastroenterology Master Notes]
-tags: [Clinical, ALT, ALP, IBD]
+sources: [Gastroenterology Master Notes, General Surgery & Gastroenterology (ANU) — alcoholic liver disease]
+tags: [Clinical, ALT, AST, ALP]
 updated: "2026-08-14"
 ---
 
@@ -125,3 +125,44 @@ NICE NG12 (suspected cancer referral / ALARM features) and CG184 (dyspepsia); Ku
 *Companion to the Gastroenterology Finals Study Plan. Cross-checked against Robbins & Cotran, Kumar & Clark, NICE (dyspepsia, coeliac, colorectal cancer, diverticular disease, IBD), BSG/ECCO guidance, ACG 2024 (H. pylori), and Merck Manual Professional. Discriminator table + sources at the end of each section. British/Australian spelling. ⚑ = point where guidance has recently changed.*
 
 ---
+
+
+---
+
+
+### General Surgery & Gastroenterology (ANU) — alcoholic liver disease — Clinical Assessment & Investigation
+
+- DEFINITION: liver damaged as a result of chronic, heavy alcohol ingestion
+- PATHWAYS OF ALCOHOL METABOLISM
+- EtOH 🡪 alcohol dehydrogenase 🡪 acetalydehyde 🡪 acetaldehyde dehydrogenase 🡪 acetate; Reduction of NAD to NADH (however when there is ↑NADH in relation to NAD this inhibits gluconeogenesis and increases fatty acid oxidation to promote fatty infiltration in the liver)
+- Cytochrome P450 E21 pathway that enerates free radicals through oxidation of NADPH to NADP. Chronic alcohol use upregulates cytochrome P450 E21, thus producing more free radicals
+- Via hepatic macrophages (Kupffer cells): Chronic EtOH exposure activates this third site of metabolism 🡪 TNF-α production 🡪 ROS in the mitochondria
+
+![](notes/images/general-surgery-and-gastroenterology-anu/img022.jpg)
+
+- STAGES
+- Fatty liver: abnormal lipid retention within hepatocytes due to shift from metabolism to catabolism that ↑ lipid globule size and displace hepatocytes; nil jaundice, mildly tender, hepatomegaly, mildly ↑ transaminases
+- Alcoholic hepatitis (reversible): Inflammation of liver due to excessive EtOH 🡪 hepatocytes swell up with ↑ fat, water, protein and malllory filaments 🡪 block bile ducts + cholestasis 🡪 Kupffer cells become overloaded 🡪 neutrophils/macrophages migrate and trigger an inflammatory response 🡪 necrotic damage
+- Alcoholic cirrhosis (irreversible): hepatic cell death, inflammation, nodular regeneration, scarring/fibrosis; deranged vascular perfusion,  ↓ function of new hepatocytes, green tint from bile stasis
+- HISTORY: RUQ abdominal discomfort, weight loss (malnutrition), weight gain (ascites)
+- ABDOMINAL EXAM reveals stigmata of chronic liver disease: finger clubbing, palmar erythaema, Dupuytren’s contracture, asterixis, signs of jaundice, venous collaterals, spider naevi, gynaecomastia, ascites and pitting oedema, hepatomegaly for fatty liver and hepatitis, but liver size is decreased with cirrhosis
+- INVESTIGATIONS: CAGE, LFT (AST:ALT &gt; 2:1, ↑GGT, ↑bilirubin, ↓albumin), FBC (↓Hb, ↑MCV, ↑WBC), U/S  for cirrhosis, CT for hepatosplenomegaly/varices/nodular texture/ascites, liver biopsy (swollen hepatocytes, Mallory bodies, neutrophils, fibrosis in speace of Disse), Hepatitis serology (Hep B surface antigen, anti-Hep B IgG, Hep X antibodies), fluid/stool chart, serial weights (ascites), copper studies (wilson’s), iron studies (haemochromatosis), INR to assess function
+- DIFFERENTIAL DIAGNOSES: viral hepatitis, autoimmune hepatitis, haemochromatosis, biliary obstruction, cholecystitis
+- TREATMENT AND MANAGEMENT
+
+- Alcohol cessation –naltrexone for addiction, Valium for withdrawal, rehab, AA, Drug &amp; EtOH referral, counselling
+- Nutritional support –dietician referral, thiamine, B12, folate, correct electrolyte and glucose abnormalities
+- Weight reduction; smoking cessation
+- Cease drugs metabolised by liver and
+- Prednisolone (in those with ↑INR and ↑bilirubin) and monitor INR (may need Vit K)
+- Monitor GCS for Wernicke’s and assess renal function
+- Replace albumin with Licosim
+- Lactulose (removes NH3 into faeces by acidifying it) 🡪 for encephalopathy
+- PPI and H2 agonist to prevent variceal bleed
+- TIPS to reduce portal HTN
+- Liver transplant for end-stage
+
+- COMPLICATIONS: oesophagus (Mallory-Weiss tear, oesophageal varicies), stomach (gastritis), pancreat (acute/chronic pancreatitis), liver (EtOH hepatitis, fatty liver, cirrhosis, hepatic encephalopathy, portal HTN, ascites, hepatocellular carcinoma), hepatorenal syndrome  (liver disease mediators 🡪 splanchnic vasodilation 🡪 RAAS 🡪 vasoconstriction of renal arteries 🡪 rapid deterioration in kidney function 🡪 renal failure)
+- PROGNOSIS: fatty liver and hepatitis usually reversible with EtOH abstinence
+
+Note: non-alcoholic steatohepatitis risk factors are obesity, DM, increased LDL, FHx
