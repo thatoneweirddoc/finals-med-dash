@@ -373,6 +373,7 @@ function bufferStatus() {
     pending: pending.length,
     pendingDetail: pending,
     quizzes: quizzes,
+    lastTopUp: props().getProperty('lastTopUp') || 'never run',
     checked: new Date().toISOString()
   };
 }
@@ -667,6 +668,113 @@ function recordResults(body) {
   t.updated = date;
   writeFile(JSON.stringify(t, null, 2));
   return { ok: true, updated: date };
+}
+
+// --- the hourly top-up, run by Google's scheduler ---------------------------------
+
+/**
+ * Run this ONCE by hand (function dropdown > installHourlyTopUp > Run) to install
+ * the timer. Safe to re-run — it clears its own previous trigger first.
+ *
+ * Why this and not a scheduled Claude task: measured on 14 Aug, fresh-session
+ * scheduled tasks in that environment fired 13 minutes to 86+ minutes late, and
+ * one that did fire never completed its write. Google's time-driven triggers are
+ * dull and dependable, which is what a standing question buffer actually needs.
+ */
+function installHourlyTopUp() {
+  ScriptApp.getProjectTriggers().forEach(function (t) {
+    if (t.getHandlerFunction() === 'hourlyTopUp') ScriptApp.deleteTrigger(t);
+  });
+  ScriptApp.newTrigger('hourlyTopUp').timeBased().everyHours(1).create();
+  Logger.log('Hourly top-up installed. It will also drain the Schedule queue.');
+}
+
+function uninstallHourlyTopUp() {
+  ScriptApp.getProjectTriggers().forEach(function (t) {
+    if (t.getHandlerFunction() === 'hourlyTopUp') ScriptApp.deleteTrigger(t);
+  });
+  Logger.log('Hourly top-up removed.');
+}
+
+/**
+ * Fires hourly. Generates AT MOST one quiz per run, so the ceiling is bounded at
+ * roughly one quiz an hour even if something upstream misbehaves.
+ *
+ * Priority: an explicit Schedule request beats a buffer top-up. If neither is
+ * outstanding it does nothing and costs nothing — no API call is made.
+ */
+function hourlyTopUp() {
+  const p = props();
+  const stamp = new Date().toISOString();
+
+  if (!p.getProperty('ANTHROPIC_API_KEY')) {
+    p.setProperty('lastTopUp', stamp + ' — skipped, no API key');
+    return;
+  }
+
+  // 1. explicit requests first, oldest first
+  const q = readQueue();
+  const pending = (q.requests || []).filter(function (r) { return r.status === 'pending'; });
+  if (pending.length) {
+    const r = pending[pending.length - 1];
+    const made = generateNow({ system: r.system, n: r.n });
+    if (made && !made.error) {
+      r.status = 'done'; r.quizId = made.id; r.done = stamp;
+      writeQueue(q);
+      p.setProperty('lastTopUp', stamp + ' — request "' + r.system + '" served, ' +
+                                 made.count + ' questions');
+    } else {
+      p.setProperty('lastTopUp', stamp + ' — request failed: ' +
+                                 ((made && made.error) || 'unknown'));
+    }
+    return;
+  }
+
+  // 2. otherwise, top the pool back up to the floor
+  let st;
+  try { st = bufferStatus(); }
+  catch (err) { p.setProperty('lastTopUp', stamp + ' — status failed: ' + err); return; }
+
+  if (st.short <= 0) {
+    p.setProperty('lastTopUp', stamp + ' — pool at ' + st.unattempted + ', nothing to do');
+    return;
+  }
+
+  const n = Math.min(20, Math.max(5, st.short));
+  const sys = weakestSystem();
+  const made = generateNow({ system: sys, n: n });
+  p.setProperty('lastTopUp', (made && !made.error)
+    ? stamp + ' — topped up ' + sys + ' with ' + made.count + ' questions'
+    : stamp + ' — top-up failed: ' + ((made && made.error) || 'unknown'));
+}
+
+/**
+ * Which system is currently hurting most: the one with the most flagged attempts
+ * in `open`, falling back to the lowest-scoring topic's system prefix.
+ */
+function weakestSystem() {
+  try {
+    const t = JSON.parse(readFile());
+
+    const counts = {};
+    (t.open || []).forEach(function (o) {
+      const s = o.system || String(o.topic || '').split('—')[0].trim();
+      if (s) counts[s] = (counts[s] || 0) + (o.attempts || 1);
+    });
+    let best = null, bestN = -1;
+    Object.keys(counts).forEach(function (k) {
+      if (counts[k] > bestN) { bestN = counts[k]; best = k; }
+    });
+    if (best) return best;
+
+    let low = null, lowScore = 101;
+    Object.keys(t.topics || {}).forEach(function (k) {
+      const v = t.topics[k];
+      if (v && v.score != null && v.score < lowScore) { lowScore = v.score; low = k; }
+    });
+    if (low) return String(low).split('—')[0].trim();
+  } catch (err) { /* fall through */ }
+  return 'Mixed';
 }
 
 function json(obj) {
