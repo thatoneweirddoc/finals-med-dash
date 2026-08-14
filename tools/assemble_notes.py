@@ -237,6 +237,32 @@ def match_topic(chunk_title: str, snapshot: dict, threshold=1.5):
     return best if best_score >= threshold else None
 
 
+NUMBERED_CHAPTER = re.compile(r"^(\d{1,2})\.\s+([A-Z][A-Z \-/,()]{4,80})\s*$", re.M)
+
+
+def split_numbered_chapters(md: str):
+    """Split on 'N. TITLE' plain-text chapter markers.
+
+    One source document (the paediatric guidelines) uses plain bold numbered
+    lines for its real chapter breaks rather than a markdown heading style —
+    Word's author didn't apply the Heading style there, so mammoth emitted them
+    as ordinary paragraphs. Splitting that file on H1 instead fragments every
+    subsection of every chapter into its own "topic" (dozens of notes titled
+    "overview" and "management" with no chapter attached). This catches the
+    real boundary.
+    """
+    marks = [(m.start(), m.end(), m.group(2).strip().title()) for m in NUMBERED_CHAPTER.finditer(md)]
+    if not marks:
+        return []
+    out = []
+    for i, (_, end, title) in enumerate(marks):
+        stop = marks[i + 1][0] if i + 1 < len(marks) else len(md)
+        body = md[end:stop].strip()
+        if word_count(body) >= MIN_TOPIC_WORDS:
+            out.append((title, body))
+    return out
+
+
 def build(config, out_root, only_system=None):
     today = date.today().isoformat()
     built = []
@@ -258,9 +284,22 @@ def build(config, out_root, only_system=None):
             with open(path, encoding="utf-8") as fh:
                 md = fh.read()
 
-            secs = split_sections(md)
+            # Systems whose only source is a plain Word doc (no "# Section N —"
+            # wrapper, because no master note exists for them yet) split on their
+            # own H1 headings instead — that's how the ANU docs are structured.
+            # A source can declare its own split style — most of the ANU docs use
+            # plain H1-per-topic, but one mixes numbered plaintext chapters with
+            # unrelated H1 subsection headings, so it needs its own rule.
+            style = src.get("style", sysdef.get("primary_style"))
+            if style == "numbered":
+                secs = split_numbered_chapters(md)
+            elif style == "h1":
+                secs = split_by_headings(md, levels=(1, 1))
+            else:
+                secs = split_sections(md)
+
             if not secs:
-                print(f"  ! no '# Section N —' headings found in {path}", file=sys.stderr)
+                print(f"  ! no topic headings found in {path}", file=sys.stderr)
                 continue
 
             for title, body in secs:
