@@ -1238,19 +1238,20 @@ async function fetchSessions(){
     if(!d.sessions.length){ list.innerHTML = '<div class="empty">Nothing published yet</div>'; return; }
     list.innerHTML = d.sessions.map(s => {
       const {title,stamp} = parseSessionName(s.name);
+      const when = stamp || (s.createdTime ? s.createdTime.slice(0,10) : '');
       const url = `${SYNC_URL}?token=${encodeURIComponent(t)}&action=session&id=${s.id}`;
       return `<div class="item">
         <div class="item-top">
           <span class="item-t">${esc(title)}</span>
         </div>
-        <div class="item-d"><span class="sys">${esc(stamp || s.created.slice(0,10))}</span></div>
+        <div class="item-d"><span class="sys">${esc(when)}</span></div>
         <div class="row" style="margin-top:8px">
           <a class="mini" style="text-decoration:none;display:inline-block" href="${url}" target="_blank">Open</a>
         </div>
       </div>`;
     }).join('');
   }catch(e){
-    list.innerHTML = '<div class="empty">Couldn\'t load — check connection</div>';
+    list.innerHTML = `<div class="empty">Couldn't load — ${esc(String(e.message||e).slice(0,120))}</div>`;
   }
 }
 
