@@ -942,7 +942,7 @@ function mdToHtml(src){
       out.push('<pre><code>'+esc(buf.join('\n'))+'</code></pre>');
       continue;
     }
-    const h = line.match(/^(#{2,5})\s+(.*)$/);
+    const h = line.match(/^(#{2,6})\s+(.*)$/);
     if(h){                                                        // headings
       flushP(); flushL();
       // demote by one: the note title is the h2, so ## becomes h3 and nests correctly
