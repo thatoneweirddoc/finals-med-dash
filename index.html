@@ -70,6 +70,16 @@
     text-transform:uppercase;opacity:.65}
   .top-pri .tp-name{font-family:var(--serif);font-size:18px;font-weight:500}
   .top-pri .tp-why{font-family:var(--mono);font-size:11px;opacity:.8}
+
+  .excl-h{font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;
+          color:var(--ink-2);margin:16px 0 8px}
+  .excl-count{color:var(--ink);font-weight:600}
+  .excl-grid{display:grid;grid-template-columns:1fr 1fr;gap:2px 14px;
+             max-height:220px;overflow-y:auto;border:1px solid var(--rule);padding:10px 12px}
+  .excl-row{display:flex;align-items:center;gap:8px;padding:6px 0;font-size:13px}
+  .excl-row input{width:18px;height:18px;accent-color:var(--ink);flex-shrink:0}
+  .excl-row label{cursor:pointer}
+  @media (max-width:480px){.excl-grid{grid-template-columns:1fr}}
   .range{position:relative;height:22px}
   .range-track{position:absolute;top:9px;left:0;right:0;height:3px;background:var(--rule)}
   .range-band{position:absolute;top:9px;height:3px;background:var(--inrange);opacity:.22;
@@ -214,6 +224,36 @@
     </div>
     <div class="stats" id="stats"></div>
     <div class="top-pri" id="topPriority"></div>
+
+    <div class="panel">
+      <div class="panel-h">Start a session</div>
+      <div class="row" style="margin-top:0">
+        <select id="sessLen">
+          <option value="5">5 questions</option>
+          <option value="10" selected>10 questions</option>
+          <option value="20">20 questions</option>
+          <option value="40">40 questions</option>
+          <option value="50">50 questions</option>
+        </select>
+      </div>
+      <div class="excl-h">Exclude topics <span class="excl-count" id="exclCount"></span></div>
+      <div class="excl-grid" id="exclGrid"></div>
+      <div class="row">
+        <button class="act" id="genSess">Generate</button>
+      </div>
+      <div id="sessOut" hidden>
+        <textarea id="sessText" rows="3" readonly style="width:100%;margin-top:12px;font-family:var(--mono);font-size:13px"></textarea>
+        <div class="row">
+          <button class="act" id="copySess">Copy</button>
+          <span class="saved" id="sessSaved">Copied</span>
+        </div>
+        <p class="note">Paste this into your Study for finals chat to start. There's no
+          safe way for a link to open a prefilled Claude conversation on its own — the
+          mechanism that used to do that was the entry point for a real prompt-injection
+          exploit disclosed against Claude.ai, so it's not something worth building
+          around even used honestly. One paste is the actual floor here.</p>
+      </div>
+    </div>
     <div class="panel">
       <div class="panel-h">Topic assay &mdash; ranked by priority, worst first</div>
       <div id="assays"></div>
@@ -622,6 +662,37 @@ document.querySelectorAll('nav button').forEach(b => b.onclick = () => {
 
 // system dropdown
 $('fSys').innerHTML = [...BUILT,...UNBUILT].map(s => `<option>${esc(s)}</option>`).join('');
+
+// start-session exclusion checkboxes
+const ALL_SYSTEMS = [...BUILT, ...UNBUILT];
+$('exclGrid').innerHTML = ALL_SYSTEMS.map((s,i) => `
+  <div class="excl-row">
+    <input type="checkbox" id="ex${i}" value="${esc(s)}">
+    <label for="ex${i}">${esc(s)}</label>
+  </div>`).join('');
+
+function updateExclCount(){
+  const n = document.querySelectorAll('#exclGrid input:checked').length;
+  $('exclCount').textContent = n ? `(${n} excluded)` : '';
+}
+$('exclGrid').addEventListener('change', updateExclCount);
+
+$('genSess').onclick = () => {
+  const n = $('sessLen').value;
+  const excluded = [...document.querySelectorAll('#exclGrid input:checked')].map(c => c.value);
+  const text = excluded.length
+    ? `Start a session — ${n} questions. Exclude: ${excluded.join(', ')}.`
+    : `Start a session — ${n} questions. No exclusions.`;
+  $('sessText').value = text;
+  $('sessOut').hidden = false;
+  $('sessOut').scrollIntoView({behavior:'smooth', block:'nearest'});
+};
+
+$('copySess').onclick = async () => {
+  const ta = $('sessText'); ta.select();
+  try{ await navigator.clipboard.writeText(ta.value); }catch(e){ document.execCommand('copy'); }
+  $('sessSaved').classList.add('on'); setTimeout(()=>$('sessSaved').classList.remove('on'), 1600);
+};
 
 $('addFlag').onclick = () => {
   const t = $('fTopic').value.trim(); if(!t) return;
