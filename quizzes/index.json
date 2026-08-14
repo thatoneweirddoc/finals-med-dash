@@ -1,0 +1,18 @@
+{
+ "quizzes": [
+  {
+   "file": "surgery.json",
+   "title": "Surgery",
+   "system": "Surgery",
+   "count": 20,
+   "added": "2026-08-14"
+  },
+  {
+   "file": "critical-care.json",
+   "title": "Critical Care",
+   "system": "Critical Care",
+   "count": 20,
+   "added": "2026-08-14"
+  }
+ ]
+}
