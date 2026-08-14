@@ -1,8 +1,8 @@
 ---
 title: "Key Differentials Quick-Reference"
 system: "Endocrine"
-sources: [Endocrine Master Notes, Endocrinology (ANU) — DIABETIC KETOACIDOSIS, Endocrinology (ANU) — diabetes insipidus, Endocrinology (ANU) — other types of diabetes mellitis, Endocrinology (ANU) — siadh]
-tags: [Differentials, ADH, DI, ANU]
+sources: [Adrenal Summary — Conn’s syndrome 🡪 Aldosteronoma/Primary Hyperaldosteronism, Endocrine Master Notes, Endocrinology (ANU) — DIABETIC KETOACIDOSIS, Endocrinology (ANU) — diabetes insipidus, Endocrinology (ANU) — other types of diabetes mellitis, Endocrinology (ANU) — siadh, Thyroid & Parathyroid Summary — Grave’s disease]
+tags: [Differentials, ADH, DI, TSH]
 updated: "2026-08-14"
 ---
 
@@ -117,3 +117,52 @@ MANAGEMENT
 | INVESTIGATIONS | Normal extracellular volume↓ serum osmolality (&lt;280 mOsm/kg H2O)↓ Na+  (&lt;135 mmol/L)↑ plasma ADH↑ urine osmolality &gt; 100 mOsm/kgUrine Na+ &gt; 40 mmol/L |
 | DIFFERENTIALS | Other causes of hyponatremia |
 | TREATMENT | Treatment of the underlying conditionAsymptomatic patients: fluid restriction, ↑ salt intakeSymptomatic patientsHypertonic saline administration with ICU monitoring to impede central pontine myelinolysisIf severe: consider adding a loop diuretic (e.g., furosemide) to hypertonic salineIf initial measures fail, consider ADH receptor antagonist (demeclocycline) or vasopressin antagonists (vaptans)The sodium serum levels may increase by a maximum of 10 mmol/L within 24 hours or 0.5 mmol/L per hour. A rapid increase in serum sodium can lead to central pontine myelinolysis! |
+
+
+---
+
+
+### Adrenal Summary — Conn’s syndrome 🡪 Aldosteronoma/Primary Hyperaldosteronism — Key Differentials Quick-Reference
+
+An adrenal tumor which makes excess amounts of aldosterone.
+
+**Pathophysiology - **aldosterone upregulates ENaC on the luminal side and Na+/K+ ATPase on the basolateral side. Overall, more Na+ reabsorption and more K+ excretion. It should be controlled by AGII levels, K+ and Na+ ECF levels.
+
+**Clinical features- **new elevation of their blood pressure (hypertension) and low potassium (about 40% of patients).
+
+**Diagnosis **by elevated aldosterone level and decreased renin level with an aldosterone:renin ratio of at least 20:1.
+
+**Imaging** is then obtained if not already performed, and in most cases, adrenal vein sampling (an interventional radiology procedure) is performed.
+
+**Adrenal vein sampling** identifies from which adrenal gland is making exces
+
+**Treatment - **
+
+Both glands 🡪 medications such as spironolactone (aldactone) or eplerenone as it is not desirable to remove both adrenal glands in most patients.
+
+single gland 🡪 laparoscopic surgery (minimally invasive)
+
+Most aldosteronomas are benign = 1-2 cm nodule
+
+Malignant aldosterone producing adrenocortical carcinomas (rare) &gt;3cm nodule
+
+
+---
+
+
+### Thyroid & Parathyroid Summary — Grave’s disease — Key Differentials Quick-Reference
+
+- This is an autoimmune disorder whereby the thyroid is overstimulated by TSI (thyroid stimulating immunoglobulins) which bind and activate the TSH receptor on the thyroid follicular cells (TSI’s are effective for 12 hours compared to TSH ~1h)
+- TSH 🡪 ↑ Iodide trapping 🡪 ↑ synthesis and secretion of both T3 and T4 increase
+- TSH 🡪 follicular growth 🡪 ↑ thyroid grows in size, producing a goitre.
+- Thyroid gland is diffusely hyperplastic and toxic
+
+B and T lymphocyte mediated autoimmunity is directed against 4 thyroid antigens:
+
+1) thyroglobulin (TG)
+
+2) thyroid peroxidase (TPO)
+
+3) sodium iodide symporter (NIS)
+
+4) **TSH receptor **(main one in Grave’s)

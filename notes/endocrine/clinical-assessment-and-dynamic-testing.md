@@ -1,8 +1,8 @@
 ---
 title: "Clinical Assessment & Dynamic Testing"
 system: "Endocrine"
-sources: [Endocrine Master Notes, Endocrinology (ANU) — acromegaly]
-tags: [Clinical, GH, IGF, ACTH]
+sources: [Adrenal Summary — CRH stimulation test, Adrenal Summary — Imaging (CT, MRI, high dose dexamethasone suppression test), Adrenal Summary — Low-Dose Dexamethasone Suppression Test *EXAM HINT (sensitivity 85%), Adrenal Summary — Testing of the HPA axis, Endocrine Master Notes, Endocrinology (ANU) — acromegaly, Thyroid & Parathyroid Summary — Biochemistry]
+tags: [Clinical, GH, ACTH, IGF]
 updated: "2026-08-14"
 ---
 
@@ -148,3 +148,94 @@ Greenspan's *Basic & Clinical Endocrinology* (dynamic function testing); Endocri
 | PRESENTATION | Risk Factors: MEN-1Arthralgia, arthritisBlood pressure raisedCarpal tunnel syndrome, colonic polyps, cardiovascular disease (HTN, LVH, cardiomyopathy)Diabetes mellitus Enlarged organs (kidney, thyroid), enlargement of hands and feet, coarsening of facial features, thickening of calvarium, enlarges nose/forehead/jaw (macrognathia)Visual field defect (mass effects → bitemporal hemianopsia), headachesGonad Females (oligomenorrhoea, amenorrhoea, galactorrhoea, vaginal atrophy)Male (erectile dysfunction, decreased libido, ↓ testicular volume) |
 | INVESTIGATIONS | ![](notes/images/endocrinology-anu/img020.jpg) |
 | MANAGEMENT | Surgery: transsphenoidal adenectomyMedicationSomatostatin analogs (e.g. octreotide, lanreotide) Dopamine agonists (e.g. cabergoline) GH receptor antagonists (e.g. pegvisomant) RadiotherapyConventional fractionated radiotherapy Stereotactic radiosurgery (e.g. Gamma Knife, Cyber Knife, proton beam) |
+
+
+---
+
+
+### Adrenal Summary — Testing of the HPA axis — Clinical Assessment & Dynamic Testing
+
+- Basal serum cortisol (problematic due to diurnal rhythm, stress response, wide normal range)midnight salivary cortisol
+- 24 hour urine free cortisol
+
+- Stimulation testshypoglycaemia (ITT)
+- CRH
+- Synacthen (synthetic ACTH test)
+
+- Suppression testdexamethasone
+
+**If you suspect their levels are low, test it at a time when it should be high.**
+
+- If you suspect their levels are high, test it at a time when it should be low
+
+
+---
+
+
+### Adrenal Summary — Low-Dose Dexamethasone Suppression Test *EXAM HINT (sensitivity 85%) — Clinical Assessment & Dynamic Testing
+
+**Why: **probe patient's glucocorticoid negative feedback system
+
+**How: **patient is given a prescription for 1 mg of dexamethasone and instructed to take it between 11 pm and 12 am. The next morning, a serum cortisol is obtained btw 8 - 9am.
+
+**Result: **Cortisol should be &lt;50 nmol/L because dexamethasone should result in suppression of the hypothalamic-pituitary-adrenal axis in normal persons and a fall in plasma and urinary cortisol levels. Failure to suppress cortisol levels following low-dose dexamethasone administration is indicative of Cushing syndrome as lowest levels of cortisol occur at night
+
+**Cons: **10 - 15% are false negatives. Also dexamethasone is primarily metabolized by the cytochrome P-450 (CYP) system; several drugs, such as phenobarbital, carbamazepine (Tegretol), and rifampicin (Rifadin), that induce the activity of CYP3A4 can lead to false-positive tests. OCP also interfere with serum cortisol levels owing to an increase in corticosteroid-binding globulin and by increasing dexamethasone metabolism. Obesity, chronic illness, chronic alcoholism and depression can cause false-positive results.
+
+**Pros:** not affected by GFR like the urine test
+
+
+---
+
+
+### Adrenal Summary — CRH stimulation test — Clinical Assessment & Dynamic Testing
+
+performed by administering 1 μg per kg of CRH intravenously
+
+ACTH and cortisol levels are measured before CRH injection and 15, 30, 45, 60, 90 and 120 minutes after injection.
+
+A rise in the cortisol value of 20 percent or more above basal level or a rise in the ACTH value of at least 50 percent above basal level is considered evidence for an ACTH-dependent lesion
+
+
+---
+
+
+### Adrenal Summary — Imaging (CT, MRI, high dose dexamethasone suppression test) — Clinical Assessment & Dynamic Testing
+
+When test results indicate that a patient has an ACTH-independent lesion, abdominal CT or MRI can help localize the site of the lesion.
+
+A tumour that does not respond to low dose but does respond to high doses is Cushing’s disease (ie a pituitary cause)
+
+If the process is ACTH dependent, a high-dose dexamethasone suppression test combined with cranial MRI studies may aid in localizing the site of ACTH overproduction.
+
+#### INFERIOR PETROSAL VENOUS SAMPLING
+
+pituitary MRI with gadolinium enhancement is insufficiently sensitive to detect small (&lt;2 mm) pituitaryACTH-secreting adenomas
+
+so, bilateral inferior petrosal sinus ACTH sampling before and after CRH administration may be required to distinguish these lesions from ectopic ACTH-secreting tumors that may have similar clinical and biochemical characteristics.
+
+An increased ratio (&gt;2) of inferior petrosal:peripheral vein ACTH confirms pituitary Cushing's syndrome
+
+Cons: procedure should not be performed in patients with hypertension or in the presence of a well-visualized pituitary adenoma on MRI
+
+(Independent)                                                                                            (ACTH - Dependent)
+
+![](notes/images/adrenal-summary/img014.jpg)
+
+
+---
+
+
+### Thyroid & Parathyroid Summary — Biochemistry — Clinical Assessment & Dynamic Testing
+
+T4 = thyroxine = 3,5,3’,5’ tetraiodothyronine
+
+T3 = 3,5,3’ triiodothyronine
+
+rT3 = 3,3’,5 triiodothyroinine (no biological activity)
+
+T4 🡪 T3 by the removal of one 5’ iodine (5’ deiodination) by deiodinase 1 or 2
+
+20% of T3 is made in the thyroid, 80% in peripheral tissue by tissue specific deiodinase
+
+- ![](notes/images/thyroid-and-parathyroid-summary/img013.jpg)

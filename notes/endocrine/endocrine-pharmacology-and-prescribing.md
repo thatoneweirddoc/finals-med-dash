@@ -1,7 +1,7 @@
 ---
 title: "Endocrine Pharmacology & Prescribing"
 system: "Endocrine"
-sources: [Endocrine Master Notes, Endocrinology (ANU) — chronic hyperglycermia effects]
+sources: [Adrenal Summary — GLUCOCORTICOIDS, Adrenal Summary — Side effects of steroid therapy, Endocrine Master Notes, Endocrinology (ANU) — chronic hyperglycermia effects, Thyroid & Parathyroid Summary — Antithyroid drugs]
 tags: [Endocrine, GLP, PTU, NICE]
 updated: "2026-08-14"
 ---
@@ -108,3 +108,128 @@ BNF and NICE (glucose-lowering drugs, corticosteroids, antithyroid drugs, bispho
 | 2. Diabetic NephropathyEpidemiology: 20-40% of persons with T1DM after 5-10 years and 4-20% with T2DM have progressive nephropathyPathophysiology; chronic hyperglycaemia → glucose and AGEs deposition → thickening of capillary basement membrane and glomerular mesangium, glomerulosclerosis and renal insufficiencyTreatmentGlycaemic and blood pressure controlUse either ACE-I or ARBs (which also prevent CVD)Limit nephrotoxic drugs and dyesRenal failure may necessitate haemodialysis and renal dialysis |
 | 3. Diabetic NeuropathyEpidemiology: approximately 50% of patients within 10 year onset of T1DM and T2DMPathophysiologyMotor and sensory neuropathies are thought to be related to metabolic or osmotic toxicity secondary to increased sorbitol and/or decreased myoinositol Possible mechanisms include:Accumulation of AGEOxidative  stressProtein kinase CNerve growth factor deficiencyAcute cranial nerve palsies and diabetic amyotrophy are thought to be due to ischemic  infarction of peripheral nervesPeripheral SensoryPain: paraesthesia,  neuropathic pain, polyradicular pain Sensory: bilateral and symmetric numbness, decreased tactile sensation, vibration, proprioception, temperature and pain Reflexes: decreased ankle reflex May also present as entrapment syndrome e.g. carpal tunnelComplicationsMalum perforans: painless neuropathic ulcers usually located on the plantar pressure points of the foot or over the head of the metatarsal bones or the heelDiabetic neuropathic arthropathy (Charcot foot): deformation of joints and bonesTreatmentSurgical debridementRegular wound dressingAntibiotic therapy if ulcers become infectedSurgical revasvascularisation in patients with PADAmputation Motor NeuropathyLess common than sensory neuropathyDelayed motor nerve conduction and muscle weakness/atrophyMay spontaneously resolve after 6-8 weeksReversible: CN palsies: III, VI, VII (Bell's)Diabetic amyotrophy refers to pain, weakness and wasting of hip flexors or extensors Autonomic Neuropathy Postural hypotension, tachycardia, decreased cardiovascular response to valsalva maneuverGastroparesis with alternating diarrhoea and constipationUrinary retention and erectile dysfunction Peripheral neuropathy treatmentTight glycaemic controlFor neuropathic pain syndromes: tricyclic antidepressants (e.g. amitriptyline), pregabalin (lyrica), anti-epileptics (e.g. gabapentin, carbamazepine), capsaicinFoot care educationAutonomicStockings and tilting of head of bed may decrease symptoms of orthostatic hypotension Treat gastroparesis with domperidone ± metoclopramide (dopamine antagonists) and erythromycin (stimulates motilin receptors) Medical, mechanical, and surgical treatment for erectile dysfunction |
 | OTHER COMPLICATIONS | DermatologicalDiabetic dermopathy: atrophic brown spots commonly in pretibial region (“shin spots&quot;) 2o increased glycosylation of tissue proteins or vasculopathy Eruptive xanthomas secondary to increased triglycerides Bone and Joint Disease Juvenile cheiroarthropathy: chronic stiffness of hand due to contracture of skin over joint caused by glycosylated collagen and other connective tissue proteins Dupuytren’s contracture Bone demineralizationAdhesive capsulitis CataractsIncreased sorbitol causes osmotic change and fibrosisEarlier onset of senile nuclear sclerotic and cortical cataractsMacular oedema |
+
+
+---
+
+
+### Adrenal Summary — GLUCOCORTICOIDS — Endocrine Pharmacology & Prescribing
+
+Once synthesised, cortisol is 90% bound to corticosteroid binding globulin / transcortin
+
+7% is bound to albumin and 3 - 4% is free.
+
+It is metabolised in the liver. Some free cortisol excreted in urine.
+
+Significant modulation of signal at target tissues.
+
+95% - cortisol aka hydrocortisone
+
+- &lt;5% -  corticosterone
+
+#### Tissue response
+
+Cortisol binds to cytoplasmic receptors eg heat shock proteins, then translocates into the nucleus where it binds to 5’ genes and influences expression.
+
+11beta-HSD1 is believed to act in vivo predominantly as an oxo-reductase using NADP(H) as a cofactor to generate cortisol. In contrast, 11beta-HSD2 acts exclusively as an NAD-dependent dehydrogenase inactivating cortisol to cortisone, thereby protecting the mineralocorticoid receptor from occupation by cortisol.
+
+![](notes/images/adrenal-summary/img010.jpg)
+
+#### Action
+
+- Inhibits synthesis of protein in tissues and increases protein breakdownmuscle wasting and weakness results from excess
+
+- ↑  lipolysis and ↑ liver gluconeogenesis while ↓  use of glucosehigh blood glucose is a result
+- redistribution of fat
+
+- suppress immune fn by acting on WBC to limit their response eg post transplant↓ production and activation of T and B lymphocytes
+
+↓ in cell mediated and antibody mediated immunity
+
+- ↓ number and activity of neutrophils (acute) and macrophages (chronic)
+- ↓  vasodilate, ↓ fluid exudation, ↓ oedema formation
+- ↓ release of histamine from mast cells (active in tissues) and basophils  (active in blood) ie the allergic response
+- ↓ proliferation of new blood vessels
+- ↓ formation of connective tissue (less fibrosis and scarring – important in long term inflammation)
+
+#### Regulation
+
+![](notes/images/adrenal-summary/img011.jpg)
+
+#### Circadian rhythm
+
+**
+![](notes/images/adrenal-summary/img012.jpg)
+**
+
+
+---
+
+
+### Adrenal Summary — Side effects of steroid therapy — Endocrine Pharmacology & Prescribing
+
+- Diabetes
+- Osteoporosis
+- Peptic ulcer
+- Hypertension
+- Psychiatric disorders
+- Weight gain
+- Immunosuppression (activate latent infection)
+
+#### Which steroid to use?
+
+- Length of action 🡪 short is safer, long is convenient
+- Consider mineralocorticoid effects
+- Do you need to measure levels?
+- Cost
+
+#### Strategies to minimize steroid problems
+
+Minimum dose / Minimum duration / Alternate day if possible
+
+Add K and Ca, reduce Na (thinking of mineralocorticoid effects)
+
+Oestrogen, Vit D, bisphosphonate (thinking of bone effects)
+
+#### Stopping steroid therapy
+
+Is the treatment needed, any rebound risk?
+
+- How long on supra-physiological doses? &lt;4 weeks, no HPA axis suppression
+- &gt; 2 months, adrenal failure likely
+
+- Reduce to physiological dose (5-7.5 mg prednisone)
+- Change to alternate day treatment
+- Slowly withdraw (eg 2-4 week intervals)
+- Synacthen test before stopping completely
+- Temporary increase for illness/stress
+
+
+---
+
+
+### Thyroid & Parathyroid Summary — Antithyroid drugs — Endocrine Pharmacology & Prescribing
+
+Thioamides eg carbimazole inhibit function of TPO 🡪 ↓ oxidation and organification of iodide. Drugs also ↓ thyroid antibody levels (don’t know how).
+
+Can give a titration regimen (reduce slowly) or block replace regimen (give high doses and levothyroxine supplementation)
+
+SFx incl fever, rash, urticarial. fever. arthralgia in 5%
+
+***Monitoring - ***Most patients aren’t euthyroid til 6 - 8 weeks after starting treatment.
+
+TSH levels can remain suppressed for months 🡪 can’t tell if treatment is working.
+
+Keep giving maintenance doses
+
+**control not cure.** drugs do not fix underlying autoimmune disease mechanisms
+
+- Iodine
+- MODE OF ACTION = given orally in high doses, transiently (few days - week then stops) inhibits the organification of iodine 🡪 inhibits thyroid hormone secretion AND  decreases vascularity of the gland.
+- INDICATION = 1) emergency management of thyroid storm, for hyperthyroid patients undergoing emergency nonthyroid surgery (so it doesn’t bleed out)
+- 2) preoperative preparation of hyperthyroid patients undergoing subtotal thyroidectomy. Giving this drug 1-2 weeks before surgical resection can ↓ vascularity and size 🡪 easier to resect. Generally is not used for routine treatment
+- Thioureylenes
+- MODE OF ACTION  = decrease the synthesis of thyroid hormones; through inhibition of thyroperoxidase, thus reducing iodination of tyrosyl residues in thyroglobulin. It is thought that they inhibit the thyroperoxidase-catalysed oxidation reactions by acting as substrates for the postulated peroxidase-iodinium complex, thus competitively inhibiting the interaction with tyrosine.
+- Propylthiouracil has the additional effect of reducing the deiodination of T4 to T3 in peripheral tissues. Aim is to reduce BMR to normal
+- ROUTE = PO. eg carbimazole, methimazole and propylthiouracil
+- Chemically, they are related to thiourea, and the thiocarbamide (S-C-N) group is essential for antithyroid activity.

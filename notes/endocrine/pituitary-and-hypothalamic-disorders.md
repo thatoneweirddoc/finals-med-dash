@@ -1,8 +1,8 @@
 ---
 title: "Pituitary & Hypothalamic Disorders"
 system: "Endocrine"
-sources: [Endocrine Master Notes, Endocrinology (ANU) — Hypopituitarism, Endocrinology (ANU) — PROLACTINOMA, Endocrinology (ANU) — anterior pituitary, Endocrinology (ANU) — function, Endocrinology (ANU) — pituitary adenoma, Endocrinology (ANU) — posterior pituitary]
-tags: [Pituitary, GH, ACTH, TSH]
+sources: [Adrenal Summary — Treatment -, Adrenal Summary — Treatment of Pituitary Corticotropinomas, Endocrine Master Notes, Endocrinology (ANU) — Hypopituitarism, Endocrinology (ANU) — PROLACTINOMA, Endocrinology (ANU) — anterior pituitary, Endocrinology (ANU) — function, Endocrinology (ANU) — pituitary adenoma, Endocrinology (ANU) — posterior pituitary, Thyroid & Parathyroid Summary — Treatment / Management, Thyroid & Parathyroid Summary — Treatment and progress]
+tags: [Pituitary, ACTH, GH, TSH]
 updated: "2026-08-14"
 ---
 
@@ -213,3 +213,74 @@ Following transsphenoidal resection and/or pituitary irradiation, patients may d
 | MANAGEMENT | First line: dopamine agonists (e.g. cabergoline, bromocriptine) which cause pituitary adenoma to shrinkSecond line: transsphenoidal hypophysectomy ± adjuvant radiotherapy which is indicated in adenomas refractory to medical management or with compressive effects (e.g. visual loss)Cease insulting drugs |
 
 Adrenal Gland Disorders
+
+
+---
+
+
+### Adrenal Summary — Treatment of Pituitary Corticotropinomas — Pituitary & Hypothalamic Disorders
+
+- Transsphenoidal Pituitary Surgery removes tumours of the pituitary gland, sellar region and sphenoid sinus
+- low mortality and morbidity
+- complications can include cerebrospinal fluid leaks, meningitis, hypopituitarism, and venous thromboembolism
+- After successful transsphenoidal surgery, glucocorticoid replacement therapy is mandatory until the hypothalamic-pituitary-adrenal axis recovers from the chronic exposure to glucocorticoid excess 🡪 takes 1 yr
+- “Curative” in 60%
+- “Normal cortisol” in 20%-30%
+- Not cured in .20%
+
+- Radiotherapysuppress pituitary secretion of ACTH, but its success rate is variable (50% in some series). It can take as long as 5 years for a full effect
+- complications: hypopituitarism develops in more than 70% of the patients over a period of 10 to 20 years after the therapy is completed.
+
+- Medical Treatment to Control Secretion of ACTHDopamine agonist cabergoline normalises cortisol production in up to 40%
+
+- Medical Adrenalectomy (inhibit steroid synthesis)eg dopamine agonist cabergoline can normalise cortisol production in 40%
+- rapidly controlling hypercortisolism in preparation for surgery,
+- after unsuccessful transsphenoidal surgery
+- after removal of an adrenal tumor such as extensive cancer
+- while awaiting the full effect of radiotherapy in recurrent Cushing's disease
+
+- Bilateral Adrenalectomy (laparascopically)provides immediate control of hypercortisolism,
+- should only do this if all other treatments have failed
+- complications: Nelson's syndrome 🡪 unabated progression of a corticotropinoma (owing to the lack of negative feedback by cortisol), very high ACTH levels, and high morbidity.
+
+
+---
+
+
+### Adrenal Summary — Treatment - — Pituitary & Hypothalamic Disorders
+
+undergoes a** laparotomy** to explore the right adrenal gland. At the operation, the right adrenal gland is found to have a hard irregular mass arising out of it. The surgeon removed the right adrenal gland, including the mass. The aortic lymph nodes are inspected, and two are removed. After tumour is surgically removed, she receives chemotherapy. She is placed on **maintenance hydrocortisone therapy** for four weeks, which is then tapered off over the next three weeks.
+
+**Histopathological examination of tumour after surgical removal**
+
+- The adrenal gland and the tumour, as well as the lymph nodes are submitted for pathological examination. The specimen consists of an ovoid mass weighing 202g and measuring 8 x 7 x 6 cm. Near the external surface there is fat in some areas and in part of the fat residual adrenal gland can be seen measuring 4 x 1 cm. The external surface of the tumour deep to the fat is smooth and white. The cut surface of the tumour has a variegated appearance, large areas of haemorrhage being interspersed with pale areas. There are several pale nodules up to 0.3-cm diameter scattered throughout the haemorrhagic areas. Areas of necrosis are seen up to 1.5cm in diameter. (malignant tumours have irregular edges, lots of necrosis and infiltration)
+
+
+---
+
+
+### Thyroid & Parathyroid Summary — Treatment / Management — Pituitary & Hypothalamic Disorders
+
+1. beta blockers eg propanolol
+
+- reduce symptoms until antithyroid drugs start working
+
+2. antithyroid drugs
+
+- to reduce thyroid hormone synthesis
+
+3. ↓ amount of thyroid tissue with radioiodine treatment
+
+- usually initial treatment OR if anti thyroid drugs fail
+
+4) Thyroidectomy
+
+- carries risk of chronic hypothyroidism later
+
+
+---
+
+
+### Thyroid & Parathyroid Summary — Treatment and progress — Pituitary & Hypothalamic Disorders
+
+Graves’ disease is hyperthyroidism with diffuse goitre and opthalmopathy (refer to ophthalmologist) Patient was treated with carbimazole (anti thyroid therapy) and propranolol (beta adrenergic antagonist) . However this medication was not monitored and reduced when her condition settled, resulting in iatrogenic hypothyroidism (cold, puffy face, gained 10kg, palpitations settled.

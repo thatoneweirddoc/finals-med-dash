@@ -1,7 +1,7 @@
 ---
 title: "Endocrine Physiology"
 system: "Endocrine"
-sources: [Endocrine Master Notes, Endocrinology (ANU) — glucocorticoid excess]
+sources: [Adrenal Summary — 24-hour urinary–free cortisol testing (&gt;95%), Adrenal Summary — ADRENOCORTICOID HORMONES, Endocrine Master Notes, Endocrinology (ANU) — glucocorticoid excess, Thyroid & Parathyroid Summary — Iodination of tyrosine (organification), Thyroid & Parathyroid Summary — Nuclear scan with technetium (99mTc), Thyroid & Parathyroid Summary — regulating cellular metabolic function (incl catecholamine effects), Thyroid & Parathyroid Summary — via the HPT axis]
 tags: [Endocrine, ACTH, GH, PTH]
 updated: "2026-08-14"
 ---
@@ -134,3 +134,123 @@ Guyton & Hall *Textbook of Medical Physiology* (endocrinology chapters); Greensp
 | INVESTIGATIONS | ![](notes/images/endocrinology-anu/img024.jpg) Bloods: hyperNa+, hypoK+, metabolic alkalosis, hyperglycaemia, hyperlipidaemia (cholesterol and triglycerides), leukocytosis (predominantly neutrophilic), eosinopenia, thrombocytosisScreening Diagnostic tests24-hour urine cortisol - ↑cortisolLow-dose dexamethasone suppression test  - late night dexamethasone (suppresses ACTH) followed by morning serum cortisol level (still elevated)↑ midnight salivary cortisol↑ midnight serum cortisolIdentifying Primary versus SecondarySerum ACTH levelsIf low - suspect primary (adrenal adenoma - then do CT/MRI abdomenIf high suspect secondary and now must differentiate between Ectopic/Cushing's DiseaseHigh-dose dexamethasone suppression test Suppression (to &gt;50%) = Cushing's Disease (higher doses DO have the ability to suppress the adenoma)Nil suppression - ectopic ACTH production  CRH Stimulation test ACTH and cortisol levels increase further: Cushing's diseaseNo increase in ACTH or cortisol levels: ectopic ACTH production |
 | MANAGEMENT | EXOGENOUS Cushing's syndromeConsider lowering the dose of glucocorticoidsConsider the use of alternatives to glucocorticoids (e.g. azathioprine)ENDOGENOUS Cushing's syndromeSurgery (if operable disease)Pituitary adenoma: transsphenoidal resection of the pituitary adenoma ACTH-secreting ectopic tumour: resection of the ectopic foci (e.g. bronchial carcinoid)Inoperable disease: adrenocortical tumour (laparoscopic or open adrenalectomy)Drugs to suppress cortisol synthesis: metyrapone, mitotane, ketoconazole |
 | COMPLICATIONS | Cardiovascular disease, hypertension, diabetes mellitus, osteoporosis, nephrolithiasis |
+
+
+---
+
+
+### Adrenal Summary — ADRENOCORTICOID HORMONES — Endocrine Physiology
+
+All human steroid hormones are synthesised from cholesterol.
+
+Cells of the adrenal cortex can synthesise de novo small amounts of cholesterol from acetate but Approximately 80% of the cholesterol used for steroid synthesis is provided by LDL in circulating plasma
+
+#### Mechanism of getting cholesterol
+
+LDL has lots of cholesterol 🡪 diffuse from plasma into interstitial fluid 🡪 APO-E binds LP receptors on adrenal cell - attach to specific receptors in coated pits on adrenocortical cell membranes 🡪 ACTH mediated transport into the cell - internalised by endocytosis 🡪 newly formed vesicles fuse with cell lysosomes 🡪 release cholesterol 🡪 used to synthesise adrenal steroid hormones.
+
+↑ cholesterol utilisation = ↑ adrenal uptake of cholesterol and cholesterol synthesis
+
+#### Synthesis of adrenocorticoid
+
+cholesterol in the cell is delivered to the mitochondria 🡪 cleaved by cholesterol desmolase to form pregnenolone (rate limiting step which is stimulated by different factors in different zones) In the zona glomerulosa, this rate limiting step is stimulated by ACTH. 2 hydroxylations occur and side chain cleavage. P450 SCC (cholesterol 20,22-hydroxylase 20 - 22 desmolase activity)
+
+![](notes/images/adrenal-summary/img008.jpg)
+(Note: 17 is unique to zona fasciculata cells 🡪 only they can synthesise cortisol)
+
+- ![](notes/images/adrenal-summary/img009.jpg)
+
+
+---
+
+
+### Adrenal Summary — 24-hour urinary–free cortisol testing (&gt;95%) — Endocrine Physiology
+
+precise and cost-effective
+
+Because of the difficulty in obtaining 24-hour urine collections in many outpatients, some physicians use a l-mg overnight dexamethasone suppression test.
+
+- Once hypersecretion of cortisol is confirmed, the next step is to determine whether the pathologic state is ACTH dependent or ACTH independent.
+
+
+---
+
+
+### Thyroid & Parathyroid Summary — Iodination of tyrosine (organification) — Endocrine Physiology
+
+Iodine binds directly to thyroglobulin in a sequential manner.
+
+This is a slow reaction so binding is enhanced by iodinases in cytosol and follicle.
+
+Tyrosine residues are iodinated first at position 3 on the ring, forming *monoiodotyrosine *(*MIT*) and then, in some molecules, on position 5 as well, forming *diiodotyrosine *(*DIT*).
+
+About one-sixth of ALL tyrosine residues in thyroglobulin are iodinated in this way
+
+![](notes/images/thyroid-and-parathyroid-summary/img015.jpg)
+
+
+---
+
+
+### Thyroid & Parathyroid Summary — regulating cellular metabolic function (incl catecholamine effects) — Endocrine Physiology
+
+- ↑  metabolism of carbohydrates, fats and proteins usually in conjunction with other hormones, such as insulin, glucagon, the glucocorticoids and the catecholamines
+- calorigenic action is important as part of the response to a cold environment.
+
+| Effect | Effect of effects | Mechanism |
+| --- | --- | --- |
+| Heart | Excess = ↑ tendency to dysrhythmias such as atrial fibrillationinotropy and chronotropy  🡪↑ CO and HR | ↑ expression of B adrenoreceptors↑ release and sensitivity to circulating catecholamines |
+| Blood | ↑ blood flow↑ pulse↑ RBC and 2,3-BPG | ↑ mitochondrial activity 🡪 + metabolism 🡪 more metabolic waste products to get rid of and more O2 to deliver so blood flow needs to ↑ |
+| Skeletal | Lack = short stature | ↑ bone turnover ↑ bone resorption |
+| Respiratory | ↑ RR and depth | maintains normal hypoxic and hypercapnic drive in resp centre BUT more metabolism = more PCO2 and less PO2 = need to breathe more |
+| GIT | +++ = ↑ appetite/ intake 🡪 weight gainexcess = diarrhea---  = ↓ appetite, intake weight losslack = constipation | ↑ gut motility and secretions |
+| CNS | Excess = nervous, twitchy patient, tremorlack = sluggishness | rapid cerebration |
+| muscles | + = hyperreflexia++++  = muscle wasting from ↑ turnover and ↑ free aa in the bloodlack = hung up reflexes, sluggishness | muscles contract more vigorously + quickly↑ ↑ ↑ proteolysis (gluconeogenesis)↑ proteogenesis |
+| ↑  basal metabolic rate | ↑ body heat production | ↑ oxygen consumption |
+| ↑ NaK pump activity 🡪 ↑ rates of ATP hydrolysis 🡪 🡪↑ heat generation |
+| ↑ lipid metabolism | ↑ conc of fatty acids atherosclerosis from less liver excretion and thus more cholesterol in plasma | ↑ ↑ ↑ lipolysis ↑ oxidation of fatty acids and liver excretion of cholesterol in the bile |
+| ↑ carbohydrate metabolism | ↑ free serum glucose | ↑ insulin- dependent entry of glucose into cells in intestine esp |
+| ↑ ↑ gluconeogenesis |
+| ↑ glycogenolysis |
+| sleep | tired but can’t sleep 🡪 nightmares, irritable | Pro sleep - CNS and muscles tiredAnti sleep - synapses are excitable |
+| endocrine function | pancreas. since blood glucose is so high, need more insulinPTG - since bone formation and calcium uptake is so quick, need more PTH.adrenals - glucocorticoids inactivated so fast in the liver, need more glucocorticoid secretion | ↑ secretion rate of other hormones through its effects |
+| sexual function | lack = loss of libidoMale excess = impotenceFemale excess = oligomenorrhoeasometimes amenorrhoea | ↑ libidoThyroid effect on gonads? not suredirect metabolic effects on gonadsexcitatory and inhibitory feedback effects operate through anterior pituitary hormoens that control sexual function |
+
+
+---
+
+
+### Thyroid & Parathyroid Summary — via the HPT axis — Endocrine Physiology
+
+- Various stimuli (cold, stress, trauma) are transmitted to the hypothalamus.
+- Parvocellular nuclei with their cell bodies at the arcuate nucleus and median eminence  release of TRH into the portal veins at the median eminence. The portal circulation bathes the thyrotrophs of the anterior pituitary with TRH.
+- TRH acts on TRH receptors in the thyrotroph’s cell membrane, triggering second messenger systems. Overall, an ↑ in intracellular Ca causes exocytosis of TSH containing vesicles into the secondary venous plexusProtirelin also stimulates troph cells 🡪 used in diagnosis
+
+- TSH acts on TSH receptors in the follicular cells of the thyroid gland. This causes ↑ synthesis and release of T4 and T3 into the blood.
+- T4 and T3 have their actions on the body cells. T4 and T3 also act via negative feedback on the HPT axis to inhibit their own secretion
+
+
+---
+
+
+### Thyroid & Parathyroid Summary — Nuclear scan with technetium (99mTc) — Endocrine Physiology
+
+– Provides information about function of the gland ie hot or cold nodule
+
+- – Used to discriminate between hyperthyroid disorders
+
+- increased thyroid hormone synthesis (Graves’, toxic nodule, toxic multinodular goitre) 🡪 increased uptake on scan 🡪 hot
+- thyroiditis/thyroid hormone release/exogenous iodine or thyroxine 🡪reduced uptake on scan 🡪 cold
+
+– Malignant nodules are usually cold, though only ~20% cold nodules are malignant
+
+- – Can be used to identify nodules suitable for biopsy in correlation with ultrasound
+
+#### Example result
+
+![](notes/images/thyroid-and-parathyroid-summary/img033.jpg)
+
+- In Graves disease - diffuse uptake throughout the whole thyroid
+- In follicular adenoma, you don’t see rest of the gland as it’s been shut down by neg feedback on pituitary and is not making anything. a faint spot underneath might be the salivary glands which also trap u=you
+- In subacute thyroiditis - low TSH, not making anything. 2-3 month store of thyroid hormone accidentally released due to gland inflammation (post viral, post partum)
+- In TMG - lots of autonomous nodules not responding to TSH, some making hormone, some are not so variable appearance

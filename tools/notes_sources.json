@@ -29,6 +29,14 @@
     {
      "path": "/tmp/out/docx/endocrinology-anu.md",
      "label": "Endocrinology (ANU)"
+    },
+    {
+     "path": "/tmp/out2/docx/adrenal-summary.md",
+     "label": "Adrenal Summary"
+    },
+    {
+     "path": "/tmp/out2/docx/thyroid-and-parathyroid-summary.md",
+     "label": "Thyroid & Parathyroid Summary"
     }
    ]
   },
@@ -45,6 +53,22 @@
     {
      "path": "/tmp/out/docx/general-surgery-and-gastroenterology-anu.md",
      "label": "General Surgery & Gastroenterology (ANU)"
+    },
+    {
+     "path": "/tmp/out2/docx/constipation-and-aperients-summary.md",
+     "label": "Constipation & Aperients Summary"
+    },
+    {
+     "path": "/tmp/out2/docx/gi-bleeding-summary.md",
+     "label": "GI Bleeding Summary"
+    },
+    {
+     "path": "/tmp/out2/docx/pancreatitis-summary.md",
+     "label": "Pancreatitis Summary"
+    },
+    {
+     "path": "/tmp/out2/docx/peptic-ulcer-summary.md",
+     "label": "Peptic Ulcer Summary"
     }
    ]
   },
@@ -217,6 +241,14 @@
     {
      "path": "/tmp/out/docx/cardiovascular-anu.md",
      "label": "Cardiovascular (ANU)"
+    },
+    {
+     "path": "/tmp/out2/docx/reducing-risk-heart-disease.md",
+     "label": "Reducing Risk in Heart Disease (Heart Foundation)",
+     "split_levels": [
+      1,
+      1
+     ]
     }
    ]
   },
@@ -240,7 +272,29 @@
      "label": "General Practice (ANU)"
     }
    ],
-   "primary_style": "h1"
+   "primary_style": "h1",
+   "secondary": [
+    {
+     "path": "/tmp/out2/docx/geriatrics-summary.md",
+     "label": "Geriatrics Summary"
+    },
+    {
+     "path": "/tmp/out2/docx/justice-health.md",
+     "label": "Justice & Correctional Health",
+     "split_levels": [
+      1,
+      1
+     ]
+    },
+    {
+     "path": "/tmp/out2/docx/pre-travel-dvt-diabetes.md",
+     "label": "Pre-Travel Health Assessment",
+     "split_levels": [
+      1,
+      1
+     ]
+    }
+   ]
   },
   {
    "system": "Paediatrics",

@@ -1,7 +1,7 @@
 ---
 title: "Endocrine Anatomy"
 system: "Endocrine"
-sources: [Endocrine Master Notes, Endocrinology (ANU) — Hypothalamus, Endocrinology (ANU) — Pituitary Gland (hypophysis), Endocrinology (ANU) — anatomy of thyoid gland, Endocrinology (ANU) — types of endocrine cells]
+sources: [Endocrine Master Notes, Endocrinology (ANU) — Hypothalamus, Endocrinology (ANU) — Pituitary Gland (hypophysis), Endocrinology (ANU) — anatomy of thyoid gland, Endocrinology (ANU) — types of endocrine cells, Thyroid & Parathyroid Summary — Anatomy]
 tags: [Endocrine, ANU, III, ACTH]
 updated: "2026-08-14"
 ---
@@ -159,3 +159,17 @@ Islets of Langerhans are distributed throughout the exocrine pancreas
 - Divides into two parts:
 - Anterior pituitary gland (adenohypophysis)
 - Posterior pituitary gland (neurohypophysis)
+
+
+---
+
+
+### Thyroid & Parathyroid Summary — Anatomy — Endocrine Anatomy
+
+- 80% of people have 4 of these glands while some people have 1 - 12 PTGs.
+- Combined they weigh 120mg in men and 150 mg in women.
+- They are yellow / brown.
+
+| Superior | Upper poles of the thyroid lobes within the thyroid capsuleCan also be located in the pharynx, oesophagus or larynx. |
+| --- | --- |
+| Inferior | Lie in the lower poles of the thyroid lobesCan be located behind the thyroid, paratracheal or thymus |

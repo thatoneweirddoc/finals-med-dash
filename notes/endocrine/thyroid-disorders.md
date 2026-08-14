@@ -1,7 +1,7 @@
 ---
 title: "Thyroid Disorders"
 system: "Endocrine"
-sources: [Endocrine Master Notes, Endocrinology (ANU) — Hyperthyroidism vs hypothyroidism, Endocrinology (ANU) — Thyroid Cancer, Endocrinology (ANU) — hashimoto’s thyroiditis, Endocrinology (ANU) — hyperthyroidism, Endocrinology (ANU) — hypothyroidism, Endocrinology (ANU) — thyroid nodule]
+sources: [Adrenal Summary — Adrenocortical nodules, Adrenal Summary — Pathogenesis of clinical features, Adrenal Summary — Prognosis, Endocrine Master Notes, Endocrinology (ANU) — Hyperthyroidism vs hypothyroidism, Endocrinology (ANU) — Thyroid Cancer, Endocrinology (ANU) — hashimoto’s thyroiditis, Endocrinology (ANU) — hyperthyroidism, Endocrinology (ANU) — hypothyroidism, Endocrinology (ANU) — thyroid nodule, Thyroid & Parathyroid Summary — ![](notes/images/thyroid-and-parathyroid-summary/img018.jpg), Thyroid & Parathyroid Summary — 1. TOXIC MULTINODULAR GOITRE, Thyroid & Parathyroid Summary — 2. SOLITARY COLLOID GOITRE / solitary thyroid nodule, Thyroid & Parathyroid Summary — 3. AUTOIMMUNE THYROID DISEASE, Thyroid & Parathyroid Summary — CONJUGATION 🡪 Coupling of MIT and DIT, Thyroid & Parathyroid Summary — Clinical features, Thyroid & Parathyroid Summary — Free T3, Thyroid & Parathyroid Summary — HYPOTHYROIDISM, Thyroid & Parathyroid Summary — Histology of Graves, Thyroid & Parathyroid Summary — Iodine uptake “ trapping”, Thyroid & Parathyroid Summary — Radioiodine,, Thyroid & Parathyroid Summary — TSH, Thyroid & Parathyroid Summary — Thyroid antibodies, Thyroid & Parathyroid Summary — Thyroid follicular carcinoma, Thyroid & Parathyroid Summary — Thyroid papillary carcinoma, Thyroid & Parathyroid Summary — Toxic nodular goiter (TNG) – Plummer’s disease, Thyroid & Parathyroid Summary — Well differentiated thyroid cancer]
 tags: [Thyroid, TSH, PTU, IV]
 updated: "2026-08-14"
 ---
@@ -195,3 +195,396 @@ American/British Thyroid Association guidance (thyrotoxicosis, hypothyroidism, t
 | COMPLICATIONS | Airway obstruction, metastases to bone, lung and CNS |
 
 bone and mineral disorders
+
+
+---
+
+
+### Adrenal Summary — Adrenocortical nodules — Thyroid Disorders
+
+found in 5- 8% of patients
+
+The vast majority are benign (non-cancerous) 🡪 no excess amounts of hormone, no symptoms, found only when imaging studies (CT scans, MRIs) are obtained to evaluate symptoms related to another problem.
+
+When found, need further investigation 🡪 must ensure
+
+1) the nodule has benign imaging characteristics
+
+2) ensure no evidence of hormone excess
+
+
+---
+
+
+### Adrenal Summary — Pathogenesis of clinical features — Thyroid Disorders
+
+| Central obesity. Interscapular fat pad (buffalo hump,)‘moon face’supraclavicular fat pads | 🡪 increased gluconeogenesis in liver (favouring breakdown of fat stores more than glycogen) causes more circulating fat and thus fat redistribution |
+| --- | --- |
+| proximal myopathythin extremities from muscle wasting | ↑ protein breakdown for gluconeogenesis  + (reduced synthesis of proteins) 🡪 wasting and weakness |
+| Psycological features	Fatigue/ malaise impaired cognition + concentrationreduced libido depression / apathypsychosis / agitation | Elevated cortisol 🡪 ↑ CRF from hypothalamus and maybe amygdala 🡪 Sustained elevations in glucocorticoids impair hippocampal function via direct damage to hippocampal neurons 🡪 reduced hippocampal volume in depressed humans 🡪 loss of hippocampal inhibitory effect on hypothalamic-pituitary-adrenal axis 🡪 ↑ gc secretion 🡪 pathological forward positive f/b loop |
+| Striae, thin skin | increased protein breakdown 🡪 subcutaneous tissue breakdown allows the thinning of skin. Also increased abdominal fat contributes to striae formation |
+| easy bruising | liver occupied in gluconeogenesis 🡪 less synthesis of clotting factors |
+| Immune effectssuperficial skin infectionsimpaired wound healingopportunistic infections | Anti inflammatory and immunosuppressive actions↑ susceptibility to infections (fungal) ↓ clearance of infections |
+| Hirsutism and acne, impotence (m), oligomenorrhoea / amenorrhoea (f) | excess cortisol goes hand in hand with excess androgen production (shared enzymes etc) 🡪 virilising effect of testosterone on women |
+| Osteoporosis 🡪 pathological fractures 🡪 back pain | ↑ bone breakdown through stimulation of osteoclasts and inhibition of osteoblasts |
+| hypertension | ↑ in a1 – adrenoreceptor expression on bvs ↑ sensitivity to NA/A  🡪 tendency to hypertension |
+| Diabetes | ↑ gluconeogenesis 🡪 hyperglycaemia 🡪 pancreas makes more insulin 🡪 ↑ uptake into cells 🡪 get fat develop “steroid” diabetes if you can’t produce enough insulin to compensate for the hyperglycaemia |
+
+
+---
+
+
+### Adrenal Summary — Prognosis — Thyroid Disorders
+
+- 1) benign adrenal adenoma = 5- YSR of 95% or 10 YSR of 90% after adrenalectomy
+- 2) pituitary adenoma have similar survival if pituitary surgery is successful, but transsphenoidal surgery fails in ~10–20%. Despite complete remission after transsphenoidal surgery, ~15–20% recur over 10 years
+
+3) **ACTH of unknown source** = 5 YSR of 65%, 10 YSR of 55%
+
+4) **adrenal carcinoma = **&lt;12 months if metastatic
+
+
+---
+
+
+### Thyroid & Parathyroid Summary — Iodine uptake “ trapping” — Thyroid Disorders
+
+Iodine is found in food as NaI . I- uptake by follicle cells is an energy-dependent process occurring against a gradient of follicular cell iodine: normal serum iodine ~ 25:1.
+
+Iodide is captured from the blood and trapped in the colloid by two transporters:
+
+**Na+/I- symporter (NIS) **in basolateral surface 🡪 moves I- from blood to the cytosol.
+
+It is driven by the Na+ gradient formed by the 3Na/2K ATP exchange.
+
+Normally, TSH acts to increase uptake by stimulating the transcription of NIS..so!
+
+- when there is LOW TSH eg from a hypophysectomy, this ratio is low
+- when there is HIGH TSH, there is more uptake 🡪 HIGHER ratio 🡪up to 250:1
+
+***Pendrin*1 (*PDS*), an I-/Cl- porter** in the apical membranes 🡪 moves I- from the cytosol of the cell into the colloid. It is driven by I- gradient.
+
+
+---
+
+
+### Thyroid & Parathyroid Summary — CONJUGATION 🡪 Coupling of MIT and DIT — Thyroid Disorders
+
+While still incorporated into thyroglobulin, adjacent strands of thyroglobulin are conjugated / coupled🡪 double MW. Either
+
+- adjacent MIT with DIT to form  thyroglobulin bound T3 OR
+- two DIT molecules to form T4.
+
+![](notes/images/thyroid-and-parathyroid-summary/img016.jpg)
+** 
+![](notes/images/thyroid-and-parathyroid-summary/img017.jpg)
+**
+
+The mechanism for coupling is believed to involve a peroxidase system similar to that involved in iodination. Yield per thyroglobulin molecule
+
+- 1 T3 per 14 T4 molecules
+- I thyroglobulin has 30 T4 and a few T3
+
+#### Storage (between steps 5 and 6)
+
+Thyroid hormone is stored  for 2/3 months in the colloid
+
+
+---
+
+
+### Thyroid & Parathyroid Summary — ![](notes/images/thyroid-and-parathyroid-summary/img018.jpg) — Thyroid Disorders
+
+Transport
+
+In circulation 99.98% of T4 and 99.5% of T3 are bound to plasma proteins:
+
+- 70% of T4 and T3  is bound to  TBG (thyroid hormone binding  globulin)
+- 10% of T4 and very little of T3 Transthyretin (TTR)
+- 15% of T4 and 25% of T3 bound to albumin
+
+Advantages:
+
+- –  Large buffer that minimises minute-to-minute variations
+- –  Prolongs the half-lives of both T4 (8 days) and T3 (24 hours) they diffuse off slowly
+
+–  T4 acts as a large pool of reserve prohormone available for conversion to T3.
+
+T3/4 are carried to target tissues. Changes in binding protein levels can affect the total levels. The unbound fraction is active / free hormone. It is this free T4 and T3 that is measured in assays 🡪 reflect thyroid status
+
+
+---
+
+
+### Thyroid & Parathyroid Summary — Toxic nodular goiter (TNG) – Plummer’s disease — Thyroid Disorders
+
+- thyroid gland that contains autonomously functioning thyroid nodules, with resulting
+- hyperthyroidism. Autonomous hyperactivity is conferred by somatic mutations of the TSH receptor of toxic adenomas and some nodules of multinodular goiters.
+
+Hyperthyroidism predominantly occurs when single nodules are &gt; 2.5 cm in diameter.
+
+
+---
+
+
+### Thyroid & Parathyroid Summary — Histology of Graves — Thyroid Disorders
+
+Without treatment, the follicular epithelial cells are tall and crowded (hypertrophy and hyperplasia from TSI). The crowding can cause formation of small papillae and encroach on the lumen. The colloid is sparse and may be present inside follicular cells. Lymphocytic infiltrates may be present in the stroma, and can form germinal centres (less common than in Hashimotos).
+
+
+---
+
+
+### Thyroid & Parathyroid Summary — Clinical features — Thyroid Disorders
+
+|  |
+| --- |
+| SYMPTOMSJittery, shaky, nervous Difficulty concentrating Emotional lability Insomnia Rapid HR, palpitations, heat intolerance (feel hot)Weight Loss (can see weight gain) with increased appetiteFreq bowel motions Fatigue Menses w/lighter flow, shorter durationbreast enlargementmuscle wastingfine, straight hair | SIGNSEye findings (lid lag, stare) 🡪 Graves eye disease and thyroid disease may occur at the same time or notTachycardia: Sinus Tach, A-Fib Flow murmur Systolic Hypertension Hyperreflexia Tremor Proximal muscle weakness Onycholysis -  Onycholysis of thyrotoxicosis - distal separation of the nail plate from the nail bed (Plummer’s nails)localized oedema– finger clubbing |
+| Symptom (Order of freq) | Mechanism |
+| Hyperactivtity | ↑ speed of muscle contraction/ relaxation |
+| heat intolerance, sweating, warm, moist skin | ↑ ATP ase activity 🡪 ↑ BMR  🡪 ↑ body temperature |
+| fatigue, weakness | long term muscle wasting because  ↑ ↑ ↑ proteolysis ≫ ↑ proteogenesis |
+| weight loss, ↑ appetite | ↑ BMR |
+| diarrhoea | GIT hypermotility |
+| stomach upset, excessive urination, and impaired kidney function | augment calcium levels in the blood by as much as 25%. |
+| oligomenorrhoea(usually maintained ovulation) | (from Medscape)SHBG production increases in hyperthyroid women, the metabolism of oestrogen is altered conversion of androgens to oestrogens is increased. ↑  gonadotrophin response to GnRH ↑  baseline gonadotrophin concentrations effects on haemostatic factors eg synth of factor VIII. |
+| Signs (order of freq) | Mechanism |
+| tachycardia, palpitations + extrasystolic arrhythmia, atrial fibrillation, flutter and sometimes cardiomyopathy and congestive heart failure | thyrotoxicosis 🡪 ↑ expression of B adrenoreceptors↑ release and sensitivity to circulating catecholamines (adrenaline)🡪 ↑ CO and HR 🡪 compensatory cardiac hypertrophy 🡪rhythm disturbance 🡪 arrhythmiaAlso, ↑ CO 🡪bounding pulse🡪 widened pulse pressure, and an aortic systolic murmur 🡪 worsening of angina or heart failure in the elderly or those with pre existing heart disease |
+| tremor | ↑ sympathetic output |
+| diffuse, firm goitre | diffuse, symmetrical enlargementmarked vascularity 🡪 thrill or bruit |
+| sarcopeniaproximal myopathy | ↑ muscle energy expenditure + protein breakdown |
+| lid lag, lid retraction | eye manifestations of Graves also linked to Abo activity |
+| pre tibial myxodema elephantiasis thyroid acropachy | can be disabling and lead to loss of hand function |
+| osteoporosis | ↑ bone resorption 🡪 increased excretion of calcium and phosphorus in the urine and stool |
+| GRAVES ONLY |  |
+| ophthalmopathy | due to corneal lesions or optic nerve compression 🡪 compromised vision 🡪 blindness |
+
+
+---
+
+
+### Thyroid & Parathyroid Summary — Radioiodine, — Thyroid Disorders
+
+- MOA = given orally, is selectively taken up by thyroid and incorporated into thyroglobulin. The 131- I isotope emits both β radiation and γ rays.
+- The β particles exert a powerful cytotoxic action that is restricted to the cells of the thyroid follicles, resulting in significant destruction of the tissue.
+- There is a theoretical risk of thyroid cancer and hypothyroidism later on
+
+INDICATION = first-line treatment for hyperthyroidism (particularly in the USA).
+
+
+---
+
+
+### Thyroid & Parathyroid Summary — 1. TOXIC MULTINODULAR GOITRE — Thyroid Disorders
+
+**Definition: **If the thyroid gland has several nodules, they can sometimes produce too much thyroid hormone 🡪 hyperthyroidism. these benign monoclonal tumours are called colloid nodules / cysts  or can be from adenoma / carcinoma
+
+**Aetiology: **idiopathic, related to local iodine intake and dietary goitrogens, long term chronic thyroiditis eg Hashimoto’s abscess, haematoma, lymphoma, bronchogenic cyst
+
+**Epidemiology: **Aus has low iodine intake per capita. Occurs in older patients &gt; 50.
+
+**Pathogenesis: **
+
+- Autoantibodies destroy thyroid follicular cells and block hormone synthesis.
+- Simultaneously, iodine deficiency to ↓ T3 and T4 levels
+- Negative feedback of low T4/3 🡪 ↑ TSH 🡪 Thyroid follicular hyperplasia
+- hyperplasia predisposes single cells to somatic mutations of the TSH receptor  eg constitutive activation of the TSH receptor 🡪 clonal proliferation.
+
+- Macroscopically the gland is enlarged with uneven external nodules from polyclonal proliferation of some follicles vs some quiescent follicles 🡪 multiple nodules, vascular compression 🡪 ischaemia 🡪 necrosis &amp; inflammation  🡪 fibrosis 🡪 calcification
+
+**Microscopic features: **nodules of variably sized follicles distended by colloid.
+
+IT may have haemorrhage, fibrosis, calcifications, metaplastic bone.
+
+**Prognosis: **benign thyroid disease. 20% chance of malignancy
+
+
+---
+
+
+### Thyroid & Parathyroid Summary — 2. SOLITARY COLLOID GOITRE / solitary thyroid nodule — Thyroid Disorders
+
+Like the nodules of MNG, but there is only one. The rest of the gland is normal.
+
+These are clonal and probably represent a **thyroid follicular adenoma**.
+
+Cause hyperthyroidism
+
+#### Thyroid follicular ADENOMA
+
+**Pathology: **nodule is enclosed by a fibrous capsule. Compactly arranged follicles with reduction in colloid. Follicular cells appear benign. Adj normal follicles compressed.
+
+- Diagnosis - fine needle aspiration cytology is a screening test for prescence of follicular lesion. Definitive diagnosis via histological exam of completely excised nodule
+
+
+---
+
+
+### Thyroid & Parathyroid Summary — 3. AUTOIMMUNE THYROID DISEASE — Thyroid Disorders
+
+**Pathogenesis: **inherited defect in antigen specific T suppressor cells cause
+
+- 🡪 interferon a synthesis 🡪 HLA-DR expression on thyroid epithelium
+- 🡪 become APC, interact with T suppressor cells
+
+- 🡪 B cell induction. 🡪 autoantibody production 🡪 destruction of thyroid follicles
+
+#### Graves’ disease
+
+See separate page
+
+**Epidemiology: **female, genetic predisposition
+
+- Clinical features: diffuse goitre, hyperthyroidism
+- Macroscopically - diffuse, symmetrical enlargement with marked vascularity
+- Microscopically - follicular hyperplasia, papillary infolding of follicular epithelium. Little colloid. Lymphoid cells in stroma, forming lymphoid follicles
+
+#### Hashimoto’s and lymphocytic thyroiditis
+
+Spectrum of thyroiditis due to autoimmune injury
+
+**Epidemiology: **middle aged female
+
+**Clinical - **50% are hypothyroid, painless diffuse goitre
+
+**Macroscopic - **diffuse, symmetrical enlarement, tan yellow cut surface
+
+**Microscopic - **small atrophic follicles with dense or absent colloid A metaplastic change is observed in the follicular epithelium 🡪 oncocytic, clear cell and squamous. Lymphocytes and plasma cells in stroma 🡪 often form germinal centres.
+
+Interlobular fibrosis
+
+**Complications - **malignancy (lymphomas &gt; carcinomas)
+
+![](notes/images/thyroid-and-parathyroid-summary/img022.jpg)
+
+
+---
+
+
+### Thyroid & Parathyroid Summary — Well differentiated thyroid cancer — Thyroid Disorders
+
+**Epidemiology: **younger patients, rising incidence, common (is it rising or are we just getting better at detecting it?) rarely are they cancer.
+
+**CF: **usually thyroid lump. Can be part of MNG. Painless.
+
+5 - 10% have visible thyroid nodule, 50% have u/s nodule, &lt;1% have thyroid cancer
+
+**Investigations / Dx: **Start with an u/s 🡪 look at the SHAPE, echogenicity, microcalifications, vascularity, invasion, regional lymphadenopathy. If it’s really invasive THEN do FNAB or excision biopsy
+
+**Solitary cold nodule **🡪 hypometabolic
+
+- Can be from adenoma, colloid cyst, thyroid carcinoma
+- Rarer causes - abscess, haematoma, thyroiditis, lymphoma, bronchogenic cyst
+- Case study. found it clinically accidentally scanning the heart. A thyroid scan shows a cold nodule. 20% chance of malignancy, so do a fine needle biopsy - yes it is cancer.
+- ![](notes/images/thyroid-and-parathyroid-summary/img023.jpg)
+- ![](notes/images/thyroid-and-parathyroid-summary/img024.jpg)
+
+**Prognosis: **very good survival (even when metastatic), good treatment options
+
+
+---
+
+
+### Thyroid & Parathyroid Summary — Thyroid papillary carcinoma — Thyroid Disorders
+
+**Epidemiology - **commonest. micropapillary carcinomas common at autopsies
+
+**Aetiology - **iodine, radiation, autoimmune, hormones, genetic
+
+**Pathology - **firm white infiltrative mass, calcification (psammoma bodies), sclerosis. Papillae (central core with lining neoplastic cells - grooved with clear nuclei)
+
+**Prognosis - **usually biologically indolent, but lymph spread is common. Venous invasions are less likely. Excellent prognosis &gt;90% in 2 years despite lymphatic spread
+
+
+---
+
+
+### Thyroid & Parathyroid Summary — Thyroid follicular carcinoma — Thyroid Disorders
+
+**Pathology - **Same as thyroid follicular adenoma. Encapsulated nodule.** **Invasion of fibrous capsule, bvs and surrounding normal thyroid tissue occurs.
+
+**Epidemiology **with thyroid papillary carcinoma, make up 80 - 90% of thyroid cancers.
+
+- Anaplastic carcinoma
+- Least common (1-2% of all thyroid cancer), old people
+- aggressive, quick growing, hard to treat, poor prognosis
+
+
+---
+
+
+### Thyroid & Parathyroid Summary — HYPOTHYROIDISM — Thyroid Disorders
+
+| Epidemiology |
+| --- |
+| can occur at any age, but is most often seen in middle-aged women. |
+| Aetiology |
+| Thyroiditis (later phase) Hashimoto’ssubacutedrug inducedAthyroidism thyroidectomyradioactive iodine ablationthyroid agenesis (congenital?)Impaired thyroid hormone synthesisiodine deficiencycongenital enzyme defects organification defectslingual thyroidTSH deficiency hypothalamic or pituitary disease |
+| Pathogenesis |
+| caused by a reaction of the immune system against the thyroid gland. ![](notes/images/thyroid-and-parathyroid-summary/img025.jpg) Myxoedema - for unknown reasons, chondroitin sulfate and hyaluronic acid form a gel in the interstitial fluid 🡪 myxedema which is immobile and non pitting eg in the face |
+| Clinical features |
+| SYMPTOMS–  General Slowing Down –  Lethargy/somnolence –  Depression –  Modest Weight Gain –  Cold Intolerance –  Hoarseness –  Dry skin –  Constipation(↓peristaltic activity) –  General Aches/Pains  🡪 Arthralgias or myalgias – Brittle Hair– Menstrual irregularities 🡪 Excessive bleeding / Failure of ovulation– ↓ Libido | SIGNS– Dry, pale, course skin w/ yellowish tinge – Periorbital edema – Puffy face and extremities – Sinus Bradycardia– Diastolic HTN – ↓ Body Temperature – Delayed relaxation of DTRs – Megacolon (↓ peristaltic activity) – Pericardial/ pleural effusions – CHF – Myxedema (nonpitting edema) |
+| Investigations (DDX) |
+| – mild anemia – ↑ CPK-MB – ↑ LDL,↑ Chol (↓ lipid clearance)– Hyponatraemiafree thyroxine will be low BMR is low : - 30 - 50TSH will be greatly increased if TRH is given(except in rare cases when hypothyroidism was caused by low response to TRH) |
+| Diagnosis |
+| Characterised by raised circulating levels of thyroid peroxidase antibody or Antithyroglobulin antibody |
+| Treatment / Management |
+| Synthetic thyroxine eg levothyroxine (T4) - has all the actions of endogenous thyroxine; it is given orally. Indications: eg replacing the thyroid gland’s function as you’ve killed it off with abs and radiotherapy.Liothyronine (T3) has all the actions of endogenous triiodothyronine. given IV |
+
+
+---
+
+
+### Thyroid & Parathyroid Summary — TSH — Thyroid Disorders
+
+- Best test for screening for thyroid dysfunction 🡪 distinguishes hyper/ hypo/eu
+- Log/linear response with fT4 🡪 ie 2-fold change in fT4 produces a 100-fold change in TSH
+- CONS - sick euthyroid syndrome and dysthyroid eye disease will give false low TSH levels implying hypothyroidism
+- HOW - A single test of thyroid function is the most sensitive in most circumstances but ACCURATE DIAGNOSIS requires 2 testsTSH + free T4 / free T3 where hyperthyroidism is suspected
+- TSH + free T4 where hypothyroidism is likely
+
+
+---
+
+
+### Thyroid & Parathyroid Summary — Free T3 — Thyroid Disorders
+
+–  Not routinely measured in screening.
+
+- –  Can be useful in certain clinical situations of hyperthyroidism  eg T3- secreting toxic nodules or Graves’ disease
+
+![](notes/images/thyroid-and-parathyroid-summary/img030.jpg)
+
+![](notes/images/thyroid-and-parathyroid-summary/img031.jpg)
+
+- Subclinical hyperthyroidism: if TSH is low but T4/T3 in normal range
+
+**Subclinical hypothyroidism: **if TSH is raised but T4/T3 is normal range
+
+#### Difficulties with thyroid function testing
+
+**Serious acute chronic illness**
+
+Systemically ill patients can therefore have an apparently low total and free T4 and T3 with a normal or low basal TSH (the ‘sick euthyroid’ syndrome). Levels are usually only mildly below normal and are thought to be mediated by interleukins IL-1 and IL-6; the tests should be repeated after resolution of the underlying illness.
+
+**Pregnancy and oral contraceptives**
+
+These lead to greatly increased TBG levels and thus to high or high-normal total T4. Free T4 is usually normal. Normal ranges for free T4 and TSH alter with the normal physiological changes during pregnancy and TSH is often slightly suppressed in the first trimester, but this rarely causes clinical problems.
+
+**Drugs**
+
+Amiodarone decreases T4 to T3 conversion and free T4 levels may therefore be above normal in a euthyroid patient; conversely amiodarone may induce both hyper- and hypo- thyroidism – the TSH level is usually reliable.  Many drugs affect thyroid function tests by interfering with protein binding but this now rarely causes a problem with free T4 assays.
+
+
+---
+
+
+### Thyroid & Parathyroid Summary — Thyroid antibodies — Thyroid Disorders
+
+–  Used to diagnose autoimmune thyroid disease
+
+- –  Hashimoto’s: thyroid peroxidase (TPO) antibodies  thyroglobulin (TG) antibodies
+- –  Graves’: thyroid stimulating hormone receptor antibodies (TRAb) or thyroid stimulating immunoglobulin (TSI)
+- - TRAb typically stimulate the receptor - can be measured by
+- inhibition of binding of TSH to receptors using TBII (TSH binding inhibitory Ig)
+- proving TRAb stimulate the release of CAMP (thyroid stimulating Ig / ab TSI)

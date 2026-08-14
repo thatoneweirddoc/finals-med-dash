@@ -1,7 +1,7 @@
 ---
 title: "Calcium, Bone & Parathyroid Disorders"
 system: "Endocrine"
-sources: [Endocrine Master Notes, Endocrinology (ANU) — Calcium homeostasis, Endocrinology (ANU) — HYPOPARATHYROIDISM, Endocrinology (ANU) — hypercalcaemia, Endocrinology (ANU) — hyperparathyroidism, Endocrinology (ANU) — hypocalcaemia, Endocrinology (ANU) — osteomalacia and rickets, Endocrinology (ANU) — osteoporosis, Endocrinology (ANU) — paget’s disease, Endocrinology (ANU) — parathyroid gland]
+sources: [Endocrine Master Notes, Endocrinology (ANU) — Calcium homeostasis, Endocrinology (ANU) — HYPOPARATHYROIDISM, Endocrinology (ANU) — hypercalcaemia, Endocrinology (ANU) — hyperparathyroidism, Endocrinology (ANU) — hypocalcaemia, Endocrinology (ANU) — osteomalacia and rickets, Endocrinology (ANU) — osteoporosis, Endocrinology (ANU) — paget’s disease, Endocrinology (ANU) — parathyroid gland, Thyroid & Parathyroid Summary — Parathyroid neoplasia:]
 tags: [Calcium, PTH, ALP, IV]
 updated: "2026-08-14"
 ---
@@ -342,3 +342,19 @@ Osteoporosis, nephrolithiasis, pathological fractures, osteodystrophy
 | COMPLICATIONS | Insufficiency fracturesSecondary hyperparathyroidism leading to osteoporosisHypercalciuria leading to kidney stones |
 
 Pituitary and hypothalamic disorders
+
+
+---
+
+
+### Thyroid & Parathyroid Summary — Parathyroid neoplasia: — Calcium, Bone & Parathyroid Disorders
+
+#### Adenoma
+
+**Macroscopic - **75% cases of hyperPTH, solid red brown nodule is encapsulated with a rim of normal tissue found at the periphery. There may be haemorrhage
+
+**Microscopic - **solid prolif of PT cells with no fat in tumour. Rim of normal tissue at the periphery has some fat
+
+#### Carcinoma
+
+- Macroscopic - larger than adenoma. Similar appearance. Tends to invade adj normal structures (nerves, soft tissue, oesophagus), has thick fibrous bands. Vascularised.

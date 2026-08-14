@@ -334,12 +334,24 @@ def build(config, out_root, only_system=None):
             label = src.get("label", os.path.basename(path))
             with open(path, encoding="utf-8") as fh:
                 md = fh.read()
-            for ctitle, cbody in split_by_headings(md):
+            for ctitle, cbody in split_by_headings(md, levels=src.get("split_levels", (1, 2))):
                 target = match_topic(ctitle, snapshot)
                 if target:
                     topics[target].append((f"{label} — {ctitle}", cbody))
                 else:
                     unmatched.append((f"{label} — {ctitle}", cbody))
+
+            # Several source docs use no Word heading style at all — plain bold
+            # paragraph text on a single-topic write-up (the topic is the whole
+            # document, e.g. "Peptic Ulcer Summary"). split_by_headings finds no
+            # boundary and returns nothing, which would silently drop the file.
+            if not split_by_headings(md) and word_count(md) >= MIN_TOPIC_WORDS:
+                doc_title = label
+                target = match_topic(doc_title, snapshot)
+                if target:
+                    topics[target].append((label, md.strip()))
+                else:
+                    unmatched.append((label, md.strip()))
 
         if unmatched:
             topics["Additional Notes"] = unmatched

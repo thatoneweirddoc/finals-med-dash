@@ -1,7 +1,7 @@
 ---
 title: "Diabetes Mellitus"
 system: "Endocrine"
-sources: [Endocrine Master Notes, Endocrinology (ANU) — type 1 diabetes mellitis, Endocrinology (ANU) — type 2 diabetes mellitus]
+sources: [Adrenal Summary — Diagnosis, Endocrine Master Notes, Endocrinology (ANU) — type 1 diabetes mellitis, Endocrinology (ANU) — type 2 diabetes mellitus, Thyroid & Parathyroid Summary — HISTORY, Thyroid & Parathyroid Summary — History, Thyroid & Parathyroid Summary — Investigations /Diagnosis, Thyroid & Parathyroid Summary — Risk factors]
 tags: [Diabetes, GLP, NICE, OGTT]
 updated: "2026-08-14"
 ---
@@ -162,3 +162,74 @@ COMPLICATIONS
 
 - Hyperosmolar hyperglycaemic state
 - Pancreatic failure leading to T1DM
+
+
+---
+
+
+### Adrenal Summary — Diagnosis — Diabetes Mellitus
+
+1. Hyponatraemia, hyperkalaemia
+
+- 2. Low morning cortisol (&lt; 150 nmol/L)  (it should be high in morning…)
+- but there is a wide normal range anyway - 150 - 600 nmol/L..bad test
+- Having a cortisol &gt; 500 nmol/L excludes diagnosis
+- 3. Lack of response to ACTH (Synacthen)
+- 4. Lack of response to hypoglycaemia (ITT)
+- Synacthen test
+
+| ABOUT | this is a stimulation testsynthetic ACTH (tetracosactide) 1-24 aa protein fragment |
+| --- | --- |
+| INDICATIONS | test only useful for primary adrenal diseaseAddison’s diagnosisscreening for ACTH deficiency |
+| METHOD | at 0900, non fasting, give 250 µg IV or IM at time 0take cortisol level before and then 30  -60 mins afternormal result is doubling of levels and meak &gt;550 nmol/L400 - 600 is borderline - might be deficient |
+| RESULTS | a healthy subject shows a normal response subject with primary hypoadrenalism demonstrates impaired cortisol response to tetracosactide (ACTH) |
+
+
+---
+
+
+### Thyroid & Parathyroid Summary — Risk factors — Diabetes Mellitus
+
+1) **Smoking**  = minor RF of Graves' disease and a major RF of ophthalmopathy.
+
+2) **Sudden ↑ ****iodine**** intake** = precipitate Graves' disease
+
+3) **post partum **= 3x increase in occurrence of Graves' disease
+
+4) **during immune reconstitution phase** after HAART or alemtuzumab treatment.
+
+| Aetiology |
+| --- |
+| 1) Increased thyroid hormone synthesis • Graves’ disease (stimulating antibody) • Toxic nodules eg Plummer’s and, solitary nodules, MNG (autonomous production)• Gestational hyperthyroidism (stimulation by placental bHCG) • TSH-secreting pituitary adenoma (rarely) • Thyroid hormone resistance causing negative feedback to raise TSH (very rare) • Struma ovarii, functioning thyroid cancer , ovarian tumour 🡪 T4 (very rare)2)Preformed thyroid hormone release: thyroiditis eg silent lymphocytic (Hashitoxicosis)post viral, post partum, sporadic3) Iatrogenic:medications (amiodarone, lithium, interferon)iodine in contrast media. Jod Basedow (iodine induced hyperthyroidism) |
+
+
+---
+
+
+### Thyroid & Parathyroid Summary — Investigations /Diagnosis — Diabetes Mellitus
+
+| Investigations (DDX) |
+| --- |
+| mild leukopaenia Normochromic, normocytic anaemia ↑ LFTs and ALPmild ↑ calcium ↓ albumin ↓ cholesterolT3 and T4 serum levels test by radioimmunoassayTSH levels -  can be super low (from negative feedback) or high (from TSH secreting anterior pituitary tumour)Radioactive iodine uptake test - low uptake = thyroiditis (stored T3 and T4 leaking out of inflammated thyroid gland, thus raising levels in the blood for 1-2 months)high uptake = Graves disease or other toxic condition (hyperthyroidism due to increased synthesis)BMR is +30 - 60TSI test 🡪 shows high levels in Graves thyrotoxicosis eg anti TPO, anti TG antibodies, but low in thyroid adenoma |
+
+
+---
+
+
+### Thyroid & Parathyroid Summary — HISTORY — Diabetes Mellitus
+
+- Duration, Size, Pain, tenderness
+- Symptoms of obstruction / compression (plethora, Pemberton’s, difficulty swallowing, dyspnoea, stridor, hoarseness)
+- Medical history (pregnancy, medication use, iodine exposure, recent infections, autoimmune conditions - occurs in a cluster with addison’s, coeliac, T1DM, PA, vitiligo, )
+- Family history of thyroid disease (strongly inherited)
+- Country of origin (iodine deficiency - mountainous regions, radiation exposure)
+
+
+---
+
+
+### Thyroid & Parathyroid Summary — History — Diabetes Mellitus
+
+** **35 year old Chinese woman presents with nocturnal fever and sweating and difficulty sleeping + nightmares She has tremors in her hands, arms and legs feel weak, fatigue and heart races when she hurries. She has lost more hair from her scalp than usual, stress at work, lighter menstrual periods, loose bowel actions, (↑ GIT motility) bulging eyes, trouble with vision. She has a good appetite but has lost 3 kg in 2 months.
+
+no history of infections, rigors, or cough expectoration (rules out cancer and infection)

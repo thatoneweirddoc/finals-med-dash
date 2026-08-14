@@ -1,8 +1,8 @@
 ---
 title: "Adrenal Disorders"
 system: "Endocrine"
-sources: [Endocrine Master Notes, Endocrinology (ANU) — Adrenal Gland, Endocrinology (ANU) — adrenal insufficiency/hypocortisolism, Endocrinology (ANU) — congenital adrenal hyperplasia]
-tags: [Adrenal, ACTH, IV, CT]
+sources: [Adrenal Summary — Adrenal cortex, Adrenal Summary — Adrenal histology, Adrenal Summary — Adrenal imaging, Adrenal Summary — Adrenal medulla tumours eg phaeochromocytoma, Adrenal Summary — Anatomy of the adrenal gland, Adrenal Summary — CT and MRI, Adrenal Summary — Causes of adrenal failure, Adrenal Summary — Clinical features of adrenal insufficiency, Adrenal Summary — Physiology of pituitary - adrenal axis, Adrenal Summary — Plasma ACTH, Adrenal Summary — Treatment of adrenal insufficiency, Adrenal Summary — Treatment of Adrenal Disease eg adrenocortical cancer, Adrenal Summary — Treatment of Ectopic Corticotropin Syndrome, Endocrine Master Notes, Endocrinology (ANU) — Adrenal Gland, Endocrinology (ANU) — adrenal insufficiency/hypocortisolism, Endocrinology (ANU) — congenital adrenal hyperplasia, Thyroid & Parathyroid Summary — Oxidation of iodide ions]
+tags: [Adrenal, ACTH, CT, MRI]
 updated: "2026-08-14"
 ---
 
@@ -228,3 +228,242 @@ ADRENAL CRISIS (ADDISON’S CRISIS)
 | Presentation | Females: in both forms, presents at birth with ambiguous genitaliaMales: presents at birth with adrenal crisis in the salt-losing form, but presents with precocious puberty in the non-salt-losing form |
 | Investigations | Electrolyte abnormalities include hyponatremia, hyperkalaemia, and metabolic acidosis. In severe cases, mineralocorticoid deficiency may lead to life-threatening salt wastingAn elevated serum 17-hydroxyprogesterone level is diagnostic |
 | Management | MedicalImmediate fluid resuscitation and salt repletionAdminister cortisol to ↓ ACTH and adrenal androgensFludrocortisone is appropriate for severe 21-hydroxylase deficiency.Surgical: cocorrect ambiguous genitalia in female infants |
+
+
+---
+
+
+### Adrenal Summary — Anatomy of the adrenal gland — Adrenal Disorders
+
+4 grams in mass, lie at the superior poles of the 2 kidneys.
+
+Have an inverted Y, V or T shape. Yellow brown colour.
+
+They left is lunar shaped, the right is pyramidal.
+
+Each gland is composed of the capsule, cortex and medulla (embryologically, these migrate together and are collocated, but are completely separate organs.)
+
+![](notes/images/adrenal-summary/img006.jpg)
+
+
+---
+
+
+### Adrenal Summary — Adrenal cortex — Adrenal Disorders
+
+(outer 80% of gland) secrete corticosteroids, synthesised from steroid cholesterol. Derived from mesoderm. yellow in colour
+
+| Zone | Description | Stimulus |
+| --- | --- | --- |
+| zona glomerulosa:mineralocorticolds | thin layer is found just below the capsule constitutes 15% of the cortexcontain the enzyme aldosterone synthase 🡪 only cells that make sig amounts of aldosterone. | ECF concentrations of AGII, K stimulates secretion. |
+| zona fasciculate:glucocorticoids | middle, widest layer 75% of the cortexsecretes cortisol and corticosterone as well as androgens and oestrogens. | hypothalamic-pituitary axis via ACTH regulates secretions |
+| zona reticularis:androgens | deepest layer10% of cortexsecretes androgens DHEA and androstenedione as well as oestrogens, GCs | ACTH again. Cortical androgen stimulating hormone from the pituitary (maybe) |
+
+
+---
+
+
+### Adrenal Summary — Adrenal histology — Adrenal Disorders
+
+- The ZF and ZR functions as a single unit, producing glucocorticoids and sex hormones.
+- ZG - rounded collections of small cells. Nests. High N:C ratio
+- ZF - cords/ columns of large clear cells with low N:C ratio and prominent cell membrane
+- ZR - nests and short cords (ie IRREGULAR) of eosinophilic compact cells
+- Medulla - densely packed, cords and nests of large chromaffin cells with granular basophilic cytoplasm.
+
+![](notes/images/adrenal-summary/img007.jpg)
+
+-
+
+
+---
+
+
+### Adrenal Summary — Physiology of pituitary - adrenal axis — Adrenal Disorders
+
+| Hormone, Structure | Regulation of Release | Target Organ Effects | Hypersecretion Hyposecretion |
+| --- | --- | --- | --- |
+| ADRENOCORTICAL HORMONES |
+| Mineralocorticoids (chiefly aldosterone) | Stimulated by RAAS, serum ↑K+ or ↓Na+ ACTH (minor stim)Inhibited by own effect(↑ BP, ↓ K, ↑ Na) | Collecting duct in glomerulus in kidneys:↑’s Na+ blood levels and ↓’s K+ blood levels ↑BP through water retention | ↑:Aldosteronism(Conn’s disease)↓:Addison’s disease |
+| Glucocorticoids (chiefly cortisol) | Stimulated by ACTH; in response to stress and diurnal rhythms in a feed forward mechanismInhibited by feedback inhibition exerted by cortisol on the anterior pituitary and hypothalamus | Anabolic effects on liver↑ enzyme synthesis↑ gluconeogenesis 🡪 ↑ plasma [glucose]Catabolic effectsIn muscle, lymphoid, skin, adipose tissue:↑ mobilisation of fats↑  protein catabolism 🡪 ↑ free aa↓ protein / nuclei acid synthesis↓ glucose uptake by cellsOtherAssist body to resist stressors↓inflammatory, immune response | ↑:Cushing’s syndrome↓:Addison’s disease |
+| Gonadocorticoids (chiefly androgens, converted to testosterone or oestrogens after release) | Stimulated by ACTH;Inhibition mechanism incompletely understood, but feedback inhibition not seen | Insignificant effects in males;Responsible for female libido;Development of pubic &amp; axillary hair in females;Post-menopause oestrogen source | ↑: Virilisation of females (adrenogenital syndrome)↓: No effects known |
+| ADRENAL MEDULLARY HORMONES |
+| Catecholamines (noradrenaline and adrenaline) | Stimulated by preganglionic fibres of sympathetic nervous system | SNS target organs:Effects mimic sympathetic nervous system activation;↑HR &amp; metabolic rate;↑BP by ++ vasoconstriction | ↑: HypertensionProlonged fight-or-flight response;↓:Unimportant |
+
+
+---
+
+
+### Adrenal Summary — Adrenal medulla tumours eg phaeochromocytoma — Adrenal Disorders
+
+**Examples: **Neuroblastoma, gangioneuroblastoma, ganglioneuroma, or……
+
+#### Phaeochromocytoma
+
+**Definition: **Intra-adrenal or extra-adrenal (called paragangliomas)
+
+**Aetiology: **Sporadic or familial🡪 associated with MEN 2a and 2b syndromes (50%), von Hippel- Lindau disease (20%) or von Recklinghausen’s disease (5%)
+
+**Pathophysiology: **Produces adrenaline and NA
+
+**Macroscopic: **3-5cm, tan solid cut-surface**, **turns dark brown (pigment formation) on exposure to light or air. Solid, nested growth. Large cells with abundant
+
+basophilc cytoplasm. Eosinophilic cytoplasmic globules.
+
+**Prognosis: **can be malignant if very large, many mitoses, necrotic, haemorrhagic.
+
+No marker can specifically predict malignancy
+
+**Clinical features🡪** excess amounts of catecholamines often present with new/worsening hypertension, headaches, sweating, palpitations (racing heart), flushing, and panic attacks. SEVERE ↑ BP 🡪 heart attacks, stroke and sudden death.
+
+- Treatment  - 10% of pheochromocytomas are malignant🡪 open surgery
+- Benign pheochromocytoma patients 🡪  laparoscopic surgery performed through several small incisions.
+
+
+---
+
+
+### Adrenal Summary — Causes of adrenal failure — Adrenal Disorders
+
+- ACTH deficiency 🡪 hypothalamic  / pituitary disease
+- Primary adrenal insufficiency causesautoimmune  (most common cause) Addison’s disease
+- infection (TB, HIV)
+- haemorrhage
+- tumour (eg metastasis)
+- enzyme deficiency (CAH) Congenital adrenal hypertrophy - lack of 21 hydroxylase 🡪 can’t convert cholesterol into cortisol and aldosterone 🡪 build up of precursors 🡪 excess androgens.
+- inhibition (drugs - exogenous steroids)
+
+
+---
+
+
+### Adrenal Summary — Clinical features of adrenal insufficiency — Adrenal Disorders
+
+**Glucocorticoid deficiency** 🡪  hypoglycaemia - weight loss - weakness  - anorexia, nausea, vomiting - may be occult until time of stress (normally, stress causes body to put on an extra surge of cortisol without this everything will decompensate suddenly!)
+
+**Mineralocorticoid deficiency** 🡪 hypotension (volume depleted) - salt craving (sodium depleted without aldosterone to help sodium reabsorption)
+
+**ACTH excess (if primary)** 🡪 negative feedback …too little cortisol in blood so ACTH keeps being produced to try to raise it. However this causes excessive melanocyte stimulating hormone - this is because the pituitary gland simultaneously makes lots of  ACTH and MSH (they are packaged together in a precursor protein (POMC) preopiomelanocortin which is then divided) 🡪 pigmentation / bronzing suntanned appearance ALL OVER even the gums, non exposed areas
+
+**Fun fact - vitilago** = depigmentation due to autoimmune disease against melanocytes. addisons = bronzing. you can have both at the same time because autoimmune diseases ↑ Rx of other autoimmune diseases.
+
+
+---
+
+
+### Adrenal Summary — Treatment of adrenal insufficiency — Adrenal Disorders
+
+**Replace cortisol -** short acting glucocorticoid preparation - mimic normal diurnal rhythm - increase dose in times of stress
+
+**Replace aldosterone (fludrocortisone)** - monitor fluid and electrolyte status
+
+Addison’s disease - only became treatable in the 1930s when cortisol became extractable and injectable. JFK’s suntan was probably from lack of replacement of steroids and excess cortisol.
+
+**Cushing’s syndrome **refers to manifestations of excessive corticosteroids
+
+**Cushing’s disease **refers to ACTH secreting pituitary adenoma (F:M = 3:1)
+
+
+---
+
+
+### Adrenal Summary — Plasma ACTH — Adrenal Disorders
+
+This can be accomplished through measurement of the late-afternoon ACTH plasma level. Late-afternoon (after 4 p.m.) timing is important because ACTH levels are normally low at that time.
+
+**If the ACTH level &gt; than 10 pg per mL = ACTH dependent. **
+
+**If the ACTH level is &lt; 5 pg per mL = ACTH independent**
+
+Intermediate ACTH levels indicate the need for further study with, for example, a CRH stimulation test.
+
+
+---
+
+
+### Adrenal Summary — Adrenal imaging — Adrenal Disorders
+
+small masses common . adenoma: 1-5% incidence
+
+some adenomas are hormonally active eg cortisol secreting
+
+adrenals are common site for metastases esp from lung
+
+adrenal “incidentalomas” common – need to rule out hormone production/cancer
+
+![](notes/images/adrenal-summary/img015.jpg)
+
+![](notes/images/adrenal-summary/img016.jpg)
+
+![](notes/images/adrenal-summary/img017.jpg)
+
+
+---
+
+
+### Adrenal Summary — CT and MRI — Adrenal Disorders
+
+- Adrenal tumors &gt; 6cm are highly suspicious for adrenocortical carcinomas.
+- CT &gt; MRI esp for detecting small unilateral adrenocortical adenomas or bilateral micronodular hyperplasia
+- MRI with dynamic gadolinium-enhanced and chemical shift technique is as effective as CT in distinguishing malignant from benign lesions.
+- MRI is much less useful for detecting adrenal nodularity owing to motion artifacts.
+- differentiation btw malignant and benign adrenal tumors fat content
+- Measurement of Hounsfield units (HU) in unenhanced CT attenuation value &gt; 10 HU OR enhancement washout &lt; 50% and a delayed attenuation &gt; 35 HU (on 10- to 15-min delayed enhanced CT) are suspicious for malignancy.
+
+
+---
+
+
+### Adrenal Summary — Treatment of Adrenal Disease eg adrenocortical cancer — Adrenal Disorders
+
+- Laparoscopic adrenalectomy 1st choice for benign adrenal lesions w/ diameter of &lt; 6cm.
+- The treatment of choice for bilateral adrenal hyperplasias associated with ACTH-independent Cushing's syndrome
+- Complications: Patients require lifelong replacement therapy with glucocorticoids and mineralocorticoids, and they should be adequately educated about the risk of acute adrenal insufficiency
+- In stages I to III adrenocortical carcinoma, complete tumor removal offers best chance for cure.
+- disadvantage: Surgery’s often extensive, with en bloc resection of invaded organs, and regularly includes lymphadenectomy.
+- 5 YSR ranges between 16% and 38%. Median survival for metastatic disease (stage IV) is &lt; 12 months.
+
+- Radiotherapyineffective for adrenocortical cancer
+- can control localized disease not amenable to surgery.
+
+Mitotane
+
+- the only adrenal-specific agent available for treating metastatic adrenocortical carcinoma
+- also an adjuvant for tumours with a high risk of recurrence
+- Mechanism: cytotoxic effect on adrenocortical cells 🡪 focal degeneration of the fascicular and particularly the reticular zone.
+- Complications: induces adrenal insufficiency and increases the metabolic clearance of glucocorticoids, glucocorticoid replacement is indicated, often at higher than normal doses owing to increased clearance.
+
+Cytotoxic chemotherapy
+
+- includes etoposide (VePesid),[1]doxorubicin (Adriamycin),[1] and cisplatin (Platinol),[1] or streptozocin (Zanosar)[1] plus mitotane.
+- limited efficacy for advanced adrenocortical cancer and is associated mainly with partial responses.
+
+
+---
+
+
+### Adrenal Summary — Treatment of Ectopic Corticotropin Syndrome — Adrenal Disorders
+
+- depends on tumor identification, localization, and classification
+
+Bilateral adrenalectomy
+
+- surgical resection is most effective, although not possible if metastatic
+- considered when the hypercortisolism cannot be controlled by other options.
+
+| Medication | Initial Dose | Maximum Dose | Adverse Effects |
+| --- | --- | --- | --- |
+| Ketoconazole (Nizoral)[1] | 100–200mg bid/tid | 1200mg | Nausea, vomiting, abdominal pain, weakness, hypothyroidism, gynecomastia, hepatotoxicity, hypertriglyceridemia |
+| Metyrapone (Metopirone)[1] | 250mg qid | 6000mg | Headache, alopecia, hirsutism, acne, nausea, abdominal discomfort, hypertension, weakness, leucopenia |
+| Mitotane (Lysodren)[1] | 500mg tid | 9000mg | Nausea, vomiting, anorexia, diarrhea, ataxia, confusion, skin rash, hepatotoxicity |
+| Aminoglutethimide (Cytadren) | 250mg qid | 2000mg/d | Lethargy, nausea, anorexia, hypothyroidism, somnolence |
+
+
+---
+
+
+### Thyroid & Parathyroid Summary — Oxidation of iodide ions — Adrenal Disorders
+
+The oxidation of iodide from I- to I+ and its incorporation into thyroglobulin is catalysed by *thyroperoxidase* on the luminal surface of secretory vesicle🡪 requires the presence of hydrogen peroxide (H2O2) as an oxidising agent
+
+Thyroglobulin is released from Golgi apparatus with peroxidase

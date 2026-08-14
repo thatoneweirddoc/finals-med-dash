@@ -1,8 +1,8 @@
 ---
 title: "GI Bleeding & the Acute Abdomen"
 system: "Gastroenterology"
-sources: [Gastroenterology Master Notes, General Surgery & Gastroenterology (ANU) — MALLORY-WEISS TEAR, General Surgery & Gastroenterology (ANU) — acute appendicitis, General Surgery & Gastroenterology (ANU) — large bowel obstruction, General Surgery & Gastroenterology (ANU) — small bowel obstruction]
-tags: [Bleeding, GI, CT, AXR]
+sources: [GI Bleeding Summary — Lower GI bleeding, GI Bleeding Summary — Upper GI bleeding, Gastroenterology Master Notes, General Surgery & Gastroenterology (ANU) — MALLORY-WEISS TEAR, General Surgery & Gastroenterology (ANU) — acute appendicitis, General Surgery & Gastroenterology (ANU) — large bowel obstruction, General Surgery & Gastroenterology (ANU) — small bowel obstruction]
+tags: [Bleeding, GI, CT, IV]
 updated: "2026-08-14"
 ---
 
@@ -262,3 +262,260 @@ INVESTIGATIONS:
 - TREATMENT AND MANAGEMENT: ABCD, NBM, IVF, analgesia, MAG ABx, anti-emetics, appendicectomy
 - COMPLICATIONS: perforation, peritonitis, sepsis/septic shock, abscess, carcinoma,
 - PROGNOSIS: Rapid treatment yields good prognosis
+
+
+---
+
+
+### GI Bleeding Summary — Upper GI bleeding — GI Bleeding & the Acute Abdomen
+
+Aetiology
+
+- Most common causes are peptic ulcers and oesophageal varices
+- Other causes include:Gastroduodenal erosions
+- Oesophagitis
+- Mallory-Weiss tear
+- AVM
+- Dieulafoy’s lesion – large tortuous arteriole in the stomach wall that erodes and bleeds
+- Malignancy
+
+Cause might be suggested by symptoms
+
+●Peptic ulcer: Epigastric or right upper quadrant pain
+
+●Esophageal ulcer: Odynophagia, gastroesophageal reflux, dysphagia
+
+●Mallory-Weiss tear: Emesis, retching, or coughing prior to hematemesis
+
+●Variceal hemorrhage or portal HTN gastropathy: Jaundice, weakness, fatigue, anorexia, abdominal distention
+
+●Malignancy: Dysphagia, early satiety, involuntary weight loss, cachexia
+
+![](notes/images/gi-bleeding-summary/img005.jpg)
+
+Triage
+
+- active bleeding or haemodynamic instability 🡪 refer to ICU for resus, obs with automated BP, ECG and SpO2
+- anyone else should be admitted to gastro ward for monitoring
+
+Complications of bleeding
+
+- Haemorrhage leads to hypotension, and resultant lactic acidosis
+- This can lead to a myriad of complications:Renal failure
+- Cerebral ischaemia and damage
+- Gut ischaemia
+- Liver failure
+- DIC / SIRS
+- Cardiac failure
+
+Diagnostic testing in emergency setting
+
+- NGT lavage only indicated if fresh blood and clots need to be removed to facilitate endoscopy
+- Blood tests – FBC (Hb, WBC, platelets) Coags (PT, INR), EUC, LFTs, ABG (lactate), albumin, BUN, Cr
+- G&amp;H (or type and crossmatch if hemodynamic instability, severe bleeding, or high-risk patient)
+
+Resuscitation
+
+- Send for help: Obtain immediate consultation with gastroenterologist; obtain surgical and interventional radiology consultation for any large-scale bleeding
+- Airway: NBM, Closely monitor airway, consider elective ETT if massive haematemesis; consider balloon tamponade as a temporising measure for uncontrollable variceal bleeding 🡪 need ETT first and must ensure correct placement prior to inflation to prevent oesophageal rupture
+- Breathing: monitor clinical status, vital signs, NP supplementary O2
+- Circulation: IV access via 2 large 16+ gauge IV cannula OR a CVC + fluid replacement - isotonic crystalloid fluid – 3 for 1 rule (3mL replacement for each 1mL blood loss) eg 500 mL N/S or Ringer’s lactate over 30 mins) while being typed and cross matched for transfusions. Monitor cardiac rhythm, consider indications for pulmonary artery cath (haemodynamic instability)
+- Disability / Environment:
+- Fluids: insert IDC to monitor urine output and strict fluid balance, nasogastric output 🡪
+
+Medications:
+
+- IV PPI – omeprazole 40mg IV BD, as pH &gt;6 decreases pepsin activity, which in turn decreases fibrin clot degradation. Overall stabilises newly formed clot. Note H2RA (ranitidine, cimetidine) don’t have the same effect. whereas oral and IV PPIs ↓ length of hospital stay, rebleeding rate and need for blood transfusions in pts with high risk ulcers treated endoscopically; but also promote clot stabilisation in non ulcer lesions.
+- NO ROLE FOR Tranexamic acid at present - antifibrinolytic - benefits mortality but not bleeding surgery or transfusion requirements.
+- if INR &gt; 3, try to correct to &lt; 3 before endoscopy 🡪 give FFP. Also give 1 unit of FFP per 4 units PRBCs given as RBCs don’t have coagulation factors in them
+- If known or suspected oesophageal varices and or cirrhosisAntibiotics - unless cirrhotic
+- Somatostatin and analogues eg octreotide for variceal bleeding but may also help other bleeding. IV bolus 20 - 50 mcg then continuous infusion 25 - 50 mcg per hour.
+- Terlipression (a vasoactive agent)
+
+![](notes/images/gi-bleeding-summary/img006.jpg)
+
+Restricted targets 🡪 7 - 9 is the aim
+
+Predictive factors for severe upper GI bleeding
+
+- Presents with haematemesis
+- Hypotension/hypovolaemia (especially if systolic &lt;90mmHg)
+- Tachycardia and shock
+- Hb &lt;80g/L
+- Malignancy or cirrhosis
+
+Endoscopic haemostatic therapy devices - using 2 has better outcomes than using 1!
+
+- Pre-procedure – IV erythromycin or metoclopramide. (pro kinetics)rationale is to clear clots and food residue to improve gastric visualisation at time of endoscopy.
+
+- Adrenaline injection
+- Bipolar coagulation (heat)
+- Argon plasma coagulation
+- Endoscopic clips
+- endoscopic variceal ligation or banding
+- haemospray (military nanotechnology)
+
+Who gets endoscopic therapy?
+
+patients with active bleeding (100% risk) , a nonbleeding visible vessel (50% risk), an adherent clot (25% risk), or bleeding esophageal varices. Provided pt is haemodynamically stable, no need to postpone endoscopy until coagulopathy is corrected - urgent endocscopy can proceed concurrently with transfusion. However if INR is &gt;3 attempt to correct with FFP infusion before endoscopy. Non urgent endoscopy (still within 24 hours) are done in haemodynamically stable patients.
+
+Problems with endoscopy
+
+It may be helpful to irrigate the stomach prior to endoscopy to help remove residual blood and other gastric contents. However, despite irrigation, the stomach can be obscured with blood, potentially making it difficult to establish a clear diagnosis and/or perform therapeutic maneuvers. In patients in whom blood obscures the source of bleeding, a second endoscopy may be required to establish a diagnosis and to potentially apply therapy, but routine second-look endoscopy is not recommended. Giving erythromycin and metoclopramide helps.
+
+**List the risk factors for continued bleeding from an ulcer and the indications for operation in a patient with gastrointestinal haemorrhage.**
+
+● Hemodynamic instability (SBP &lt; 100 mmHg, or HR &gt;100 bpm)
+
+●Hemoglobin &lt; 10 g/L
+
+●Active bleeding at the time of endoscopy
+
+●Large ulcer size (&gt; 1 to 3 cm in various studies)
+
+●Ulcer location (posterior duodenal bulb or high lesser gastric curvature)
+
+![](notes/images/gi-bleeding-summary/img007.jpg)
+
+Approach algorithm (see image)
+
+* The presence of both hematemesis and melena suggests that brisk bleeding is present.
+¶ Bleeding associated with signs such as hypotension, tachycardia, or orthostatic hypotension.
+Δ Consider evaluation with a side-viewing duodenoscope if there are risk factors for hemobilia or hemosuccus pancreaticus; consider CTA (followed by push enteroscopy if the CTA is negative) in patients at risk for an aortoenteric fistula. Conventional transvenous angiography is typically performed if the patient remains hemodynamically unstable despite attempts at resuscitation.
+◊ ​Patients who present with hematemesis do not need to undergo colonoscopy, since hematemesis suggests the bleeding is proximal to the ligament of Treitz. They should proceed directly to an evaluation for small bowel bleeding.
+§ If the patient becomes hemodynamically unstable following initial resuscitation, conventional transvenous angiography can be performed. Patients who present with hematemesis do not need to undergo colonoscopy and can skip this step in the evaluation because hematemesis suggests the bleeding is proximal to the ligament of Treitz.
+¥ If the initial endoscopic evaluation was inadequate (eg, fair or poor visualization, failure to reach the cecum), repeat examination should be considered before initiating an evaluation for small bowel bleeding. ‡ If not already done. If the patient remains hemodynamically stable and does not have evidence of aggressive bleeding (eg, ongoing hematochezia), perform a CTA or push enteroscopy (CTA is the initial test of choice if there is concern for an aortoenteric fistula). If the patient becomes hemodynamically unstable following initial resuscitation or has signs of aggressive bleeding, perform conventional transvenous angiography.
+† If not already done, angiography or CTA may be obtained. If angiography or CTA has been performed and no source is identified, a Meckel's scan should be obtained in younger patients with overt bleeding, unless the only manifestation of bleeding was hematemesis. Surgical exploration is appropriate if no other studies have revealed a source and significant bleeding continues or if there is high suspicion for a small bowel neoplasm.
+** If the deep small bowel enteroscopy was incomplete, a video capsule endoscopy study should be obtained, followed by CT enterography or MR enterography if the capsule endoscopy is negative.
+
+![](notes/images/gi-bleeding-summary/img008.jpg)
+
+Forrest classification of bleeding peptic ulcers + Re-bleeding risk without endoscopic therapy (%)
+
+- Type 1: a (spurting) – 100% vs b (oozing) – 20%
+- Type 2: a (visible vessel) – 50% vs b (adherent clot) – 25% vs c (flat pigmented spot) – 10%
+- Type 3: Clean base – 3%
+
+Benefits of endoscopic therapy (using 2 methods, not just 1)
+
+- Diminishes re-bleeding
+- Diminishes transfusions
+- Reduces hospital stay
+- Decreases need for emergency surgery
+
+After bleeding settles
+
+- Cease NSAIDs and Clopidogrel stat
+- Standard dose PPI
+- Early discharge if no co-morbidities, stable vitals, have a likely bleeding source identified and treated on upper endoscopy, have a source of bleeding that is not associated with a high risk of rebleeding
+
+Other imaging? Other diagnostic tests for acute UGIB include angiography, which can detect active bleeding, deep small bowel enteroscopy, and rarely, intraoperative enteroscopy
+
+Upper GI barium studies are **contraindicated** in the setting of acute UGIB because they will interfere with subsequent endoscopy, angiography, or surgery. An esophageal wireless capsule endoscopy (which has a recording time of 20 min) can be given in the ED and reviewed immediately for evidence of bleeding. Confirming the presence of blood in the stomach or duodenum may aid with patient triage and identify patients more likely to benefit from early endoscopy. A colonoscopy is generally req for patients with hematochezia and a negative upper endoscopy unless an alternative source for the bleeding has been identified. In addition, patients with melena and a negative upper endoscopy frequently undergo colonoscopy to rule out a right-sided colonic source for the bleeding, as such lesions may present with melena (although more commonly maroon/dark stool).
+
+
+---
+
+
+### GI Bleeding Summary — Lower GI bleeding — GI Bleeding & the Acute Abdomen
+
+![](notes/images/gi-bleeding-summary/img009.jpg)
+
+diverticulosis #1, IBD, cancer
+
+Presentation
+
+The initial hemoglobin in patients with acute lower GI bleeding will typically be at the patient's baseline because the patient is losing whole blood. With time (typically after 24 hours or more), the hemoglobin will decline as the blood is diluted by the influx of extravascular fluid into the vascular space and by fluid administered during resuscitation.
+
+It should be kept in mind that overhydration can lead to a falsely low hemoglobin value.
+
+Patients with acute bleeding should have normocytic RBC. Microcytic RBC or IDA suggest chronic bleeding.
+
+Unlike patients with acute UGIB, patients with acute LGIB and normal renal perfusion should have a normal blood urea nitrogen (BUN)-to-creatinine or urea-to-creatinine ratio (&lt;20:1 or &lt;100:1, respectively)
+
+Approach
+
+- general management / resus
+- exclude acute upper torrential GIB (need gastroscopy +/- colonoscopy is gas is neg)
+- evaluate for a source usually via colonoscopy
+
+The approach to subsequent treatment depends on the source of the bleeding. If bleeding or stigmata of recent hemorrhage are identified during colonoscopy or angiography, attempts can be made to control the bleeding. However, frequently, active bleeding is not seen, and a presumptive diagnosis is made regarding the source of the bleeding (eg, diverticular bleeding in a patient with diverticula and no other potential sources). In those cases, the management approach will vary depending on the type of lesion (eg, endoscopic treatment is appropriate for angiodysplasia, but not for nonbleeding diverticula). If no source is identified the patient may need to be evaluated for upper and mid-GI bleeding.
+
+Therapy for ongoing or severe lower GI bleeding 🡪 step up approach
+
+- Colonoscopy +/- adrenaline and endoclipping
+- CT mesenteric angiogram
+- Segmental colectomy
+
+History
+
+- previous episodes?
+- comorbidities that will influence management and medications eg NSAID, anti coagulants, antiplatelets
+- associated features eg pain, painless, change in bowel habit, abdominal pain
+
+Examination
+
+- hypovolemia
+
+resting tachycardia only = mild to moderate bleed
+
+orthostatic hypotension = 15% blood loss
+
+supine hypotension = 40% blood loss
+
+- abdo pain? suggests inflammation eg ischaemic or infectious colitis or perforation
+
+Diagnostic approach
+
+- exclude UGIB
+- Colonoscopy is initial management of choice for diagnosis and treatment
+
+controversy - benefit of urgent early colonoscopy (&lt;12 h of admission) vs late is unclear…
+
+?reduce risk of rebleed and surgery in diverticular haemorrhage
+
+?effect on LOS, high risk vs low risk patients etc
+
+usually colonoscopy is performed after resus and bowel prep with 4-6 L of PEG over 2-3 h  🡪 poor visualisation in poorly prepared colon. Unless they are massively haemorrhaging and you just have to
+
+risks with sedation in acutely bleeding patient
+
+bleeding source identified in 45 - 90%  🡪 can have more than one s eg diverticulosis and haemorrhoids
+
+colonoscopy can be used to  treat diverticula, angiodysplasia, hemorrhoids, postpolypectomy bleeding, and radiation telangiectasia or proctitis
+
+What are the benefits of radiographic imaging? RBC scan, CT angio, normal angio
+
+- advantage:
+- 1) able to diagnose bleeding throughout the GI tract, including small bowel sources.
+- 2) treatment of the bleeding site can be attempted during angiography only
+- disadvantage:
+- 1) these studies all require active bleeding at the time of the study in order to detect a bleeding site. eg In patients with severe bleeding who cannot be stabilized for colonoscopy or with severe ongoing bleeding despite colonoscopy, nuclear imaging may be used to select patients with active bleeding for subsequent angiography. However, the patient may stop bleeding by the time the scan is completed, thereby missing the opportunity to localize a lesion by angiography.
+- Radionuclide scanning - detects bleeding that is occurring at a rate of 0.1 to 0.5 mL/minute, and it is the most sensitive radiographic test for GI bleeding . Two types of nuclear scans have been used: 1) technetium-99m labelled sulfur colloid and 2) 99mTc pertechnetate-labeled autologous RBC scan. Both techniques are noninvasive and sensitive for GI bleeding. Cons - Poor localization occurs because blood can move in either a peristaltic or antiperistaltic direction. In addition, localization to an area of the abdomen is not equivalent to identifying a specific site. As an example, bleeding in a redundant sigmoid colon may appear as extravasated blood in the RLQ, suggesting right colon bleeding.
+- CT angiography is an appealing diagnostic modality because it is widely available, fast, and minimally invasive. In addition, it provides anatomic detail that may be helpful for subsequent interventions such as angiography. Bleeding at a rate of 0.3 to 0.5 mL/minute can be detected with CT angiography. multidetector row helical CT permits markedly increased resolution and shortens scanning time. This allows for improved identification of extravasated contrast material into the intestinal lumen. (this is why you can’t do a barium enema first)
+- conventional angiography — requires active blood loss of 0.5 to 1.0 mL/minute under optimal conditions for a bleeding site to be visualized. typically reserved for patients in whom endoscopy is not feasible due to severe bleeding with hemodynamic instability. In the absence of prior localization (eg, radionuclide imaging), the SMA is generally examined first in patients with presumed LGIB because bleeding sources tend to occur in bowel supplied by this artery. If this test is negative, the IMA and celiac vessels are studied. The success rate varies widely from 25 to 70 %, depending on the timing relative to the episode of bleeding and local expertise
+- if you STILL can’t find the source of bleeding
+
+upper endoscopy with push enteroscopy should be considered in those with severe, ongoing bleeding since up to 15% of such patients have a bleeding site in the upper GIT. Push enteroscopy (endoscopy using a pediatric colonoscope or a dedicated enteroscope) allows visualization of the proximal 60 cm of jejunum
+
+several methods to evaluate the distal small intestine, such as capsule endoscopy and deep small bowel enteroscopy
+
+If the bleeding stopped? In some patients, bleeding may have stopped, making efforts to identify the site more difficult. Such patients should be observed for 24 to 48 hours. An urgent Tc-99m tagged RBC scan can be obtained to localize the region of bleeding if bleeding resumes
+
+Minor bleeding per rectum
+
+- Mostly perianal lesions – haemorrhoids (internal or external), fissures
+- Can also be polyps or tumours
+
+¶ Bleeding associated with signs such as hypotension, tachycardia, or orthostatic hypotension.
+Δ Colonoscopy should be performed once the patient has been resuscitated and an adequate bowel preparation has been given (typically 4 to 6 L of polyethylene glycol - glycoprep). If the initial colonoscopy was inadequate (eg, inadequate visualization, failure to reach the cecum), repeat colonoscopy should be considered.
+◊ Consider evaluation with a side-viewing duodenoscope in patients with risk factors for hemobilia or hemosuccus pancreaticus or CT angiography (followed by push enteroscopy if the CT angiography is negative) in patients at risk for an aortoenteric fistula. Conventional transvenous angiography is typically performed if the patient remains hemodynamically unstable despite attempts at resuscitation. If the suspicion for an upper GI source is moderate, nasogastric lavage can be performed to look for evidence to support an upper GI source. 
+§ CTA is an alternative but lacks therapeutic capacity. A tagged RBC scan may aid with localization prior to angiography..
+‡ A Meckel's scan should be performed in younger patients with overt bleeding. Surgical exploration is appropriate if no other studies have revealed a source and significant bleeding continues or if there is high suspicion for a small bowel neoplasm.
+† If the deep small bowel enteroscopy was incomplete, a video capsule endoscopy study should be obtained, followed by CT or MR enterography if the capsule endoscopy is negative.
+
+Prognosis
+
+The bleeding will stop spontaneously in 80 to 85 % of patients, and the mortality rate is 2 to 4 %
+
+![](notes/images/gi-bleeding-summary/img010.jpg)

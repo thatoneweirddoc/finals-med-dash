@@ -1,7 +1,7 @@
 ---
 title: "Reproductive, Metabolic & Multi-Gland Endocrinology"
 system: "Endocrine"
-sources: [Endocrine Master Notes, Endocrinology (ANU) — Thyroglossaal cyst, Endocrinology (ANU) — metabolic syndrome, Endocrinology (ANU) — tumours of pancreas]
+sources: [Adrenal Summary — Adrenocortical carcinoma, Endocrine Master Notes, Endocrinology (ANU) — Thyroglossaal cyst, Endocrinology (ANU) — metabolic syndrome, Endocrinology (ANU) — tumours of pancreas]
 tags: [Reproductive, MEN, PCOS, RET]
 updated: "2026-08-14"
 ---
@@ -124,3 +124,27 @@ thyroid disorders
 | INVESTIGATIONS | Neck and thyroid examinationUltrasound: evaluate cyst and confirm location of thyroidScreen TSH levels: may contain ectopic thyroid tissue which produce hormonesFine needle biopsy: If an infection is suspected, for Gram stain and culture (including AFB and mycobacterial culture) |
 | COMPLICATIONS | Infection of the cyst and abscess formation, sinus tract extension to the skin, possible ectopic thyroid tissue, possible malignancy arising from ectopic thyroid tissue |
 | MANAGEMENT | Sistrunk operation: cystectomy and excision of central hyoid bone to minimise recurrenceTotal thyroidectomy is controversial, but is advised in older patients with large tumours |
+
+
+---
+
+
+### Adrenal Summary — Adrenocortical carcinoma — Reproductive, Metabolic & Multi-Gland Endocrinology
+
+**Aetiology - **sporadic or associated with genetic conditions like Li Fraumeni Syndrome with p53 mutations 🡪 lots of kinds of cancer eg breast, brain, acute leukemia
+
+**Epidemiology - **extremely rare - 1-2 people per million.
+
+- Macroscopic: &gt;100g (&gt;750g) yellowish cut surface. necrosis, haemorrhage,calcification.
+
+**Microscopic**: solid, lobules Variable cortical cells, ↑ mitoses, necrosis, haemorrhage. +/- invasion into capsule or blood vessels
+
+**Pathophysiology - **most common to least common hormone secreted in excess - cortisol,  androgens (virulising tumours) then rarely aldosterone (Conn’s syndrome)
+
+**Prognosis - **usually aggressive and can (metastasize) rapidly because adrenal glands are so vascular. Because the adrenal gland resides in the retroperitoneum (surrounded in fat and residing behind the intestines and other abdominal organs), it can grow to a very large size before causing any sort of local compressive symptoms.
+
+- Virilizing and Feminizing Adrenal Tumors
+- rare and some are associated with adrenocortical carcinomas.
+- A virilizing adrenal tumor makes excess androgens (testosterone). increased hair growth (hirsuitism), increased muscle mass, acne and amenorrhea (loss of periods in a female).
+
+- A feminizing adrenal tumor makes excess oestrogen. increased growth of breast tissue (gynecomastia in men) and impotence in men.

@@ -1,8 +1,8 @@
 ---
 title: "Biliary Tract & Pancreatic Disease"
 system: "Gastroenterology"
-sources: [Gastroenterology Master Notes, General Surgery & Gastroenterology (ANU) — ACUTE PANCREATITIS, General Surgery & Gastroenterology (ANU) — CHRONIC PANCREATITIS, General Surgery & Gastroenterology (ANU) — Jaundice, General Surgery & Gastroenterology (ANU) — Pancreatic cancer, General Surgery & Gastroenterology (ANU) — acute cholecystitis, General Surgery & Gastroenterology (ANU) — ascending cholangitis, General Surgery & Gastroenterology (ANU) — carcinoma of the gall bladder, General Surgery & Gastroenterology (ANU) — cholelithiasis (gallstones), General Surgery & Gastroenterology (ANU) — gallstone ileus, General Surgery & Gastroenterology (ANU) — primary sclerosing cholangitis vs primary biliary cholangitis]
-tags: [Biliary, ERCP, RUQ, CT]
+sources: [Gastroenterology Master Notes, General Surgery & Gastroenterology (ANU) — ACUTE PANCREATITIS, General Surgery & Gastroenterology (ANU) — CHRONIC PANCREATITIS, General Surgery & Gastroenterology (ANU) — Jaundice, General Surgery & Gastroenterology (ANU) — Pancreatic cancer, General Surgery & Gastroenterology (ANU) — acute cholecystitis, General Surgery & Gastroenterology (ANU) — ascending cholangitis, General Surgery & Gastroenterology (ANU) — carcinoma of the gall bladder, General Surgery & Gastroenterology (ANU) — cholelithiasis (gallstones), General Surgery & Gastroenterology (ANU) — gallstone ileus, General Surgery & Gastroenterology (ANU) — primary sclerosing cholangitis vs primary biliary cholangitis, Pancreatitis Summary]
+tags: [Biliary, ERCP, CT, RUQ]
 updated: "2026-08-14"
 ---
 
@@ -344,3 +344,321 @@ DEFINITION: presence of gallstones in the gallbladder
 - MRI/MRCP: malignant vs benign
 - TREATMENT: open cholecystectomy to avoid tumour seeding of peritoneal cavity ± en bloc wedge resection of 2-5cm underlying liver ± dissection of hepatoduodenal lymph nodes
 - PROGNOSIS: Poor 5 -year survival (10%) due to late detection
+
+
+---
+
+
+### Pancreatitis Summary — Biliary Tract & Pancreatic Disease
+
+- Describe the aetiological factors and pathophysiology of acute pancreatitis
+- Describe the clinical presentation of a patient with acute pancreatitis
+- Describe the investigation of aetiology and management
+- Describe the role of severity scoring systems in the management of pancreatitis and be able to fully define one of the accepted clinical scoring systems
+- Discuss the management of patients presenting with acute pancreatitis
+- Discuss the complications of acute pancreatitis including investigations and management
+- Discuss the aetiology, investigations and management of chronic pancreatitis.
+
+**Describe the clinical presentation of acute pancreatitis incl its investigation of aetiology and management**
+
+![](notes/images/pancreatitis-summary/img001.jpg)
+
+**Types **- haemorrhagic, necrotic, oedematous, interstitial OR mild mod severe life threatening
+
+- Interstitial edematous acute pancreatitis = acute inflammation of the pancreatic parenchyma and peripancreatic tissues, but without recognizable tissue necrosis
+- Necrotizing acute pancreatitis= inflammation a/w pancreatic parenchymal necrosis and/or peripancreatic necrosis
+
+**Presentation**
+
+SEVERE epigastric tenderness w/ radiation to back as pancreas is retroperitoneal
+
+sudden onset, peaks within 10 - 30 mins; lasts hours without relief
+
+relieved by leaning forwards as this relieves retroperitoneal pressure
+
+N+V+pain after oral intake when pancreas signaled to excrete; ileus 🡪 hypoactive bowel sounds
+
+cytokine release 🡪 oedema 🡪 third spacing fluid + vomiting + anorexia 🡪 hypovolemia 🡪 tachycardia and shock
+
+metabolic acidosis 🡪 confusion, ↑ RR
+
+Low grade fever - hallmark of cholangitis (infection is present),
+
+Jaundice if biliary tract is compressed/obstructed
+
+ascites from tear in pancreatic duct or leaking pseudocyst
+
+Cullen’s sign (umbi) or Grey Turner’s sign (flanks) if haemorrhagic
+
+Palpable abdominal mass - DDx pseudocyst phlegmon abscess carcinoma
+
+tender subcut nodules - from subcut fat necrosis
+
+**LAB TESTS**
+
+**Elevated serum amylase -** commonly used - released in hours, elevated for 3-4days.
+
+*  Isoamylase determinations are useful in excluding occasional cases of salivary hyperamylasemia.
+
+*  Renal clearance; once no longer produced, stays high in the urine.
+
+* Non specific - also high in GIT ischaemia, vomiting, infarction, perforation
+
+**Elevated serum lipase** - more specific - remains elevated for longer than amylase.
+
+* concomitant evaluation of serum amylase and lipase increases diagnostic accuracy of acute pancreatitis.
+
+* An elevated lipase/amylase ratio is suggestive of alcoholic pancreatitis.
+
+**Elevated serum trypsin levels** are diagnostic of pancreatitis (in absence of renal failure).
+
+**Serum CRP ** at 48 hr is an excellent laboratory marker of severity.
+
+**Additional tests**
+
+- dehydration leads to ↑ Hct, ↑ BUN, ↑ serum Nareflects haemoconcentration but Hct might later ↓ with haemorrhage
+- serial BUNs are a good predictor of mortality
+
+- ↑ K from acidosis or renal insufficiency
+- ABG PaO2 ↓ from ARDS, pleural effusion
+- pH low from lactic acidosis, resp acidosis, renal insufficiency
+
+- ↑ serum glucose correlates with degree of pancreatic malfunction
+- LFTs: AST and LDH are ↑ with tissue necrosis while BR and ALP might be ↑ with CBD obstruction
+- hypocalcaemia results from saponification, precipitation and ↓ PTH response
+
+**IMAGING**
+
+- AXR - not indicated. would show blurred L psoas shadow, dilated transverse colon, ?calcified gallstone
+- CXR - elevation of one or both diaphragms; pleural effusions, basilar infiltrates, atelectasis
+
+**CT abdomen with oral and IV contrast-** sensitive for inflammatory changes (moderate  — severe pancreatitis)
+
+- pseudocysts (well-defined area surrounded by a high-density capsule)
+- gastrointestinal fistulation or infection of a pseudocyst can also be identified by the presence of gas in the cyst
+- Sequential contrast-enhanced CT is useful for detection of pancreatic necrosis.
+
+**MRCP** has &gt;90% sensitivity for choledocholithiasis and can identify other anatomic abnormalities.
+
+**EUS** is a minimally invasive test that provides high res imaging of the pancreas 🡪 good for anatomical abn good sensitivity and specificity for small gallstones (≤5 mm).
+
+**ERCP** useful to perform biliary sphincterotomy and stone removal in the presence of a retained bile duct stone seen on imaging.
+
+Guidelines suggest that urgent ERCP (within 24 hr of admission) is indicated in patients with biliary pancreatitis who have concurrent acute cholangitis, but it is not needed in most patients who do not have evidence of ongoing biliary obstruction
+
+![](notes/images/pancreatitis-summary/img002.jpg)
+
+![](notes/images/pancreatitis-summary/img003.jpg)
+
+![](notes/images/pancreatitis-summary/img004.jpg)
+
+![](notes/images/pancreatitis-summary/img005.jpg)
+
+![](notes/images/pancreatitis-summary/img006.jpg)
+
+**Describe the aetiological factors and pathophysiology of acute pancreatitis - IGETSMASHED**
+
+**Idiopathic, gall stones, ethanol, **trauma, surgery, malignancy/microbes, autoimmune, scorpion, hypertriglyceridaemia, hypercalcaemia, hypo-lipoproteinemia (I,IV,V), ERCP, drugs.
+
+**Gall stones** calculi or sludge block the pancreatic duct causing trypsin activation and autodigestion;
+
+**Ethanol -** 5 - 10 years of heavy alcoholism leads to abnormal sphincter of oddi motility, toxic damage to pancreatic cells, metabolic effects, small duct obstruction
+
+**Drugs** - e.g., thiazides, furosemide, ACEI, corticosteroids, tetracycline, oestrogens, valproic acid, metronidazole, azathioprine, methyldopa, pentamidine, ethacrynic acid, procainamide, amiodarone, sulindac, nitrofurantoin, danazol, cimetidine, piroxicam, gold, ranitidine, sulfasalazine, isoniazid, acetaminophen, cisplatin, didanosine, opiates, erythromycin, metformin, GLP-1 receptor agonists, incretin mimetics (GPP4-inhibitors)
+
+![](notes/images/pancreatitis-summary/img007.jpg)
+
+![](notes/images/pancreatitis-summary/img008.jpg)
+
+**Describe the role of severity scoring systems in the management of pancreatitis and be able to fully define one of the accepted clinical scoring systems **
+
+●Mild = no organ failure + no local or systemic complications
+
+●Moderately severe acute pancreatitis = transient organ failure (resolves within 48 hours) and/or local or systemic complications without persistent organ failure (&gt;48 hours)
+
+●Severe acute pancreatitis  = persistent organ failure that may involve one or multiple organs
+
+●organ failure is defined as a score of 2 or more for any one of three organ systems (respiratory, cardiovascular, or renal) using the modified Marshall scoring system
+
+~15 to 25% of all patients with AP develop severe AP which has a higher mortality rate.
+
+The ability to predict its severity can help identify patients at increased risk for morbidity and mortality
+
+This assists in appropriate early triage to ICU and selection of patients for specific interventions.
+
+**Ranson's criteria** consist of 11 parameters. Five are assessed at admission and six are assessed in 48 hours.
+
+Poor predictor of severity according to 110 study meta analysis.
+
+**Acute physiology and chronic health examination (APACHE) II score** was originally developed for critically ill ICU patients. It has 12 physiologic measures and extra points based upon age and presence of chronic disease. It is probably the most widely studied severity scoring system in AP. Good negative predictive value and modest positive predictive value for predicting severe AP and can be performed daily. Decreasing values during the first 48 hours suggest a mild attack, while increasing values suggest a severe attack. score &lt; 8 = &lt;4% mortality. score &gt; 8 = 11 - 18% mortality. Limitations: complex, does not differentiate btw interstitial and necrotizing pancreatitis, or sterile vs infected necrosis. Finally, it has a poor predictive value at 24 hours
+
+![](notes/images/pancreatitis-summary/img009.jpg)
+
+![](notes/images/pancreatitis-summary/img010.jpg)
+
+**CT severity score (the Balthazar score)** has been developed based upon the degree of necrosis, inflammation, and the presence of fluid collections. In an initial validation study, mortality was 23 percent with any degree of pancreatic necrosis and 0 percent with no necrosis. In addition, there was a strong association between necrosis &gt;30 percent and morbidity and mortality
+
+**Organ failure scoring systems** such as the **Goris multiple OF score**, the **Marshall (or multiple) organ dysfunction score**, the Bernard score, the sequential OF assessment (SOFA), and the logistic organ dysfunction system score have been described. All these scores take into account the number of organ systems involved and the degree of dysfunction of each individual organ. Some also include the use of inotropic or vasopressor agents, mechanical ventilation, or dialysis. As noted above, the presence of persistent OF lasting for more than 48 hours appears to be important (severe acute pancreatitis)
+
+**SIRS score**— presence of SIRS a/w increased mortality. A study found that the severity of AP was greater among patients with AP and SIRS on day one, particularly in those with 3-4 SIRS criteria, compared with those without SIRS on day one.
+
+**BISAP score** — bedside index of severity in acute pancreatitis score. Patients are assigned 1 point for each of the following during the first 24 hours of admission: BUN &gt;25 mg/dL, impaired mental status, 2 or more SIRS criteria, age &gt;60 years, presence of a pleural effusion. Predicts mortality as well as Apache but doesn’t predict ICU, LOS etc
+
+Scoring 0 = &lt;1% mortality vs 5 = 22% mortality
+
+![](notes/images/pancreatitis-summary/img011.jpg)
+
+![](notes/images/pancreatitis-summary/img012.jpg)
+
+**Discuss the management of patients presenting with acute pancreatitis**
+
+- relieve gut - NBM + bowel rest during acute illness
+
+- Pancreas produces enzymes etc for digestion.
+- By ceasing food, pancreas gets time to recover from inflammation.
+- Enteral feeding preferred to TPN to reduce mortality, MOF, systemic infection.
+- decompress ileus with NG tube placement
+
+- avoidance - alcohol, discontinue suspected drugs (review medication chart),
+- fluid - aggressive IV fluid resus - may have lost heaps due to pancreatic ascites.
+- electrolytes - Correct metabolic abnormalities 🡪 replace Ca and Mg
+- analgesia -  IV morphine or fentanyl. Meperidine or hydromophone also used.
+- severity scoring - predict risk of complicated course using scoring; Glasgow, hanson, Apache II
+- investigate - wait for inflammation to subside before investigating cause then attempt reversal - if cholangitis suspected, urgent early ERCP with sphincterotomy indicated in first 24 h; if inflammation persists, consider chronic pancreatitis
+- admit - under surgical team: risks requiring urgent surgery
+
+- pancreatic abscess (indicated by ↑ WCC, ↑ CRP, ↑ amylase, lipase more specific, etc)
+- pseudocyst formation (Cyst can rupture into retroperitoneal space seeding infection etc)
+
+* Statins (HMG-CoA reductase) reduce risk for pancreatitis in adults. Fibrates (act on PPAR) do not affect risk for pancreatitis.
+
+**Prophylactic antibiotics are not indicated in all pancreatitis patients**
+
+Pancreatic or peripancreatic infection develops in 40% to 70% of patients with pancreatic necrosis.
+
+HOWEVER, IVAbx only used if evidence of septis, pancreatic abscess, or pancreatitis caused by biliary calculi.
+
+Limit to 5 to 7 days to prevent development of fungal superinfection. Appropriate empiric therapy should cover:
+
+1. *Bacteroides fragilis *and other anaerobes (cefotetan, cefoxitin, metronidazole, or clindamycin plus aminoglycoside)
+
+2. *Enterococcus (GP!) *(ampicillin)
+
+**What is the role of surgery? **Limited role in acute stage - don’t want to spread the inflammation
+
+1. Gallstone  pancreatitis: cholecystectomy when acute pancreatitis subsides. RCTs have shown that patients with mild gallstone pancreatitis can undergo cholecystectomy safely during the first 48 hr of hospitalization.
+
+2. Perforated peptic ulcer. Needs surgical treatment. Oversewing, gastrectomy.
+
+3. Necrotizing pancreatitis with infected necrotic tissue is a/w an elevated rate of complications and increased risk of death. Traditional treatment has been open necrosectomy; this induces a proinflammatory response and is a/w a high complication rate. Recent trials have shown that a step-up approach consisting of percutaneous drainage followed, if necessary, by minimally invasive retroperitoneal necrosectomy may have a lower rate of complications and death. Endoscopic transgastric necrosectomy, a form of natural orifice transluminal endoscopic surgery, has been shown in recent trials to be effective in reducing the proinflammatory response as well as reducing complications.
+
+**Discuss the complications of acute pancreatitis including investigations and management **
+
+Be vigilant for complications - any persistence of pain, fever, abdominal mass or ↑ amylase suggests a local cause….
+
+- Most common cause of death is hypovolaemic shock (due to 3rd spacing and↑ capillary permeability)
+- APO = cardiogenic APO from myocardial dysfunction or non cardiogenic APO from ARDS
+- Prognosis varies with the severity of pancreatitis; overall mortality rate in AP is 5% to 10%
+
+**peripancreatic fluid collection (&lt; 4 weeks **after onset of interstitial oedematous pancreatitis.**)**
+
+Peripancreatic fluid a/w interstitial oedematous pancreatitis with no associated peripancreatic necrosis. Defined as &lt;4 weeks and without the features of a pseudocyst.
+
+**Pseudocyst: (&gt; 4 weeks **after onset of interstitial oedematous pancreatitis.**)**
+
+round or spheroid collection of fluid, tissue, pancreatic enzymes, and blood with well defined inflammation wall. Unlike true cysts 🡪 no epithelial lining. Usually outside of the pancreas with little or no necrosis. Diagnosed by CT scan or sonography.
+
+Treatment: drain surgically or endoscopically. The endoscopic approach is preferable when the patient’s anatomy is suitable.
+
+CT or US-guided percutaneous drainage (with a pigtail catheter left in place for continuous drainage) can be used, but the recurrence rate is high; must reevaluate (with CT scan or sonography) after 6 to 7 wk and surgically drain if not shrinking.
+
+Generally, pseudocysts &lt;5 cm are spontaneously reabsorbed vs those &gt;5 cm require surgical drainage b/c the wall has matured.
+
+**Pancreatic ascites: **usually caused by leaking of pseudocyst or post tear in pancreatic duct. Paracentesis reveals very high amylase and lipase levels in the pancreatic fluid; ERCP may demonstrate the lesion. Treatment is surgical correction if exudative ascites from severe pancreatitis does not resolve spontaneously.
+
+**Phlegmon: ** solid mass of inflammatory pancreatic tissue with patchy areas of necrosis.
+
+Treatment is supportive 🡪 usually resolves spontaneously. Sometimes extensive → can get infected → **pancreatic abscess **
+
+**Pancreatic abscess: **(2-3 weeks post onset of illness). (indicated by ↑ WCC, ↑ CRP, ↑ amylase, lipase more specific, etc). need urgent drainage → 100 % mortality otherwise. leading cause of death in first week of illness It can be diagnosed by CT (presence of bubbles in the retroperitoneum) or USS; Gram staining and cultures of fluid obtained from guided percutaneous aspiration can identify bacterial organism. Therapy is surgical (or catheter) drainage and IV antibiotics (imipenem-cilastatin)
+
+![](notes/images/pancreatitis-summary/img013.jpg)
+ 
+![](notes/images/pancreatitis-summary/img014.jpg)
+
+**Discuss the aetiology, investigations and management of chronic pancreatitis. **
+
+**Definition **- Chronic pancreatitis is a recurrent or persistent inflammatory process of the pancreas characterized by chronic pain and by pancreatic exocrine and/or endocrine insufficiency.
+
+**Epidemiology** - Average age at diagnosis is 35 to 55 yr; male/female ratio is 5:1.
+
+**Presentation ** -Persistent or recurrent epigastric and LUQ pain that may radiate to the back; muscle guarding; significant wt loss; steatorrhoea; Epigastric mass (10%), Jaundice (5% to 10% of patients)
+
+**Aetiology-  **
+
+- chronic alcoholism / severe malnutrition
+- obstruction persisted eg ampullary stenosis, tumour, trauma, annular pancreas
+- hereditary pancreatitis
+- idiopathic
+- untreated primary hyperparathyroidism causing hypercalcaemia
+- cystic fibrosis related
+- autoimmune pancreatitis (5% of cases) esp chronic sclerosing pancreatitis  eg IgG4
+
+**Investigations**
+
+- Serum amylase and lipase may be ↑ (normal amylase levels, however, do not exclude the diagnosis).
+- Hyperglycemia with glycosuria, hyperbilirubinemia with jaundice, and ↑ ALP may also be present.
+- 72-hr fecal fat determination (rarely performed) reveals excess fecal fat. requires only 20 g of stool.
+- Secretin stimulation test is the best test for diagnosing pancreatic exocrine insufficiency.
+- Lipid panel: significantly ↑ triglycerides can cause pancreatitis.
+- ↑ Serum calcium: hyperparathyroidism is a rare cause of chronic pancreatitis.
+- ↑ serum IgG4 are found in sclerosing pancreatitis and AIP; presence of ALA, ACA II level, ASMA, or ANA in AIP.
+
+**AXR **shows pancreatic calcifications (pictured)
+
+**Ultrasound of abdomen **may reveal duct dilation pseudocyst, calcification, or ascites
+
+**Contrast CT abdo** is initial modality of choice 🡪 detect calcifications, ductal dilation, exclude cancer.
+
+**ERCP** traditionally for the presence of dilated ducts, strictures, pseudocysts, and intraductal stones. However, for the evaluation of pancreatic parenchyma and duct system newer, less invasive modalities such as MRCP or EUS are preferred.
+
+**EUS** has a sensitivity of 97% and a specificity of 60% for chronic pancreatitis + v. low complication rate. FNAB combined with EUS is the preferred modality for evaluation of cystic or mass lesions to determine malignancy. EUS (pictured) shows dilated pancreatic duct
+
+![](notes/images/pancreatitis-summary/img015.jpg)
+
+![](notes/images/pancreatitis-summary/img016.jpg)
+
+![](notes/images/pancreatitis-summary/img017.jpg)
+
+**Treatment**
+
+Non pharmacological - Avoidance of alcohol and tobacco, exacerbating drugs; Frequent, small-volume, low-fat meals
+
+Pharmacological -
+
+- trial PO pancreatic enzyme supplements for the steatorrhoea + acid suppression for 1 month
+- analgesia 🡪 simple +/- antioxidants (?data) if requiring narcotics, perform MRCP / EUS
+- percutaneous / EUS based coeliac plexus blockage with corticosteroids or neurolysis with ethanol for temp pain relief
+- treat complications eg T1DM, dyslipidaemia (get TG &lt; 2)
+- treat cause eg induce remission in AIP with glucocorticoids
+
+Surgical
+
+- ERCP eliminate chronic obstruction of pancreatic duct  with strictures and stones
+- Sphincter of Oddi dysfunction 🡪 medical or surgical with transduodenal sphincteroplasty
+- pancreaticojejunostomy : if dilated pancreatic duct 🡪 side by side anastomosis of pancreas and jejunum
+- pancreatic resection: if non dilated duct
+
+Prognosis
+
+• Long-term survival is poor (50% of patients die within 10 yr from chronic pancreatitis or malignancy).
+
+• Prognosis is best in patients with recurrent AP resulting from cholelithiasis, hyperparathyroidism, or stenosis of the sphincter of Oddi ie things reversible with surgery
+
+![](notes/images/pancreatitis-summary/img018.jpg)
+
+![](notes/images/pancreatitis-summary/img019.jpg)
+
+![](notes/images/pancreatitis-summary/img020.jpg)
+
+![](notes/images/pancreatitis-summary/img021.jpg)

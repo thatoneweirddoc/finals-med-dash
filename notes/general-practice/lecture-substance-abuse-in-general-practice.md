@@ -1,8 +1,8 @@
 ---
 title: "Lecture: substance abuse in general practice"
 system: "General Practice"
-sources: [General Practice (ANU)]
-tags: [Lecture, HIGH, IVDU, GP]
+sources: [General Practice (ANU), Pre-Travel Health Assessment — Pre-Travel Health Assessment — Diabetes and VTE Risk]
+tags: [Lecture, VTE, GP, HIGH]
 updated: "2026-08-14"
 ---
 
@@ -59,3 +59,34 @@ updated: "2026-08-14"
 - IDENTIFY AND ACKNOWLEDGE SUBSTANCE MISUSE
 - PROVIDE EVIDENCE BASED MANAGEMENT
 - SUBSTANCE ABUSE IS A CHRONIC DISEASE: expect relapse
+
+
+---
+
+
+### Pre-Travel Health Assessment — Pre-Travel Health Assessment — Diabetes and VTE Risk — Lecture: substance abuse in general practice
+
+#### Case Framing
+
+A 63-year-old woman with type 2 diabetes (metformin + biphasic insulin, HbA1c 7.4%), hypertension, and a **previous post-operative DVT** presents for pre-travel advice ahead of a month-long trip to Vietnam. This combination — known VTE history plus a long-haul flight — is the classic trigger for a pre-travel thromboprophylaxis and diabetes-management consultation.
+
+#### Planning Stage (4–6 Weeks Before Departure)
+
+See the GP early enough to assess current diabetic control, determine vaccination needs, and adjust the medication regimen well in advance. Dietary planning (e.g. lower-carbohydrate meals) and general advice on preventing acute diabetic complications while travelling.
+
+#### Insulin Adjustment for Time-Zone Travel
+
+- **Travelling east** (shorter day) → lower the insulin dose.
+- **Travelling west** (longer day) → increase the insulin dose.
+- Patients on an insulin pump may need to switch to a basal-bolus regimen, allowing for slightly higher blood glucose tolerance during transit.
+- Split doses across the flight so total daily insulin is unchanged over 24 hours; resume the normal regimen after arrival.
+
+#### In-Flight and Trip Considerations
+
+Travel raises hypoglycaemia risk through disrupted routine, unpredictable meal timing, and increased physical activity. Preventive strategies: carry snacks plus glucose tablets/gel, monitor BGL regularly (note that extreme temperatures affect glucometer strip accuracy), and identify an English-speaking physician at the destination in advance.
+
+**What to carry (as hand luggage, in original manufacturer-labelled packaging):** glucometer; all medications and insulin; hypoglycaemia management supplies including a glucagon emergency kit; fast-acting carbohydrate; medical identification for emergencies. Skin pricks and X-ray screening of diabetic supplies are both fine at security. A doctor's letter is good practice but is not guaranteed to be accepted at every airport.
+
+#### The VTE Risk Layer
+
+Long-haul flight plus a prior personal history of DVT is a recognised risk stack for travel-associated VTE, independent of the diabetes management above. This is the context in which pre-travel thromboprophylaxis (mechanical measures, hydration and mobility advice, and consideration of pharmacological prophylaxis for higher-risk patients) should be discussed alongside the glycaemic planning.
