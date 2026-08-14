@@ -513,19 +513,22 @@
       <div class="excl-h">Excluded <span class="excl-count" id="exclCount"></span></div>
       <div class="excl-grid" id="exclGrid"></div>
       <div class="row">
-        <button class="act" id="genSess">Generate</button>
+        <select id="sessSys"></select>
       </div>
+      <div class="row">
+        <button class="act" id="btnSchedule">Schedule</button>
+        <button class="act" id="btnNow">Make now</button>
+        <button class="mini" id="genSess">Copy prompt instead</button>
+      </div>
+      <div class="sync" id="sessStatus" hidden></div>
+      <p class="note" id="bufLine">Checking the pool…</p>
       <div id="sessOut" hidden>
         <textarea id="sessText" rows="3" readonly style="width:100%;margin-top:12px;font-family:var(--mono);font-size:13px"></textarea>
         <div class="row">
           <button class="act" id="copySess">Copy</button>
           <span class="saved" id="sessSaved">Copied</span>
         </div>
-        <p class="note">Paste this into your Study for finals chat to start. There's no
-          safe way for a link to open a prefilled Claude conversation on its own — the
-          mechanism that used to do that was the entry point for a real prompt-injection
-          exploit disclosed against Claude.ai, so it's not something worth building
-          around even used honestly. One paste is the actual floor here.</p>
+        <p class="note">The fallback path — paste this into a chat if you want the session driven live rather than banked. <b>Schedule</b> and <b>Make now</b> both skip it: Schedule drops the request in a queue the hourly task drains, Make now generates it immediately through the API. There is still no safe way for a link to open a prefilled Claude conversation on its own — the mechanism that used to do that was the entry point for a real prompt-injection exploit disclosed against Claude.ai — so the loop is closed by writing to Drive instead of by poking a chat.</p>
       </div>
     </div>
     <div class="panel">
@@ -686,7 +689,7 @@
 <script>
 const EXAM = new Date('2026-09-14T09:00:00+10:00');
 const KEY = 'finals_v1';
-const STAMP = '2026-08-14T01:45';  // bumped each time Claude regenerates this file
+const STAMP = '2026-08-14T13:55';  // bumped each time Claude regenerates this file
 
 const BUILT = ['Renal','Cardiology','Respiratory','Endocrine','Gastro','MSK & Rheum',
                'Haem & Onc','Neurology','Infectious Disease','Immunology & Allergy','Palliative Care'];
@@ -1121,6 +1124,122 @@ $('copySess').onclick = async () => {
   try{ await navigator.clipboard.writeText(ta.value); }catch(e){ document.execCommand('copy'); }
   $('sessSaved').classList.add('on'); setTimeout(()=>$('sessSaved').classList.remove('on'), 1600);
 };
+
+/* ---- generation loop: Schedule (free, hourly) and Make now (API, seconds) ----
+   Neither path can poke a Claude chat directly. Schedule writes a request into a
+   Drive queue that the hourly scheduled task drains; Make now has Apps Script call
+   the Anthropic API itself. Both end up as an ordinary quiz in the bank, so the
+   player doesn't care which produced it. */
+
+let BUFFER = null;
+
+function sessMsg(msg, cls){
+  const el = $('sessStatus');
+  if(!el) return;
+  el.hidden = !msg;
+  el.textContent = msg || '';
+  el.className = 'sync ' + (cls || '');
+}
+
+async function callSync(action, extra){
+  const t = token();
+  if(!t) throw new Error('not connected \u2014 add your token in Data');
+  const r = await fetch(SYNC_URL, {
+    method:'POST',
+    headers:{'Content-Type':'text/plain;charset=utf-8'},   // avoids CORS preflight
+    body: JSON.stringify(Object.assign({token:t, action:action}, extra || {}))
+  });
+  const d = await r.json();
+  if(d.error) throw new Error(d.error);
+  return d;
+}
+
+function sessRequest(){
+  const sys = $('sessSys').value;
+  const excluded = [...document.querySelectorAll('#exclGrid input:checked')].map(c => c.value);
+  return {
+    system: sys || 'Weakest areas',
+    n: Number($('sessLen').value) || 20,
+    topics: [],
+    note: (!sys && excluded.length) ? 'Exclude: ' + excluded.join(', ') : ''
+  };
+}
+
+async function refreshBuffer(){
+  const el = $('bufLine');
+  const t = token();
+  if(!t){ el.textContent = 'Connect in Data to see how many questions are banked.'; return; }
+  try{
+    const r = await fetch(`${SYNC_URL}?token=${encodeURIComponent(t)}&action=status`);
+    const d = await r.json();
+    if(d.error) throw new Error(d.error);
+    BUFFER = d;
+    const pool = `<b>${d.unattempted}</b> unattempted question${d.unattempted === 1 ? '' : 's'} banked`;
+    const floor = d.short
+      ? ` \u2014 <b>${d.short} short</b> of the ${d.target} floor, the hourly task will top it up`
+      : ` \u2014 above the ${d.target} floor`;
+    const q = d.pending ? ` \u00b7 ${d.pending} request${d.pending === 1 ? '' : 's'} queued` : '';
+    el.innerHTML = pool + floor + q;
+  }catch(e){
+    el.textContent = "Couldn't read the pool \u2014 " + String(e.message || e).slice(0, 70);
+  }
+}
+
+/* Anything the hourly task left in the outbox becomes a real quiz here. Claude
+   can't create a file the script can see under drive.file scope, only overwrite
+   one the script already made \u2014 so this is where that handoff lands. */
+async function ingestOutbox(quiet){
+  if(!token()) return;
+  try{
+    const d = await callSync('ingestOutbox');
+    if(d.ingested){
+      if(!quiet) sessMsg(`${d.ingested} new quiz${d.ingested === 1 ? '' : 'zes'} arrived`, 'ok');
+      fetchQuizzes();
+    }
+    if(d.rejected && d.rejected.length){
+      console.warn('outbox rejected:', d.rejected);
+    }
+  }catch(e){ /* offline or not connected \u2014 silent, this runs on every load */ }
+}
+
+$('btnSchedule').onclick = async () => {
+  const btn = $('btnSchedule');
+  btn.disabled = true;
+  sessMsg('Queueing\u2026', '');
+  try{
+    const req = sessRequest();
+    const d = await callSync('queueRequest', req);
+    sessMsg(`Queued \u2014 ${req.n} questions on ${req.system}. The hourly task will pick it up.`, 'ok');
+    refreshBuffer();
+  }catch(e){
+    sessMsg('Could not queue \u2014 ' + String(e.message || e).slice(0, 80), 'warn');
+  }
+  btn.disabled = false;
+};
+
+$('btnNow').onclick = async () => {
+  const btn = $('btnNow');
+  const req = sessRequest();
+  btn.disabled = true; $('btnSchedule').disabled = true;
+  sessMsg(`Generating ${req.n} questions\u2026 this takes up to a minute or two, keep the tab open.`, '');
+  try{
+    const d = await callSync('generateNow', req);
+    sessMsg(`Done \u2014 "${d.title}", ${d.count} questions. It's in the bank under Sessions.`, 'ok');
+    fetchQuizzes(); refreshBuffer();
+  }catch(e){
+    sessMsg('Generation failed \u2014 ' + String(e.message || e).slice(0, 120), 'warn');
+  }
+  btn.disabled = false; $('btnSchedule').disabled = false;
+};
+
+(function initGeneration(){
+  const sel = $('sessSys');
+  if(sel){
+    sel.innerHTML = '<option value="">Weakest areas (auto)</option>'
+      + ALL_SYSTEMS.map(s => `<option>${esc(s)}</option>`).join('');
+  }
+  setTimeout(() => { ingestOutbox(true); refreshBuffer(); }, 1200);
+})();
 
 $('addFlag').onclick = () => {
   const t = $('fTopic').value.trim(); if(!t) return;
@@ -1759,7 +1878,7 @@ async function submitQuiz(){
   $('pResult').scrollIntoView({behavior:'smooth'});
 }
 
-document.querySelector('[data-tab="sessions"]').addEventListener('click', () => { fetchQuizzes(); fetchRepoQuizzes(); });
+document.querySelector('[data-tab="sessions"]').addEventListener('click', () => { ingestOutbox(true); fetchQuizzes(); fetchRepoQuizzes(); refreshBuffer(); });
 
 $('resetAll').onclick = () => {
   if(!confirm('Clear all tracked data and return to the seeded state?')) return;
