@@ -64,6 +64,19 @@
     position:relative;top:-1px}
   .assay-meta{font-family:var(--mono);font-size:11px;color:var(--ink-2);margin-top:2px}
 
+  .summary{background:var(--panel);border:1px solid var(--rule);padding:18px 20px;margin-bottom:18px}
+  .summary h3{font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;
+    color:var(--ink-2);margin:0 0 10px;font-weight:600}
+  .summary p{font-family:var(--serif);font-size:15.5px;line-height:1.55;margin:0 0 14px}
+  .summary .lists{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+  .summary .lists h4{font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;
+    margin:0 0 7px;font-weight:600}
+  .summary .lists h4.s{color:var(--in)} .summary .lists h4.w{color:var(--low)}
+  .summary .lists ul{margin:0;padding-left:16px;font-size:13px;line-height:1.5}
+  .summary .lists li{margin-bottom:4px}
+  .summary .lists .none{font-family:var(--mono);font-size:11px;color:var(--un)}
+  @media (max-width:520px){.summary .lists{grid-template-columns:1fr;gap:14px}}
+
   .top-pri{background:var(--ink);color:var(--paper);padding:14px 18px;margin-bottom:18px;
            display:flex;flex-direction:column;gap:2px}
   .top-pri .tp-label{font-family:var(--mono);font-size:10px;letter-spacing:.12em;
@@ -224,6 +237,7 @@
       </div>
     </div>
     <div class="stats" id="stats"></div>
+    <div class="summary" id="summary"></div>
     <div class="top-pri" id="topPriority"></div>
 
     <div class="panel">
@@ -667,9 +681,77 @@ $('addLink').onclick = () => {
   save(); renderLinks();
 };
 
+function renderSummary(){
+  const entries = Object.entries(S.topics).filter(([,d]) => d.tested > 0);
+  const totalQ = entries.reduce((a,[,d]) => a + d.tested, 0);
+  const totalC = entries.reduce((a,[,d]) => a + (d.correct != null ? d.correct
+                    : Math.round((d.score||0)/100*d.tested)), 0);
+  const acc = totalQ ? Math.round(totalC/totalQ*100) : null;
+
+  const touched = new Set(Object.keys(S.topics).map(k => k.split('—')[0].trim().toLowerCase()));
+  const untestedSystems = [...BUILT, ...UNBUILT].filter(s => !touched.has(s.toLowerCase()));
+
+  // A strength needs enough attempts to mean something — one lucky answer isn't
+  // evidence. Two or more questions at 75%+ is the bar.
+  const strengths = entries
+    .filter(([,d]) => d.score >= 75 && d.tested >= 2)
+    .sort((a,b) => b[1].score - a[1].score || b[1].tested - a[1].tested)
+    .slice(0,5);
+
+  // Weaknesses draw on scored topics AND repeat-missed flags, since a topic can
+  // look mediocre on score while hiding a specific fork missed three times.
+  const weakTopics = entries.filter(([,d]) => d.score < 60)
+    .sort((a,b) => a[1].score - b[1].score).slice(0,5);
+  const repeatFlags = [...S.open].filter(o => o.n >= 2).sort((a,b) => b.n - a.n);
+
+  const weaknesses = [];
+  repeatFlags.slice(0,2).forEach(f => weaknesses.push(`${f.t} (missed ${f.n}×)`));
+  weakTopics.forEach(([n,d]) => {
+    if(weaknesses.length < 5) weaknesses.push(`${n} — ${d.score}%`);
+  });
+
+  // Three sentences: accuracy, coverage, and the single sharpest issue.
+  let s1, s2, s3;
+  if(!totalQ){
+    s1 = 'No questions attempted yet, so there is no accuracy figure to report.';
+    s2 = `All ${untestedSystems.length} syllabus systems are currently untested.`;
+    s3 = 'Start anywhere — the first session converts guesswork into a measurement.';
+  }else{
+    const band = acc >= 75 ? 'solid' : acc >= 60 ? 'workable but not yet exam-safe' : 'below where it needs to be';
+    s1 = `Diagnostic accuracy sits at ${acc}% across ${totalQ} question${totalQ===1?'':'s'} in ${entries.length} topic${entries.length===1?'':'s'} — ${band} with ${daysLeft()} days to go.`;
+    s2 = untestedSystems.length
+      ? `${untestedSystems.length} system${untestedSystems.length===1?'':'s'} remain untested entirely (${untestedSystems.slice(0,3).join(', ')}${untestedSystems.length>3?', and others':''}), so the picture is incomplete rather than reassuring.`
+      : 'Every system has now been tested at least once, so the picture is complete.';
+    const worst = repeatFlags[0];
+    s3 = worst
+      ? `The sharpest single issue is "${worst.t}", missed ${worst.n} times — a repeated failure on one principle costs more marks than several isolated gaps.`
+      : (weakTopics[0]
+          ? `The weakest measured area is ${weakTopics[0][0]} at ${weakTopics[0][1].score}%.`
+          : 'No topic is currently below 60%, and nothing has been missed repeatedly.');
+  }
+
+  $('summary').innerHTML = `
+    <h3>Where you stand</h3>
+    <p>${esc(s1)} ${esc(s2)} ${esc(s3)}</p>
+    <div class="lists">
+      <div>
+        <h4 class="s">Strengths</h4>
+        ${strengths.length
+          ? `<ul>${strengths.map(([n,d]) => `<li>${esc(n)} — ${d.score}% (${d.tested}q)</li>`).join('')}</ul>`
+          : '<div class="none">Nothing yet at 75%+ over 2 or more questions</div>'}
+      </div>
+      <div>
+        <h4 class="w">Weaknesses</h4>
+        ${weaknesses.length
+          ? `<ul>${weaknesses.map(w => `<li>${esc(w)}</li>`).join('')}</ul>`
+          : '<div class="none">Nothing flagged</div>'}
+      </div>
+    </div>`;
+}
+
 function renderAll(){
   $('days').textContent = daysLeft();
-  renderStats(); renderAssays(); renderOpen(); renderCleared(); renderLog(); renderCoverage(); renderLinks(); renderMd();
+  renderStats(); renderSummary(); renderAssays(); renderOpen(); renderCleared(); renderLog(); renderCoverage(); renderLinks(); renderMd();
 }
 
 // tabs
