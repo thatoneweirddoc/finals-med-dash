@@ -1,0 +1,158 @@
+{
+ "systems": [
+  {
+   "system": "Respiratory",
+   "slug": "respiratory",
+   "sources": [
+    {
+     "path": "/mnt/project/claude_respiratory_master.md",
+     "label": "Respiratory Master Notes"
+    }
+   ]
+  },
+  {
+   "system": "Endocrine",
+   "slug": "endocrine",
+   "sources": [
+    {
+     "path": "/mnt/project/claude_endocrine_master.md",
+     "label": "Endocrine Master Notes"
+    }
+   ]
+  },
+  {
+   "system": "Gastroenterology",
+   "slug": "gastroenterology",
+   "sources": [
+    {
+     "path": "/mnt/project/claude_gastroenterology_master.md",
+     "label": "Gastroenterology Master Notes"
+    }
+   ]
+  },
+  {
+   "system": "Neurology",
+   "slug": "neurology",
+   "sources": [
+    {
+     "path": "/mnt/project/claude_neurology_master.md",
+     "label": "Neurology Master Notes"
+    }
+   ]
+  },
+  {
+   "system": "MSK & Rheumatology",
+   "slug": "msk-rheumatology",
+   "sources": [
+    {
+     "path": "/mnt/project/claude_msk_rheumatology_notes_part1_physiology_anatomy.md",
+     "label": "MSK & Rheumatology Notes"
+    },
+    {
+     "path": "/mnt/project/claude_msk_rheumatology_notes_part2_assessment.md",
+     "label": "MSK & Rheumatology Notes"
+    },
+    {
+     "path": "/mnt/project/claude_msk_rheumatology_notes_part3_regional_trauma.md",
+     "label": "MSK & Rheumatology Notes"
+    },
+    {
+     "path": "/mnt/project/claude_msk_rheumatology_notes_part4_arthritis.md",
+     "label": "MSK & Rheumatology Notes"
+    },
+    {
+     "path": "/mnt/project/claude_msk_rheumatology_notes_part5_connective_vasculitis.md",
+     "label": "MSK & Rheumatology Notes"
+    },
+    {
+     "path": "/mnt/project/claude_msk_rheumatology_notes_part6_bone_pharmacology.md",
+     "label": "MSK & Rheumatology Notes"
+    }
+   ]
+  },
+  {
+   "system": "Haematology & Oncology",
+   "slug": "haematology-oncology",
+   "sources": [
+    {
+     "path": "/mnt/project/claude_haematology_oncology_notes_part1_physiology_anatomy.md",
+     "label": "Haematology & Oncology Notes"
+    },
+    {
+     "path": "/mnt/project/claude_haematology_oncology_notes_part2_assessment.md",
+     "label": "Haematology & Oncology Notes"
+    },
+    {
+     "path": "/mnt/project/claude_haematology_oncology_notes_part3_anaemia_redcell.md",
+     "label": "Haematology & Oncology Notes"
+    },
+    {
+     "path": "/mnt/project/claude_haematology_oncology_notes_part4_haemostasis_transfusion.md",
+     "label": "Haematology & Oncology Notes"
+    },
+    {
+     "path": "/mnt/project/claude_haematology_oncology_notes_part5_haematological_malignancies.md",
+     "label": "Haematology & Oncology Notes"
+    },
+    {
+     "path": "/mnt/project/claude_haematology_oncology_notes_part6_oncology_solid_tumours.md",
+     "label": "Haematology & Oncology Notes"
+    },
+    {
+     "path": "/mnt/project/claude_haematology_oncology_notes_part7_pharmacology.md",
+     "label": "Haematology & Oncology Notes"
+    }
+   ]
+  },
+  {
+   "system": "Infectious Disease",
+   "slug": "infectious-disease",
+   "sources": [
+    {
+     "path": "/mnt/project/claude_infectious_disease_master.md",
+     "label": "Infectious Disease Master Notes"
+    }
+   ]
+  },
+  {
+   "system": "Immunology & Allergy",
+   "slug": "immunology-allergy",
+   "sources": [
+    {
+     "path": "/mnt/project/claude_immunology_allergy_master.md",
+     "label": "Immunology & Allergy Master Notes"
+    }
+   ]
+  },
+  {
+   "system": "Cardiology",
+   "slug": "cardiology",
+   "sources": [
+    {
+     "path": "/mnt/project/cardiology_notes_part0_physiology.md",
+     "label": "Cardiology Notes"
+    },
+    {
+     "path": "/mnt/project/cardiology_notes_part2.md",
+     "label": "Cardiology Notes"
+    },
+    {
+     "path": "/mnt/project/cardiology_notes_part3.md",
+     "label": "Cardiology Notes"
+    },
+    {
+     "path": "/mnt/project/cardiology_notes_part4.md",
+     "label": "Cardiology Notes"
+    },
+    {
+     "path": "/mnt/project/cardiology_notes_part5.md",
+     "label": "Cardiology Notes"
+    },
+    {
+     "path": "/mnt/project/cardiology_notes_part6.md",
+     "label": "Cardiology Notes"
+    }
+   ]
+  }
+ ]
+}
