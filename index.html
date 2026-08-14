@@ -64,6 +64,36 @@
     position:relative;top:-1px}
   .assay-meta{font-family:var(--mono);font-size:11px;color:var(--ink-2);margin-top:2px}
 
+  /* ---- quiz player ---- */
+  .prog-track{height:3px;background:var(--rule);position:relative;margin-top:4px}
+  .prog-fill{height:3px;background:var(--ink);transition:width .2s}
+  .prog-text{font-family:var(--mono);font-size:11px;color:var(--ink-2);margin-top:7px;
+             display:flex;justify-content:space-between}
+  .qcard .q-n{font-family:var(--mono);font-size:11px;letter-spacing:.08em;color:var(--ink-2);
+       margin-bottom:8px;display:flex;justify-content:space-between}
+  .q-stem{font-size:15px;line-height:1.5;margin-bottom:14px}
+  .opt{display:flex;align-items:flex-start;gap:11px;padding:11px 12px;border:1px solid var(--rule);
+       margin-bottom:8px;cursor:pointer;border-radius:2px}
+  .opt:hover{border-color:var(--ink-2)}
+  .opt input[type=radio]{margin-top:2px;width:17px;height:17px;accent-color:var(--ink);flex-shrink:0}
+  .opt.sel{border-color:var(--ink);background:#FAFAF8}
+  .opt.correct{border-color:var(--in);background:#EAF4EF}
+  .opt.wrong{border-color:var(--low);background:#FBEAE7}
+  .opt-label{font-size:14px;line-height:1.45}
+  .mark{font-family:var(--mono);font-size:11px;font-weight:600;margin-left:auto;flex-shrink:0}
+  .mark.correct{color:var(--in)} .mark.wrong{color:var(--low)}
+  .expl{display:none;margin-top:12px;padding:13px 15px;background:var(--paper);
+        border-left:2px solid var(--ink);font-size:13.5px;line-height:1.55;color:var(--ink-2)}
+  .expl b{color:var(--ink)}
+  .qcard.done .expl{display:block}
+  .results{background:var(--ink);color:var(--paper);padding:22px;margin:16px 0}
+  .results .score{font-family:var(--serif);font-size:40px;font-weight:500}
+  .results .sub{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;
+                opacity:.7;margin-top:2px}
+  .breakdown{margin-top:16px;font-size:13px}
+  .breakdown div{display:flex;justify-content:space-between;padding:5px 0;
+                 border-bottom:1px solid rgba(255,255,255,.15)}
+
   .summary{background:var(--panel);border:1px solid var(--rule);padding:18px 20px;margin-bottom:18px}
   .summary h3{font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;
     color:var(--ink-2);margin:0 0 10px;font-weight:600}
@@ -300,17 +330,22 @@
 
   <!-- SESSIONS -->
   <section id="tab-sessions" hidden>
-    <div class="drop" id="sessDrop" tabindex="0" role="button"
-         aria-label="Drop a published quiz HTML file to publish it">
-      <div class="drop-t">Publish a session</div>
-      <div class="drop-s">Drop the quiz HTML Claude gives you here. It's stored in your
-        Drive and shows up below, on any device, from then on.</div>
-      <div class="drop-r" id="sessDropR"></div>
-      <input type="file" id="sessFileIn" accept=".html,text/html" hidden>
-    </div>
-    <div class="panel">
-      <div class="panel-h">Published</div>
-      <div id="sessList"></div>
+    <div id="quizPlayer" hidden></div>
+    <div id="quizBank">
+      <div class="panel">
+        <div class="panel-h">Add a quiz</div>
+        <textarea id="quizPaste" rows="3"
+          placeholder="Paste the quiz block Claude gives you"
+          style="width:100%;font-family:var(--mono);font-size:13px"></textarea>
+        <div class="row">
+          <button class="act" id="quizAdd">Add to bank</button>
+          <span class="drop-r" id="quizAddR"></span>
+        </div>
+      </div>
+      <div class="panel">
+        <div class="panel-h">Quiz bank</div>
+        <div id="quizList"></div>
+      </div>
     </div>
   </section>
 
@@ -457,6 +492,7 @@ function fromDrive(d){
     open: (d.open||[]).map(o => ({t:o.topic, s:o.system, ty:o.type, n:o.attempts||1, d:o.since})),
     cleared: (d.resolved||[]).map(o => ({t:o.topic, s:o.system, d:o.date})),
     log: (d.log||[]).map(l => ({d:l.date, n:l.note})),
+    misses: d.recent_misses || [],
     links: d.links || []
   };
 }
@@ -466,6 +502,7 @@ function toDrive(s){
     open: s.open.map(o => ({topic:o.t, system:o.s, type:o.ty, attempts:o.n, since:o.d})),
     resolved: s.cleared.map(o => ({topic:o.t, system:o.s, date:o.d})),
     log: s.log.map(l => ({date:l.d, note:l.n})),
+    recent_misses: s.misses || [],
     links: s.links || []
   };
 }
@@ -1236,88 +1273,183 @@ $('backup').onclick = () => {
   a.click(); URL.revokeObjectURL(a.href);
 };
 
-/* ---- published sessions ---- */
-function parseSessionName(name){
-  // "Title — yyyy-MM-dd HHmm.html"
-  const m = name.match(/^(.*) — (\d{4}-\d{2}-\d{2} \d{4})\.html$/);
-  return m ? {title:m[1], stamp:m[2]} : {title:name.replace(/\.html$/,''), stamp:''};
-}
+/* ---- quiz bank + player ---- */
+let CURRENT_QUIZ = null, QUIZ_ANSWERS = [], QUIZ_SUBMITTED = false;
 
-async function fetchSessions(){
-  const t = token();
-  const list = $('sessList');
+async function fetchQuizzes(){
+  const t = token(), list = $('quizList');
   if(!t){ list.innerHTML = '<div class="empty">Connect in Data tab first</div>'; return; }
   try{
-    const r = await fetch(`${SYNC_URL}?token=${encodeURIComponent(t)}&action=listSessions`);
+    const r = await fetch(`${SYNC_URL}?token=${encodeURIComponent(t)}&action=listQuizzes`);
     const d = await r.json();
     if(d.error) throw new Error(d.error);
-    if(!d.sessions.length){ list.innerHTML = '<div class="empty">Nothing published yet</div>'; return; }
-    list.innerHTML = d.sessions.map(s => {
-      const {title,stamp} = parseSessionName(s.name);
-      const when = stamp || (s.createdTime ? s.createdTime.slice(0,10) : '');
-      const url = `${SYNC_URL}?token=${encodeURIComponent(t)}&action=session&id=${s.id}`;
+    if(!d.quizzes.length){ list.innerHTML = '<div class="empty">No quizzes yet</div>'; return; }
+    list.innerHTML = d.quizzes.map(q => {
+      const nice = q.name.replace(/-\d{4}-\d{2}-\d{2}-\d{4}\.json$/,'').replace(/-/g,' ');
       return `<div class="item">
-        <div class="item-top">
-          <span class="item-t">${esc(title)}</span>
-        </div>
-        <div class="item-d"><span class="sys">${esc(when)}</span></div>
+        <div class="item-top"><span class="item-t">${esc(nice)}</span></div>
+        <div class="item-d"><span class="sys">${esc((q.created||'').slice(0,10))}</span></div>
         <div class="row" style="margin-top:8px">
-          <a class="mini" style="text-decoration:none;display:inline-block" href="${url}" target="_blank">Open</a>
+          <button class="mini" data-quiz="${q.id}">Start</button>
         </div>
       </div>`;
     }).join('');
   }catch(e){
-    list.innerHTML = `<div class="empty">Couldn't load — ${esc(String(e.message||e).slice(0,120))}</div>`;
+    list.innerHTML = `<div class="empty">Couldn't load — ${esc(String(e.message||e).slice(0,100))}</div>`;
   }
 }
 
-function extractQuizTitle(html, fallback){
-  const m = html.match(/title:\s*["']([^"']+)["']/);
-  return m ? m[1] : fallback;
+$('quizList').addEventListener('click', async e => {
+  const id = e.target.dataset.quiz;
+  if(!id) return;
+  e.target.textContent = 'Loading…';
+  try{
+    const r = await fetch(`${SYNC_URL}?token=${encodeURIComponent(token())}&action=getQuiz&id=${id}`);
+    const q = await r.json();
+    if(q.error) throw new Error(q.error);
+    startQuiz(q, id);
+  }catch(err){ e.target.textContent = 'Failed'; }
+});
+
+$('quizAdd').onclick = async () => {
+  const out = $('quizAddR'), raw = $('quizPaste').value.trim();
+  if(!raw) return;
+  const a = raw.indexOf('{'), b = raw.lastIndexOf('}');
+  if(a === -1 || b <= a){ out.className='drop-r err'; out.textContent='No quiz block found'; return; }
+  try{
+    const q = JSON.parse(raw.slice(a,b+1));
+    if(!q.questions || !q.questions.length) throw new Error('no questions in that block');
+    out.className='drop-r busy'; out.textContent='Saving…';
+    const r = await fetch(SYNC_URL, {
+      method:'POST', headers:{'Content-Type':'text/plain;charset=utf-8'},
+      body: JSON.stringify({token:token(), action:'saveQuiz', title:q.title, system:q.system, questions:q.questions})
+    });
+    const d = await r.json();
+    if(d.error) throw new Error(d.error);
+    $('quizPaste').value = '';
+    out.className='drop-r ok'; out.textContent=`Added — ${d.count} questions`;
+    fetchQuizzes();
+  }catch(e){
+    out.className='drop-r err'; out.textContent=String(e.message||e).slice(0,90);
+  }
+};
+
+function startQuiz(quiz, id){
+  CURRENT_QUIZ = quiz; CURRENT_QUIZ.id = id;
+  QUIZ_ANSWERS = new Array(quiz.questions.length).fill(null);
+  QUIZ_SUBMITTED = false;
+  $('quizBank').hidden = true;
+  $('quizPlayer').hidden = false;
+  renderPlayer();
+  window.scrollTo({top:0, behavior:'smooth'});
 }
 
-function handleSessionFile(file){
-  const out = $('sessDropR');
-  if(!/\.html?$/i.test(file.name)){
-    out.className='drop-r err'; out.textContent='That needs to be an .html file'; return;
-  }
-  const r = new FileReader();
-  r.onload = async () => {
-    const html = r.result;
-    const title = extractQuizTitle(html, file.name.replace(/\.html?$/i,''));
-    out.className='drop-r busy'; out.textContent='Publishing…';
-    try{
-      const res = await fetch(SYNC_URL, {
-        method:'POST',
-        headers:{'Content-Type':'text/plain;charset=utf-8'},
-        body: JSON.stringify({token:token(), action:'uploadSession', title, html})
-      });
-      const d = await res.json();
-      if(d.error) throw new Error(d.error);
-      out.className='drop-r ok'; out.textContent=`Published "${title}"`;
-      fetchSessions();
-    }catch(e){
-      out.className='drop-r err'; out.textContent="Couldn't publish — check connection";
+function exitQuiz(){
+  $('quizPlayer').hidden = true;
+  $('quizBank').hidden = false;
+  CURRENT_QUIZ = null;
+  fetchQuizzes();
+}
+
+function renderPlayer(){
+  const q = CURRENT_QUIZ;
+  const done = QUIZ_ANSWERS.filter(a => a !== null).length;
+  $('quizPlayer').innerHTML = `
+    <div class="panel">
+      <div class="panel-h">${esc(q.title)} — ${q.questions.length} questions</div>
+      <div class="prog-track"><div class="prog-fill" style="width:${done/q.questions.length*100}%"></div></div>
+      <div class="prog-text"><span>${done} answered</span><span>of ${q.questions.length}</span></div>
+    </div>
+    ${q.questions.map((qq,i) => `
+      <div class="panel qcard" id="qc${i}">
+        <div class="q-n"><span>Question ${i+1}</span><span class="q-tag">${esc((qq.topic||'').split('—')[0].trim())}</span></div>
+        <div class="q-stem">${esc(qq.stem)}<br><br><b>${esc(qq.lead)}</b></div>
+        ${qq.options.map((o,j) => `
+          <label class="opt${QUIZ_ANSWERS[i]===j?' sel':''}" data-q="${i}" data-o="${j}">
+            <input type="radio" name="pq${i}" ${QUIZ_ANSWERS[i]===j?'checked':''}>
+            <span class="opt-label">${esc(o)}</span>
+          </label>`).join('')}
+        <div class="expl">${qq.explanation||''}</div>
+      </div>`).join('')}
+    <div class="row">
+      <button class="act" id="pSubmit" ${done<q.questions.length?'disabled':''}>
+        ${done<q.questions.length?`Answer all to submit (${done}/${q.questions.length})`:'Submit quiz'}</button>
+      <button class="act ghost" id="pExit">Back to bank</button>
+    </div>
+    <div id="pResult"></div>`;
+
+  $('quizPlayer').querySelectorAll('.opt').forEach(el => el.onclick = () => {
+    if(QUIZ_SUBMITTED) return;
+    QUIZ_ANSWERS[+el.dataset.q] = +el.dataset.o;
+    renderPlayer();
+    $('qc'+el.dataset.q).scrollIntoView({block:'nearest'});
+  });
+  $('pExit').onclick = exitQuiz;
+  $('pSubmit').onclick = submitQuiz;
+}
+
+async function submitQuiz(){
+  QUIZ_SUBMITTED = true;
+  const q = CURRENT_QUIZ;
+  let correct = 0; const byTopic = {}; const flags = []; const misses = [];
+
+  q.questions.forEach((qq,i) => {
+    const ok = QUIZ_ANSWERS[i] === qq.correct;
+    if(ok) correct++;
+    const key = qq.topic || q.system;
+    byTopic[key] = byTopic[key] || {c:0,t:0};
+    byTopic[key].t++; if(ok) byTopic[key].c++;
+    if(!ok){
+      flags.push({topic:qq.topic, system:q.system, type:qq.type||'recall'});
+      misses.push({topic:qq.topic, stem:qq.stem, lead:qq.lead,
+                   mine:qq.options[QUIZ_ANSWERS[i]], correct:qq.options[qq.correct],
+                   type:qq.type||'recall'});
     }
-  };
-  r.onerror = () => { out.className='drop-r err'; out.textContent="Couldn't read that file"; };
-  r.readAsText(file);
+    const card = $('qc'+i);
+    card.querySelectorAll('.opt').forEach((el,j) => {
+      el.style.cursor='default';
+      if(j===qq.correct){ el.classList.add('correct'); el.insertAdjacentHTML('beforeend','<span class="mark correct">✓</span>'); }
+      else if(j===QUIZ_ANSWERS[i]){ el.classList.add('wrong'); el.insertAdjacentHTML('beforeend','<span class="mark wrong">✗ yours</span>'); }
+    });
+    card.classList.add('done');
+  });
+
+  const pct = Math.round(correct/q.questions.length*100);
+  $('pSubmit').style.display='none';
+  $('pResult').innerHTML = `
+    <div class="results">
+      <span class="score">${correct}/${q.questions.length}</span>
+      <div class="sub">${pct}% correct</div>
+      <div class="breakdown">${Object.entries(byTopic).map(([k,v]) =>
+        `<div><span>${esc(k)}</span><span>${v.c}/${v.t}</span></div>`).join('')}</div>
+    </div>
+    <div class="drop-r busy" id="recState">Recording…</div>`;
+
+  try{
+    const r = await fetch(SYNC_URL, {
+      method:'POST', headers:{'Content-Type':'text/plain;charset=utf-8'},
+      body: JSON.stringify({
+        token: token(), action:'recordResults', quizId:q.id, title:q.title, system:q.system,
+        score: `${correct}/${q.questions.length} (${pct}%)`,
+        results: Object.entries(byTopic).map(([topic,v]) => ({topic, correct:v.c, total:v.t})),
+        flags, misses
+      })
+    });
+    const d = await r.json();
+    if(d.error) throw new Error(d.error);
+    $('recState').className='drop-r ok';
+    $('recState').textContent = misses.length
+      ? `Recorded — ${misses.length} miss${misses.length===1?'':'es'} saved for review`
+      : 'Recorded — full marks';
+    await pull(); renderAll();
+  }catch(e){
+    $('recState').className='drop-r err';
+    $('recState').textContent = 'Saved locally only — ' + String(e.message||e).slice(0,70);
+  }
+  $('pResult').scrollIntoView({behavior:'smooth'});
 }
 
-const sessDz = $('sessDrop');
-if(touchOnly){
-  sessDz.querySelector('.drop-t').textContent = 'Publish a session';
-  sessDz.querySelector('.drop-s').textContent = 'Tap to pick the quiz HTML from Files. It syncs to your Drive and shows up below, on any device.';
-}
-sessDz.onclick = () => $('sessFileIn').click();
-sessDz.onkeydown = e => { if(e.key==='Enter'||e.key===' '){ e.preventDefault(); $('sessFileIn').click(); } };
-$('sessFileIn').onchange = e => { if(e.target.files[0]) handleSessionFile(e.target.files[0]); e.target.value=''; };
-['dragenter','dragover'].forEach(ev => sessDz.addEventListener(ev, e => { e.preventDefault(); sessDz.classList.add('over'); }));
-['dragleave','drop'].forEach(ev => sessDz.addEventListener(ev, e => { e.preventDefault(); sessDz.classList.remove('over'); }));
-sessDz.addEventListener('drop', e => { if(e.dataTransfer.files[0]) handleSessionFile(e.dataTransfer.files[0]); });
-
-// load sessions when that tab is opened, not on every page load
-document.querySelector('[data-tab="sessions"]').addEventListener('click', fetchSessions);
+document.querySelector('[data-tab="sessions"]').addEventListener('click', fetchQuizzes);
 
 $('resetAll').onclick = () => {
   if(!confirm('Clear all tracked data and return to the seeded state?')) return;
