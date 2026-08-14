@@ -677,7 +677,7 @@ function updateExclCount(){
 }
 $('exclGrid').addEventListener('change', updateExclCount);
 
-$('genSess').onclick = () => {
+$('genSess').onclick = async () => {
   const n = $('sessLen').value;
   const excluded = [...document.querySelectorAll('#exclGrid input:checked')].map(c => c.value);
   const text = excluded.length
@@ -685,6 +685,8 @@ $('genSess').onclick = () => {
     : `Start a session — ${n} questions. No exclusions.`;
   $('sessText').value = text;
   $('sessOut').hidden = false;
+  try{ await navigator.clipboard.writeText(text); $('sessSaved').textContent='Copied'; $('sessSaved').classList.add('on'); }
+  catch(e){ /* clipboard needs a user gesture on some browsers — Copy button still works */ }
   $('sessOut').scrollIntoView({behavior:'smooth', block:'nearest'});
 };
 
