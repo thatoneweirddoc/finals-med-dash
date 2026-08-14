@@ -326,6 +326,7 @@ function bufferStatus() {
   (tracker.quiz_history || []).forEach(function (h) { if (h.quizId) taken[h.quizId] = true; });
 
   const quizzes = [];
+  const serviced = {};
   let unattempted = 0;
 
   try {
@@ -335,6 +336,11 @@ function bufferStatus() {
       const id = 'repo:' + q.file;
       const done = !!taken[id];
       if (!done) unattempted += Number(q.count || 0);
+      // The hourly task cannot write to Drive (the connector can create files but
+      // not overwrite one, and drive.file hides anything this script didn't make),
+      // so it publishes to the repo instead and stamps which request it answered.
+      // That stamp is how a queued request gets marked off.
+      if (q.servicedRequest) serviced[q.servicedRequest] = 'repo:' + q.file;
       quizzes.push({ id: id, title: q.title, system: q.system,
                      count: Number(q.count || 0), taken: done, src: 'repo' });
     });
@@ -350,6 +356,14 @@ function bufferStatus() {
   } catch (err) { /* ignore */ }
 
   const queue = readQueue();
+  let queueDirty = false;
+  (queue.requests || []).forEach(function (r) {
+    if (r.status === 'pending' && serviced[r.id]) {
+      r.status = 'done'; r.quizId = serviced[r.id]; r.done = new Date().toISOString();
+      queueDirty = true;
+    }
+  });
+  if (queueDirty) { try { writeQueue(queue); } catch (err) { /* non-fatal */ } }
   const pending = (queue.requests || []).filter(function (r) { return r.status === 'pending'; });
 
   return {

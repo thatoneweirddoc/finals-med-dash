@@ -1,0 +1,216 @@
+{
+ "title": "Weak areas — flagged gaps",
+ "system": "Mixed",
+ "questions": [
+  {
+   "stem": "A 34-year-old woman presents with 4 months of fatigue, 6kg weight loss and postural dizziness. BP 96/58 lying, 78/50 standing. You note hyperpigmentation of the palmar creases and buccal mucosa. Na 128, K 5.8, glucose 3.1.",
+   "lead": "Which biochemical pattern do you expect on further testing?",
+   "options": [
+    "ACTH high, renin high, aldosterone low",
+    "ACTH low, renin normal, aldosterone normal",
+    "ACTH high, renin low, aldosterone high",
+    "ACTH low, renin low, aldosterone high"
+   ],
+   "correct": 0,
+   "explanation": "Primary adrenal insufficiency destroys the whole cortex, so <b>both</b> glucocorticoid and mineralocorticoid output fail. Loss of negative feedback drives <b>ACTH up</b> (hence the pigmentation — ACTH shares a precursor with MSH), and the failing zona glomerulosa means <b>aldosterone is low with renin high</b> as the kidney tries to compensate. That aldosterone deficit is what gives you the hyperkalaemia and hyponatraemia. Option 2 is the secondary picture.",
+   "topic": "Endocrine — adrenal insufficiency",
+   "type": "discrimination"
+  },
+  {
+   "stem": "A 58-year-old man on prednisolone 10mg daily for 14 months for polymyalgia rheumatica stops it abruptly. Ten days later he presents with fatigue, nausea and BP 94/60. Na 130, K 4.1, glucose 4.0. There is no hyperpigmentation.",
+   "lead": "Why is his potassium normal, unlike in Addison's disease?",
+   "options": [
+    "Exogenous steroids suppress renal potassium excretion independently of aldosterone",
+    "Aldosterone release is driven by the renin-angiotensin system, not ACTH, so the mineralocorticoid axis is preserved",
+    "Hyperkalaemia only appears once cortisol falls below 50 nmol/L",
+    "The adrenal medulla compensates by increasing catecholamine output"
+   ],
+   "correct": 1,
+   "explanation": "This is the single most examinable difference between the two. Secondary adrenal insufficiency is an <b>ACTH problem</b>, and ACTH only meaningfully drives the zona fasciculata. The zona glomerulosa answers to <b>renin-angiotensin and potassium</b>, so aldosterone keeps working — <b>no hyperkalaemia, no hyperpigmentation</b>. Hyponatraemia can still occur, via cortisol-deficient ADH excess rather than salt wasting.",
+   "topic": "Endocrine — adrenal insufficiency",
+   "type": "discrimination"
+  },
+  {
+   "stem": "A 42-year-old woman with known Addison's disease has had 2 days of vomiting and diarrhoea and has not kept her medications down. She is drowsy, BP 80/50 after 1L of saline, HR 122. A random cortisol has been sent and is pending.",
+   "lead": "What is the immediate next step?",
+   "options": [
+    "Await the cortisol result before giving steroid, to avoid confounding the diagnosis",
+    "Give IV hydrocortisone 100mg now, alongside continued fluid resuscitation",
+    "Give oral hydrocortisone at double her usual dose",
+    "Start fludrocortisone and increase the dose until BP responds"
+   ],
+   "correct": 1,
+   "explanation": "Adrenal crisis is treated on suspicion — <b>never wait for the cortisol</b>, which is drawn but not acted on. <b>IV hydrocortisone 100mg</b> plus aggressive fluids, and the vomiting alone rules out the oral route. Fludrocortisone is irrelevant acutely: 100mg of hydrocortisone supplies more than enough mineralocorticoid activity on its own.",
+   "topic": "Endocrine — adrenal insufficiency",
+   "type": "recall"
+  },
+  {
+   "stem": "A 61-year-old man with small cell lung cancer develops proximal weakness, oedema and new hypertension over 6 weeks. He is not cushingoid in appearance.",
+   "lead": "Which set of results fits ectopic ACTH secretion?",
+   "options": [
+    "K 2.9, bicarbonate 34, glucose 12.1",
+    "K 5.9, bicarbonate 18, glucose 3.2",
+    "K 4.0, bicarbonate 24, glucose 11.8",
+    "K 2.8, bicarbonate 16, glucose 3.4"
+   ],
+   "correct": 0,
+   "explanation": "Cortisol excess is the mirror image of Addison's. Massive cortisol spills over onto the mineralocorticoid receptor, giving a <b>hypokalaemic metabolic alkalosis</b>, and its counter-regulatory action gives <b>hyperglycaemia</b>. Option 2 is the Addisonian pattern — <b>high K, acidosis, low glucose</b>. Ectopic ACTH is the form most likely to present with florid biochemistry and little classic body habitus, because it moves too fast.",
+   "topic": "Endocrine — adrenal insufficiency",
+   "type": "discrimination"
+  },
+  {
+   "stem": "A 22-year-old man presents with visible haematuria. He had a sore throat that started 2 days ago and is still present. BP 128/78, creatinine 88. C3 and C4 are both normal.",
+   "lead": "What is the most likely diagnosis?",
+   "options": [
+    "Post-streptococcal glomerulonephritis",
+    "IgA nephropathy",
+    "Anti-GBM disease",
+    "Thin basement membrane disease"
+   ],
+   "correct": 1,
+   "explanation": "Two discriminators, both in the stem. Timing: IgA is <b>synpharyngitic</b> — haematuria within 1–2 days, while the throat is still sore — whereas PSGN lags the infection by <b>1–3 weeks</b>. Complement: IgA runs a <b>normal C3</b>; PSGN runs a <b>low C3</b>. Thin basement membrane disease gives persistent microscopic haematuria, not visible haematuria timed to an infection.",
+   "topic": "Renal — glomerulonephritis",
+   "type": "recall"
+  },
+  {
+   "stem": "An 8-year-old presents with periorbital oedema, cola-coloured urine and BP 132/85. A sore throat resolved 2 weeks ago. C3 is low, C4 normal.",
+   "lead": "Which statement about the expected course is correct?",
+   "options": [
+    "C3 should normalise within 8 weeks; persistent hypocomplementaemia suggests another diagnosis",
+    "C3 remains low for at least 12 months in typical disease",
+    "Steroids should be started to shorten the illness",
+    "Persistent microscopic haematuria at 6 months indicates treatment failure"
+   ],
+   "correct": 0,
+   "explanation": "PSGN is managed supportively, and the complement trajectory is the follow-up test that matters: <b>C3 normalises by 8 weeks</b>. If it stays low, you are looking at membranoproliferative GN or lupus nephritis instead. Microscopic haematuria persisting for <b>up to 1–2 years</b> is normal and not failure. Steroids have no role in typical PSGN.",
+   "topic": "Renal — glomerulonephritis",
+   "type": "recall"
+  },
+  {
+   "stem": "A 62-year-old man has an inferior STEMI. He is alert, BP 88/54, HR 52, chest clear on auscultation, JVP elevated. Right-sided leads show ST elevation in V4R. He received a GTN spray in the ambulance and his systolic fell to 70.",
+   "lead": "What is the appropriate immediate management?",
+   "options": [
+    "Further GTN to reduce afterload, plus IV furosemide for the raised JVP",
+    "IV fluid bolus and avoidance of nitrates, with urgent reperfusion",
+    "IV metoprolol to control ischaemia",
+    "Sit him upright and start CPAP"
+   ],
+   "correct": 1,
+   "explanation": "ST elevation in <b>V4R</b> means right ventricular infarction, and the infarcted RV is <b>preload dependent</b> — it cannot generate output without a high filling pressure. Nitrates, diuretics and anything else that drops preload will collapse the BP, exactly as the GTN did. Treatment is <b>fluid loading plus reperfusion</b>. The raised JVP here is RV failure, not volume overload — note the clear chest.",
+   "topic": "Cardiology — ACS / RV infarct",
+   "type": "application"
+  },
+  {
+   "stem": "A 57-year-old woman has chest pain. ECG shows ST depression of 2mm in V1–V3 with tall R waves and upright T waves. BP 138/82, chest clear. Troponin is rising.",
+   "lead": "What does this ECG most likely represent?",
+   "options": [
+    "Anterior subendocardial ischaemia — manage as NSTEMI",
+    "Posterior STEMI — a STEMI equivalent requiring urgent reperfusion",
+    "Right ventricular infarction — withhold nitrates and load with fluid",
+    "Benign early repolarisation"
+   ],
+   "correct": 1,
+   "explanation": "Anterior ST depression with <b>tall R waves and upright T waves</b> in V1–V3 is the mirror image of posterior ST elevation. Confirm with <b>posterior leads V7–V9</b>, where ≥0.5mm of elevation is diagnostic. It is a <b>STEMI equivalent</b> and gets the STEMI pathway, not NSTEMI timing — this is the trap. Note the discriminator from the previous question: the nitrate caution belongs to <b>RV</b> infarction, not posterior infarction.",
+   "topic": "Cardiology — ACS / RV infarct",
+   "type": "discrimination"
+  },
+  {
+   "stem": "A 71-year-old man on apixaban for non-valvular AF is scheduled for an elective right hemicolectomy. CrCl is 60 mL/min. He has no prior thromboembolic events.",
+   "lead": "What is the correct periprocedural anticoagulation plan?",
+   "options": [
+    "Stop apixaban 48 hours pre-op; no bridging",
+    "Stop apixaban 48 hours pre-op and bridge with therapeutic LMWH",
+    "Continue apixaban throughout",
+    "Stop apixaban 5 days pre-op and bridge with LMWH"
+   ],
+   "correct": 0,
+   "explanation": "<b>Bridging is a warfarin concept</b> — it exists because warfarin takes days to wear off and days to come back. DOACs have a <b>short half-life and predictable offset</b>, so stopping them at the right interval <i>is</i> the bridge. For high bleeding-risk surgery with CrCl ≥30, that interval is <b>48 hours</b> (24 hours if low bleeding risk). Bridging a DOAC adds bleeding risk with no thrombotic benefit. The 5-day option is the warfarin answer.",
+   "topic": "Cardiology — anticoagulation & periop",
+   "type": "discrimination"
+  },
+  {
+   "stem": "A 68-year-old woman is day 7 post hip replacement, on prophylactic enoxaparin. Platelets have fallen from 250 to 88. She has a new swollen right calf and ultrasound confirms DVT.",
+   "lead": "What is the correct management?",
+   "options": [
+    "Cease enoxaparin and transfuse platelets given the thrombocytopenia",
+    "Cease enoxaparin and start a non-heparin anticoagulant such as danaparoid or argatroban",
+    "Continue enoxaparin and add aspirin",
+    "Cease enoxaparin and observe; anticoagulation is unsafe below 100"
+   ],
+   "correct": 1,
+   "explanation": "HIT is the counterintuitive one: despite the low platelets it is a <b>prothrombotic</b> state, driven by PF4-heparin antibodies that activate platelets. The timing (<b>day 5–10</b>), the <b>>50% fall</b> and new thrombosis are the 4Ts. Stop all heparin and start a <b>non-heparin anticoagulant</b>. <b>Never transfuse platelets</b> — you are feeding the thrombosis. Doing nothing is equally wrong; the risk here is clot, not bleeding.",
+   "topic": "Haem & Onc — anticoagulation",
+   "type": "discrimination"
+  },
+  {
+   "stem": "A 66-year-old man arrests on the ward. The monitor shows pulseless electrical activity. CPR is in progress and IV access has just been obtained.",
+   "lead": "Per ANZCOR guidelines, when should 1mg adrenaline be given?",
+   "options": [
+    "Immediately, then every second loop",
+    "After the 2nd shock, then every second loop",
+    "After the 3rd shock, then every second loop",
+    "Only if the rhythm converts to a shockable one"
+   ],
+   "correct": 0,
+   "explanation": "The adrenaline timing forks on the rhythm, which is why this keeps catching you. <b>Non-shockable (PEA/asystole): adrenaline immediately</b> once access is available, then every second loop. <b>Shockable (VF/pVT): adrenaline after the 2nd shock</b>, then every second loop. The 3rd-shock answer is <b>amiodarone 300mg</b>, not adrenaline — and note ANZCOR differs from UK/ERC here, which gives adrenaline after the third.",
+   "topic": "Critical Care — ALS medications",
+   "type": "recall"
+  },
+  {
+   "stem": "A 54-year-old woman is in VF. She has received three shocks, adrenaline after the second, and CPR is ongoing. She remains in VF.",
+   "lead": "Which drug and dose is now indicated?",
+   "options": [
+    "A second dose of adrenaline 1mg",
+    "Amiodarone 300mg IV",
+    "Lignocaine 100mg IV as first-line",
+    "Magnesium sulfate 10 mmol IV"
+   ],
+   "correct": 1,
+   "explanation": "<b>Amiodarone 300mg after the 3rd shock</b> for refractory VF/pVT, with a further 150mg considered if VF persists. Adrenaline continues on its own clock — <b>every second loop</b> — so it is not \"due\" simply because a shock was delivered. Lignocaine is the <b>alternative only if amiodarone is unavailable</b>. Magnesium is reserved for torsades or documented hypomagnesaemia.",
+   "topic": "Critical Care — ALS medications",
+   "type": "recall"
+  },
+  {
+   "stem": "A 70kg man sustains burns to 25% total body surface area. He arrives in ED 2 hours after the injury. Weight-based fluid resuscitation is commenced using the Parkland formula.",
+   "lead": "What volume is required, and over what period?",
+   "options": [
+    "7000mL in 24 hours, with 3500mL in the first 8 hours measured from the time of injury",
+    "7000mL in 24 hours, with 3500mL in the first 8 hours measured from arrival in ED",
+    "3500mL in 24 hours, with 1750mL in the first 8 hours from arrival",
+    "7000mL in the first 8 hours, then 7000mL over the next 16 hours"
+   ],
+   "correct": 0,
+   "explanation": "Parkland is <b>4 mL × kg × %TBSA</b> = 4 × 70 × 25 = <b>7000mL</b> of Hartmann's over 24 hours, <b>half in the first 8 hours</b>. The examinable subtlety is that the clock runs <b>from the time of the burn, not from arrival</b> — with 2 hours already elapsed, that 3500mL must go in over the remaining 6 hours, roughly 583 mL/hr. Titrate to a urine output of <b>0.5–1 mL/kg/hr</b> rather than following the formula blindly.",
+   "topic": "Critical Care — burns resuscitation",
+   "type": "application"
+  },
+  {
+   "stem": "A 72-year-old man is found to have a 5.8cm infrarenal abdominal aortic aneurysm on surveillance ultrasound. He is asymptomatic. He has well-controlled hypertension and is otherwise fit for surgery.",
+   "lead": "What is the appropriate management?",
+   "options": [
+    "Continue 6-monthly ultrasound surveillance",
+    "Refer for elective repair",
+    "Repeat the scan in 12 months",
+    "Repair only if he develops back or abdominal pain"
+   ],
+   "correct": 1,
+   "explanation": "The threshold for elective repair is <b>≥5.5cm in men</b> (>5.0cm in women), <b>expansion ≥1cm/year</b>, or symptoms. At 5.8cm he is over it, and annual rupture risk now exceeds operative risk — which is the whole logic of the cut-off. Waiting for pain is waiting for the aneurysm to declare itself, by which point you are operating on a symptomatic or ruptured AAA at far higher mortality.",
+   "topic": "Surgery — vascular",
+   "type": "recall"
+  },
+  {
+   "stem": "A 30-year-old man is brought in after a high-speed motorcycle crash. He is making gurgling sounds, GCS is 7 (E1 V2 M4), SpO2 88% on 15L non-rebreather. BP 110/70, HR 96. The trauma CT scanner is available and free.",
+   "lead": "Following ATLS principles, what happens next?",
+   "options": [
+    "Transfer immediately to CT to identify the head injury",
+    "Suction and definitive airway management with rapid sequence intubation",
+    "Insert an oropharyngeal airway and proceed to the secondary survey",
+    "Obtain a chest X-ray and pelvic X-ray first"
+   ],
+   "correct": 1,
+   "explanation": "ABCDE is a <b>priority order, not a checklist to complete before acting</b> — you fix each problem as you find it. Gurgling plus <b>GCS 7</b> is a failure to protect the airway, and that is an A problem, so it is addressed before anything in B, C or D. A definitive airway means a <b>cuffed tube below the cords</b>; an OPA does not protect against aspiration. CT is the classic distractor — never take an unstable or unprotected airway to the scanner.",
+   "topic": "Surgery — trauma",
+   "type": "application"
+  }
+ ]
+}

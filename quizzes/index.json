@@ -13,6 +13,14 @@
    "system": "Critical Care",
    "count": 20,
    "added": "2026-08-14"
+  },
+  {
+   "file": "weak-areas-01.json",
+   "title": "Weak areas — flagged gaps",
+   "system": "Mixed",
+   "count": 15,
+   "added": "2026-08-14",
+   "servicedRequest": null
   }
  ]
 }
