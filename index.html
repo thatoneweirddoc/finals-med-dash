@@ -197,6 +197,7 @@
 
   <nav role="tablist">
     <button role="tab" aria-selected="true"  data-tab="panel">Panel</button>
+    <button role="tab" aria-selected="false" data-tab="sessions">Sessions</button>
     <button role="tab" aria-selected="false" data-tab="flagged">Flagged</button>
     <button role="tab" aria-selected="false" data-tab="cleared">Cleared</button>
     <button role="tab" aria-selected="false" data-tab="log">Session log</button>
@@ -262,6 +263,22 @@
         fresh bad one can land at similar risk — that's the point of combining them.
         Bars still read like a pathology report: the shaded band on the right is the
         in&#8209;range target.</p>
+    </div>
+  </section>
+
+  <!-- SESSIONS -->
+  <section id="tab-sessions" hidden>
+    <div class="drop" id="sessDrop" tabindex="0" role="button"
+         aria-label="Drop a published quiz HTML file to publish it">
+      <div class="drop-t">Publish a session</div>
+      <div class="drop-s">Drop the quiz HTML Claude gives you here. It's stored in your
+        Drive and shows up below, on any device, from then on.</div>
+      <div class="drop-r" id="sessDropR"></div>
+      <input type="file" id="sessFileIn" accept=".html,text/html" hidden>
+    </div>
+    <div class="panel">
+      <div class="panel-h">Published</div>
+      <div id="sessList"></div>
     </div>
   </section>
 
@@ -656,7 +673,7 @@ function renderAll(){
 // tabs
 document.querySelectorAll('nav button').forEach(b => b.onclick = () => {
   document.querySelectorAll('nav button').forEach(x => x.setAttribute('aria-selected', x===b));
-  ['panel','flagged','cleared','log','data'].forEach(t =>
+  ['panel','sessions','flagged','cleared','log','data'].forEach(t =>
     $('tab-'+t).hidden = (t !== b.dataset.tab));
 });
 
@@ -1098,6 +1115,88 @@ $('backup').onclick = () => {
   a.download = `finals-backup-${new Date().toISOString().slice(0,10)}.json`;
   a.click(); URL.revokeObjectURL(a.href);
 };
+
+/* ---- published sessions ---- */
+function parseSessionName(name){
+  // "Title — yyyy-MM-dd HHmm.html"
+  const m = name.match(/^(.*) — (\d{4}-\d{2}-\d{2} \d{4})\.html$/);
+  return m ? {title:m[1], stamp:m[2]} : {title:name.replace(/\.html$/,''), stamp:''};
+}
+
+async function fetchSessions(){
+  const t = token();
+  const list = $('sessList');
+  if(!t){ list.innerHTML = '<div class="empty">Connect in Data tab first</div>'; return; }
+  try{
+    const r = await fetch(`${SYNC_URL}?token=${encodeURIComponent(t)}&action=listSessions`);
+    const d = await r.json();
+    if(d.error) throw new Error(d.error);
+    if(!d.sessions.length){ list.innerHTML = '<div class="empty">Nothing published yet</div>'; return; }
+    list.innerHTML = d.sessions.map(s => {
+      const {title,stamp} = parseSessionName(s.name);
+      const url = `${SYNC_URL}?token=${encodeURIComponent(t)}&action=session&id=${s.id}`;
+      return `<div class="item">
+        <div class="item-top">
+          <span class="item-t">${esc(title)}</span>
+        </div>
+        <div class="item-d"><span class="sys">${esc(stamp || s.created.slice(0,10))}</span></div>
+        <div class="row" style="margin-top:8px">
+          <a class="mini" style="text-decoration:none;display:inline-block" href="${url}" target="_blank">Open</a>
+        </div>
+      </div>`;
+    }).join('');
+  }catch(e){
+    list.innerHTML = '<div class="empty">Couldn\'t load — check connection</div>';
+  }
+}
+
+function extractQuizTitle(html, fallback){
+  const m = html.match(/title:\s*["']([^"']+)["']/);
+  return m ? m[1] : fallback;
+}
+
+function handleSessionFile(file){
+  const out = $('sessDropR');
+  if(!/\.html?$/i.test(file.name)){
+    out.className='drop-r err'; out.textContent='That needs to be an .html file'; return;
+  }
+  const r = new FileReader();
+  r.onload = async () => {
+    const html = r.result;
+    const title = extractQuizTitle(html, file.name.replace(/\.html?$/i,''));
+    out.className='drop-r busy'; out.textContent='Publishing…';
+    try{
+      const res = await fetch(SYNC_URL, {
+        method:'POST',
+        headers:{'Content-Type':'text/plain;charset=utf-8'},
+        body: JSON.stringify({token:token(), action:'uploadSession', title, html})
+      });
+      const d = await res.json();
+      if(d.error) throw new Error(d.error);
+      out.className='drop-r ok'; out.textContent=`Published "${title}"`;
+      fetchSessions();
+    }catch(e){
+      out.className='drop-r err'; out.textContent="Couldn't publish — check connection";
+    }
+  };
+  r.onerror = () => { out.className='drop-r err'; out.textContent="Couldn't read that file"; };
+  r.readAsText(file);
+}
+
+const sessDz = $('sessDrop');
+if(touchOnly){
+  sessDz.querySelector('.drop-t').textContent = 'Publish a session';
+  sessDz.querySelector('.drop-s').textContent = 'Tap to pick the quiz HTML from Files. It syncs to your Drive and shows up below, on any device.';
+}
+sessDz.onclick = () => $('sessFileIn').click();
+sessDz.onkeydown = e => { if(e.key==='Enter'||e.key===' '){ e.preventDefault(); $('sessFileIn').click(); } };
+$('sessFileIn').onchange = e => { if(e.target.files[0]) handleSessionFile(e.target.files[0]); e.target.value=''; };
+['dragenter','dragover'].forEach(ev => sessDz.addEventListener(ev, e => { e.preventDefault(); sessDz.classList.add('over'); }));
+['dragleave','drop'].forEach(ev => sessDz.addEventListener(ev, e => { e.preventDefault(); sessDz.classList.remove('over'); }));
+sessDz.addEventListener('drop', e => { if(e.dataTransfer.files[0]) handleSessionFile(e.dataTransfer.files[0]); });
+
+// load sessions when that tab is opened, not on every page load
+document.querySelector('[data-tab="sessions"]').addEventListener('click', fetchSessions);
 
 $('resetAll').onclick = () => {
   if(!confirm('Clear all tracked data and return to the seeded state?')) return;
