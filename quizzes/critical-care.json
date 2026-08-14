@@ -1,0 +1,286 @@
+{
+ "title": "Critical Care",
+ "system": "Critical Care",
+ "questions": [
+  {
+   "stem": "A 58-year-old man collapses on the ward. He is unresponsive, not breathing normally, no pulse. Monitor shows ventricular fibrillation. Two shocks have been delivered without ROSC.",
+   "lead": "Per ANZCOR guidelines, when should 1mg adrenaline be given?",
+   "options": [
+    "Immediately at the first rhythm check, before any shock",
+    "After the 2nd shock, then every second loop",
+    "After the 3rd shock, then every second loop",
+    "Only if the rhythm converts to asystole"
+   ],
+   "correct": 1,
+   "explanation": "<b>ANZCOR: adrenaline after the 2nd shock</b> in shockable rhythms (VF/pVT), then every second loop. This is a genuine regional split worth knowing — the <b>ERC/UK guidelines say after the 3rd shock</b>, AHA says after the second. As an Australian candidate, answer ANZCOR. For <b>non-shockable</b> rhythms (PEA/asystole), adrenaline is given <b>as soon as feasible</b>, not delayed.",
+   "topic": "Critical Care — ALS medications",
+   "type": "recall"
+  },
+  {
+   "stem": "The same patient remains in VF after a third shock.",
+   "lead": "What antiarrhythmic should be given, and at what dose?",
+   "options": [
+    "Amiodarone 300mg after the 3rd shock",
+    "Amiodarone 150mg after the 2nd shock",
+    "Lignocaine 3mg/kg after the 5th shock",
+    "Magnesium 2g after the 3rd shock"
+   ],
+   "correct": 0,
+   "explanation": "<b>Amiodarone 300mg after the 3rd shock</b> for shock-refractory VF/pVT, with a further <b>150mg</b> considered after the 5th shock if still refractory. Lignocaine 1mg/kg is an acceptable alternative (not 3mg/kg). Magnesium is not routine — reserved for torsades or known hypomagnesaemia.",
+   "topic": "Critical Care — ALS medications",
+   "type": "recall"
+  },
+  {
+   "stem": "A 44-year-old woman is found unresponsive. Rhythm strip shows asystole.",
+   "lead": "Which of the following is correct management?",
+   "options": [
+    "Defibrillate immediately at 200J",
+    "Adrenaline 1mg as soon as feasible, then every second loop",
+    "Withhold adrenaline until 2 loops of CPR are complete",
+    "Amiodarone 300mg immediately"
+   ],
+   "correct": 1,
+   "explanation": "Asystole is a <b>non-shockable</b> rhythm — defibrillation has no role and would only interrupt compressions. Adrenaline is given <b>as soon as feasible</b> (a strong recommendation, unlike the weak one for shockable rhythms) and repeated every second loop. Amiodarone is only for shock-refractory shockable rhythms.",
+   "topic": "Critical Care — ALS medications",
+   "type": "discrimination"
+  },
+  {
+   "stem": "A 68-year-old man with septic shock remains hypotensive on noradrenaline. Current MAP is 58mmHg.",
+   "lead": "What is the standard initial MAP target?",
+   "options": [
+    "≥55mmHg",
+    "≥65mmHg",
+    "≥80mmHg",
+    "≥90mmHg"
+   ],
+   "correct": 1,
+   "explanation": "<b>MAP ≥65mmHg</b> is the standard initial target in septic shock. Higher targets (80–85mmHg) haven't shown mortality benefit in general populations and increase atrial fibrillation risk, though a higher target may be individualised for patients with chronic hypertension. Below 65mmHg, organ perfusion — particularly renal — is compromised.",
+   "topic": "Critical Care — septic shock targets",
+   "type": "recall"
+  },
+  {
+   "stem": "A patient with septic shock is on escalating noradrenaline. The team considers adding a second agent.",
+   "lead": "Which is the recommended second-line vasopressor?",
+   "options": [
+    "Dopamine",
+    "Vasopressin",
+    "Adrenaline infusion",
+    "Phenylephrine"
+   ],
+   "correct": 1,
+   "explanation": "<b>Vasopressin</b> is added to noradrenaline as second-line, allowing noradrenaline sparing. <b>Dopamine is specifically not recommended</b> — it carries higher arrhythmia rates and worse outcomes than noradrenaline. Adrenaline is third-line. Phenylephrine (pure alpha) is generally reserved for specific situations like tachyarrhythmia limiting other agents.",
+   "topic": "Critical Care — vasopressors",
+   "type": "recall"
+  },
+  {
+   "stem": "A 72-year-old with community-acquired pneumonia has Hb 68g/L, is haemodynamically stable, with no active bleeding or cardiac ischaemia.",
+   "lead": "What is the appropriate transfusion threshold?",
+   "options": [
+    "Transfuse when Hb <100g/L",
+    "Transfuse when Hb <70g/L",
+    "Transfuse when Hb <90g/L",
+    "Transfuse only if symptomatic regardless of level"
+   ],
+   "correct": 1,
+   "explanation": "A <b>restrictive threshold of 70g/L</b> is standard for most stable critically ill patients — the TRICC trial and subsequent evidence showed restrictive transfusion is non-inferior or superior to liberal strategies. A higher threshold (~80g/L) applies in acute coronary syndrome or active cardiac ischaemia. This patient at 68g/L falls below threshold and warrants transfusion.",
+   "topic": "Critical Care — transfusion thresholds",
+   "type": "recall"
+  },
+  {
+   "stem": "A ventilated patient with ARDS weighs 70kg (predicted body weight).",
+   "lead": "What tidal volume should be targeted?",
+   "options": [
+    "420mL (6mL/kg)",
+    "700mL (10mL/kg)",
+    "840mL (12mL/kg)",
+    "280mL (4mL/kg)"
+   ],
+   "correct": 0,
+   "explanation": "<b>Lung-protective ventilation: 6mL/kg predicted body weight</b>, giving 420mL here, with plateau pressure kept <30cmH2O. The ARDSNet trial established that higher tidal volumes (12mL/kg) cause ventilator-induced lung injury and increase mortality. Note it is <b>predicted</b>, not actual, body weight — using actual weight in an obese patient dangerously overestimates lung size.",
+   "topic": "Critical Care — mechanical ventilation",
+   "type": "application"
+  },
+  {
+   "stem": "A 55-year-old with severe COPD exacerbation has pH 7.26, PaCO2 68mmHg, PaO2 58mmHg on 28% oxygen. He is alert and able to protect his airway.",
+   "lead": "What is the most appropriate next step?",
+   "options": [
+    "Immediate intubation and mechanical ventilation",
+    "Non-invasive ventilation (BiPAP)",
+    "Increase FiO2 to 100%",
+    "Continue current therapy and repeat gas in 4 hours"
+   ],
+   "correct": 1,
+   "explanation": "<b>NIV (BiPAP)</b> is first-line for acute hypercapnic respiratory failure in COPD with pH <7.35 and PaCO2 elevated, in a patient who is alert and protecting their airway — it reduces intubation rates and mortality. Intubation is reserved for NIV failure, reduced consciousness, or inability to protect the airway. High-flow oxygen risks worsening hypercapnia via reduced hypoxic drive and V/Q mismatch.",
+   "topic": "Critical Care — respiratory failure management",
+   "type": "application"
+  },
+  {
+   "stem": "A patient is admitted with a paracetamol overdose, having taken 20g approximately 6 hours ago.",
+   "lead": "What is the key management priority?",
+   "options": [
+    "Activated charcoal alone",
+    "N-acetylcysteine infusion",
+    "Haemodialysis",
+    "Await paracetamol level before any treatment at this timepoint"
+   ],
+   "correct": 1,
+   "explanation": "<b>N-acetylcysteine</b> is the antidote and is most effective within 8 hours of ingestion. With a large, known, staggered-risk ingestion at 6 hours, treatment should not be delayed. Activated charcoal is only useful within ~1–2 hours. In practice a 4-hour-post-ingestion level guides treatment via the nomogram, but at 6 hours with a massive ingestion, starting NAC while awaiting results is the safer approach.",
+   "topic": "Critical Care — toxicology",
+   "type": "application"
+  },
+  {
+   "stem": "A patient with a tricyclic antidepressant overdose has a QRS duration of 140ms and is hypotensive.",
+   "lead": "What is the specific treatment?",
+   "options": [
+    "IV sodium bicarbonate",
+    "IV magnesium",
+    "Flumazenil",
+    "Activated charcoal only"
+   ],
+   "correct": 0,
+   "explanation": "<b>Sodium bicarbonate</b> is the treatment for TCA cardiotoxicity. TCAs block cardiac fast sodium channels causing QRS widening (>100ms predicts seizures, >160ms predicts arrhythmia); bicarbonate provides a sodium load and alkalinisation that displaces TCA from the channels. <b>Flumazenil is dangerous here</b> — it can precipitate seizures, particularly with co-ingestants.",
+   "topic": "Critical Care — toxicology",
+   "type": "recall"
+  },
+  {
+   "stem": "A previously well 30-year-old is admitted with fever and hypotension. He has a petechial non-blanching rash spreading rapidly.",
+   "lead": "What is the immediate priority alongside fluid resuscitation?",
+   "options": [
+    "Lumbar puncture before any antibiotics",
+    "Immediate IV benzylpenicillin or ceftriaxone",
+    "CT head before antibiotics",
+    "Blood cultures and wait for sensitivities"
+   ],
+   "correct": 1,
+   "explanation": "A rapidly spreading non-blanching purpuric rash with shock suggests <b>meningococcal sepsis</b> — antibiotics must not be delayed for any investigation. <b>Do not delay antibiotics for LP or CT.</b> Blood cultures should be taken if it causes no delay, but treatment comes first. This is the classic exam trap of sequencing investigation before life-saving treatment.",
+   "topic": "Critical Care — sepsis management",
+   "type": "application"
+  },
+  {
+   "stem": "A ventilated patient's peak airway pressure rises acutely. Plateau pressure is unchanged.",
+   "lead": "What does this pattern suggest?",
+   "options": [
+    "Reduced lung compliance (e.g. pulmonary oedema)",
+    "Increased airway resistance (e.g. bronchospasm or blocked tube)",
+    "Tension pneumothorax",
+    "Abdominal compartment syndrome"
+   ],
+   "correct": 1,
+   "explanation": "A rise in <b>peak</b> pressure with an <b>unchanged plateau</b> pressure indicates an <b>airway resistance</b> problem — bronchospasm, secretions, a kinked or blocked ETT. If <b>both</b> peak and plateau rise together, the problem is <b>compliance</b> — pneumothorax, pulmonary oedema, consolidation, abdominal distension. This peak-vs-plateau distinction is a high-yield, frequently tested discriminator.",
+   "topic": "Critical Care — ventilator troubleshooting",
+   "type": "discrimination"
+  },
+  {
+   "stem": "A patient in the ICU develops oliguria. Urine output is 0.3mL/kg/hr over 8 hours. Creatinine has risen from 80 to 190 µmol/L over 48 hours.",
+   "lead": "What KDIGO stage of AKI is this?",
+   "options": [
+    "Stage 1",
+    "Stage 2",
+    "Stage 3",
+    "Does not meet AKI criteria"
+   ],
+   "correct": 1,
+   "explanation": "Creatinine has risen to <b>2.4× baseline</b> (80→190), which meets <b>KDIGO Stage 2</b> (2.0–2.9× baseline). Urine output <0.5mL/kg/hr for ≥12 hours would also be Stage 2; at 8 hours it meets Stage 1 by urine criteria. When creatinine and urine criteria differ, <b>the higher stage applies</b>. Stage 3 requires ≥3× baseline, creatinine ≥353.6 µmol/L, or initiation of RRT.",
+   "topic": "Critical Care — AKI staging",
+   "type": "application"
+  },
+  {
+   "stem": "A patient with AKI develops refractory hyperkalaemia of 7.2mmol/L despite medical therapy, with pulmonary oedema and pH 7.10.",
+   "lead": "What is the appropriate next step?",
+   "options": [
+    "Further calcium gluconate and observe",
+    "Urgent renal replacement therapy",
+    "High-dose loop diuretic alone",
+    "Fluid restriction and repeat bloods in 6 hours"
+   ],
+   "correct": 1,
+   "explanation": "Indications for <b>urgent RRT</b> are usefully remembered as <b>AEIOU</b>: <b>A</b>cidosis (refractory), <b>E</b>lectrolytes (refractory hyperkalaemia), <b>I</b>ntoxication (dialysable toxins), <b>O</b>verload (refractory pulmonary oedema), <b>U</b>raemia (pericarditis, encephalopathy). This patient meets three of them. Continuing medical management alone in this setting risks cardiac arrest.",
+   "topic": "Critical Care — renal replacement therapy",
+   "type": "recall"
+  },
+  {
+   "stem": "A 25-year-old with severe asthma has a 'silent chest' on auscultation, is drowsy, and has a PaCO2 of 48mmHg (previously 30mmHg).",
+   "lead": "How should this be interpreted?",
+   "options": [
+    "Reassuring — the wheeze has settled and CO2 has normalised",
+    "Life-threatening asthma requiring urgent critical care input",
+    "Mild exacerbation — continue nebulisers",
+    "Suggests the diagnosis is not asthma"
+   ],
+   "correct": 1,
+   "explanation": "A <b>silent chest</b> means airflow is too poor to generate wheeze — an ominous sign, not an improving one. A <b>normalising or rising PaCO2</b> in acute asthma signals exhaustion and impending respiratory arrest; asthmatics should be hyperventilating with a low CO2. Drowsiness compounds this. Together these are life-threatening features demanding urgent ICU involvement.",
+   "topic": "Critical Care — severe asthma",
+   "type": "discrimination"
+  },
+  {
+   "stem": "A trauma patient has a GCS calculated as: eyes open to pain, incomprehensible sounds, withdraws from pain.",
+   "lead": "What is the GCS score?",
+   "options": [
+    "E2 V2 M4 = 8",
+    "E2 V2 M5 = 9",
+    "E3 V2 M4 = 9",
+    "E2 V3 M4 = 9"
+   ],
+   "correct": 0,
+   "explanation": "<b>Eyes open to pain = E2</b> (E4 spontaneous, E3 to voice, E2 to pain, E1 none). <b>Incomprehensible sounds = V2</b> (V5 oriented, V4 confused, V3 inappropriate words, V2 incomprehensible sounds, V1 none). <b>Withdraws from pain = M4</b> (M6 obeys, M5 localises, M4 withdraws, M3 flexion, M2 extension, M1 none). Total = <b>8</b>, the threshold at which airway protection by intubation is generally indicated.",
+   "topic": "Critical Care — GCS assessment",
+   "type": "application"
+  },
+  {
+   "stem": "A patient is being assessed following return of spontaneous circulation after out-of-hospital cardiac arrest. They remain comatose.",
+   "lead": "Which post-arrest intervention is recommended?",
+   "options": [
+    "Routine therapeutic hypothermia to 32°C for all patients",
+    "Targeted temperature management with active fever prevention",
+    "Immediate rewarming to 38°C",
+    "Routine high-dose corticosteroids"
+   ],
+   "correct": 1,
+   "explanation": "Post-arrest care centres on <b>targeted temperature management</b> — current guidance emphasises actively <b>preventing fever</b> (keeping temperature ≤37.5°C) in comatose survivors, following the TTM2 trial which found no benefit of hypothermia at 33°C over normothermia with fever prevention. Also key: avoid hyperoxia (target SpO2 94–98%), maintain normocapnia, and treat the underlying cause.",
+   "topic": "Critical Care — post-arrest care",
+   "type": "recall"
+  },
+  {
+   "stem": "A patient with a large pulmonary embolism is hypotensive (BP 76/40) with right heart strain on echo.",
+   "lead": "What is the appropriate management?",
+   "options": [
+    "Therapeutic anticoagulation alone",
+    "Systemic thrombolysis",
+    "IVC filter alone",
+    "Observation with oxygen"
+   ],
+   "correct": 1,
+   "explanation": "This is a <b>massive (high-risk) PE</b> — defined by haemodynamic instability (systolic BP <90mmHg or a drop ≥40mmHg for >15 minutes). <b>Systemic thrombolysis</b> is indicated unless contraindicated. Anticoagulation alone is appropriate for low- and intermediate-risk PE, but insufficient with shock. Catheter-directed therapy or embolectomy are alternatives where thrombolysis is contraindicated.",
+   "topic": "Critical Care — massive PE",
+   "type": "application"
+  },
+  {
+   "stem": "A ventilated patient is receiving propofol at high dose for several days. They develop metabolic acidosis, rhabdomyolysis, hyperkalaemia, and bradyarrhythmia.",
+   "lead": "What is the likely diagnosis?",
+   "options": [
+    "Malignant hyperthermia",
+    "Propofol infusion syndrome",
+    "Neuroleptic malignant syndrome",
+    "Serotonin syndrome"
+   ],
+   "correct": 1,
+   "explanation": "<b>Propofol infusion syndrome (PRIS)</b> — associated with high-dose (>4mg/kg/hr) prolonged (>48hr) infusion. Features: metabolic acidosis, rhabdomyolysis, hyperkalaemia, hepatomegaly, lipaemia, cardiac failure and bradyarrhythmia. Management is immediate cessation of propofol and supportive care. Malignant hyperthermia is triggered by volatile anaesthetics/suxamethonium with hyperthermia and masseter spasm.",
+   "topic": "Critical Care — sedation complications",
+   "type": "discrimination"
+  },
+  {
+   "stem": "A patient with severe burns to 30% total body surface area weighing 80kg presents 1 hour post-injury.",
+   "lead": "Using the Parkland formula, what is the fluid requirement in the first 24 hours?",
+   "options": [
+    "4800mL",
+    "9600mL",
+    "2400mL",
+    "19200mL"
+   ],
+   "correct": 1,
+   "explanation": "<b>Parkland formula: 4mL × body weight (kg) × %TBSA</b> = 4 × 80 × 30 = <b>9600mL</b> of crystalloid (Hartmann's) in the first 24 hours. Critically, <b>half is given in the first 8 hours</b> from the time of <b>injury</b> (not from presentation), and the remaining half over the following 16 hours. Titrate to urine output of 0.5–1mL/kg/hr rather than following the formula blindly.",
+   "topic": "Critical Care — burns resuscitation",
+   "type": "application"
+  }
+ ]
+}
