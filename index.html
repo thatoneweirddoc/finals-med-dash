@@ -538,7 +538,11 @@
     <div id="quizPlayer" hidden></div>
     <div id="quizBank">
       <div class="panel">
-        <div class="panel-h">Add a quiz</div>
+        <div class="panel-h">From Claude</div>
+        <div id="repoList"><div class="empty">Loading…</div></div>
+      </div>
+      <div class="panel">
+        <div class="panel-h">Add a quiz manually</div>
         <textarea id="quizPaste" rows="3"
           placeholder="Paste the quiz block Claude gives you"
           style="width:100%;font-family:var(--mono);font-size:13px"></textarea>
@@ -1515,6 +1519,49 @@ $('backup').onclick = () => {
   a.click(); URL.revokeObjectURL(a.href);
 };
 
+/* ---- quizzes published straight to the repo — nothing to transfer ---- */
+const REPO_QUIZZES = 'https://raw.githubusercontent.com/thatoneweirddoc/finals-med-dash/main/quizzes/';
+
+async function fetchRepoQuizzes(){
+  const el = $('repoList');
+  try{
+    const r = await fetch(REPO_QUIZZES + 'index.json?t=' + Date.now());
+    const d = await r.json();
+    if(!d.quizzes || !d.quizzes.length){ el.innerHTML = '<div class="empty">None published yet</div>'; return; }
+    el.innerHTML = d.quizzes.map(q => {
+      const runs = (S.history||[]).filter(h => h.quizId === 'repo:'+q.file && h.total);
+      const latest = runs[0];
+      const bar = runs.length ? `
+        <div class="qbar"><div class="qbar-fill" style="width:${Math.round(latest.correct/latest.total*100)}%"></div></div>
+        <div class="qbar-meta">
+          <span>${latest.correct}/${latest.total} · ${Math.round(latest.correct/latest.total*100)}%</span>
+          <span>${runs.length>1 ? runs.length+' attempts' : latest.date}</span>
+        </div>` : `<div class="qbar-none">Not attempted</div>`;
+      return `<div class="item">
+        <div class="item-top"><span class="item-t">${esc(q.title)}</span></div>
+        <div class="item-d"><span class="sys">${q.count} questions · added ${esc(q.added||'')}</span></div>
+        ${bar}
+        <div class="row" style="margin-top:8px">
+          <button class="mini" data-repo="${esc(q.file)}">${runs.length ? 'Retake' : 'Start'}</button>
+        </div>
+      </div>`;
+    }).join('');
+  }catch(e){
+    el.innerHTML = `<div class="empty">Couldn't load — ${esc(String(e.message||e).slice(0,80))}</div>`;
+  }
+}
+
+$('repoList').addEventListener('click', async e => {
+  const file = e.target.dataset.repo;
+  if(!file) return;
+  e.target.textContent = 'Loading…';
+  try{
+    const r = await fetch(REPO_QUIZZES + file + '?t=' + Date.now());
+    const q = await r.json();
+    startQuiz(q, 'repo:' + file);
+  }catch(err){ e.target.textContent = 'Failed'; }
+});
+
 /* ---- quiz bank + player ---- */
 let CURRENT_QUIZ = null, QUIZ_ANSWERS = [], QUIZ_SUBMITTED = false;
 
@@ -1698,7 +1745,7 @@ async function submitQuiz(){
     $('recState').textContent = misses.length
       ? `Recorded — ${misses.length} miss${misses.length===1?'':'es'} saved for review`
       : 'Recorded — full marks';
-    await pull(); renderAll(); fetchQuizzes();
+    await pull(); renderAll(); fetchQuizzes(); fetchRepoQuizzes();
   }catch(e){
     $('recState').className='drop-r err';
     $('recState').textContent = 'Saved locally only — ' + String(e.message||e).slice(0,70);
@@ -1706,7 +1753,7 @@ async function submitQuiz(){
   $('pResult').scrollIntoView({behavior:'smooth'});
 }
 
-document.querySelector('[data-tab="sessions"]').addEventListener('click', fetchQuizzes);
+document.querySelector('[data-tab="sessions"]').addEventListener('click', () => { fetchQuizzes(); fetchRepoQuizzes(); });
 
 $('resetAll').onclick = () => {
   if(!confirm('Clear all tracked data and return to the seeded state?')) return;
