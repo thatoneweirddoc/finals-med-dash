@@ -89,9 +89,8 @@
   .excl-count{color:var(--ink);font-weight:600}
   .excl-grid{display:grid;grid-template-columns:1fr 1fr;gap:2px 14px;
              max-height:220px;overflow-y:auto;border:1px solid var(--rule);padding:10px 12px}
-  .excl-row{display:flex;align-items:center;gap:8px;padding:6px 0;font-size:13px}
-  .excl-row input{width:18px;height:18px;accent-color:var(--ink);flex-shrink:0}
-  .excl-row label{cursor:pointer}
+  .excl-row{display:flex;align-items:center;gap:10px;padding:7px 0;font-size:13px}
+  .excl-row label{cursor:pointer;flex:1}
   @media (max-width:480px){.excl-grid{grid-template-columns:1fr}}
   .range{position:relative;height:22px}
   .range-track{position:absolute;top:9px;left:0;right:0;height:3px;background:var(--rule)}
@@ -134,11 +133,28 @@
 
   /* ---- controls ---- */
   .row{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}
-  input,select,textarea{font-family:var(--sans);font-size:16px;padding:11px 12px;
+  input:not([type=checkbox]):not([type=radio]),select,textarea{
+    font-family:var(--sans);font-size:16px;padding:11px 12px;
     border:1px solid var(--rule);background:var(--panel);color:var(--ink);border-radius:0;
     -webkit-appearance:none;appearance:none}
   input:focus,select:focus,textarea:focus{outline:2px solid var(--ink);outline-offset:-1px}
   input.grow{flex:1;min-width:170px}
+
+  /* checkboxes: drawn rather than native, so the tick renders the same everywhere */
+  input[type=checkbox]{
+    -webkit-appearance:none;appearance:none;
+    width:20px;height:20px;flex-shrink:0;margin:0;
+    border:1.5px solid var(--ink-2);background:var(--panel);
+    border-radius:2px;cursor:pointer;position:relative;transition:background .12s,border-color .12s}
+  input[type=checkbox]:checked{background:var(--ink);border-color:var(--ink)}
+  input[type=checkbox]:checked::after{
+    content:'';position:absolute;left:6px;top:2px;
+    width:5px;height:10px;border:solid var(--paper);border-width:0 2px 2px 0;
+    transform:rotate(45deg)}
+  input[type=checkbox]:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+
+  /* excluded list reads as removal, so its ticks are red rather than ink */
+  #exclGrid input[type=checkbox]:checked{background:var(--low);border-color:var(--low)}
   button.act{font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;
     background:var(--ink);color:var(--paper);border:1px solid var(--ink);padding:13px 18px;
     cursor:pointer;min-height:44px}
