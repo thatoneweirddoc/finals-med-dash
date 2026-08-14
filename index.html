@@ -58,7 +58,18 @@
          grid-template-columns:1fr 132px 60px;gap:14px;align-items:center}
   .assay:last-child{border-bottom:0}
   .assay-name{font-weight:500}
+  .pri-badge{display:inline-flex;align-items:center;justify-content:center;
+    width:16px;height:16px;border-radius:50%;background:var(--ink);color:var(--paper);
+    font-family:var(--mono);font-size:9px;font-weight:600;margin-right:7px;
+    position:relative;top:-1px}
   .assay-meta{font-family:var(--mono);font-size:11px;color:var(--ink-2);margin-top:2px}
+
+  .top-pri{background:var(--ink);color:var(--paper);padding:14px 18px;margin-bottom:18px;
+           display:flex;flex-direction:column;gap:2px}
+  .top-pri .tp-label{font-family:var(--mono);font-size:10px;letter-spacing:.12em;
+    text-transform:uppercase;opacity:.65}
+  .top-pri .tp-name{font-family:var(--serif);font-size:18px;font-weight:500}
+  .top-pri .tp-why{font-family:var(--mono);font-size:11px;opacity:.8}
   .range{position:relative;height:22px}
   .range-track{position:absolute;top:9px;left:0;right:0;height:3px;background:var(--rule)}
   .range-band{position:absolute;top:9px;height:3px;background:var(--inrange);opacity:.22;
@@ -202,12 +213,15 @@
       </div>
     </div>
     <div class="stats" id="stats"></div>
+    <div class="top-pri" id="topPriority"></div>
     <div class="panel">
-      <div class="panel-h">Topic assay &mdash; result against reference range</div>
+      <div class="panel-h">Topic assay &mdash; ranked by priority, worst first</div>
       <div id="assays"></div>
-      <p class="note">Bars read like a pathology report: the shaded band on the right is the
-        in&#8209;range target. A result sitting left of the band is flagged and needs work before
-        the paper.</p>
+      <p class="note">Ranked on three things together: how bad the score is, how long
+        since it was tested, and whether it's built at all. A stale good score and a
+        fresh bad one can land at similar risk — that's the point of combining them.
+        Bars still read like a pathology report: the shaded band on the right is the
+        in&#8209;range target.</p>
     </div>
   </section>
 
@@ -426,6 +440,34 @@ const save = push;
 const $ = id => document.getElementById(id);
 const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 
+function daysSince(dateStr){
+  if(!dateStr) return Infinity;
+  const d = Math.round((new Date() - new Date(dateStr+'T00:00:00')) / 864e5);
+  return Math.max(0, d);
+}
+
+function fmtAge(days){
+  if(days === Infinity) return 'never tested';
+  if(days === 0) return 'tested today';
+  if(days === 1) return 'tested yesterday';
+  return `tested ${days}d ago`;
+}
+
+/**
+ * One number per topic so "what's actually most urgent" doesn't require
+ * mentally juggling score, staleness and build-status separately.
+ *   - a bad score matters more than a good one
+ *   - a stale result decays toward being as risky as an untested one
+ *   - never-tested and never-built start high and only get worse
+ * Capped inputs keep one extreme dimension from swamping the others.
+ */
+function priority(score, days, unbuilt){
+  const scorePart  = score === null ? 55 : (100 - score) * 0.6;
+  const stalePart  = Math.min(days === Infinity ? 45 : days, 45) * 0.8;
+  const unbuiltPart = unbuilt ? 25 : 0;
+  return Math.round(scorePart + stalePart + unbuiltPart);
+}
+
 function daysLeft(){ return Math.max(0, Math.ceil((EXAM - new Date())/864e5)); }
 
 function band(score){
@@ -449,29 +491,38 @@ function renderStats(){
 }
 
 function renderAssays(){
-  // every system on the syllabus, so an untested one is visible as a gap
-  // rather than simply absent from the list
-  const rows = Object.entries(S.topics).map(([n,d]) => [n, d, false]);
-
   const touched = new Set(Object.keys(S.topics)
     .map(k => k.split('—')[0].trim().toLowerCase()));
   const gaps = [...BUILT, ...UNBUILT]
     .filter(sys => !touched.has(sys.toLowerCase()))
-    .map(sys => [sys, {score:null, tested:0}, !BUILT.includes(sys)]);
+    .map(sys => [sys, {score:null, tested:0, last:null}, !BUILT.includes(sys)]);
 
-  rows.sort((a,b) => a[1].score - b[1].score);
-  const all = [...rows, ...gaps];
+  const rows = Object.entries(S.topics).map(([n,d]) => [n, d, false]);
+  const all = [...rows, ...gaps].map(([name,d,unbuilt]) => {
+    const days = daysSince(d.last);
+    return {name, d, unbuilt, days, pri: priority(d.score, days, unbuilt)};
+  });
+  all.sort((a,b) => b.pri - a.pri);
 
-  $('assays').innerHTML = all.length ? all.map(([name,d,unbuilt]) => {
+  const top = all[0];
+  $('topPriority').innerHTML = top ? `
+    <span class="tp-label">Highest priority right now</span>
+    <span class="tp-name">${esc(top.name)}</span>
+    <span class="tp-why">${top.d.score===null
+        ? (top.unbuilt ? 'no notes built, never tested' : 'never tested')
+        : `${top.d.score}% · ${fmtAge(top.days)}`}</span>` : '';
+
+  $('assays').innerHTML = all.length ? all.map(({name,d,unbuilt,days,pri}, i) => {
     const [flag,cls] = band(d.score);
     const pos = d.score === null ? 0 : d.score;
     return `<div class="assay">
       <div>
-        <div class="assay-name"${d.score===null?' style="color:var(--ink-2)"':''}>${esc(name)}</div>
+        <div class="assay-name"${d.score===null?' style="color:var(--ink-2)"':''}>
+          ${i<3?'<span class="pri-badge">'+(i+1)+'</span>':''}${esc(name)}</div>
         <div class="assay-meta">${
           d.score === null
             ? (unbuilt ? 'no notes built · never tested' : 'never tested')
-            : `${d.tested} ${d.tested===1?'question':'questions'} attempted`}</div>
+            : `${d.tested} ${d.tested===1?'q':'qs'} · ${fmtAge(days)}`}</div>
       </div>
       <div class="range" role="img" aria-label="${d.score===null?'untested':d.score+' percent, '+flag}">
         <div class="range-track"></div><div class="range-band"></div>
@@ -619,7 +670,7 @@ function mergeSession(j){
                        : Math.round((cur.score||0)/100 * (cur.tested||0));
     const tested  = (cur.tested||0) + r.total;
     const correct = priorCorrect + (r.correct||0);
-    S.topics[r.topic] = {score: Math.round(correct/tested*100), tested, correct};
+    S.topics[r.topic] = {score: Math.round(correct/tested*100), tested, correct, last:date};
     changes.push(`${r.topic}: ${r.correct||0}/${r.total}`);
   });
 
@@ -806,7 +857,7 @@ $('queue').addEventListener('click', e => {
       const prior = cur.correct != null ? cur.correct
                   : Math.round((cur.score||0)/100*(cur.tested||0));
       const tested = (cur.tested||0)+1, correct = prior + (q.ok?1:0);
-      S.topics[topic] = {score: Math.round(correct/tested*100), tested, correct};
+      S.topics[topic] = {score: Math.round(correct/tested*100), tested, correct, last:date};
       if(!q.ok){
         const t = `${topic} — eMedici Q${q.n}`;
         const hit = S.open.find(o => o.t.toLowerCase() === t.toLowerCase());
