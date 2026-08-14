@@ -64,6 +64,14 @@
     position:relative;top:-1px}
   .assay-meta{font-family:var(--mono);font-size:11px;color:var(--ink-2);margin-top:2px}
 
+  /* quiz bank performance bars — the red underneath shows through as the miss */
+  .qbar{height:8px;background:var(--low);margin-top:10px;border-radius:1px;overflow:hidden}
+  .qbar-fill{height:8px;background:var(--in);transition:width .3s}
+  .qbar-meta{display:flex;justify-content:space-between;font-family:var(--mono);
+             font-size:10px;letter-spacing:.05em;color:var(--ink-2);margin-top:5px}
+  .qbar-none{font-family:var(--mono);font-size:10px;letter-spacing:.08em;
+             text-transform:uppercase;color:var(--un);margin-top:10px}
+
   /* ---- quiz player ---- */
   .prog-track{height:3px;background:var(--rule);position:relative;margin-top:4px}
   .prog-fill{height:3px;background:var(--ink);transition:width .2s}
@@ -493,6 +501,7 @@ function fromDrive(d){
     cleared: (d.resolved||[]).map(o => ({t:o.topic, s:o.system, d:o.date})),
     log: (d.log||[]).map(l => ({d:l.date, n:l.note})),
     misses: d.recent_misses || [],
+    history: d.quiz_history || [],
     links: d.links || []
   };
 }
@@ -503,6 +512,7 @@ function toDrive(s){
     resolved: s.cleared.map(o => ({topic:o.t, system:o.s, date:o.d})),
     log: s.log.map(l => ({date:l.d, note:l.n})),
     recent_misses: s.misses || [],
+    quiz_history: s.history || [],
     links: s.links || []
   };
 }
@@ -1286,11 +1296,25 @@ async function fetchQuizzes(){
     if(!d.quizzes.length){ list.innerHTML = '<div class="empty">No quizzes yet</div>'; return; }
     list.innerHTML = d.quizzes.map(q => {
       const nice = q.name.replace(/-\d{4}-\d{2}-\d{2}-\d{4}\.json$/,'').replace(/-/g,' ');
+      const runs = (S.history||[]).filter(h => h.quizId === q.id && h.total);
+      const best = runs.length ? Math.max(...runs.map(h => Math.round(h.correct/h.total*100))) : null;
+      const latest = runs[0];
+
+      const bar = runs.length ? `
+        <div class="qbar" title="${runs.map(h => `${h.date}: ${h.correct}/${h.total}`).join(' · ')}">
+          <div class="qbar-fill" style="width:${Math.round(latest.correct/latest.total*100)}%"></div>
+        </div>
+        <div class="qbar-meta">
+          <span>${latest.correct}/${latest.total} · ${Math.round(latest.correct/latest.total*100)}%</span>
+          <span>${runs.length > 1 ? `${runs.length} attempts · best ${best}%` : latest.date}</span>
+        </div>` : `<div class="qbar-none">Not attempted</div>`;
+
       return `<div class="item">
         <div class="item-top"><span class="item-t">${esc(nice)}</span></div>
         <div class="item-d"><span class="sys">${esc((q.created||'').slice(0,10))}</span></div>
+        ${bar}
         <div class="row" style="margin-top:8px">
-          <button class="mini" data-quiz="${q.id}">Start</button>
+          <button class="mini" data-quiz="${q.id}">${runs.length ? 'Retake' : 'Start'}</button>
         </div>
       </div>`;
     }).join('');
@@ -1431,6 +1455,7 @@ async function submitQuiz(){
       body: JSON.stringify({
         token: token(), action:'recordResults', quizId:q.id, title:q.title, system:q.system,
         score: `${correct}/${q.questions.length} (${pct}%)`,
+        correct, total: q.questions.length,
         results: Object.entries(byTopic).map(([topic,v]) => ({topic, correct:v.c, total:v.t})),
         flags, misses
       })
@@ -1441,7 +1466,7 @@ async function submitQuiz(){
     $('recState').textContent = misses.length
       ? `Recorded — ${misses.length} miss${misses.length===1?'':'es'} saved for review`
       : 'Recorded — full marks';
-    await pull(); renderAll();
+    await pull(); renderAll(); fetchQuizzes();
   }catch(e){
     $('recState').className='drop-r err';
     $('recState').textContent = 'Saved locally only — ' + String(e.message||e).slice(0,70);
