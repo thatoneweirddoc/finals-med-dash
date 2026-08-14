@@ -1,0 +1,286 @@
+{
+ "title": "Surgery",
+ "system": "Surgery",
+ "questions": [
+  {
+   "stem": "A 68-year-old man is found on ultrasound to have a 4.2cm infrarenal abdominal aortic aneurysm. He is asymptomatic, a lifelong smoker, and otherwise fit.",
+   "lead": "What is the appropriate management?",
+   "options": [
+    "Urgent open surgical repair",
+    "Elective EVAR within 6 weeks",
+    "Ultrasound surveillance, repair when ≥5.5cm or expanding ≥1cm/year",
+    "No follow-up required as it is asymptomatic"
+   ],
+   "correct": 2,
+   "explanation": "Elective repair is offered at <b>≥5.5cm in men</b> (>5.0cm in women), or for <b>rapid expansion ≥1cm/year</b>, or if symptomatic. Below that, surveillance is safer — the UK Small Aneurysm Trial and ADAM trial both showed no survival benefit from repairing AAAs <5.5cm, because operative risk exceeds rupture risk at that size. Surveillance intervals shorten as diameter grows.",
+   "topic": "Surgery — vascular",
+   "type": "recall"
+  },
+  {
+   "stem": "A 72-year-old man presents with sudden severe back pain, hypotension (BP 78/40), and a pulsatile abdominal mass. He is known to have a 6cm AAA.",
+   "lead": "What is the immediate management priority?",
+   "options": [
+    "CT angiogram before any intervention",
+    "Immediate vascular surgical referral and transfer to theatre, with permissive hypotension",
+    "Aggressive fluid resuscitation to normalise blood pressure",
+    "Ultrasound in the emergency department"
+   ],
+   "correct": 1,
+   "explanation": "<b>Ruptured AAA</b> — this is a surgical emergency. Immediate vascular referral and transfer for repair. Use <b>permissive hypotension</b> (target systolic ~90mmHg): aggressive fluid resuscitation raises pressure, dislodges clot and worsens haemorrhage. In an unstable patient with a known AAA, do not delay for imaging; CT is only appropriate if the patient is stable enough and it would change the approach (EVAR suitability).",
+   "topic": "Surgery — vascular",
+   "type": "application"
+  },
+  {
+   "stem": "A 15-year-old boy presents with sudden severe left testicular pain and vomiting, starting 2 hours ago. The testis is high-riding with a horizontal lie, and the cremasteric reflex is absent.",
+   "lead": "What is the immediate management?",
+   "options": [
+    "Urgent ultrasound Doppler before any surgical decision",
+    "Immediate surgical exploration",
+    "Antibiotics for presumed epididymo-orchitis",
+    "Analgesia and review in 24 hours"
+   ],
+   "correct": 1,
+   "explanation": "<b>Testicular torsion</b> is a clinical diagnosis and a surgical emergency — the testis is salvageable within roughly <b>6 hours</b>, falling sharply after. <b>Do not delay for imaging</b> when the presentation is classic; ultrasound is only appropriate if the diagnosis is genuinely uncertain and it won't delay theatre. Absent cremasteric reflex, high-riding testis, and horizontal lie are the key discriminators from epididymo-orchitis (gradual onset, fever, relieved by elevation — Prehn's sign).",
+   "topic": "Surgery — urology",
+   "type": "application"
+  },
+  {
+   "stem": "A 45-year-old woman presents with severe epigastric pain radiating to the back, vomiting, and a lipase of 1200 U/L (normal <60).",
+   "lead": "What are the two most common causes to consider first?",
+   "options": [
+    "Gallstones and alcohol",
+    "Trauma and hypercalcaemia",
+    "Autoimmune and hypertriglyceridaemia",
+    "Medications and ERCP"
+   ],
+   "correct": 0,
+   "explanation": "<b>Gallstones and alcohol</b> account for roughly 80% of acute pancreatitis. The fuller list is remembered as <b>I GET SMASHED</b>: Idiopathic, Gallstones, Ethanol, Trauma, Steroids, Mumps, Autoimmune, Scorpion sting, Hypercalcaemia/Hypertriglyceridaemia/Hypothermia, ERCP, Drugs. Diagnosis requires 2 of 3: characteristic pain, lipase/amylase >3× upper limit, or imaging findings.",
+   "topic": "Surgery — hepatobiliary",
+   "type": "recall"
+  },
+  {
+   "stem": "A 60-year-old woman with acute pancreatitis has ongoing pain at 72 hours, with rising inflammatory markers and new organ dysfunction.",
+   "lead": "Which imaging is most appropriate at this point?",
+   "options": [
+    "Repeat abdominal ultrasound",
+    "Contrast-enhanced CT abdomen",
+    "Plain abdominal X-ray",
+    "MRCP immediately"
+   ],
+   "correct": 1,
+   "explanation": "<b>Contrast-enhanced CT</b> is the investigation of choice for suspected complications of pancreatitis (necrosis, collections, pseudocyst). Timing matters: CT performed <b>too early (<72 hours)</b> underestimates necrosis, which takes time to declare itself, so it's best deferred to 72–96 hours unless the diagnosis itself is in doubt. Ultrasound is the initial test to identify gallstones as the cause, not to assess complications.",
+   "topic": "Surgery — hepatobiliary",
+   "type": "application"
+  },
+  {
+   "stem": "A 55-year-old woman presents with right upper quadrant pain, fever 38.5°C, and jaundice. Bilirubin is elevated and she is hypotensive with confusion.",
+   "lead": "What is the diagnosis?",
+   "options": [
+    "Acute cholecystitis",
+    "Ascending cholangitis (Reynolds pentad)",
+    "Biliary colic",
+    "Acute hepatitis"
+   ],
+   "correct": 1,
+   "explanation": "<b>Charcot's triad</b> — RUQ pain, fever, jaundice — indicates <b>ascending cholangitis</b>. Adding <b>hypotension and confusion</b> makes <b>Reynolds pentad</b>, signifying suppurative cholangitis with sepsis. Management: resuscitation, IV antibiotics, and urgent biliary decompression by <b>ERCP</b>. Acute cholecystitis gives RUQ pain and fever but <b>not jaundice</b> (unless Mirizzi syndrome) — jaundice is the discriminator.",
+   "topic": "Surgery — hepatobiliary",
+   "type": "discrimination"
+  },
+  {
+   "stem": "A 70-year-old presents with colicky abdominal pain, distension, vomiting, and absolute constipation. X-ray shows dilated small bowel loops with valvulae conniventes spanning the full width.",
+   "lead": "What is the diagnosis and the most common cause in the developed world?",
+   "options": [
+    "Large bowel obstruction; colorectal cancer",
+    "Small bowel obstruction; adhesions",
+    "Paralytic ileus; electrolyte disturbance",
+    "Sigmoid volvulus; chronic constipation"
+   ],
+   "correct": 1,
+   "explanation": "<b>Valvulae conniventes crossing the full bowel width</b> identifies <b>small bowel</b>; haustra in large bowel do not cross completely. The commonest cause of SBO in developed countries is <b>adhesions</b> (from previous surgery), then hernias and malignancy. Initial management is 'drip and suck' — NBM, IV fluids, NG decompression — with surgery for strangulation, ischaemia, or failure to resolve.",
+   "topic": "Surgery — general",
+   "type": "discrimination"
+  },
+  {
+   "stem": "A patient with a small bowel obstruction develops constant (rather than colicky) pain, tachycardia, fever, peritonism, and a rising lactate.",
+   "lead": "What does this indicate?",
+   "options": [
+    "Successful resolution of the obstruction",
+    "Strangulation with bowel ischaemia — needs urgent surgery",
+    "Simple ileus requiring more time",
+    "Constipation requiring enema"
+   ],
+   "correct": 1,
+   "explanation": "The shift from <b>colicky to constant pain</b>, with peritonism, fever, tachycardia and <b>rising lactate</b>, signals <b>strangulation and bowel ischaemia</b> — a surgical emergency requiring immediate laparotomy. Conservative management of SBO is only appropriate while there are no features of compromise. Lactate is the key red flag that conservative management has failed.",
+   "topic": "Surgery — general",
+   "type": "application"
+  },
+  {
+   "stem": "A 25-year-old presents with a groin lump that appears on standing and reduces on lying flat. On examination, the lump arises above and medial to the pubic tubercle.",
+   "lead": "What type of hernia is this?",
+   "options": [
+    "Femoral hernia",
+    "Inguinal hernia",
+    "Incisional hernia",
+    "Obturator hernia"
+   ],
+   "correct": 1,
+   "explanation": "<b>Above and medial to the pubic tubercle = inguinal.</b> <b>Below and lateral = femoral.</b> That relationship is the single most testable anatomical discriminator here. Femoral hernias are commoner in women and carry a much higher risk of <b>strangulation</b> due to the narrow, rigid femoral canal — so femoral hernias are generally repaired promptly even when asymptomatic.",
+   "topic": "Surgery — general",
+   "type": "discrimination"
+  },
+  {
+   "stem": "A 62-year-old man presents with a tender, irreducible groin lump, vomiting, and abdominal distension. The overlying skin is erythematous.",
+   "lead": "What is the diagnosis and management?",
+   "options": [
+    "Reducible hernia; elective repair",
+    "Strangulated hernia; emergency surgical repair",
+    "Lipoma; reassurance",
+    "Lymphadenopathy; investigate for infection"
+   ],
+   "correct": 1,
+   "explanation": "An <b>irreducible, tender hernia with overlying erythema and features of obstruction</b> is <b>strangulated</b> — the blood supply is compromised and the bowel will infarct. This requires <b>emergency</b> surgery. Do not attempt forceful reduction, which risks reducing ischaemic bowel into the abdomen. Note the progression: reducible → incarcerated (irreducible, no compromise) → obstructed → strangulated (ischaemic).",
+   "topic": "Surgery — general",
+   "type": "application"
+  },
+  {
+   "stem": "A 58-year-old presents with left iliac fossa pain, fever, and raised inflammatory markers. CT shows sigmoid diverticulitis with a 6cm pelvic abscess.",
+   "lead": "What Hinchey stage is this and what is the management?",
+   "options": [
+    "Hinchey I; oral antibiotics as an outpatient",
+    "Hinchey II; antibiotics plus radiologically guided percutaneous drainage",
+    "Hinchey III; emergency Hartmann's procedure",
+    "Hinchey IV; emergency laparotomy"
+   ],
+   "correct": 1,
+   "explanation": "<b>Hinchey classification:</b> I = pericolic/phlegmon abscess; <b>II = pelvic/walled-off abscess</b>; III = purulent peritonitis; IV = faeculent peritonitis. A walled-off pelvic abscess >4–5cm is <b>Hinchey II</b>, managed with antibiotics and <b>percutaneous drainage</b> rather than immediate surgery. Hinchey III and IV require emergency surgery, typically Hartmann's procedure.",
+   "topic": "Surgery — colorectal",
+   "type": "application"
+  },
+  {
+   "stem": "A 65-year-old presents with a change in bowel habit, iron deficiency anaemia, and weight loss over 3 months.",
+   "lead": "What is the most appropriate initial investigation?",
+   "options": [
+    "Faecal occult blood test",
+    "Colonoscopy",
+    "Abdominal ultrasound",
+    "Barium enema"
+   ],
+   "correct": 1,
+   "explanation": "Change in bowel habit, iron deficiency anaemia and weight loss in this age group are red flags for <b>colorectal cancer</b>. <b>Colonoscopy</b> is the investigation of choice — it visualises the whole colon and allows biopsy. Faecal occult blood is a <b>screening</b> tool for asymptomatic populations, not a diagnostic test in a symptomatic patient. Staging then proceeds with CT chest/abdomen/pelvis, plus MRI rectum for rectal tumours.",
+   "topic": "Surgery — colorectal",
+   "type": "application"
+  },
+  {
+   "stem": "A 30-year-old woman presents with a firm, mobile, painless, well-circumscribed 2cm breast lump. Ultrasound shows a well-defined lesion.",
+   "lead": "What is the most likely diagnosis?",
+   "options": [
+    "Fibroadenoma",
+    "Invasive ductal carcinoma",
+    "Breast abscess",
+    "Fat necrosis"
+   ],
+   "correct": 0,
+   "explanation": "A <b>fibroadenoma</b> — the classic 'breast mouse': firm, mobile, painless, well-circumscribed, in a young woman. Malignancy typically presents as a <b>hard, irregular, fixed</b> lump, possibly with skin tethering, nipple retraction or peau d'orange. All breast lumps are assessed by <b>triple assessment</b>: clinical examination, imaging (ultrasound <35 years, mammogram + ultrasound if older), and core biopsy.",
+   "topic": "Surgery — breast",
+   "type": "discrimination"
+  },
+  {
+   "stem": "A patient is 3 days post laparotomy and develops a fever of 38.6°C.",
+   "lead": "Which cause is most likely at this timepoint?",
+   "options": [
+    "Wound infection",
+    "Respiratory — atelectasis or pneumonia",
+    "Deep vein thrombosis",
+    "Anastomotic leak"
+   ],
+   "correct": 1,
+   "explanation": "Post-operative fever follows a rough timeline — the <b>'five Ws'</b>: <b>Wind</b> (respiratory: atelectasis/pneumonia, days 1–2), <b>Water</b> (UTI, days 3–5), <b>Walking</b> (DVT/PE, days 4–6), <b>Wound</b> (infection, days 5–7), <b>Wonder drugs</b> (drug fever/line sepsis, any time). At day 3 the respiratory causes remain the most likely. Anastomotic leak typically presents days 5–7 and is the one not to miss.",
+   "topic": "Surgery — perioperative",
+   "type": "recall"
+  },
+  {
+   "stem": "A patient is 6 days post anterior resection and develops abdominal pain, fever, tachycardia, and feculent drainage from the wound.",
+   "lead": "What is the diagnosis?",
+   "options": [
+    "Wound infection",
+    "Anastomotic leak",
+    "Paralytic ileus",
+    "Normal post-operative course"
+   ],
+   "correct": 1,
+   "explanation": "<b>Anastomotic leak</b> — typically days 5–7, presenting with pain, fever, tachycardia, ileus, and in this case feculent discharge. It is a major cause of post-operative mortality. Management: resuscitation, antibiotics, CT with contrast to confirm, and either radiological drainage or return to theatre depending on the patient's stability and the extent of contamination.",
+   "topic": "Surgery — perioperative",
+   "type": "recall"
+  },
+  {
+   "stem": "A young man sustains a tibial fracture. Six hours later he has severe pain disproportionate to the injury, worsened by passive stretch of the toes, with a tense swollen calf. Pulses are present.",
+   "lead": "What is the diagnosis and what is the critical pitfall?",
+   "options": [
+    "Compartment syndrome; present pulses do NOT exclude it",
+    "DVT; anticoagulate",
+    "Simple fracture pain; increase analgesia",
+    "Arterial injury; angiogram first"
+   ],
+   "correct": 0,
+   "explanation": "<b>Acute compartment syndrome.</b> The cardinal early sign is <b>pain out of proportion, worsened by passive stretch</b>. The critical trap: <b>pulses are usually present</b> — compartment pressures rise well above venous but below arterial pressure, so pulselessness is a very late and unreliable sign. Waiting for it costs the limb. Management is <b>urgent fasciotomy</b>; remove any circumferential casts immediately.",
+   "topic": "Surgery — orthopaedics",
+   "type": "discrimination"
+  },
+  {
+   "stem": "An 80-year-old woman falls and presents with a shortened, externally rotated left leg and inability to weight bear. X-ray confirms an intracapsular displaced femoral neck fracture.",
+   "lead": "Why does the fracture location matter most here?",
+   "options": [
+    "It determines the anaesthetic technique",
+    "Intracapsular fractures risk avascular necrosis due to disrupted blood supply",
+    "Intracapsular fractures always heal without surgery",
+    "It determines antibiotic choice"
+   ],
+   "correct": 1,
+   "explanation": "The femoral head is supplied largely by the <b>retinacular branches of the medial circumflex femoral artery</b>, which run within the capsule. An <b>intracapsular displaced</b> fracture disrupts this supply, risking <b>avascular necrosis and non-union</b> — hence displaced intracapsular fractures are usually managed with <b>arthroplasty</b> (hemiarthroplasty or THR) rather than fixation. Extracapsular (intertrochanteric) fractures retain their blood supply and are fixed, typically with a dynamic hip screw.",
+   "topic": "Surgery — orthopaedics",
+   "type": "application"
+  },
+  {
+   "stem": "A trauma patient arrives in ED. He is talking, has a patent airway, but has reduced breath sounds on the right with tracheal deviation to the left and distended neck veins.",
+   "lead": "Following ATLS principles, what happens next?",
+   "options": [
+    "Complete the full primary survey before intervening",
+    "Immediate needle decompression, then continue the primary survey",
+    "Urgent CT chest",
+    "Intubate first"
+   ],
+   "correct": 1,
+   "explanation": "ATLS follows <b>ABCDE</b>, and critically, <b>you treat each life threat as you find it</b> before moving on. This is a <b>tension pneumothorax</b> — a 'B' problem — and requires immediate needle decompression followed by chest drain. Do not defer treatment to complete the survey, and do not send an unstable patient to CT. Tension pneumothorax is a clinical diagnosis, not a radiological one.",
+   "topic": "Surgery — trauma",
+   "type": "application"
+  },
+  {
+   "stem": "A 40-year-old sustains burns to the entire anterior torso and the whole of one arm.",
+   "lead": "Using the rule of nines, what is the approximate total body surface area burned?",
+   "options": [
+    "9%",
+    "18%",
+    "27%",
+    "36%"
+   ],
+   "correct": 2,
+   "explanation": "<b>Rule of nines (adult):</b> head 9%, each arm 9%, anterior torso 18%, posterior torso 18%, each leg 18%, perineum 1%. Anterior torso (18%) + one whole arm (9%) = <b>27%</b>. Note this differs in children, where the head accounts for a larger proportion (~18% in infants) and legs less. The patient's palm including fingers approximates 1% and is useful for patchy burns.",
+   "topic": "Surgery — burns",
+   "type": "application"
+  },
+  {
+   "stem": "A patient undergoing total thyroidectomy develops a hoarse voice post-operatively, and later reports perioral tingling and carpopedal spasm.",
+   "lead": "What two complications have occurred?",
+   "options": [
+    "Recurrent laryngeal nerve injury and hypocalcaemia from parathyroid injury",
+    "Haematoma and infection",
+    "Thyroid storm and hyperkalaemia",
+    "Tracheomalacia and hypernatraemia"
+   ],
+   "correct": 0,
+   "explanation": "Two classic thyroidectomy complications. <b>Hoarseness</b> = <b>recurrent laryngeal nerve</b> injury (bilateral injury causes stridor and is an airway emergency). <b>Perioral tingling and carpopedal spasm</b> = <b>hypocalcaemia</b> from inadvertent parathyroid removal or devascularisation — check calcium, look for Chvostek's and Trousseau's signs, and replace. The third major complication is <b>post-operative haematoma</b>, which can compress the airway and requires immediate wound opening at the bedside.",
+   "topic": "Surgery — endocrine",
+   "type": "recall"
+  }
+ ]
+}
