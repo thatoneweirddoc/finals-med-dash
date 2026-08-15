@@ -327,6 +327,18 @@
 
   .note{font-size:14px;color:var(--ink-2);font-style:normal;font-family:var(--sans);
         border-left:2px solid var(--rule);padding-left:14px;margin:16px 0 0;text-wrap:pretty}
+  select.narrow{width:auto;min-width:0;flex:0 0 auto}
+  .fold{border:1px solid var(--rule);border-radius:var(--r-ctl);background:var(--panel);
+    padding:12px 16px;margin-bottom:18px}
+  .fold>summary{font-family:var(--mono);font-size:10px;letter-spacing:.14em;
+    text-transform:uppercase;color:var(--ink-2);cursor:pointer;list-style:none}
+  .fold>summary::-webkit-details-marker{display:none}
+  .fold>summary::before{content:'+ ';font-weight:700}
+  .fold[open]>summary::before{content:'\2212 '}
+  .pts{margin:9px 0 0;padding-left:17px}
+  .pts li{font-size:14px;line-height:1.45;color:var(--ink);margin-bottom:5px}
+  .pts li .chose{color:var(--ink-2);font-size:13px}
+  .pts-none{font-family:var(--mono);font-size:11px;color:var(--untested);margin-top:8px}
   .empty{font-family:var(--mono);font-size:12px;color:var(--untested);padding:30px 0;text-align:center}
   [hidden]{display:none !important}
 
@@ -467,7 +479,8 @@
 
   <nav role="tablist">
     <button role="tab" aria-selected="true"  data-tab="panel">Panel</button>
-    <button role="tab" aria-selected="false" data-tab="sessions">Sessions</button>
+    <button role="tab" aria-selected="false" data-tab="session">Session</button>
+    <button role="tab" aria-selected="false" data-tab="sessions">Bank</button>
     <button role="tab" aria-selected="false" data-tab="flagged">Flagged</button>
     <button role="tab" aria-selected="false" data-tab="cleared">Cleared</button>
     <button role="tab" aria-selected="false" data-tab="log">Session log</button>
@@ -498,9 +511,23 @@
     <div class="top-pri" id="topPriority"></div>
 
     <div class="panel">
+      <div class="panel-h">Topic assay &mdash; ranked by priority, worst first</div>
+      <div id="assays"></div>
+      <p class="note">Ranked on three things together: how bad the score is, how long
+        since it was tested, and whether it's built at all. A stale good score and a
+        fresh bad one can land at similar risk — that's the point of combining them.
+        Bars still read like a pathology report: the shaded band on the right is the
+        in&#8209;range target.</p>
+    </div>
+  </section>
+
+  <!-- SESSION -->
+  <section id="tab-session" hidden>
+    <div class="panel">
       <div class="panel-h">Start a session</div>
       <div class="row" style="margin-top:0">
-        <select id="sessLen">
+        <select id="sessSys" class="narrow"></select>
+        <select id="sessLen" class="narrow">
           <option value="5">5 questions</option>
           <option value="10" selected>10 questions</option>
           <option value="20">20 questions</option>
@@ -513,32 +540,20 @@
       <div class="excl-h">Excluded <span class="excl-count" id="exclCount"></span></div>
       <div class="excl-grid" id="exclGrid"></div>
       <div class="row">
-        <select id="sessSys"></select>
-      </div>
-      <div class="row">
         <button class="act" id="btnSchedule">Schedule</button>
         <button class="act" id="btnNow">Make now</button>
         <button class="mini" id="genSess">Copy prompt instead</button>
       </div>
       <div class="sync" id="sessStatus" hidden></div>
       <p class="note" id="bufLine">Checking the pool…</p>
-      <div id="sessOut" hidden>
+      <div id="sessOut" class="fold-out" hidden>
         <textarea id="sessText" rows="3" readonly style="width:100%;margin-top:12px;font-family:var(--mono);font-size:13px"></textarea>
         <div class="row">
           <button class="act" id="copySess">Copy</button>
           <span class="saved" id="sessSaved">Copied</span>
         </div>
-        <p class="note">The fallback path — paste this into a chat if you want the session driven live rather than banked. <b>Schedule</b> and <b>Make now</b> both skip it: Schedule drops the request in a queue the hourly task drains, Make now generates it immediately through the API. There is still no safe way for a link to open a prefilled Claude conversation on its own — the mechanism that used to do that was the entry point for a real prompt-injection exploit disclosed against Claude.ai — so the loop is closed by writing to Drive instead of by poking a chat.</p>
+        <p class="note">Fallback only — paste into a chat to run the session live. Schedule and Make now both skip it.</p>
       </div>
-    </div>
-    <div class="panel">
-      <div class="panel-h">Topic assay &mdash; ranked by priority, worst first</div>
-      <div id="assays"></div>
-      <p class="note">Ranked on three things together: how bad the score is, how long
-        since it was tested, and whether it's built at all. A stale good score and a
-        fresh bad one can land at similar risk — that's the point of combining them.
-        Bars still read like a pathology report: the shaded band on the right is the
-        in&#8209;range target.</p>
     </div>
   </section>
 
@@ -550,16 +565,16 @@
         <div class="panel-h">From Claude</div>
         <div id="repoList"><div class="empty">Loading…</div></div>
       </div>
-      <div class="panel">
-        <div class="panel-h">Add a quiz manually</div>
+      <details class="fold">
+        <summary>Paste a quiz manually</summary>
         <textarea id="quizPaste" rows="3"
-          placeholder="Paste the quiz block Claude gives you"
-          style="width:100%;font-family:var(--mono);font-size:13px"></textarea>
+          placeholder="Paste a quiz JSON block"
+          style="width:100%;font-family:var(--mono);font-size:13px;margin-top:10px"></textarea>
         <div class="row">
           <button class="act" id="quizAdd">Add to bank</button>
           <span class="drop-r" id="quizAddR"></span>
         </div>
-      </div>
+      </details>
       <div class="panel">
         <div class="panel-h">Quiz bank</div>
         <div id="quizList"></div>
@@ -689,7 +704,7 @@
 <script>
 const EXAM = new Date('2026-09-14T09:00:00+10:00');
 const KEY = 'finals_v1';
-const STAMP = '2026-08-14T13:55';  // bumped each time Claude regenerates this file
+const STAMP = '2026-08-14T16:40';  // bumped each time Claude regenerates this file
 
 const BUILT = ['Renal','Cardiology','Respiratory','Endocrine','Gastro','MSK & Rheum',
                'Haem & Onc','Neurology','Infectious Disease','Immunology & Allergy','Palliative Care'];
@@ -742,7 +757,7 @@ function cacheSet(v){ try{ localStorage.setItem(KEY, v); }catch(e){} }
 function fromDrive(d){
   return {
     topics: d.topics || {},
-    open: (d.open||[]).map(o => ({t:o.topic, s:o.system, ty:o.type, n:o.attempts||1, d:o.since})),
+    open: (d.open||[]).map(o => ({t:o.topic, s:o.system, ty:o.type, n:o.attempts||1, d:o.since, p:o.points||[]})),
     cleared: (d.resolved||[]).map(o => ({t:o.topic, s:o.system, d:o.date})),
     log: (d.log||[]).map(l => ({d:l.date, n:l.note})),
     misses: d.recent_misses || [],
@@ -753,7 +768,7 @@ function fromDrive(d){
 function toDrive(s){
   return {
     topics: s.topics,
-    open: s.open.map(o => ({topic:o.t, system:o.s, type:o.ty, attempts:o.n, since:o.d})),
+    open: s.open.map(o => ({topic:o.t, system:o.s, type:o.ty, attempts:o.n, since:o.d, points:o.p||[]})),
     resolved: s.cleared.map(o => ({topic:o.t, system:o.s, date:o.d})),
     log: s.log.map(l => ({date:l.d, note:l.n})),
     recent_misses: s.misses || [],
@@ -924,11 +939,48 @@ function renderOpen(){
       </div>
       <div class="item-d"><span class="sys">${esc(x.s)}</span>
         <span class="attempts"> &middot; missed ${x.n}&times; &middot; since ${esc(x.d)}</span></div>
+      ${renderPoints(x)}
       <div class="row" style="margin-top:8px">
         <button class="mini" data-miss="${S.open.indexOf(x)}">Missed again</button>
         <button class="mini" data-clear="${S.open.indexOf(x)}">Clear it</button>
       </div>
     </div>`).join('') : '<div class="empty">Nothing flagged — drill something</div>';
+}
+
+/* The actual learning point behind a flag, pulled from the recorded miss so it
+   reads standalone — the answer itself, not a topic label you have to decode.
+   Prefers points stored on the flag (they outlive the 40-miss cap) and falls
+   back to matching recent misses by topic. */
+function pointsFor(x){
+  const stored = Array.isArray(x.p) ? x.p.filter(Boolean) : [];
+  if(stored.length) return stored.slice(0,2).map(t => ({line:t, chose:''}));
+
+  const t = String(x.t||'').toLowerCase().trim();
+  if(!t) return [];
+  const seen = new Set(), out = [];
+  (S.misses||[]).forEach(m => {
+    if(out.length >= 2) return;
+    const mt = String(m.topic||'').toLowerCase().trim();
+    const corr = String(m.correct||'').trim();
+    if(!mt || !corr) return;
+    if(!(mt === t || mt.indexOf(t) >= 0 || t.indexOf(mt) >= 0)) return;
+    const lead = String(m.lead||'').replace(/\s*\?\s*$/,'').trim();
+    const line = lead ? lead + ' \u2014 ' + corr : corr;
+    const k = line.toLowerCase();
+    if(seen.has(k)) return;
+    seen.add(k);
+    out.push({line: line, chose: String(m.mine||'').trim()});
+  });
+  return out;
+}
+
+function renderPoints(x){
+  const pts = pointsFor(x);
+  if(!pts.length) return '<div class="pts-none">No recorded miss yet — flagged by hand</div>';
+  return '<ul class="pts">' + pts.map(p =>
+    '<li>' + esc(p.line) +
+    (p.chose ? ' <span class="chose">(you chose: ' + esc(p.chose) + ')</span>' : '') +
+    '</li>').join('') + '</ul>';
 }
 
 function renderCleared(){
@@ -1065,7 +1117,7 @@ function renderAll(){
 // tabs
 document.querySelectorAll('nav button').forEach(b => b.onclick = () => {
   document.querySelectorAll('nav button').forEach(x => x.setAttribute('aria-selected', x===b));
-  ['panel','sessions','flagged','cleared','log','data'].forEach(t =>
+  ['panel','session','sessions','flagged','cleared','log','data'].forEach(t =>
     $('tab-'+t).hidden = (t !== b.dataset.tab));
 });
 
@@ -1879,6 +1931,7 @@ async function submitQuiz(){
 }
 
 document.querySelector('[data-tab="sessions"]').addEventListener('click', () => { ingestOutbox(true); fetchQuizzes(); fetchRepoQuizzes(); refreshBuffer(); });
+document.querySelector('[data-tab="session"]').addEventListener('click', () => { ingestOutbox(true); refreshBuffer(); });
 
 $('resetAll').onclick = () => {
   if(!confirm('Clear all tracked data and return to the seeded state?')) return;

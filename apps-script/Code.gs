@@ -624,17 +624,37 @@ function recordResults(body) {
     };
   });
 
+  // The learning point behind each flag, stored on the flag itself so it
+  // survives past the 40-entry recent_misses cap. Reads standalone: the lead
+  // question and its actual answer, not a topic label you have to decode.
+  const pointsByTopic = {};
+  (body.misses || []).forEach(function (m) {
+    const key = String(m.topic || '').toLowerCase();
+    if (!key || !m.correct) return;
+    const lead = String(m.lead || '').replace(/\s*\?\s*$/, '').trim();
+    const line = (lead ? lead + ' — ' : '') + String(m.correct).trim();
+    pointsByTopic[key] = pointsByTopic[key] || [];
+    if (pointsByTopic[key].indexOf(line) < 0) pointsByTopic[key].push(line);
+  });
+
   t.open = t.open || [];
   (body.flags || []).forEach(function (f) {
     if (!f.topic) return;
+    const key = String(f.topic).toLowerCase();
+    const fresh = pointsByTopic[key] || [];
     const hit = t.open.filter(function (o) {
-      return String(o.topic).toLowerCase() === String(f.topic).toLowerCase();
+      return String(o.topic).toLowerCase() === key;
     })[0];
-    if (hit) { hit.attempts = (hit.attempts || 1) + 1; }
-    else {
+    if (hit) {
+      hit.attempts = (hit.attempts || 1) + 1;
+      hit.points = (hit.points || []);
+      fresh.forEach(function (l) { if (hit.points.indexOf(l) < 0) hit.points.push(l); });
+      hit.points = hit.points.slice(0, 2);
+    } else {
       t.open.push({
         topic: f.topic, system: f.system || body.system || '',
-        type: f.type || 'recall', attempts: 1, since: date, source: 'quiz'
+        type: f.type || 'recall', attempts: 1, since: date, source: 'quiz',
+        points: fresh.slice(0, 2)
       });
     }
   });
