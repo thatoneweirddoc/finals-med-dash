@@ -206,6 +206,27 @@
   .qbar-none{font-family:var(--mono);font-size:10px;letter-spacing:.08em;
              text-transform:uppercase;color:var(--un);margin-top:12px}
 
+  /* ---- revision module ---- */
+  .rev-obj{margin:8px 0 0;padding-left:20px;font-size:14.5px;line-height:1.55}
+  .rev-obj li{margin-bottom:7px}
+  .rev-section .rev-body{font-size:14.5px;line-height:1.6}
+  .rev-body p{margin:10px 0}
+  .rev-body ul,.rev-body ol{margin:10px 0;padding-left:20px}
+  .rev-body li{margin-bottom:5px}
+  .rev-table{width:100%;border-collapse:collapse;margin:12px 0;font-size:13.5px}
+  .rev-table th{text-align:left;font-family:var(--mono);font-size:10px;letter-spacing:.08em;
+    text-transform:uppercase;color:var(--ink-2);border-bottom:1px solid var(--rule);padding:7px 8px}
+  .rev-table td{padding:7px 8px;border-bottom:1px solid var(--rule);vertical-align:top}
+  .rev-link{display:inline-block;margin-top:12px;font-family:var(--mono);font-size:11px;
+    letter-spacing:.05em;color:var(--ink-2);text-decoration:none;border-bottom:1px solid var(--rule);
+    padding-bottom:2px}
+  .rev-link:hover{color:var(--ink);border-bottom-color:var(--ink)}
+  .diff{font-family:var(--mono);font-size:9px;letter-spacing:.1em;text-transform:uppercase;
+    padding:2px 7px;border-radius:2px;font-weight:600}
+  .diff-easy{background:#E6F2EC;color:var(--in)}
+  .diff-medium{background:#FBF0DC;color:var(--bord)}
+  .diff-hard{background:#FBE9E6;color:var(--low)}
+
   /* ---- quiz player ---- */
   .prog-track{height:6px;background:var(--rule);border-radius:999px;position:relative;margin-top:4px}
   .prog-fill{height:6px;background:var(--ink);border-radius:999px;transition:width .2s}
@@ -486,6 +507,7 @@
     <button role="tab" aria-selected="true"  data-tab="panel">Panel</button>
     <button role="tab" aria-selected="false" data-tab="session">Session</button>
     <button role="tab" aria-selected="false" data-tab="sessions">Bank</button>
+    <button role="tab" aria-selected="false" data-tab="revision">Revision</button>
     <button role="tab" aria-selected="false" data-tab="flagged">Flagged</button>
     <button role="tab" aria-selected="false" data-tab="cleared">Cleared</button>
     <button role="tab" aria-selected="false" data-tab="log">Session log</button>
@@ -592,6 +614,36 @@
           <span class="drop-r" id="quizAddR"></span>
         </div>
       </details>
+    </div>
+  </section>
+
+  <!-- REVISION -->
+  <section id="tab-revision" hidden>
+    <div id="revPlayer" hidden></div>
+    <div id="revBank">
+      <div class="panel">
+        <div class="panel-h">Request a revision module</div>
+        <p style="font-size:14px;color:var(--ink-2);margin:6px 0 0">
+          Pick a scope, generate the request, then paste it to Claude. Claude reads your
+          tracker, works out what is actually weak, and publishes a module here.</p>
+        <div class="row" style="margin-top:12px">
+          <select id="revScope">
+            <option value="weak">My flagged weaknesses</option>
+            <option value="system">A specific system</option>
+          </select>
+          <select id="revSystem" hidden></select>
+          <button class="act" id="revGen">Generate request</button>
+        </div>
+        <div id="revOut" hidden>
+          <textarea id="revText" rows="3" readonly
+            style="width:100%;margin-top:12px;font-family:var(--mono);font-size:13px"></textarea>
+          <span class="saved" id="revSaved">Copied</span>
+        </div>
+      </div>
+      <div class="panel">
+        <div class="panel-h">Available modules</div>
+        <div id="revList"><div class="empty">Loading&hellip;</div></div>
+      </div>
     </div>
   </section>
 
@@ -1166,7 +1218,7 @@ function renderAll(){
 // tabs
 document.querySelectorAll('nav button').forEach(b => b.onclick = () => {
   document.querySelectorAll('nav button').forEach(x => x.setAttribute('aria-selected', x===b));
-  ['panel','session','sessions','flagged','cleared','log','data'].forEach(t =>
+  ['panel','session','sessions','revision','flagged','cleared','log','data'].forEach(t =>
     $('tab-'+t).hidden = (t !== b.dataset.tab));
 });
 
@@ -1794,6 +1846,236 @@ async function fetchRepoQuizzes(){
     startQuiz(q, 'repo:' + file);
   }catch(err){ e.target.textContent = 'Failed'; }
 }));
+
+/* ---- revision modules ---- */
+const REPO_REVISION = 'https://raw.githubusercontent.com/thatoneweirddoc/finals-med-dash/main/revision/';
+let CURRENT_REV = null, REV_ANSWERS = [], REV_SUBMITTED = false;
+
+// populate the system picker from the systems we know about
+$('revSystem').innerHTML = [...BUILT, ...UNBUILT].map(s => `<option>${esc(s)}</option>`).join('');
+$('revScope').onchange = e => { $('revSystem').hidden = e.target.value !== 'system'; };
+
+$('revGen').onclick = async () => {
+  const scope = $('revScope').value;
+  const text = scope === 'system'
+    ? `Build me a revision module on ${$('revSystem').value}. Read my tracker, find my weak points within that system, and publish it to the revision folder.`
+    : `Build me a revision module on my weakest flagged areas. Read my tracker, pick the biggest gap, and publish it to the revision folder.`;
+  $('revText').value = text;
+  $('revOut').hidden = false;
+  try{ await navigator.clipboard.writeText(text); $('revSaved').classList.add('on');
+       setTimeout(()=>$('revSaved').classList.remove('on'),1600); }catch(e){}
+};
+
+async function fetchRevision(){
+  const el = $('revList');
+  try{
+    const r = await fetch(REPO_REVISION + 'index.json?t=' + Date.now());
+    const d = await r.json();
+    if(!d.modules || !d.modules.length){ el.innerHTML = '<div class="empty">None published yet</div>'; return; }
+    el.innerHTML = d.modules.map(m => {
+      const runs = (S.history||[]).filter(h => h.quizId === 'rev:'+m.file && h.total);
+      const latest = runs[0];
+      const bar = runs.length ? `
+        <div class="qbar"><div class="qbar-fill" style="width:${Math.round(latest.correct/latest.total*100)}%"></div></div>
+        <div class="qbar-meta"><span>${latest.correct}/${latest.total}</span><span>${latest.date}</span></div>`
+        : `<div class="qbar-none">Not attempted</div>`;
+      return `<div class="item">
+        <div class="item-top"><span class="item-t">${esc(m.title)}</span></div>
+        <div class="item-d"><span class="sys">${m.objectives} objectives &middot; ${m.questions} questions</span></div>
+        ${m.rationale ? `<div class="item-d" style="font-size:13px">${esc(m.rationale)}</div>` : ''}
+        ${bar}
+        <div class="row" style="margin-top:8px">
+          <button class="mini" data-rev="${esc(m.file)}">${runs.length ? 'Revise again' : 'Start revision'}</button>
+        </div>
+      </div>`;
+    }).join('');
+  }catch(e){
+    el.innerHTML = `<div class="empty">Couldn't load &mdash; ${esc(String(e.message||e).slice(0,80))}</div>`;
+  }
+}
+
+$('revList').addEventListener('click', async e => {
+  const file = e.target.dataset.rev;
+  if(!file) return;
+  e.target.textContent = 'Loading\u2026';
+  try{
+    const r = await fetch(REPO_REVISION + file + '?t=' + Date.now());
+    const m = await r.json();
+    startRevision(m, 'rev:' + file);
+  }catch(err){ e.target.textContent = 'Failed'; }
+});
+
+// very small markdown subset: tables, bold, headings-free paragraphs
+function mdLite(s){
+  const esc2 = t => t.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+  const blocks = esc2(s).split(/\n\n+/);
+  return blocks.map(b => {
+    if(b.trim().startsWith('|')){
+      const rows = b.trim().split('\n').filter(r => !/^\|[\s\-|]+\|$/.test(r));
+      const cells = rows.map(r => r.split('|').slice(1,-1).map(c => c.trim()));
+      const head = cells.shift();
+      return `<table class="rev-table"><thead><tr>${head.map(h=>`<th>${fmt(h)}</th>`).join('')}</tr></thead>`
+           + `<tbody>${cells.map(r=>`<tr>${r.map(c=>`<td>${fmt(c)}</td>`).join('')}</tr>`).join('')}</tbody></table>`;
+    }
+    if(/^- /m.test(b)){
+      return '<ul>' + b.split('\n').filter(l=>l.trim()).map(l=>`<li>${fmt(l.replace(/^-\s*/,''))}</li>`).join('') + '</ul>';
+    }
+    if(/^\d+\. /m.test(b)){
+      return '<ol>' + b.split('\n').filter(l=>l.trim()).map(l=>`<li>${fmt(l.replace(/^\d+\.\s*/,''))}</li>`).join('') + '</ol>';
+    }
+    return `<p>${fmt(b).replace(/\n/g,'<br>')}</p>`;
+  }).join('');
+  function fmt(t){ return t.replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>').replace(/\*(.+?)\*/g,'<em>$1</em>'); }
+}
+
+function startRevision(mod, id){
+  CURRENT_REV = mod; CURRENT_REV.id = id;
+  REV_ANSWERS = new Array(mod.questions.length).fill(null);
+  REV_SUBMITTED = false;
+  $('revBank').hidden = true;
+  $('revPlayer').hidden = false;
+  renderRevision();
+  window.scrollTo({top:0, behavior:'smooth'});
+}
+
+function exitRevision(){
+  $('revPlayer').hidden = true;
+  $('revBank').hidden = false;
+  CURRENT_REV = null;
+  fetchRevision();
+}
+
+const DIFF_LABEL = {easy:'Easy', medium:'Medium', hard:'Hard'};
+
+function renderRevision(){
+  const m = CURRENT_REV;
+  const done = REV_ANSWERS.filter(a => a !== null).length;
+  $('revPlayer').innerHTML = `
+    <div class="top-pri">
+      <span class="tp-label">Revision module</span>
+      <span class="tp-name">${esc(m.title)}</span>
+      ${m.rationale ? `<span class="tp-why">${esc(m.rationale)}</span>` : ''}
+    </div>
+
+    <div class="panel">
+      <div class="panel-h">Learning objectives</div>
+      <ol class="rev-obj">${m.objectives.map(o => `<li>${esc(o)}</li>`).join('')}</ol>
+    </div>
+
+    ${m.sections.map(s => `
+      <div class="panel rev-section">
+        <div class="panel-h">${esc(s.heading)}</div>
+        <div class="rev-body">${mdLite(s.body)}</div>
+        ${s.note ? `<a class="rev-link" target="_blank"
+            href="notes.html#${esc(s.note.system)}/${esc(s.note.slug)}">Read the full note: ${esc(s.note.title)} &rarr;</a>` : ''}
+      </div>`).join('')}
+
+    <div class="panel">
+      <div class="panel-h">Check your learning &mdash; ${m.questions.length} questions</div>
+      <div class="prog-track"><div class="prog-fill" style="width:${done/m.questions.length*100}%"></div></div>
+      <div class="prog-text"><span>${done} answered</span><span>of ${m.questions.length}</span></div>
+    </div>
+
+    ${m.questions.map((qq,i) => `
+      <div class="panel qcard" id="rq${i}">
+        <div class="q-n">
+          <span>Question ${i+1}</span>
+          <span class="diff diff-${qq.difficulty}">${DIFF_LABEL[qq.difficulty]||''}</span>
+        </div>
+        <div class="q-stem">${esc(qq.stem)}<br><br><b>${esc(qq.lead)}</b></div>
+        ${qq.options.map((o,j) => `
+          <label class="opt${REV_ANSWERS[i]===j?' sel':''}" data-rq="${i}" data-o="${j}">
+            <input type="radio" name="rq${i}" ${REV_ANSWERS[i]===j?'checked':''}>
+            <span class="opt-label">${esc(o)}</span>
+          </label>`).join('')}
+        <div class="expl">${mdLite(qq.explanation||'')}</div>
+      </div>`).join('')}
+
+    <div class="row">
+      <button class="act" id="revSubmit" ${done<m.questions.length?'disabled':''}>
+        ${done<m.questions.length?`Answer all to submit (${done}/${m.questions.length})`:'Submit answers'}</button>
+      <button class="act ghost" id="revExit">Back to modules</button>
+    </div>
+    <div id="revResult"></div>`;
+
+  $('revPlayer').querySelectorAll('.opt').forEach(el => el.onclick = () => {
+    if(REV_SUBMITTED) return;
+    REV_ANSWERS[+el.dataset.rq] = +el.dataset.o;
+    renderRevision();
+    $('rq'+el.dataset.rq).scrollIntoView({block:'nearest'});
+  });
+  $('revExit').onclick = exitRevision;
+  $('revSubmit').onclick = submitRevision;
+}
+
+async function submitRevision(){
+  REV_SUBMITTED = true;
+  const m = CURRENT_REV;
+  let correct = 0; const byTopic = {}; const flags = []; const misses = [];
+  const byDiff = {easy:{c:0,t:0}, medium:{c:0,t:0}, hard:{c:0,t:0}};
+
+  m.questions.forEach((qq,i) => {
+    const ok = REV_ANSWERS[i] === qq.correct;
+    if(ok) correct++;
+    const key = qq.topic || m.system;
+    byTopic[key] = byTopic[key] || {c:0,t:0};
+    byTopic[key].t++; if(ok) byTopic[key].c++;
+    if(byDiff[qq.difficulty]){ byDiff[qq.difficulty].t++; if(ok) byDiff[qq.difficulty].c++; }
+    if(!ok){
+      flags.push({topic:qq.topic, system:m.system, type:qq.type||'recall'});
+      misses.push({topic:qq.topic, stem:qq.stem, lead:qq.lead,
+                   mine:qq.options[REV_ANSWERS[i]], correct:qq.options[qq.correct],
+                   type:qq.type||'recall'});
+    }
+    const card = $('rq'+i);
+    card.querySelectorAll('.opt').forEach((el,j) => {
+      el.style.cursor='default';
+      if(j===qq.correct){ el.classList.add('correct'); el.insertAdjacentHTML('beforeend','<span class="mark correct">&#10003;</span>'); }
+      else if(j===REV_ANSWERS[i]){ el.classList.add('wrong'); el.insertAdjacentHTML('beforeend','<span class="mark wrong">&#10007; yours</span>'); }
+    });
+    card.classList.add('done');
+  });
+
+  const pct = Math.round(correct/m.questions.length*100);
+  $('revSubmit').style.display='none';
+  $('revResult').innerHTML = `
+    <div class="results">
+      <span class="score">${correct}/${m.questions.length}</span>
+      <div class="sub">${pct}% correct</div>
+      <div class="breakdown">
+        ${['easy','medium','hard'].filter(d=>byDiff[d].t).map(d =>
+          `<div><span>${DIFF_LABEL[d]}</span><span>${byDiff[d].c}/${byDiff[d].t}</span></div>`).join('')}
+      </div>
+    </div>
+    <div class="drop-r busy" id="revRec">Recording&hellip;</div>`;
+
+  try{
+    const r = await fetch(SYNC_URL, {
+      method:'POST', headers:{'Content-Type':'text/plain;charset=utf-8'},
+      body: JSON.stringify({
+        token: token(), action:'recordResults', quizId:m.id,
+        title:'Revision — ' + m.title, system:m.system,
+        score: `${correct}/${m.questions.length} (${pct}%)`,
+        correct, total: m.questions.length,
+        results: Object.entries(byTopic).map(([topic,v]) => ({topic, correct:v.c, total:v.t})),
+        flags, misses
+      })
+    });
+    const d = await r.json();
+    if(d.error) throw new Error(d.error);
+    $('revRec').className='drop-r ok';
+    $('revRec').textContent = misses.length
+      ? `Recorded &mdash; ${misses.length} to review`
+      : 'Recorded &mdash; full marks';
+    await pull(); renderAll(); fetchRevision();
+  }catch(e){
+    $('revRec').className='drop-r err';
+    $('revRec').textContent = 'Saved locally only \u2014 ' + String(e.message||e).slice(0,60);
+  }
+  $('revResult').scrollIntoView({behavior:'smooth'});
+}
+
+document.querySelector('[data-tab="revision"]').addEventListener('click', fetchRevision);
 
 /* ---- quiz bank + player ---- */
 let CURRENT_QUIZ = null, QUIZ_ANSWERS = [], QUIZ_SUBMITTED = false;
