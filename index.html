@@ -719,10 +719,46 @@ const EXAM = new Date('2026-09-14T09:00:00+10:00');
 const KEY = 'finals_v1';
 const STAMP = '2026-08-14T18:10';  // bumped each time Claude regenerates this file
 
-const BUILT = ['Renal','Cardiology','Respiratory','Endocrine','Gastro','MSK & Rheum',
-               'Haem & Onc','Neurology','Infectious Disease','Immunology & Allergy','Palliative Care'];
-const UNBUILT = ['Surgery','Critical Care','Family Medicine','O&G','Paediatrics',
-                 'Psychiatry','Dermatology','Ophthalmology'];
+/* Coverage is DERIVED from the notes library, never hand-listed. The hardcoded
+   version drifted badly: it called General Practice, O&G, Paediatrics, Psychiatry,
+   Dermatology and Ophthalmology "not built" when all six had notes, listed
+   Palliative Care as built when it had none, and omitted Anaesthetics entirely —
+   so the priority ranking was sending study time at the wrong systems. */
+const NOTES_ALIAS = {
+  'General Practice':'Family Medicine',
+  'Obstetrics & Gynaecology':'O&G',
+  'Gastroenterology':'Gastro',
+  'MSK & Rheumatology':'MSK & Rheum',
+  'Haematology & Oncology':'Haem & Onc'
+};
+// systems that exist as exam topics but have no notes file of their own
+const NO_NOTES = ['Surgery','Critical Care','Palliative Care'];
+let BUILT = ['Renal','Cardiology','Respiratory','Endocrine','Gastro','MSK & Rheum',
+             'Haem & Onc','Neurology','Infectious Disease','Immunology & Allergy',
+             'Family Medicine','O&G','Paediatrics','Psychiatry','Dermatology',
+             'Ophthalmology','Anaesthetics'];
+let UNBUILT = NO_NOTES.slice();
+let NOTE_WORDS = {};
+
+async function loadCoverage(){
+  try{
+    const r = await fetch('notes/index.json?t=' + Date.now());
+    const d = await r.json();
+    const built = [];
+    (d.systems||[]).forEach(s => {
+      const name = NOTES_ALIAS[s.system] || s.system;
+      built.push(name);
+      NOTE_WORDS[name] = (s.notes||[]).reduce((a,n) => a + (n.words||0), 0);
+    });
+    if(built.length){
+      BUILT = built;
+      UNBUILT = NO_NOTES.filter(x => built.indexOf(x) < 0);
+      ALL_SYSTEMS.length = 0;
+      [...BUILT, ...UNBUILT].forEach(x => ALL_SYSTEMS.push(x));
+      renderAll();
+    }
+  }catch(e){ /* offline — keep the baked-in lists */ }
+}
 
 // Baked in from the Drive tracker at generation time — 14 Aug 2026
 const SEED = {
@@ -1140,6 +1176,7 @@ $('fSys').innerHTML = [...BUILT,...UNBUILT].map(s => `<option>${esc(s)}</option>
 // start-session exclusion checkboxes — Include and Exclude are two views of
 // the same underlying set, kept in sync in both directions
 const ALL_SYSTEMS = [...BUILT, ...UNBUILT];
+loadCoverage();
 
 $('inclGrid').innerHTML = ALL_SYSTEMS.map((s,i) => `
   <div class="excl-row">
