@@ -150,7 +150,7 @@ Split into two passes — recognition first, then the timing and "before you sta
 - Nucleic acid/folate: fluoroquinolones (block transcription/replication), TMP/SMX (folate pathway — PCP treatment/prophylaxis, toxoplasmosis prophylaxis), metronidazole (anaerobes, gut and groin).
 - Contraindications worth memorising: fluoroquinolones (<18 yrs, pregnancy, QT, epilepsy), tetracyclines (<8 yrs, pregnancy, renal failure except doxycycline), TMP/SMX (last trimester, lactation), vancomycin (pregnancy).
 
-| BETA-LACTAM | MECHANISM OF ACTION | ORGANISM | SIDE-EFFECTS |
+| NON-BETA-LACTAM ANTIBACTERIALS ⚠ **SOURCE ERROR — this table is headed "BETA-LACTAM" in the source but **not one of the drugs listed is a beta-lactam**. Treat the header as wrong, and treat the bacteriostatic/bactericidal column with suspicion — several classes are marked as both. Fluoroquinolones are credited with anaerobic cover; only **moxifloxacin** has meaningful anaerobic activity.** | MECHANISM OF ACTION | ORGANISM | SIDE-EFFECTS |
 | --- | --- | --- | --- |
 | VANCOMYCIN | • Tricyclic glycopeptide<br>• Inhibits cell wall synthesis and growth of peptidoglycan chain<br>• CNS penetration when meninges inflames<br>• Contraindicated in pregnancy | • Gram-positive only<br>• MRSA<br>• S.epidermidis<br>• Enterococci<br>• Clostridium difficile | • Nephrotoxicity<br>• Ototoxicity<br>• Anaphylactoid reactions in rapid infusion (red man syndrome)<br>• Thrombophlebitis<br>• Neutropenia |
 | FOSFOMYCIN | • Inhibits cell wall synthesis by inhibiting the formation of N-acetylmuramic acid (in cell wall)<br>• Bactericidal<br>• CNS penetration when meninges inflamed<br>• Renal elimination | Women with uncomplicated UTis | Mild electrolyte imbalance (hypernatremia, hypokalaemia)Diarrhoaa |

@@ -104,7 +104,7 @@ updated: "2026-08-14"
 | RISK FACTORS | • Female: shorter urethra with closer proximity between anal and genital regions<br>• Sexual intercourse: also, diaphragm/spermicide disturb vaginal flora<br>• Catheter-associated<br>• Structural/functional abnormalities: BPH, VUR, urinary bladder diverticulum, urethral stricture, cystocele, neurogenic bladder, calculi, stones (can cause stasis and obstruction)<br>• Pregnancy<br>• Decreased resistance to organisms: DM, immunocompromise, ↓oestrogen, medications<br>• Uncircumcised males<br>• Chronic constipation<br>• Trauma |
 | PRESENTATION | • Storage: frequency, urgency and dysuria<br>• Voiding: hesitancy, post-voiding dribbling<br>• Other: suprapubic pain, haematuria, foul-smelling urine<br>• Fever is usually absent in lower UTIs so in fever/flank pain 🡪 pyelonephritis |
 | INVESTIGATION | • Clinical: especially in healthy women with typical presentation<br>• Urine dipstick: positive leukocyte esterase, positive nitrites, urine pH&gt;7 (in proteus), haematuria<br>• Urinalysis MC&amp;S: Mid-stream (avoid contamination with vaginal/skin flora) or through catherization/suprapubic aspiration<br>• Pyuria: &gt;10 WBC/hpf<br>• Bacteriuria: presence of bacteria on gram negative stain, leukocyte casts absent in lower UTIs<br>• Urine culture: <br>• Indicated in: complicated UTI, &gt; 65 y/o, diaphragm use, Abx usage<br>• Suspected cystitis in: &gt;7 day duration, recurrent UTIs, suspicion of pyelonephritis/urosepsis<br>• Significant bacteriuria defined as ≥ 105 colony forming units/mL serves <br>• Imaging:<br>• Indication: complicated cystitis, suspicion of structural abnormalities, in children &gt; 24 months<br>• U/S:  allows urinary retention to be ruled out, pyelonephritis<br>• Cystoscopy: stones, reflux, urinary obstruction, polyps or malignancies, interstitial cystitis<br>• CT: stones, obstruction, tumours, cysts, and trauma<br>• Intravenous pyelogram (IVP): abnormalities, mainly obstructions |
-| MANAGEMENT | • Empiric Therapy (IV to oral step-down if necessary)<br>• First line: trimethoprim-sulfamethoxazole 300mg PO<br>• Second line: fluoroquinolones, cephalosporins, penicillins, augmentin, Keflex 500mg PO<br>• Analgesia e.g. phenazopyridine (urinary analgesic)<br>• Encourage fluids <br>• Treat any underlying causes e.g. obstruction <br>• Post-menopausal women can consider topical oestrogen therapy <br>• Educate about UTI prevention<br>• Maintain good hygiene <br>• Adequate hydration and voiding <br>• Emptying bladder after intercourse <br>• If it has progressed to pyelonephritis: IV fluids and IV ABx<br>• Percutaneous nephrostomy tube and antibiotics<br>• Relieve any obstructions with emergency stenting |
+| MANAGEMENT | • Empiric Therapy (IV to oral step-down if necessary)<br>• First line: trimethoprim-sulfamethoxazole 300mg PO ⚠ **SOURCE ERROR — 300 mg is the dose of **trimethoprim monotherapy** (300 mg PO daily for 3 days in uncomplicated cystitis), not of trimethoprim–sulfamethoxazole. Australian first-line for uncomplicated cystitis is **trimethoprim 300 mg daily × 3 days**, **nitrofurantoin 100 mg 6-hourly × 5 days**, or **cefalexin 500 mg 12-hourly × 5 days**.**<br>• Second line: fluoroquinolones, cephalosporins, penicillins, augmentin, Keflex 500mg PO<br>• Analgesia e.g. phenazopyridine (urinary analgesic)<br>• Encourage fluids <br>• Treat any underlying causes e.g. obstruction <br>• Post-menopausal women can consider topical oestrogen therapy <br>• Educate about UTI prevention<br>• Maintain good hygiene <br>• Adequate hydration and voiding <br>• Emptying bladder after intercourse <br>• If it has progressed to pyelonephritis: IV fluids and IV ABx<br>• Percutaneous nephrostomy tube and antibiotics<br>• Relieve any obstructions with emergency stenting |
 
 
 ---
@@ -113,7 +113,7 @@ updated: "2026-08-14"
 ### Infectious Disease (ANU) — Other systemic infections — Sexually Transmitted Infections and HIV
 
 **The short version**
-- Obligate/facultative intracellular cluster: *M. leprae* (leprosy), *Bartonella henselae* (cat scratch), *Rickettsia rickettsia* (Rocky Mountain spotted fever).
+- Obligate/facultative intracellular cluster: *M. leprae* (leprosy), *Bartonella henselae* (cat scratch), *Rickettsia rickettsii* (Rocky Mountain spotted fever).
 - Lyme = *Borrelia burgdorferi* (spirochaete) — erythema chronicum migrans, Bell's palsy, arthritis, cardiac shock.
 - Toxic shock = *S. aureus* or GAS **superantigens** → mass T-cell activation and IL-1/IL-6/TNF release.
 
@@ -122,7 +122,7 @@ updated: "2026-08-14"
 | LYME DISEASE | • Borrelia burgdorferi: spirochete bacteria<br>• Features: Bell’s palsy, arthritis, cardiac shock, erythema chronicum migrans |
 | TOXIC SHOCK SYNDROME | Super antigens produced by some strains of S. aureus or GAS cause widespread T-cell activation and pro-inflammatory cytokine release (IL-1, IL-6, TNF) |
 | CAT SCRATCH DISEASE | Bartonella henselae: intracellular bacteria |
-| ROCKY MOUNTAIN SPOTTED FEVER | Rickettsia rickettsia: obligate intracellular gram negative organism |
+| ROCKY MOUNTAIN SPOTTED FEVER | *Rickettsia rickettsii*: obligate intracellular gram negative organism |
 
 #### HIV and AIDS
 

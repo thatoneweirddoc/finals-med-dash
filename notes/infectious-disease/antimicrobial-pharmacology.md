@@ -137,7 +137,7 @@ Bacteriostatic
 - Beta-lactamases, which are usually produced by gram-negative and anaerobic organisms, can split the beta-lactam ring and render certain beta-lactam antibiotics ineffective
 - Beta-lactamase inhibitors increase the spectrum of antibiotic activity (mnemonic CAST): Clavulanic Acid, Sulbactam, Tazobactam
 
-| BETA-LACTAM | MECHANISM OF ACTION | ORGANISM | SIDE-EFFECTS |
+| NON-BETA-LACTAM ANTIBACTERIALS ⚠ **SOURCE ERROR — this table is headed "BETA-LACTAM" in the source but **not one of the drugs listed is a beta-lactam**. Treat the header as wrong, and treat the bacteriostatic/bactericidal column with suspicion — several classes are marked as both. Fluoroquinolones are credited with anaerobic cover; only **moxifloxacin** has meaningful anaerobic activity.** | MECHANISM OF ACTION | ORGANISM | SIDE-EFFECTS |
 | --- | --- | --- | --- |
 | PENICILLIN | ClassicPenicillin G (IV/IM)Penicillin V (PO) | Gram-positiveGram-negativeSpirochetes | Haemolytic AnaemiaSeizures |
 | Anti-staphylococcal Nafcillin, dicloxacillin, oxacillin, methicillinIntrinsically, beta-lactamase resistant through the addition of bulky side chains | Gram positive: non-MRSA S. aureus | Interstitial nephritis |

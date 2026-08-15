@@ -1,10 +1,16 @@
 # Notes errata — errors found in the source material, 14 Aug 2026
 
-Found during the readability pass over the table-dominant notes. **Nothing here has
-been silently corrected.** Almost all of it comes from the ANU student documents,
-which the pipeline stacks verbatim under their own attribution — editing them in
-place would break that contract and hide the provenance. They are listed here so
-they can be fixed deliberately, and so nothing gets revised from a wrong number.
+Found during the readability pass over the table-dominant notes. Almost all of it
+comes from the ANU student documents, which the pipeline stacks verbatim under their
+own attribution.
+
+> **Status, 15 Aug 2026 — these are now annotated in the notes themselves.** Every
+> item in the *Dangerous* table, and most of the *Wrong but unlikely to be dangerous*
+> list, now carries an inline **⚠ SOURCE ERROR** marker at the point of the error,
+> stating the correct fact without deleting what the source said. Provenance
+> survives, and you can no longer revise from the wrong number without the
+> correction sitting next to it. Search the notes for `SOURCE ERROR` to list them.
+> The typos in the last section are left as written.
 
 Where the master notes in the same file contradict the ANU block, the master notes
 are the more reliable of the two.
