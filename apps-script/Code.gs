@@ -672,80 +672,108 @@ function recordResults(body) {
 
 // --- the hourly top-up, run by Google's scheduler ---------------------------------
 
-/**
- * Run this ONCE by hand (function dropdown > installHourlyTopUp > Run) to install
- * the timer. Safe to re-run — it clears its own previous trigger first.
- *
- * Why this and not a scheduled Claude task: measured on 14 Aug, fresh-session
- * scheduled tasks in that environment fired 13 minutes to 86+ minutes late, and
- * one that did fire never completed its write. Google's time-driven triggers are
- * dull and dependable, which is what a standing question buffer actually needs.
- */
-function installHourlyTopUp() {
-  ScriptApp.getProjectTriggers().forEach(function (t) {
-    if (t.getHandlerFunction() === 'hourlyTopUp') ScriptApp.deleteTrigger(t);
-  });
-  ScriptApp.newTrigger('hourlyTopUp').timeBased().everyHours(1).create();
-  Logger.log('Hourly top-up installed. It will also drain the Schedule queue.');
-}
+// Sydney clock hours, per Project Settings > Time zone. 6-hourly across a waking
+// day: 8am, 2pm, 8pm. The 2am slot is deliberately dropped — questions generated
+// while asleep sit unattempted anyway, and it halves the idle API spend.
+const TOPUP_HOURS = [8, 14, 20];
 
-function uninstallHourlyTopUp() {
-  ScriptApp.getProjectTriggers().forEach(function (t) {
-    if (t.getHandlerFunction() === 'hourlyTopUp') ScriptApp.deleteTrigger(t);
-  });
-  Logger.log('Hourly top-up removed.');
-}
+// Ceiling per run. At 3 runs a day that caps generation at 6 quizzes daily even
+// if something upstream misbehaves. Two per run matters now the gap is 6 hours:
+// with one, a pair of queued requests would take 12 hours to clear.
+const MAX_PER_RUN = 2;
 
 /**
- * Fires hourly. Generates AT MOST one quiz per run, so the ceiling is bounded at
- * roughly one quiz an hour even if something upstream misbehaves.
+ * Run this ONCE by hand (function dropdown > installTopUpSchedule > Run).
+ * Safe to re-run — it clears its own previous triggers first, including any
+ * older hourly one.
  *
- * Priority: an explicit Schedule request beats a buffer top-up. If neither is
- * outstanding it does nothing and costs nothing — no API call is made.
+ * Why Apps Script and not a scheduled Claude task: measured on 14 Aug,
+ * fresh-session scheduled tasks in that environment fired 13 minutes to 86+
+ * minutes late, and one that did fire never completed its write. Google's
+ * time-driven triggers are dull and dependable, which is what a standing
+ * question buffer actually needs.
+ *
+ * Note atHour() is a one-hour window, not a precise time — an 8am trigger fires
+ * somewhere between 8 and 9. That is fine here and not worth fighting.
  */
-function hourlyTopUp() {
+function installTopUpSchedule() {
+  clearTopUpTriggers();
+  TOPUP_HOURS.forEach(function (h) {
+    ScriptApp.newTrigger('topUpRun').timeBased().atHour(h).everyDays(1).create();
+  });
+  Logger.log('Top-up scheduled at ' + TOPUP_HOURS.join(':00, ') + ':00 ' +
+             Session.getScriptTimeZone() +
+             ' — check Project Settings shows Australia/Sydney.');
+}
+
+function clearTopUpTriggers() {
+  ScriptApp.getProjectTriggers().forEach(function (t) {
+    const f = t.getHandlerFunction();
+    if (f === 'topUpRun' || f === 'hourlyTopUp') ScriptApp.deleteTrigger(t);
+  });
+}
+
+function uninstallTopUpSchedule() {
+  clearTopUpTriggers();
+  Logger.log('Top-up schedule removed.');
+}
+
+// Legacy name — kept so an already-installed hourly trigger keeps working
+// rather than erroring until it gets cleared.
+function hourlyTopUp() { topUpRun(); }
+
+/**
+ * Priority: explicit Schedule requests first, oldest first; then buffer top-up.
+ * If neither is outstanding it makes no API call at all, so an idle day is free.
+ */
+function topUpRun() {
   const p = props();
   const stamp = new Date().toISOString();
 
   if (!p.getProperty('ANTHROPIC_API_KEY')) {
-    p.setProperty('lastTopUp', stamp + ' — skipped, no API key');
+    p.setProperty('lastTopUp', stamp + ' — skipped, no API key in Script Properties');
     return;
   }
 
-  // 1. explicit requests first, oldest first
-  const q = readQueue();
-  const pending = (q.requests || []).filter(function (r) { return r.status === 'pending'; });
-  if (pending.length) {
-    const r = pending[pending.length - 1];
-    const made = generateNow({ system: r.system, n: r.n });
-    if (made && !made.error) {
-      r.status = 'done'; r.quizId = made.id; r.done = stamp;
-      writeQueue(q);
-      p.setProperty('lastTopUp', stamp + ' — request "' + r.system + '" served, ' +
-                                 made.count + ' questions');
-    } else {
-      p.setProperty('lastTopUp', stamp + ' — request failed: ' +
-                                 ((made && made.error) || 'unknown'));
+  const did = [];
+
+  for (let i = 0; i < MAX_PER_RUN; i++) {
+    const q = readQueue();
+    const pending = (q.requests || []).filter(function (r) { return r.status === 'pending'; });
+
+    if (pending.length) {
+      const r = pending[pending.length - 1];          // oldest
+      const made = generateNow({ system: r.system, n: r.n });
+      if (made && !made.error) {
+        r.status = 'done'; r.quizId = made.id; r.done = new Date().toISOString();
+        writeQueue(q);
+        did.push('request "' + r.system + '" served (' + made.count + 'q)');
+        continue;
+      }
+      did.push('request "' + r.system + '" FAILED: ' + ((made && made.error) || 'unknown'));
+      break;
     }
-    return;
+
+    let st;
+    try { st = bufferStatus(); }
+    catch (err) { did.push('status failed: ' + err); break; }
+
+    if (st.short <= 0) {
+      if (!did.length) did.push('pool at ' + st.unattempted + ', nothing to do');
+      break;
+    }
+
+    const sys = weakestSystem();
+    const made = generateNow({ system: sys, n: Math.min(20, Math.max(5, st.short)) });
+    if (made && !made.error) {
+      did.push('topped up ' + sys + ' (' + made.count + 'q)');
+    } else {
+      did.push('top-up FAILED: ' + ((made && made.error) || 'unknown'));
+      break;
+    }
   }
 
-  // 2. otherwise, top the pool back up to the floor
-  let st;
-  try { st = bufferStatus(); }
-  catch (err) { p.setProperty('lastTopUp', stamp + ' — status failed: ' + err); return; }
-
-  if (st.short <= 0) {
-    p.setProperty('lastTopUp', stamp + ' — pool at ' + st.unattempted + ', nothing to do');
-    return;
-  }
-
-  const n = Math.min(20, Math.max(5, st.short));
-  const sys = weakestSystem();
-  const made = generateNow({ system: sys, n: n });
-  p.setProperty('lastTopUp', (made && !made.error)
-    ? stamp + ' — topped up ' + sys + ' with ' + made.count + ' questions'
-    : stamp + ' — top-up failed: ' + ((made && made.error) || 'unknown'));
+  p.setProperty('lastTopUp', stamp + ' — ' + did.join('; '));
 }
 
 /**
