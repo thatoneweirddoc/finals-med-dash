@@ -13,6 +13,13 @@ updated: "2026-08-14"
 
 #### 1.1 Resting potential, action potential, conduction
 
+**The short version**
+
+- RMP −70 mV is set by the K⁺ gradient with a small Na⁺ leak, held by the electrogenic Na⁺/K⁺-ATPase (3 Na⁺ out : 2 K⁺ in).
+- AP sequence: threshold ≈ −55 mV → Na⁺ influx to ≈ +35 mV → Na⁺ inactivation + delayed-rectifier K⁺ efflux → hyperpolarisation and refractory period.
+- Myelin gives saltatory conduction at the nodes of Ranvier — so demyelination slows **velocity**, axonal loss drops **amplitude**.
+- Fibre size sorts the deficit: Aα/Aβ (vibration, proprioception) go first to compression; C fibres (pain, warmth) go in small-fibre disease with normal NCS.
+
 The resting membrane potential (**−70 mV** in a typical neurone) is set by the K⁺ gradient with a small Na⁺ leak, maintained by the **Na⁺/K⁺-ATPase (3 Na⁺ out : 2 K⁺ in)** — electrogenic, and a major consumer of the brain's 20% share of resting oxygen use.
 
 | Phase | Ionic event |
@@ -36,6 +43,13 @@ The resting membrane potential (**−70 mV** in a typical neurone) is set by the
 
 #### 1.2 Synaptic transmission and neurotransmitters
 
+**The short version**
+
+- Presynaptic Ca²⁺ entry → SNARE-mediated vesicle fusion → transmitter release → EPSP/IPSP, summed at the axon hillock.
+- Glutamate is the principal excitatory transmitter (AMPA, NMDA); GABA is the principal inhibitory one centrally, glycine in cord/brainstem.
+- Every transmitter in the table carries its drug/disease list — learn the clinical link column, not the anatomy.
+- Tetanus blocks inhibitory glycine/GABA → rigidity; botulinum blocks ACh release → flaccid paralysis.
+
 Depolarisation opens presynaptic **voltage-gated Ca²⁺ channels** → vesicle fusion (SNARE proteins) → transmitter release → postsynaptic receptor binding → EPSP or IPSP → summation at the axon hillock.
 
 | Transmitter | Main role | Key clinical link |
@@ -51,6 +65,13 @@ Depolarisation opens presynaptic **voltage-gated Ca²⁺ channels** → vesicle 
 **Toxin logic worth memorising:** **tetanus toxin** blocks release of *inhibitory* glycine/GABA in the cord → spasticity and rigidity; **botulinum toxin** blocks release of *acetylcholine* at the NMJ (cleaves SNARE proteins) → flaccid paralysis. Same family of proteases, opposite clinical picture.
 
 #### 1.3 The neuromuscular junction
+
+**The short version**
+
+- Chain to know: P/Q Ca²⁺ channel → ACh release → nicotinic AChR → endplate potential → DHP receptor → ryanodine receptor → Ca²⁺ → cross-bridge cycling.
+- There is normally a large **safety factor**; each NMJ disease removes it at a different point in that chain.
+- MG hits the postsynaptic AChR → **decrement**; LEMS hits the presynaptic P/Q channel → **increment** after exercise.
+- Botulism blocks ACh release (descending flaccid paralysis, fixed dilated pupils); organophosphates inhibit AChE → cholinergic crisis then depolarising block.
 
 Nerve action potential → presynaptic **P/Q-type voltage-gated Ca²⁺ channels** open → ACh released → binds **nicotinic ACh receptors** on the postsynaptic folds → endplate potential → muscle fibre action potential → T-tubule depolarisation → **dihydropyridine receptor** → **ryanodine receptor** → sarcoplasmic Ca²⁺ release → cross-bridge cycling. ACh is degraded by acetylcholinesterase in the cleft.
 
@@ -91,6 +112,13 @@ Clinical consequences: levodopa crosses but dopamine does not (hence peripheral 
 
 #### 1.7 Motor physiology — UMN versus LMN
 
+**The short version**
+
+- UMN: ↑tone, brisk reflexes, extensor plantars, no wasting, no fasciculations. LMN: the exact reverse.
+- UMN weakness is **pyramidal** — arm extensors and leg flexors weak, hence the flexed arm / extended leg posture.
+- Acutely (spinal shock, acute stroke) tone and reflexes may be *reduced*; spasticity develops later — a classic exam trap.
+- ~85–90% of corticospinal fibres decussate at the medullary pyramids; reflex roots: biceps C5/6, supinator C6, triceps C7, knee L3/4, ankle S1/2.
+
 The corticospinal tract originates in the precentral gyrus (Betz cells in layer V), descends through the **corona radiata → posterior limb of the internal capsule → cerebral peduncle → pons → medullary pyramids**, where ~85–90% decussate to form the lateral corticospinal tract; the remainder continue as the anterior corticospinal tract and cross at segmental level.
 
 | Feature | Upper motor neurone | Lower motor neurone |
@@ -109,6 +137,13 @@ Note that in the first hours to days after an acute UMN lesion (spinal shock, ac
 **Reflex arc:** muscle spindle (Ia afferent) → dorsal root → monosynaptic connection to the α-motor neurone → contraction. Golgi tendon organs (Ib) mediate inhibition. Reflex roots worth reciting: **biceps C5/6, supinator C6, triceps C7, knee L3/4, ankle S1/2**.
 
 #### 1.8 Sensory physiology — the two systems
+
+**The short version**
+
+- Dorsal column–medial lemniscus = vibration, proprioception, fine touch; spinothalamic = pain, temperature, crude touch.
+- **Where they cross is the whole point**: dorsal columns in the medulla, spinothalamic within 1–2 segments in the cord.
+- That difference generates Brown-Séquard — ipsilateral dorsal column loss and weakness, contralateral pain/temperature loss.
+- Both converge on VPL of thalamus → postcentral gyrus.
 
 | | Dorsal column–medial lemniscus | Spinothalamic (anterolateral) |
 |---|---|---|
@@ -143,6 +178,17 @@ Sleep cycles roughly every 90 minutes through N1–N3 (slow-wave, restorative, w
 
 #### Rapid-Recall Discriminators — Section 1
 
+**The short version**
+
+- Nerve conduction: slowed velocity = demyelinating, reduced amplitude = axonal, normal NCS with burning feet = small-fibre.
+- NMJ: decrement = MG, increment after exercise = LEMS.
+- Numbers to have cold: CSF 10–20 cmH₂O, CPP = MAP − ICP, treat ICP >22 mmHg ⚑, infarction below ~10 mL/100 g/min.
+- Crossings and sides: dorsal columns in the medulla, spinothalamic in the cord, cerebellar signs ipsilateral.
+
+Split into two passes — peripheral nerve and NMJ first, then central physiology.
+
+##### Peripheral nerve, NMJ and toxins
+
 | Clue / question | Answer |
 |---|---|
 | Neuropathy with slowed conduction velocity | Demyelinating (GBS, CIDP, CMT1) |
@@ -152,6 +198,11 @@ Sleep cycles roughly every 90 minutes through N1–N3 (slow-wave, restorative, w
 | Toxin causing descending flaccid paralysis with fixed pupils | Botulinum (blocks ACh release) |
 | Decrement on repetitive nerve stimulation | Myasthenia gravis |
 | Increment after brief exercise | Lambert–Eaton myasthenic syndrome |
+
+##### CSF, perfusion, tracts and central physiology
+
+| Clue / question | Answer |
+|---|---|
 | Normal CSF opening pressure | 10–20 cmH₂O |
 | Formula for cerebral perfusion pressure | MAP − ICP |
 | ICP treatment threshold in TBI | Sustained >22 mmHg ⚑ |
@@ -170,11 +221,18 @@ Sleep cycles roughly every 90 minutes through N1–N3 (slow-wave, restorative, w
 
 ### Neurology (ANU) — Adrenergic receptors — Neurophysiology
 
-| α1 | Located on: vascular smooth muscle (skin, splanchnic), GIT and bladder sphincters, radial muscle of irisExcitatory effects: contraction of vessels and sphincters, constriction of musclesPrazosin is an antagonist used for bladder obstruction |
+**The short version**
+
+- α1 = vessels, sphincters, iris radial muscle → **contraction**; prazosin is the antagonist (bladder obstruction).
+- α2 = presynaptic sympathetic terminals, platelets, fat, GIT wall → **inhibitory**; clonidine is the agonist (hypertension).
+- β1 = heart (SA/AV node, ventricle) → ↑HR, ↑conduction velocity, ↑contractility; blocked by metoprolol and friends.
+- β2 = skeletal muscle vessels, bronchi, GIT and bladder → **relaxation/dilatation**; salbutamol is the agonist (asthma).
+
+| α1 | • Located on: vascular smooth muscle (skin, splanchnic), GIT and bladder sphincters, radial muscle of iris<br>• Excitatory effects: contraction of vessels and sphincters, constriction of muscles<br>• Prazosin is an antagonist used for bladder obstruction |
 | --- | --- |
-| α2 | Located on: sympathetic post-ganglionic nerve terminals, platelets, fat cells and walls of GITInhibitory effects: relaxation or dilatationClonidine is an agonist used in the treatment of hypertension |
-| β1 | Located in: heart (SA node, AV node and ventricular muscle)Excitatory effects: increase HR, increase conduction velocity, increase contractilityProponalol, metoprolol, etc. are antagonists used in the treatment of hypertension |
-| β2 | Located on: vascular smooth muscle (skeletal muscle), bronchial smooth muscle, walls of GIT and bladderInhibitory effects: dilatation of vessels, relaxation of bronchial smooth muscles and bladder wallSalbutamol is an agonist used in asthma |
+| α2 | • Located on: sympathetic post-ganglionic nerve terminals, platelets, fat cells and walls of GIT<br>• Inhibitory effects: relaxation or dilatation<br>• Clonidine is an agonist used in the treatment of hypertension |
+| β1 | • Located in: heart (SA node, AV node and ventricular muscle)<br>• Excitatory effects: increase HR, increase conduction velocity, increase contractility<br>• Proponalol, metoprolol, etc. are antagonists used in the treatment of hypertension |
+| β2 | • Located on: vascular smooth muscle (skeletal muscle), bronchial smooth muscle, walls of GIT and bladder<br>• Inhibitory effects: dilatation of vessels, relaxation of bronchial smooth muscles and bladder wall<br>• Salbutamol is an agonist used in asthma |
 
 
 ---
@@ -182,9 +240,16 @@ Sleep cycles roughly every 90 minutes through N1–N3 (slow-wave, restorative, w
 
 ### Neurology (ANU) — Cholinergic receptors — Neurophysiology
 
-| Nicotonic | Located in: autonomic ganglia of SNS and PNS; NMJ; adrenal medullaActivated by ACh or nicotineExcitatory effects |
+**The short version**
+
+- Nicotinic — autonomic ganglia (both SNS and PNS), NMJ, adrenal medulla; activated by ACh or nicotine; always excitatory.
+- Muscarinic — heart, smooth muscle, glands; activated by ACh or muscarine.
+- Muscarinic effect splits by tissue: **inhibitory in the heart** (↓HR, ↓AV conduction), **excitatory in smooth muscle and glands** (↑GI motility, ↑secretions).
+- Atropine is the muscarinic antagonist — used for certain bradycardias.
+
+| Nicotonic | • Located in: autonomic ganglia of SNS and PNS; NMJ; adrenal medulla<br>• Activated by ACh or nicotine<br>• Excitatory effects |
 | --- | --- |
-| Muscarinic | Located in: heart, smooth muscle, glandsActivated by ACh or muscarineInhibitory effect in the heart: decrease HR, decrease conduction velocity in AV nodeExcitatory effect in smooth muscle and glands: increase GI motility, increase secretionsAtropine is an antagonist and is used for treatment of certain bradycardias |
+| Muscarinic | • Located in: heart, smooth muscle, glands<br>• Activated by ACh or muscarine<br>• Inhibitory effect in the heart: decrease HR, decrease conduction velocity in AV node<br>• Excitatory effect in smooth muscle and glands: increase GI motility, increase secretions<br>• Atropine is an antagonist and is used for treatment of certain bradycardias |
 
 anatomy
 
@@ -194,17 +259,24 @@ anatomy
 
 ### Neurology (ANU) — embryology and areas of the brain — Neurophysiology
 
+**The short version**
+
+- Frontal = executive function, cognition, voluntary motor → lesion gives personality change, disinhibition, apathy, one-sided weakness.
+- Parietal = somatosensory and visuospatial → lesion gives sensory loss, aphasia, **hemispatial neglect**.
+- Temporal = recognition, language, learning and memory → lesion gives temporal lobe epilepsy, short-term memory loss, word-finding failure.
+- Occipital = vision → visual loss; cerebellum = coordination, motor learning, balance → ataxia and **intention tremor**.
+
 ![](notes/images/neurology-anu/img003.jpg)
 
 ![](notes/images/neurology-anu/img004.jpg)
 
 | Area | Function | Pathology |
 | --- | --- | --- |
-| Frontal Lobe | Executive functions- decision making, planning, problem solving, thinkingCognitionIntelligenceVoluntary motor control | Personality changeIrritability and aggressionDisinhibitionApathyWeakness on one side of body/face |
-| Parietal Lobe | Dominant (L); non-dominant (R)Somatosensory informationVisusospatial processing | Loss of sensation in part of the bodyAphasiaHemispatial neglect |
-| Temporal Lobe | RecognitionLanguage Learning and memory | Fits (temporal lobe epilepsy)Short term memory lossInability to recall words |
+| Frontal Lobe | • Executive functions- decision making, planning, problem solving, thinking<br>• Cognition<br>• Intelligence<br>• Voluntary motor control | • Personality change<br>• Irritability and aggression<br>• Disinhibition<br>• Apathy<br>• Weakness on one side of body/face |
+| Parietal Lobe | • Dominant (L); non-dominant (R)<br>• Somatosensory information<br>• Visusospatial processing | • Loss of sensation in part of the body<br>• Aphasia<br>• Hemispatial neglect |
+| Temporal Lobe | • Recognition<br>• Language<br>• Learning and memory | • Fits (temporal lobe epilepsy)<br>• Short term memory loss<br>• Inability to recall words |
 | Occipital Lobe | Vision | Loss of vision |
-| Cerebellum | Co-ordination of voluntary movementsMotor-learningBalance | Problems with balance and co-ordinationIntention tremor |
+| Cerebellum | • Co-ordination of voluntary movements<br>• Motor-learning<br>• Balance | Problems with balance and co-ordinationIntention tremor |
 
 
 ---
@@ -212,6 +284,12 @@ anatomy
 
 ### Neurology (ANU) — spinocerebellar tract — Neurophysiology
 
+**The short version**
+
+- Carry **unconscious** proprioception from muscle to the **ipsilateral** cerebellum, refining motor output.
+- Four pathways: anterior and posterior spinocerebellar plus cuneocerebellar.
+- Lesion = ipsilateral loss of muscle co-ordination — rarely isolated, usually with descending motor tract signs (weakness, paralysis).
+
 | Spinocerebellar Tracts |
 | --- |
-| Carry unconscious proprioceptive information to ipsilateral cerebellum to co-ordinate + refine motor movementsTransmit information from the muscles to the cerebellumFour pathways- the anterior and posterior spinocerebellar and cuneocerebellar tracts.Lesions present as an ipsilateral loss of muscle co-ordination. However, unlikely to be damaged in isolation, usually accompanied by lesions to descending motor tracts (muscle weakness, paralysis) |
+| • Carry unconscious proprioceptive information to ipsilateral cerebellum to co-ordinate + refine motor movements<br>• Transmit information from the muscles to the cerebellum<br>• Four pathways- the anterior and posterior spinocerebellar and cuneocerebellar tracts.<br>• Lesions present as an ipsilateral loss of muscle co-ordination. However, unlikely to be damaged in isolation, usually accompanied by lesions to descending motor tracts (muscle weakness, paralysis) |

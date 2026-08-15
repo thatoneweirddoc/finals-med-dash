@@ -15,6 +15,13 @@ updated: "2026-08-14"
 
 The 2017 framework replaced "partial/simple/complex/secondary generalised" with plainer language. Classify at three levels: **seizure type → epilepsy type → epilepsy syndrome**, always asking about aetiology and comorbidity.
 
+**The short version**
+
+- Classify at three levels: **seizure type → epilepsy type → epilepsy syndrome**, plus aetiology and comorbidity.
+- ⚑ Learn the renamed terms — **focal aware** (was simple partial), **focal impaired awareness** (was complex partial), **focal to bilateral tonic–clonic** (was secondary generalised).
+- Onset is focal, generalised or unknown; aetiology is structural, genetic, infectious, metabolic, immune or unknown.
+- **Epilepsy** = two unprovoked seizures >24 h apart, **or** one plus ≥60% 10-year recurrence risk, **or** a defined syndrome.
+
 | Old term | ⚑ Current term |
 |---|---|
 | Simple partial | **Focal aware** |
@@ -33,6 +40,12 @@ The 2017 framework replaced "partial/simple/complex/secondary generalised" with 
 3. Diagnosis of an epilepsy syndrome.
 
 #### 6.2 Semiology by lobe
+
+**The short version**
+
+- **Temporal** — the commonest focal epilepsy: rising epigastric aura, déjà vu, **lip-smacking/fumbling automatisms**, prolonged post-ictal confusion ± dysphasia if dominant.
+- **Frontal** — brief, nocturnal, bizarre/hyperkinetic, **Jacksonian march**, **Todd's paresis**, and characteristically **minimal post-ictal confusion**.
+- **Parietal** — contralateral paraesthesia and distorted body image; **occipital** — simple flashes/colours/circles (not migraine's fortification spectra).
 
 | Lobe | Features |
 |---|---|
@@ -57,10 +70,17 @@ The 2017 framework replaced "partial/simple/complex/secondary generalised" with 
 
 #### 6.4 Epilepsy syndromes worth recognising
 
+**The short version**
+
+- Age of onset is the first filter: infancy → **West** (3–12 mo) and **Dravet**; 3–10 y → **Lennox–Gastaut**, **childhood absence**, **benign rolandic**; teens → **JME**.
+- EEG signature names the syndrome: **3 Hz spike-and-wave** = childhood absence; **hypsarrhythmia** = West; **slow spike-and-wave <2.5 Hz** = Lennox–Gastaut.
+- Drug of choice is syndrome-specific: **ethosuximide** (absence), **vigabatrin** ± steroids/ACTH (West, especially with tuberous sclerosis), levetiracetam/valproate (JME), **often nothing** for benign rolandic.
+- Two "avoid" rules: in **JME** avoid carbamazepine, oxcarbazepine, phenytoin, gabapentin, pregabalin (and lamotrigine can worsen myoclonus); in **Dravet** avoid sodium-channel blockers.
+
 | Syndrome | Age | Features | Treatment |
 |---|---|---|---|
 | **Childhood absence epilepsy** | 4–10 y | Brief blank spells ×10s/day, induced by hyperventilation; **3 Hz generalised spike-and-wave** | **Ethosuximide** first line |
-| **Juvenile myoclonic epilepsy** | Teens | **Early-morning myoclonic jerks** (throwing the cereal bowl), GTCS, absences; photosensitive; sleep deprivation and alcohol provoke it; usually lifelong treatment | Levetiracetam or valproate (valproate restricted — see 6.7); **avoid carbamazepine, oxcarbazepine, phenytoin, gabapentin and pregabalin — they aggravate myoclonus and absences; lamotrigine can also worsen myoclonus** |
+| **Juvenile myoclonic epilepsy** | Teens | **Early-morning myoclonic jerks** (throwing the cereal bowl), GTCS, absences<br>• photosensitive<br>• sleep deprivation and alcohol provoke it<br>• usually lifelong treatment | Levetiracetam or valproate (valproate restricted — see 6.7); **avoid carbamazepine, oxcarbazepine, phenytoin, gabapentin and pregabalin — they aggravate myoclonus and absences; lamotrigine can also worsen myoclonus** |
 | **Temporal lobe epilepsy** | Any | As 6.2; often **hippocampal sclerosis** on MRI; frequently drug-resistant | Lamotrigine/levetiracetam; consider surgery |
 | **Infantile spasms (West syndrome)** | 3–12 mo | Salaam spasms in clusters, developmental regression, **hypsarrhythmia** on EEG; tuberous sclerosis association | **Vigabatrin** (especially with tuberous sclerosis) and/or steroids/ACTH |
 | **Lennox–Gastaut** | 3–5 y | Multiple seizure types, tonic seizures in sleep, slow spike-and-wave <2.5 Hz, learning disability | Valproate, lamotrigine, rufinamide, cannabidiol |
@@ -76,6 +96,13 @@ The 2017 framework replaced "partial/simple/complex/secondary generalised" with 
 **Mimics:** vasovagal syncope, cardiac syncope, functional/dissociative seizures, migraine with aura, TIA, panic attacks with hyperventilation, parasomnias, hypnic jerks, transient global amnesia, paroxysmal movement disorders.
 
 #### 6.6 Antiseizure medication choice (NICE NG217) ⚑
+
+**The short version**
+
+- **Lamotrigine or levetiracetam** is the default answer for focal seizures ⚑ — carbamazepine has been demoted to add-on/alternative.
+- Generalised tonic–clonic, tonic/atonic and idiopathic generalised epilepsy: lamotrigine, levetiracetam **or sodium valproate** (valproate restricted — 6.7).
+- Two type-specific answers: **absence → ethosuximide**; **myoclonic → levetiracetam or valproate**.
+- The "never in myoclonic/absence" list: **carbamazepine, oxcarbazepine, phenytoin, gabapentin, pregabalin, tiagabine** — they worsen myoclonus and absences.
 
 | Seizure type | First line | Notes |
 |---|---|---|
@@ -108,6 +135,13 @@ The 2017 framework replaced "partial/simple/complex/secondary generalised" with 
 
 #### 6.9 Functional (dissociative) seizures
 
+**The short version**
+
+- Duration and pattern: epileptic events are **1–2 min, stereotyped and synchronous**; functional events are **prolonged (>5 min), waxing and waning, asynchronous** with pelvic thrusting and side-to-side head shaking.
+- The eyes are the quickest discriminator — **open in epileptic seizures, forcefully closed and resisting opening in functional ones**.
+- Supporting evidence: **lateral tongue bite** and post-ictal confusion with abnormal ictal EEG and possible prolactin rise favour epilepsy; normal ictal EEG and prolactin with rapid recovery (or unresponsiveness with normal vitals) favour functional.
+- Diagnosis is **positive**, not by exclusion; management is psychological (explanation without accusation, CBT) — and **both can coexist**.
+
 | Feature | Epileptic seizure | **Functional/dissociative** |
 |---|---|---|
 | Duration | 1–2 min | Often **prolonged (>5 min), waxing and waning** |
@@ -123,6 +157,16 @@ Diagnosis is made on **positive** features, not by exclusion; management is psyc
 ---
 
 #### Rapid-Recall Discriminators — Section 6
+
+**The short version**
+
+- Recognition rows cluster by semiology and EEG: temporal aura, frontal nocturnal events, Todd's paresis, **3 Hz spike-and-wave**, **hypsarrhythmia**, early-morning jerks.
+- Drug rows are the ones to over-learn ⚑: focal = **lamotrigine/levetiracetam**, absence = **ethosuximide**, myoclonic = **levetiracetam/valproate**, plus the myoclonus-worsening list.
+- The numbers get asked directly: **two** seizures for diagnosis, **two** failed drugs for drug-resistance, **5 mg** folic acid, **6/12 months** driving, **~1 in 1000** patient-years for SUDEP.
+
+Split into two passes: recognition and first-line choices, then prescribing, pregnancy and safety.
+
+##### Recognition, classification and first-line drugs
 
 | Clue / question | Answer |
 |---|---|
@@ -140,6 +184,11 @@ Diagnosis is made on **positive** features, not by exclusion; management is psyc
 | Early-morning jerks in a teenager | Juvenile myoclonic epilepsy |
 | 3 Hz generalised spike-and-wave | Childhood absence epilepsy |
 | Hypsarrhythmia + salaam spasms | West syndrome — vigabatrin/steroids |
+
+##### Prescribing, pregnancy and safety
+
+| Clue / question | Answer |
+|---|---|
 | Definition of drug-resistant epilepsy | Failure of two appropriate, tolerated antiseizure medications |
 | Valproate prescribing rule | Not started under 55 years unless two specialists agree ⚑ |
 | Folic acid dose in epilepsy and pregnancy | 5 mg daily |

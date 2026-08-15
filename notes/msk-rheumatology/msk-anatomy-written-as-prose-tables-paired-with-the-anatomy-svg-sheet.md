@@ -13,6 +13,12 @@ updated: "2026-08-14"
 
 ##### 2.1 The spine and the neuro-emergency landmarks
 
+**The short version**
+- Cord ends ~**L1/L2**: a lesion above compresses cord (UMN signs, sensory level); below it compresses cauda equina roots (LMN, saddle anaesthesia, bladder/bowel).
+- Column = 7 cervical, 12 thoracic, 5 lumbar, sacrum (5 fused), coccyx.
+- Reflex anchors: biceps C5, supinator C6, triceps C7, knee jerk L3/4, ankle jerk S1.
+- Root lesion = dermatome/myotome ± a reflex; peripheral nerve lesion = that nerve's own cutaneous + motor territory.
+
 The vertebral column: **7 cervical, 12 thoracic, 5 lumbar, sacrum (5 fused), coccyx**. The **spinal cord terminates at ~L1/L2** (conus medullaris); below that the lumbosacral nerve roots run as the **cauda equina** ("horse's tail"). **This single fact underlies two emergencies:**
 - A lesion **above L1/L2** compresses the **cord** → **spinal cord compression** (UMN signs below the level, a sensory level).
 - A lesion **below L1/L2** compresses the **cauda equina** (roots) → **cauda equina syndrome** (LMN signs, saddle anaesthesia, bladder/bowel).
@@ -34,6 +40,12 @@ The vertebral column: **7 cervical, 12 thoracic, 5 lumbar, sacrum (5 fused), coc
 **Nerve root (radiculopathy) vs peripheral nerve** — root lesions follow a dermatome/myotome and often a reflex; peripheral nerve lesions follow that nerve's cutaneous + motor territory.
 
 ##### 2.2 Shoulder and upper limb
+
+**The short version**
+- Cuff = SITS; **supraspinatus** initiates abduction 0–15° and is the one usually torn/impinged (empty-can test).
+- Impingement and subacromial bursitis sit in the subacromial space, between acromion above and cuff/humeral head below.
+- Fracture → nerve pairs: surgical neck/shoulder dislocation → **axillary** (regimental badge); mid-shaft humerus → **radial** (wrist drop).
+- **Median** = carpal tunnel/supracondylar # (thenar wasting, LOAF); **ulnar** = medial epicondyle (claw hand, interossei wasting).
 
 **Rotator cuff (SITS)** — the dynamic stabilisers of the glenohumeral joint:
 
@@ -57,6 +69,11 @@ The **subacromial space** (between the acromion above and the cuff/humeral head 
 
 ##### 2.3 Hip, knee and lower limb
 
+**The short version**
+- Femoral head is fed retrograde up the neck by the circumflex femorals → displaced intracapsular NOF fracture tears them → **AVN** → arthroplasty rather than fixation.
+- Knee clues: non-contact pivot + "pop" + haemarthrosis = **ACL**; dashboard = **PCL**; valgus stress = **MCL**; twisting on a loaded knee + locking = **meniscus**.
+- Common peroneal nerve is superficial at the **fibular neck** → foot drop; mimics L5 radiculopathy — separate on distribution and mechanism.
+
 **Hip** — a ball-and-socket joint with a clinically critical blood supply: the femoral head is fed largely by the **medial and lateral circumflex femoral arteries running retrograde up the femoral neck**. **A displaced intracapsular neck-of-femur fracture tears these vessels → avascular necrosis** → why displaced intracapsular fractures in the elderly are usually replaced (arthroplasty) rather than fixed (Section 4).
 
 **Knee** — stabilised by four ligaments and two menisci:
@@ -72,6 +89,12 @@ The **subacromial space** (between the acromion above and the cuff/humeral head 
 
 ##### 2.4 Hand, wrist and the small joints
 
+**The short version**
+- Distribution is the diagnosis: **DIP** → OA (Heberden's) or psoriatic; **MCP + PIP symmetrical, sparing DIP** → RA.
+- PIP nodes = Bouchard's (OA); thumb-base 1st CMC = OA (squaring); first MTP = gout (podagra).
+- **Scaphoid** takes its blood supply retrograde from distal → proximal-pole fracture threatens AVN/non-union.
+- Snuffbox tenderness after FOOSH is treated as a scaphoid fracture even when the first X-ray is normal — re-image.
+
 The hand is where rheumatology and orthopaedics both live. **Joint distribution is a diagnosis in itself:**
 
 | Joints affected | Suggests |
@@ -85,6 +108,11 @@ The hand is where rheumatology and orthopaedics both live. **Joint distribution 
 **The scaphoid** — the wrist's version of the femoral neck: **retrograde blood supply enters distally**, so a **proximal-pole fracture threatens avascular necrosis and non-union**. Suspect it with **anatomical snuffbox tenderness** after a fall on the outstretched hand (FOOSH), even if the initial X-ray is normal — treat and re-image (Section 4).
 
 #### Rapid-Recall Discriminators — Anatomy
+
+**The short version**
+- Both cord emergencies hinge on one level (L1/L2) and one territory (saddle, S2–S4).
+- Fracture names the nerve: mid-shaft humerus → radial, fibular neck → common peroneal.
+- Two retrograde-supply AVN traps: displaced intracapsular NOF and proximal-pole scaphoid.
 
 | Clue / question | Answer |
 |---|---|

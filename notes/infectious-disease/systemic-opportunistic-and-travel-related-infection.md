@@ -26,6 +26,12 @@ updated: "2026-08-14"
 
 ##### 5.2 Opportunistic Infections — the Immunosuppressed-Host Framework
 
+**The short version**
+- Neutropenia → Gram-negative bacteraemia + invasive fungi; T-cell/cellular defect → PCP, CMV, TB, *Cryptococcus*, *Toxoplasma*, *Listeria*.
+- B-cell/humoral defect and asplenia → **encapsulated organisms** (pneumococcus, Hib, meningococcus); terminal complement (C5–9) → **recurrent *Neisseria***.
+- Anti-TNF/JAK biologics → **screen for latent TB before starting**.
+- Asplenia needs lifelong cover: pneumococcal/meningococcal/Hib vaccination plus prophylactic penicillin.
+
 Match the defect to the pathogen (a recurring exam logic):
 
 | Immune defect | Setting | Typical pathogens |
@@ -50,11 +56,17 @@ Match the defect to the pathogen (a recurring exam logic):
 
 ##### 5.4 Infective Gastroenteritis
 
+**The short version**
+- Most cases are self-limiting on rehydration alone — the marks are in naming the organism from the exposure history.
+- Stool character sorts it: bloody → invasive/toxin-producing bacteria; profuse watery → secretory toxin; vomiting-predominant outbreak → norovirus.
+- Two antibiotic "don'ts": ⚑ none in STEC/O157 (↑ HUS risk), and they prolong carriage in non-typhoidal *Salmonella*.
+- Investigate only if bloody, systemically toxic, immunosuppressed, post-antibiotic, travel-related, >7 days or outbreak.
+
 Most acute gastroenteritis is self-limiting and managed with rehydration alone — the exam skill is recognising the organism from the history.
 
 | Organism | Signature clue | Notes |
 |---|---|---|
-| *Campylobacter jejuni* | Commonest bacterial cause; undercooked poultry; bloody diarrhoea + severe abdominal pain (can mimic appendicitis) | ⚑ Associated with **Guillain–Barré syndrome** and reactive arthritis |
+| *Campylobacter jejuni* | • Commonest bacterial cause<br>• Undercooked poultry<br>• Bloody diarrhoea + severe abdominal pain (can mimic appendicitis) | ⚑ Associated with **Guillain–Barré syndrome** and reactive arthritis |
 | *Salmonella* (non-typhoidal) | Eggs, poultry, reptiles | Usually self-limiting; **antibiotics can prolong carriage** — reserve for severe/immunosuppressed/extremes of age |
 | *Shigella* | Very low infective dose → person-to-person spread; dysentery (blood and mucus) | Can cause HUS (Shiga toxin) |
 | Shiga toxin-producing *E. coli* (STEC/O157) | Undercooked beef; bloody diarrhoea | ⚑ **Avoid antibiotics — they increase HUS risk** |
@@ -76,6 +88,16 @@ Most acute gastroenteritis is self-limiting and managed with rehydration alone �
 
 ###### Rapid-Recall Discriminators — Section 5
 
+**The short version**
+- PUO = fever >38.3°C, >3 weeks, undiagnosed after 1 week of inpatient work-up; four categories — infective, malignant, autoimmune/inflammatory, other.
+- Host-defect one-liners: encapsulated organisms post-splenectomy, recurrent *Neisseria* → terminal complement deficiency, latent TB screen before biologics.
+- Exposure one-liners: breakbone → dengue, rose spots + relative bradycardia → typhoid, rice-water stool → cholera, camping + steatorrhoea → giardia.
+- ⚑ Two current-guidance changes: no antibiotics in STEC, and C. diff is oral vancomycin/fidaxomicin first-line, not metronidazole.
+
+Two passes: host and PUO logic first, then the travel/GI/healthcare cluster.
+
+**PUO and the immunosuppressed host**
+
 | Clue / question | Answer |
 |---|---|
 | PUO classic definition | Fever >38.3°C, >3 weeks, undiagnosed after 1 week of inpatient work-up |
@@ -84,6 +106,11 @@ Most acute gastroenteritis is self-limiting and managed with rehydration alone �
 | Splenectomy — organisms to fear | Encapsulated (pneumococcus, H. influenzae, meningococcus) |
 | Recurrent *Neisseria* infections | Terminal complement (C5–9) deficiency |
 | Before starting anti-TNF/biologic therapy | Screen for latent TB |
+
+**Travel, gastroenteritis and healthcare-associated infection**
+
+| Clue / question | Answer |
+|---|---|
 | Febrile returned traveller — always test for | Malaria (thick and thin films) |
 | "Breakbone fever" | Dengue |
 | Stepwise fever + relative bradycardia + rose spots | Typhoid (enteric fever) |
@@ -116,6 +143,11 @@ Most acute gastroenteritis is self-limiting and managed with rehydration alone �
 **A6. New HIV diagnosis / risk assessment.** Stage by CD4; screen for opportunistic infection at diagnosis if CD4 low; start ART (2 NRTIs + integrase inhibitor); PEP within 72h; PrEP for ongoing risk.
 
 ##### Part B — Signature Lookup Tables
+
+**The short version**
+- Six lookup tables: organism buzzwords, CD4 thresholds, antibiotic signature toxicities, resistance mechanisms, "don't wait" timing rules, AWaRe tiers.
+- CD4 ladder: <200 PCP/oesophageal candidiasis; <100 toxoplasmosis/cryptococcal meningitis; <50 CMV retinitis/disseminated MAC.
+- Timing rules cluster around four scenarios — neutropenic sepsis, meningitis, nec fasc/PID, and surgical prophylaxis.
 
 **B1. Organism buzzwords**
 
@@ -181,6 +213,12 @@ Most acute gastroenteritis is self-limiting and managed with rehydration alone �
 
 ##### Part C — Confusable Pairs
 
+**The short version**
+- ESBL vs CRE: ESBL usually still carbapenem-susceptible, CRE is not.
+- Mechanism split: MRSA = altered PBP2a; VRE = altered vancomycin-binding target.
+- Syphilis stage: painless chancre = primary; disseminated rash incl. palms/soles = secondary.
+- ⚑ Sepsis-3 dropped SIRS — sepsis is organ dysfunction (SOFA ≥2) from infection.
+
 | Pair | Separating feature |
 |---|---|
 | TACO vs TRALI *(detail in haem/onc build)* | TACO hypertensive/fluid-overloaded; TRALI hypotensive |
@@ -197,6 +235,11 @@ Most acute gastroenteritis is self-limiting and managed with rehydration alone �
 
 ### Infectious Disease (ANU) — TRAVELLER’S DIARRHOEA — Systemic, Opportunistic and Travel-Related Infection
 
-| AETIOLOGY | Bacterial (80-90%): E.coli, Campylobacter, Shigella, Salmonella, Vibrio  Viral: norovirus, rotavirus, and astrovirus account for 5-8% Protozoal (rarely): Giardia, Entamoeba histolytica, Cryptosporidium, Cyclospora Pathogen-negative traveller’s diarrhea common despite exhaustive microbiological workup |
+**The short version**
+- Bacterial in 80–90% (E. coli, Campylobacter, Shigella, Salmonella, Vibrio); viral 5–8%; protozoal rare.
+- Pathogen-negative traveller's diarrhoea is common even after exhaustive microbiological workup.
+- Treatment is rehydration + symptom control (loperamide); empiric antibiotics = ciprofloxacin, azithromycin or rifaximin.
+
+| AETIOLOGY | • Bacterial (80-90%): E.coli, Campylobacter, Shigella, Salmonella, Vibrio<br>• Viral: norovirus, rotavirus, and astrovirus account for 5-8%<br>• Protozoal (rarely): Giardia, Entamoeba histolytica, Cryptosporidium, Cyclospora<br>• Pathogen-negative traveller’s diarrhea common despite exhaustive microbiological workup |
 | --- | --- |
-| TREATMENT | RehydrationTreat symptoms: anti-diarrhoea (e.g. loperamide)Empiric antibiotics: ciprofloxacin, azithromycin, rifaximin |
+| TREATMENT | • Rehydration<br>• Treat symptoms: anti-diarrhoea (e.g. loperamide)<br>• Empiric antibiotics: ciprofloxacin, azithromycin, rifaximin |

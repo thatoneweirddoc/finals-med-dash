@@ -38,6 +38,12 @@ Fibrofatty replacement of RV myocardium → ventricular arrhythmias and SCD, oft
 
 ##### A. Mnemonics & Acronyms
 
+**The short version**
+
+- Valve/murmur mnemonics: **SAD** (aortic stenosis symptoms) and **RILE** (right-sided murmurs louder on inspiration, left on expiration).
+- Infection/inflammation mnemonics: **JONES** (rheumatic fever major criteria), **FROM JANE** (endocarditis signs), **Duke criteria** (IE diagnosis).
+- Emergency and risk tools: **Beck's triad** for tamponade, **HCM Risk-SCD** for 5-year sudden-death risk.
+
 | Acronym | Use |
 |---|---|
 | **SAD** | Aortic stenosis symptoms: Syncope, Angina, Dyspnoea |
@@ -49,6 +55,13 @@ Fibrofatty replacement of RV myocardium → ventricular arrhythmias and SCD, oft
 | **HCM Risk-SCD** | ESC model estimating 5-year sudden-death risk in HCM |
 
 ##### B. Spot Signs — *"See this → think this"*
+
+**The short version**
+
+- Murmur + pulse character sorts the valves: ESM → carotids with slow-rising pulse = AS; early diastolic + collapsing pulse = AR; mid-diastolic rumble + opening snap + malar flush = MS; pansystolic → axilla = MR.
+- **ESM louder on Valsalva = HCM**, not AS — the discriminator most often missed.
+- Pericardial trio: saddle ST elevation + PR depression (acute pericarditis), pulsus paradoxus + raised JVP + muffled sounds (tamponade), Kussmaul's sign + pericardial knock (constriction).
+- Cardiomyopathy giveaways: **HFpEF + LVH on echo but low ECG voltages** = amyloidosis; **epsilon waves, T inversion V1–V3 in a young athlete** = ARVC.
 
 | Sign | Think |
 |---|---|
@@ -90,14 +103,30 @@ Fibrofatty replacement of RV myocardium → ventricular arrhythmias and SCD, oft
 
 ### Cardiovascular (ANU) — cardiomyopathies — Cardiomyopathies
 
+**The short version**
+
+- Three mechanisms: **dilated** = systolic failure of a big baggy ventricle; **hypertrophic** = unexplained (usually septal) hypertrophy with diastolic failure; **restrictive** = stiff, non-dilated, non-hypertrophied ventricle with **preserved LVEF**.
+- Frequency and demographics: DCM is the **commonest** (M:F 3:1); HCM is **AD, myosin heavy chain**, ~70% obstructive; restrictive is **very rare**.
+- Cause you must attach to each: DCM → EtOH, chemo (doxorubicin), viral, persistent rapid AF; HCM → sarcomere mutation ± chronic HTN; restrictive → amyloidosis, sarcoidosis, haemochromatosis, endomyocardial fibrosis.
+- All three kill by **arrhythmia and heart failure** — HCM is the leading cause of sudden death in athletes and teenagers; restrictive has the worst prognosis without transplant.
+
+Read the table in two passes — what the disease *is* first, then what you *do* about it.
+
+##### Definition, aetiology and pathogenesis
+
 |  | Dilated | Hypertrophic | Restrictive |
 | --- | --- | --- | --- |
 | Definition | Unexplained dilation and impaired systolic function of one or both ventricles | Unexplained ventricular hypertrophy, most commonly septal hypertrophy | Impaired ventricular filling with preserved systolic function in a non-dilated, non-hypertrophied ventricle secondary to factors that ↓ myocardial compliance (fibrosis, infiltration) |
 | Epidemiology | Most common cardiomyopathy, M:F= 3:1 | Obstructive/HOCM: ~70% Non-obstructive: ~30% | Very rare |
-| Aetiology | Idiopathic: ~ 50%Genetics: FHxInflammatory: infection (viral coxsackie B, Chagas, RF), CTD (SLE)Cardio: persistent rapid AF, CAD, valvular disease (AS/AR)Toxic: EtOH, cocaine, heroinNeuromuscular: muscular/ myotonic dystrophyMetabolic: ↓ thyroid, ↓Ca2+, ↓PO43-, ↓thiamine/seleniumDrugs: ARVs, TCA, chemo (doxorubicin)Other: HTN, ↑lipid, valvular disease, prev MI | Primary (60-90%): autosomal dominant inheritance; mutations in genes encoding myosin heavy chain 🡪 myocyte hypertrophy/disarraySecondary: amyloidosisPressure-related: chronic HTN 🡪 ↑ afterload 🡪 ↑ wall tension 🡪 myocardial gene changes 🡪 ↑ sarcomeres 🡪 LV thickening | Idiopathic2o to endomyocardial fibrosis (eosinophilic endocarditis) or systemic disease (scleroderma, amyloidosis, sarcoidosis, hemochromatosis) |
+| Aetiology | Idiopathic: ~ 50%<br>• Genetics: FHx<br>• Inflammatory: infection (viral coxsackie B, Chagas, RF), CTD (SLE)<br>• Cardio: persistent rapid AF, CAD, valvular disease (AS/AR)<br>• Toxic: EtOH, cocaine, heroin<br>• Neuromuscular: muscular/ myotonic dystrophy<br>• Metabolic: ↓ thyroid, ↓Ca2+, ↓PO43-, ↓thiamine/selenium<br>• Drugs: ARVs, TCA, chemo (doxorubicin)<br>• Other: HTN, ↑lipid, valvular disease, prev MI | Primary (60-90%): autosomal dominant inheritance; mutations in genes encoding myosin heavy chain 🡪 myocyte hypertrophy/disarray<br>• Secondary: amyloidosis<br>• Pressure-related: chronic HTN 🡪 ↑ afterload 🡪 ↑ wall tension 🡪 myocardial gene changes 🡪 ↑ sarcomeres 🡪 LV thickening | Idiopathic2o to endomyocardial fibrosis (eosinophilic endocarditis) or systemic disease (scleroderma, amyloidosis, sarcoidosis, hemochromatosis) |
 | Classification/ Pathogenesis | Myocyte degeneration and fluid overload overcome compensatory RAAS and Frank-Starling  🡪 dilation 🡪 ↓ ventricular contractility 🡪 ↓ LVEF | All types: LVH ± RVH 🡪 ↓ diastolic filing, ↓ systolic output with impaired contractility 🡪 myocardial ischemiaHOCM: interventricular septum hypertrophy and systolic anterior motion of mitral valve  🡪 LV outlet tract obstruction (LVOT), mitral regurgitation (exacerbated by inotropic drugs, exercise, ↓preload /afterload) | Proliferation of connective tissue → ↓ elasticity of myocardium → ↓ ventricular compliance → ↓ diastolic filling → atrial congestion → atrial enlargement and severe diastolic dysfunctionLVEF usually normal |
+
+##### Presentation, investigation and management
+
+|  | Dilated | Hypertrophic | Restrictive |
+| --- | --- | --- | --- |
 | Presentation | CHF (LHF and RHF Sx; mitral valve regurg)Systemic/pulmonary emboliArrhythmiasSudden death (fatal arrhythmia) | Asymptomatic (usually)Obstructive: exertional dyspnoea, angina pectoris, vertigo, syncope, “spike and dome” carotid pulse, ejection murmurAll: arrhythmias, palpitations, sudden cardiac death (intense activity) | RHF, LHF symptoms |
-| Investigations | Abnormal labs in DCM: ↑ BNP, ↑ Cr, ↑ LFTs, ↓HCO3-, ↓Na+Other bloods: FBC, EUCs, CK, Trops/CK-MB, TSHECG: variable ST-T abnormalities, poor R wave progression, AVH/LVH, arrhythmias (AF, VT), LBBB (unfavourable prognosis)CXR: cardiomegaly, pulmonary oedemaEcho: wall movement abnormalities, chamber enlargement, ↓ LVEF, MR, TR, mural thrombiCan also endomyocardial biopsy (rare) or coronary angiography (?IHD) | Auscultation: systolic ejection murmur (crescendo-decrescendo that ↑ with Valsalva manoeuvre/standing), S4 gallop, mitral regurgitationECG: LVH, LBBB, VT/AF, prominent Q wavesEcho: confirmatory test, asymmetric LV thickening ≥ 15 mm; systolic anterior motion (anterior mitral valve cusp towards septum), ↑LVOT pressure gradient via doppler echoGenetic studies (sometimes) | Echo: atrium enlarged/ dilatied, ventricular volume is N/↓, ↓ diastolic filling, symmetric wall-thickening possible ECG: LBBB, prominent Q eaves, non-specific ST-T wave changes, low voltage (amyloidosis)CXR: pleural effusions, cardiomegalyCardiac catheterization with ↑EDV pressureMyocardial biopsy to identify underlying cause |
+| Investigations | Abnormal labs in DCM: ↑ BNP, ↑ Cr, ↑ LFTs, ↓HCO3-, ↓Na+Other bloods: FBC, EUCs, CK, Trops/CK-MB, TSH<br>• ECG: variable ST-T abnormalities, poor R wave progression, AVH/LVH, arrhythmias (AF, VT), LBBB (unfavourable prognosis)<br>• CXR: cardiomegaly, pulmonary oedema<br>• Echo: wall movement abnormalities, chamber enlargement, ↓ LVEF, MR, TR, mural thrombiCan also endomyocardial biopsy (rare) or coronary angiography (?IHD) | Auscultation: systolic ejection murmur (crescendo-decrescendo that ↑ with Valsalva manoeuvre/standing), S4 gallop, mitral regurgitation<br>• ECG: LVH, LBBB, VT/AF, prominent Q waves<br>• Echo: confirmatory test, asymmetric LV thickening ≥ 15 mm; systolic anterior motion (anterior mitral valve cusp towards septum), ↑LVOT pressure gradient via doppler echoGenetic studies (sometimes) | Echo: atrium enlarged/ dilatied, ventricular volume is N/↓, ↓ diastolic filling, symmetric wall-thickening possible <br>• ECG: LBBB, prominent Q eaves, non-specific ST-T wave changes, low voltage (amyloidosis)<br>• CXR: pleural effusions, cardiomegalyCardiac catheterization with ↑EDV pressureMyocardial biopsy to identify underlying cause |
 | Management | BP: ACE-I, B-blockersHF: diuretics, vasodilators, digoxinArrhythmias: implantable cardioverter-defibrillator in LVEF &lt; 30%Underlying disease e.g. cease EtOH/ toxic drugsThromboembolism prophylaxis in AF, previous thromboembolic event, thrombus on echoConsider surgery: LVAD, transplant | All pts: avoid strenuous exerciseSYMPTOMATIC PATIENTSB-blockers (1st line), verapamil (2nd line, non-dihydropyridine)Treat VT/AFIn high-risk of cardiac death: implantable cardioverter defibrillator (ICD)In Tx-resistant: myectomy (thinning/ resection of hypertrophic septum), transcoronary ablation of septal hypertrophy (TASH)HOCM CI: afterload and preload- reducing drugs e.g. ACE-I, dihydropyridine CCBs, diuretics, glyceryl trinitrate)Screening 1st-deg relatives | Underlying condition Supportive careExclude constrictive pericarditisCT: thickened pericardium and calcification in CPMRI: best modality for visualisationSymptomatic: B-blockers, cardioselective CCBs, diuretics, ACE-I Anticoagulation and sinus rhythm maintenance in AFHeart transplant |
 | Differentials | CHF, ACS, tamponade, myocarditis | Aortic stenosis, restrictive cardiomyopathy | Constrictive pericarditis (but treatable with surgery) |
 | Complications | CHF, arrhythmias (VF), sudden cardiac death, systemic thromboembolism (stroke, PE, mesenteric infarct) | Sudden death, stroke, AF, VT, infective endocarditis | Marked atrial enlargement and atrial arrhythmias |
@@ -108,6 +137,12 @@ Fibrofatty replacement of RV myocardium → ventricular arrhythmias and SCD, oft
 
 
 ### Cardiovascular (ANU) — unclassified cardiomyopathy — Cardiomyopathies
+
+**The short version**
+
+- **Takotsubo** = postmenopausal woman >60 after emotional/physical stress → catecholamine surge, myocardial stunning; presents exactly like ACS (chest pain, ST elevation, ↑troponin).
+- The discriminator is the pair **apical LV ballooning on echo + normal coronary angiography**; treatment is trigger avoidance, β-blocker or ACE-I, and it recovers spontaneously.
+- **Arrhythmia-induced cardiomyopathy** = persistent tachyarrhythmia/ectopy (AF, flutter, SVT, VT) causing LV dysfunction that is **potentially reversible** — rate/rhythm control, ablate ectopic foci.
 
 |  | Takotsubo Cardiomyopathy | Arrhythmia-induced cardiomyopathy |
 | --- | --- | --- |
@@ -125,13 +160,20 @@ Fibrofatty replacement of RV myocardium → ventricular arrhythmias and SCD, oft
 
 ### Cardiovascular (ANU) — Pericarditis — Cardiomyopathies
 
+**The short version**
+
+- Acute pericarditis **triad**: pleuritic retrosternal chest pain, **friction rub**, serial ECG changes (diffuse ST elevation, PR depression, reciprocal change in aVR).
+- Aetiology worth reciting: idiopathic, **viral (coxsackie B commonest)**, post-MI (1–3 days fibrinous, or Dressler weeks–months later), uraemia, connective-tissue disease, tumour, radiation, hydralazine.
+- **Constrictive** pericarditis is the backward-failure picture: ↑JVP, **Kussmaul's sign**, hepatic congestion, oedema, **pericardial knock**, pulsus paradoxus; CXR/echo show thickening and calcification, cath shows the **square-root sign**.
+- Treatment: **NSAIDs + colchicine** (steroids if NSAIDs fail), antibiotics if bacterial, pericardiocentesis for effusion, **pericardiectomy** in constriction. Complications: recurrence, tamponade, constriction.
+
 | Definition | Inflammation of pericardium with/without concurrent myocarditis.Constrictive pericarditis: compromised cardiac function due to a thickened, rigid and fibrous pericardium 2O to acute pericarditis |
 | --- | --- |
 | Acute pericarditis triad | Chest pain, pericardial friction rub, serial ECG changes (diffuse St elevation, PR depression with reciprocal changes in aVR) |
-| Aetiology | IdiopathicInfectious: most commonly viral (coxsackie A, coxsackie B most common, echovirus, Tb in CP), bacterial (S. pneumoniae, S. aureus), fungalMI: within 1-3 days as an immediate reaction (post-infarction fibrinous pericarditis) or weeks to months (Dressler Syndrome)Post-operative: blunt/sharp trauma to pericardiumCollagen vascular disease: SLE, RA, scleroderma Vascular: dissecting aneurysmOther: RF (uraemia), tumours (Hodgkin, breast, lung, RCC), radiation, drugs (hydralazine) |
+| Aetiology | Idiopathic<br>• Infectious: most commonly viral (coxsackie A, coxsackie B most common, echovirus, Tb in CP), bacterial (S. pneumoniae, S. aureus), fungalMI: within 1-3 days as an immediate reaction (post-infarction fibrinous pericarditis) or weeks to months (Dressler Syndrome)<br>• Post-operative: blunt/sharp trauma to pericardiumCollagen vascular disease: SLE, RA, scleroderma <br>• Vascular: dissecting aneurysm<br>• Other: RF (uraemia), tumours (Hodgkin, breast, lung, RCC), radiation, drugs (hydralazine) |
 | Pathophysiology | Pericardium: two layers (visceral and parietal) with minimal fluid within the spacePericardium functions to ↑ cardiac efficiency, protect heart, and anatomically fix heartAcute inflammation 🡪 disrupt the equilibrium of pericardial fluid balance 🡪 effusionIt is well-innervated 🡪 causing pain when inflamedPericarditis can be fibrinous (dry) or effusive (purulent, serous, haemorrhagic exudate) |
-| Presentation | Acute:Low-grade intermittent fever, myalgia, RHFPleuritic chest pain: sharp, retrosternalwPericardial friction rub: high-pitched scratching while patient is leaning forward during inspirationPericardial effusion | Constrictive:Backward failure: ↑JVP, Kussmaul’s sign, hepatic congestion, peripheral oedemaForward failure:  exertional dyspnoea/fatigue, ↑HR, pericardial knock, pulsus paradoxus |
+| Presentation | Acute:Low-grade intermittent fever, myalgia, RHFPleuritic chest pain: sharp, retrosternalwPericardial friction rub: high-pitched scratching while patient is leaning forward during inspirationPericardial effusion<br>Constrictive:Backward failure: ↑JVP, Kussmaul’s sign, hepatic congestion, peripheral oedemaForward failure:  exertional dyspnoea/fatigue, ↑HR, pericardial knock, pulsus paradoxus |
 | Classification | Acute: fibrinous, effusiveSubacute: effusive-constrictiveChronic: constrictive, effusive, adhesiveRecurrent: intermittent or incessant |
-| Investigations | AcutePrimarily clinical diagnosisBloods: leucocytosis, ↑ troponin I, ↑ ESR, ↑ CRP, deranged BUN (uraemia)Typical ECG: diffuse ↑ ST and, ↓PR 🡪 normalised in ~ 1 week 🡪 inverted T waves 🡪 baselineEcho: often normal, effusionCXR: normal | ConstrictiveCXR: pericardial thickening, calcificationEcho: ↑ pericardial thickness, sudden halt of ventricular filling during early diastole, RVH, cardiomyopathyECG: NAD, possible AFCardiac cath: ↑ diastolic pressure in LV/RV, square-root sign |
+| Investigations | AcutePrimarily clinical diagnosis<br>• Bloods: leucocytosis, ↑ troponin I, ↑ ESR, ↑ CRP, deranged BUN (uraemia)Typical <br>• ECG: diffuse ↑ ST and, ↓PR 🡪 normalised in ~ 1 week 🡪 inverted T waves 🡪 baseline<br>• Echo: often normal, effusion<br>• CXR: normal<br>Constrictive<br>• CXR: pericardial thickening, calcification<br>• Echo: ↑ pericardial thickness, sudden halt of ventricular filling during early diastole, RVH, cardiomyopathy<br>• ECG: NAD, possible AFCardiac cath: ↑ diastolic pressure in LV/RV, square-root sign |
 | Management | Effusion: pericardiocentesis for symptom relief ↓ physical activityNSAIDS + colchicine: alleviates Sx, ↓ recurrence rate (glucocorticoids if NSAIDs ineffective)AspirinBacterial: antibioticsIn CP: symptomatic therapy (↓ fluid overload), pericariectomy |
 | Complications | Recurrence, cardiac tamponade, constrictive pericarditis |

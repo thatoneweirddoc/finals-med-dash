@@ -17,13 +17,20 @@ updated: "2026-08-14"
 
 ##### 12.1 Antiseizure medications
 
+**The short version**
+
+- Valproate is the most broadly effective and the most **teratogenic** — not to be started under 55 without two specialists ⚑; it raises lamotrigine levels (halve the dose).
+- Signature toxicities: lamotrigine → SJS if titrated fast; levetiracetam → behavioural change; topiramate → weight loss, stones, glaucoma; vigabatrin → irreversible field loss.
+- Carbamazepine and phenytoin are potent enzyme **inducers** (contraception, DOACs, warfarin); phenytoin also has **zero-order kinetics**.
+- Na⁺-channel drugs and gabapentinoids **worsen myoclonus and absences** — ethosuximide is the absence drug.
+
 | Drug | Mechanism | Key adverse effects | Practical notes |
 |---|---|---|---|
-| **Sodium valproate** | Multiple — ↑GABA, Na⁺ channels, T-type Ca²⁺ | **Teratogenicity (neural tube, ~10% malformation, 30–40% neurodevelopmental)**, weight gain, tremor, hair loss, **hepatotoxicity**, pancreatitis, thrombocytopenia, **hyperammonaemic encephalopathy** | ⚑ Not to be started under 55 years unless two specialists agree; Pregnancy Prevention Programme; **enzyme inhibitor** — raises lamotrigine levels (halve the lamotrigine dose) |
-| **Lamotrigine** | Na⁺ channel blockade | **Rash — Stevens–Johnson syndrome (titrate slowly)**, headache, insomnia, can worsen myoclonus | Levels **fall in pregnancy** (increase the dose, reduce postpartum); valproate doubles the level; oestrogen-containing contraception lowers it |
+| **Sodium valproate** | Multiple — ↑GABA, Na⁺ channels, T-type Ca²⁺ | **Teratogenicity (neural tube, ~10% malformation, 30–40% neurodevelopmental)**, weight gain, tremor, hair loss, **hepatotoxicity**, pancreatitis, thrombocytopenia, **hyperammonaemic encephalopathy** | • ⚑ Not to be started under 55 years unless two specialists agree<br>• Pregnancy Prevention Programme<br>• **enzyme inhibitor** — raises lamotrigine levels (halve the lamotrigine dose) |
+| **Lamotrigine** | Na⁺ channel blockade | **Rash — Stevens–Johnson syndrome (titrate slowly)**, headache, insomnia, can worsen myoclonus | • Levels **fall in pregnancy** (increase the dose, reduce postpartum)<br>• valproate doubles the level<br>• oestrogen-containing contraception lowers it |
 | **Levetiracetam** | SV2A binding | **Behavioural change — irritability, aggression, depression** (the main limiting effect); somnolence | No significant interactions; renally cleared; easy IV/oral switch |
 | **Carbamazepine** | Na⁺ channel blockade | **Hyponatraemia (SIADH)**, rash, **HLA-B\*1502 → SJS in Han Chinese/Southeast Asian ancestry**, agranulocytosis, ataxia, diplopia; **worsens myoclonic and absence seizures** | **Potent enzyme inducer** — reduces the efficacy of the combined pill, DOACs, warfarin, and auto-induces its own metabolism |
-| **Phenytoin** | Na⁺ channel blockade | **Zero-order (saturable) kinetics — small dose changes cause toxicity**; nystagmus → ataxia → confusion with rising levels; **gum hypertrophy, hirsutism, coarse facies**, cerebellar atrophy, megaloblastic anaemia (folate), osteomalacia, purple glove syndrome | Enzyme inducer; needs level monitoring (adjust for albumin); IV must be given slowly with cardiac monitoring |
+| **Phenytoin** | Na⁺ channel blockade | • **Zero-order (saturable) kinetics — small dose changes cause toxicity**<br>• nystagmus → ataxia → confusion with rising levels<br>• **gum hypertrophy, hirsutism, coarse facies**, cerebellar atrophy, megaloblastic anaemia (folate), osteomalacia, purple glove syndrome | Enzyme inducer; needs level monitoring (adjust for albumin); IV must be given slowly with cardiac monitoring |
 | **Topiramate** | Multiple | **Weight loss, paraesthesia, word-finding difficulty ("dopamax"), renal stones, acute angle-closure glaucoma, metabolic acidosis, oligohidrosis**; teratogenic ⚑ | Pregnancy Prevention Programme required ⚑; reduces oral contraceptive efficacy >200 mg/day |
 | **Ethosuximide** | T-type Ca²⁺ channels | GI upset, drowsiness, rarely SJS/blood dyscrasias | First-line for **absence** seizures only |
 | **Sodium-channel add-ons** (lacosamide, oxcarbazepine, eslicarbazepine) | Slow Na⁺ inactivation | PR prolongation (lacosamide), hyponatraemia (oxcarbazepine) | Useful in focal epilepsy |
@@ -34,18 +41,32 @@ updated: "2026-08-14"
 
 ##### 12.2 Stroke and antithrombotic pharmacology
 
+**The short version**
+
+- Thrombolytics: alteplase or **tenecteplase as a single bolus** ⚑; risks are intracranial haemorrhage and angio-oedema (worse on ACE inhibitors).
+- Antiplatelets: aspirin 300 mg for 2 weeks acutely, then **clopidogrel long-term** after ischaemic stroke/TIA.
+- Anticoagulants: DOACs preferred in **non-valvular AF**, warfarin for mechanical valves and moderate–severe mitral stenosis; reversal is idarucizumab vs andexanet alfa.
+- Two fixed prescriptions: high-intensity statin after ischaemic stroke (not routinely after ICH), and **nimodipine 60 mg 4-hourly for 21 days** after aneurysmal SAH.
+
 | Drug/class | Mechanism | Notes |
 |---|---|---|
 | **Alteplase / tenecteplase** | Recombinant tissue plasminogen activators — convert plasminogen to plasmin | Tenecteplase is fibrin-specific with a longer half-life → **single bolus** ⚑; risks: intracranial haemorrhage, angio-oedema (worse with ACE inhibitors) |
 | **Aspirin** | Irreversible COX-1 inhibition → ↓thromboxane A₂ | 300 mg acutely for 2 weeks, then long-term antithrombotic |
-| **Clopidogrel** | P2Y12 receptor antagonist (prodrug — activated by CYP2C19) | **First-line long-term after ischaemic stroke/TIA**; reduced effect in CYP2C19 poor metabolisers; PPIs (omeprazole) may reduce activation |
+| **Clopidogrel** | P2Y12 receptor antagonist (prodrug — activated by CYP2C19) | • **First-line long-term after ischaemic stroke/TIA**<br>• reduced effect in CYP2C19 poor metabolisers<br>• PPIs (omeprazole) may reduce activation |
 | **Dipyridamole** | Phosphodiesterase inhibitor | With aspirin if clopidogrel is not tolerated; headache is common |
-| **DOACs** (apixaban, rivaroxaban, edoxaban, dabigatran) | Factor Xa inhibitors; dabigatran is a direct thrombin inhibitor | Preferred over warfarin in **non-valvular AF**; renally dosed; reversal — **idarucizumab** (dabigatran), **andexanet alfa** (Xa inhibitors) |
+| **DOACs** (apixaban, rivaroxaban, edoxaban, dabigatran) | Factor Xa inhibitors; dabigatran is a direct thrombin inhibitor | • Preferred over warfarin in **non-valvular AF**<br>• renally dosed<br>• reversal — **idarucizumab** (dabigatran), **andexanet alfa** (Xa inhibitors) |
 | **Warfarin** | Vitamin K epoxide reductase inhibition (factors II, VII, IX, X, protein C/S) | For mechanical valves and moderate–severe mitral stenosis; INR monitoring; huge interaction list |
-| **Statins** | HMG-CoA reductase inhibition | High-intensity after ischaemic stroke; myalgia/myopathy, deranged LFTs; **avoid routinely after intracerebral haemorrhage unless the indication is strong** |
+| **Statins** | HMG-CoA reductase inhibition | • High-intensity after ischaemic stroke<br>• myalgia/myopathy, deranged LFTs<br>• **avoid routinely after intracerebral haemorrhage unless the indication is strong** |
 | **Nimodipine** | Dihydropyridine calcium channel blocker with cerebral selectivity | **Oral 60 mg 4-hourly for 21 days after aneurysmal SAH** — reduces delayed cerebral ischaemia |
 
 ##### 12.3 Headache pharmacology
+
+**The short version**
+
+- Triptans are 5-HT₁B/₁D agonists — **contraindicated in IHD, uncontrolled hypertension, previous stroke and hemiplegic/basilar migraine**; cap at ≤10 days/month.
+- Gepants and ditans ⚑ avoid vasoconstriction, so they are the option in cardiovascular disease; CGRP mAbs come after ≥3 failed preventives.
+- Preventives: propranolol (not in asthma), amitriptyline, topiramate (teratogenic), candesartan; botulinum toxin A for **chronic migraine**.
+- Cluster has its own kit (high-flow O₂, SC sumatriptan, verapamil with ECG). **Metoclopramide and prochlorperazine cause acute dystonia and are contraindicated in Parkinson's.**
 
 | Class | Examples | Mechanism | Cautions |
 |---|---|---|---|
@@ -60,6 +81,13 @@ updated: "2026-08-14"
 
 ##### 12.4 Parkinson's disease pharmacology
 
+**The short version**
+
+- Dopaminergic drugs treat symptoms only, and **must never be stopped abruptly** — akinetic crisis or NMS-like syndrome.
+- Levodopa is **most effective** and first-line when motor symptoms affect quality of life; the price is later fluctuations and dyskinesias, earlier in younger patients.
+- Dopamine agonists trade dyskinesia for **impulse control disorders**, hallucinations and sudden-onset sleep; MAO-B and COMT inhibitors are adjuncts.
+- Amantadine for levodopa-induced dyskinesia; **quetiapine or clozapine only** for psychosis; rivastigmine for dementia.
+
 **Principle:** dopaminergic drugs treat motor symptoms; they do not slow the disease. **Never stop them abruptly** — the risk is an akinetic crisis or neuroleptic malignant-like syndrome (a common inpatient error when patients are nil by mouth; use a patch or nasogastric route).
 
 | Class | Examples | Notes |
@@ -69,7 +97,7 @@ updated: "2026-08-14"
 | **MAO-B inhibitors** | Selegiline, rasagiline, safinamide | Mild benefit; useful early or as adjunct; interaction risk with SSRIs/SNRIs (serotonin syndrome) |
 | **COMT inhibitors** | Entacapone, opicapone, tolcapone | Extend the levodopa "on" time; harmless orange urine; tolcapone is hepatotoxic |
 | **Amantadine** | NMDA antagonist + dopaminergic | Mainly for **levodopa-induced dyskinesia**; livedo reticularis, confusion, ankle oedema |
-| **Anticholinergics** | Trihexyphenidyl, procyclidine | Only for tremor in younger patients; **avoid in the elderly (confusion)**; useful for acute drug-induced dystonia |
+| **Anticholinergics** | Trihexyphenidyl, procyclidine | • Only for tremor in younger patients<br>• **avoid in the elderly (confusion)**<br>• useful for acute drug-induced dystonia |
 | **Device-assisted therapy** ⚑ | Apomorphine infusion, **levodopa–carbidopa intestinal gel**, **subcutaneous foslevodopa/foscarbidopa**, **deep brain stimulation (subthalamic nucleus or globus pallidus interna)** | For refractory fluctuations; DBS requires good levodopa responsiveness and no significant dementia |
 
 **Non-motor prescribing:** orthostatic hypotension — fludrocortisone or midodrine; psychosis — **quetiapine or clozapine only** (never haloperidol/risperidone); dementia — **rivastigmine**; drooling — glycopyrronium; REM sleep behaviour disorder — melatonin or clonazepam; constipation — laxatives; depression — SSRIs with awareness of the MAO-B interaction.
@@ -77,6 +105,13 @@ updated: "2026-08-14"
 **Drugs that cause or worsen parkinsonism:** typical and atypical antipsychotics, **metoclopramide and prochlorperazine**, sodium valproate, lithium, tetrabenazine, calcium channel blockers (flunarizine, cinnarizine).
 
 ##### 12.5 MS disease-modifying therapies
+
+**The short version**
+
+- **The examinable pattern is drug → signature risk**, not efficacy ranking.
+- Natalizumab → PML (JC virus status stratifies); fingolimod → first-dose bradycardia and rebound on withdrawal; alemtuzumab → secondary autoimmunity for 5 years.
+- Anti-CD20 is **the only class licensed for primary progressive MS**; interferon beta and glatiramer are the safest in pregnancy.
+- Relapse = methylprednisolone 500 mg oral for 5 days or IV 1 g for 3 days; symptomatic drugs are a separate list from DMTs.
 
 (Full table in Section 8.2.) **The examinable pattern is drug → signature risk:**
 
@@ -95,20 +130,34 @@ updated: "2026-08-14"
 
 ##### 12.6 Dementia pharmacology
 
+**The short version**
+
+- Cholinesterase inhibitors for mild-to-moderate Alzheimer's and for **DLB and Parkinson's disease dementia** (rivastigmine best evidence) — watch **bradycardia and syncope**.
+- Memantine (NMDA antagonist) for moderate-to-severe disease or cholinesterase intolerance.
+- Anti-amyloid mAbs ⚑ need confirmed amyloid and serial MRI for **ARIA**; NICE found them not cost-effective, TGA registered lecanemab (Sept 2025) for ApoE ε4 non-carriers and heterozygotes only.
+- **Not indicated** in frontotemporal or pure vascular dementia; antipsychotics are **contraindicated in DLB**; review anticholinergic burden in everyone.
+
 | Drug | Mechanism | Indication and cautions |
 |---|---|---|
-| **Donepezil, rivastigmine, galantamine** | Acetylcholinesterase inhibition | Mild-to-moderate Alzheimer's; also **DLB and Parkinson's disease dementia** (rivastigmine has the best evidence). Adverse effects: **bradycardia and syncope (check pulse/ECG), GI upset, vivid dreams, urinary symptoms**; caution with asthma/COPD and peptic ulcer |
+| **Donepezil, rivastigmine, galantamine** | Acetylcholinesterase inhibition | • Mild-to-moderate Alzheimer's<br>• also **DLB and Parkinson's disease dementia** (rivastigmine has the best evidence). Adverse effects: **bradycardia and syncope (check pulse/ECG), GI upset, vivid dreams, urinary symptoms**<br>• caution with asthma/COPD and peptic ulcer |
 | **Memantine** | NMDA receptor antagonist | Moderate-to-severe Alzheimer's, or intolerance of cholinesterase inhibitors; better tolerated |
-| **Lecanemab, donanemab** ⚑ | Anti-amyloid monoclonal antibodies | Early symptomatic Alzheimer's with confirmed amyloid; **ARIA (oedema and haemorrhage) requiring serial MRI**; higher risk in **ApoE ε4 homozygotes**. MHRA licensed but **NICE found them not cost-effective for the NHS**; **TGA registered lecanemab in September 2025 for ApoE ε4 non-carriers and heterozygotes only** |
+| **Lecanemab, donanemab** ⚑ | Anti-amyloid monoclonal antibodies | • Early symptomatic Alzheimer's with confirmed amyloid<br>• **ARIA (oedema and haemorrhage) requiring serial MRI**<br>• higher risk in **ApoE ε4 homozygotes**. MHRA licensed but **NICE found them not cost-effective for the NHS**<br>• **TGA registered lecanemab in September 2025 for ApoE ε4 non-carriers and heterozygotes only** |
 | Antipsychotics | D2 blockade | Only for severe distress or risk; increase stroke and mortality; **contraindicated in DLB** |
 
 **Not indicated:** cholinesterase inhibitors and memantine in **frontotemporal dementia** or pure vascular dementia. Review and reduce **anticholinergic burden** (oxybutynin, amitriptyline, older antihistamines) in every patient with cognitive impairment.
 
 ##### 12.7 Neuromuscular pharmacology
 
+**The short version**
+
+- MG symptomatic control is pyridostigmine (overdose → **cholinergic crisis**); prednisolone is the backbone but **start low — rapid initiation transiently worsens weakness**.
+- Azathioprine: **check TPMT before starting**, and **never with allopurinol**.
+- Newer classes ⚑: complement inhibitors (**meningococcal vaccination mandatory**) and FcRn blockers; rituximab is especially effective in **MuSK-positive** MG.
+- Rescue therapy is IVIg or plasma exchange (equivalent in GBS and MG crisis); amifampridine for LEMS; riluzole for MND.
+
 | Drug | Mechanism | Notes |
 |---|---|---|
-| **Pyridostigmine** | Acetylcholinesterase inhibitor (does not cross the BBB) | Symptomatic in MG; muscarinic effects — cramps, diarrhoea, salivation (can be blunted with propantheline); **overdose → cholinergic crisis** |
+| **Pyridostigmine** | Acetylcholinesterase inhibitor (does not cross the BBB) | • Symptomatic in MG<br>• muscarinic effects — cramps, diarrhoea, salivation (can be blunted with propantheline)<br>• **overdose → cholinergic crisis** |
 | **Prednisolone** | Immunosuppression | Backbone of MG treatment; **start low and titrate — rapid initiation can transiently worsen weakness** |
 | **Azathioprine** | Purine synthesis inhibition | **Check TPMT before starting**; monitor FBC/LFT; **never with allopurinol** (fatal marrow suppression) |
 | Mycophenolate, methotrexate, ciclosporin, tacrolimus | Various | Steroid-sparing alternatives |
@@ -128,6 +177,13 @@ Practical points: start low and titrate; explain a realistic goal (30–50% pain
 
 ##### 12.9 Immunotherapy in neurology
 
+**The short version**
+
+- High-dose steroids are the backbone across MS relapse, GCA, CIDP, myositis, encephalitis and vasculitis — and are **never stopped abruptly**.
+- IVIg and plasma exchange are interchangeable rescue in GBS and MG crisis; IVIg risks thrombosis, renal failure, aseptic meningitis and IgA-deficiency anaphylaxis.
+- Rituximab and biologics need **hepatitis B screening**; tocilizumab is steroid-sparing in GCA but **masks CRP**.
+- The monitoring burden of each modality is what gets asked, not the mechanism.
+
 | Modality | Where it is used | Watch for |
 |---|---|---|
 | **High-dose corticosteroids** | MS relapse, GCA, CIDP, myositis, autoimmune encephalitis, vasculitis, cord compression oedema | Hyperglycaemia, mood change and psychosis, insomnia, infection, osteoporosis (bone protection), gastric protection, adrenal suppression — **never stop long-term steroids abruptly** |
@@ -137,6 +193,13 @@ Practical points: start low and titrate; explain a realistic goal (30–50% pain
 | **Tocilizumab** | Giant cell arteritis (steroid-sparing) | Masks CRP; GI perforation risk |
 
 ##### 12.10 Drug-induced neurological disease — a checklist to run in every unexplained case
+
+**The short version**
+
+- Run this list in every unexplained neurological presentation — the drug chart is the investigation.
+- Dopamine antagonists dominate the movement side: parkinsonism, acute dystonia/oculogyric crisis and tardive dyskinesia (**metoclopramide, prochlorperazine**, antipsychotics).
+- Neuropathy culprits: **isoniazid (give pyridoxine)**, metronidazole, nitrofurantoin, amiodarone, **vincristine/platinums/taxanes** — and **excess pyridoxine** itself.
+- Single-answer associations: ethambutol → optic neuropathy; tetracyclines/retinoids → IIH; valproate → hyperammonaemic encephalopathy; tramadol → serotonin syndrome and seizures.
 
 | Presentation | Culprits |
 |---|---|
@@ -158,6 +221,17 @@ Practical points: start low and titrate; explain a realistic goal (30–50% pain
 
 ##### Rapid-Recall Discriminators — Section 12
 
+**The short version**
+
+- Antiseizure drugs are asked as adverse effect → drug, and as interaction pairs (valproate/lamotrigine, inducers and contraception).
+- Stroke and headache recall centres on reversal agents, nimodipine for 21 days, and the triptan mechanism.
+- Parkinson's answers cluster around levodopa, impulse control disorders, amantadine, quetiapine/clozapine and **never stopping the drugs**.
+- Safety checks that carry marks: TPMT before azathioprine, no allopurinol, meningococcal vaccine before eculizumab, pyridoxine with isoniazid.
+
+Taken in three passes — antiseizure, then stroke/headache/Parkinson's, then the rest.
+
+###### Antiseizure medications
+
 | Clue / question | Answer |
 |---|---|
 | Antiseizure drug with zero-order kinetics | Phenytoin |
@@ -170,6 +244,11 @@ Practical points: start low and titrate; explain a realistic goal (30–50% pain
 | What valproate does to lamotrigine levels | Raises them — halve the lamotrigine dose |
 | What pregnancy does to lamotrigine levels | Lowers them — increase the dose |
 | Enzyme-inducing antiseizure drugs | Carbamazepine, phenytoin, phenobarbital, primidone (topiramate at high dose) |
+
+###### Stroke, headache and Parkinson's
+
+| Clue / question | Answer |
+|---|---|
 | Reversal agent for dabigatran | Idarucizumab |
 | Reversal agent for apixaban/rivaroxaban | Andexanet alfa (or PCC) |
 | Drug given for 21 days after aneurysmal SAH | Nimodipine |
@@ -181,6 +260,11 @@ Practical points: start low and titrate; explain a realistic goal (30–50% pain
 | Antipsychotics permissible in Parkinson's psychosis | Quetiapine or clozapine |
 | Antiemetics contraindicated in Parkinson's | Metoclopramide and prochlorperazine (use domperidone or ondansetron) |
 | What must never happen to Parkinson's medication in hospital | Abrupt stopping or missed doses |
+
+###### MS, neuromuscular, pain and drug-induced disease
+
+| Clue / question | Answer |
+|---|---|
 | MS drug associated with PML | Natalizumab |
 | MS drug causing first-dose bradycardia | Fingolimod |
 | MS drug causing secondary autoimmunity | Alemtuzumab |
@@ -209,6 +293,13 @@ BNF and the Australian Medicines Handbook — doses, cautions and monitoring. NI
 
 ##### A1. Sudden focal neurological deficit
 
+**The short version**
+
+- Territory sorts the deficit: leg > arm = ACA; face and arm > leg = MCA; isolated hemianopia = PCA; dense equal weakness with normal higher function = lacune.
+- **Crossed signs = brainstem.** Headache *then* deficit = haemorrhage. Neck pain + Horner's in a young adult = dissection.
+- Non-vascular mimics: Todd's paresis after a seizure; migraine aura marching over 20–30 min.
+- Two pattern giveaways — haemorrhagic infarct crossing arterial territories = venous sinus thrombosis; "man-in-a-barrel" after arrest = watershed.
+
 | Additional feature | Diagnosis |
 |---|---|
 | Leg weaker than arm, abulia, incontinence | ACA territory infarct |
@@ -225,6 +316,13 @@ BNF and the Australian Medicines Handbook — doses, cautions and monitoring. NI
 | "Man-in-a-barrel" after cardiac arrest | Watershed infarction |
 
 ##### A2. Headache
+
+**The short version**
+
+- Thunderclap = SAH until excluded; **recurrent** thunderclaps postpartum or on serotonergic drugs = RCVS.
+- Behaviour discriminates: migraine lies still, cluster paces; indometacin abolishes paroxysmal hemicrania.
+- Posture splits pressure: worse lying flat = raised ICP; worse standing = low CSF pressure/leak.
+- Fever changes everything — headache + neck stiffness = meningitis; add confusion, behaviour change or seizure = encephalitis.
 
 | Additional feature | Diagnosis |
 |---|---|
@@ -244,6 +342,13 @@ BNF and the Australian Medicines Handbook — doses, cautions and monitoring. NI
 
 ##### A3. Acute weakness
 
+**The short version**
+
+- Reflexes and sensory level first: ascending areflexic over days = GBS; sensory level = cord compression (**MRI now**); asymmetric flaccid legs with saddle anaesthesia = cauda equina.
+- NMJ triad: fatigable with **spared pupils** = MG; descending with **fixed dilated pupils** = botulism; improves briefly with use, dry mouth = LEMS (think SCLC).
+- Proximal symmetrical with raised CK and no sensory loss = inflammatory myopathy.
+- Wasting + fasciculations + brisk reflexes with no sensory signs = motor neurone disease.
+
 | Additional feature | Diagnosis |
 |---|---|
 | Ascending, symmetrical, areflexic, over days, back pain | Guillain–Barré syndrome |
@@ -260,6 +365,13 @@ BNF and the Australian Medicines Handbook — doses, cautions and monitoring. NI
 
 ##### A4. Altered consciousness / confusion
 
+**The short version**
+
+- Attention is the discriminator: fluctuating over hours–days = delirium; preserved early with months–years decline = dementia.
+- Pupils localise again — pinpoint reactive, unilateral fixed dilated (uncal), or reactive with roving eyes and asterixis (metabolic).
+- Fever + confusion + temporal MRI change = HSV encephalitis; psychosis → seizures → orofacial dyskinesias in a young woman = anti-NMDAR.
+- Not waking >30 min after a convulsion = non-convulsive status epilepticus.
+
 | Additional feature | Diagnosis |
 |---|---|
 | Fluctuating attention over hours–days, worse at night | Delirium |
@@ -275,6 +387,13 @@ BNF and the Australian Medicines Handbook — doses, cautions and monitoring. NI
 
 ##### A5. Gait and balance disturbance
 
+**The short version**
+
+- Separate the three ataxias: parkinsonian (shuffling, festinant), cerebellar (broad-based, falls **towards** the lesion), sensory (stamping, **Romberg positive**).
+- Structural patterns: circumduction = hemiplegic; scissoring = cord; high-stepping = foot drop; waddling = proximal myopathy.
+- Magnetic gait with incontinence and cognitive decline = **normal pressure hydrocephalus** — the treatable one.
+- Inconsistency that improves with distraction = functional gait disorder.
+
 | Gait/feature | Diagnosis |
 |---|---|
 | Small shuffling steps, reduced arm swing, festination | Parkinsonism |
@@ -289,6 +408,13 @@ BNF and the Australian Medicines Handbook — doses, cautions and monitoring. NI
 
 ##### A6. Vertigo and dizziness
 
+**The short version**
+
+- Duration is the first question: seconds and positional = BPPV; minutes–hours episodic = Ménière's; days and continuous = neuritis or labyrinthitis.
+- Hearing separates the continuous ones: intact = vestibular neuritis; lost = labyrinthitis (or AICA stroke).
+- **Cannot stand or walk, with a normal head impulse test = posterior circulation stroke.**
+- Chronic progressive unilateral hearing loss with tinnitus = vestibular schwannoma.
+
 | Duration and trigger | Diagnosis |
 |---|---|
 | Seconds, on rolling over or looking up | BPPV — Dix–Hallpike, then Epley |
@@ -300,6 +426,13 @@ BNF and the Australian Medicines Handbook — doses, cautions and monitoring. NI
 | Chronic, progressive unilateral hearing loss and tinnitus | Vestibular schwannoma |
 
 ##### A7. Sensory disturbance
+
+**The short version**
+
+- Distribution names the level: glove-and-stocking = polyneuropathy; dermatomal with a lost reflex = root; sensory level = cord.
+- Dissociated loss is the high-yield group — "cape" (syringomyelia), crossed face/body (lateral medullary), Brown-Séquard (ipsilateral proprioception, contralateral pain/temperature).
+- Vibration and proprioception loss with extensor plantars = subacute combined degeneration (B12).
+- Pain/temperature loss with **preserved vibration**, sudden and painful = anterior spinal artery infarction.
 
 | Pattern | Diagnosis |
 |---|---|
@@ -315,6 +448,13 @@ BNF and the Australian Medicines Handbook — doses, cautions and monitoring. NI
 | Face and body dissociated (crossed) | Lateral medullary syndrome |
 
 ##### A8. Transient episodes
+
+**The short version**
+
+- Positive stereotyped phenomena with post-ictal confusion and a **lateral** tongue bite = seizure; prodromal pallor/nausea with rapid recovery = syncope.
+- Aura marches over 20–30 min; TIA is instant, **negative** and vascular; a painless curtain over one eye = amaurosis fugax.
+- Prolonged, waxing and waning with eyes **forcibly closed** = functional/dissociative seizure.
+- Two specifics: loss of tone with laughter and preserved awareness = cataplexy; isolated dense amnesia with repetitive questioning = transient global amnesia.
 
 | Feature | Diagnosis |
 |---|---|
@@ -333,6 +473,17 @@ BNF and the Australian Medicines Handbook — doses, cautions and monitoring. NI
 
 ##### B1. Pathognomonic and near-pathognomonic clues
 
+**The short version**
+
+- These are single-answer clues — recognise one and the question is over.
+- Haematoma shapes: biconvex not crossing sutures with a lucid interval = extradural; crescentic crossing sutures in the elderly = subdural.
+- Named brain signs: butterfly across the corpus callosum = GBM; dural tail = meningioma; "hummingbird" midbrain = PSP; "hot cross bun" pons = MSA.
+- Skin and eye signs carry whole syndromes — Kayser–Fleischer, Lisch nodules, ash-leaf macules, port-wine stain, Gottron's papules.
+
+Split by where the clue is found — on imaging/CSF, then on the patient.
+
+###### Imaging, CSF and neuroanatomical signatures
+
 | Clue | Diagnosis |
 |---|---|
 | Dawson's fingers on FLAIR | Multiple sclerosis |
@@ -347,6 +498,11 @@ BNF and the Australian Medicines Handbook — doses, cautions and monitoring. NI
 | Cortical ribboning on DWI + periodic sharp waves | Sporadic CJD |
 | "Hummingbird" midbrain sign | Progressive supranuclear palsy |
 | "Hot cross bun" pons | Multiple system atrophy |
+
+###### Clinical, skin and eye signatures
+
+| Clue | Diagnosis |
+|---|---|
 | Kayser–Fleischer rings | Wilson's disease |
 | Lisch nodules + café-au-lait macules | Neurofibromatosis type 1 |
 | Ash-leaf macules + infantile spasms | Tuberous sclerosis |
@@ -360,6 +516,17 @@ BNF and the Australian Medicines Handbook — doses, cautions and monitoring. NI
 
 ##### B2. Antibodies and their diseases
 
+**The short version**
+
+- Most antibody questions are really asking for the **tumour link**.
+- NMJ: AChR (thymoma), MuSK (bulbar-predominant), **P/Q VGCC → small cell lung cancer**.
+- Demyelinating: AQP4 = NMOSD, MOG = MOGAD/recurrent ADEM, unmatched oligoclonal bands = MS.
+- Paraneoplastic classics: **NMDAR–ovarian teratoma**, **Yo–breast/ovary**, Hu–SCLC, Ri–opsoclonus–myoclonus.
+
+Split into NMJ/demyelinating antibodies, then encephalitis, paraneoplastic and neuropathy antibodies.
+
+###### Neuromuscular junction and demyelinating disease
+
 | Antibody | Disease | Tumour link |
 |---|---|---|
 | Anti-acetylcholine receptor | Myasthenia gravis (~85% generalised) | Thymoma |
@@ -368,6 +535,11 @@ BNF and the Australian Medicines Handbook — doses, cautions and monitoring. NI
 | **AQP4-IgG** | NMOSD | Rarely paraneoplastic |
 | **MOG-IgG** | MOGAD / recurrent ADEM / optic neuritis | — |
 | CSF oligoclonal bands (unmatched) or kappa free light chains | Multiple sclerosis | — |
+
+###### Encephalitis, paraneoplastic and neuropathy antibodies
+
+| Antibody | Disease | Tumour link |
+|---|---|---|
 | **Anti-NMDA receptor** | Encephalitis with psychosis and dyskinesias | **Ovarian teratoma** |
 | LGI1 | Limbic encephalitis, faciobrachial dystonic seizures | Rare |
 | CASPR2 | Morvan syndrome, neuromyotonia | Thymoma |
@@ -380,6 +552,13 @@ BNF and the Australian Medicines Handbook — doses, cautions and monitoring. NI
 | Anti-HMGCR | Statin-associated necrotising myopathy | — |
 
 ##### B3. CSF patterns
+
+**The short version**
+
+- Bacterial = neutrophils >1000, protein >1 g/L, glucose ratio <0.4; TB = lymphocytes, **very high** protein, **low** glucose, subacute.
+- Viral = lymphocytes with normal glucose; MS = unmatched oligoclonal bands; GBS/CIDP = high protein with normal cell count.
+- Blood in the CSF: xanthochromia with constant red cells = SAH; falling count and no xanthochromia = traumatic tap.
+- Pressure-only answers: >25 cmH₂O with normal constituents = IIH; very high pressure with cryptococcal antigen = cryptococcal meningitis.
 
 | Pattern | Diagnosis |
 |---|---|
@@ -396,6 +575,17 @@ BNF and the Australian Medicines Handbook — doses, cautions and monitoring. NI
 
 ##### B4. Eponyms and buzzwords
 
+**The short version**
+
+- Eponyms are free marks — each maps to exactly one lesion or phenomenon.
+- MS cluster: Lhermitte's, Uhthoff's, Charcot's neurological triad.
+- Raised ICP cluster: Cushing's triad, Kernohan's notch, Foster Kennedy, Terson's.
+- Bedside signs: Froment's (ulnar), Hoover's (functional), Gowers' (proximal myopathy), Romberg (proprioceptive, **not** cerebellar), Marcus Gunn (RAPD).
+
+Central and brainstem eponyms first, then the bedside signs.
+
+###### Central, brainstem and cord eponyms
+
 | Term | Meaning |
 |---|---|
 | **Lhermitte's** | Electric shock down the spine on neck flexion — cervical cord (MS, B12, compression) |
@@ -409,6 +599,11 @@ BNF and the Australian Medicines Handbook — doses, cautions and monitoring. NI
 | **Déjerine–Roussy** | Thalamic central post-stroke pain |
 | **Brown-Séquard** | Cord hemisection |
 | **Foster Kennedy** | Ipsilateral optic atrophy + contralateral papilloedema (frontal mass) |
+
+###### Bedside signs and named phenomena
+
+| Term | Meaning |
+|---|---|
 | **Parsonage–Turner** | Neuralgic amyotrophy |
 | **Froment's** | Ulnar nerve — thumb IP flexion when gripping paper |
 | **Hoover's** | Positive sign of functional leg weakness |
@@ -420,6 +615,13 @@ BNF and the Australian Medicines Handbook — doses, cautions and monitoring. NI
 | **Charcot's neurological triad** | Nystagmus, intention tremor, scanning speech (MS) |
 
 ##### B5. Genetics
+
+**The short version**
+
+- Repeat expansions: *HTT* **CAG** (AD, anticipation), *FXN* **GAA** (**AR**), *DMPK* **CTG** (AD).
+- The autosomal **recessive** exceptions on this list are Friedreich's and Wilson's — the rest are AD or X-linked.
+- Chromosome pairs worth reciting: NF1 = **17**, NF2 = **22**; TSC1 = 9q, TSC2 = 16p.
+- MND/FTD overlap = *C9orf72*; Dravet = *SCN1A*; Duchenne/Becker = X-linked *DMD*.
 
 | Disease | Genetics |
 |---|---|
@@ -437,6 +639,13 @@ BNF and the Australian Medicines Handbook — doses, cautions and monitoring. NI
 | Dravet syndrome | *SCN1A* |
 
 ##### B6. Localising signs at a glance
+
+**The short version**
+
+- Facial weakness: forehead **spared** = UMN, whole hemiface = LMN.
+- Deviation rules: tongue and jaw deviate **towards** the lesion, uvula **away** from it.
+- Eyes deviate **towards** the lesion in a cortical stroke and **away** in a seizure; cerebellar nystagmus beats towards the lesion.
+- Field defects localise the radiation — bitemporal (chiasm), superior (temporal/Meyer's loop), inferior (parietal); an isolated VI palsy may be false-localising.
 
 | Sign | Localisation |
 |---|---|
@@ -457,6 +666,17 @@ BNF and the Australian Medicines Handbook — doses, cautions and monitoring. NI
 
 #### Part C — Confusable pairs, reduced to one separating feature
 
+**The short version**
+
+- Each pair is reduced to **one** separating feature — learn the feature, not both diseases again.
+- The recurring separators are: which modality is spared, whether it is symmetrical, and the time course.
+- Single findings that settle a pair on their own: forehead sparing, pupils, lateral tongue bite, xanthochromia, weak inversion.
+- Where imaging is the only discriminator (ischaemic vs haemorrhagic stroke), saying so *is* the answer.
+
+Grouped into four passes.
+
+##### Vascular, headache and transient episodes
+
 | Pair | The one thing that separates them |
 |---|---|
 | **Ischaemic vs haemorrhagic stroke** | Imaging only — clinically indistinguishable (headache and vomiting *hint* at haemorrhage) |
@@ -468,6 +688,11 @@ BNF and the Australian Medicines Handbook — doses, cautions and monitoring. NI
 | **Cluster vs paroxysmal hemicrania** | Indometacin abolishes paroxysmal hemicrania |
 | **SAH vs traumatic tap** | Xanthochromia and constant red-cell count = SAH |
 | **Extradural vs subdural** | Biconvex, does not cross sutures, lucid interval = extradural |
+
+##### Cognition, movement disorders and demyelination
+
+| Pair | The one thing that separates them |
+|---|---|
 | **Delirium vs dementia** | Attention: impaired and fluctuating = delirium |
 | **DLB vs Parkinson's disease dementia** | The 1-year rule |
 | **Parkinson's vs essential tremor** | Rest and asymmetric with bradykinesia = Parkinson's; postural, symmetric, alcohol-responsive = essential |
@@ -477,6 +702,11 @@ BNF and the Australian Medicines Handbook — doses, cautions and monitoring. NI
 | **Parkinson's vs drug-induced** | Symmetry and a drug history = drug-induced |
 | **MS vs NMOSD** | Longitudinally extensive myelitis and severe bilateral optic neuritis = NMOSD (check AQP4) |
 | **Optic neuritis vs GCA-related visual loss** | Age, pain on eye movement and recovery = optic neuritis; painless sudden loss over 50 with jaw claudication = GCA |
+
+##### Neuromuscular junction, nerve, cord and muscle
+
+| Pair | The one thing that separates them |
+|---|---|
 | **Myasthenia vs Lambert–Eaton** | Fatigues with use = MG; briefly improves with use, hyporeflexic, dry mouth = LEMS |
 | **Myasthenia vs botulism** | Pupils: spared in MG, **dilated** in botulism |
 | **Myasthenic vs cholinergic crisis** | Miosis, salivation, bradycardia, fasciculations = cholinergic |
@@ -489,6 +719,11 @@ BNF and the Australian Medicines Handbook — doses, cautions and monitoring. NI
 | **Central cord vs anterior cord syndrome** | Arms worse than legs = central cord |
 | **Myopathy vs neuropathy** | Proximal + no sensory loss + raised CK = myopathy |
 | **Polymyositis vs inclusion body myositis** | Asymmetric finger flexor/quadriceps weakness, steroid-resistant, over 50 = IBM |
+
+##### Vertigo, infection, pressure and degenerative mimics
+
+| Pair | The one thing that separates them |
+|---|---|
 | **Peripheral vs central vertigo** | HINTS: a **normal** head impulse test with new vertigo = central |
 | **BPPV vs vestibular neuritis** | Seconds and positional = BPPV; days and continuous = neuritis |
 | **Meningitis vs encephalitis** | Altered brain function (behaviour, cognition, seizures) = encephalitis |
@@ -515,16 +750,23 @@ BNF and the Australian Medicines Handbook — doses, cautions and monitoring. NI
 
 ### Neurology (ANU) — multiple sclerosis — Neuropharmacology and Key Medications
 
+**The short version**
+
+- Chronic inflammatory demyelination of CNS white matter — cord, brainstem and optic nerve; W:M 2:1, onset 20–40 y/o.
+- Four courses: **RRMS 65%**, SPMS, PPMS (poor prognosis, poor response to therapy), PRMS.
+- Diagnosis = **McDonald criteria** — dissemination in **time and space**; MRI T2 hyperintensities (**Dawson's fingers**), CSF oligoclonal bands in 90%, delayed but preserved evoked potentials.
+- Acute relapse = methylprednisolone (max twice a year), then DMTs; symptom control is organised by problem — spasticity, bladder, fatigue, tremor, pain.
+
 | Definition | Chronic inflammatory disease of the CNS, characterised with relapsing remitting/progressive neurological Sx due to inflammation, demyelination + axonal degenerationMostly in cord, brainstem and optic nerve lesions |
 | --- | --- |
 | Epidemiology | W:M=2:1, typically presents between 20- 40 y/o |
-| Pathology | CARDINAL FEATURES: plaques of demyelination in CNS white matter (and sometimes grey matter)INFLAMMATORY: infection/metabolic stress 🡪 activated lymphocytes in periphery 🡪 T cells attach to receptor on endothelial cells 🡪 CNS 🡪 cytokines 🡪 toxicity + macrophages 🡪 demyelinationDEGENERATION: demyelination 🡪 disrupts axonal support 🡪 axonal degeneration and lossChronically, scarring with glial changes and axonal loss occurs |
-| Classification | ![](notes/images/neurology-anu/img032.jpg) RELAPSING-REMITTING (RRMS): 65%; multiple discrete attacks, improvement between episodes being variable; may become secondary progressiveSECONDARY PROGRESSIVE (SPMS): following a relapsing-remitting pattern for years, a patient may cease having defined relapses, although deficits may slowly worsen.PRIMARY PROGRESSIVE (PPMS): associated with an inexorable ↓ in function over time without any of the typical relapses.PROGRESSIVE-RELAPSING (PRMS): distinct relapse episodes with or without resolution of acute symptoms between attacks |
+| Pathology | • CARDINAL FEATURES: plaques of demyelination in CNS white matter (and sometimes grey matter)<br>• INFLAMMATORY: infection/metabolic stress 🡪 activated lymphocytes in periphery 🡪 T cells attach to receptor on endothelial cells 🡪 CNS 🡪 cytokines 🡪 toxicity + macrophages 🡪 demyelination<br>• DEGENERATION: demyelination 🡪 disrupts axonal support 🡪 axonal degeneration and loss<br>• Chronically, scarring with glial changes and axonal loss occurs |
+| Classification | ![](notes/images/neurology-anu/img032.jpg)<br>• RELAPSING-REMITTING (RRMS): 65%; multiple discrete attacks, improvement between episodes being variable; may become secondary progressive<br>• SECONDARY PROGRESSIVE (SPMS): following a relapsing-remitting pattern for years, a patient may cease having defined relapses, although deficits may slowly worsen.<br>• PRIMARY PROGRESSIVE (PPMS): associated with an inexorable ↓ in function over time without any of the typical relapses.<br>• PROGRESSIVE-RELAPSING (PRMS): distinct relapse episodes with or without resolution of acute symptoms between attacks |
 | Aetiology | GENETIC: polygenetic, particularly susceptive is the HLA DRB1; FHxENVIRONMENTAL: ↓ sun exposure, ↓ vitamin D stores, viruses (e.g. EBV) |
-| Diagnosis | MCDONALD CRITERIADissemination in time: ≥ 2 attacks, simultaneous asymptomatic gadolinium-enhancing and non-enhancing MRI lesions at any time, or new T2/gadolinium-enhancing lesion(s) on follow-up MRIDissemination in space: ≥1 T2 lesions on MRI in 2/4 CNS regions (periventricular, juxtacortical, infratentorial, spinal cord) or developing a second attack that implicates a different CNS region |
-| Presentation | ≥ 2 distinct episodes of demyelination, typically insidious onsetTypical presentation: vertigo, diplopia, nystagmusSENSORY LOSS of vibration, proprioception, pain + light touch (not conform to dermatomal map)Numbness, pins &amp; needles, ↓ vibration sense, facial pain, dysphagiaEYE Optic neuritis: commonly unilateral eye pain, worse on movement and in heat (Uhthoff’s sign)Other: blurry vision, visual loss, diplopia Marcus Gun pupil (relative afferent pupillary defect), papillitis (optic disc swelling), optic atrophy, nystagmus FATIGUEBOWEL/BLADDER/SEXUAL DYSFUNCTIONPAIN: trigeminal neuralgia, Lhermitte’s sign (electric shock sensation radiating down the back with neck flexion), back pain, tonic spasms, heightened sensitivityUMN SIGNSVERTIGOCEREBELLAR: gait, discoordination, dysarthria, dysmetria, tremors, dysdiadochokinesiaDEPRESSION and COGNITIVE DYSFUNCTIONSPMS: classically weakness of legs with cerebellar impairments in armsUncommon symptoms: visual field defects, aphasia, apraxia, progressive hemiparesis |
-| MS Eponyms | Devic’s syndrome: neuromyelitis opticaLhermitte’s signUhthoff’s phenomenonCharles Bonnett syndrome (rare): ↓ acuity/temporary blindness, complex visual hallucinationsPulfrich effect: unequal eye latencies 🡪 disorientationArgyll Robertson pupil: pupil constricted, unreactive to light, reacts to accomodation |
-| Investigations | Diagnosis: requiring dissemination of CNS-demyelinating lesions in both space and timeMRI: demyelinated plaques, appearing as hyperintense lesions on T2-weighted MRIActive lesions- enhancement with gadoliniumIn typical locations (four aforementioned)Dawson’s fingers: periventricular lesions extending into corpus callosumif MRI inconclusive,CSF: oligoclonal bands in 90%,↑IgG concentrationEvoked potentials (visual/auditory/somatosensory): delayed but well-preserved wave formsBlood tests: exclude other inflammatory disorders ![](notes/images/neurology-anu/img033.jpg) MRI: FLAIR transverse image shows three periventricular white matter hyperintensities, and one subcortical hyperintensity in the frontal lobe (arrows) |
-| Management | LIFESTYLE AND SOCIAL: multidisciplinary team, exercise, smoking cessation, avoiding stressors, support groups, psychosocial issuesFIRST/ACUTE ATTACKS: glucocorticoids (first-line; methylprednisolone 0.5-1g/24h IV/PO for 2-5d; use maximum twice/year), plasma exchange (second-line)DISEASE MODIFYING DRUGS: ↓ relapse, ↓ progression, ↓ speed of MRI lesion accumulationFor relapsing-remitting MS: Deimethyl fumarate for mild-mod; monoclonal antibodies (alemtuzumab, natalizumab) SYMPTOM CONTROLSpasticity: baclofen (GABA agonist)/gabapentin (first line); tizanidine/dantrolene (second line); benzodiazepines (third line)Urgency/frequency: self-catherization, anti-muscarinic (tolterodine), anticholinergicFatigue: amantadine, CBT, exerciseTremor: botulinum toxin injectionsPain: analgesics, carbamazepine (neuralgia) |
-| Complications | BROWN-SÉQUARD SYNDROME: due to MS/trauma involving complete hemisection of spinal cord 🡪 involves anterolateral + DCML pathways 🡪 ↓ motor function, light touch, proprioception, vibration of ipsilateral side below lesion + ↓ pain, temperature on contralateral side a few vertebral spaces below lesion DCML PATHWAY: ipsilateral ↓of tactile sensation and proprioceptionSPINOTHALAMAIC PATHWAY: contralateral ↓ of pain and temperature sensationDESCENDING MOTOR TRACTS: causing ipsilateral hemiparesis |
+| Diagnosis | • MCDONALD CRITERIA<br>• Dissemination in time: ≥ 2 attacks, simultaneous asymptomatic gadolinium-enhancing and non-enhancing MRI lesions at any time, or new T2/gadolinium-enhancing lesion(s) on follow-up MRI<br>• Dissemination in space: ≥1 T2 lesions on MRI in 2/4 CNS regions (periventricular, juxtacortical, infratentorial, spinal cord) or developing a second attack that implicates a different CNS region |
+| Presentation | • ≥ 2 distinct episodes of demyelination, typically insidious onset<br>• Typical presentation: vertigo, diplopia, nystagmus<br>• SENSORY LOSS of vibration, proprioception, pain + light touch (not conform to dermatomal map)<br>• Numbness, pins &amp; needles, ↓ vibration sense, facial pain, dysphagia<br>• EYE Optic neuritis: commonly unilateral eye pain, worse on movement and in heat (Uhthoff’s sign)<br>• Other: blurry vision, visual loss, diplopia<br>• Marcus Gun pupil (relative afferent pupillary defect), papillitis (optic disc swelling), optic atrophy, nystagmus<br>• FATIGUE<br>• BOWEL/BLADDER/SEXUAL DYSFUNCTION<br>• PAIN: trigeminal neuralgia, Lhermitte’s sign (electric shock sensation radiating down the back with neck flexion), back pain, tonic spasms, heightened sensitivity<br>• UMN SIGNS<br>• VERTIGO<br>• CEREBELLAR: gait, discoordination, dysarthria, dysmetria, tremors, dysdiadochokinesia<br>• DEPRESSION and COGNITIVE DYSFUNCTION<br>• SPMS: classically weakness of legs with cerebellar impairments in arms<br>• Uncommon symptoms: visual field defects, aphasia, apraxia, progressive hemiparesis |
+| MS Eponyms | • Devic’s syndrome: neuromyelitis optica<br>• Lhermitte’s sign<br>• Uhthoff’s phenomenon<br>• Charles Bonnett syndrome (rare): ↓ acuity/temporary blindness, complex visual hallucinations<br>• Pulfrich effect: unequal eye latencies 🡪 disorientation<br>• Argyll Robertson pupil: pupil constricted, unreactive to light, reacts to accomodation |
+| Investigations | • Diagnosis: requiring dissemination of CNS-demyelinating lesions in both space and time<br>• MRI: demyelinated plaques, appearing as hyperintense lesions on T2-weighted MRI<br>• Active lesions- enhancement with gadolinium<br>• In typical locations (four aforementioned)<br>• Dawson’s fingers: periventricular lesions extending into corpus callosum<br>• if MRI inconclusive,CSF: oligoclonal bands in 90%,↑IgG concentration<br>• Evoked potentials (visual/auditory/somatosensory): delayed but well-preserved wave forms<br>• Blood tests: exclude other inflammatory disorders ![](notes/images/neurology-anu/img033.jpg) MRI: FLAIR transverse image shows three periventricular white matter hyperintensities, and one subcortical hyperintensity in the frontal lobe (arrows) |
+| Management | • LIFESTYLE AND SOCIAL: multidisciplinary team, exercise, smoking cessation, avoiding stressors, support groups, psychosocial issues<br>• FIRST/ACUTE ATTACKS: glucocorticoids (first-line; methylprednisolone 0.5-1g/24h IV/PO for 2-5d; use maximum twice/year), plasma exchange (second-line)<br>• DISEASE MODIFYING DRUGS: ↓ relapse, ↓ progression, ↓ speed of MRI lesion accumulation<br>• For relapsing-remitting MS: Deimethyl fumarate for mild-mod; monoclonal antibodies (alemtuzumab, natalizumab)<br>• SYMPTOM CONTROL<br>• Spasticity: baclofen (GABA agonist)/gabapentin (first line); tizanidine/dantrolene (second line); benzodiazepines (third line)<br>• Urgency/frequency: self-catherization, anti-muscarinic (tolterodine), anticholinergic<br>• Fatigue: amantadine, CBT, exercise<br>• Tremor: botulinum toxin injections<br>• Pain: analgesics, carbamazepine (neuralgia) |
+| Complications | • BROWN-SÉQUARD SYNDROME: due to MS/trauma involving complete hemisection of spinal cord 🡪 involves anterolateral + DCML pathways 🡪 ↓ motor function, light touch, proprioception, vibration of ipsilateral side below lesion + ↓ pain, temperature on contralateral side a few vertebral spaces below lesion<br>• DCML PATHWAY: ipsilateral ↓of tactile sensation and proprioception<br>• SPINOTHALAMAIC PATHWAY: contralateral ↓ of pain and temperature sensation<br>• DESCENDING MOTOR TRACTS: causing ipsilateral hemiparesis |
 | Prognosis | GOOD PROGNOSTIC INDICATORS: female, young, RRMS, presenting with optic neuritis, low burden of disease on initial MRI, low rate of relapse early in disease  PPMS: poor prognosis, higher rates of disability, poor response to therapy |

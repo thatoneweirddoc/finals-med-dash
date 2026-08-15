@@ -32,6 +32,12 @@ Then **de-escalate**: narrow the regimen once culture and sensitivity results re
 
 #### 3.3 Urinary *(full clinical detail — Renal build Section 8)*
 
+**The short version**
+- *E. coli* dominates; uncomplicated cystitis gets a short oral Access-tier agent (nitrofurantoin, trimethoprim).
+- Pyelonephritis needs tissue penetration, not just urinary concentration — co-amoxiclav, ciprofloxacin, or ceftriaxone if severe.
+- Catheter-associated bacteriuria: **treat only if symptomatic** (exceptions: pregnancy, pre-urological procedure).
+- ⚑ ESBL *E. coli* is rising — escalate empirically if risk factors or prior failure, don't repeat the same class.
+
 | Syndrome | Typical organism | Empiric logic |
 |---|---|---|
 | Uncomplicated cystitis | *E. coli* (commonest by far) | Short-course oral agent (nitrofurantoin, trimethoprim) — AWaRe Access-tier first-line |
@@ -41,6 +47,12 @@ Then **de-escalate**: narrow the regimen once culture and sensitivity results re
 ⚑ ESBL-producing *E. coli* in UTI is rising (~15–20% in some populations) — if first-line therapy has failed or ESBL risk factors are present, escalate empirically rather than repeating the same class.
 
 #### 3.4 Skin and Soft Tissue
+
+**The short version**
+- Non-purulent cellulitis = Group A strep/*S. aureus* → flucloxacillin (cephalosporin or clindamycin if penicillin-allergic).
+- Purulent/abscess → **drainage is the treatment**, antibiotics adjunctive; add MRSA cover if risk factors.
+- ⚑ Nec fasc is a surgical emergency: pip-taz + **clindamycin** for toxin suppression, but debridement is what saves the patient.
+- Discriminator: pain out of proportion + rapid spread + crepitus/necrosis → don't wait for imaging, call surgery.
 
 | Syndrome | Organism | Empiric logic |
 |---|---|---|
@@ -78,6 +90,16 @@ Bacterial meningitis — empirical therapy **must not be delayed** for imaging o
 
 ##### Rapid-Recall Discriminators — Section 3
 
+**The short version**
+- Timing rules are the highest-yield items: neutropenic sepsis within 1 hour, surgical prophylaxis within 60 min pre-incision.
+- "Do this first" rules: drain the abscess, aspirate the joint, three blood culture sets in endocarditis, theatre for nec fasc.
+- Meningitis default is ceftriaxone; add amoxicillin for *Listeria* if <3 months, >50 years, or immunosuppressed.
+- Cover gaps to remember: anaerobes intra-abdominally, atypicals in Legionella-flavoured CAP.
+
+Split into two passes — recognition first, then the timing and "before you start" rules.
+
+**Syndrome → organism / first move**
+
 | Clue / question | Answer |
 |---|---|
 | CAP severity score | CURB-65 |
@@ -88,6 +110,11 @@ Bacterial meningitis — empirical therapy **must not be delayed** for imaging o
 | Pain out of proportion + rapid spread + crepitus | Necrotising fasciitis — urgent surgery |
 | Antibiotic added for toxin suppression in nec fasc/TSS | Clindamycin |
 | Intra-abdominal empiric cover needs to include | Anaerobic cover (e.g. metronidazole) |
+
+**Timing and "before you start" rules**
+
+| Clue / question | Answer |
+|---|---|
 | Before antibiotics in suspected septic arthritis | Aspirate/culture first (unless critically unwell) |
 | Empirical meningitis antibiotic covering meningo + pneumococcus | Ceftriaxone |
 | Added in meningitis if age <3mo/>50/immunosuppressed | Amoxicillin (Listeria cover) |
@@ -117,20 +144,31 @@ Bacterial meningitis — empirical therapy **must not be delayed** for imaging o
 
 ### Infectious Disease (ANU) — other antibiotics — Empiric Antibiotic Therapy by Syndrome
 
+**The short version**
+- Cell wall/membrane: vancomycin (Gram-positive only — MRSA, S. epidermidis, enterococci, C. diff; nephro/ototoxic, red man on rapid infusion), fosfomycin (uncomplicated female UTI), daptomycin (MRSA but **never** MRSA pneumonia; myopathy/rhabdomyolysis).
+- Protein synthesis: aminoglycosides + tetracyclines bind 30S, macrolides + clindamycin bind 50S; clindamycin → pseudomembranous colitis, macrolides → QT + CYP3A4 inhibition.
+- Nucleic acid/folate: fluoroquinolones (block transcription/replication), TMP/SMX (folate pathway — PCP treatment/prophylaxis, toxoplasmosis prophylaxis), metronidazole (anaerobes, gut and groin).
+- Contraindications worth memorising: fluoroquinolones (<18 yrs, pregnancy, QT, epilepsy), tetracyclines (<8 yrs, pregnancy, renal failure except doxycycline), TMP/SMX (last trimester, lactation), vancomycin (pregnancy).
+
 | BETA-LACTAM | MECHANISM OF ACTION | ORGANISM | SIDE-EFFECTS |
 | --- | --- | --- | --- |
-| VANCOMYCIN | Tricyclic glycopeptideInhibits cell wall synthesis and growth of peptidoglycan chainCNS penetration when meninges inflamesContraindicated in pregnancy | Gram-positive onlyMRSAS.epidermidisEnterococciClostridium difficile | NephrotoxicityOtotoxicityAnaphylactoid reactions in rapid infusion (red man syndrome)ThrombophlebitisNeutropenia |
-| FOSFOMYCIN | Inhibits cell wall synthesis by inhibiting the formation of N-acetylmuramic acid (in cell wall)BactericidalCNS penetration when meninges inflamedRenal elimination | Women with uncomplicated UTis | Mild electrolyte imbalance (hypernatremia, hypokalaemia)Diarrhoaa |
-| DAPTOMYCIN | Incorporate K+ channels into cell membrane of pathogens → rapid membrane depolarisationInhibits DNA, RNA, and protein synthesisPoor CNS penetrationRenal elimination | Gram-positive aerobesMRSA (but not MRSA pneumonia) | Reversible myopathyRhabdomyolysisAllergic pneumonitis |
-| SULFONAMIDES AND TRIMETHOPRIM | Both are bacteriostatic but become bactericidal when combinedSulfonamides inhibit bacterial folic acid synthesisTMP inhibits dihydrofolate reductase (DHFR), a key enzyme in purine synthesisOral or IV cotrimoxazole= trimethoprim (TMP) + sulfamethoxazole (SMX)Oral sulfisoxazoleOral sulfadiazine + pyrimethamineGood CNS penetrationPrimarily renal eliminationContraindicated in last trimester of pregnancy and lactating women | SMXGram-positive bacteriaGram-negative bacteriaSimple urinary tract infections (UTIs)NocardiaChlamydiaTMP/SMXShigellaSalmonellaRecurring UTIsProphylaxis and treatment of P. jiroveciiProphylaxis of toxoplasmosis | SMXHyperkalaemiaExanthemGastrointestinal distressPhotosensitivityNephrotoxic Haemolytic anaemia in G6PD-deficiencyDisplaces albumin-binding drugs (warfarin)TMP: Megaloblastic anaemiaLeukopeniaGranulocytopeniaHyperkalaemia |
-| FLUOROQUINOLONES | BactericidalBlocks transcription or replicationOral: norfloxacin, moxifloxacin, gemifloxacinOral/IV ciprofloxacin, ofloxacin, levofloxacinGood CNS penetrationPrimarily renal eliminationContraindicated in &lt;18 years, pregnancy, lactating women, QT prolongation, epilepsy | Gram-negative bacilli (urinary, GI)Genital pathogens (gonorrhoea, chlamydia)AnaerobesAtypical pneumonia (Legionella, Mycoplasma, Chlamydiophila)Ciprofloxacin effective against Pseudomonas | Damages growing cartilage in childrenAchilles tendon ruptureHyper/hypo-glycaemiaPeripheral neuropathy↓ seizure thresholdQT prolongationPhotosensitivity |
-| AMINOGLYCOSIDES | Bacteriostatic: inhibits bacterial protein synthesis by binding to the 30S subunit of bacterial ribosomeBactericidalGentamicin, amikacin, tobramycin, streptomycin, neomycinPoor CNS penetrationRenal eliminationTeratogenic | Severe gram-negative bacilli infectionsNot effective against anaerobesStreptomycin: mycobacterium Tb, M.avium-intracellulare | NephrotoxicityOtotoxicityNeuromuscular blockade |
-| TETRACYCLINES | BacteriostaticBactericidal: ↓ binding of aminoacyl tRNA to 30s subunitTetracycline, doxycycline, democlocycline, minocyclinePoor CNS penetrationRenal elimination except for GI elimination from doxycyclineCI: children &lt; 8 years, pregnancy, lactating women, renal failure (except doxycycline) | AcneAtypical: Borrelia, Mycoplasma, Rickettsia, Chlamydia | HepatotoxicityDeposition in bones/teethOesophagitisPhotosensitivity |
-| MACROLIDES | BacteriostaticBactericidal: inhibits protein synthesis by binding to ribosomal subunit and sterically blocking peptide growthPO/IV erythromycin/azithromycin Oral clarithromycinPoor CNS penetrationBiliary eliminationContraindications: pregnancy | Atypical pneumoniaURTIsSTIs (chlamydia)Gram-positive cocciBordetella pertussisNeisseria | GI discomfortQT prolongationAcute cholestatic hepatitisEosinophiliaExanthemCYP3A4 inhibition |
-| CLINDAMYCIN | Inhibits bacterial protein synthesis by binding the 50S subunit of the bacterial ribosomeBacteriostaticPoor CNS penetrationRenal/biliary elimination | Anaerobes in places not covered by Metranidazole | GI side-effectsPseudomembranous colitisFever |
-| METRONIDAZOLE | Enters cells as  a prodrug → activated in bacteria Inhibits DNA synthesis and DNA damage by oxidation → DNA degradation → cell death | Anaerobic (gut and groin) |  |
+| VANCOMYCIN | • Tricyclic glycopeptide<br>• Inhibits cell wall synthesis and growth of peptidoglycan chain<br>• CNS penetration when meninges inflames<br>• Contraindicated in pregnancy | • Gram-positive only<br>• MRSA<br>• S.epidermidis<br>• Enterococci<br>• Clostridium difficile | • Nephrotoxicity<br>• Ototoxicity<br>• Anaphylactoid reactions in rapid infusion (red man syndrome)<br>• Thrombophlebitis<br>• Neutropenia |
+| FOSFOMYCIN | • Inhibits cell wall synthesis by inhibiting the formation of N-acetylmuramic acid (in cell wall)<br>• Bactericidal<br>• CNS penetration when meninges inflamed<br>• Renal elimination | Women with uncomplicated UTis | Mild electrolyte imbalance (hypernatremia, hypokalaemia)Diarrhoaa |
+| DAPTOMYCIN | • Incorporate K+ channels into cell membrane of pathogens → rapid membrane depolarisation<br>• Inhibits DNA, RNA, and protein synthesis<br>• Poor CNS penetration<br>• Renal elimination | Gram-positive aerobesMRSA (but not MRSA pneumonia) | • Reversible myopathy<br>• Rhabdomyolysis<br>• Allergic pneumonitis |
+| SULFONAMIDES AND TRIMETHOPRIM | • Both are bacteriostatic but become bactericidal when combined<br>• Sulfonamides inhibit bacterial folic acid synthesis<br>• TMP inhibits dihydrofolate reductase (DHFR), a key enzyme in purine synthesis<br>• Oral or IV cotrimoxazole= trimethoprim (TMP) + sulfamethoxazole (SMX)<br>• Oral sulfisoxazole<br>• Oral sulfadiazine + pyrimethamine<br>• Good CNS penetration<br>• Primarily renal elimination<br>• Contraindicated in last trimester of pregnancy and lactating women | **SMX**<br>• Gram-positive bacteria<br>• Gram-negative bacteria<br>• Simple urinary tract infections (UTIs)<br>• Nocardia<br>• Chlamydia<br>**TMP/SMX**<br>• Shigella<br>• Salmonella<br>• Recurring UTIs<br>• Prophylaxis and treatment of P. jirovecii<br>• Prophylaxis of toxoplasmosis | **SMX**<br>• Hyperkalaemia<br>• Exanthem<br>• Gastrointestinal distress<br>• Photosensitivity<br>• Nephrotoxic<br>• Haemolytic anaemia in G6PD-deficiency<br>• Displaces albumin-binding drugs (warfarin)<br>**TMP**<br>• Megaloblastic anaemia<br>• Leukopenia<br>• Granulocytopenia<br>• Hyperkalaemia |
+| FLUOROQUINOLONES | • Bactericidal<br>• Blocks transcription or replication<br>• Oral: norfloxacin, moxifloxacin, gemifloxacin<br>• Oral/IV ciprofloxacin, ofloxacin, levofloxacin<br>• Good CNS penetration<br>• Primarily renal elimination<br>• Contraindicated in &lt;18 years, pregnancy, lactating women, QT prolongation, epilepsy | • Gram-negative bacilli (urinary, GI)<br>• Genital pathogens (gonorrhoea, chlamydia)<br>• Anaerobes<br>• Atypical pneumonia (Legionella, Mycoplasma, Chlamydiophila)<br>• Ciprofloxacin effective against Pseudomonas | • Damages growing cartilage in children<br>• Achilles tendon rupture<br>• Hyper/hypo-glycaemia<br>• Peripheral neuropathy<br>• ↓ seizure threshold<br>• QT prolongation<br>• Photosensitivity |
+| AMINOGLYCOSIDES | • Bacteriostatic: inhibits bacterial protein synthesis by binding to the 30S subunit of bacterial ribosome<br>• Bactericidal<br>• Gentamicin, amikacin, tobramycin, streptomycin, neomycin<br>• Poor CNS penetration<br>• Renal elimination<br>• Teratogenic | • Severe gram-negative bacilli infections<br>• Not effective against anaerobes<br>• Streptomycin: mycobacterium Tb, M.avium-intracellulare | • Nephrotoxicity<br>• Ototoxicity<br>• Neuromuscular blockade |
+| TETRACYCLINES | • Bacteriostatic<br>• Bactericidal: ↓ binding of aminoacyl tRNA to 30s subunit<br>• Tetracycline, doxycycline, democlocycline, minocycline<br>• Poor CNS penetration<br>• Renal elimination except for GI elimination from doxycycline<br>• CI: children &lt; 8 years, pregnancy, lactating women, renal failure (except doxycycline) | AcneAtypical: Borrelia, Mycoplasma, Rickettsia, Chlamydia | • Hepatotoxicity<br>• Deposition in bones/teeth<br>• Oesophagitis<br>• Photosensitivity |
+| MACROLIDES | • Bacteriostatic<br>• Bactericidal: inhibits protein synthesis by binding to ribosomal subunit and sterically blocking peptide growth<br>• PO/IV erythromycin/azithromycin<br>• Oral clarithromycin<br>• Poor CNS penetration<br>• Biliary elimination<br>• Contraindications: pregnancy | • Atypical pneumonia<br>• URTIs<br>• STIs (chlamydia)<br>• Gram-positive cocci<br>• Bordetella pertussis<br>• Neisseria | • GI discomfort<br>• QT prolongation<br>• Acute cholestatic hepatitis<br>• Eosinophilia<br>• Exanthem<br>• CYP3A4 inhibition |
+| CLINDAMYCIN | • Inhibits bacterial protein synthesis by binding the 50S subunit of the bacterial ribosome<br>• Bacteriostatic<br>• Poor CNS penetration<br>• Renal/biliary elimination | Anaerobes in places not covered by Metranidazole | • GI side-effects<br>• Pseudomembranous colitis<br>• Fever |
+| METRONIDAZOLE | • Enters cells as  a prodrug → activated in bacteria<br>• Inhibits DNA synthesis and DNA damage by oxidation → DNA degradation → cell death | Anaerobic (gut and groin) |  |
 
-anti-virals
+#### anti-virals
+
+**The short version**
+- Aciclovir/valaciclovir cover HSV-1/2 and VZV; ganciclovir extends that to CMV, HHV-6 and EBV.
+- Foscarnet is the aciclovir-resistant HSV/VZV and CMV option — pyrophosphate analogue, not a guanosine analogue.
+- Interferon-α-2a/2b for chronic hepatitis B or C and HPV; ribavirin for chronic hepatitis C, RSV and Lassa fever.
 
 | DRUGS | COVERAGE | MECHANISM OF ACTION |
 | --- | --- | --- |

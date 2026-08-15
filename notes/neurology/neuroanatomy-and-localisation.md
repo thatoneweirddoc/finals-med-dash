@@ -13,6 +13,13 @@ updated: "2026-08-14"
 
 #### 2.1 Cerebral cortex
 
+**The short version**
+
+- Frontal = motor, Broca's, executive, frontal eye field → contralateral weakness, expressive aphasia, disinhibition, gaze **towards** the lesion.
+- Parietal = sensory and spatial → **neglect** (non-dominant), **Gerstmann** (dominant), inferior quadrantanopia.
+- Temporal = Wernicke's, hippocampus, Meyer's loop → receptive aphasia, amnesia, **superior** quadrantanopia.
+- Aphasia split: Broca's non-fluent with comprehension intact; Wernicke's fluent but empty; conduction = **repetition disproportionately impaired**.
+
 | Lobe | Key functions | Lesion syndrome |
 |---|---|---|
 | Frontal | Motor (precentral gyrus), Broca's area (dominant inferior frontal), executive function, saccades (frontal eye field), continence | Contralateral weakness, expressive aphasia, disinhibition/apathy, primitive reflexes, gaze deviation **towards** the lesion |
@@ -24,6 +31,13 @@ updated: "2026-08-14"
 **Language.** Broca's = non-fluent, effortful, comprehension intact, patient frustrated. Wernicke's = fluent but empty/paraphasic, comprehension impaired, patient unaware. Conduction aphasia (arcuate fasciculus) = fluent, comprehension intact, **repetition disproportionately impaired**. Global aphasia = all impaired (large dominant MCA territory). Left hemisphere is dominant in ~95% of right-handers and ~70% of left-handers.
 
 #### 2.2 Arterial supply and vascular territories
+
+**The short version**
+
+- ACA = **leg > arm**; MCA = **face and arm > leg** with aphasia or neglect; PCA = homonymous hemianopia **with macular sparing**.
+- Lenticulostriate lacune = dense equal face/arm/leg weakness with **no cortical signs**.
+- Posterior circulation: PICA = Wallenberg; AICA = the same picture **plus deafness**; basilar = reduced consciousness, quadriparesis, locked-in.
+- Watershed infarct = "man-in-a-barrel" after global hypoperfusion; venous thrombosis **crosses arterial territories and is often haemorrhagic**.
 
 The **circle of Willis** joins anterior (internal carotid) and posterior (vertebrobasilar) circulations: anterior communicating artery between the two ACAs; posterior communicating arteries linking each ICA to its PCA.
 
@@ -52,6 +66,13 @@ The **internal capsule** packs the entire corticospinal and corticobulbar output
 
 #### 2.4 Brainstem and classic syndromes
 
+**The short version**
+
+- **Crossed signs = brainstem** — ipsilateral cranial nerve deficit with contralateral long-tract signs.
+- The cranial nerve involved gives the level: III/IV midbrain, V–VIII pons, IX–XII medulla.
+- Medial structures (motor, medial lemniscus, XII) come off paramedian branches; lateral structures (spinothalamic, spinal V, sympathetic, nucleus ambiguus) off circumferential arteries.
+- Wallenberg is the exam favourite: crossed face/body sensory loss, Horner's, hoarseness, ataxia and **no limb weakness**.
+
 **Rules that solve most brainstem questions:**
 1. **Crossed signs** = brainstem. Ipsilateral cranial nerve deficit + contralateral long-tract (motor or sensory) deficit.
 2. **Which cranial nerve is involved tells you the level** — midbrain III/IV, pons V/VI/VII/VIII, medulla IX/X/XI/XII.
@@ -70,6 +91,13 @@ The **internal capsule** packs the entire corticospinal and corticobulbar output
 > **Hook for Wallenberg:** "*Don't pick a (PICA) horse that can't eat*" — Horner's, ataxia, dysphagia/hoarseness, crossed sensory loss, and **no weakness**.
 
 #### 2.5 The cranial nerves
+
+**The short version**
+
+- Learn each nerve as function + exit foramen + one signature sign.
+- Foramina cluster: III, IV, V1 and VI through the superior orbital fissure; VII and VIII through the internal acoustic meatus; IX, X and XI through the jugular foramen.
+- Direction rules: **uvula deviates away from the lesion, tongue and jaw deviate towards it**.
+- CN VI palsy is the classic **false localising sign** in raised ICP; a pupil-involving III palsy is compressive until proven otherwise.
 
 | CN | Name | Function | Exits skull via | Key lesion sign |
 |---|---|---|---|---|
@@ -94,6 +122,13 @@ The **internal capsule** packs the entire corticospinal and corticobulbar output
 - **Pupil-sparing ("medical")** — microvascular infarction of the nerve core: diabetes, hypertension. Usually recovers in ~3 months.
 
 #### 2.6 Visual pathway and pupils
+
+**The short version**
+
+- Field defect names the site: chiasm = bitemporal; Meyer's loop (temporal) = **superior** quadrantanopia; parietal = inferior; occipital = congruous with macular sparing.
+- Pupil syndromes: RAPD (Marcus Gunn) = optic nerve; Argyll Robertson = neurosyphilis; Holmes–Adie = benign tonic pupil with absent ankle reflexes.
+- Horner's localises by the **anhidrosis pattern** — whole body (first-order), face and neck (second-order, Pancoast), little or none (third-order).
+- **Painful Horner's with neck pain in a young person = carotid dissection until proven otherwise.**
 
 Retina → optic nerve → **optic chiasm** (nasal fibres cross) → optic tract → lateral geniculate nucleus → optic radiations (**Meyer's loop through temporal lobe carries superior field**; parietal fibres carry inferior field) → occipital cortex.
 
@@ -128,6 +163,13 @@ Discriminator: **cerebellar ataxia does not worsen much on eye closure**; **sens
 
 #### 2.8 Spinal cord
 
+**The short version**
+
+- Cord ends at the **conus medullaris at L1/L2** in adults — hence LP at L3/4 or L4/5.
+- Anterior spinal artery supplies the anterior two-thirds: occlusion = weakness and pain/temperature loss with **vibration and proprioception spared**.
+- Syndromes by pattern: Brown-Séquard (hemisection), central cord (**arms > legs**, cape loss), posterior cord (Romberg positive), SACD (absent ankle jerks **with** extensor plantars).
+- Conus vs cauda equina: conus = early symmetrical sphincter loss with mixed UMN/LMN; cauda = asymmetric LMN weakness with late retention.
+
 The cord runs from the foramen magnum to the **conus medullaris at L1/L2 in adults** (L3 in neonates); below that the **cauda equina**. There are cervical and lumbar enlargements. Lumbar puncture is therefore performed at **L3/4 or L4/5**, below the conus.
 
 **Tracts to know in cross-section:** dorsal columns posteriorly (gracile medial = legs, cuneate lateral = arms), lateral corticospinal tract laterally, spinothalamic tract anterolaterally.
@@ -148,6 +190,13 @@ The cord runs from the foramen magnum to the **conus medullaris at L1/L2 in adul
 **Key sensory levels:** C4 shoulder tip, T4 nipple, T10 umbilicus, L1 inguinal, S2–S4 perianal.
 
 #### 2.9 Roots, plexuses and peripheral nerves
+
+**The short version**
+
+- Reflex roots anchor the root table: biceps C5, supinator C6, triceps C7, knee L4, ankle S1.
+- Plexus classics: **Erb's** (C5/6) = "waiter's tip"; **Klumpke's** (C8/T1) = claw hand ± Horner's.
+- Named nerve, named deficit: median (LOAF, carpal tunnel), ulnar (Froment's, claw), radial (wrist drop), common peroneal (foot drop), lateral cutaneous of thigh (meralgia paraesthetica).
+- Foot drop discriminator: weak eversion with **inversion spared** = common peroneal; **inversion and hip abduction also weak** = L5 root.
 
 | Root | Motor | Reflex | Sensory |
 |---|---|---|---|
@@ -190,6 +239,17 @@ Autonomic failure appears in MSA, Parkinson's, diabetes, amyloidosis and GBS: po
 
 #### Rapid-Recall Discriminators — Section 2
 
+**The short version**
+
+- Territory questions turn on which body part is weakest and whether cortical signs are present.
+- Crossed signs, INO and Horner's are the brainstem/sympathetic-chain giveaways.
+- Cranial nerve direction rules (uvula away, tongue towards, forehead spared = UMN) are near-guaranteed marks.
+- Cord and nerve questions are pattern questions: which modality is spared, and is it symmetrical.
+
+Taken in three passes — vascular, then cranial nerve and eye, then cord and peripheral nerve.
+
+##### Vascular territories and brainstem
+
 | Clue / question | Answer |
 |---|---|
 | Leg weaker than arm | ACA territory stroke |
@@ -202,6 +262,11 @@ Autonomic failure appears in MSA, Parkinson's, diabetes, amyloidosis and GBS: po
 | Same but **with deafness** | Lateral pontine, AICA |
 | Failure of adduction + nystagmus in the abducting eye | Internuclear ophthalmoplegia (MLF) |
 | Bilateral INO in a 25-year-old | Multiple sclerosis |
+
+##### Cranial nerves, eye movements and Horner's
+
+| Clue / question | Answer |
+|---|---|
 | Third nerve palsy **with** dilated pupil | Compressive — PCom aneurysm; urgent imaging |
 | Third nerve palsy sparing the pupil | Microvascular (diabetes/hypertension) |
 | Forehead spared in facial weakness | UMN (stroke) |
@@ -213,6 +278,11 @@ Autonomic failure appears in MSA, Parkinson's, diabetes, amyloidosis and GBS: po
 | Painful Horner's with neck pain | Carotid dissection |
 | Horner's with anhidrosis of the whole body | First-order (central) lesion |
 | Horner's + wasted small hand muscles | Pancoast tumour (T1 root, second-order) |
+
+##### Cord, root and peripheral nerve
+
+| Clue / question | Answer |
+|---|---|
 | Ataxia much worse with eyes closed | Sensory (dorsal column) ataxia — Romberg positive |
 | Absent ankle jerks with extensor plantars | Subacute combined degeneration (also tabes + MND, Friedreich's) |
 | Vibration preserved, pain/temperature and power lost | Anterior spinal artery syndrome |
@@ -233,11 +303,17 @@ Guyton & Hall *Textbook of Medical Physiology* (14th ed) — membrane and cerebr
 
 ### Neurology (ANU) — spinal cord — Neuroanatomy and localisation
 
+**The short version**
+
+- UMN = hyperreflexia, hypertonia, positive Babinski, no fasciculations, atrophy only from disuse, large area of body affected.
+- LMN = hyporeflexia, flaccidity, wasting, fasciculations, negative Babinski, small area affected, voluntary movement **lost** rather than slowed.
+- Tone row carries the rigidity pair: **decorticate** = above midbrain (bent arms, clenched fists, extended legs); **decerebrate** = below midbrain (everything extended, neck arched).
+
 |  | UMN | LMN |
 | --- | --- | --- |
 | Function | Inhibitory effect on muscle stretch reflex | Motor component of muscle reflex |
 | Reflexes | Hyperreflexia | Hyporeflexia |
-| Tone | Hypertonia (spasticity)Decorticate rigidity: lesion above midbrain e.g. stroke/head injury/tumour 🡪 stiff, bent arms, clenched fists, extended legsDecerberate rigidity: below midbrain e.g. in midbrain/pons 🡪 arms/legs extended, toes outwards, head/neck arched backwards | Hypotonia (flaccidity) |
+| Tone | • Hypertonia (spasticity)<br>• Decorticate rigidity: lesion above midbrain e.g. stroke/head injury/tumour 🡪 stiff, bent arms, clenched fists, extended legs<br>• Decerberate rigidity: below midbrain e.g. in midbrain/pons 🡪 arms/legs extended, toes outwards, head/neck arched backwards | Hypotonia (flaccidity) |
 | Muscle atrophy | Absent until disuse atrophy | Wasting atrophy |
 | Fasciculations | Absent | Present |
 | Babinski sign | Positive (Dorsiflexion) | Negative |
@@ -252,10 +328,17 @@ cerebrovascular disease
 
 ### Neurology (ANU) — aphasia — Neuroanatomy and localisation
 
+**The short version**
+
+- Circuit: primary auditory cortex → Wernicke's (comprehension) → arcuate fasciculus → Broca's (syntax and output) → primary motor cortex.
+- **Broca's** = expressive, sparse agrammatic output, comprehension intact.
+- **Wernicke's** = receptive, fluent but meaningless (paraphasias, neologisms, word salad), comprehension lost.
+- **Conduction** = fluent with impaired repetition (arcuate fasciculus); **global** = mute or non-word utterances.
+
 | Definition | Acquired language impairment affecting comprehension and production of words/sentences/discourse |
 | --- | --- |
-| Physiology | ![](notes/images/neurology-anu/img027.jpg) PRIMARY AUDITORY CORTEX: receives information from the cerebral cortex and processes soundsWERNICKE REGION (Brodmann area 22 in left posterior section of superior temporal gyrus): receives information from primary auditory context; auditory comprehension of speechARCUATE FASCICULUS: relays information from Wernicke’s  (posterior) to Broca’s (anterior)BROCA REGION (Brodmann area 44 in left posterior inferior frontal gyrus): functions to generate sounds and speak with proper syntaxPRIMARY MOTOR CORTEX: sends signals to body parts for production of sound (jaw, tongue etc.) |
-| Classification | BROCA'S APHASIA: expressive aphasia, classically sparse output and agrammatism; can comprehend language but cannot speak fluently WERNICKE'S APHASIA: receptive aphasia, cannot comprehend language but can speak fluently; classically voluminous but meaningless speech with paraphasias and neologisms (word salad)  CONDUCTION APHASIA: fluent aphasia with impaired repetition GLOBAL APHASIA: mute or non-word utterances |
+| Physiology | ![](notes/images/neurology-anu/img027.jpg)<br>• PRIMARY AUDITORY CORTEX: receives information from the cerebral cortex and processes sounds<br>• WERNICKE REGION (Brodmann area 22 in left posterior section of superior temporal gyrus): receives information from primary auditory context; auditory comprehension of speech<br>• ARCUATE FASCICULUS: relays information from Wernicke’s  (posterior) to Broca’s (anterior)<br>• BROCA REGION (Brodmann area 44 in left posterior inferior frontal gyrus): functions to generate sounds and speak with proper syntax<br>• PRIMARY MOTOR CORTEX: sends signals to body parts for production of sound (jaw, tongue etc.) |
+| Classification | • BROCA'S APHASIA: expressive aphasia, classically sparse output and agrammatism; can comprehend language but cannot speak fluently<br>• WERNICKE'S APHASIA: receptive aphasia, cannot comprehend language but can speak fluently; classically voluminous but meaningless speech with paraphasias and neologisms (word salad)  <br>• CONDUCTION APHASIA: fluent aphasia with impaired repetition<br>• GLOBAL APHASIA: mute or non-word utterances |
 
 ![](notes/images/neurology-anu/img028.jpg)
 
@@ -265,12 +348,19 @@ cerebrovascular disease
 
 ### Neurology (ANU) — MOTOR NEURON DISEASE/AMYTROPHIC LATERAL SCLEROSIS — Neuroanatomy and localisation
 
+**The short version**
+
+- Selective loss of motor neurones (motor cortex, cranial nerve nuclei, anterior horn) — **no sensory loss, no sphincter disturbance, no eye movement involvement**, which is what excludes MS, polyneuropathy and MG.
+- Four patterns: ALS (UMN + LMN), progressive bulbar palsy (CN IX–XII), progressive muscular atrophy (LMN only, better prognosis), primary lateral sclerosis (UMN only).
+- Diagnosis is clinical plus EMG (chronic denervation and reinnervation); NCS and CT/MRI are there to exclude mimics.
+- Riluzole modestly slows progression; the rest is multidisciplinary. Median survival 3 years, death from respiratory failure.
+
 | Aetiology | Cluster of neurodegenerative diseases characterised by selective loss of neurons in motor cortex, cranial nerve nuclei, and anterior horn cellsUMN and LMN can be affected- no sensory loss/ sphincter disturbance (thus distinguishing it from MS and polyneuropathies) or eye movements (distinguishing it from MG) |
 | --- | --- |
-| Patterns | ALS/AMYOTROPHIC LATERAL SCLEROSIS: loss of motor neurons in motor cortex and anterior horn of cord 🡪 UMN + LMN signs. Worse prognosis if bulbar onset, ↑ age, ↓FVCPROGRESSIVE BULBAR PALSY: only affects cranial nerves IX-XIIPROGRESSIVE MUSCULAR ATROPHY: anterior horn cell lesion 🡪 LMN signs only, affecting distal muscle groups before proximal; better prognosis than ALSPRIMARY LATERAL SCLEROSIS (RARE): loss of Betz cells in motor cortex 🡪 UMN signs, spastic leg weakness, pseudobulbar palsy; no cognitive decline |
-| Presentation | Limb motor:  segmental and asymmetrical UMN and LMN symptomsBulbar findings: dysarthria (flaccid or spastic), dysphagia ,tongue atrophy and fasciculations, facialweakness and atrophyPseudobulbar affect, frontotemporal dementia (up to 10%)Sparing of sensation, ocular muscles, and sphincters |
-| Investigations | EMG: chronic denervation and reinnervation, fasciculationsNCS: to rule out peripheral neuropathy (i.e.multifocal motor neuropathy with conduction block)CT/MRI: to rule out cord disease/compression |
-| Treatment | MULTIDISCIPLINARY: neurologist, palliative, physio/OT, speech therapist, dietician, social servicesRILUZOLE: NMDA receptor antagonist🡪 glutamate release; modestly slows disease progressionPHARMACOTHERAPY for spasticity/cramping, hypersalivation, and pseudobulbar affectNON-PHARMACOLOGICAL: ↑ caloric diet, ventilator, early nutrition, rehabilitation, psychosocial |
+| Patterns | • ALS/AMYOTROPHIC LATERAL SCLEROSIS: loss of motor neurons in motor cortex and anterior horn of cord 🡪 UMN + LMN signs. Worse prognosis if bulbar onset, ↑ age, ↓FVC<br>• PROGRESSIVE BULBAR PALSY: only affects cranial nerves IX-XII<br>• PROGRESSIVE MUSCULAR ATROPHY: anterior horn cell lesion 🡪 LMN signs only, affecting distal muscle groups before proximal; better prognosis than ALS<br>• PRIMARY LATERAL SCLEROSIS (RARE): loss of Betz cells in motor cortex 🡪 UMN signs, spastic leg weakness, pseudobulbar palsy; no cognitive decline |
+| Presentation | • Limb motor:   segmental and asymmetrical UMN and LMN symptoms<br>• Bulbar findings: dysarthria (flaccid or spastic), dysphagia ,tongue atrophy and fasciculations, facialweakness and atrophy<br>• Pseudobulbar affect, frontotemporal dementia (up to 10%)<br>• Sparing of sensation, ocular muscles, and sphincters |
+| Investigations | • EMG:  chronic denervation and reinnervation, fasciculations<br>• NCS: to rule out peripheral neuropathy (i.e.multifocal motor neuropathy with conduction block)<br>• CT/MRI: to rule out cord disease/compression |
+| Treatment | • MULTIDISCIPLINARY:  neurologist, palliative, physio/OT, speech therapist, dietician, social services<br>• RILUZOLE: NMDA receptor antagonist🡪 glutamate release; modestly slows disease progression<br>• PHARMACOTHERAPY for spasticity/cramping, hypersalivation, and pseudobulbar affect<br>• NON-PHARMACOLOGICAL: ↑ caloric diet, ventilator, early nutrition, rehabilitation, psychosocial |
 | Prognosis | Median survival 3 year; death due to respiratory failure |
 
 PnS
@@ -281,9 +371,16 @@ PnS
 
 ### Neurology (ANU) — bell’s palsy — Neuroanatomy and localisation
 
+**The short version**
+
+- LMN lesion affecting **all branches** of the facial nerve — one-sided facial droop within 72 hours.
+- UMN supply to CN VII is bilateral for the upper face, so a UMN lesion spares the forehead and hits only the contralateral lower quadrant.
+- CN XII differs — contralateral innervation only, so a UMN lesion deviates the tongue to the contralateral side.
+- Differentials are stroke and tumour (which may not affect all branches); treat with prednisolone ± surgical decompression.
+
 | Definition | LMN lesion that affects all branches of the facial nerve |
 | --- | --- |
-| Presentation | ![](notes/images/neurology-anu/img043.jpg) UMN FOR THE FACIAL NERVE  have contralateral, bilateral innervation (affecting muscles in the lower quadrant of the face below eyes). UMN lesion 🡪 spastic paralysis in  contralateral lower quadrant One-sided facial droop that presents within 72 hoursUMN FOR THE HYPOGLOSSAL NERVE only provide contralateral innervation. UMN lesion for CN XII 🡪 deviation of the tongue to the contralateral side |
+| Presentation | ![](notes/images/neurology-anu/img043.jpg)<br>• UMN FOR THE FACIAL NERVE  have contralateral, bilateral innervation (affecting muscles in the lower quadrant of the face below eyes). UMN lesion 🡪 spastic paralysis in  contralateral lower quadrant<br>• One-sided facial droop that presents within 72 hours<br>• UMN FOR THE HYPOGLOSSAL NERVE only provide contralateral innervation. UMN lesion for CN XII 🡪 deviation of the tongue to the contralateral side |
 | Differentials | Stroke, tumour (may not affect all branches) |
 | Treatmeny | Prednisolone, surgical decompression (if necessary) |
 
@@ -293,10 +390,17 @@ PnS
 
 ### Neurology (ANU) — sensory pathway — Neuroanatomy and localisation
 
+**The short version**
+
+- DCML = fine touch, proprioception, vibration → lesion gives **ipsilateral** loss (↓B12, tabes dorsalis).
+- Spinothalamic = crude touch and pressure (anterior), pain and temperature (lateral).
+- Spinothalamic fibres ascend 1–2 levels, synapse in substantia gelatinosa, then **decussate immediately** → lesion gives **contralateral** loss.
+- Both end via VPL of thalamus → internal capsule → sensory cortex.
+
 | Dorsal Column/Medial Leminiscal |
 | --- |
-| Fine touch, proprioception, vibration from lower and upper limbsSensory loss will be ipsilateral DCML lesions occur in ↓B12, Tabes dorsalis (a neurological disorder seen in neurosyphilis) ![](notes/images/neurology-anu/img044.jpg) |
+| • Fine touch, proprioception, vibration from lower and upper limbs<br>• Sensory loss will be ipsilateral<br>• DCML lesions occur in ↓B12, Tabes dorsalis (a neurological disorder seen in neurosyphilis) ![](notes/images/neurology-anu/img044.jpg) |
 
 | Spinothalamic Tracts |
 | --- |
-| ![](notes/images/neurology-anu/img045.jpg) Anterior tract carries crude touch and pressure; lateral tract carries pain and temperaturePrimary neurones enter the spinal cord 🡪 ascend 1-2 levels 🡪 terminante in the substantia gelatinosa 🡪 secondary neurones arise from here and immediately decussate, terminating at the thalamus 🡪 tertiary neurones then ascend from the ventral posterolateral nucleus of the thalamus, through the internal capsule into the sensory cortex.Damage to the anterior and lateral spinothalamic tracts will cause contralateral sensory loss |
+| ![](notes/images/neurology-anu/img045.jpg)<br>• Anterior tract carries crude touch and pressure; lateral tract carries pain and temperature<br>• Primary neurones enter the spinal cord 🡪 ascend 1-2 levels 🡪 terminante in the substantia gelatinosa 🡪 secondary neurones arise from here and immediately decussate, terminating at the thalamus 🡪 tertiary neurones then ascend from the ventral posterolateral nucleus of the thalamus, through the internal capsule into the sensory cortex.<br>• Damage to the anterior and lateral spinothalamic tracts will cause contralateral sensory loss |

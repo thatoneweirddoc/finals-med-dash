@@ -17,6 +17,13 @@ updated: "2026-08-14"
 
 #### 3.1 The history — four questions that do most of the work
 
+**The short version**
+
+- Four questions: where is the lesion (pattern), what is the pathology (time course), why this patient (risk), how disabling (function).
+- **Time course is the single most useful piece of information in neurology** — tempo names the pathology before any imaging.
+- Seconds = vascular/seizure/syncope; days–weeks = inflammatory or infective; weeks–months = tumour or compression; months–years = degenerative.
+- Relapsing–remitting = MS, migraine, epilepsy; fatigable/diurnal = myasthenia.
+
 1. **Where is the lesion?** Driven by the *pattern* of deficit (see 3.2).
 2. **What is the pathology?** Driven by the *time course*.
 3. **Why this patient?** Risk factors, family history, drugs, occupation, travel.
@@ -38,6 +45,13 @@ updated: "2026-08-14"
 > **Hook:** *Stroke is sudden, seizure is fast and stereotyped, migraine aura creeps, tumour crawls.*
 
 #### 3.2 The localisation algorithm
+
+**The short version**
+
+- Work top-down; the first split is always **UMN vs LMN**, then distribution.
+- Cortical signs (aphasia, neglect, field defect) = cortex; **crossed signs** = brainstem; a **sensory level** = cord.
+- Absent sensory loss narrows it fast: NMJ (fatigable), muscle (proximal, ↑CK), MND (asymmetric, mixed UMN/LMN).
+- Weakness shortcut: proximal symmetrical = myopathy; distal + sensory = polyneuropathy; ascending areflexic over days = GBS.
 
 Work top-down. The key first split is **UMN versus LMN**, then the distribution.
 
@@ -69,6 +83,13 @@ Work top-down. The key first split is **UMN versus LMN**, then the distribution.
 
 #### 3.3 Examination essentials
 
+**The short version**
+
+- Sequence: inspection → tone → power (MRC 0–5) → reflexes → coordination → sensation → gait.
+- **Gait is the highest-yield single observation** — most of the table below is diagnosable from across the room.
+- Gait discriminators: falls **towards** the lesion = cerebellar; stamping with **Romberg positive** = dorsal column; magnetic/feet stuck = NPH.
+- Have a stock answer ready for pronator drift, Hoffmann's, Lhermitte's, Uhthoff's, Froment's, Trendelenburg and Gowers'.
+
 **Sequence:** inspection (posture, wasting, fasciculations, tremor, involuntary movements) → tone → power (MRC 0–5) → reflexes → coordination → sensation → gait.
 
 **MRC power grades:** 0 none; 1 flicker; 2 movement with gravity eliminated; 3 against gravity; 4 against resistance but reduced; 5 normal.
@@ -91,6 +112,13 @@ Work top-down. The key first split is **UMN versus LMN**, then the distribution.
 **Signs worth having a stock answer for:** pronator drift (subtle pyramidal weakness), Hoffmann's sign (cervical myelopathy), Lhermitte's phenomenon (electric shock down spine on neck flexion — cervical cord: MS, cord compression, B12), Uhthoff's phenomenon (heat-induced worsening — MS), Froment's sign (ulnar), Trendelenburg (gluteus medius/L5), Gowers' sign (proximal myopathy in children).
 
 #### 3.4 Assessing consciousness
+
+**The short version**
+
+- GCS 3–15, always reported as its three components (E4 / V5 / M6); **≤8 = consider intubation**.
+- Decorticate (flexion) = lesion above the red nucleus; decerebrate (extension) = lower brainstem and the worse sign.
+- Brainstem reflexes each test a level: pupil (midbrain), corneal (pons), doll's eyes/caloric (pons–midbrain, MLF), gag/cough (medulla).
+- Pupils localise: pinpoint reactive = pontine or opioids; unilateral fixed dilated = uncal herniation; reactive with deep coma = metabolic.
 
 **Glasgow Coma Scale (3–15)** — always report the three components, not just the total.
 
@@ -121,6 +149,13 @@ Work top-down. The key first split is **UMN versus LMN**, then the distribution.
 
 #### 3.5 Neuroimaging — choosing the right test
 
+**The short version**
+
+- Acute stroke = **non-contrast CT first** to exclude haemorrhage, then CTA ± perfusion if thrombectomy is being considered.
+- MRI for MS, cord, posterior fossa, epilepsy workup and tumour; **urgent whole-spine MRI** for cord compression or cauda equina.
+- Sequences: DWI/ADC = acute infarct, FLAIR = demyelination, T2\*/SWI = blood, T1+gadolinium = BBB breakdown.
+- Ring enhancement: abscess (thin, restricts centrally), GBM (thick, irregular), metastases (multiple, grey–white junction), demyelination (open ring).
+
 | Situation | First test | Why |
 |---|---|---|
 | Suspected acute stroke | **Non-contrast CT head immediately** | Excludes haemorrhage before thrombolysis; early ischaemic signs (hyperdense MCA, loss of grey–white differentiation, insular ribbon) |
@@ -137,6 +172,13 @@ Work top-down. The key first split is **UMN versus LMN**, then the distribution.
 **Contrast patterns:** ring enhancement — think **abscess (thin, smooth, restricts diffusion centrally), glioblastoma (thick, irregular), metastasis (multiple, grey–white junction), toxoplasmosis, tuberculoma, demyelination (incomplete/open ring)**.
 
 #### 3.6 Lumbar puncture and CSF
+
+**The short version**
+
+- CT first if focal deficit, GCS <10 or falling, new seizure, papilloedema, immunocompromise or age >60 — and in suspected bacterial meningitis **antibiotics come before imaging**.
+- Bacterial = neutrophils >1000, protein >1 g/L, glucose ratio <0.4; TB = lymphocytes with very high protein and low glucose; viral = lymphocytes with normal glucose.
+- High protein with normal cell count = albuminocytological dissociation (GBS) — but may be normal in the first week.
+- SAH vs traumatic tap: xanthochromia at ≥12 h with red cells **constant** across bottles = SAH; falling count with no xanthochromia = traumatic.
 
 **Contraindications / when to CT first:** focal neurological deficit, GCS <10 or falling, new seizure, papilloedema, immunocompromise, age >60 — and always if signs of raised ICP. Also avoid in coagulopathy, platelets <50, local sepsis. Remember: **suspected bacterial meningitis — give antibiotics first, image second, LP third if delayed.**
 
@@ -155,15 +197,29 @@ Work top-down. The key first split is **UMN versus LMN**, then the distribution.
 
 #### 3.7 Neurophysiology
 
+**The short version**
+
+- EEG classifies epilepsy but **a normal interictal EEG never excludes it**; the named patterns are HSV (temporal periodic discharges), CJD (periodic sharp waves) and 3 Hz spike-and-wave.
+- NCS separates demyelinating (↓velocity, conduction block, prolonged F-waves) from axonal (↓amplitude).
+- Repetitive nerve stimulation: **decrement = myasthenia, increment = LEMS**.
+- EMG separates denervation (fibrillations, large polyphasic units) from myopathy (small short units); **delayed P100** = previous optic neuritis.
+
 | Test | What it shows | Typical use |
 |---|---|---|
-| **EEG** | Cortical electrical activity | Classifying epilepsy (not diagnosing "is this a seizure?" — a normal interictal EEG never excludes epilepsy), non-convulsive status, encephalopathy (triphasic waves), **HSV encephalitis (temporal periodic discharges)**, **CJD (periodic sharp wave complexes)**, 3 Hz spike-and-wave in absence epilepsy |
+| **EEG** | Cortical electrical activity | • Classifying epilepsy (not diagnosing "is this a seizure?" — a normal interictal EEG never excludes epilepsy)<br>• non-convulsive status<br>• encephalopathy (triphasic waves)<br>• **HSV encephalitis (temporal periodic discharges)**<br>• **CJD (periodic sharp wave complexes)**<br>• 3 Hz spike-and-wave in absence epilepsy |
 | **Nerve conduction studies** | Velocity and amplitude | Demyelinating (↓velocity, conduction block, prolonged F-waves) vs axonal (↓amplitude) neuropathy; entrapments |
 | **Repetitive nerve stimulation** | NMJ safety factor | **Decrement** in myasthenia, **increment** in LEMS |
 | **EMG** | Muscle electrical activity | Denervation (fibrillations, positive sharp waves, large polyphasic units) vs myopathy (small short polyphasic units); myotonic discharges |
 | **Evoked potentials** | Conduction in a sensory pathway | Visual evoked potentials show **delayed P100** after optic neuritis — evidence of a previous subclinical lesion |
 
 #### 3.8 Blood tests, antibodies and specialist investigations
+
+**The short version**
+
+- Baseline in nearly every presentation: FBC, U&E, LFT, glucose/HbA1c, calcium, CRP/ESR, TFT, B12 and folate, lipids.
+- Antibody by syndrome: AChR then MuSK (MG), GQ1b (Miller Fisher), **AQP4 and MOG before calling it MS ⚑**, unmatched oligoclonal bands (MS).
+- Don't miss the treatable mimics: Wilson's (copper, caeruloplasmin, 24 h urinary copper, slit lamp), plus HIV and syphilis in almost any unexplained neurology.
+- ESR urgently if ?GCA — **but do not delay steroids for the result**.
 
 **Baseline in most presentations:** FBC, U&E, LFT, glucose/HbA1c, calcium, CRP/ESR, TFT, B12 and folate, lipids. Add on pattern:
 
@@ -183,6 +239,13 @@ Work top-down. The key first split is **UMN versus LMN**, then the distribution.
 
 #### 3.9 Red flags and the never-miss list
 
+**The short version**
+
+- Headache red flags = **SNOOP4**; back pain red flags centre on saddle anaesthesia, sphincter dysfunction and progressive deficit.
+- The never-miss list is really a time-to-treatment list — antibiotics for meningitis, aciclovir for HSV, **thiamine before glucose** in Wernicke's.
+- Treat before the test where delay costs organs: steroids in GCA, MRI whole spine now for cord compression, benzodiazepine now for status.
+- **Serial FVC, not oximetry**, is the monitoring parameter in GBS and myasthenic crisis.
+
 **Headache red flags (SNOOP4):** **S**ystemic features/secondary risk (fever, cancer, immunosuppression, pregnancy), **N**eurological signs, **O**nset sudden (thunderclap), **O**lder (new headache >50 — think GCA), **P**apilloedema, **P**ositional/**P**ostural, **P**recipitated by Valsalva, **P**rogressive/pattern change.
 
 **Back pain red flags:** bilateral sciatica, saddle anaesthesia, bladder or bowel dysfunction, reduced anal tone, progressive neurological deficit, thoracic pain, age <20 or >55, cancer history, fever, night pain, unexplained weight loss, steroid use, IV drug use.
@@ -191,7 +254,7 @@ Work top-down. The key first split is **UMN versus LMN**, then the distribution.
 
 | Diagnosis | Immediate action |
 |---|---|
-| Bacterial meningitis | Blood cultures then **immediate ceftriaxone** ± amoxicillin; dexamethasone; LP when safe |
+| Bacterial meningitis | • Blood cultures then **immediate ceftriaxone** ± amoxicillin<br>• dexamethasone<br>• LP when safe |
 | Subarachnoid haemorrhage | Non-contrast CT; LP ≥12 h if negative |
 | Acute ischaemic stroke | Immediate CT and reperfusion assessment — time is brain |
 | Cord compression / cauda equina | Emergency MRI whole spine; dexamethasone if malignant |
@@ -208,6 +271,17 @@ Work top-down. The key first split is **UMN versus LMN**, then the distribution.
 
 #### Rapid-Recall Discriminators — Section 3
 
+**The short version**
+
+- Tempo and pattern first: maximal at onset = vascular; slow march = aura; stereotyped seconds = seizure; fatigable = MG.
+- In coma the pupils do the localising — reactive pupils point away from a structural cause.
+- CSF is a four-way pattern recognition task: bacterial, TB, GBS, MS — plus SAH vs traumatic tap.
+- Electrophysiology and MRI each have signature answers (decrement, increment, P100, DWI, DWI–FLAIR mismatch ⚑).
+
+Taken in three passes — bedside, CSF, then investigations.
+
+##### Bedside: localisation, tempo and coma
+
 | Clue / question | Answer |
 |---|---|
 | Deficit maximal at onset | Vascular event |
@@ -222,6 +296,11 @@ Work top-down. The key first split is **UMN versus LMN**, then the distribution.
 | Reactive pupils with deep coma | Metabolic/toxic cause |
 | GCS threshold for airway protection | ≤8 |
 | Which is worse — decorticate or decerebrate? | Decerebrate (extension) — lower brainstem |
+
+##### CSF patterns
+
+| Clue / question | Answer |
+|---|---|
 | CSF: >1000 neutrophils, protein >1, glucose <0.4 ratio | Bacterial meningitis |
 | CSF: lymphocytes, very high protein, low glucose | TB (or fungal) meningitis |
 | CSF: high protein, normal cell count | Albuminocytological dissociation — GBS |
@@ -229,6 +308,11 @@ Work top-down. The key first split is **UMN versus LMN**, then the distribution.
 | Red cells constant across bottles + xanthochromia | Subarachnoid haemorrhage |
 | Red cells falling across bottles, no xanthochromia | Traumatic tap |
 | Minimum interval from headache onset to LP for xanthochromia | 12 hours |
+
+##### Neurophysiology and imaging
+
+| Clue / question | Answer |
+|---|---|
 | Delayed P100 on visual evoked potentials | Previous optic neuritis |
 | Periodic lateralised discharges over the temporal lobe on EEG | HSV encephalitis |
 | Periodic sharp wave complexes + cortical ribboning on DWI | Creutzfeldt–Jakob disease |
@@ -248,13 +332,20 @@ Kumar & Clark *Clinical Medicine* (10th ed) and Macleod's *Clinical Examination*
 
 ### Neurology (ANU) — myasthenia gravis (MG) — Neurological Assessment
 
+**The short version**
+
+- Antibodies to the **postsynaptic** nicotinic AChR (or MuSK) at the NMJ → fatigable weakness, worse with repetitive movement, relieved by rest.
+- Bimodal onset — 20s (mostly women) and 60s (mostly men); 15% have thymic neoplasia, 85% thymic hyperplasia.
+- Ocular and bulbar predominance with **no change in reflexes, sensation or coordination**; confirm with anti-AChR then MuSK, EMG decrement, CT for thymoma.
+- Treat with pyridostigmine plus immunosuppression ± thymectomy; **myasthenic crisis** = respiratory muscle weakness → ventilate, plasmapheresis or IVIg, treat the trigger.
+
 | Definition | Progressive autoimmune disease mediated by antibodies to nicotinic acetylcholine receptors [anti-AChR or anti-MuSK] on post-synaptic side of NMJ and T cells are implicated |
 | --- | --- |
-| How synapses work | NT packed into synaptic vesicles- at the NMJ this is AChWhen AP arrives at pre-synaptic terminal, depolarization opens voltage-gated Ca2+ channels. In Lambert-Eaton, this stage of synaptic transmission if affectedCa2+ influx through voltage-gated Ca2+ channels triggers fusion of synaptic vesicles with pre-synaptic membrane 🡪 NT released from vesicle into synaptic cleftNT cross synaptic cleft by diffusion and bind to post-synaptic receptors 🡪 depolarization of post-synaptic membrane (end-plate potential). This triggers muscle contraction at NMJ and onward transmission of AP in neurons. In MG, antibodies block the post-synaptic AChR, preventing end-plate potential from becoming large enough to trigger muscle contraction 🡪 muscle weaknessAcetylcholinesterase degrades transmitter: uptake into the pre-synaptic terminal or glial cells, or by diffusion away from synapse. Anticholinesterase treatments for MG (e.g. pyridostigmine) ↓ degradation of ACh ↑ chance to trigger end-plate potential |
+| How synapses work | • NT packed into synaptic vesicles- at the NMJ this is ACh<br>• When AP arrives at pre-synaptic terminal, depolarization opens voltage-gated Ca2+ channels. In Lambert-Eaton, this stage of synaptic transmission if affected<br>• Ca2+ influx through voltage-gated Ca2+ channels triggers fusion of synaptic vesicles with pre-synaptic membrane 🡪 NT released from vesicle into synaptic cleft<br>• NT cross synaptic cleft by diffusion and bind to post-synaptic receptors 🡪 depolarization of post-synaptic membrane (end-plate potential). This triggers muscle contraction at NMJ and onward transmission of AP in neurons. In MG, antibodies block the post-synaptic AChR, preventing end-plate potential from becoming large enough to trigger muscle contraction 🡪 muscle weakness<br>• Acetylcholinesterase degrades transmitter: uptake into the pre-synaptic terminal or glial cells, or by diffusion away from synapse. Anticholinesterase treatments for MG (e.g. pyridostigmine) ↓ degradation of ACh ↑ chance to trigger end-plate potential |
 | Epidemiology | Bimodal age of onset- 20s (mostly women) and 60s (mostly men)15% of patients have associated thymic neoplasia, 85% have thymic hyperplasia |
-| Pathology | Acetylcholine receptor antibody (AChR Ab) Muscle-specific kinase antibody (MuSK) is seen in more than 50% of the remaining patients.Antibody 🡪 inadequate signaling resulting from a single vesicle release pre-synaptically 🡪 ↓ receptors or impaired signaling pathways.Results 🡪 ↑ in the number of vesicles released in response to a single action potential. This may compensate adequately at rest; but with activity, the pre-synaptic store of vesicles may be exhausted and this leads to the development of clinical weakness |
-| Presentation | Progressively worsening (exacerbated with repetitive movements, relieved by rest)Ocular: ptosis, diplopia, peek sign of orbicularis fatigability (eyelids begin to separate after manual opposition to sustained closure)Bulbar: altered speech, dysphagia, chewing, SOB (respiratory muscle weakness)Limited facial expressionWaddling gait, hard to hold up neck No change in reflexes, sensation or coordinationExacerbating features: pregnancy, ↓K+, infection, over-treatment, climate change, emotion, exercise, gentamicin, opiates, tetracycline, quinine, B-blockers |
-| Investigations | ANTIBODIES: ↑anti-AChR in 90% (70% in MG variant confined to ocular muscles). If anti-AChR negative, look for MuSK antibodies (muscle-specific tyrosine kinase, especially in ♀)EMG: decremental muscle response to repetitive nerve stimulation ± single-fibre jitterIMAGING: CT to exclude thymomaOTHER: Ptosis improves by &gt; 2mm after ice to eyelid for &gt; 2 min- neat, non-invasive, non-diagnosticTensilon (endrophonium) test- rare, dangerous (bradycardia, hypotension, sweating, salivation); giving short-acting AChesterase inhibitor to ↑ in Ach at NMJ for temporary symptomatic relief |
-| Treatment | SYMPTOM CONTROL: anticholinesterase (pyridostigmine 60-120 mg PO up to 6 x daily; max 1.2g/d; watch for SLUDGE syndrome)IMMUNOSUPPRESSION: treat relapses with prednisolone (or azathioprine, cyclophosphamide) and ↓ dose on remission (may take months); consider osteoporosis prophylaxisTHYMECTOMY: beneficial effects even with pts without a thymoma (especially in younger patients with onset &lt; 5 years previously and poor response to medical therapy) |
+| Pathology | • Acetylcholine receptor antibody (AChR Ab)<br>• Muscle-specific kinase antibody (MuSK) is seen in more than 50% of the remaining patients.<br>• Antibody 🡪 inadequate signaling resulting from a single vesicle release pre-synaptically 🡪 ↓ receptors or impaired signaling pathways.<br>• Results 🡪 ↑ in the number of vesicles released in response to a single action potential. This may compensate adequately at rest; but with activity, the pre-synaptic store of vesicles may be exhausted and this leads to the development of clinical weakness |
+| Presentation | • Progressively worsening (exacerbated with repetitive movements, relieved by rest)<br>• Ocular: ptosis, diplopia, peek sign of orbicularis fatigability (eyelids begin to separate after manual opposition to sustained closure)<br>• Bulbar: altered speech, dysphagia, chewing, SOB (respiratory muscle weakness)<br>• Limited facial expression<br>• Waddling gait, hard to hold up neck<br>• No change in reflexes, sensation or coordination<br>• Exacerbating features: pregnancy, ↓K+, infection, over-treatment, climate change, emotion, exercise, gentamicin, opiates, tetracycline, quinine, B-blockers |
+| Investigations | • ANTIBODIES: ↑anti-AChR in 90% (70% in MG variant confined to ocular muscles). If anti-AChR negative, look for MuSK antibodies (muscle-specific tyrosine kinase, especially in ♀)<br>• EMG: decremental muscle response to repetitive nerve stimulation ± single-fibre jitter<br>• IMAGING: CT to exclude thymoma<br>• OTHER: Ptosis improves by &gt; 2mm after ice to eyelid for &gt; 2 min- neat, non-invasive, non-diagnostic<br>• Tensilon (endrophonium) test- rare, dangerous (bradycardia, hypotension, sweating, salivation); giving short-acting AChesterase inhibitor to ↑ in Ach at NMJ for temporary symptomatic relief |
+| Treatment | • SYMPTOM CONTROL: anticholinesterase (pyridostigmine 60-120 mg PO up to 6 x daily; max 1.2g/d; watch for SLUDGE syndrome)<br>• IMMUNOSUPPRESSION: treat relapses with prednisolone (or azathioprine, cyclophosphamide) and ↓ dose on remission (may take months); consider osteoporosis prophylaxis<br>• THYMECTOMY: beneficial effects even with pts without a thymoma (especially in younger patients with onset &lt; 5 years previously and poor response to medical therapy) |
 | Prognosis | 30% eventual spontaneous remission |
 | Myasthenia crisis | Life-threatening respiratory muscle weakness [hard to differentiate from cholinergic crisis (rare)]Tx: ventilator support, plasmapheresis (remove AChR antibodies) or IVIg, treat trigger e.g. infection |

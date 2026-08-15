@@ -143,6 +143,27 @@
     font-weight:600;white-space:nowrap}
   .md tbody tr:last-child td{border-bottom:0}
   .md tbody tr:nth-child(even){background:var(--panel-2)}
+  .md table{line-height:1.5}
+  .md td{vertical-align:top}
+  .md td b, .md td strong{font-weight:650}
+  @media (max-width:760px){
+    /* A dense 4-column table is unreadable on a phone. Below this width each row
+       becomes its own card and each cell is prefixed with its column name, so the
+       content reads as structured points rather than a sideways scroll. */
+    .md table.wide, .md table.wide thead, .md table.wide tbody,
+    .md table.wide tr, .md table.wide td{display:block;width:auto}
+    .md table.wide{border-collapse:separate;overflow:visible}
+    .md table.wide thead{position:absolute;left:-9999px}
+    .md table.wide tbody tr{background:var(--panel);border:1px solid var(--rule);
+      border-radius:var(--r-ctl);padding:4px 14px 10px;margin:0 0 12px}
+    .md table.wide tbody tr:nth-child(even){background:var(--panel)}
+    .md table.wide td{border-bottom:0;padding:8px 0 0}
+    .md table.wide td+td{border-top:1px solid var(--rule);margin-top:8px;padding-top:9px}
+    .md table.wide td:before{content:attr(data-label);display:block;
+      font-family:var(--mono);font-size:9px;letter-spacing:.11em;text-transform:uppercase;
+      color:var(--ink-2);margin-bottom:4px}
+    .md table.wide td[data-label='']:before{display:none}
+  }
   .md blockquote{margin:0 0 15px;padding:13px 16px;border-radius:var(--r-ctl);
     background:var(--panel-2);border-left:3px solid var(--rule);font-size:14.5px}
   .md blockquote p:last-child{margin-bottom:0}
@@ -527,8 +548,13 @@ function mdToHtml(src){
       const body=[];
       while(i<lines.length && /^\s*\|/.test(lines[i])) body.push(row(lines[i++]));
       const anyHead = head.some(c => c!=='');
-      out.push('<table>'+(anyHead ? '<thead><tr>'+head.map(c=>`<th>${inline(c)}</th>`).join('')+'</tr></thead>':'')+
-        '<tbody>'+body.map(r=>'<tr>'+r.map(c=>`<td>${inline(c)}</td>`).join('')+'</tr>').join('')+
+      // data-label carries the column heading so narrow screens can stack each row as
+      // a labelled card instead of forcing a sideways scroll through a 4-column table —
+      // which is what made the dense pharmacology tables unreadable on a phone.
+      const lbl = i => (anyHead && head[i] ? esc(head[i].replace(/\*\*/g,'')) : '');
+      out.push('<table'+(head.length>2?' class="wide"':'')+'>'+
+        (anyHead ? '<thead><tr>'+head.map(c=>`<th>${inline(c)}</th>`).join('')+'</tr></thead>':'')+
+        '<tbody>'+body.map(r=>'<tr>'+r.map((c,ci)=>`<td data-label="${lbl(ci)}">${inline(c)}</td>`).join('')+'</tr>').join('')+
         '</tbody></table>');
       continue;
     }

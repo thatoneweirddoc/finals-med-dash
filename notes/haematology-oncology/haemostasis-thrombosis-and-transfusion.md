@@ -17,6 +17,12 @@ updated: "2026-08-14"
 
 #### 5.1 Approach to bleeding
 
+**The short version**
+
+- **Mucocutaneous + immediate** bleeding = platelet-type — thrombocytopenia, platelet dysfunction, VWD.
+- **Deep + delayed** bleeding (haemarthrosis, muscle, retroperitoneal) = coagulation-type — haemophilia, DIC, warfarin, liver disease.
+- Phenotype narrows the list; the **coagulation screen** (PT/APTT/fibrinogen/platelets) localises the defect.
+
 Distinguish two bleeding phenotypes at the bedside — it points straight at the mechanism:
 
 | Feature | **Platelet-type** (primary haemostasis) | **Coagulation-type** (secondary haemostasis) |
@@ -49,6 +55,12 @@ Low platelets arise from **reduced production** (marrow failure/infiltration, dr
 
 #### 5.4 Thrombophilia & VTE
 
+**The short version**
+
+- Inherited: **factor V Leiden** commonest (APC resistance); then prothrombin G20210A and protein C / protein S / antithrombin deficiency.
+- Acquired: **antiphospholipid syndrome**, malignancy, pregnancy/oestrogens, nephrotic syndrome.
+- APS is the one to spot — arterial *and* venous thrombosis + recurrent miscarriage, **prolonged APTT in vitro but thrombotic in vivo**, warfarin not DOAC ⚑.
+
 **Virchow's triad** underlies venous thromboembolism (**DVT/PE**). Risk factors: surgery/immobility, malignancy, pregnancy/oestrogen, previous VTE, and **inherited/acquired thrombophilias**:
 
 | Inherited | Acquired |
@@ -62,6 +74,12 @@ Low platelets arise from **reduced production** (marrow failure/infiltration, dr
 **Diagnosis of VTE:** risk-stratify (Wells score) → **D-dimer** to exclude if low probability → **Doppler USS** (DVT) or **CTPA** (PE; V/Q if contrast contraindicated). **Provoked** (transient risk factor) vs **unprovoked** VTE guides duration. **Cancer-associated thrombosis** — historically LMWH; **⚑ DOACs (edoxaban, apixaban, rivaroxaban) are now first-line for most, with caution in GI/GU tumours** (bleeding).
 
 #### 5.5 Anticoagulation & reversal
+
+**The short version**
+
+- Only two drugs are routinely monitored: **UFH → APTT**, **warfarin → INR**. LMWH and DOACs need none routinely.
+- Reversal is the high-yield column ⚑: **protamine** (heparin), **vitamin K + PCC** (warfarin), **idarucizumab** (dabigatran), **andexanet alfa or PCC** (apixaban/rivaroxaban/edoxaban).
+- Know the target: warfarin hits **II, VII, IX, X**; dabigatran hits **IIa**; the "-xabans" hit **Xa**.
 
 | Drug | Target | Monitoring | Reversal ⚑ |
 |---|---|---|---|
@@ -85,6 +103,13 @@ Key safety points: **warfarin is teratogenic** (use LMWH in pregnancy); it has a
 
 #### 6.2 Blood components & thresholds
 
+**The short version**
+
+- Match component to defect: **red cells** for symptomatic anaemia/blood loss, **platelets** for thrombocytopenic bleeding or prophylaxis (<10 ×10⁹/L, pre-procedure).
+- **FFP** = all clotting factors (bleeding + ↑PT/APTT, DIC); **cryoprecipitate** = fibrinogen, VWF, VIII, XIII — the one for **fibrinogen <1.5 g/L** (<2 in obstetric haemorrhage).
+- Default is **restrictive**: transfuse at **Hb <70 g/L** (aim 70–90), **<80 g/L** if chronic cardiovascular disease or post-cardiac surgery; one unit at a time, reassess.
+- ⚑ Exception: **acute coronary syndrome/MI — 2025 AABB suggests a liberal target ~80–100 g/L**.
+
 | Component | Contains | Main indication |
 |---|---|---|
 | **Red cells** | RBCs | Symptomatic anaemia / significant blood loss |
@@ -95,6 +120,13 @@ Key safety points: **warfarin is teratogenic** (use LMWH in pregnancy); it has a
 **Restrictive transfusion is the default.** For **most haemodynamically stable inpatients, transfuse at Hb <70 g/L**, aiming for **70–90 g/L**; use **<80 g/L** for patients with **chronic cardiovascular disease** or post-cardiac surgery. **⚑ Exception — acute coronary syndrome/acute MI:** the **2025 AABB guideline now suggests a more liberal strategy (transfuse to keep Hb around 80–100 g/L)**, a shift from the older uniform restrictive threshold, based on the MINT trial and meta-analyses; this remains an area where sources differ, so state both the general restrictive rule and the acute-MI exception. Transfuse **one unit at a time and reassess** in non-bleeding patients.
 
 #### 6.3 Transfusion reactions
+
+**The short version**
+
+- **Stop-immediately** list: acute haemolytic (ABO), anaphylaxis, TRALI, bacterial contamination. Febrile non-haemolytic and urticarial reactions can usually be slowed and continued.
+- Fever + **loin/back pain** + hypotension + dark urine **during** the transfusion = **ABO incompatibility** ⚑ — usually a clerical error; resuscitate and check identity.
+- **TACO vs TRALI** is the classic pair: TACO is **hypertensive**, raised JVP → **diurese**; TRALI is **hypotensive**, bilateral infiltrates <6 h → **support, do not diurese**.
+- Anaphylaxis to a transfusion → think **IgA deficiency** with anti-IgA.
 
 **Acute (within 24 h):**
 
@@ -120,6 +152,16 @@ Key safety points: **warfarin is teratogenic** (use LMWH in pregnancy); it has a
 
 #### Rapid-Recall Discriminators
 
+**The short version**
+
+- Three emergencies hide in this table: **TTP** (plasma exchange, **no platelets** ⚑), **ABO haemolytic reaction** (stop, resuscitate) and **HIT** (stop heparin, non-heparin anticoagulant).
+- Two pairs are where marks are lost: **TTP vs DIC** (clotting normal vs deranged) and **TACO vs TRALI** (hypertensive/diurese vs hypotensive/don't).
+- Reversal agents and transfusion thresholds are the commonest single-fact asks — learn them as a block.
+
+Split into two passes: bleeding and thrombosis first, then transfusion and reversal.
+
+##### Bleeding & thrombosis
+
 | Clue / question | Answer |
 |---|---|
 | Mucocutaneous bleeding + immediate | Platelet-type (thrombocytopenia/VWD) |
@@ -131,6 +173,11 @@ Key safety points: **warfarin is teratogenic** (use LMWH in pregnancy); it has a
 | Commonest inherited bleeding disorder | Von Willebrand disease |
 | Isolated ↑APTT, X-linked, haemarthrosis | Haemophilia (A = VIII, B = IX) |
 | Thrombosis + miscarriage + ↑APTT that won't correct | Antiphospholipid syndrome — warfarin (not DOAC) ⚑ |
+
+##### Transfusion & reversal
+
+| Clue / question | Answer |
+|---|---|
 | Universal red cell donor / universal plasma donor | O red cells / AB plasma |
 | Default restrictive transfusion threshold | Hb <70 (80 if cardiac disease) |
 | Acute-MI transfusion target ⚑ | More liberal (~80–100 g/L) per 2025 AABB |
@@ -151,15 +198,22 @@ Hoffbrand's Essential Haematology; BSH guidelines (ITP, TTP/ADAMTS13, HIT, DIC, 
 
 ### Haematology (ANU) — DISORDERS OF PRIMARY HAEMOSTASIS — Haemostasis, Thrombosis & Transfusion
 
+**The short version**
+
+- Failure of the platelet plug — vessel wall, platelet number/function or VWF — so bleeding time rises and bleeding is mucocutaneous and immediate.
+- **ITP** = diagnosis of exclusion, isolated thrombocytopenia (<150,000/mm3), IgG vs GpIIb/IIIa; steroids, IVIG, splenectomy if refractory.
+- **HIT** = antibody to heparin–PF4 → thrombocytopenia **with thrombosis**; stop heparin, argatroban, then transition to warfarin.
+- **HUS** (children, Shiga toxin, bloody diarrhoea, renal failure) vs **TTP** (adults, ADAMTS-13, ≥3/5 of the pentad, normal coags); **Bernard–Soulier** = ↓GpIb, large platelets.
+
 | Definition | Inability to form an adequate platelet plug due to disorders of blood vessels, number/function of platelets and VWF, which cause an increase in bleeding time |
 | --- | --- |
 | Physiology | Haemostasis achieved via platelet adhesion and aggregation at the site of endothelial injuryNote: look at platelet plug formation picture above |
 | Disorders | Platelet disorders Platelet deficiency Disorders affecting the vessel wallVascular haemorrhagic diathesis (e.g. HSP)Thrombotic microangiopathy (e.g. HUS) |
 | Classification | ![](notes/images/haematology-anu/img026.jpg) |
-| Causes | IMMUNE THROMBOCYTOPENIA (ITP) | Diagnosis of exclusion in isolate thrombocytopenia (&lt;150,000/mm3)Aetiology:Primary: isolated thrombocytopenia with no other causeSecondary: lymphoma, leukemia, SLE, HCVDrug-inducedPathophysiology: IgG antibodies against GpIIb/IIIa on platelets → platelet-antibody complex removed from circulation by spleen → ↓ platelet count → bone marrow megakaryocytes and platelet production increase in responsePresentation: commonly asymptomatic, but can have easy bruising, petechiae, bleeding haematuria, melenaAcute ITP: typically in children following viral infectionChronic ITP: typically in women of child-bearing age with an insidious onsetInvestigations: ↓ platelet, ↑BT, normal peripheral blood film, ↑ megakaryocytes on bone marrow aspirate/biopsy, investigate aetiologiesTreatment: steroids, IVIG, splenectomy (for refractory ITP) |
-| HEPARIN-INDUCED THROMBOCYTOPENIA | Heparin-associated thrombocytopenia (HIT type I): transient thrombocytopenia following administration of heparinHeparin-induced thrombocytopenia (previously HIT type II): immune-mediated reaction after heparin treatment where antibody recognises a complex heparin and platelet factor 4 (PF4) leading to platelet and coagulation system activation Presentation: thrombocytopenia, thrombosis (venous e.g. DVT/PE, arterial e.g. MI/stroke/acute limb ischaemia)Complications: organ ischemia/infarction, skin necrosis, limb gangreneManagement: discontinue heparin, initiate non-hepatin anticoagulation (e.g. argatroban) until platelet count normalises, transition to warfarin, heparin allergy band in records |
-| HAEMOLYTIC UREMIC SYNDROME | Epidemiology: predominantly children and the elderlyAetiology: Shiga toxin (E.coli) in 90%, accompanied by diarrhoeaPresentation: thrombocytopenia, microangiopathic haemolytic anaemia, acute renal failure, bloody diarrhoea, GI prodromeInvestigations: ↓ platelet, ↑ bleeding timeTreatment: supportive (fluid, electrolytes, acid-base, BP, transfusions), dialysis (for AKI), plasmapheresis, Eculizumab (neuro symptoms) |
-| THROMBOTIC THROMBOCYTOPENIC PURPURA (TTP) | Epidemiology: predominantly adultsAetiology: ADAMTS-13 absence → ↓ degradation of vWF → ↑ large vWF → ↑ platelet adhesion and thombosisPresentation (high suspicion if ≥3/5) of: 1. ↓ platelets, 2. microangiopathi haemolytic anaemia, 3. neuological (delirium, seizure, stroke), 4. impaired renal function, 5. feverInvestigations: ↓ platelets, ↑BT, schistocytes, ↑LDH, normal coagsTreatment: plasmapheresis, steroidsPrognosis: 90% mortality unless treated |
+| Causes<br>IMMUNE THROMBOCYTOPENIA (ITP) | Diagnosis of exclusion in isolate thrombocytopenia (&lt;150,000/mm3)<br>• Aetiology:<br>• Primary: isolated thrombocytopenia with no other cause<br>• Secondary: lymphoma, leukemia, SLE, HCVDrug-induced<br>• Pathophysiology: IgG antibodies against GpIIb/IIIa on platelets → platelet-antibody complex removed from circulation by spleen → ↓ platelet count → bone marrow megakaryocytes and platelet production increase in response<br>• Presentation: commonly asymptomatic, but can have easy bruising, petechiae, bleeding haematuria, melena<br>• Acute ITP: typically in children following viral infection<br>• Chronic ITP: typically in women of child-bearing age with an insidious onset<br>• Investigations: ↓ platelet, ↑BT, normal peripheral blood film, ↑ megakaryocytes on bone marrow aspirate/biopsy, investigate aetiologies<br>• Treatment: steroids, IVIG, splenectomy (for refractory ITP) |
+| HEPARIN-INDUCED THROMBOCYTOPENIA | Heparin-associated thrombocytopenia (HIT type I): transient thrombocytopenia following administration of heparinHeparin-induced thrombocytopenia (previously HIT type II): immune-mediated reaction after heparin treatment where antibody recognises a complex heparin and platelet factor 4 (PF4) leading to platelet and coagulation system activation <br>• Presentation: thrombocytopenia, thrombosis (venous e.g. DVT/PE, arterial e.g. MI/stroke/acute limb ischaemia)<br>• Complications: organ ischemia/infarction, skin necrosis, limb gangrene<br>• Management: discontinue heparin, initiate non-hepatin anticoagulation (e.g. argatroban) until platelet count normalises, transition to warfarin, heparin allergy band in records |
+| HAEMOLYTIC UREMIC SYNDROME | Epidemiology: predominantly children and the elderly<br>• Aetiology: Shiga toxin (E.coli) in 90%, accompanied by diarrhoea<br>• Presentation: thrombocytopenia, microangiopathic haemolytic anaemia, acute renal failure, bloody diarrhoea, GI prodrome<br>• Investigations: ↓ platelet, ↑ bleeding time<br>• Treatment: supportive (fluid, electrolytes, acid-base, BP, transfusions), dialysis (for AKI), plasmapheresis, Eculizumab (neuro symptoms) |
+| THROMBOTIC THROMBOCYTOPENIC PURPURA (TTP) | Epidemiology: predominantly adults<br>• Aetiology: ADAMTS-13 absence → ↓ degradation of vWF → ↑ large vWF → ↑ platelet adhesion and thombosisPresentation (high suspicion if ≥3/5) of: 1. ↓ platelets, 2. microangiopathi haemolytic anaemia, 3. neuological (delirium, seizure, stroke), 4. impaired renal function, 5. fever<br>• Investigations: ↓ platelets, ↑BT, schistocytes, ↑LDH, normal coags<br>• Treatment: plasmapheresis, steroids<br>• Prognosis: 90% mortality unless treated |
 | BERNARD-SOULIER SYNDROME | Defect in platelet plug formation: ↓ GpIb → defect in platelet-to-vWF adhesionInvestigations: -/↓ platelets, ↑BT, large platelets |
 
 **Presentation**
@@ -176,13 +230,20 @@ Hoffbrand's Essential Haematology; BSH guidelines (ITP, TTP/ADAMTS13, HIT, DIC, 
 
 ### Haematology (ANU) — DISORDERS OF SECONDARY HAEMOSTASIS — Haemostasis, Thrombosis & Transfusion
 
+**The short version**
+
+- Failure to form an adequate **fibrin clot** → delayed bleeding, deep muscular bleeds, spontaneous haemarthroses.
+- **PT** = extrinsic + common (I, II, V, VII, X); **PTT** = intrinsic + common (all but VII and XIII). **Mixing study** corrects in factor deficiency, does **not** correct with an inhibitor.
+- **Haemophilia** A (VIII, XR, 80%) / B (IX, XR, 20%) / C (XI, AR, Ashkenazi) — ↑aPTT with **normal PT and platelets**.
+- Acquired causes prolong **both** PT and aPTT: vitamin K deficiency and liver disease — liver disease spares **factor VIII** (also made in endothelium).
+
 | Definition | Disorders of the coagulation cascade  characterised by the inability to form an adequate fibrin clotDisorders of clotting factors or co-factorsDisorders of proteins associated with fibrinolysisCharacterized by delayed bleeding, deep muscular bleeding, spontaneous hemarthroses |
 | --- | --- |
 | Physiology | Note: look at coagulation cascase formation picture above |
 | Investigations | PT: common and extrinsic pathway (factors I, II, V, VII, and X). A defect → ↑ PTINR: calculated from PT and 1=normal and &gt;1= prolongedPTT: common and intrinsic pathway (all factors except VII and XIII). A defect → ↑ PTCoagulation disorders can be due to clotting factor deficiencies or acquired inhibitorsDiagnosed with a mixing study, in which normal plasma is added to patient’s plasmaClotting factor deficiencies should correct (PT or PTT returns to within the appropriate normal range), whereas factor inhibitors will not correct |
 | Disorders | Intrinsic pathway: Coagulation factors deficiency: haemophilia A (factor VIII), haemophilia B (factor IX)Autoantibodies (e.g., systemic lupus erythematosus, or SLE)Extrinsic pathway: factor VII deficiencyVitamin K-associated factor disorders: Deficiency of vitamin K-dependent factors: deficiency of coagulation factors II, VII, IX, and X Vitamin K antagonist therapy: warfarin therapyVitamin K deficiency: e.g., malabsorption syndrome, vitamin K-deficient bleeding of the newborn Impaired hepatic production: e.g., liver cirrhosisAutoantibodies (e.g., SLE) |
-| Causes | HAEMOPHILIA A, B OR C | Definition: Intrinsic pathway coagulation defectA: deficiency of factor VIII → ↑ PTT; X-linked recessive (80% of cases)B: deficiency of factor IX → ↑ PTT; X-linked recessive (20% of cases)C: deficiency of factor XI → PTT; autosomal recessive; common in Ashkenazi Jewish populationMacrohemorrhage in haemophilia: hemarthroses (bleeding into joints e.g. knee), easy bruising, bleeding after trauma or surgery (e.g. dental), GI tract (melena, haematemesis), genitourinary (haematuria), oral mucosa (bleeding, epistaxis)Investigations: normal PT and platelet count, ↑aPTTTreatment: desmopressin + factor VIII concentrate (A); factor IX concentrate (B); factor XI cAoncentrate (C |
-| VITAMIN K DEFICIENCY | Aetiology: drugs (vitamin K antagonist e.g. warfarin, antibiotics eradicating gut flora), ↓ diet, biliary obstruction, chronic liver disease, fat malabsorption (celiac disease), haemorrhagic disease of the newbornInvestigations:↑PT, ↑aPTT, ↓ vitamin-K dependent factors (II, VII, IX, X, protein C/S)Treatment: cease insulting drugs, vitamin K PO/IV, in life-threatening bleeding → vitamin K antagonist (PDD- which is contraindicated in HIT, FP) |
+| Causes<br>HAEMOPHILIA A, B OR C | Definition: Intrinsic pathway coagulation defectA: deficiency of factor VIII → ↑ PTT; X-linked recessive (80% of cases)B: deficiency of factor IX → ↑ PTT; X-linked recessive (20% of cases)C: deficiency of factor XI → PTT; autosomal recessive; common in Ashkenazi Jewish populationMacrohemorrhage in haemophilia: hemarthroses (bleeding into joints e.g. knee), easy bruising, bleeding after trauma or surgery (e.g. dental), GI tract (melena, haematemesis), genitourinary (haematuria), oral mucosa (bleeding, epistaxis)<br>• Investigations: normal PT and platelet count, ↑aPTT<br>• Treatment: desmopressin + factor VIII concentrate (A); factor IX concentrate (B); factor XI cAoncentrate (C |
+| VITAMIN K DEFICIENCY | Aetiology: drugs (vitamin K antagonist e.g. warfarin, antibiotics eradicating gut flora), ↓ diet, biliary obstruction, chronic liver disease, fat malabsorption (celiac disease), haemorrhagic disease of the newborn<br>• Investigations:↑PT, ↑aPTT, ↓ vitamin-K dependent factors (II, VII, IX, X, protein C/S)<br>• Treatment: cease insulting drugs, vitamin K PO/IV, in life-threatening bleeding → vitamin K antagonist (PDD- which is contraindicated in HIT, FP) |
 | LIVER DISEASE | PathophysiologyDeficient synthesis of all factors except VIII (also made in endothelium)Aberrant/diminished synthesis of fibrinogen (factor I)↓ synthesis of natural anticoagulants and altered regulation of fibrinolysisInvestigations: target cells on peripheral blood film, primary haemostasis affected (thrombocytopenia), secondary haemostasis affected (coags) |
 
 **Presentation**
@@ -197,6 +258,13 @@ Hoffbrand's Essential Haematology; BSH guidelines (ITP, TTP/ADAMTS13, HIT, DIC, 
 
 ### Haematology (ANU) — MIXED PLATELET AND COAGULATION DISORDERS — Haemostasis, Thrombosis & Transfusion
 
-| VON WILLEBRAND DISEASE | DEFINITION: intrinsic pathway coagulation defect characterised by either a deficiency or disorder of vWFPATHOPHYSIOLOGY: vWF needed for platelet adhesion/aggregation and acts as chaperone for Factor VIII, therefore abnormality of VWF can affect both primary and secondary haemostasisCLASSIFICATION: Type 1 (quantitative defect; 80% of cases) → autosomal dominantType 2 (qualitative defect in activity; 15-20%) → autosomal dominantType 3 (no vWF; very rare ~1%) → complete absenceAcquired: typically associated with malignancies e.g. multiple myeloma, lymphoma, autoimmunePRESENTATION: mostly asymptomatic, ecchymosis, petechial haemorrhages, epistaxis, gingival bleeding, menorrhagia, GI bleeding, ↑bleeding during proceduresLABS: normal platelets and PT, ↑BT, normal or ↑ PTT, vWF antigen (↓ factor levels), normal or ↓ factor VIII, ↓ristocetin (cofactor for vWF-platelet binding)TREATMENT: recombinant vWF, desmopressin, factor VIII concentrates, OCP in menorrhagia, anti-fibrinolytics (e.g. tranexamic acid, aminocaproic acid)AVOID: aspirin, NSAIDs, IM injections |
+**The short version**
+
+- **VWD hits both arms** — VWF does platelet adhesion *and* chaperones factor VIII: ↑BT, normal platelets and PT, normal or ↑PTT, **↓ristocetin**.
+- VWD types: 1 quantitative (80%, AD), 2 qualitative (15–20%, AD), 3 absent (~1%); acquired forms with myeloma/lymphoma. Treat with recombinant vWF, desmopressin, factor VIII, TXA; **avoid aspirin, NSAIDs, IM injections**.
+- **DIC** = dysregulated plasmin and thrombin consuming platelets, factors and fibrinogen — schistocytes, ↑BT, ↑PT, ↑PTT, **↓fibrinogen, ↑D-dimer**.
+- DIC management is **supportive + treat the cause**: components (platelets, plasma, cryoprecipitate) if haemorrhaging, UFH/LMWH only in the thrombotic phase in critically ill non-bleeding patients.
+
+| VON WILLEBRAND DISEASE | DEFINITION: intrinsic pathway coagulation defect characterised by either a deficiency or disorder of vWF<br>• PATHOPHYSIOLOGY: vWF needed for platelet adhesion/aggregation and acts as chaperone for Factor VIII, therefore abnormality of VWF can affect both primary and secondary haemostasis<br>• CLASSIFICATION: Type 1 (quantitative defect; 80% of cases) → autosomal dominantType 2 (qualitative defect in activity; 15-20%) → autosomal dominantType 3 (no vWF; very rare ~1%) → complete absenceAcquired: typically associated with malignancies e.g. multiple myeloma, lymphoma, autoimmune<br>• PRESENTATION: mostly asymptomatic, ecchymosis, petechial haemorrhages, epistaxis, gingival bleeding, menorrhagia, GI bleeding, ↑bleeding during procedures<br>• LABS: normal platelets and PT, ↑BT, normal or ↑ PTT, vWF antigen (↓ factor levels), normal or ↓ factor VIII, ↓ristocetin (cofactor for vWF-platelet binding)<br>• TREATMENT: recombinant vWF, desmopressin, factor VIII concentrates, OCP in menorrhagia, anti-fibrinolytics (e.g. tranexamic acid, aminocaproic acid)<br>• AVOID: aspirin, NSAIDs, IM injections |
 | --- | --- |
-| DISSEMINATED INTRAVASCULAR COAGULATION | DEFINITION: Excessive, dysregulated release of plasmin and thrombin leading to intravascular coagulation and depletion of platelets, coagulation factors and fibrinogenAETIOLOGY (mnemonic STOP MAKING NEW THROMBI): Sepsis (gram ⊝)TraumaObstetric complications (amniotic fluid embolism, pre-eclampsia, placental obstruction, RPOC)acute Pancreatitis Malignancy (acute promyelocytic leukemia, pancreas, ovarian, gastric)Nephrotic syndromeTransfusion (intravascular haemolysis)LABS: schistocytes, thrombocytopenia, ↑BT, ↑PT, ↑PTT, decreased fibrinogen levels, and increased D-dimerPATHOPHYSIOLOGYHyperfibrinolysis → bleeding e.g. in leukemia, obstetric complications, aortic aneurysms, acute traumatic coagulopathyOrgan failure: ↑cytokine → hypercoagulation →consumption of platelets and coagulation factors e.g. in sepsisConsumptive: hyperfibrinolysis and hypercoagulation e.g. post-operative, obstetrics complications, tumoursPRESENTATION ![](notes/images/haematology-anu/img027.jpg) TREATMENTSupportive: aggressive hydration, haemodynamic/ventilator support, RBC transfusion if severeIn haemorrhage: platelet transfusion, frozen plasma, cryoprecipitateIn thrombotic phase: UFH or LMWH in critically ill, non-bleeding patients |
+| DISSEMINATED INTRAVASCULAR COAGULATION | DEFINITION: Excessive, dysregulated release of plasmin and thrombin leading to intravascular coagulation and depletion of platelets, coagulation factors and fibrinogen<br>• AETIOLOGY (mnemonic STOP MAKING NEW THROMBI): Sepsis (gram ⊝)TraumaObstetric complications (amniotic fluid embolism, pre-eclampsia, placental obstruction, RPOC)acute Pancreatitis Malignancy (acute promyelocytic leukemia, pancreas, ovarian, gastric)Nephrotic syndromeTransfusion (intravascular haemolysis)<br>• LABS: schistocytes, thrombocytopenia, ↑BT, ↑PT, ↑PTT, decreased fibrinogen levels, and increased D-dimer<br>• PATHOPHYSIOLOGYHyperfibrinolysis → bleeding e.g. in leukemia, obstetric complications, aortic aneurysms, acute traumatic coagulopathyOrgan failure: ↑cytokine → hypercoagulation →consumption of platelets and coagulation factors e.g. in sepsisConsumptive: hyperfibrinolysis and hypercoagulation e.g. post-operative, obstetrics complications, tumours<br>• PRESENTATION ![](notes/images/haematology-anu/img027.jpg) <br>• TREATMENT<br>• Supportive: aggressive hydration, haemodynamic/ventilator support, RBC transfusion if severeIn haemorrhage: platelet transfusion, frozen plasma, cryoprecipitateIn thrombotic phase: UFH or LMWH in critically ill, non-bleeding patients |
