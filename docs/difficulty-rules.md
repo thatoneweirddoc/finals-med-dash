@@ -122,3 +122,77 @@ can only describe findings in words ("X-ray reported as showing cortical
 thickening and sclerosis…", which is how 2024 Q6 does it anyway). This is a real
 gap against the actual exam and worth covering separately with the past papers
 themselves.
+
+---
+
+# Follow-up pass — checked against the 2022 paper
+
+A second, independent sample: the 2022 MCQ (80 questions, student
+reconstruction, no answer key — difficulty ratings below are my own reading).
+This is the test of whether the rules above generalise beyond the two years they
+were derived from.
+
+## What held
+
+**The 25/55/20 blend held.** Rating each 2022 question against the tier
+definitions gives roughly 28% easy, 55% medium, 17% hard. Close enough that the
+`exam` mix stays as it is.
+
+**"Hops not obscurity" held, and produced the single best hard-question anchor
+in the whole set.** 2022 Q66: a woman on 15mg prednisone for 15 years for RA
+presents with pneumonia, BP 110/50, T 36, Na 130, K 5.5, glucose 7.5 — the
+question asks what to prescribe *in addition to antibiotics*. Answer:
+IV hydrocortisone. Nothing in the stem says "adrenal"; you have to assemble
+relative adrenal insufficiency from the drug history plus the electrolyte
+pattern plus the inappropriately soft BP for a septic patient. That is a
+three-hop chained inference on a common condition, and it is squarely inside
+Fadi's flagged weak area — worth using as a template.
+
+Other hard anchors from 2022 that fit routes 1–4 cleanly: post-pancreatitis
+with a 10mm CBD and settling LFTs → MRCP before cholecystectomy (Q9, the trap
+is that "same-admission chole" is the reflex answer); INR 7.5 with no bleeding
+→ withhold and recheck, not vitamin K (Q50); the 24-hour fluid-balance
+arithmetic question (Q48); the ABG classification (Q71).
+
+## What changed
+
+**1. Five options, not four.** 2022 runs A–E almost throughout; 2024/25 mix
+four and five. The generator was fixed at four. Now five, matching the paper —
+a fifth plausible distractor is also where much of the real difficulty in the
+medium tier lives.
+
+**2. List-style stems are far more common than I allowed.** "Which of the
+following is TRUE / NOT / EXCEPT" made up roughly a quarter of the 2022 paper
+(Q7, 8, 10, 12, 14, 18, 21, 22, 35, 39–41, 49, 52–54, 67, 72, 76, 78–80). The
+2024/25 papers trended down to about one in ten, but the format clearly has not
+gone away. Rule change: the exam mix may carry up to **15%** list-style
+questions, and they are rated **medium by default** — each is really five
+recall checks rather than a reasoning task, so it belongs neither in easy nor
+in hard. The one-in-ten cap now applies only to *negative* stems within the
+hard tier.
+
+**3. Three question types I had not listed.** Applied anatomy (carpal tunnel
+contents, femoral hernia relations, radial nerve on a humeral X-ray, nerve
+roots — around 6% of 2022); statistics and public health (p-value meaning,
+odds ratio vs hazard ratio, screening yield, mammography demographic — 3–5%);
+and ethics, law and cultural safety (definition of an Aboriginal person,
+informed consent, mature minor, Indigenous liaison — 4–6%). All three now sit
+in the type-spread instruction.
+
+## The finding that matters more than difficulty
+
+**The bank recycles.** Verbatim or near-verbatim repeats across the three years
+I have now read: testicular tumours TRUE/FALSE (2022 Q10 = 2025 Q15); Lynch
+syndrome (2022 Q63 = 2024 Q98); caecal carcinoma presentation (2022 Q51 = 2024
+Q72); decompensated hep C liver disease (2022 Q43 = 2024 Q93); inguinal hernia
+urgency (2022 Q46 = 2024 Q99); the inferior MI ECG in the returned traveller
+(2022 Q27 = 2024 Q85); vitamin D toxicity (2022 Q72 = 2025 Q65); acute gout in
+CKD/CHF (2022 Q6 = 2025 Q69); lithium toxicity (2024 Q25 = 2025 Q9); SCC in an
+old burn scar (2024 Q4 = 2025 Q80). Ten repeats found in a partial read of
+three papers, and the 2025 writeup itself flags "Clopidogrel question was
+repeated".
+
+That is a higher-yield fact than any difficulty rule. The generated bank should
+be *calibrated* to these papers, but the papers themselves — 2012 to 2025,
+sitting in Drive — should be drilled directly. The handover flagged converting
+them into dashboard quizzes as the next priority; this pass confirms it.
