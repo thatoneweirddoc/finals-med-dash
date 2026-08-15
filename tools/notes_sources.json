@@ -315,6 +315,36 @@
      "label": "O&G Master Notes"
     }
    ]
+  },
+  {
+   "system": "Urology",
+   "slug": "urology",
+   "sources": [
+    {
+     "path": "sources/claude_urology_master.md",
+     "label": "Urology Master Notes"
+    }
+   ]
+  },
+  {
+   "system": "ENT",
+   "slug": "ent",
+   "sources": [
+    {
+     "path": "sources/claude_ent_master.md",
+     "label": "ENT Master Notes"
+    }
+   ]
+  },
+  {
+   "system": "Geriatrics",
+   "slug": "geriatrics",
+   "sources": [
+    {
+     "path": "sources/claude_geriatrics_master.md",
+     "label": "Geriatrics Master Notes"
+    }
+   ]
   }
  ]
 }
