@@ -965,7 +965,7 @@ function pointsFor(x){
     if(!mt || !corr) return;
     if(!(mt === t || mt.indexOf(t) >= 0 || t.indexOf(mt) >= 0)) return;
     const lead = String(m.lead||'').replace(/\s*\?\s*$/,'').trim();
-    const line = lead ? lead + ' \u2014 ' + corr : corr;
+    const line = String(m.point||'').trim() || (lead ? lead + ' \u2014 ' + corr : corr);
     const k = line.toLowerCase();
     if(seen.has(k)) return;
     seen.add(k);
@@ -1883,7 +1883,7 @@ async function submitQuiz(){
       flags.push({topic:qq.topic, system:q.system, type:qq.type||'recall'});
       misses.push({topic:qq.topic, stem:qq.stem, lead:qq.lead,
                    mine:qq.options[QUIZ_ANSWERS[i]], correct:qq.options[qq.correct],
-                   type:qq.type||'recall'});
+                   point:qq.point||'', type:qq.type||'recall'});
     }
     const card = $('qc'+i);
     card.querySelectorAll('.opt').forEach((el,j) => {

@@ -276,6 +276,7 @@ function validateQuestions(list) {
     out.push({
       stem: stem, lead: lead, options: opts, correct: correct,
       explanation: String(q.explanation || '').trim(),
+      point: String(q.point || '').trim(),
       topic: String(q.topic || '').trim() || 'General',
       type: ['recall', 'application', 'discrimination'].indexOf(q.type) >= 0 ? q.type : 'recall'
     });
@@ -513,7 +514,15 @@ function callAnthropic(key, system, n, ground, weak, already) {
     '',
     'Return ONLY a JSON array, no prose, no code fence. Each element:',
     '{"stem":"...","lead":"...","options":["a","b","c","d"],"correct":<0-3 index>,',
-    ' "explanation":"...","topic":"' + system + ' — <subtopic>","type":"recall|application|discrimination"}'
+    ' "explanation":"...","point":"...","topic":"' + system + ' — <subtopic>",',
+    ' "type":"recall|application|discrimination"}',
+    '',
+    'The "point" field is the takeaway as ONE standalone factual sentence that makes',
+    'sense with zero context from the stem — name the condition and the fact, never',
+    '"this patient" or "the next step". It is shown later as a revision dot point on',
+    'its own. Example: "Tension pneumothorax is decompressed the moment it is found',
+    'on the primary survey — needle decompression, then the survey continues." NOT:',
+    '"Immediate needle decompression, then continue the primary survey."'
   ].join('\n');
 
   const res = UrlFetchApp.fetch(ANTHROPIC_URL, {
@@ -631,8 +640,15 @@ function recordResults(body) {
   (body.misses || []).forEach(function (m) {
     const key = String(m.topic || '').toLowerCase();
     if (!key || !m.correct) return;
-    const lead = String(m.lead || '').replace(/\s*\?\s*$/, '').trim();
-    const line = (lead ? lead + ' — ' : '') + String(m.correct).trim();
+    // Prefer the question's authored `point` — a standalone fact written at
+    // generation time. Lead+answer is only the fallback for old quizzes, and it
+    // reads badly ("what happens next — needle decompression") because it
+    // depends on a stem that isn't shown.
+    let line = String(m.point || '').trim();
+    if (!line) {
+      const lead = String(m.lead || '').replace(/\s*\?\s*$/, '').trim();
+      line = (lead ? lead + ' — ' : '') + String(m.correct).trim();
+    }
     pointsByTopic[key] = pointsByTopic[key] || [];
     if (pointsByTopic[key].indexOf(line) < 0) pointsByTopic[key].push(line);
   });
