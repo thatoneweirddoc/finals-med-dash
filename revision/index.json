@@ -1,0 +1,13 @@
+{
+ "modules": [
+  {
+   "file": "anticoagulation.json",
+   "title": "Anticoagulation",
+   "system": "Anticoagulation",
+   "objectives": 6,
+   "questions": 10,
+   "rationale": "Selected from your tracker: 0% across all three anticoagulation topics.",
+   "added": "2026-08-15"
+  }
+ ]
+}
