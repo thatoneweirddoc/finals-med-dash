@@ -84,7 +84,7 @@ Ranked by exam yield ÷ current coverage, with the invisible gaps promoted becau
 they are cheap to fix and currently score zero:
 
 1. ~~**O&G**~~ — **BUILT 15 Aug 2026.** 14 sections, 52,251 words, wired into `notes_sources.json` as `sources/claude_obstetrics_gynaecology_master.md`. Independently verified: 4 errors found and fixed (PE diagnostic platelet threshold, IV hydralazine rate, acute BP floor, AIS test-of-cure pathway).
-2. **Paediatrics consolidation** — 10 Qs; content exists but is 83 unusable fragments. Cheaper than a build: Phases 4–5 only.
+2. ~~**Paediatrics**~~ — **BUILT 15 Aug 2026.** Turned out not to be a consolidation: the 83 fragments averaged 270 words (Kawasaki 124, testicular torsion 118) and were all from one ANU source, so it was rebuilt through the pipeline rather than reorganised. 13 sections, 32,632 words. Key-fact verification pending.
 3. **Urology + ENT + Geriatrics** — 9 Qs combined, zero coverage. One session could produce a credible first pass at all three, since each is narrow.
 4. **Surgery** — 5 Qs, no system; also fixes the "surgery is hidden inside Gastro" navigation problem.
 5. **Psychiatry** — 4 Qs, 3,600 words.

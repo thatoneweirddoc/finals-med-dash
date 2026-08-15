@@ -301,40 +301,10 @@
    "slug": "paediatrics",
    "sources": [
     {
-     "path": "/tmp/out/docx/crs-1-newborn-anu.md",
-     "label": "Paediatrics (ANU)"
-    },
-    {
-     "path": "/tmp/out/docx/crs-2-vaccines-and-preventable-diseases-anu.md",
-     "label": "Paediatrics (ANU)"
-    },
-    {
-     "path": "/tmp/out/docx/crs-3-fever-anu.md",
-     "label": "Paediatrics (ANU)"
-    },
-    {
-     "path": "/tmp/out/docx/crs-4-vomitting-and-abdominal-pain-anu.md",
-     "label": "Paediatrics (ANU)"
-    },
-    {
-     "path": "/tmp/out/docx/crs-5-bruising-anu.md",
-     "label": "Paediatrics (ANU)"
-    },
-    {
-     "path": "/tmp/out/docx/crs-6-child-with-a-limp-anu.md",
-     "label": "Paediatrics (ANU)"
-    },
-    {
-     "path": "/tmp/out/docx/crs-7-fits-faints-and-funny-turns-anu.md",
-     "label": "Paediatrics (ANU)"
-    },
-    {
-     "path": "/tmp/out/docx/paediatrics-clinical-practice-guidelines-anu.md",
-     "label": "Paediatrics (ANU)",
-     "style": "numbered"
+     "path": "sources/claude_paediatrics_master.md",
+     "label": "Paediatrics Master Notes"
     }
-   ],
-   "primary_style": "h1"
+   ]
   },
   {
    "system": "Obstetrics & Gynaecology",
