@@ -5,14 +5,16 @@
    "title": "Surgery",
    "system": "Surgery",
    "count": 20,
-   "added": "2026-08-14"
+   "added": "2026-08-14",
+   "category": "topic"
   },
   {
    "file": "critical-care.json",
    "title": "Critical Care",
    "system": "Critical Care",
    "count": 20,
-   "added": "2026-08-14"
+   "added": "2026-08-14",
+   "category": "topic"
   },
   {
    "file": "weak-areas-01.json",
@@ -20,7 +22,48 @@
    "system": "Mixed",
    "count": 15,
    "added": "2026-08-14",
+   "category": "topic",
    "servicedRequest": null
+  },
+  {
+   "file": "pp-2025-a.json",
+   "title": "Barriers 2025 — Part A",
+   "system": "Past paper",
+   "count": 20,
+   "added": "2026-08-14",
+   "category": "past-paper"
+  },
+  {
+   "file": "pp-2025-b.json",
+   "title": "Barriers 2025 — Part B",
+   "system": "Past paper",
+   "count": 20,
+   "added": "2026-08-14",
+   "category": "past-paper"
+  },
+  {
+   "file": "pp-2025-c.json",
+   "title": "Barriers 2025 — Part C",
+   "system": "Past paper",
+   "count": 20,
+   "added": "2026-08-14",
+   "category": "past-paper"
+  },
+  {
+   "file": "pp-2024-a.json",
+   "title": "Barriers 2024 — Part A",
+   "system": "Past paper",
+   "count": 20,
+   "added": "2026-08-14",
+   "category": "past-paper"
+  },
+  {
+   "file": "pp-2024-b.json",
+   "title": "Barriers 2024 — Part B",
+   "system": "Past paper",
+   "count": 20,
+   "added": "2026-08-14",
+   "category": "past-paper"
   }
  ]
 }

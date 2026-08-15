@@ -572,10 +572,16 @@
   <section id="tab-sessions" hidden>
     <div id="quizPlayer" hidden></div>
     <div id="quizBank">
-      <div class="panel">
-        <div class="panel-h">From Claude</div>
+      <details class="fold" open>
+        <summary>Past papers</summary>
+        <p class="note" style="margin-top:8px">Real Barriers questions, rewritten. The bank recycles between years — these are the highest-yield sets here.</p>
+        <div id="ppList"><div class="empty">Loading…</div></div>
+      </details>
+      <details class="fold" open>
+        <summary>Topic quizzes</summary>
         <div id="repoList"><div class="empty">Loading…</div></div>
-      </div>
+        <div id="quizList"></div>
+      </details>
       <details class="fold">
         <summary>Paste a quiz manually</summary>
         <textarea id="quizPaste" rows="3"
@@ -586,10 +592,6 @@
           <span class="drop-r" id="quizAddR"></span>
         </div>
       </details>
-      <div class="panel">
-        <div class="panel-h">Quiz bank</div>
-        <div id="quizList"></div>
-      </div>
     </div>
   </section>
 
@@ -715,7 +717,7 @@
 <script>
 const EXAM = new Date('2026-09-14T09:00:00+10:00');
 const KEY = 'finals_v1';
-const STAMP = '2026-08-14T17:20';  // bumped each time Claude regenerates this file
+const STAMP = '2026-08-14T18:10';  // bumped each time Claude regenerates this file
 
 const BUILT = ['Renal','Cardiology','Respiratory','Endocrine','Gastro','MSK & Rheum',
                'Haem & Onc','Neurology','Infectious Disease','Immunology & Allergy','Palliative Care'];
@@ -1711,13 +1713,7 @@ $('backup').onclick = () => {
 /* ---- quizzes published straight to the repo — nothing to transfer ---- */
 const REPO_QUIZZES = 'https://raw.githubusercontent.com/thatoneweirddoc/finals-med-dash/main/quizzes/';
 
-async function fetchRepoQuizzes(){
-  const el = $('repoList');
-  try{
-    const r = await fetch(REPO_QUIZZES + 'index.json?t=' + Date.now());
-    const d = await r.json();
-    if(!d.quizzes || !d.quizzes.length){ el.innerHTML = '<div class="empty">None published yet</div>'; return; }
-    el.innerHTML = d.quizzes.map(q => {
+function repoItem(q){
       const runs = (S.history||[]).filter(h => h.quizId === 'repo:'+q.file && h.total);
       const latest = runs[0];
       const bar = runs.length ? `
@@ -1734,13 +1730,24 @@ async function fetchRepoQuizzes(){
           <button class="mini" data-repo="${esc(q.file)}">${runs.length ? 'Retake' : 'Start'}</button>
         </div>
       </div>`;
-    }).join('');
+}
+
+async function fetchRepoQuizzes(){
+  const pp = $('ppList'), tp = $('repoList');
+  try{
+    const r = await fetch(REPO_QUIZZES + 'index.json?t=' + Date.now());
+    const d = await r.json();
+    const all = d.quizzes || [];
+    const past = all.filter(q => q.category === 'past-paper');
+    const topic = all.filter(q => q.category !== 'past-paper');
+    pp.innerHTML = past.length ? past.map(repoItem).join('') : '<div class="empty">No past-paper sets yet</div>';
+    tp.innerHTML = topic.length ? topic.map(repoItem).join('') : '';
   }catch(e){
-    el.innerHTML = `<div class="empty">Couldn't load — ${esc(String(e.message||e).slice(0,80))}</div>`;
+    pp.innerHTML = tp.innerHTML = `<div class="empty">Couldn't load — ${esc(String(e.message||e).slice(0,80))}</div>`;
   }
 }
 
-$('repoList').addEventListener('click', async e => {
+['repoList','ppList'].forEach(id => $(id).addEventListener('click', async e => {
   const file = e.target.dataset.repo;
   if(!file) return;
   e.target.textContent = 'Loading…';
@@ -1749,7 +1756,7 @@ $('repoList').addEventListener('click', async e => {
     const q = await r.json();
     startQuiz(q, 'repo:' + file);
   }catch(err){ e.target.textContent = 'Failed'; }
-});
+}));
 
 /* ---- quiz bank + player ---- */
 let CURRENT_QUIZ = null, QUIZ_ANSWERS = [], QUIZ_SUBMITTED = false;
@@ -1762,8 +1769,16 @@ async function fetchQuizzes(){
     const d = await r.json();
     if(d.error) throw new Error(d.error);
     if(!d.quizzes.length){ list.innerHTML = '<div class="empty">No quizzes yet</div>'; return; }
-    list.innerHTML = d.quizzes.map(q => {
-      const nice = q.name.replace(/-\d{4}-\d{2}-\d{2}-\d{4}\.json$/,'').replace(/-/g,' ');
+    const pastDrive = d.quizzes.filter(q => q.category === 'past-paper');
+    if(pastDrive.length){ $('ppList').insertAdjacentHTML('beforeend', pastDrive.map(q => driveItem(q)).join('')); }
+    list.innerHTML = d.quizzes.filter(q => q.category !== 'past-paper').map(driveItem).join('');
+  }catch(e){
+    list.innerHTML = `<div class="empty">Couldn't load — ${esc(String(e.message||e).slice(0,100))}</div>`;
+  }
+}
+
+function driveItem(q){
+      const nice = q.title || q.name.replace(/-\d{4}-\d{2}-\d{2}-\d{4}\.json$/,'').replace(/-/g,' ');
       const runs = (S.history||[]).filter(h => h.quizId === q.id && h.total);
       const best = runs.length ? Math.max(...runs.map(h => Math.round(h.correct/h.total*100))) : null;
       const latest = runs[0];
@@ -1785,13 +1800,9 @@ async function fetchQuizzes(){
           <button class="mini" data-quiz="${q.id}">${runs.length ? 'Retake' : 'Start'}</button>
         </div>
       </div>`;
-    }).join('');
-  }catch(e){
-    list.innerHTML = `<div class="empty">Couldn't load — ${esc(String(e.message||e).slice(0,100))}</div>`;
-  }
 }
 
-$('quizList').addEventListener('click', async e => {
+['quizList','ppList'].forEach(id => $(id).addEventListener('click', async e => {
   const id = e.target.dataset.quiz;
   if(!id) return;
   e.target.textContent = 'Loading…';
@@ -1801,7 +1812,7 @@ $('quizList').addEventListener('click', async e => {
     if(q.error) throw new Error(q.error);
     startQuiz(q, id);
   }catch(err){ e.target.textContent = 'Failed'; }
-});
+}));
 
 $('quizAdd').onclick = async () => {
   const out = $('quizAddR'), raw = $('quizPaste').value.trim();

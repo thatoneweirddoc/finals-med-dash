@@ -251,7 +251,8 @@ function saveQuiz(body) {
                       'application/json', JSON.stringify(quiz),
                       { count: String(questions.length), system: quiz.system,
                         title: quiz.title, source: quiz.source,
-                        difficulty: String(body.difficulty || 'exam') });
+                        difficulty: String(body.difficulty || 'exam'),
+                        category: body.category === 'past-paper' ? 'past-paper' : 'topic' });
   return { ok: true, id: id, title: quiz.title, system: quiz.system, count: questions.length };
 }
 
@@ -310,7 +311,8 @@ function listQuizzes() {
       } catch (err) { /* leave it at 0 rather than breaking the whole listing */ }
     }
     return { id: f.id, name: f.name, title: title, system: system,
-             count: count, created: f.createdTime, source: ap.source || '' };
+             count: count, created: f.createdTime, source: ap.source || '',
+             category: ap.category || 'topic', difficulty: ap.difficulty || '' };
   });
 }
 
