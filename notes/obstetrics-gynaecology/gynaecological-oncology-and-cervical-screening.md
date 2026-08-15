@@ -72,7 +72,9 @@ Terminology has split. **Cytology** (LBC) reports pLSIL/LSIL/pHSIL/HSIL. **Histo
 
 **Complications of LLETZ** — examinable because they drive counselling: haemorrhage, infection, **cervical stenosis**, and dose-dependent risk of **preterm birth and PPROM** in future pregnancy (risk rises with excision depth; a single shallow LLETZ carries modest risk). *Clue → answer: "23-year-old, CIN2 on biopsy, wants children" → offer observation with 6-monthly colposcopy rather than immediate LLETZ.*
 
-⚑ **Test of cure after treatment for HSIL/AIS** — the 2025 revision replaced annual **co-testing** with **annual HPV testing** (clinician- or self-collected), starting **12 months post-treatment**, continuing until **two consecutive negative HPV tests**, after which the patient returns to routine 5-yearly screening. Older texts still describe co-test-based "test of cure" for 2 years.
+⚑ **Test of cure after treatment for HSIL** — the 2025 revision replaced annual **co-testing** with **annual HPV testing** (clinician- or self-collected), starting **12 months post-treatment**, continuing until **two consecutive negative HPV tests**, after which the patient returns to routine 5-yearly screening. Older texts still describe co-test-based "test of cure" for 2 years.
+
+**AIS is not on that pathway** — adenocarcinoma in situ is a glandular lesion that skips and samples poorly, so treated AIS gets **annual co-tests (HPV + LBC, self-collection not permitted)** until **5 years** of negative results, then **3-yearly co-tests, continuing for 25 years**, before routine screening or program exit at ≥70. Applying the HSIL rule to AIS discharges her after two years.
 
 #### 10.3 Cervical cancer
 

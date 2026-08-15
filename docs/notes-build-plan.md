@@ -83,7 +83,7 @@ reason those four are thin.
 Ranked by exam yield ÷ current coverage, with the invisible gaps promoted because
 they are cheap to fix and currently score zero:
 
-1. ~~**O&G**~~ — **BUILT 15 Aug 2026.** 14 sections, 52,251 words, wired into `notes_sources.json` as `sources/claude_obstetrics_gynaecology_master.md`. Key-fact verification pending.
+1. ~~**O&G**~~ — **BUILT 15 Aug 2026.** 14 sections, 52,251 words, wired into `notes_sources.json` as `sources/claude_obstetrics_gynaecology_master.md`. Independently verified: 4 errors found and fixed (PE diagnostic platelet threshold, IV hydralazine rate, acute BP floor, AIS test-of-cure pathway).
 2. **Paediatrics consolidation** — 10 Qs; content exists but is 83 unusable fragments. Cheaper than a build: Phases 4–5 only.
 3. **Urology + ENT + Geriatrics** — 9 Qs combined, zero coverage. One session could produce a credible first pass at all three, since each is narrow.
 4. **Surgery** — 5 Qs, no system; also fixes the "surgery is hidden inside Gastro" navigation problem.

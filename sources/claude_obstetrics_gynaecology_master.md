@@ -576,7 +576,7 @@ Every hypertensive vignette is answered by placing the woman into one of four bo
 
 **Organ features that make it pre-eclampsia** (SOMANZ 2023 / QCG):
 - **Renal** — protein:creatinine ratio **≥30 mg/mmol**, creatinine **≥90 µmol/L**, oliguria
-- **Haematological** — platelets **<100 ×10⁹/L**, haemolysis, DIC
+- **Haematological** — thrombocytopenia **<150 ×10⁹/L** (SOMANZ 2023 / QCG diagnostic threshold — note this is *not* the <100 used to define **severe** disease below), haemolysis, DIC
 - **Hepatic** — transaminases **>40 IU/L** (or >2× ULN), severe persistent RUQ/epigastric pain
 - **Neurological** — new severe headache, visual scotomata/photopsia, hyperreflexia with **sustained clonus**, altered GCS, stroke, eclampsia
 - **Pulmonary** — pulmonary oedema
@@ -2244,7 +2244,9 @@ Terminology has split. **Cytology** (LBC) reports pLSIL/LSIL/pHSIL/HSIL. **Histo
 
 **Complications of LLETZ** — examinable because they drive counselling: haemorrhage, infection, **cervical stenosis**, and dose-dependent risk of **preterm birth and PPROM** in future pregnancy (risk rises with excision depth; a single shallow LLETZ carries modest risk). *Clue → answer: "23-year-old, CIN2 on biopsy, wants children" → offer observation with 6-monthly colposcopy rather than immediate LLETZ.*
 
-⚑ **Test of cure after treatment for HSIL/AIS** — the 2025 revision replaced annual **co-testing** with **annual HPV testing** (clinician- or self-collected), starting **12 months post-treatment**, continuing until **two consecutive negative HPV tests**, after which the patient returns to routine 5-yearly screening. Older texts still describe co-test-based "test of cure" for 2 years.
+⚑ **Test of cure after treatment for HSIL** — the 2025 revision replaced annual **co-testing** with **annual HPV testing** (clinician- or self-collected), starting **12 months post-treatment**, continuing until **two consecutive negative HPV tests**, after which the patient returns to routine 5-yearly screening. Older texts still describe co-test-based "test of cure" for 2 years.
+
+**AIS is not on that pathway** — adenocarcinoma in situ is a glandular lesion that skips and samples poorly, so treated AIS gets **annual co-tests (HPV + LBC, self-collection not permitted)** until **5 years** of negative results, then **3-yearly co-tests, continuing for 25 years**, before routine screening or program exit at ≥70. Applying the HSIL rule to AIS discharges her after two years.
 
 ## 10.3 Cervical cancer
 
@@ -3145,10 +3147,10 @@ Tocolysis does **not** improve neonatal outcome by itself. Its only purpose is t
 | **Prazosin** | α1 blocker | 0.5–5 mg tds–qid | Useful add-on; first-dose hypotension |
 | **Clonidine** | Central α2 agonist | Add-on | Rebound hypertension on abrupt cessation |
 
-**Acute severe hypertension (≥160/110)** — treat urgently, reduce to <160/110 and toward 135/85 but **avoid dropping below ~140/80** (placental hypoperfusion):
+**Acute severe hypertension (≥160/110)** — treat urgently to a post-treatment target of **systolic 130–150, diastolic 80–90 mmHg** (QCG); do not drop it precipitously, as placental perfusion is pressure-dependent:
 - **IV labetalol 20–80 mg** bolus over 2 min, repeat every 10 min (onset ~5 min)
 - **Oral immediate-release nifedipine 10–20 mg**, repeat at 30–45 min (onset 30–45 min)
-- **IV hydralazine 5–10 mg** over 2 min, repeat every 20–30 min (onset 15–20 min) — pre-load with fluid as it causes maternal hypotension and fetal distress
+- **IV hydralazine 5–10 mg** over **3–10 min**, repeat every 20–40 min, **max 30 mg** cumulative (QCG) (onset ~20 min) — pre-load with fluid as it causes maternal hypotension and fetal distress; a faster push is exactly what precipitates the BP crash and non-reassuring CTG
 
 **Contraindicated**
 - **ACE inhibitors and ARBs — TGA Category D.** Second- and third-trimester exposure causes the **fetal renin–angiotensin system blockade syndrome**: oligohydramnios, fetal renal failure/anuria, hypocalvaria, limb contractures, pulmonary hypoplasia, neonatal hypotension, death. Stop pre-pregnancy or as soon as pregnancy is confirmed. (**Both are safe in breastfeeding** — enalapril and captopril in particular. Do not confuse the two settings.)

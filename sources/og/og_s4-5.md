@@ -18,7 +18,7 @@ Every hypertensive vignette is answered by placing the woman into one of four bo
 
 **Organ features that make it pre-eclampsia** (SOMANZ 2023 / QCG):
 - **Renal** — protein:creatinine ratio **≥30 mg/mmol**, creatinine **≥90 µmol/L**, oliguria
-- **Haematological** — platelets **<100 ×10⁹/L**, haemolysis, DIC
+- **Haematological** — thrombocytopenia **<150 ×10⁹/L** (SOMANZ 2023 / QCG diagnostic threshold — note this is *not* the <100 used to define **severe** disease below), haemolysis, DIC
 - **Hepatic** — transaminases **>40 IU/L** (or >2× ULN), severe persistent RUQ/epigastric pain
 - **Neurological** — new severe headache, visual scotomata/photopsia, hyperreflexia with **sustained clonus**, altered GCS, stroke, eclampsia
 - **Pulmonary** — pulmonary oedema
