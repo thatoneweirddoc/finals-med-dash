@@ -4,25 +4,345 @@
  "category": "past-paper",
  "source": "WSU Y5 Barriers 2025 MCQ, student reconstruction; stems rewritten, tested point preserved",
  "questions": [
-  {"stem":"A man has months of progressive dysphagia — first to solids, now to liquids — with substantial weight loss. Examination also finds reduced sensation in the feet and absent ankle jerks.","lead":"What is the most likely cause of the dysphagia?","options":["Reflux oesophagitis","Oesophageal carcinoma","Achalasia","Bulbar palsy","Oesophageal web"],"correct":1,"explanation":"<b>Progressive solids-then-liquids dysphagia with weight loss</b> is malignancy until proven otherwise; the neuropathy is a red herring or nutritional. Achalasia is dysphagia to both from the start; bulbar palsy affects liquids first.","point":"Progressive dysphagia solids → liquids with weight loss is oesophageal cancer; achalasia is to solids and liquids from the outset and neurological dysphagia starts with liquids.","topic":"Gastroenterology — dysphagia","type":"discrimination","difficulty":"medium"},
-  {"stem":"What is the most common cause of severe upper gastrointestinal bleeding?","lead":"Choose one.","options":["Oesophageal varices","Peptic ulcer disease","Mallory–Weiss tear","Oesophagitis","Dieulafoy lesion"],"correct":1,"explanation":"<b>Peptic ulcer</b> accounts for roughly half of major upper GI bleeds. Varices bleed hardest but are less common; Mallory–Weiss is usually self-limiting.","point":"Peptic ulcer disease is the commonest cause of severe upper GI haemorrhage (~50%); varices are less common but carry the highest mortality per bleed.","topic":"Gastroenterology — GI bleeding","type":"recall","difficulty":"easy"},
-  {"stem":"A young man at a party took an unknown drug. He is sweating profusely with dilated pupils, tachycardic, hypertensive, energetic and very talkative. No psychiatric history.","lead":"What is the mechanism of the drug he took?","options":["Opioid receptor agonism","Serotonin reuptake inhibition","GABA-A potentiation","Increased noradrenaline and dopamine release","NMDA antagonism"],"correct":3,"explanation":"Sympathomimetic toxidrome — mydriasis, diaphoresis, tachycardia, hypertension, agitation — is <b>amphetamine-type release of NA and dopamine</b>. Opioids constrict pupils; GABA drugs sedate; NMDA antagonists (ketamine) dissociate.","point":"The sympathomimetic toxidrome (dilated pupils, sweating, tachycardia, hypertension, agitation) is amphetamine-type noradrenaline/dopamine release; the anticholinergic look-alike has dry skin.","topic":"Toxicology — stimulants","type":"application","difficulty":"medium"},
-  {"stem":"An elderly patient with acute confusion is given diazepam.","lead":"What is the greatest risk?","options":["Worsening confusion","Hallucinations","Reduced sedation score","Hypertension","Serotonin syndrome"],"correct":0,"explanation":"Benzodiazepines are <b>deliriogenic in the elderly</b> — they prolong and deepen delirium and increase falls. They are reserved for alcohol/benzodiazepine withdrawal delirium.","point":"Benzodiazepines worsen delirium in the elderly and are avoided except for alcohol or benzodiazepine withdrawal; non-drug measures first, low-dose antipsychotic only if unsafe.","topic":"Geriatrics — delirium","type":"recall","difficulty":"easy"},
-  {"stem":"A woman with a history of breast cancer presents with hypercalcaemia and hypophosphataemia.","lead":"Which statement is TRUE?","options":["A raised PTH would make bony metastasis less likely","Increased dietary calcium is the likely cause","Post-menopausal women normally have a raised serum calcium","Hypophosphataemia excludes malignancy","Bisphosphonates are contraindicated"],"correct":0,"explanation":"Malignant hypercalcaemia <b>suppresses PTH</b>; a raised or unsuppressed PTH points to primary hyperparathyroidism instead — which also drops phosphate. Diet does not cause hypercalcaemia in normal kidneys.","point":"In hypercalcaemia the PTH decides: suppressed PTH = malignancy or vitamin D excess; raised/inappropriately normal PTH = primary hyperparathyroidism.","topic":"Endocrine — hypercalcaemia","type":"application","difficulty":"hard"},
-  {"stem":"Which of the following is NOT a contraindication to the combined oral contraceptive pill in a 29-year-old?","lead":"Choose one.","options":["Migraine with aura","Smoking 30 cigarettes a day","Current breast cancer","Previous VTE","Taking carbamazepine"],"correct":4,"explanation":"Carbamazepine is an <b>interaction</b> — enzyme induction lowers efficacy — not a contraindication; you change method or manage it. Aura, breast cancer and prior VTE are absolute; heavy smoking is absolute over 35 and a strong caution below.","point":"Enzyme inducers (carbamazepine, rifampicin) reduce COCP efficacy but are not contraindications; migraine with aura, breast cancer and prior VTE are absolute contraindications.","topic":"O&G — contraception","type":"discrimination","difficulty":"medium"},
-  {"stem":"A 15-year-old tells her GP she intends to have sex with her 15-year-old boyfriend and asks for contraception.","lead":"What is the most appropriate course of action?","options":["Inform her parents","You are obliged to prescribe to prevent pregnancy","Prescribe if you assess her as a mature minor","Refuse — she is under the age of consent","Refer to a paediatrician"],"correct":2,"explanation":"Under <b>Gillick/mature-minor</b> principles a minor who understands the treatment can consent to it, and confidentiality is preserved unless there is a safety concern. Prescribing is discretionary on that assessment, not mandatory.","point":"A minor who demonstrates understanding (Gillick competence / mature minor) can consent to contraception confidentially; assess competence and safety rather than informing parents or refusing.","topic":"Ethics & Law — consent in minors","type":"application","difficulty":"medium"},
-  {"stem":"A woman on carbimazole for hyperthyroidism presents with painful oral and buccal ulcers. FBC shows neutropenia.","lead":"What is the most likely cause?","options":["Primary HIV infection","Drug-induced agranulocytosis","Herpes simplex stomatitis","Behçet disease","Iron deficiency"],"correct":1,"explanation":"<b>Carbimazole agranulocytosis</b> — sore throat or mouth ulcers on an antithyroid drug means stop it and check the FBC urgently. Rare (~0.3%) but the classic exam pairing.","point":"Sore throat or mouth ulcers on carbimazole/propylthiouracil = suspect agranulocytosis: stop the drug and check an urgent FBC.","topic":"Endocrine — antithyroid drugs","type":"application","difficulty":"medium"},
-  {"stem":"The day after thyroidectomy a patient develops cramps in the hands and perioral tingling.","lead":"What is the most appropriate next step?","options":["Check serum calcium","Loosen the wound sutures","Give IV magnesium","Reassure — this is anxiety","Order a CT neck"],"correct":0,"explanation":"Perioral paraesthesia and carpopedal spasm after thyroidectomy is <b>hypocalcaemia from parathyroid injury</b>. Confirm and replace calcium; stridor from haematoma is the indication to open the wound, not tetany.","point":"Perioral tingling and carpopedal spasm after thyroidectomy = hypocalcaemia from parathyroid damage — check calcium and replace; opening the wound is for haematoma with stridor.","topic":"Surgery — thyroidectomy complications","type":"discrimination","difficulty":"medium"},
-  {"stem":"A patient with known panhypopituitarism after pituitary surgery is on once-daily thyroxine. Bloods show TSH low, free T4 low, free T3 normal.","lead":"What is the most appropriate management?","options":["Increase the thyroxine dose","Split the same dose into morning and evening","Stop thyroxine","Add liothyronine","No change — TSH is suppressed so she is adequately replaced"],"correct":0,"explanation":"In <b>secondary hypothyroidism TSH is uninterpretable</b> — the pituitary cannot make it. Titrate to free T4 in the upper half of the range. Low T4 means under-replacement regardless of the low TSH.","point":"In secondary (pituitary) hypothyroidism TSH is useless — dose thyroxine to keep free T4 in the upper half of normal; a low TSH does not mean over-replacement.","topic":"Endocrine — pituitary","type":"application","difficulty":"hard"},
-  {"stem":"A patient has a smooth, diffusely enlarged goitre. TSH is mildly elevated with a normal free T4.","lead":"What is the most likely diagnosis?","options":["Multinodular goitre","Graves disease","Hashimoto thyroiditis","Thyroid lymphoma","Subacute (de Quervain) thyroiditis"],"correct":2,"explanation":"Diffuse smooth goitre with <b>subclinical hypothyroidism</b> is Hashimoto's — confirm with anti-TPO. Graves would suppress TSH; multinodular is nodular by definition.","point":"A smooth diffuse goitre with a raised TSH and normal T4 (subclinical hypothyroidism) is Hashimoto thyroiditis — check anti-TPO antibodies.","topic":"Endocrine — thyroid","type":"discrimination","difficulty":"medium"},
-  {"stem":"A patient has weak knee extension, reduced sensation over the medial leg and a diminished knee jerk.","lead":"Which nerve root is affected?","options":["L2","L3","L4","L5","S1"],"correct":2,"explanation":"Knee jerk plus medial leg sensation is <b>L4</b>. L5 is dorsum of foot/great toe with foot drop and no reflex; S1 is lateral foot and the ankle jerk.","point":"L4 = knee jerk, quadriceps and medial leg; L5 = dorsiflexion, great toe and dorsum of foot with no reflex; S1 = ankle jerk, plantarflexion and lateral foot.","topic":"Neurology — nerve roots","type":"recall","difficulty":"medium"},
-  {"stem":"A woman describes hand pain and numbness that wakes her at night and is worse in the morning, easing when she shakes the hand. Tapping over the wrist crease reproduces it.","lead":"What is the most likely diagnosis?","options":["Carpal tunnel syndrome","Rheumatoid arthritis","Cervical radiculopathy","Ulnar neuropathy at the elbow","Raynaud phenomenon"],"correct":0,"explanation":"Nocturnal paraesthesia relieved by shaking, with a positive <b>Tinel's</b> at the wrist, is median nerve compression in the carpal tunnel.","point":"Nocturnal hand paraesthesia relieved by shaking, positive Tinel's/Phalen's at the wrist = carpal tunnel syndrome (median nerve).","topic":"Neurology — entrapment neuropathy","type":"recall","difficulty":"easy"},
-  {"stem":"A woman has a thin, milky vaginal discharge with a fishy odour but no itch or pain.","lead":"What is the most likely diagnosis?","options":["Bacterial vaginosis","Trichomoniasis","Chlamydia","Vulvovaginal candidiasis","Cervical cancer"],"correct":0,"explanation":"<b>Fishy, non-irritant discharge</b> is BV (clue cells, pH >4.5). Candida itches with a curdy discharge; trichomonas is frothy, green and irritant.","point":"Fishy-smelling thin grey discharge without irritation = bacterial vaginosis (pH >4.5, clue cells); candida itches and is curdy, trichomonas is frothy and irritant.","topic":"O&G — vaginal discharge","type":"discrimination","difficulty":"easy"},
-  {"stem":"Which statement about cortisol is TRUE?","lead":"Choose one.","options":["ACTH drives both cortisol and aldosterone secretion equally","Cortisol circulates mostly bound to cortisol-binding globulin and albumin","Cortisol acts on cell-surface receptors","Cortisol secretion peaks at midnight","Cortisol is stored in secretory granules"],"correct":1,"explanation":"~90% of cortisol is <b>protein-bound</b> (CBG > albumin). It acts on intracellular receptors, peaks in the early morning, is synthesised on demand not stored, and ACTH has little effect on aldosterone — which is why secondary adrenal insufficiency spares potassium.","point":"Cortisol is ~90% protein-bound (CBG, albumin), acts on intracellular receptors, peaks early morning; ACTH barely affects aldosterone, so secondary AI spares potassium.","topic":"Endocrine — adrenal physiology","type":"recall","difficulty":"medium"},
-  {"stem":"An older man is waking several times a night to pass urine.","lead":"What is the most useful initial investigation?","options":["Urine flow studies","Trial of tamsulosin","Bladder diary","PSA","Cystoscopy"],"correct":2,"explanation":"Nocturia is first characterised with a <b>frequency-volume chart</b>: it separates nocturnal polyuria (large volumes — cardiac, renal, sleep apnoea) from small-volume storage symptoms of BPH. Treatment follows from that.","point":"For nocturia the first step is a bladder diary — nocturnal polyuria (large volumes) has medical causes and is not fixed by prostate drugs.","topic":"Urology — LUTS","type":"application","difficulty":"medium"},
-  {"stem":"A 7-year-old boy who was dry by age 3 now has intermittent night-time wetting.","lead":"What is the recommended first-line treatment?","options":["Evening fluid restriction","Reassure — no treatment needed","Oxybutynin","Desmopressin","Enuresis alarm"],"correct":4,"explanation":"From age 6–7 the <b>alarm</b> is first-line with the best long-term cure rate; desmopressin is for short-term cover (camps) or alarm failure. Fluid restriction alone does not work.","point":"Nocturnal enuresis from ~6–7 years: enuresis alarm first-line (highest cure rate); desmopressin for short-term need or alarm failure.","topic":"Paediatrics — enuresis","type":"recall","difficulty":"medium"},
-  {"stem":"A dependent 75-year-old with Alzheimer's in a nursing home has refused food for two days but takes fluids. Examination of the mouth shows white plaques on the tongue and palate that scrape off leaving a red base.","lead":"What is the appropriate management?","options":["Nasogastric feeding","Oral nystatin and mouth care","Palliative care referral","IV fluids","Antibiotics for aspiration"],"correct":1,"explanation":"Painful <b>oral candidiasis</b> is a reversible cause of food refusal in the frail — treat it before escalating. NG feeding in advanced dementia does not improve outcomes.","point":"New food refusal in advanced dementia: look in the mouth — oral thrush is treatable with nystatin and mouth care; NG feeding in advanced dementia does not improve survival.","topic":"Geriatrics — feeding refusal","type":"application","difficulty":"medium"},
-  {"stem":"A post-operative patient has been vomiting. Bloods: Na 130, Cl 92, HCO3 34, K 3.0.","lead":"What is the most appropriate fluid over the next 4 hours?","options":["1 L 0.9% NaCl with 30 mmol KCl","1 L 4% dextrose / 0.18% NaCl","1 L 0.9% NaCl alone","1 L 5% dextrose","1 L Hartmann's"],"correct":0,"explanation":"Vomiting produces a <b>hypochloraemic, hypokalaemic metabolic alkalosis</b>; the correction is chloride and potassium — saline with KCl. Dextrose-based fluids provide neither; Hartmann's contains lactate (bicarbonate precursor) and little chloride.","point":"Vomiting causes hypochloraemic hypokalaemic metabolic alkalosis — replace with 0.9% saline plus potassium; avoid dextrose-based fluids and lactate-containing Hartmann's.","topic":"Surgery — fluid prescribing","type":"application","difficulty":"hard"},
-  {"stem":"A young, healthy person with no medications or comorbidities is booked for elective inguinal hernia repair.","lead":"Which pre-operative investigations are required?","options":["None","FBC and electrolytes","FBC, EUC, CXR and ECG","CXR and ECG","Coagulation profile"],"correct":0,"explanation":"For ASA 1 patients having minor surgery, <b>no routine tests are indicated</b>. Investigations are driven by history, comorbidity and procedure risk, not ritual.","point":"Healthy ASA 1 patients having minor surgery need no routine pre-operative investigations — tests are indicated by comorbidity and procedure, not by default.","topic":"Anaesthetics — pre-operative assessment","type":"recall","difficulty":"medium"}
+  {
+   "stem": "A man has months of progressive dysphagia — first to solids, now to liquids — with substantial weight loss. Examination also finds reduced sensation in the feet and absent ankle jerks.",
+   "lead": "What is the most likely cause of the dysphagia?",
+   "options": [
+    "Reflux oesophagitis",
+    "Oesophageal carcinoma",
+    "Achalasia",
+    "Bulbar palsy",
+    "Oesophageal web"
+   ],
+   "correct": 1,
+   "explanation": "<b>Progressive solids-then-liquids dysphagia with weight loss</b> is malignancy until proven otherwise; the neuropathy is a red herring or nutritional. Achalasia is dysphagia to both from the start; bulbar palsy affects liquids first.",
+   "point": "Progressive dysphagia solids → liquids with weight loss is oesophageal cancer; achalasia is to solids and liquids from the outset and neurological dysphagia starts with liquids.",
+   "topic": "Gastroenterology — dysphagia",
+   "type": "discrimination",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "What is the most common cause of severe upper gastrointestinal bleeding?",
+   "lead": "Choose one.",
+   "options": [
+    "Oesophageal varices",
+    "Peptic ulcer disease",
+    "Mallory–Weiss tear",
+    "Oesophagitis",
+    "Dieulafoy lesion"
+   ],
+   "correct": 1,
+   "explanation": "<b>Peptic ulcer</b> is the commonest single cause, accounting for roughly a third of major upper GI bleeds — down from historical figures of ~50% since H. pylori eradication and PPIs. Varices bleed harder with higher mortality but are less common; Mallory–Weiss is usually self-limiting.",
+   "point": "Peptic ulcer disease is the commonest single cause of severe upper GI haemorrhage (roughly a third of cases); varices are less common but carry the highest mortality per bleed.",
+   "topic": "Gastroenterology — GI bleeding",
+   "type": "recall",
+   "difficulty": "easy"
+  },
+  {
+   "stem": "A young man at a party took an unknown drug. He is sweating profusely with dilated pupils, tachycardic, hypertensive, energetic and very talkative. No psychiatric history.",
+   "lead": "What is the mechanism of the drug he took?",
+   "options": [
+    "Opioid receptor agonism",
+    "Serotonin reuptake inhibition",
+    "GABA-A potentiation",
+    "Increased noradrenaline and dopamine release",
+    "NMDA antagonism"
+   ],
+   "correct": 3,
+   "explanation": "Sympathomimetic toxidrome — mydriasis, diaphoresis, tachycardia, hypertension, agitation — is <b>amphetamine-type release of NA and dopamine</b>. Opioids constrict pupils; GABA drugs sedate; NMDA antagonists (ketamine) dissociate.",
+   "point": "The sympathomimetic toxidrome (dilated pupils, sweating, tachycardia, hypertension, agitation) is amphetamine-type noradrenaline/dopamine release; the anticholinergic look-alike has dry skin.",
+   "topic": "Toxicology — stimulants",
+   "type": "application",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "An elderly patient with acute confusion is given diazepam.",
+   "lead": "What is the greatest risk?",
+   "options": [
+    "Worsening and prolonged delirium",
+    "Improved orientation",
+    "Reduced falls risk",
+    "Hypertension",
+    "Serotonin syndrome"
+   ],
+   "correct": 0,
+   "explanation": "Benzodiazepines are <b>deliriogenic in the elderly</b> — they prolong and deepen delirium and increase falls. They are reserved for alcohol/benzodiazepine withdrawal delirium.",
+   "point": "Benzodiazepines worsen delirium in the elderly and are avoided except for alcohol or benzodiazepine withdrawal; non-drug measures first, low-dose antipsychotic only if unsafe.",
+   "topic": "Geriatrics — delirium",
+   "type": "recall",
+   "difficulty": "easy"
+  },
+  {
+   "stem": "A woman with a history of breast cancer presents with hypercalcaemia and hypophosphataemia.",
+   "lead": "Which statement is TRUE?",
+   "options": [
+    "A raised PTH would make hypercalcaemia of malignancy less likely",
+    "Increased dietary calcium is the likely cause",
+    "Post-menopausal women normally have a raised serum calcium",
+    "Hypophosphataemia excludes malignancy",
+    "Bisphosphonates are contraindicated"
+   ],
+   "correct": 0,
+   "explanation": "Malignant hypercalcaemia <b>suppresses PTH</b>; a raised or unsuppressed PTH points to primary hyperparathyroidism instead — which also drops phosphate. Diet does not cause hypercalcaemia in normal kidneys.",
+   "point": "In hypercalcaemia the PTH decides: suppressed PTH = malignancy or vitamin D excess; raised/inappropriately normal PTH = primary hyperparathyroidism.",
+   "topic": "Endocrine — hypercalcaemia",
+   "type": "application",
+   "difficulty": "hard"
+  },
+  {
+   "stem": "Which of the following is NOT a contraindication to the combined oral contraceptive pill in a 29-year-old?",
+   "lead": "Choose one.",
+   "options": [
+    "Migraine with aura",
+    "Uncontrolled hypertension of 165/100",
+    "Current breast cancer",
+    "Previous VTE",
+    "Taking carbamazepine"
+   ],
+   "correct": 4,
+   "explanation": "Carbamazepine is an <b>interaction</b>, not a contraindication — enzyme induction reduces efficacy, so you change method or accept reduced reliability. Migraine with aura, current breast cancer, previous VTE and uncontrolled hypertension are all absolute contraindications (WHO/UK MEC category 4). Note the trap that was removed from this list: heavy smoking is only category 4 <b>from age 35</b>; below 35 it is category 2 and not a contraindication.",
+   "point": "Enzyme inducers (carbamazepine, rifampicin) reduce COCP efficacy but are not contraindications; migraine with aura, current breast cancer, prior VTE and uncontrolled hypertension are. Smoking is only a category 4 contraindication from age 35.",
+   "topic": "O&G — contraception",
+   "type": "discrimination",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A 15-year-old tells her GP she intends to have sex with her 15-year-old boyfriend and asks for contraception.",
+   "lead": "What is the most appropriate course of action?",
+   "options": [
+    "Inform her parents",
+    "You are obliged to prescribe to prevent pregnancy",
+    "Prescribe if you assess her as a mature minor",
+    "Refuse — she is under the age of consent",
+    "Refer to a paediatrician"
+   ],
+   "correct": 2,
+   "explanation": "Under <b>Gillick/mature-minor</b> principles a minor who understands the treatment can consent to it, and confidentiality is preserved unless there is a safety concern. Prescribing is discretionary on that assessment, not mandatory.",
+   "point": "A minor who demonstrates understanding (Gillick competence / mature minor) can consent to contraception confidentially; assess competence and safety rather than informing parents or refusing.",
+   "topic": "Ethics & Law — consent in minors",
+   "type": "application",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A woman on carbimazole for hyperthyroidism presents with fever and painful oral and buccal ulcers. Neutrophils are 0.2 ×10⁹/L.",
+   "lead": "What is the most likely cause?",
+   "options": [
+    "Primary HIV infection",
+    "Drug-induced agranulocytosis",
+    "Herpes simplex stomatitis",
+    "Behçet disease",
+    "Iron deficiency"
+   ],
+   "correct": 1,
+   "explanation": "<b>Carbimazole agranulocytosis</b> — sore throat or mouth ulcers on an antithyroid drug means stop it and check the FBC urgently. Rare (~0.3%) but the classic exam pairing.",
+   "point": "Sore throat or mouth ulcers on carbimazole/propylthiouracil = suspect agranulocytosis: stop the drug and check an urgent FBC.",
+   "topic": "Endocrine — antithyroid drugs",
+   "type": "application",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "The day after thyroidectomy a patient develops cramps in the hands and perioral tingling.",
+   "lead": "What is the most appropriate next step?",
+   "options": [
+    "Check serum calcium",
+    "Loosen the wound sutures",
+    "Give IV magnesium",
+    "Reassure — this is anxiety",
+    "Order a CT neck"
+   ],
+   "correct": 0,
+   "explanation": "Perioral paraesthesia and carpopedal spasm after thyroidectomy is <b>hypocalcaemia from parathyroid injury</b>. Confirm and replace calcium; stridor from haematoma is the indication to open the wound, not tetany.",
+   "point": "Perioral tingling and carpopedal spasm after thyroidectomy = hypocalcaemia from parathyroid damage — check calcium and replace; opening the wound is for haematoma with stridor.",
+   "topic": "Surgery — thyroidectomy complications",
+   "type": "discrimination",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A patient with known panhypopituitarism after pituitary surgery is on once-daily thyroxine. Bloods show TSH low, free T4 low, free T3 normal.",
+   "lead": "What is the most appropriate management?",
+   "options": [
+    "Increase the thyroxine dose",
+    "Split the same dose into morning and evening",
+    "Stop thyroxine",
+    "Add liothyronine",
+    "No change — TSH is suppressed so she is adequately replaced"
+   ],
+   "correct": 0,
+   "explanation": "In <b>secondary hypothyroidism TSH is uninterpretable</b> — the pituitary cannot make it. Titrate to free T4 in the upper half of the range, so a low T4 means under-replacement regardless of the low TSH. One safety rule: <b>glucocorticoid replacement must be adequate before thyroxine is increased</b>, because thyroid hormone accelerates cortisol clearance and can precipitate an adrenal crisis.",
+   "point": "In secondary (pituitary) hypothyroidism TSH is useless — dose thyroxine to free T4 in the upper half of normal; always ensure glucocorticoid replacement is adequate first, or raising thyroxine can precipitate adrenal crisis.",
+   "topic": "Endocrine — pituitary",
+   "type": "application",
+   "difficulty": "hard"
+  },
+  {
+   "stem": "A patient has a smooth, diffusely enlarged goitre. TSH is mildly elevated with a normal free T4.",
+   "lead": "What is the most likely diagnosis?",
+   "options": [
+    "Multinodular goitre",
+    "Graves disease",
+    "Hashimoto thyroiditis",
+    "Thyroid lymphoma",
+    "Subacute (de Quervain) thyroiditis"
+   ],
+   "correct": 2,
+   "explanation": "Diffuse smooth goitre with <b>subclinical hypothyroidism</b> is Hashimoto's — confirm with anti-TPO. Graves would suppress TSH; multinodular is nodular by definition.",
+   "point": "A smooth diffuse goitre with a raised TSH and normal T4 (subclinical hypothyroidism) is Hashimoto thyroiditis — check anti-TPO antibodies.",
+   "topic": "Endocrine — thyroid",
+   "type": "discrimination",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A patient has weak knee extension, weak ankle inversion, reduced sensation over the medial calf and medial malleolus, and a diminished knee jerk.",
+   "lead": "Which nerve root is affected?",
+   "options": [
+    "L2",
+    "L3",
+    "L4",
+    "L5",
+    "S1"
+   ],
+   "correct": 2,
+   "explanation": "Knee jerk plus medial leg sensation is <b>L4</b>. L5 is dorsum of foot/great toe with foot drop and no reflex; S1 is lateral foot and the ankle jerk.",
+   "point": "L4 = knee jerk, quadriceps and medial leg; L5 = dorsiflexion, great toe and dorsum of foot with no reflex; S1 = ankle jerk, plantarflexion and lateral foot.",
+   "topic": "Neurology — nerve roots",
+   "type": "recall",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A woman describes hand pain and numbness that wakes her at night and is worse in the morning, easing when she shakes the hand. Tapping over the wrist crease reproduces it.",
+   "lead": "What is the most likely diagnosis?",
+   "options": [
+    "Carpal tunnel syndrome",
+    "Rheumatoid arthritis",
+    "Cervical radiculopathy",
+    "Ulnar neuropathy at the elbow",
+    "Raynaud phenomenon"
+   ],
+   "correct": 0,
+   "explanation": "Nocturnal paraesthesia relieved by shaking, with a positive <b>Tinel's</b> at the wrist, is median nerve compression in the carpal tunnel.",
+   "point": "Nocturnal hand paraesthesia relieved by shaking, positive Tinel's/Phalen's at the wrist = carpal tunnel syndrome (median nerve).",
+   "topic": "Neurology — entrapment neuropathy",
+   "type": "recall",
+   "difficulty": "easy"
+  },
+  {
+   "stem": "A woman has a thin, milky vaginal discharge with a fishy odour but no itch or pain.",
+   "lead": "What is the most likely diagnosis?",
+   "options": [
+    "Bacterial vaginosis",
+    "Trichomoniasis",
+    "Chlamydia",
+    "Vulvovaginal candidiasis",
+    "Cervical cancer"
+   ],
+   "correct": 0,
+   "explanation": "<b>Fishy, non-irritant discharge</b> is BV (clue cells, pH >4.5). Candida itches with a curdy discharge; trichomonas is frothy, green and irritant.",
+   "point": "Fishy-smelling thin grey discharge without irritation = bacterial vaginosis (pH >4.5, clue cells); candida itches and is curdy, trichomonas is frothy and irritant.",
+   "topic": "O&G — vaginal discharge",
+   "type": "discrimination",
+   "difficulty": "easy"
+  },
+  {
+   "stem": "Which statement about cortisol is TRUE?",
+   "lead": "Choose one.",
+   "options": [
+    "ACTH drives both cortisol and aldosterone secretion equally",
+    "Cortisol circulates mostly bound to cortisol-binding globulin and albumin",
+    "Cortisol acts on cell-surface receptors",
+    "Cortisol secretion peaks at midnight",
+    "Cortisol is stored in secretory granules"
+   ],
+   "correct": 1,
+   "explanation": "~90% of cortisol is <b>protein-bound</b> (CBG > albumin). It acts on intracellular receptors, peaks in the early morning, is synthesised on demand not stored, and ACTH has little effect on aldosterone — which is why secondary adrenal insufficiency spares potassium.",
+   "point": "Cortisol is ~90% protein-bound (CBG, albumin), acts on intracellular receptors, peaks early morning; ACTH barely affects aldosterone, so secondary AI spares potassium.",
+   "topic": "Endocrine — adrenal physiology",
+   "type": "recall",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "An older man is waking several times a night to pass urine.",
+   "lead": "What is the most useful initial investigation?",
+   "options": [
+    "Urine flow studies",
+    "Trial of tamsulosin",
+    "Bladder diary",
+    "PSA",
+    "Cystoscopy"
+   ],
+   "correct": 2,
+   "explanation": "Nocturia is first characterised with a <b>frequency-volume chart</b>: it separates nocturnal polyuria (large volumes — cardiac, renal, sleep apnoea) from small-volume storage symptoms of BPH. Treatment follows from that.",
+   "point": "For nocturia the first step is a bladder diary — nocturnal polyuria (large volumes) has medical causes and is not fixed by prostate drugs.",
+   "topic": "Urology — LUTS",
+   "type": "application",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A 7-year-old boy has never been reliably dry overnight and wets the bed most nights. He is dry by day, has no daytime urgency, and urinalysis and examination are normal. Reward charts and fluid advice have not helped.",
+   "lead": "What is the recommended first-line treatment?",
+   "options": [
+    "Evening fluid restriction",
+    "Reassure — no treatment needed",
+    "Oxybutynin",
+    "Desmopressin",
+    "Enuresis alarm"
+   ],
+   "correct": 4,
+   "explanation": "This is <b>primary monosymptomatic nocturnal enuresis</b>. Once advice on fluids, toileting and reward systems has failed, the <b>alarm</b> is first-line treatment from about age 6–7 with the best long-term cure rate; desmopressin is for short-term cover (sleepovers, camps) or alarm failure. An alarm is not appropriate if wetting is infrequent (<1–2 nights a week).",
+   "point": "Primary monosymptomatic nocturnal enuresis from ~6–7 years: enuresis alarm is first-line treatment after fluid/toileting/reward advice has failed; desmopressin for short-term need or alarm failure. Secondary enuresis (previously dry ≥6 months) needs a search for a trigger first.",
+   "topic": "Paediatrics — enuresis",
+   "type": "recall",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A dependent 75-year-old with Alzheimer's in a nursing home has refused food for two days but takes fluids. Examination of the mouth shows white plaques on the tongue and palate that scrape off leaving a red base.",
+   "lead": "What is the appropriate management?",
+   "options": [
+    "Nasogastric feeding",
+    "Oral nystatin and mouth care",
+    "Palliative care referral",
+    "IV fluids",
+    "Antibiotics for aspiration"
+   ],
+   "correct": 1,
+   "explanation": "Painful <b>oral candidiasis</b> is a reversible cause of food refusal in the frail — treat it before escalating. NG feeding in advanced dementia does not improve outcomes.",
+   "point": "New food refusal in advanced dementia: look in the mouth — oral candidiasis is treated with a topical antifungal (miconazole 2% gel first-line in Australia, nystatin as the alternative) plus mouth care; NG feeding in advanced dementia does not improve survival.",
+   "topic": "Geriatrics — feeding refusal",
+   "type": "application",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A post-operative patient has been vomiting for two days. Bloods: Na 138, Cl 92, HCO3 34, K 3.0.",
+   "lead": "What is the most appropriate fluid over the next 4 hours?",
+   "options": [
+    "1 L 0.9% NaCl with 30 mmol KCl",
+    "1 L 4% dextrose / 0.18% NaCl",
+    "1 L 0.9% NaCl alone",
+    "1 L 5% dextrose",
+    "1 L Hartmann's"
+   ],
+   "correct": 0,
+   "explanation": "Vomiting produces a <b>hypochloraemic, hypokalaemic metabolic alkalosis</b>; the correction is chloride and potassium — saline with KCl. Dextrose-based fluids supply neither. Hartmann's is wrong here not for want of chloride (it has 111 mmol/L) but because its <b>lactate is metabolised to bicarbonate</b>, worsening the alkalosis, and it contains only 5 mmol/L of potassium.",
+   "point": "Vomiting causes hypochloraemic hypokalaemic metabolic alkalosis — replace with 0.9% saline plus potassium; avoid Hartmann's because its lactate becomes bicarbonate and it carries only 5 mmol/L K.",
+   "topic": "Surgery — fluid prescribing",
+   "type": "application",
+   "difficulty": "hard"
+  },
+  {
+   "stem": "A healthy young man with no medications or comorbidities (ASA 1) is booked for elective inguinal hernia repair, an intermediate-grade procedure.",
+   "lead": "Which pre-operative investigations are required?",
+   "options": [
+    "None",
+    "FBC and electrolytes",
+    "FBC, EUC, CXR and ECG",
+    "CXR and ECG",
+    "Coagulation profile"
+   ],
+   "correct": 0,
+   "explanation": "For an ASA 1 patient having intermediate surgery, <b>no routine investigations are indicated</b> — NICE NG45 and Choosing Wisely Australia both say tests are driven by comorbidity and procedure, not ritual. (In a woman of childbearing potential, pregnancy status must still be established.)",
+   "point": "Healthy ASA 1 patients having minor surgery need no routine pre-operative investigations — tests are indicated by comorbidity and procedure, not by default.",
+   "topic": "Anaesthetics — pre-operative assessment",
+   "type": "recall",
+   "difficulty": "medium"
+  }
  ]
 }

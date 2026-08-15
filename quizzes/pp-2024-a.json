@@ -4,25 +4,345 @@
  "category": "past-paper",
  "source": "WSU Y5 Barriers 2024 MCQ, student reconstruction; stems rewritten, tested point preserved",
  "questions": [
-  {"stem":"A 14-year-old boy cannot weight-bear on his left leg. The limb is shortened and externally rotated. He is overweight and there is no clear history of trauma.","lead":"What is the most likely diagnosis?","options":["Slipped capital femoral epiphysis","Perthes disease","Transient synovitis","Septic arthritis","Femoral neck fracture"],"correct":0,"explanation":"An overweight <b>adolescent</b> with a shortened, externally rotated leg and no trauma is SCFE — image both hips with frog-leg laterals. Perthes is 4–8 years; transient synovitis is younger and post-viral.","point":"Limp with a shortened, externally rotated leg in an overweight 10–15-year-old = SCFE (frog-leg lateral X-ray both hips); Perthes is 4–8 years, transient synovitis is post-viral in younger children.","topic":"Orthopaedics — paediatric hip","type":"recall","difficulty":"easy"},
-  {"stem":"A 70-year-old on metoprolol and dabigatran for AF is found collapsed. He hit his head in the garage a week ago and recovered quickly. BP 200/110, HR 50 irregular. He opens eyes and withdraws to pain, worse on the right, with incomprehensible speech. The right pupil is dilated and poorly reactive and the eye is abducted.","lead":"What is the most likely diagnosis?","options":["Subdural haematoma","Extradural haematoma","Intracerebral haemorrhage","Ischaemic stroke","Subarachnoid haemorrhage"],"correct":0,"explanation":"Elderly, <b>anticoagulated, minor head injury a week ago</b>, then delayed deterioration with a third-nerve palsy from uncal herniation — a subdural, now expanding. Extradural is acute, young, and follows a lucid interval of hours, not days.","point":"Delayed deterioration days after minor head injury in an anticoagulated elderly patient is a subdural haematoma; a blown pupil means uncal herniation and needs urgent neurosurgery.","topic":"Neurosurgery — head injury","type":"application","difficulty":"medium"},
-  {"stem":"A previously well 42-year-old woman with severe abdominal pain has a provisional diagnosis of acute cholecystitis and is awaiting surgical review.","lead":"What is the most appropriate analgesia?","options":["Codeine","Morphine","Paracetamol alone","NSAID","Tramadol"],"correct":1,"explanation":"Severe surgical pain gets <b>titrated IV opioid</b>; withholding analgesia does not obscure the diagnosis. Codeine is unreliable (CYP2D6 variability) and NSAIDs are avoided pre-operatively with possible sepsis.","point":"Severe acute abdominal pain is treated with titrated IV morphine — analgesia does not mask surgical signs, and codeine is unreliable.","topic":"Surgery — acute pain","type":"recall","difficulty":"easy"},
-  {"stem":"A 44-year-old woman has a non-healing wound on her thigh nine months after minor trauma. The site was burned in childhood, requiring hospitalisation but not grafting.","lead":"What is the most likely pathology?","options":["Angiosarcoma","Basal cell carcinoma","Squamous cell carcinoma","Melanoma","Keloid"],"correct":2,"explanation":"A <b>Marjolin ulcer</b> — SCC arising in an old burn scar or chronic wound. Biopsy any non-healing lesion in scar tissue.","point":"A non-healing ulcer in an old burn scar or chronic wound is a Marjolin ulcer — squamous cell carcinoma — until biopsied.","topic":"Dermatology — skin cancer","type":"recall","difficulty":"medium"},
-  {"stem":"A 63-year-old woman noticed sudden left hearing loss and tinnitus on waking three days ago. No vertigo, pain or discharge. Otoscopy is normal. Weber lateralises to the right ear.","lead":"What is the diagnosis?","options":["Acute conductive hearing loss","Acute sensorineural hearing loss","Acute mixed hearing loss","Chronic conductive hearing loss","Chronic sensorineural hearing loss"],"correct":1,"explanation":"<b>Weber lateralises away from the affected ear</b> in sensorineural loss (towards it in conductive). Sudden SNHL is an emergency — high-dose steroids within days.","point":"Weber lateralises to the good ear in sensorineural loss and to the bad ear in conductive loss; sudden SNHL needs urgent high-dose steroids.","topic":"ENT — hearing loss","type":"application","difficulty":"medium"},
-  {"stem":"A 70-year-old man has 6 months of worsening low back pain. ALP 700 (30–300), calcium 2.4 (2.15–2.5), phosphate 1.0 (0.8–1.45), PSA 2. Lumbar X-ray reports cortical thickening and sclerosis encasing the vertebral margins with vertical trabecular thickening.","lead":"What is the most likely cause?","options":["Paget disease of bone","Ankylosing spondylitis","Multiple myeloma","Prostate metastases","Osteoporotic fracture"],"correct":0,"explanation":"Markedly raised ALP with <b>normal calcium and phosphate</b> and 'picture-frame' vertebrae is Paget's. Myeloma raises calcium and has a normal ALP; prostate mets are excluded by the PSA.","point":"Very high ALP with normal calcium and phosphate plus sclerotic, thickened 'picture-frame' vertebrae = Paget disease; myeloma raises calcium with a normal ALP.","topic":"Rheumatology — Paget disease","type":"application","difficulty":"hard"},
-  {"stem":"A 60-year-old man has weeks of loose stools three times daily with intermittent blood, preceded by months of constipation, reduced appetite and 5 kg weight loss. PR confirms blood.","lead":"What is the most likely diagnosis?","options":["Colonic carcinoma","Diverticular disease","Ulcerative colitis","Haemorrhoids","Irritable bowel syndrome"],"correct":0,"explanation":"<b>Change in bowel habit + rectal bleeding + weight loss at 60</b> is colorectal cancer until colonoscopy says otherwise. Diverticular bleeding is painless and large-volume without weight loss.","point":"Altered bowel habit with rectal bleeding and weight loss over 50 is colorectal cancer until excluded by colonoscopy.","topic":"Surgery — colorectal cancer","type":"recall","difficulty":"easy"},
-  {"stem":"A 28-year-old man has a dull ache and a firm intratesticular mass, hypoechoic on ultrasound.","lead":"How is the diagnosis confirmed?","options":["Radical inguinal orchidectomy","Trans-scrotal needle biopsy","Trans-scrotal open biopsy","CT-guided biopsy","Serial tumour markers only"],"correct":0,"explanation":"Diagnosis and treatment are the same operation: <b>inguinal orchidectomy</b>. Any trans-scrotal approach risks seeding the inguinal lymphatics, which the testis does not otherwise drain to.","point":"A solid intratesticular mass is diagnosed by radical inguinal orchidectomy — never trans-scrotal biopsy, which seeds inguinal nodes outside the normal para-aortic drainage.","topic":"Urology — testicular mass","type":"recall","difficulty":"medium"},
-  {"stem":"An asymptomatic 60-year-old man with no family history asks about bowel cancer screening.","lead":"What is appropriate per Australian guidelines?","options":["Immunochemical FOBT every 2 years","Colonoscopy every 5 years","CT colonography","Annual CEA","No screening until 70"],"correct":0,"explanation":"Average risk: <b>iFOBT every 2 years from 45 to 74</b> (National Bowel Cancer Screening Program). Colonoscopy is for positive FOBT or elevated risk.","point":"Average-risk bowel cancer screening in Australia is iFOBT every 2 years from age 45 to 74; colonoscopy is reserved for a positive FOBT or increased familial risk.","topic":"General Practice — screening","type":"recall","difficulty":"easy"},
-  {"stem":"A 45-year-old woman has insidious jaundice and a vague epigastric mass. Bilirubin, ALP, GGT and ALT are all raised.","lead":"Which bilirubin fraction predominates?","options":["Conjugated","Unconjugated","Delta bilirubin","Both equally","Neither — the jaundice is haemolytic"],"correct":0,"explanation":"Cholestatic LFTs from a mass (pancreatic head) mean <b>obstruction of conjugated bilirubin's outflow</b> — dark urine, pale stools. Unconjugated excess is haemolysis or Gilbert's.","point":"Obstructive jaundice (raised ALP/GGT, mass, pale stools, dark urine) is conjugated hyperbilirubinaemia; unconjugated excess means haemolysis or Gilbert syndrome.","topic":"Gastroenterology — jaundice","type":"recall","difficulty":"easy"},
-  {"stem":"A 27-year-old primigravida has rupture of membranes at 32 weeks with no pain. Afebrile, HR 90, cephalic, clear fluid pooling on speculum. Transfer to a tertiary unit is arranged.","lead":"Which treatment is most appropriate while transfer occurs?","options":["Amoxicillin alone","Erythromycin alone","Erythromycin plus antenatal betamethasone","Tocolysis with nifedipine only","Immediate induction of labour"],"correct":2,"explanation":"PPROM before 34 weeks: <b>erythromycin</b> to prolong latency and reduce chorioamnionitis, plus <b>corticosteroids</b> for fetal lung maturity. Amoxicillin/co-amoxiclav is avoided (NEC risk).","point":"PPROM before 34 weeks: erythromycin plus antenatal corticosteroids (betamethasone); avoid co-amoxiclav because of NEC risk.","topic":"O&G — PPROM","type":"recall","difficulty":"medium"},
-  {"stem":"A 29-year-old primigravida has just delivered vaginally after an uncomplicated pregnancy. No medications were given at delivery.","lead":"What should be administered now?","options":["Oxytocin","Ergometrine alone","Misoprostol","Tranexamic acid","Nothing unless bleeding occurs"],"correct":0,"explanation":"<b>Active management of the third stage</b> — prophylactic oxytocin with delivery of the anterior shoulder or immediately after birth — reduces PPH. Ergometrine is contraindicated in hypertension and second-line.","point":"Active third-stage management: prophylactic oxytocin at or immediately after delivery reduces PPH; ergometrine is second-line and contraindicated in hypertension.","topic":"O&G — third stage","type":"recall","difficulty":"easy"},
-  {"stem":"A 29-year-old at 12 weeks: blood group O negative, antibody screen negative, Hb 112 (120–150), MCV 82, rubella immune, other serology negative.","lead":"What is the most appropriate action?","options":["Anti-D immunoglobulin at 28 and 34 weeks","Anti-D immunoglobulin now","Iron infusion","Oral iron and recheck","No action needed"],"correct":0,"explanation":"Rh-negative, non-sensitised: <b>routine prophylactic anti-D at 28 and 34 weeks</b> plus after any sensitising event and postnatally if the baby is positive. The Hb of 112 is physiological dilution, not iron deficiency needing infusion.","point":"RhD-negative, antibody-negative women get routine anti-D at 28 and 34 weeks (and after sensitising events); Hb 110–120 in pregnancy is physiological.","topic":"O&G — antenatal care","type":"application","difficulty":"medium"},
-  {"stem":"A 37-year-old primigravida with pre-pregnancy BMI 36 has an OGTT at 26 weeks: 2-hour glucose 9.8 mmol/L (threshold <8.5).","lead":"What is the most appropriate initial management?","options":["Diabetes educator and dietitian review with home glucose monitoring","Start basal insulin","Start short-acting insulin with meals","Metformin immediately","Repeat the OGTT in 2 weeks"],"correct":0,"explanation":"GDM starts with <b>lifestyle, education and self-monitoring</b>; pharmacotherapy (insulin first-line in Australia, metformin acceptable) only if targets are not met within 1–2 weeks.","point":"Newly diagnosed GDM: dietitian/educator plus home glucose monitoring first; insulin (or metformin) only if targets are not met on lifestyle within 1–2 weeks.","topic":"O&G — gestational diabetes","type":"recall","difficulty":"medium"},
-  {"stem":"A baby rolls front to back but needs support to sit, transfers objects hand to hand without a pincer grip, turns to his name and babbles without words, holds his bottle and shows no stranger anxiety.","lead":"What is his developmental age?","options":["3 months","6 months","9 months","12 months","18 months"],"correct":1,"explanation":"Rolling, palmar transfer, babble, no pincer, no stranger anxiety = <b>6 months</b>. By 9 months: sits unsupported, pincer developing, stranger anxiety. By 12: single words, cruising.","point":"6 months = rolls, transfers hand to hand, babbles, no pincer grip, no stranger anxiety; 9 months adds sitting unsupported, pincer grip and stranger anxiety.","topic":"Paediatrics — development","type":"recall","difficulty":"medium"},
-  {"stem":"A 2-year-old with two days of coryza develops a harsh barking cough, worse at night, with loud inspiratory noise when distressed. Temperature 38°C, pink and alert.","lead":"What is the most likely organism?","options":["Parainfluenza virus","Bordetella pertussis","Respiratory syncytial virus","Haemophilus influenzae type b","Streptococcus pneumoniae"],"correct":0,"explanation":"Barking cough with stridor on distress in a well toddler is <b>croup — parainfluenza</b>. Hib epiglottitis is toxic, drooling and stridor at rest; RSV is bronchiolitis (wheeze).","point":"Barking cough with inspiratory stridor in a well toddler is viral croup (parainfluenza) — oral dexamethasone; epiglottitis (Hib) is toxic and drooling.","topic":"Paediatrics — croup","type":"recall","difficulty":"easy"},
-  {"stem":"A thin 10-month-old is below the 5th centile for weight and height with head circumference on the 90th. He has a prominent forehead and broad wrists and ankles.","lead":"Which deficiency explains this?","options":["Vitamin A","Vitamin B12","Vitamin C","Vitamin D","Vitamin E"],"correct":3,"explanation":"Frontal bossing, <b>widened wrists and ankles</b> (metaphyseal flaring), poor growth — rickets. Vitamin C is scurvy (bleeding gums, bruising); A is night blindness.","point":"Frontal bossing, widened wrists/ankles and poor growth in an infant = rickets (vitamin D deficiency); check 25-OH vitamin D, calcium, phosphate, ALP.","topic":"Paediatrics — rickets","type":"recall","difficulty":"medium"},
-  {"stem":"A 6-month-old is drowsy and febrile (39.7°C) with capillary refill 4 seconds and a purpuric rash on the limbs. Fontanelle is flat. IV access is in and a saline bolus is given.","lead":"What is the next step?","options":["IV antibiotics (ceftriaxone)","Lumbar puncture","CT head","Blood cultures then wait for results","Second fluid bolus and observe"],"correct":0,"explanation":"Fever, purpura, shock — <b>meningococcal sepsis</b>: antibiotics immediately after cultures, and LP is contraindicated in a shocked child. Never delay ceftriaxone for any investigation.","point":"Febrile child with purpura and shock = meningococcaemia — IV ceftriaxone immediately; lumbar puncture is contraindicated while shocked or coagulopathic.","topic":"Paediatrics — meningococcal disease","type":"application","difficulty":"medium"},
-  {"stem":"A 2-year-old presents with pallor and lethargy during a URTI. His father had chronic anaemia and a childhood splenectomy. He is jaundiced with splenomegaly. Hb 59 (100–140), WCC and platelets normal, reticulocytes 12% (0.5–1.5%).","lead":"What is the most likely diagnosis?","options":["Hereditary spherocytosis","G6PD deficiency","Sickle cell disease","Beta thalassaemia major","Aplastic crisis from parvovirus"],"correct":0,"explanation":"Haemolysis (jaundice, high retics, splenomegaly) with an <b>autosomal dominant family history and a splenectomised parent</b> is spherocytosis. G6PD is X-linked and episodic with oxidants; thalassaemia major presents by 6–12 months with microcytosis and no retic surge.","point":"Haemolytic anaemia with splenomegaly and an autosomal dominant family history (parent with splenectomy) is hereditary spherocytosis; G6PD is X-linked and oxidant-triggered.","topic":"Haematology — haemolytic anaemia","type":"discrimination","difficulty":"medium"},
-  {"stem":"A 48-year-old woman has four months of low mood, tearfulness, anergia, hypersomnia (10 hours a night) and 5 kg weight gain.","lead":"Which investigation should be performed before starting an antidepressant?","options":["Thyroid function tests","MRI brain","Cortisol","EEG","ECG"],"correct":0,"explanation":"Weight gain, hypersomnia and fatigue overlap with <b>hypothyroidism</b> — exclude it before labelling depression. TFTs are part of the standard first-presentation screen.","point":"New depression with weight gain, hypersomnia and fatigue: check TFTs (and FBC, B12/folate, glucose) before starting an antidepressant — hypothyroidism mimics it.","topic":"Psychiatry — depression workup","type":"recall","difficulty":"easy"}
+  {
+   "stem": "A 14-year-old boy cannot weight-bear on his left leg. The limb is shortened and externally rotated. He is overweight and there is no clear history of trauma.",
+   "lead": "What is the most likely diagnosis?",
+   "options": [
+    "Slipped capital femoral epiphysis",
+    "Perthes disease",
+    "Transient synovitis",
+    "Septic arthritis",
+    "Femoral neck fracture"
+   ],
+   "correct": 0,
+   "explanation": "An overweight <b>adolescent</b> with a shortened, externally rotated leg and no trauma is SCFE. Because he cannot weight-bear this is an <b>unstable</b> slip: image with an AP pelvis and a <b>cross-table (shoot-through) lateral</b> — frog-leg positioning is avoided in unstable slips because the abduction and external rotation can complete the slip and cause avascular necrosis. Perthes is 4–8 years; transient synovitis is younger and post-viral.",
+   "point": "Limp with a shortened, externally rotated leg in an overweight 8–15-year-old is SCFE. If they cannot weight-bear the slip is unstable — use an AP pelvis and cross-table lateral, never a frog-leg lateral, which can complete the slip.",
+   "topic": "Orthopaedics — paediatric hip",
+   "type": "recall",
+   "difficulty": "easy"
+  },
+  {
+   "stem": "A 70-year-old on metoprolol and dabigatran for AF is found collapsed. He hit his head in the garage a week ago and recovered quickly. BP 200/110, HR 50 irregular. He opens eyes and withdraws to pain, more weakly on the left than the right, with incomprehensible speech. The right pupil is dilated and poorly reactive and the eye is deviated down and out.",
+   "lead": "What is the most likely diagnosis?",
+   "options": [
+    "Subdural haematoma",
+    "Extradural haematoma",
+    "Intracerebral haemorrhage",
+    "Ischaemic stroke",
+    "Subarachnoid haemorrhage"
+   ],
+   "correct": 0,
+   "explanation": "Elderly, <b>anticoagulated, minor head injury a week ago</b>, then delayed deterioration with a third-nerve palsy from uncal herniation — a subdural, now expanding. Extradural is acute, young, and follows a lucid interval of hours, not days.",
+   "point": "Delayed deterioration days after minor head injury in an anticoagulated elderly patient is a subdural haematoma; a blown pupil means uncal herniation and needs urgent neurosurgery.",
+   "topic": "Neurosurgery — head injury",
+   "type": "application",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A previously well 42-year-old woman with severe abdominal pain has a provisional diagnosis of acute cholecystitis and is awaiting surgical review.",
+   "lead": "What is the most appropriate analgesia?",
+   "options": [
+    "Codeine",
+    "Morphine",
+    "Paracetamol alone",
+    "NSAID",
+    "Tramadol"
+   ],
+   "correct": 1,
+   "explanation": "Severe surgical pain gets <b>titrated IV opioid</b> — analgesia does not obscure the diagnosis or the signs. Codeine is unreliable (CYP2D6 variability). NSAIDs are genuinely effective in biliary pain and even reduce progression to cholecystitis, but are second-line here for severity and are limited by renal function, bleeding risk and age.",
+   "point": "Severe acute abdominal pain is treated with titrated IV morphine — analgesia does not mask surgical signs, and codeine is unreliable.",
+   "topic": "Surgery — acute pain",
+   "type": "recall",
+   "difficulty": "easy"
+  },
+  {
+   "stem": "A 44-year-old woman has a non-healing wound on her thigh nine months after minor trauma. The site was burned in childhood, requiring hospitalisation but not grafting.",
+   "lead": "What is the most likely pathology?",
+   "options": [
+    "Angiosarcoma",
+    "Basal cell carcinoma",
+    "Squamous cell carcinoma",
+    "Melanoma",
+    "Keloid"
+   ],
+   "correct": 2,
+   "explanation": "A <b>Marjolin ulcer</b> — SCC arising in an old burn scar or chronic wound. Biopsy any non-healing lesion in scar tissue.",
+   "point": "A non-healing ulcer in an old burn scar or chronic wound is a Marjolin ulcer — squamous cell carcinoma — until biopsied.",
+   "topic": "Dermatology — skin cancer",
+   "type": "recall",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A 63-year-old woman noticed sudden left hearing loss and tinnitus on waking three days ago. No vertigo, pain or discharge. Otoscopy is normal. Weber lateralises to the right ear.",
+   "lead": "What is the diagnosis?",
+   "options": [
+    "Acute conductive hearing loss",
+    "Acute sensorineural hearing loss",
+    "Acute mixed hearing loss",
+    "Chronic conductive hearing loss",
+    "Chronic sensorineural hearing loss"
+   ],
+   "correct": 1,
+   "explanation": "<b>Weber lateralises away from the affected ear</b> in sensorineural loss (towards it in conductive). Sudden SNHL is an emergency — high-dose steroids within days.",
+   "point": "Weber lateralises to the good ear in sensorineural loss and to the bad ear in conductive loss; sudden SNHL needs urgent high-dose steroids.",
+   "topic": "ENT — hearing loss",
+   "type": "application",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A 70-year-old man has 6 months of worsening low back pain. ALP 700 (30–300), calcium 2.4 (2.15–2.5), phosphate 1.0 (0.8–1.45), PSA 2. Lumbar X-ray reports cortical thickening and sclerosis encasing the vertebral margins with vertical trabecular thickening.",
+   "lead": "What is the most likely cause?",
+   "options": [
+    "Paget disease of bone",
+    "Ankylosing spondylitis",
+    "Multiple myeloma",
+    "Prostate metastases",
+    "Osteoporotic fracture"
+   ],
+   "correct": 0,
+   "explanation": "Markedly raised ALP with <b>normal calcium and phosphate</b> and 'picture-frame' sclerotic vertebrae is Paget's. Myeloma is <b>lytic, not sclerotic</b>, and runs a normal ALP — that is the discriminator, not the calcium (raised in only about a quarter of myeloma at diagnosis). A PSA of 2 makes prostatic sclerotic metastases unlikely, though it does not formally exclude them.",
+   "point": "Very high ALP with normal calcium and phosphate plus sclerotic, thickened 'picture-frame' vertebrae = Paget disease; myeloma raises calcium with a normal ALP.",
+   "topic": "Rheumatology — Paget disease",
+   "type": "application",
+   "difficulty": "hard"
+  },
+  {
+   "stem": "A 60-year-old man has weeks of loose stools three times daily with intermittent blood, preceded by months of constipation, reduced appetite and 5 kg weight loss. PR confirms blood.",
+   "lead": "What is the most likely diagnosis?",
+   "options": [
+    "Colonic carcinoma",
+    "Diverticular disease",
+    "Ulcerative colitis",
+    "Haemorrhoids",
+    "Irritable bowel syndrome"
+   ],
+   "correct": 0,
+   "explanation": "<b>Change in bowel habit + rectal bleeding + weight loss at 60</b> is colorectal cancer until colonoscopy says otherwise. Diverticular bleeding is painless and large-volume without weight loss.",
+   "point": "Altered bowel habit with rectal bleeding and weight loss over 50 is colorectal cancer until excluded by colonoscopy.",
+   "topic": "Surgery — colorectal cancer",
+   "type": "recall",
+   "difficulty": "easy"
+  },
+  {
+   "stem": "A 28-year-old man has a dull ache and a firm intratesticular mass, hypoechoic on ultrasound.",
+   "lead": "How is the diagnosis confirmed?",
+   "options": [
+    "Radical inguinal orchidectomy",
+    "Trans-scrotal needle biopsy",
+    "Trans-scrotal open biopsy",
+    "CT-guided biopsy",
+    "Serial tumour markers only"
+   ],
+   "correct": 0,
+   "explanation": "Diagnosis and treatment are the same operation: <b>inguinal orchidectomy</b>. Any trans-scrotal approach risks seeding the inguinal lymphatics, which the testis does not otherwise drain to.",
+   "point": "A solid intratesticular mass is diagnosed by radical inguinal orchidectomy — never trans-scrotal biopsy, which seeds inguinal nodes outside the normal para-aortic drainage.",
+   "topic": "Urology — testicular mass",
+   "type": "recall",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "An asymptomatic 60-year-old man with no family history asks about bowel cancer screening.",
+   "lead": "What is appropriate per Australian guidelines?",
+   "options": [
+    "Immunochemical FOBT every 2 years",
+    "Colonoscopy every 5 years",
+    "CT colonography",
+    "Annual CEA",
+    "No screening until 70"
+   ],
+   "correct": 0,
+   "explanation": "Average risk: <b>iFOBT every 2 years</b>. Since July 2024 eligibility starts at <b>45</b>, but 45–49-year-olds must <b>request</b> their first kit; automatic invitations run from <b>50 to 74</b>. Colonoscopy is for a positive FOBT or elevated familial risk.",
+   "point": "Australian bowel screening: iFOBT 2-yearly, eligible from 45 (request-only at 45–49), automatically invited 50–74; colonoscopy only for a positive FOBT or increased familial risk.",
+   "topic": "General Practice — screening",
+   "type": "recall",
+   "difficulty": "easy"
+  },
+  {
+   "stem": "A 45-year-old woman has insidious jaundice and a vague epigastric mass. Bilirubin, ALP, GGT and ALT are all raised.",
+   "lead": "Which bilirubin fraction predominates?",
+   "options": [
+    "Conjugated",
+    "Unconjugated",
+    "Delta bilirubin",
+    "Both equally",
+    "Neither — the jaundice is haemolytic"
+   ],
+   "correct": 0,
+   "explanation": "Cholestatic LFTs from a mass (pancreatic head) mean <b>obstruction of conjugated bilirubin's outflow</b> — dark urine, pale stools. Unconjugated excess is haemolysis or Gilbert's.",
+   "point": "Obstructive jaundice (raised ALP/GGT, mass, pale stools, dark urine) is conjugated hyperbilirubinaemia; unconjugated excess means haemolysis or Gilbert syndrome.",
+   "topic": "Gastroenterology — jaundice",
+   "type": "recall",
+   "difficulty": "easy"
+  },
+  {
+   "stem": "A 27-year-old primigravida has rupture of membranes at 32 weeks with no pain. Afebrile, HR 90, cephalic, clear fluid pooling on speculum. Transfer to a tertiary unit is arranged.",
+   "lead": "Which treatment is most appropriate while transfer occurs?",
+   "options": [
+    "Amoxicillin alone",
+    "Erythromycin alone",
+    "Erythromycin plus antenatal betamethasone",
+    "Tocolysis with nifedipine only",
+    "Immediate induction of labour"
+   ],
+   "correct": 2,
+   "explanation": "PPROM before 34 weeks: <b>erythromycin</b> to prolong latency and reduce chorioamnionitis, plus <b>corticosteroids</b> for fetal lung maturity. Amoxicillin/co-amoxiclav is avoided (NEC risk).",
+   "point": "PPROM before 34 weeks: erythromycin plus antenatal corticosteroids (betamethasone); avoid co-amoxiclav because of NEC risk.",
+   "topic": "O&G — PPROM",
+   "type": "recall",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A 29-year-old primigravida has just delivered vaginally after an uncomplicated pregnancy. No medications were given at delivery.",
+   "lead": "What should be administered now?",
+   "options": [
+    "Oxytocin",
+    "Ergometrine alone",
+    "Misoprostol",
+    "Tranexamic acid",
+    "Nothing unless bleeding occurs"
+   ],
+   "correct": 0,
+   "explanation": "<b>Active management of the third stage</b> — prophylactic oxytocin with delivery of the anterior shoulder or immediately after birth — reduces PPH. Ergometrine is contraindicated in hypertension and second-line.",
+   "point": "Active third-stage management: prophylactic oxytocin at or immediately after delivery reduces PPH; ergometrine is second-line and contraindicated in hypertension.",
+   "topic": "O&G — third stage",
+   "type": "recall",
+   "difficulty": "easy"
+  },
+  {
+   "stem": "A 29-year-old at 12 weeks: blood group O negative, antibody screen negative, Hb 112 (120–150), MCV 82, rubella immune, other serology negative.",
+   "lead": "What is the most appropriate action?",
+   "options": [
+    "Anti-D immunoglobulin at 28 and 34 weeks",
+    "Anti-D immunoglobulin now",
+    "Iron infusion",
+    "Oral iron and recheck",
+    "No action needed"
+   ],
+   "correct": 0,
+   "explanation": "Rh-negative and non-sensitised: <b>routine prophylactic anti-D at 28 and 34 weeks</b> (Australia retains the two-dose 625 IU schedule), plus after any sensitising event and postnatally if the baby is RhD positive. The Hb of 112 with an MCV of 82 is not dismissible as haemodilution at 12 weeks — that is a second/third-trimester phenomenon — so ferritin should also be checked, but anti-D scheduling is the answer here.",
+   "point": "RhD-negative, antibody-negative women get anti-D at 28 and 34 weeks in Australia, plus after sensitising events. Haemodilution belongs to the second and third trimesters — a low-normal Hb with low MCV at 12 weeks warrants a ferritin.",
+   "topic": "O&G — antenatal care",
+   "type": "application",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A 37-year-old primigravida with pre-pregnancy BMI 36 has an OGTT at 26 weeks: 2-hour glucose 9.8 mmol/L (ADIPS 2025 threshold ≥9.0).",
+   "lead": "What is the most appropriate initial management?",
+   "options": [
+    "Diabetes educator and dietitian review with home glucose monitoring",
+    "Start basal insulin",
+    "Start short-acting insulin with meals",
+    "Metformin immediately",
+    "Repeat the OGTT in 2 weeks"
+   ],
+   "correct": 0,
+   "explanation": "GDM starts with <b>lifestyle, education and self-monitoring</b>; pharmacotherapy (insulin first-line in Australia, metformin acceptable) only if targets are not met within 1–2 weeks.",
+   "point": "Newly diagnosed GDM: dietitian/educator plus home glucose monitoring first; insulin (or metformin) only if targets are not met on lifestyle within 1–2 weeks.",
+   "topic": "O&G — gestational diabetes",
+   "type": "recall",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A baby rolls in both directions but needs support to sit. He reaches out and transfers objects from one hand to the other with a palmar grasp but has no pincer grip. He babbles without words, holds his bottle when feeding, and shows no anxiety towards the examiner.",
+   "lead": "What is his developmental age?",
+   "options": [
+    "3 months",
+    "6 months",
+    "9 months",
+    "12 months",
+    "18 months"
+   ],
+   "correct": 1,
+   "explanation": "Rolling, palmar transfer, babble, no pincer, no stranger anxiety = <b>6 months</b>. By 9 months: sits unsupported, pincer developing, stranger anxiety. By 12: single words, cruising.",
+   "point": "6 months = rolls, transfers hand to hand, babbles, no pincer grip, no stranger anxiety; 9 months adds sitting unsupported, pincer grip and stranger anxiety.",
+   "topic": "Paediatrics — development",
+   "type": "recall",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A 2-year-old with two days of coryza develops a harsh barking cough, worse at night, with loud inspiratory noise when distressed. Temperature 38°C, pink and alert.",
+   "lead": "What is the most likely organism?",
+   "options": [
+    "Parainfluenza virus",
+    "Bordetella pertussis",
+    "Respiratory syncytial virus",
+    "Haemophilus influenzae type b",
+    "Streptococcus pneumoniae"
+   ],
+   "correct": 0,
+   "explanation": "Barking cough with stridor on distress in a well toddler is <b>croup — parainfluenza</b>. Hib epiglottitis is toxic, drooling and stridor at rest; RSV is bronchiolitis (wheeze).",
+   "point": "Barking cough with inspiratory stridor in a well toddler is viral croup (parainfluenza) — oral dexamethasone; epiglottitis (Hib) is toxic and drooling.",
+   "topic": "Paediatrics — croup",
+   "type": "recall",
+   "difficulty": "easy"
+  },
+  {
+   "stem": "A thin 10-month-old is below the 5th centile for weight and height with head circumference on the 90th. He has a prominent forehead and broad wrists and ankles.",
+   "lead": "Which deficiency explains this?",
+   "options": [
+    "Vitamin A",
+    "Vitamin B12",
+    "Vitamin C",
+    "Vitamin D",
+    "Vitamin E"
+   ],
+   "correct": 3,
+   "explanation": "Frontal bossing, <b>widened wrists and ankles</b> (metaphyseal flaring), poor growth — rickets. Vitamin C is scurvy (bleeding gums, bruising); A is night blindness.",
+   "point": "Frontal bossing, widened wrists/ankles and poor growth in an infant = rickets (vitamin D deficiency); check 25-OH vitamin D, calcium, phosphate, ALP.",
+   "topic": "Paediatrics — rickets",
+   "type": "recall",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A 6-month-old is drowsy and febrile (39.7°C) with capillary refill 4 seconds and a purpuric rash on the limbs. Fontanelle is flat. IV access is in and a saline bolus is given.",
+   "lead": "What is the next step?",
+   "options": [
+    "IV antibiotics (ceftriaxone)",
+    "Lumbar puncture",
+    "CT head",
+    "Blood cultures then wait for results",
+    "Second fluid bolus and observe"
+   ],
+   "correct": 0,
+   "explanation": "Fever, purpura and shock is <b>meningococcal sepsis</b>: give IV ceftriaxone <b>immediately</b>, taking blood cultures at the same time only if they cause no delay. Lumbar puncture is contraindicated while the child is shocked or coagulopathic, and must never hold up antibiotics.",
+   "point": "Febrile child with purpura and shock = meningococcaemia — IV ceftriaxone immediately; lumbar puncture is contraindicated while shocked or coagulopathic.",
+   "topic": "Paediatrics — meningococcal disease",
+   "type": "application",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A 2-year-old presents with pallor and lethargy during a URTI. His father had chronic anaemia and a childhood splenectomy. He is jaundiced with splenomegaly. Hb 59 (100–140), WCC and platelets normal, reticulocytes 12% (0.5–1.5%).",
+   "lead": "What is the most likely diagnosis?",
+   "options": [
+    "Hereditary spherocytosis",
+    "G6PD deficiency",
+    "Sickle cell disease",
+    "Beta thalassaemia major",
+    "Aplastic crisis from parvovirus"
+   ],
+   "correct": 0,
+   "explanation": "Haemolysis (jaundice, high retics, splenomegaly) with an <b>autosomal dominant family history and a splenectomised parent</b> is spherocytosis. G6PD is X-linked and episodic with oxidants; thalassaemia major presents by 6–12 months with microcytosis and no retic surge.",
+   "point": "Haemolytic anaemia with splenomegaly and an autosomal dominant family history (parent with splenectomy) is hereditary spherocytosis; G6PD is X-linked and oxidant-triggered.",
+   "topic": "Haematology — haemolytic anaemia",
+   "type": "discrimination",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A 48-year-old woman has four months of low mood, tearfulness, anergia, hypersomnia (10 hours a night) and 5 kg weight gain.",
+   "lead": "Which investigation should be performed before starting an antidepressant?",
+   "options": [
+    "Thyroid function tests",
+    "MRI brain",
+    "Cortisol",
+    "EEG",
+    "ECG"
+   ],
+   "correct": 0,
+   "explanation": "Weight gain, hypersomnia and fatigue overlap with <b>hypothyroidism</b> — exclude it before labelling depression. TFTs are part of the standard first-presentation screen.",
+   "point": "New depression with weight gain, hypersomnia and fatigue: check TFTs (and FBC, B12/folate, glucose) before starting an antidepressant — hypothyroidism mimics it.",
+   "topic": "Psychiatry — depression workup",
+   "type": "recall",
+   "difficulty": "easy"
+  }
  ]
 }
