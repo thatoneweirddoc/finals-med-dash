@@ -250,7 +250,8 @@ function saveQuiz(body) {
   const id = makeFile(safe + '-' + stamp + '.json', quizzesFolderId(),
                       'application/json', JSON.stringify(quiz),
                       { count: String(questions.length), system: quiz.system,
-                        title: quiz.title, source: quiz.source });
+                        title: quiz.title, source: quiz.source,
+                        difficulty: String(body.difficulty || 'exam') });
   return { ok: true, id: id, title: quiz.title, system: quiz.system, count: questions.length };
 }
 
@@ -277,6 +278,7 @@ function validateQuestions(list) {
       stem: stem, lead: lead, options: opts, correct: correct,
       explanation: String(q.explanation || '').trim(),
       point: String(q.point || '').trim(),
+      difficulty: ['easy', 'medium', 'hard'].indexOf(q.difficulty) >= 0 ? q.difficulty : 'medium',
       topic: String(q.topic || '').trim() || 'General',
       type: ['recall', 'application', 'discrimination'].indexOf(q.type) >= 0 ? q.type : 'recall'
     });
@@ -399,6 +401,7 @@ function queueRequest(body) {
     system: body.system || 'Weakest areas',
     n: Math.min(40, Math.max(5, Number(body.n) || 20)),
     topics: Array.isArray(body.topics) ? body.topics : [],
+    difficulty: ['easy', 'medium', 'hard'].indexOf(body.difficulty) >= 0 ? body.difficulty : '',
     note: String(body.note || ''),
     status: 'pending',
     requested: new Date().toISOString()
@@ -463,32 +466,101 @@ function generateNow(body) {
   const ground = groundingFor(system);
   const weak = weakAreasFor(system);
 
+  // A single difficulty generates all at that level; anything else reproduces the
+  // 25/55/20 blend measured off the real papers.
+  const plan = difficultyPlan(body.difficulty, want);
   const out = [];
-  let guard = 0;
-  while (out.length < want && guard < 4) {
-    guard++;
-    const before = out.length;
-    const batch = Math.min(BATCH_MAX, want - out.length);
-    let got = [];
-    try { got = callAnthropic(key, system, batch, ground, weak, out); }
-    catch (err) { if (!out.length) return { error: String(err) }; break; }
-    validateQuestions(got).forEach(function (q) { out.push(q); });
-    if (out.length === before) break;   // no progress — stop rather than spin
-  }
+
+  ['easy', 'medium', 'hard'].forEach(function (level) {
+    let need = plan[level] || 0;
+    let guard = 0;
+    while (need > 0 && guard < 3) {
+      guard++;
+      const before = out.length;
+      const batch = Math.min(BATCH_MAX, need);
+      let got = [];
+      try { got = callAnthropic(key, system, batch, ground, weak, out, level); }
+      catch (err) { break; }
+      validateQuestions(got).forEach(function (q) {
+        q.difficulty = level;          // trust the plan, not the model's self-label
+        out.push(q);
+      });
+      const added = out.length - before;
+      if (!added) break;               // no progress — stop rather than spin
+      need -= added;
+    }
+  });
+
+  if (!out.length) return { error: 'model returned nothing usable' };
 
   if (!out.length) return { error: 'model returned nothing usable' };
 
   const saved = saveQuiz({
-    title: system + ' — generated ' + Utilities.formatDate(
-      new Date(), Session.getScriptTimeZone(), 'd MMM HH:mm'),
-    system: system, questions: out, source: 'make-now'
+    title: system + ' — ' + (body.difficulty || 'exam mix') + ' — ' +
+      Utilities.formatDate(new Date(), Session.getScriptTimeZone(), 'd MMM HH:mm'),
+    system: system, questions: out, source: 'make-now',
+    difficulty: body.difficulty || ''
   });
   saved.asked = want;
   return saved;
 }
 
-function callAnthropic(key, system, n, ground, weak, already) {
+/**
+ * Difficulty rules, calibrated against the 2024 and 2025 Barriers MCQ papers.
+ * Full working in docs/difficulty-rules.md — keep the two in step if editing.
+ */
+const DIFFICULTY_RULES = {
+  easy: [
+    'DIFFICULTY: EASY — one inferential hop.',
+    '- Stem 1-3 sentences, or a bare knowledge question with no vignette.',
+    '- Exactly one near-pathognomonic cue, or a single named fact/guideline number.',
+    '- No lab panel to interpret; at most one value, explicitly flagged abnormal.',
+    '- Distractors sit in visibly different categories — two are eliminable on sight.',
+    '- No negative stems, no "which of the following is TRUE" lists.',
+    '- A prepared student answers in under 30 seconds and scores 85-95%.'
+  ].join('\n'),
+  medium: [
+    'DIFFICULTY: MEDIUM — two hops. This is the modal Barriers question.',
+    '- Stem 3-6 sentences: demographics, history, examination, and usually one',
+    '  investigation that must be INTERPRETED rather than merely read.',
+    '- Requires synthesising 2+ findings, OR applying a threshold/algorithm to this',
+    '  scenario, OR adjusting the standard answer for a comorbidity, contraindication',
+    '  or drug interaction stated in the stem.',
+    '- Exactly one distractor is the correct answer to the neighbouring condition.',
+    '- A prepared student takes 60-90 seconds and scores 60-75%.'
+  ].join('\n'),
+  hard: [
+    'DIFFICULTY: HARD — two hops and a turn. Difficulty must come from reasoning,',
+    'NEVER from rarity or obscurity. Satisfy at least one of:',
+    '  1. Chained inference across modalities — interpret data/imaging, then predict',
+    '     something in a different domain (CXR findings -> expected examination signs).',
+    '  2. Fine discrimination — two options share nearly every feature and one stated',
+    '     detail decides between them.',
+    '  3. A trap in the physiology — the obvious test is uninterpretable here, or a',
+    '     normal value IS the finding (TSH in secondary hypothyroidism; normal calcium',
+    '     in vitamin D deficiency held there by raised PTH).',
+    '  4. A precise numeric threshold or cut-off is itself the answer.',
+    '  5. A negative stem ("least likely", "not a feature") — at most 1 in 10.',
+    '- Every distractor must be defensible to someone who missed the key detail.',
+    '- A prepared student takes 2+ minutes and scores 40-55%.'
+  ].join('\n')
+};
+
+// Observed blend in the real papers.
+const EXAM_MIX = { easy: 0.25, medium: 0.55, hard: 0.20 };
+
+function difficultyPlan(difficulty, n) {
+  if (difficulty && DIFFICULTY_RULES[difficulty]) {
+    const one = {}; one[difficulty] = n; return one;
+  }
+  const easy = Math.round(n * EXAM_MIX.easy);
+  const hard = Math.round(n * EXAM_MIX.hard);
+  return { easy: easy, hard: hard, medium: Math.max(0, n - easy - hard) };
+}
+
+function callAnthropic(key, system, n, ground, weak, already, difficulty) {
   const avoid = already.slice(-20).map(function (q) { return '- ' + q.lead; }).join('\n');
+  const rules = DIFFICULTY_RULES[difficulty] || DIFFICULTY_RULES.medium;
 
   const prompt = [
     'Write ' + n + ' single-best-answer clinical vignettes for a final-year Australian',
@@ -499,13 +571,18 @@ function callAnthropic(key, system, n, ground, weak, already) {
     weak ? 'Weight questions toward these known weak areas:\n' + weak + '\n' : '',
     ground ? 'Ground the content in these notes the student has actually studied:\n\n' +
              '<notes>\n' + ground + '\n</notes>\n' : '',
+    rules,
+    '',
     'Rules:',
-    '- Finals depth: history, exam findings, sometimes one investigation result, then',
-    '  ask for diagnosis, next best step, or mechanism.',
-    '- Australian guidelines where they differ (ANZCOR, not Resuscitation Council UK).',
+    '- Australian guidelines where they differ (ANZCOR, not Resuscitation Council UK;',
+    '  Therapeutic Guidelines; Australian Diabetes Handbook; RACGP).',
     '- Exactly 4 options. Exactly one defensible answer. Distractors must be plausible.',
-    '- Vary question type across the set: recognition, best-next-step, differential',
-    '  narrowing, threshold/cut-off recall, and mechanism.',
+    '- Roughly HALF the real paper is not diagnosis. Spread the set across next',
+    '  investigation, next management step, mechanism, drug choice and guideline',
+    '  figures — not just "what is the most likely diagnosis".',
+    '- Supply the reference interval inline whenever a value must be judged.',
+    '- No question may depend on seeing an image. If imaging matters, report its',
+    '  findings in words the way the real paper does.',
     '- Explanation states why the right answer is right AND why the tempting wrong one',
     '  is wrong. Use <b>...</b> around the specific number, threshold or drug that is',
     '  the point of the question. 2-4 sentences.',
@@ -515,7 +592,7 @@ function callAnthropic(key, system, n, ground, weak, already) {
     'Return ONLY a JSON array, no prose, no code fence. Each element:',
     '{"stem":"...","lead":"...","options":["a","b","c","d"],"correct":<0-3 index>,',
     ' "explanation":"...","point":"...","topic":"' + system + ' — <subtopic>",',
-    ' "type":"recall|application|discrimination"}',
+    ' "type":"recall|application|discrimination","difficulty":"' + (difficulty || 'medium') + '"}',
     '',
     'The "point" field is the takeaway as ONE standalone factual sentence that makes',
     'sense with zero context from the stem — name the condition and the fact, never',
@@ -701,6 +778,18 @@ function recordResults(body) {
     note: 'Quiz — ' + (body.title || 'Untitled') + ', ' + (body.score || '') + '.'
   });
 
+  // accuracy by difficulty — the signal that says whether you are failing on
+  // facts or on reasoning, which need different remedies
+  t.difficulty_stats = t.difficulty_stats || {};
+  (body.byDifficulty || []).forEach(function (d) {
+    if (!d.level || !d.total) return;
+    const cur = t.difficulty_stats[d.level] || { tested: 0, correct: 0 };
+    cur.tested += d.total;
+    cur.correct += (d.correct || 0);
+    cur.score = Math.round(cur.correct / cur.tested * 100);
+    t.difficulty_stats[d.level] = cur;
+  });
+
   t.updated = date;
   writeFile(JSON.stringify(t, null, 2));
   return { ok: true, updated: date };
@@ -779,7 +868,7 @@ function topUpRun() {
 
     if (pending.length) {
       const r = pending[pending.length - 1];          // oldest
-      const made = generateNow({ system: r.system, n: r.n });
+      const made = generateNow({ system: r.system, n: r.n, difficulty: r.difficulty || '' });
       if (made && !made.error) {
         r.status = 'done'; r.quizId = made.id; r.done = new Date().toISOString();
         writeQueue(q);

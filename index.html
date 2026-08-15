@@ -339,6 +339,11 @@
   .pts li{font-size:14px;line-height:1.45;color:var(--ink);margin-bottom:5px}
   .pts li .chose{color:var(--ink-2);font-size:13px}
   .pts-none{font-family:var(--mono);font-size:11px;color:var(--untested);margin-top:8px}
+  .diff{font-family:var(--mono);font-size:9px;letter-spacing:.1em;text-transform:uppercase;
+    padding:2px 6px;border-radius:3px;margin-left:7px;font-weight:700}
+  .diff-easy{background:rgba(90,160,110,.16);color:#4b8a5f}
+  .diff-medium{background:rgba(190,150,70,.16);color:#9a7a34}
+  .diff-hard{background:rgba(190,90,90,.16);color:#a35555}
   .empty{font-family:var(--mono);font-size:12px;color:var(--untested);padding:30px 0;text-align:center}
   [hidden]{display:none !important}
 
@@ -527,6 +532,12 @@
       <div class="panel-h">Start a session</div>
       <div class="row" style="margin-top:0">
         <select id="sessSys" class="narrow"></select>
+        <select id="sessDiff" class="narrow">
+          <option value="">Exam mix</option>
+          <option value="easy">Easy only</option>
+          <option value="medium">Medium only</option>
+          <option value="hard">Hard only</option>
+        </select>
         <select id="sessLen" class="narrow">
           <option value="5">5 questions</option>
           <option value="10" selected>10 questions</option>
@@ -704,7 +715,7 @@
 <script>
 const EXAM = new Date('2026-09-14T09:00:00+10:00');
 const KEY = 'finals_v1';
-const STAMP = '2026-08-14T16:40';  // bumped each time Claude regenerates this file
+const STAMP = '2026-08-14T17:20';  // bumped each time Claude regenerates this file
 
 const BUILT = ['Renal','Cardiology','Respiratory','Endocrine','Gastro','MSK & Rheum',
                'Haem & Onc','Neurology','Infectious Disease','Immunology & Allergy','Palliative Care'];
@@ -1212,6 +1223,7 @@ function sessRequest(){
   return {
     system: sys || 'Weakest areas',
     n: Number($('sessLen').value) || 20,
+    difficulty: $('sessDiff') ? $('sessDiff').value : '',
     topics: [],
     note: (!sys && excluded.length) ? 'Exclude: ' + excluded.join(', ') : ''
   };
@@ -1842,7 +1854,7 @@ function renderPlayer(){
     </div>
     ${q.questions.map((qq,i) => `
       <div class="panel qcard" id="qc${i}">
-        <div class="q-n"><span>Question ${i+1}</span><span class="q-tag">${esc((qq.topic||'').split('—')[0].trim())}</span></div>
+        <div class="q-n"><span>Question ${i+1}</span><span class="q-tag">${esc((qq.topic||'').split('—')[0].trim())}${qq.difficulty ? ' <b class="diff diff-'+qq.difficulty+'">'+qq.difficulty+'</b>' : ''}</span></div>
         <div class="q-stem">${esc(qq.stem)}<br><br><b>${esc(qq.lead)}</b></div>
         ${qq.options.map((o,j) => `
           <label class="opt${QUIZ_ANSWERS[i]===j?' sel':''}" data-q="${i}" data-o="${j}">
@@ -1871,7 +1883,7 @@ function renderPlayer(){
 async function submitQuiz(){
   QUIZ_SUBMITTED = true;
   const q = CURRENT_QUIZ;
-  let correct = 0; const byTopic = {}; const flags = []; const misses = [];
+  let correct = 0; const byTopic = {}; const flags = []; const misses = []; const byDiff = {};
 
   q.questions.forEach((qq,i) => {
     const ok = QUIZ_ANSWERS[i] === qq.correct;
@@ -1879,11 +1891,15 @@ async function submitQuiz(){
     const key = qq.topic || q.system;
     byTopic[key] = byTopic[key] || {c:0,t:0};
     byTopic[key].t++; if(ok) byTopic[key].c++;
+    const lvl = qq.difficulty || 'medium';
+    byDiff[lvl] = byDiff[lvl] || {c:0,t:0};
+    byDiff[lvl].t++; if(ok) byDiff[lvl].c++;
     if(!ok){
       flags.push({topic:qq.topic, system:q.system, type:qq.type||'recall'});
       misses.push({topic:qq.topic, stem:qq.stem, lead:qq.lead,
                    mine:qq.options[QUIZ_ANSWERS[i]], correct:qq.options[qq.correct],
-                   point:qq.point||'', type:qq.type||'recall'});
+                   point:qq.point||'', type:qq.type||'recall',
+                   difficulty:qq.difficulty||''});
     }
     const card = $('qc'+i);
     card.querySelectorAll('.opt').forEach((el,j) => {
@@ -1913,7 +1929,8 @@ async function submitQuiz(){
         score: `${correct}/${q.questions.length} (${pct}%)`,
         correct, total: q.questions.length,
         results: Object.entries(byTopic).map(([topic,v]) => ({topic, correct:v.c, total:v.t})),
-        flags, misses
+        flags, misses,
+        byDifficulty: Object.entries(byDiff).map(([level,v]) => ({level, total:v.t, correct:v.c}))
       })
     });
     const d = await r.json();
