@@ -45,6 +45,7 @@ const TOKEN = 'fadmag';
 
 const FOLDER_NAME = 'Finals tracker';
 const QUIZZES_FOLDER_NAME = 'Quizzes';
+const REVISION_FOLDER_NAME = 'Revision';
 const FILE_NAME = 'finals-tracker.json';
 const QUEUE_NAME = 'queue.json';
 const OUTBOX_NAME = 'claude-outbox.json';
@@ -73,6 +74,7 @@ function setup() {
   Logger.log('Folder id:  ' + folderId());
   Logger.log('File id:    ' + fileId());
   Logger.log('Quizzes id: ' + quizzesFolderId());
+  Logger.log('Revision id:' + revisionFolderId());
   Logger.log('Queue id:   ' + queueFileId());
   Logger.log('Outbox id:  ' + outboxFileId());
   Logger.log('API key set: ' + (props().getProperty('ANTHROPIC_API_KEY') ? 'yes' : 'no (Make now will refuse)'));
@@ -94,6 +96,7 @@ function doGet(e) {
   if ((p.token || '') !== TOKEN) return json({ error: 'bad token' });
   try {
     if (p.action === 'listQuizzes') return json({ quizzes: listQuizzes() });
+    if (p.action === 'listRevision') return json({ modules: listRevision() });
     if (p.action === 'getQuiz')     return json(JSON.parse(readById(p.id)));
     if (p.action === 'status')      return json(bufferStatus());
     if (p.action === 'queue')       return json(readQueue());
@@ -109,6 +112,7 @@ function doPost(e) {
     if ((body.token || '') !== TOKEN) return json({ error: 'bad token' });
 
     if (body.action === 'saveQuiz')      return json(saveQuiz(body));
+    if (body.action === 'saveRevision')  return json(saveRevision(body));
     if (body.action === 'recordResults') return json(recordResults(body));
     if (body.action === 'queueRequest')  return json(queueRequest(body));
     if (body.action === 'ingestOutbox')  return json(ingestOutbox());
@@ -202,6 +206,13 @@ function quizzesFolderId() {
   const p = props();
   let id = p.getProperty('quizzesFolderId');
   if (!id) { id = makeFolder(QUIZZES_FOLDER_NAME, folderId()); p.setProperty('quizzesFolderId', id); }
+  return id;
+}
+
+function revisionFolderId() {
+  const p = props();
+  let id = p.getProperty('revisionFolderId');
+  if (!id) { id = makeFolder(REVISION_FOLDER_NAME, folderId()); p.setProperty('revisionFolderId', id); }
   return id;
 }
 
@@ -316,6 +327,65 @@ function listQuizzes() {
   });
 }
 
+// --- revision modules ------------------------------------------------------------
+// Same shape of plumbing as the quiz bank, so a revision module requested from the
+// site travels the identical path: queue -> generate -> Drive -> listed on the page.
+
+function validateModule(body) {
+  const objectives = (body.objectives || []).map(function (x) { return String(x).trim(); })
+    .filter(function (x) { return x.length > 10; });
+  const sections = (body.sections || []).filter(function (x) {
+    return x && String(x.heading || '').trim() && String(x.body || '').trim();
+  }).map(function (x) {
+    return { heading: String(x.heading).trim(), body: String(x.body).trim(),
+             note: String(x.note || '').trim() };
+  });
+  const questions = validateQuestions(body.questions || []);
+  return { objectives: objectives, sections: sections, questions: questions };
+}
+
+function saveRevision(body) {
+  const m = validateModule(body);
+  if (!m.sections.length || !m.questions.length) {
+    return { error: 'a module needs at least one section and one valid question' };
+  }
+  const mod = {
+    title: body.title || 'Untitled',
+    system: body.system || body.title || 'General',
+    created: new Date().toISOString().slice(0, 10),
+    rationale: String(body.rationale || ''),
+    objectives: m.objectives,
+    sections: m.sections,
+    questions: m.questions
+  };
+  const safe = String(mod.title).replace(/[\/\\?%*:|"<>]/g, '-').slice(0, 100);
+  const stamp = Utilities.formatDate(new Date(), Session.getScriptTimeZone(), 'yyyy-MM-dd-HHmm');
+  const id = makeFile(safe + '-' + stamp + '.json', revisionFolderId(),
+                      'application/json', JSON.stringify(mod),
+                      { title: mod.title, system: mod.system,
+                        objectives: String(m.objectives.length),
+                        questions: String(m.questions.length),
+                        source: body.source || 'make-now' });
+  return { ok: true, id: id, title: mod.title, system: mod.system,
+           objectives: m.objectives.length, questions: m.questions.length };
+}
+
+function listRevision() {
+  const q = encodeURIComponent(`'${revisionFolderId()}' in parents and trashed = false`);
+  const fields = encodeURIComponent('files(id,name,createdTime,appProperties)');
+  const order = encodeURIComponent('createdTime desc');
+  const out = JSON.parse(api(
+    `https://www.googleapis.com/drive/v3/files?q=${q}&fields=${fields}&orderBy=${order}`));
+  return (out.files || []).map(function (f) {
+    const ap = f.appProperties || {};
+    return { id: f.id, name: f.name,
+             title: ap.title || f.name.replace(/-\d{4}-\d{2}-\d{2}-\d{4}\.json$/, ''),
+             system: ap.system || '', objectives: Number(ap.objectives || 0),
+             questions: Number(ap.questions || 0), created: f.createdTime,
+             source: ap.source || '' };
+  });
+}
+
 // --- the buffer ------------------------------------------------------------------
 
 /**
@@ -403,6 +473,7 @@ function queueRequest(body) {
     system: body.system || 'Weakest areas',
     n: Math.min(40, Math.max(5, Number(body.n) || 20)),
     topics: Array.isArray(body.topics) ? body.topics : [],
+    kind: body.kind === 'revision' ? 'revision' : 'quiz',
     difficulty: ['easy', 'medium', 'hard'].indexOf(body.difficulty) >= 0 ? body.difficulty : '',
     note: String(body.note || ''),
     status: 'pending',
@@ -462,6 +533,9 @@ function generateNow(body) {
     return { error: 'No ANTHROPIC_API_KEY in Script Properties — use Schedule instead, ' +
                     'or add a key under Project Settings > Script Properties.' };
   }
+  // A revision module is the same request travelling the same path — it just
+  // produces objectives + teaching + questions rather than questions alone.
+  if (body.kind === 'revision') return generateModule(key, body);
   const system = body.system || 'Mixed';
   const want = Math.min(20, Math.max(5, Number(body.n) || 10));
 
@@ -505,6 +579,89 @@ function generateNow(body) {
   });
   saved.asked = want;
   return saved;
+}
+
+/**
+ * Build a revision module: learning objectives, short teaching sections written to
+ * close the gap, then questions that test exactly those objectives. Weighted to the
+ * tracker's weak areas, same as a quiz request.
+ */
+function generateModule(key, body) {
+  const system = body.system || 'Weakest areas';
+  const nq = Math.min(15, Math.max(5, Number(body.n) || 10));
+  const ground = groundingFor(system);
+  const weak = weakAreasFor(system);
+
+  const prompt = [
+    'Build a REVISION MODULE for a final-year Australian medical student sitting written',
+    'finals (no OSCE). A module teaches first and tests second — it exists to close a',
+    'known gap, not merely to assess.',
+    '',
+    'Topic / scope: ' + system,
+    '',
+    weak ? 'These are the student\'s tracked weak points. Aim the module squarely at them,\n' +
+           'and say so in the rationale:\n' + weak + '\n' : '',
+    ground ? 'Ground the teaching in the notes the student has actually studied:\n\n' +
+             '<notes>\n' + ground + '\n</notes>\n' : '',
+    'Produce:',
+    '- 4 to 7 LEARNING OBJECTIVES, each a full sentence naming what must be recalled or',
+    '  discriminated. Not "understand X" — state the actual discriminator or threshold.',
+    '- 3 to 6 TEACHING SECTIONS. Each has a heading and a body of 150-350 words that',
+    '  actually teaches the point: mechanism, the discriminator, the numbers. Markdown',
+    '  tables are welcome where they earn their place. An optional short "note" field',
+    '  may carry the single sentence worth memorising.',
+    '- ' + nq + ' QUESTIONS testing those objectives, in the house single-best-answer format.',
+    '',
+    DIFFICULTY_RULES.medium,
+    '',
+    'Rules:',
+    '- Australian guidelines (ANZCOR not Resuscitation Council UK; Therapeutic Guidelines;',
+    '  RACGP; RCH/Queensland for paediatrics). Say where Australian practice differs.',
+    '- Five options per question, exactly one defensible answer.',
+    '- Supply reference intervals inline whenever a value must be judged.',
+    '- No question may depend on seeing an image.',
+    '- Every question carries a "point": the takeaway as one standalone factual sentence',
+    '  that makes sense with zero context from the stem.',
+    '',
+    'Return ONLY a JSON object, no prose, no code fence:',
+    '{"title":"...","system":"' + system + '","rationale":"why this module, in one sentence",',
+    ' "objectives":["...","..."],',
+    ' "sections":[{"heading":"...","body":"...","note":"..."}],',
+    ' "questions":[{"stem":"...","lead":"...","options":["a","b","c","d","e"],"correct":<0-4>,',
+    '   "explanation":"...","point":"...","topic":"...","type":"recall|application|discrimination",',
+    '   "difficulty":"easy|medium|hard"}]}'
+  ].join('\n');
+
+  const res = UrlFetchApp.fetch(ANTHROPIC_URL, {
+    method: 'post', contentType: 'application/json', muteHttpExceptions: true,
+    headers: { 'x-api-key': key, 'anthropic-version': '2023-06-01' },
+    payload: JSON.stringify({
+      model: props().getProperty('MODEL') || DEFAULT_MODEL,
+      max_tokens: 700 * nq + 4000,
+      messages: [{ role: 'user', content: prompt }]
+    })
+  });
+  if (res.getResponseCode() >= 300) {
+    return { error: 'Anthropic ' + res.getResponseCode() + ': ' +
+                    res.getContentText().slice(0, 300) };
+  }
+  const out = JSON.parse(res.getContentText());
+  const text = (out.content || []).map(function (c) { return c.text || ''; }).join('');
+  const mod = parseJsonObject(text);
+  if (!mod) return { error: 'model did not return a usable module object' };
+
+  mod.source = 'make-now';
+  return saveRevision(mod);
+}
+
+/** Same tolerance as parseJsonArray, for a top-level object. */
+function parseJsonObject(text) {
+  let t = String(text || '').trim();
+  t = t.replace(/^```(?:json)?/i, '').replace(/```$/, '').trim();
+  const start = t.indexOf('{');
+  const end = t.lastIndexOf('}');
+  if (start < 0 || end <= start) return null;
+  try { return JSON.parse(t.slice(start, end + 1)); } catch (err) { return null; }
 }
 
 /**
@@ -876,7 +1033,8 @@ function topUpRun() {
 
     if (pending.length) {
       const r = pending[pending.length - 1];          // oldest
-      const made = generateNow({ system: r.system, n: r.n, difficulty: r.difficulty || '' });
+      const made = generateNow({ system: r.system, n: r.n, difficulty: r.difficulty || '',
+                                 kind: r.kind || 'quiz' });
       if (made && !made.error) {
         r.status = 'done'; r.quizId = made.id; r.done = new Date().toISOString();
         writeQueue(q);

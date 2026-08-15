@@ -624,20 +624,32 @@
       <div class="panel">
         <div class="panel-h">Request a revision module</div>
         <p style="font-size:14px;color:var(--ink-2);margin:6px 0 0">
-          Pick a scope, generate the request, then paste it to Claude. Claude reads your
-          tracker, works out what is actually weak, and publishes a module here.</p>
+          A module teaches first and tests second — objectives, short teaching sections
+          aimed at your tracked gaps, then questions on exactly those points.</p>
         <div class="row" style="margin-top:12px">
-          <select id="revScope">
+          <select id="revScope" class="narrow">
             <option value="weak">My flagged weaknesses</option>
             <option value="system">A specific system</option>
           </select>
-          <select id="revSystem" hidden></select>
-          <button class="act" id="revGen">Generate request</button>
+          <select id="revSystem" class="narrow" hidden></select>
+          <select id="revLen" class="narrow">
+            <option value="5">5 questions</option>
+            <option value="10" selected>10 questions</option>
+            <option value="15">15 questions</option>
+          </select>
         </div>
+        <div class="row">
+          <button class="act" id="revSchedule">Schedule</button>
+          <button class="act" id="revNow">Make now</button>
+          <button class="mini" id="revGen">Copy prompt instead</button>
+        </div>
+        <div class="sync" id="revStatus" hidden></div>
         <div id="revOut" hidden>
           <textarea id="revText" rows="3" readonly
             style="width:100%;margin-top:12px;font-family:var(--mono);font-size:13px"></textarea>
           <span class="saved" id="revSaved">Copied</span>
+          <p class="note">Fallback only — Schedule queues it for the scheduled task, Make now
+            generates it immediately through the API.</p>
         </div>
       </div>
       <div class="panel">
@@ -1855,6 +1867,44 @@ let CURRENT_REV = null, REV_ANSWERS = [], REV_SUBMITTED = false;
 $('revSystem').innerHTML = [...BUILT, ...UNBUILT].map(s => `<option>${esc(s)}</option>`).join('');
 $('revScope').onchange = e => { $('revSystem').hidden = e.target.value !== 'system'; };
 
+function revRequest(){
+  const scope = $('revScope').value;
+  return {
+    kind: 'revision',
+    system: scope === 'system' ? $('revSystem').value : 'Weakest areas',
+    n: Number($('revLen').value) || 10,
+    topics: [], note: ''
+  };
+}
+
+function revMsg(msg, cls){
+  const el = $('revStatus');
+  if(!el) return;
+  el.hidden = !msg; el.textContent = msg || ''; el.className = 'sync ' + (cls||'');
+}
+
+$('revSchedule').onclick = async () => {
+  const b = $('revSchedule'); b.disabled = true;
+  revMsg('Queueing\u2026','');
+  try{
+    const req = revRequest();
+    await callSync('queueRequest', req);
+    revMsg(`Queued \u2014 revision module on ${req.system}. The scheduled task will build it.`, 'ok');
+  }catch(e){ revMsg('Could not queue \u2014 ' + String(e.message||e).slice(0,80), 'warn'); }
+  b.disabled = false;
+};
+
+$('revNow').onclick = async () => {
+  const b = $('revNow'); b.disabled = true; $('revSchedule').disabled = true;
+  revMsg('Building the module\u2026 this takes a minute or two, keep the tab open.','');
+  try{
+    const d = await callSync('generateNow', revRequest());
+    revMsg(`Done \u2014 "${d.title}": ${d.objectives} objectives, ${d.questions} questions.`, 'ok');
+    fetchRevision();
+  }catch(e){ revMsg('Build failed \u2014 ' + String(e.message||e).slice(0,120), 'warn'); }
+  b.disabled = false; $('revSchedule').disabled = false;
+};
+
 $('revGen').onclick = async () => {
   const scope = $('revScope').value;
   const text = scope === 'system'
@@ -1866,14 +1916,11 @@ $('revGen').onclick = async () => {
        setTimeout(()=>$('revSaved').classList.remove('on'),1600); }catch(e){}
 };
 
-async function fetchRevision(){
-  const el = $('revList');
-  try{
-    const r = await fetch(REPO_REVISION + 'index.json?t=' + Date.now());
-    const d = await r.json();
-    if(!d.modules || !d.modules.length){ el.innerHTML = '<div class="empty">None published yet</div>'; return; }
-    el.innerHTML = d.modules.map(m => {
-      const runs = (S.history||[]).filter(h => h.quizId === 'rev:'+m.file && h.total);
+function revItem(m){
+      // repo modules are keyed by file, Drive-generated ones by id — same card either way
+      const key = m.file ? 'rev:'+m.file : m.id;
+      const attr = m.file ? `data-rev="${esc(m.file)}"` : `data-revid="${esc(m.id)}"`;
+      const runs = (S.history||[]).filter(h => h.quizId === key && h.total);
       const latest = runs[0];
       const bar = runs.length ? `
         <div class="qbar"><div class="qbar-fill" style="width:${Math.round(latest.correct/latest.total*100)}%"></div></div>
@@ -1885,21 +1932,42 @@ async function fetchRevision(){
         ${m.rationale ? `<div class="item-d" style="font-size:13px">${esc(m.rationale)}</div>` : ''}
         ${bar}
         <div class="row" style="margin-top:8px">
-          <button class="mini" data-rev="${esc(m.file)}">${runs.length ? 'Revise again' : 'Start revision'}</button>
+          <button class="mini" ${attr}>${runs.length ? 'Revise again' : 'Start revision'}</button>
         </div>
       </div>`;
-    }).join('');
-  }catch(e){
-    el.innerHTML = `<div class="empty">Couldn't load &mdash; ${esc(String(e.message||e).slice(0,80))}</div>`;
-  }
+}
+
+async function fetchRevision(){
+  const el = $('revList');
+  let repo = [], drive = [];
+  try{
+    const r = await fetch(REPO_REVISION + 'index.json?t=' + Date.now());
+    repo = (await r.json()).modules || [];
+  }catch(e){ /* repo unreachable */ }
+  // modules built by Make now or the scheduled task live in Drive, exactly as
+  // generated quizzes do — merge them into the same list
+  try{
+    const t = token();
+    if(t){
+      const r = await fetch(`${SYNC_URL}?token=${encodeURIComponent(t)}&action=listRevision`);
+      const d = await r.json();
+      if(!d.error) drive = d.modules || [];
+    }
+  }catch(e){ /* offline or old deployment */ }
+  const all = [...drive, ...repo];
+  el.innerHTML = all.length ? all.map(revItem).join('')
+    : '<div class="empty">None yet — request one above</div>';
 }
 
 $('revList').addEventListener('click', async e => {
-  const file = e.target.dataset.rev;
-  if(!file) return;
+  const file = e.target.dataset.rev, id = e.target.dataset.revid;
+  if(!file && !id) return;
   e.target.textContent = 'Loading\u2026';
   try{
-    const r = await fetch(REPO_REVISION + file + '?t=' + Date.now());
+    const url = file
+      ? REPO_REVISION + file + '?t=' + Date.now()
+      : `${SYNC_URL}?token=${encodeURIComponent(token())}&action=getQuiz&id=${id}`;
+    const r = await fetch(url);
     const m = await r.json();
     startRevision(m, 'rev:' + file);
   }catch(err){ e.target.textContent = 'Failed'; }
