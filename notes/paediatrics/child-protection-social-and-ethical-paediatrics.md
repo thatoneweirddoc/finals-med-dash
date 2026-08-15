@@ -2,7 +2,7 @@
 title: "Child Protection, Social and Ethical Paediatrics"
 system: "Paediatrics"
 sources: [Paediatrics Master Notes]
-tags: [Child, AIHW, SUDI, NSW]
+tags: [Child, AIHW, NSW, SA]
 updated: "2026-08-15"
 ---
 
@@ -14,7 +14,7 @@ updated: "2026-08-15"
 *Australian sources: state/territory child protection legislation, AIFS resource sheets, AIHW, Red Nose Australia, Australian Immunisation Handbook/NCIRS, RACGP, RCH CPGs. Law is jurisdiction-specific — verify locally.*
 
 #### 12.1 Recognising abuse and neglect
-Four categories — **physical, sexual, emotional/psychological, neglect** — plus **exposure to family and domestic violence**, harm in its own right in most jurisdictions. **Neglect is the most commonly substantiated category nationally (AIHW)** and the easiest to miss: there is no single event.
+Four categories — **physical, sexual, emotional/psychological, neglect** — plus **exposure to family and domestic violence**, harm in its own right in most jurisdictions. ⚑ **Emotional abuse is the most commonly substantiated primary category nationally (AIHW, ~55%), then neglect (~21%), physical (~14%), sexual (~10%)**. Neglect is second and the easiest to miss: there is no single event.
 
 **The short version**
 - **A bruise or fracture in a non-mobile infant is the highest-yield red flag in paediatrics.**
@@ -33,7 +33,7 @@ Document the mimics: **congenital dermal melanocytosis (bluish sacral "Mongolian
 #### 12.2 Mandatory reporting in Australia — state-based
 ⚑ **There is no national mandatory reporting law. Each state and territory sets who must report, what is reportable, and the threshold.** UK-oriented texts describe a unitary safeguarding duty; Australia has none. Safe exam answer: *"I have a mandatory reporting obligation under my state's child protection legislation and would report to the relevant child protection authority, and to police if a criminal offence or immediate danger."*
 
-Common to all: **doctors, nurses and midwives are mandated reporters everywhere**; the trigger is **belief on reasonable grounds — proof is not required and you do not investigate**; **family consent is not required**, the duty overriding confidentiality; good-faith reporting carries **legal and identity protection**.
+Common to all: **doctors and registered nurses are mandated reporters in every jurisdiction** (⚑ **midwives are not a listed category in Queensland**, though they are elsewhere); the trigger is **belief on reasonable grounds — proof is not required and you do not investigate**; **family consent is not required**, the duty overriding confidentiality; good-faith reporting carries **legal and identity protection**.
 
 | Jurisdiction | Legislation | Reportable types (mandated reporters) |
 |---|---|---|
@@ -56,8 +56,8 @@ Default: a parent or guardian consents, in the child's best interests. **Parents
 **Gillick / mature minor:** adopted in Australia in **Secretary, Department of Health and Community Services v JWB and SMB ("Marion's case", HCA 1992)** — a child may consent once they have **sufficient understanding and intelligence to fully understand what is proposed**. It is **decision-specific and risk-proportionate**: a competent 15-year-old may consent to contraception but not to a high-risk irreversible procedure. **Once competent, parental consent is not additionally required and parents should not be told without the young person's agreement.**
 
 ⚑ **Statute displaces or supplements the common law in some jurisdictions:**
-- **South Australia** (Consent to Medical Treatment and Palliative Care Act 1995): **16 and over consents as an adult**; **under 16, the treating practitioner AND a second medical practitioner who has examined the child must both record in writing that the child understands the nature, consequences and risks and that treatment is in their best interests** — a two-doctor requirement unique to SA.
-- **Northern Territory:** statute sets **16 years** as the age at which a person may consent to their own medical or dental treatment.
+- **South Australia** (Consent to Medical Treatment and Palliative Care Act 1995): **16 and over consents as an adult**; **under 16, the treating practitioner must form the opinion that the child understands the nature, consequences and risks and that treatment is in their best interests, and a second medical practitioner who has personally examined the child must record a supporting opinion in writing** — the written requirement attaches to the second doctor. A two-doctor requirement unique to SA.
+- ⚑ **Only SA and NSW have statute on minors’ consent.** Every other jurisdiction, the **Northern Territory included**, runs on the common-law *Gillick* / *Marion’s case* test. (The NT’s *Emergency Medical Operations Act 1973* governs operating without parental consent in an emergency; it does not set a consent age.)
 - **NSW** (Minors (Property and Contracts) Act 1970, s49) gives a doctor a **defence to assault/trespass** where a child **aged 14+** consented — a protective provision, not a consent age; the common law test still operates.
 
 Marion's case also established that some decisions sit **outside parental power and need court authorisation** — non-therapeutic sterilisation of a child with intellectual disability is the classic. **A competent minor's refusal of life-saving treatment is legally weaker than their consent**; courts have overridden it.

@@ -32,7 +32,7 @@ The **traffic-light system** (green/amber/red across colour, activity, respirato
 
 | Domain | Concerning | Critical |
 |---|---|---|
-| Appearance | Irritable, less active | Floppy, ≤"V" on AVPU |
+| Appearance | Irritable, less active | Floppy, **<"V" on AVPU** (i.e. P or U) |
 | Breathing | Tachypnoea, recession, flaring | Grunting, silent chest, apnoea |
 | Circulation | Tachycardia, mottled, CRT 2–3 s | Cold, weak pulses, **hypotension** |
 | Skin | Pallor | Mottled/cyanosed, **non-blanching rash** |
@@ -116,11 +116,11 @@ Access: **if IV fails twice or takes >90 s in a shocked child, go intraosseous**
 
 | Age (approx weight) | Volume of 1:1000 IM | Autoinjector |
 |---|---|---|
-| <1 y (~5–7.5 kg) | 0.1 mL | 150 microgram (7.5–10 kg on considered assessment) |
+| <1 y (~5–7.5 kg) | 0.1 mL | 150 microgram — **standard band is 7.5–20 kg**; ⚑ devices are **not usually recommended below 7.5 kg** (individual assessment) |
 | 1–2 y (~10 kg) | 0.1 mL | 150 microgram |
 | 2–4 y (~15 kg) | 0.15 mL | 150 microgram |
-| 4–5 y (~20 kg) | 0.2 mL | 150 microgram (to 20 kg) |
-| 5–10 y (~30 kg) | 0.3 mL | **300 microgram (>20 kg)** |
+| 4–6 y (~20 kg) | 0.2 mL | 150 microgram (7.5–20 kg) |
+| 7–10 y (~30 kg) | 0.3 mL | **300 microgram (>20 kg)** |
 | 10–12 y (~40 kg) | 0.4 mL | 300 microgram |
 | >12 y (>50 kg) | 0.5 mL | 300 microgram (Anapen 500 >50 kg) |
 

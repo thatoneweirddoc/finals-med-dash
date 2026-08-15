@@ -22,8 +22,8 @@ updated: "2026-08-15"
 
 | Step | ANZCOR detail |
 |---|---|
-| At birth | Assess **tone, breathing, heart rate**. Dry, stimulate, warm (**<32 wk: plastic wrap without drying + hat**, room 23–25 °C) |
-| Cord | **Defer clamping ≥60 s** if vigorous; clamp immediately if resuscitation needed |
+| At birth | Assess **tone, breathing, heart rate**. Dry, stimulate, warm (**<32 wk: plastic wrap without drying + hat**, room ≥25 °C generally, ⚑ **at least 26 °C for the very preterm**) |
+| Cord | **Defer clamping ≥60 s** if vigorous and **≥34 wk**; **≥30 s if <34 wk** and not needing resuscitation; clamp immediately if resuscitation needed |
 | Assess HR | **Auscultate** (cord palpation unreliable); **ECG fastest in the first 3 min**; oximeter on **right hand (preductal)** |
 | Apnoeic/gasping/**HR <100** | **PPV 40–60 inflations/min**, Ti 0.3–0.5 s; **30 cmH₂O term, 20–25 preterm**; PEEP 5 |
 | Not improving | Fix technique first — reposition, suction only if obstructed, ↑pressure, airway adjunct/intubation. **Rising HR is the primary sign of effective ventilation** |
@@ -221,7 +221,7 @@ Also consider: **pneumothorax** (sudden deterioration, asymmetric movement, tran
 - Queensland Clinical Guidelines: *Neonatal jaundice*, *Newborn hypoglycaemia*, *Early onset Group B streptococcal disease*, *Phytomenadione (NeoMedQ)*.
 - Safer Care Victoria: *DDH in neonates*, *Hypoglycaemia in neonates*.
 - NSW Health *Newborn bloodspot screening*; Dept of Health bloodspot expansion ⚑.
-- RANZCO, *Screening and Treatment of Retinopathy of Prematurity* (2025) ⚑.
+- RANZCO, *Screening and Treatment of Retinopathy of Prematurity* (Dec 2021).
 - Australian Immunisation Handbook; Therapeutic Guidelines (Antibiotic).
 
 

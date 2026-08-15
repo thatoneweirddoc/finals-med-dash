@@ -19,7 +19,7 @@ Three fetal shunts bypass the non-ventilating lungs: ductus venosus, foramen ova
 **The short version**
 - **Left-to-right shunts (VSD, PDA) declare at 4–8 weeks**, as PVR falls — not at birth.
 - **Duct-dependent lesions declare at day 2–14**, when the duct shuts.
-- Pre-ductal (right hand) SpO₂ exceeding post-ductal (foot) by **>10%** = right-to-left ductal shunt (PPHN, coarctation, interrupted arch).
+- Pre-ductal (right hand) SpO₂ exceeding post-ductal (foot) by **>3%** (the CCHD pulse-oximetry screening threshold — normal is ≥95% at both sites with ≤3 points between them) = right-to-left ductal shunt (PPHN, coarctation, interrupted arch).
 - Cyanosis at birth with a quiet chest and no respiratory distress = cardiac until proven otherwise.
 
 #### 10.2 Innocent vs pathological murmurs — the discharge decision
@@ -99,7 +99,7 @@ Autoimmune sequela of **group A streptococcal** infection — pharyngitis, and i
 Primary prevention = prompt treatment of GAS pharyngitis and, in endemic settings, skin sores.
 
 #### 10.9 Kawasaki coronary complications (cross-reference)
-Full features in the fever/rash section. **Untreated, ~20–25% develop coronary aneurysms; IVIG 2 g/kg within 10 days of fever onset cuts this to ~4–5%.** Echo at diagnosis, ~2 and ~6 weeks; **giant aneurysm (z-score ≥10 or ≥8 mm)** → warfarin + aspirin. **Suspect incomplete Kawasaki in any infant <12 months with ≥5 days unexplained fever and raised inflammatory markers — infants have the fewest features and the highest aneurysm risk.**
+Full features in the fever/rash section. **Untreated, ~20–25% develop coronary aneurysms; IVIG 2 g/kg within 10 days of fever onset cuts this to ~4–5%.** Echo at diagnosis and at **4–6 weeks**, repeated earlier if high-risk or an abnormal baseline; **giant aneurysm (z-score ≥10 or ≥8 mm)** → warfarin + aspirin. **Suspect incomplete Kawasaki in any infant with ≥5 days fever and 2–3 criteria; AHA additionally advises echo in an infant ≤6 months with ≥7 days unexplained fever and systemic inflammation, with no criteria at all — infants have the fewest features and the highest aneurysm risk.**
 
 #### 10.10 Supraventricular tachycardia in infants
 **Clue → diagnosis: poor feeding, pallor, irritability or shock with a rate that is fast and does not vary.** **SVT: infant >220/min, child >180/min, fixed and monotonous, abrupt on/off, P waves absent or buried.** **Sinus tachycardia: slower, varies with crying/fever/handling, 1:1 P waves, and has a cause.** Usually AV re-entry via an accessory pathway — check the post-conversion ECG for **WPW (short PR, delta wave)**. Infants tolerate it for days, presenting late with hepatomegaly and shock.

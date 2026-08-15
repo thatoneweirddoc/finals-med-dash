@@ -27,7 +27,7 @@ Seizure with fever ≥38°C, age **6 months to 6 years**, **no CNS infection, no
 |---|---|---|
 | Type | **Generalised** tonic-clonic | **Focal** onset/features (Todd's palsy) |
 | Duration | **<15 min** | **>15 min** |
-| Same illness | Single | **Recurs within 24 h** |
+| Same illness | Single | **Recurs within the same febrile illness** (not a 24-hour rule — a second seizure on day 3 of the same illness is complex) |
 | Recovery | Full within 1 h | Altered state >1 h |
 | Investigation | For fever source only | Glucose, electrolytes, ECG; imaging after senior review |
 | Later epilepsy | ~1–2% (near background) | 4–6% |
@@ -43,7 +43,7 @@ Seizure with fever ≥38°C, age **6 months to 6 years**, **no CNS infection, no
 **The short version**
 - **Blank stare, 10 s, no post-ictal state, reproduced by hyperventilation** → childhood absence.
 - **Nocturnal hemifacial twitching, drooling, speech arrest, aware** → benign rolandic.
-- **Flexor spasm clusters on waking at 4–7 months + regression** → infantile spasms; urgent EEG.
+- **Flexor spasm clusters on waking at 3–7 months (but can occur at any age in childhood) + regression** → infantile spasms; urgent EEG.
 - **Morning jerks spilling the cereal, tonic-clonic after sleep deprivation** → JME.
 
 | Syndrome | Age | Semiology | EEG | Treatment | Prognosis |
@@ -114,7 +114,7 @@ Imaging: **cranial ultrasound through the fontanelle** while open; MRI otherwise
 
 #### 7.7 Neuromuscular disease — Duchenne muscular dystrophy
 
-X-linked dystrophin deletion, ~1 in 3,500 boys; a third are new mutations, so **a negative family history does not exclude it**.
+X-linked dystrophin deletion, ~**1 in 5,000** male births (older texts say 1 in 3,500); a third are new mutations, so **a negative family history does not exclude it**.
 
 **The short version**
 - Boy 3–5 y, **waddling gait, toe-walking, stairs difficulty, calf pseudohypertrophy** → **CK first**.

@@ -43,7 +43,7 @@ Imaging: **ultrasound** for atypical UTI (non-*E. coli*, poor response by 48 h, 
 | Proteinuria | **Massive** (uPCR >200 mg/mmol) | Mild–moderate |
 | Haematuria | Usually absent | **Present with red cell casts** |
 | Blood pressure | Normal | **Raised** |
-| Albumin | **<25 g/L** | Normal or mildly low |
+| Albumin | **<30 g/L** (KDIGO 2025; <25 g/L is the older ISKDC figure) | Normal or mildly low |
 | Complement | **Normal C3** | **Low C3, normal by 8 weeks**; C4 normal |
 | Latency | — | **1–2 weeks post-pharyngitis; 3–6 weeks post-impetigo** |
 | Serology | — | **ASOT** (throat) / **anti-DNase B** (skin — relevant to APSGN in remote Australian communities) |
@@ -96,7 +96,7 @@ Conservative: daytime fluid loading with evening restriction, void before bed, n
 
 #### 9.6 Undescended testis and phimosis
 
-**Cryptorchidism** affects ~3% of term and ~30% of preterm boys. Most descend by **3 months corrected**; refer if undescended at **6 months corrected**, with **orchidopexy at 12–18 months** ⚑ (earlier than older texts) to protect fertility and allow examination. Untreated: subfertility, **raised testicular malignancy risk (orchidopexy reduces it and makes tumours detectable but does not abolish it)**, torsion, hernia. **Retractile testis** sits in the scrotum without tension with a brisk cremasteric reflex — no surgery, but review (may ascend). **Ascending testis** needs surgery; **impalpable** needs laparoscopy. **Bilateral impalpable testes with hypospadias is a red flag for a difference of sex development, particularly a virilised female with CAH — urgent endocrine review, not routine surgical referral.**
+**Cryptorchidism** affects ~3% of term and ~30% of preterm boys. Most descend by **3 months corrected**; refer if undescended at **6 months corrected**, with **orchidopexy at 6–12 months** ⚑ (earlier than older texts, which said 12–18 months) to protect fertility and allow examination. Untreated: subfertility, **raised testicular malignancy risk (orchidopexy reduces it and makes tumours detectable but does not abolish it)**, torsion, hernia. **Retractile testis** sits in the scrotum without tension with a brisk cremasteric reflex — no surgery, but review (may ascend). **Ascending testis** needs surgery; **impalpable** needs laparoscopy. **Bilateral impalpable testes with hypospadias is a red flag for a difference of sex development, particularly a virilised female with CAH — urgent endocrine review, not routine surgical referral.**
 
 **Phimosis.** Physiological non-retractility is normal (retractile in ~10% at 1 year, ~50% by 10); **do not force retraction** — it scars. Pathological phimosis is a white scarred ring from **balanitis xerotica obliterans** with ballooning and recurrent balanitis — **topical corticosteroid first**, circumcision if it fails. **Paraphimosis** is an emergency needing reduction.
 
@@ -143,7 +143,7 @@ Treatment: enteral rapid carbohydrate if conscious; **10% glucose 2 mL/kg IV bol
 - **Female infant:** **virilised genitalia at birth** (clitoromegaly, labial fusion), detected on day 1.
 - **Male infant:** looks normal, so presents in **salt-wasting crisis at 1–3 weeks** — vomiting, poor feeding, weight loss, shock, **hyponatraemia, hyperkalaemia, hypoglycaemia, acidosis**. The trap stem is "vomiting 2-week-old, ?pyloric stenosis": **pyloric stenosis gives a hypochloraemic hypokalaemic alkalosis; CAH gives a hyperkalaemic acidosis** — that flip is the discriminator.
 - Crisis: **0.9% saline 20 mL/kg**, **IV hydrocortisone** (~25 mg infant / 50 mg child stat), glucose, treat hyperkalaemia. Long term hydrocortisone + fludrocortisone (+ salt in infancy), **stress dosing in illness**.
-- ⚑ CAH is **not** universally screened on the Australian newborn bloodspot panel (unlike much of the USA), so **Australian detection of male CAH remains largely clinical**.
+- ⚑ **CAH (21-hydroxylase deficiency) IS now a target condition on the Australian newborn bloodspot screening panel** — this changed with the national panel expansion, so "male CAH is picked up clinically in salt-wasting crisis" is no longer the right exam answer. A positive screen triggers the ANZSPED follow-up pathway.
 
 **Precocious puberty**: secondary sexual characteristics before **8 in girls, 9 in boys**. Central is usually **idiopathic in girls but pathological in boys — image the brain in a boy**. Peripheral: CAH, adrenal or gonadal tumour, McCune-Albright ("coast of Maine" café-au-lait + fibrous dysplasia), exogenous steroid. Work-up: **bone age (advanced), LH/FSH ± GnRH stimulation, oestradiol/testosterone, 17-OHP, pelvic ultrasound, MRI if central**. Treat central precocious puberty with a **GnRH agonist** to protect final height. **Growth velocity and bone age separate benign premature thelarche/adrenarche from true precocious puberty.**
 
@@ -164,7 +164,7 @@ Treatment: enteral rapid carbohydrate if conscious; **10% glucose 2 mL/kg IV bol
 | Bloody diarrhoea → anaemia, low platelets, AKI, **DAT negative** | **HUS**; **no antibiotics or antimotility agents** ⚑ |
 | First-line active treatment for monosymptomatic enuresis | **Enuresis alarm** (after conservative measures); allow 6–8 weeks |
 | Desmopressin caveat | Fluid restrict 1 h before to 8 h after; **hyponatraemia**; not intranasal ⚑ |
-| Undescended testis timing | Refer by **6 months corrected**; orchidopexy **12–18 months** ⚑ |
+| Undescended testis timing | Refer by **6 months corrected** (RCH: refer at ~6 mo if not descended by 3 mo); orchidopexy **6–12 months** ⚑ |
 | Bilateral impalpable testes + hypospadias | **DSD/CAH** — urgent endocrine |
 | Paediatric DKA bolus | **10 mL/kg 0.9% saline over 20–30 min, max 20 mL/kg**, only if shocked |
 | Deficit replaced over how long? | **48 hours** |

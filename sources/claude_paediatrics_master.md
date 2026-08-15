@@ -26,7 +26,7 @@ principle stated instead. Written originally; no textbook passages reproduced.*
 | 6 wk | Head lifts briefly prone; head lag | Fixes and follows to 90°; **fixes on face** | Coos; startles to sound | **Social smile (absent by 8 wk = red flag)** |
 | 3 mo | Head control on forearms; minimal head lag | Follows 180°; hands open at midline | Cooing, turn-taking | Laughs |
 | 6 mo | Rolls both ways; **sits with support/tripod** | **Palmar grasp**; transfers hand-to-hand; mouths | **Babbles**; turns to voice | Stranger awareness begins |
-| 9 mo | **Sits unsupported**; crawls; pulls to stand | **Immature pincer**; bangs 2 cubes | Polysyllabic babble; responds to name | **Stranger anxiety**; waves, peek-a-boo; finger feeds |
+| 9 mo | Crawls; **pulls to stand**; cruises from ~10 mo (⚑ **sits unsupported is a 6–8 mo skill** — WHO median 5.9 mo, 99th centile 9.2 mo, which is why *not* sitting at 9 mo is a red flag) | **Immature pincer**; bangs 2 cubes | Polysyllabic babble; responds to name | **Stranger anxiety**; waves, peek-a-boo; finger feeds |
 | 12 mo | Cruises; **stands alone**; walks (range 10–18 mo) | **Mature pincer**; casting; object into cup | **1–3 words with meaning**; follows "no" | Points to show; cup; separation anxiety |
 | 18 mo | **Walks steadily**, runs stiffly; stairs with help | **Scribbles**; tower of 3–4; spoon to mouth | **6–20 words**; 1 body part; 1-step command | Imitates housework; removes shoes |
 | 2 y | Runs; **kicks ball**; stairs 2 feet per step | Tower of 6; **copies vertical line** | **2-word phrases**; ~50 words; **~50% intelligible** | Parallel play; toileting starting |
@@ -58,9 +58,9 @@ The **QLD "Red Flags" Early Identification Guide** sets each threshold at the ag
 | 6 mo | Not lifting head/shoulders prone; **hands persistently fisted**; not reaching for toys; not babbling; not smiling |
 | 9 mo | Not rolling; no head control in supported sitting; hands not to midline; no gestures; no shared eye contact |
 | 12 mo | **Not sitting independently**; not weight-bearing; no pincer; no babbled phrases; no response to familiar words |
-| 15–18 mo | **No independent mobility / not walking by 18 mo**; **no clear words by 18 mo**; not scribbling; no interest in others |
-| 2 y | Not walking independently; **not putting 2 words together**; not learning new words; no spoon-feeding; non-functional toy use |
-| 3 y | **Speech unintelligible to strangers**; not managing stairs holding rail; not dry by day; no pretend play |
+| 15–18 mo | **Not attempting to walk without support at 15 mo**; **no babbled phrases / no response to familiar words at 18 mo**; not scribbling; no interest in others |
+| 2 y | **Not walking independently**; **no clear words**; **not putting 2 words together**; not learning new words; no spoon-feeding; non-functional toy use |
+| 3 y | **Speech unintelligible to strangers**; not managing stairs holding rail; no symbolic/pretend play emerging. ⚑ CHQ puts **no interest in pretend play at 4 y** and **not toilet trained by day at 5 y** — do not refer a 3-year-old for daytime wetting |
 | 4 y | Not running/jumping; can't follow 2-step directions; can't draw lines/circles; can't play cooperatively |
 | 5 y | Can't hop 5× or stand on 1 leg 5 s; can't hold a simple conversation |
 | **Any age** | **Regression/loss of skills** (neurodegenerative, Rett, epileptic encephalopathy, ASD regression); **strong parental concern**; no response to sound or vision; **asymmetry of tone or movement** (hemiplegic CP); persistent tight toe-walking |
@@ -108,8 +108,8 @@ Normal: birthweight loss ≤**10%**, regained by **day 10–14**; doubles ~4–5
 
 | Category | Clue → cause |
 |---|---|
-| **Inadequate intake** (commonest, esp. <2 y) | Formula over-dilution/measuring error; poor latch, short feeds; food insecurity; grazing toddler |
-| **Psychosocial / neglect** (non-organic — the majority overall) | Gains weight when admitted or in respite; parental mental illness, IPV, substance use; poor attachment |
+| **Inadequate intake** (the commonest mechanism overall, esp. <2 y) | Formula over-dilution/measuring error; poor latch, short feeds; food insecurity; grazing toddler |
+| **Psychosocial / neglect** (a major contributor to inadequate intake rather than a separate majority category) | Gains weight when admitted or in respite; parental mental illness, IPV, substance use; poor attachment |
 | **Inadequate absorption** | **Coeliac** (onset after gluten introduction, distended abdomen, irritability); **CF** (bulky greasy stools, chest sx); CMPA (blood/mucus in stool, eczema) |
 | **Excess losses** | GORD; **pyloric stenosis (projectile, 2–8 wk, hypochloraemic hypokalaemic metabolic alkalosis)**; raised ICP |
 | **Increased requirements** | **CHD** (sweaty/breathless feeds, murmur), chronic lung disease, **CKD/RTA (poor growth + normal anion gap acidosis + polyuria)**, hyperthyroidism, chronic infection, malignancy |
@@ -128,7 +128,7 @@ Normal: birthweight loss ≤**10%**, regained by **day 10–14**; doubles ~4–5
 
 | Topic | Australian practice |
 |---|---|
-| Breastfeeding | Exclusive ~6 mo, continue ≥12 mo with solids. Few contraindications: **maternal HIV (in Australia), untreated TB, some drugs (chemo, lithium, amiodarone, radioiodine), infant galactosaemia** |
+| Breastfeeding | Exclusive ~6 mo, continue ≥12 mo with solids. Few contraindications: **untreated TB, some drugs (chemo, lithium, amiodarone, radioiodine), infant galactosaemia**. ⚑ **Maternal HIV is no longer an absolute contraindication in Australia** — formula is the safest option and remains the recommendation, but ASHM supports breastfeeding as a viable choice under shared decision-making with suppressed viral load and close monitoring |
 | Formula | Cow's-milk-based standard; soy only for galactosaemia/vegan; eHF/AAF for CMPA |
 | Weaning order | Iron-rich first (fortified cereal, pureed meat, legumes) → lumpy textures by 8–9 mo (texture-acceptance window) → finger foods → family diet by 12 mo |
 | Cow's milk | **Not the main drink before 12 mo** (low iron, occult GI loss, renal solute load); in food from 6 mo, full-fat to 2 y. **>500–600 mL/day in toddlers → iron deficiency** |
@@ -149,8 +149,8 @@ Normal: birthweight loss ≤**10%**, regained by **day 10–14**; doubles ~4–5
 | 1 | Prepubertal | Testes <4 mL | None |
 | 2 | **Breast bud (thelarche)**, areolar widening | **Testes 4–8 mL**, scrotal thinning/reddening | Sparse, long, slightly pigmented at labia/base of penis |
 | 3 | Breast + areola enlarge, single contour | Testes 8–12 mL, penis lengthens | Darker, coarser, curling, over pubis |
-| 4 | **Areola/papilla form secondary mound** | Testes 12–15 mL, penis widens, glans develops | Adult-type, not yet to thighs |
-| 5 | Adult, areola recedes to breast contour | Testes >15–25 mL, adult | Adult, spread to medial thighs |
+| 4 | **Areola/papilla form secondary mound** | Testes 15–20 mL, penis widens, glans develops | Adult-type, not yet to thighs |
+| 5 | Adult, areola recedes to breast contour | Testes **>20 mL** (to ~25), adult | Adult, spread to medial thighs |
 
 | Clue | Answer |
 |---|---|
@@ -178,17 +178,17 @@ Definition: height **<3rd centile (< −2 SD)**, or height markedly below the mi
 | Short, **thin**, distended abdomen, anaemia, irritability | **Coeliac disease** |
 | **Disproportionate** (↓upper:lower segment, short limbs), FHx | **Skeletal dysplasia** (achondroplasia) |
 | Poor growth + polyuria/polydipsia/acidosis | **CKD / renal tubular acidosis** |
-| SGA with no catch-up by 2 y | **SGA without catch-up** — GH indication |
+| SGA with no catch-up by 2 y | **SGA without catch-up** — ⚑ **not a PBS growth-hormone indication in Australia** (unlike the US/EU); such a child qualifies only via the generic "short stature and slow growth" criteria. PBS categories include Turner, SHOX, Prader–Willi, chronic renal insufficiency and biochemical GHD |
 
 **Workup:** serial heights + velocity, MPH, **bone age (left wrist)**, FBC, UEC/CMP/LFT, **coeliac serology**, TFT, IGF-1, urinalysis, **karyotype in all short girls**. GH stimulation testing is specialist-only.
 
 ## Rapid-Recall Discriminators
 | Clue / question | Answer |
 |---|---|
-| "Sits unsupported, immature pincer, stranger anxiety" | **9 months** |
+| "Immature pincer, polysyllabic babble, stranger anxiety" | **9 months** (sitting unsupported was achieved ~6–8 mo) |
 | "2-word phrases, tower of 6, kicks ball" | **2 years** |
 | Copies circle / cross / triangle | **3 y / 4 y / 5 y** |
-| Not walking, or no clear words — refer at? | **18 months (both)** |
+| Not attempting to walk without support — refer at? | **15 months** (not walking independently = **2 y**; no clear words = **2 y**; the 18-mo language flags are *no babbled phrases / no response to familiar words*) |
 | Hand preference at 10 months | **Abnormal — hemiplegia until proven otherwise** |
 | Loss of acquired skills | **Red flag at any age — regression** |
 | Asymmetric Moro / absent parachute at 12 mo | Clavicle # or **Erb's** / hemiplegia (parachute appears 6–9 mo) |
@@ -227,8 +227,8 @@ Definition: height **<3rd centile (< −2 SD)**, or height markedly below the mi
 
 | Step | ANZCOR detail |
 |---|---|
-| At birth | Assess **tone, breathing, heart rate**. Dry, stimulate, warm (**<32 wk: plastic wrap without drying + hat**, room 23–25 °C) |
-| Cord | **Defer clamping ≥60 s** if vigorous; clamp immediately if resuscitation needed |
+| At birth | Assess **tone, breathing, heart rate**. Dry, stimulate, warm (**<32 wk: plastic wrap without drying + hat**, room ≥25 °C generally, ⚑ **at least 26 °C for the very preterm**) |
+| Cord | **Defer clamping ≥60 s** if vigorous and **≥34 wk**; **≥30 s if <34 wk** and not needing resuscitation; clamp immediately if resuscitation needed |
 | Assess HR | **Auscultate** (cord palpation unreliable); **ECG fastest in the first 3 min**; oximeter on **right hand (preductal)** |
 | Apnoeic/gasping/**HR <100** | **PPV 40–60 inflations/min**, Ti 0.3–0.5 s; **30 cmH₂O term, 20–25 preterm**; PEEP 5 |
 | Not improving | Fix technique first — reposition, suction only if obstructed, ↑pressure, airway adjunct/intubation. **Rising HR is the primary sign of effective ventilation** |
@@ -426,7 +426,7 @@ Also consider: **pneumothorax** (sudden deterioration, asymmetric movement, tran
 - Queensland Clinical Guidelines: *Neonatal jaundice*, *Newborn hypoglycaemia*, *Early onset Group B streptococcal disease*, *Phytomenadione (NeoMedQ)*.
 - Safer Care Victoria: *DDH in neonates*, *Hypoglycaemia in neonates*.
 - NSW Health *Newborn bloodspot screening*; Dept of Health bloodspot expansion ⚑.
-- RANZCO, *Screening and Treatment of Retinopathy of Prematurity* (2025) ⚑.
+- RANZCO, *Screening and Treatment of Retinopathy of Prematurity* (Dec 2021).
 - Australian Immunisation Handbook; Therapeutic Guidelines (Antibiotic).
 
 
@@ -455,7 +455,7 @@ The **traffic-light system** (green/amber/red across colour, activity, respirato
 
 | Domain | Concerning | Critical |
 |---|---|---|
-| Appearance | Irritable, less active | Floppy, ≤"V" on AVPU |
+| Appearance | Irritable, less active | Floppy, **<"V" on AVPU** (i.e. P or U) |
 | Breathing | Tachypnoea, recession, flaring | Grunting, silent chest, apnoea |
 | Circulation | Tachycardia, mottled, CRT 2–3 s | Cold, weak pulses, **hypotension** |
 | Skin | Pallor | Mottled/cyanosed, **non-blanching rash** |
@@ -539,11 +539,11 @@ Access: **if IV fails twice or takes >90 s in a shocked child, go intraosseous**
 
 | Age (approx weight) | Volume of 1:1000 IM | Autoinjector |
 |---|---|---|
-| <1 y (~5–7.5 kg) | 0.1 mL | 150 microgram (7.5–10 kg on considered assessment) |
+| <1 y (~5–7.5 kg) | 0.1 mL | 150 microgram — **standard band is 7.5–20 kg**; ⚑ devices are **not usually recommended below 7.5 kg** (individual assessment) |
 | 1–2 y (~10 kg) | 0.1 mL | 150 microgram |
 | 2–4 y (~15 kg) | 0.15 mL | 150 microgram |
-| 4–5 y (~20 kg) | 0.2 mL | 150 microgram (to 20 kg) |
-| 5–10 y (~30 kg) | 0.3 mL | **300 microgram (>20 kg)** |
+| 4–6 y (~20 kg) | 0.2 mL | 150 microgram (7.5–20 kg) |
+| 7–10 y (~30 kg) | 0.3 mL | **300 microgram (>20 kg)** |
 | 10–12 y (~40 kg) | 0.4 mL | 300 microgram |
 | >12 y (>50 kg) | 0.5 mL | 300 microgram (Anapen 500 >50 kg) |
 
@@ -605,7 +605,7 @@ Parainfluenza; **6 months–3 years**, autumn/winter, **worse at night**. **Bark
 | Severe | **Persistent stridor at rest ± expiratory**, marked recession, agitation, **SpO₂ ≤93%** | **Dexamethasone 0.6 mg/kg (max 12 mg) PO/IM/IV + nebulised adrenaline** |
 | Life-threatening | Quiet stridor, exhaustion, poor effort, drowsy, cyanosis | Adrenaline + steroid + **100% O₂ 15 L/min**, call for senior airway/ICU |
 
-**Nebulised adrenaline: 5 mL of undiluted 1:1000**, repeatable at ~10-min intervals. ⚑ **Australian practice gives a flat 5 mL regardless of weight.** Works within 10–30 min but **wears off by ~2 h** → **observe 3 hours after it**. **Prednisolone 1 mg/kg** is the fallback if dexamethasone is unavailable, but needs a **second dose next day**. ⚑ **Nebulised budesonide has largely dropped out of Australian practice.**
+**Nebulised adrenaline: 5 mL of undiluted 1:1000**, repeatable at ~10-min intervals. ⚑ **Australian practice gives a flat 5 mL regardless of weight.** Works within 10–30 min but **wears off by ~2 h** → **observe 3 hours after it**. **Prednisolone 1 mg/kg** is the fallback if dexamethasone is unavailable, but needs a **second dose next day**. ⚑ **Nebulised budesonide (2 mg) is second-line**, reserved for the child who is vomiting or cannot tolerate oral steroid — it has not been withdrawn from Australian practice.
 
 **Do not** examine the throat, cannulate or upset a child with stridor at rest — agitation worsens turbulent flow and can precipitate complete obstruction. Discharge once **stridor-free at rest**.
 
@@ -624,7 +624,7 @@ Parainfluenza; **6 months–3 years**, autumn/winter, **worse at night**. **Bark
 | **Hypertonic saline, physiotherapy, antivirals** | Not indicated |
 | **Chest X-ray, routine bloods/swabs** | **Not indicated** — CXR drives needless antibiotics; diagnosis is clinical |
 
-**Indicated:** **oxygen when SpO₂ persistently <90%** (⚑ **Australian target 90%** vs NICE/UK 92% — a clean discriminator), **NG or IV hydration** when feeding poorly, **minimal handling**, nasal suction. Escalate to **HFNP** if SpO₂ stays <90% or no improvement after ~2 h of low-flow oxygen. Discharge when **SpO₂ ≥90% and feeding adequately**.
+**Indicated:** **oxygen when SpO₂ persistently <90%** (⚑ **NICE agrees**: <90% for infants over 6 weeks, <92% only for babies **under 6 weeks** or any child with underlying disease — there is no Australia/UK split here), **NG or IV hydration** when feeding poorly, **minimal handling**, **superficial** nasal suction if it helps feeding or apnoea (**deep suction is not recommended**). Escalate to **HFNP** if SpO₂ stays <90% or no improvement after ~2 h of low-flow oxygen. Discharge when **SpO₂ ≥90% and feeding adequately**.
 
 **Apnoea** may be the presenting feature in infants <2 months (especially ex-premature) and mandates admission. Severe-disease risk: **age <10 weeks, prematurity, chronic lung disease, congenital heart disease, neuromuscular disease, immunodeficiency, Indigenous background.** ⚑ **Prevention has changed:** long-acting RSV monoclonal antibody (**nirsevimab**) and maternal RSV vaccination are now in Australian infant programs — confirm eligibility in the Immunisation Handbook.
 
@@ -642,7 +642,7 @@ Diagnosis under 6 years is clinical — **spirometry is unobtainable before ~6 y
 **Doses (Qld paediatric emergency guideline, cross-checked against the Australian Asthma Handbook):**
 - **Salbutamol MDI + spacer: 6 puffs if ≤5 years, 12 puffs if ≥6 years** (100 microgram/puff), repeated **every 20 min for the first hour**, then spaced by response.
 - **Nebulised salbutamol: 2.5 mg (≤5 y), 5 mg (≥6 y)** — reserve nebulisers for severe/life-threatening disease; ⚑ **a spacer is at least as effective in mild–moderate asthma**, with fewer side effects.
-- **Ipratropium (severe only): ≤5 y 4 puffs / 250 microgram neb; ≥6 y 8 puffs / 500 microgram neb — every 20 min, 3 doses only**, then stop.
+- **Ipratropium (severe only): ≤5 y 4 puffs / 250 microgram neb; ≥6 y 8 puffs / 500 microgram neb — every 20 min for the **first hour (3 doses)**, then **4–6 hourly for up to 24 h if still required**; it is the first-hour burst that stops, not the drug.
 - **Prednisolone 1 mg/kg (max 50 mg) daily for 3 days** (Australian Asthma Handbook). ⚑ **Sources differ** — Queensland: **2 mg/kg day 1 then 1 mg/kg days 2–3**, or **dexamethasone 0.6 mg/kg (max 16 mg) once**.
 - **IV magnesium sulfate: 50 mg/kg (0.2 mmol/kg) over 20 min** (RCH max 8 mmol; Qld max 10 mmol).
 - **IV salbutamol (Qld): 15 microgram/kg over 10 min (max 300 microgram), then 0.5–1 microgram/kg/min.**
@@ -672,9 +672,9 @@ Admit for **SpO₂ <90%**, moderate–severe work of breathing, poor hydration, 
 **Treatment (macrolide) — shortens infectivity; alters symptoms only if started within ~2–3 weeks of cough onset:**
 - **Azithromycin: <6 months — 10 mg/kg daily for 5 days; ≥6 months — 10 mg/kg (max 500 mg) day 1, then 5 mg/kg (max 250 mg) days 2–5.**
 - **Clarithromycin 7.5 mg/kg/dose (max 500 mg) BD for 7 days** — **avoid <1 month; azithromycin preferred** (erythromycin–pyloric stenosis association).
-- **Trimethoprim–sulfamethoxazole 4+20 mg/kg BD for 7 days** if macrolide contraindicated (not <1 month).
+- **Trimethoprim–sulfamethoxazole 4+20 mg/kg BD for 7 days** if macrolide contraindicated — ⚑ **only over 6 weeks of age** (sulfonamide/kernicterus risk).
 
-**Exclusion: until 5 days of antibiotic completed, or 21 days from cough onset** if untreated.
+**Exclusion: until the earliest of — 5 days of appropriate antibiotics, 14 days from onset of paroxysmal cough, or 21 days from onset of symptoms.**
 **Household/close-contact prophylaxis** (same macrolide regimen, ideally within 14 days of exposure) targets households with **an infant <6 months** or **a woman in the last month of pregnancy** — not blanket prophylaxis. **Prevention: dTpa in every pregnancy (from 20 weeks) plus the primary schedule at 6 weeks, 4 and 6 months** — maternal vaccination plus cocooning protects the newborn.
 
 ## 4.6 Epiglottitis, bacterial tracheitis and inhaled foreign body
@@ -724,7 +724,7 @@ Admit for **SpO₂ <90%**, moderate–severe work of breathing, poor hydration, 
 | Barking cough, stridor, worse at night, well child | **Croup — dexamethasone 0.15 mg/kg oral** |
 | Croup, stridor at rest, SpO₂ ≤93% | **Dexamethasone 0.6 mg/kg (max 12 mg) + nebulised adrenaline 5 mL of 1:1000; observe 3 h** |
 | Bronchiolitis in an atopic infant — trial salbutamol? | **No — RCH explicitly excludes even atopic infants** ⚑ |
-| Oxygen threshold in bronchiolitis | **SpO₂ persistently <90%** (⚑ UK/NICE uses 92%) |
+| Oxygen threshold in bronchiolitis | **SpO₂ persistently <90%** — ⚑ **92% applies only under 6 weeks** or with underlying disease (same in NICE) |
 | Acute asthma doses | **Salbutamol 6 puffs ≤5 y / 12 puffs ≥6 y q20min ×3; ipratropium severe only, 3 doses; IV Mg 50 mg/kg** |
 | Oral steroid, acute paediatric asthma | **Prednisolone 1 mg/kg (max 50 mg) daily ×3 days** (Qld: 2 mg/kg day 1) |
 | Preventer indication | Symptoms/reliever **>2 days/week**, night waking, or a flare needing oral steroids in the past year |
@@ -877,7 +877,7 @@ A **non-communicating hydrocele** transilluminates, stays the same size and **re
 
 | | **Torsion** | **Torsion of appendix testis** | **Epididymo-orchitis** |
 |---|---|---|---|
-| Age | Neonatal peak and **12–18 y** | **7–12 y** | Post-pubertal |
+| Age | Neonatal peak and **12–18 y** | **7–12 y** | **Bimodal: <2 y** (post-viral or urinary tract anomaly) **and post-pubertal** |
 | Onset | **Sudden, severe, may wake from sleep**, vomiting | Gradual over days | Gradual, dysuria, fever |
 | Exam | **High-riding, transverse lie, absent cremasteric reflex**, no relief on elevation | **Focal upper-pole tenderness, "blue dot"**, rest of testis fine | **Relief on elevation (Prehn)**, pyuria |
 | Action | **Theatre — bilateral fixation** (bell-clapper is bilateral) | Analgesia, settles ~1 week | Antibiotics; **image the urinary tract in a prepubertal boy** |
@@ -956,10 +956,10 @@ Medium-vessel vasculitis, peak **6 months–5 years**; **leading cause of acquir
 
 **Management**
 - **IVIG 2 g/kg single infusion over 8–12 h, within 10 days of fever onset** (ideally days 5–7); still give after day 10 if fever/inflammation persists.
-- ⚑ **Aspirin: RCH uses low-dose 3–5 mg/kg/day from the outset** to the 6-week review; Australian practice has largely dropped the **high-dose anti-inflammatory phase (30–50, or US 80–100 mg/kg/day)**, which does not reduce aneurysms. Know both; say which you quote.
+- ⚑ **Aspirin: RCH specifies low-dose 5 mg/kg/day from the outset** (the 3–5 mg/kg band is the general antiplatelet range) to the 6-week review; Australian practice has largely dropped the **high-dose anti-inflammatory phase (30–50, or US 80–100 mg/kg/day)**, which does not reduce aneurysms. Know both; say which you quote.
 - **Steroids upfront if high-risk**: **age ≤6 months**, shock, coronary change already present, marked inflammation, hypoalbuminaemia.
 - **IVIG resistance** (fever ≥36 h post-infusion, 10–20%) → second IVIG, steroids, or **infliximab**.
-- **Echo at diagnosis and 4–6 weeks**; giant aneurysms (Z ≥10) need anticoagulation.
+- **Echo at diagnosis and 4–6 weeks** (earlier repeat if high-risk or baseline coronary abnormality); giant aneurysms (Z ≥10) need anticoagulation.
 - **Defer live vaccines ~11 months after IVIG**; stop aspirin during influenza/varicella (Reye) and vaccinate against influenza.
 
 ## 6.3 Bacterial meningitis and encephalitis
@@ -968,7 +968,7 @@ Medium-vessel vasculitis, peak **6 months–5 years**; **leading cause of acquir
 **Clue → diagnosis:** neck stiffness is unreliable under 18 months — instead **fever with lethargy, irritability, high-pitched cry, poor feeding, bulging fontanelle or seizure**. **Non-blanching purpuric rash + shock = meningococcaemia → antibiotics now, before LP and before transfer.**
 
 - **Empirical (RCH):** neonate — **benzylpenicillin (or amoxicillin) + cefotaxime**; **≥2 months — ceftriaxone 100 mg/kg (max 4 g) IV**, plus **vancomycin** if gram-positive cocci on Gram stain, plus **aciclovir** if encephalitis is possible.
-- **Dexamethasone 0.15 mg/kg (max 10 mg) IV 6-hourly × 4 days** in children **≥2 months**, with or just before the first antibiotic dose (within 4 h) — reduces hearing loss. **Not in neonates.**
+- **Dexamethasone 0.15 mg/kg (max 10 mg) IV 6-hourly × 4 days** in children **≥2 months**, with or just before the first antibiotic dose; if missed, still give **ideally within 4 h and up to 12 h** after the first dose — reduces hearing loss. **Not in neonates.**
 - **Defer LP** for focal neurology, ongoing seizures, markedly reduced GCS, cardiovascular compromise or coagulopathy — but **never delay antibiotics**; if LP will take >30 min, treat first.
 - **CSF:** bacterial — polymorphs, **low glucose (CSF:serum <0.4)**, high protein; viral — lymphocytes, normal glucose; TB — lymphocytes, **very low glucose, very high protein**.
 - **Encephalitis** is distinguished by **altered conscious state, behaviour change or focal signs rather than pure meningism**. Suspect **HSV** in any encephalopathic child → **aciclovir 20 mg/kg IV 8-hourly** (10 mg/kg if >12 y); MRI shows temporal change; **do not stop aciclovir on one early negative PCR**. Also enterovirus, **anti-NMDAR**, **ADEM**.
@@ -1025,7 +1025,7 @@ Fever without a source in an infant is UTI until proven otherwise (~5–7% of fe
 | Eye movements | **Normal, painless** | **Painful, restricted — ophthalmoplegia** |
 | Proptosis, acuity/colour vision | Absent, normal | **Proptosis; reduced acuity and colour vision, RAPD** |
 | Imaging | Not required | **CT orbits + sinuses with contrast** |
-| Management | Oral antibiotics if mild, review 24 h | **Admit, IV (ceftriaxone + flucloxacillin), urgent ENT/ophthalmology**, drain subperiosteal abscess |
+| Management | Oral antibiotics if mild, review 24 h | **Admit, IV cefotaxime 50 mg/kg (max 2 g) 6-hourly or ceftriaxone 100 mg/kg (max 4 g) daily** — ⚑ **add vancomycin only if MRSA is suspected**, flucloxacillin is not part of the Australian regimen — **urgent ENT/ophthalmology**, drain subperiosteal abscess |
 
 **Discriminator: pain on eye movement, proptosis or reduced colour vision converts periorbital into orbital cellulitis.** Complications: **subperiosteal abscess, cavernous sinus thrombosis, intracranial extension, blindness.**
 
@@ -1084,7 +1084,7 @@ Community needle-stick (playground syringe) generates far more anxiety than risk
 |---|---|
 | White grains on buccal mucosa before a rash | **Koplik spots** → measles; notify same day |
 | Fever ≥4 days + rash + cracked lips + non-purulent conjunctivitis | **Kawasaki** → IVIG 2 g/kg + aspirin, echo now and at 6 weeks |
-| Kawasaki aspirin dose, current Australian practice | **Low-dose 3–5 mg/kg/day from the start** ⚑ |
+| Kawasaki aspirin dose, current Australian practice | **Low-dose 5 mg/kg/day from the start** (RCH) ⚑ |
 | Meningitis empirical therapy at 3 months | **Ceftriaxone 100 mg/kg** + dexamethasone 0.15 mg/kg 6-hourly × 4 days |
 | Non-blanching rash + shock | Meningococcaemia — **antibiotics before LP and before transfer** |
 | Imaging after a first febrile UTI, Australia | **US only for atypical/recurrent UTI or infants <6 months**; MCUG/DMSA selective — more conservative than NICE ⚑ |
@@ -1118,7 +1118,7 @@ Seizure with fever ≥38°C, age **6 months to 6 years**, **no CNS infection, no
 |---|---|---|
 | Type | **Generalised** tonic-clonic | **Focal** onset/features (Todd's palsy) |
 | Duration | **<15 min** | **>15 min** |
-| Same illness | Single | **Recurs within 24 h** |
+| Same illness | Single | **Recurs within the same febrile illness** (not a 24-hour rule — a second seizure on day 3 of the same illness is complex) |
 | Recovery | Full within 1 h | Altered state >1 h |
 | Investigation | For fever source only | Glucose, electrolytes, ECG; imaging after senior review |
 | Later epilepsy | ~1–2% (near background) | 4–6% |
@@ -1134,7 +1134,7 @@ Seizure with fever ≥38°C, age **6 months to 6 years**, **no CNS infection, no
 **The short version**
 - **Blank stare, 10 s, no post-ictal state, reproduced by hyperventilation** → childhood absence.
 - **Nocturnal hemifacial twitching, drooling, speech arrest, aware** → benign rolandic.
-- **Flexor spasm clusters on waking at 4–7 months + regression** → infantile spasms; urgent EEG.
+- **Flexor spasm clusters on waking at 3–7 months (but can occur at any age in childhood) + regression** → infantile spasms; urgent EEG.
 - **Morning jerks spilling the cereal, tonic-clonic after sleep deprivation** → JME.
 
 | Syndrome | Age | Semiology | EEG | Treatment | Prognosis |
@@ -1205,7 +1205,7 @@ Imaging: **cranial ultrasound through the fontanelle** while open; MRI otherwise
 
 ## 7.7 Neuromuscular disease — Duchenne muscular dystrophy
 
-X-linked dystrophin deletion, ~1 in 3,500 boys; a third are new mutations, so **a negative family history does not exclude it**.
+X-linked dystrophin deletion, ~**1 in 5,000** male births (older texts say 1 in 3,500); a third are new mutations, so **a negative family history does not exclude it**.
 
 **The short version**
 - Boy 3–5 y, **waddling gait, toe-walking, stairs difficulty, calf pseudohypertrophy** → **CK first**.
@@ -1259,6 +1259,7 @@ Course: ambulation lost around 10–13 years, progressive scoliosis, **restricti
 **The short version**
 - **Microcytic, milk-fed toddler, pale and irritable** → iron deficiency.
 - **Microcytic with normal/high ferritin and an MCV disproportionately low for the Hb** → thalassaemia trait.
+- **Age-specific Hb lower limits (RCH, g/L):** 2 mo ≥90 · 2–6 mo ≥95 · 6–24 mo ≥105 · 2–11 y ≥115 · ≥12 y ≥120 (F) / ≥130 (M). Physiological nadir at **6–8 weeks**. **Ferritin <20 µg/L** = low/borderline stores.
 - **Iron studies before haemoglobin electrophoresis, always** — iron deficiency suppresses HbA₂ and gives a false-negative for β-thalassaemia trait.
 
 **Iron deficiency in the milk-fed toddler** is the archetypal stem: 18-month-old on 1–1.5 L cow's milk daily, refusing solids, pale and tired, sometimes with pica. Cow's milk is iron-poor, causes occult gut blood loss and displaces iron-rich solids. Bloods: **low MCV and MCH, high RDW, low ferritin, low transferrin saturation, raised TIBC**, often reactive thrombocytosis. Management: **limit cow's milk to ~500 mL/day**, iron-rich solids with vitamin C, no bottle in bed, plus elemental iron **3–6 mg/kg/day**; expect reticulocytosis within a week and Hb rise by 2–4 weeks, continuing ~3 months beyond normalisation to refill stores. Non-response = non-adherence, ongoing loss, wrong diagnosis, or coeliac disease.
@@ -1290,7 +1291,7 @@ Course: ambulation lost around 10–13 years, progressive scoliosis, **restricti
 **The short version**
 - **Mucocutaneous** bleeding (petechiae, epistaxis, menorrhagia, bruising) = **platelet or von Willebrand** problem.
 - **Deep** bleeding (haemarthrosis, muscle haematoma, delayed post-surgical bleed) = **factor** problem.
-- Petechiae are never ordinary trauma — they mean thrombocytopenia or vasculitis.
+- Petechiae **below the nipple line, or in a dependent/pressure distribution, are never ordinary trauma** — they mean thrombocytopenia or vasculitis. ⚑ Mechanical petechiae **above the nipple line** after forceful coughing, vomiting or crying, in a well child with normal platelets, are benign — a standard distractor.
 
 | | ITP | Haemophilia A/B | von Willebrand disease |
 |---|---|---|---|
@@ -1298,10 +1299,10 @@ Course: ambulation lost around 10–13 years, progressive scoliosis, **restricti
 | Bleeding | Petechiae, purpura, epistaxis, wet purpura | **Haemarthrosis**, muscle and intracranial bleeds, post-circumcision | **Menorrhagia in the adolescent girl**, epistaxis, post-dental |
 | Platelets | **Low, often <20**; otherwise normal film | Normal | Normal (low in type 2B) |
 | APTT / PT | Normal / normal | **Prolonged** / normal | Normal or mildly prolonged / normal |
-| Test | Diagnosis of exclusion | **Factor VIII or IX assay** | **vWF antigen + activity (ristocetin cofactor) + FVIII** |
+| Test | Diagnosis of exclusion | **Factor VIII assay (A) or factor IX assay (B)** — **A = VIII, B = IX** | **vWF antigen + activity (ristocetin cofactor) + FVIII** |
 | Treatment | **Observation**; IVIG or prednisolone if bleeding | Factor concentrate; **emicizumab prophylaxis** ⚑ (A) | **Desmopressin** (not 2B), tranexamic acid, vWF concentrate |
 
-**ITP:** typically 2–6 years, **1–3 weeks post-viral**, petechiae and bruising in an **otherwise well child with no hepatosplenomegaly or lymphadenopathy**, isolated thrombocytopenia. **Treat bleeding, not the number** — ~80% remit within 6 months; intracranial haemorrhage <1%; no contact sport. **Marrow examination is not required** in the classic picture but **is required before steroids** if anything is atypical, so leukaemia is not partially treated and obscured. **The stem that is ALL, not ITP:** pallor, fever, bone pain, organomegaly, lymphadenopathy, or any other cell line involved.
+**ITP:** typically 2–6 years, **1–3 weeks post-viral**, petechiae and bruising in an **otherwise well child with no hepatosplenomegaly or lymphadenopathy**, isolated thrombocytopenia. **Treat bleeding, not the number** — ~**80% have resolved by 12 months**, with ~20% still thrombocytopenic at 12 months (ANZCHOG/CHQ); intracranial haemorrhage <1%; no contact sport. **Marrow examination is not required** in the classic picture but **is required before steroids** if anything is atypical, so leukaemia is not partially treated and obscured. **The stem that is ALL, not ITP:** pallor, fever, bone pain, organomegaly, lymphadenopathy, or any other cell line involved.
 
 ## 8.4 The bruised child — bleeding disorder versus non-accidental injury
 
@@ -1323,11 +1324,13 @@ Answer on four axes: **site, pattern, developmental plausibility, and the histor
 
 **Mimics:** HSP (palpable purpura, normal platelets), meningococcaemia (unwell, febrile, spreading petechiae — treat, don't investigate), leukaemia, coining/cupping, congenital dermal melanocytosis (bluish, sacral, from birth, does not evolve), osteogenesis imperfecta if fractures dominate.
 
-**Actions:** don't interrogate the carer; document verbatim, photograph, examine fully including mouth (torn frenulum), fundi and genitalia; bleeding screen; **skeletal survey <2 years, neuroimaging in infants with suspicious bruising**; **mandatory report** — Australian doctors are mandatory reporters in every jurisdiction, and reporting needs reasonable suspicion, not proof.
+**Actions:** don't interrogate the carer; document verbatim, photograph, examine fully including mouth (torn frenulum), fundi and genitalia; bleeding screen; **skeletal survey <2 years, neuroimaging in infants with suspicious bruising**; **mandatory report** — doctors are mandated reporters in every jurisdiction, but ⚑ **not for every category of harm**: WA mandates **sexual abuse only**; Vic, ACT and Qld mandate **physical and sexual**; only NSW, NT, SA and Tas cover all four. Reporting needs reasonable suspicion, not proof.
 
 ## 8.5 Leukaemia and the paediatric solid tumours
 
 **ALL** is ~80% of childhood leukaemia, peaks at 2–5 years, and presents with marrow failure plus infiltration: **pallor and lethargy, bruising, fever, bone or joint pain with limp or refusal to weight-bear, hepatosplenomegaly, painless lymphadenopathy**, mediastinal mass in T-cell disease. Red flags: persistent unexplained bone pain, **bruising with any other cytopenia**, pallor with organomegaly, nodes **>2 cm, firm, fixed, supraclavicular, or persisting beyond 4–6 weeks**. First test **FBE and film**, then urgent oncology referral. Trisomy 21 raises risk substantially.
+
+**Tumour lysis syndrome** — the complication to anticipate at induction, and highest-risk in a high-count ALL or a bulky T-cell mediastinal mass. Biochemistry: **↑K⁺, ↑phosphate, ↑urate, ↓calcium** (the low calcium is secondary to the high phosphate), with **AKI**. Prevention and treatment: **aggressive hydration without potassium**, **allopurinol** for standard risk or **rasburicase** for high risk or established TLS (contraindicated in G6PD deficiency), treat hyperkalaemia, and **do not give calcium for asymptomatic hypocalcaemia** — it drives calcium-phosphate deposition. Renal replacement if refractory.
 
 | Tumour | Age | Presentation | Discriminator |
 |---|---|---|---|
@@ -1346,7 +1349,7 @@ Answer on four axes: **site, pattern, developmental plausibility, and the histor
 - Cultures from **every line lumen and peripherally**, but never let culture-taking delay antibiotics.
 - **No PR examination, no rectal temperatures, no suppositories** — translocation risk.
 
-First-line Australian empiric therapy: **piperacillin–tazobactam 100 mg/kg (max 4 g) IV 6-hourly**. Add **gentamicin** if septic, on a high-risk protocol, or inpatient-onset. Add **vancomycin** only for suspected resistant Gram-positive infection (line-site cellulitis, proven Gram-positive bacteraemia, MRSA colonisation with skin breaks) — **persistent fever alone in a stable child is not an indication** (classic distractor). Consider antifungal cover beyond ~4–5 days. Live vaccines are contraindicated during therapy.
+First-line Australian empiric therapy: **piperacillin–tazobactam 100 mg/kg (max 4 g) IV 6-hourly**. Add an aminoglycoside if septic, on a high-risk protocol, or inpatient-onset — **RCH specifies amikacin 22.5 mg/kg (18 mg/kg if >10 y, max 1.5 g) IV daily**, though gentamicin is the commoner choice nationally. Add **vancomycin** only for suspected resistant Gram-positive infection (line-site cellulitis, proven Gram-positive bacteraemia, MRSA colonisation with skin breaks) — **persistent fever alone in a stable child is not an indication** (classic distractor). Consider antifungal cover beyond ~4–5 days. Live vaccines are contraindicated during therapy.
 
 ## Rapid-Recall Discriminators — Section 8
 | Clue / question | Answer |
@@ -1408,7 +1411,7 @@ Imaging: **ultrasound** for atypical UTI (non-*E. coli*, poor response by 48 h, 
 | Proteinuria | **Massive** (uPCR >200 mg/mmol) | Mild–moderate |
 | Haematuria | Usually absent | **Present with red cell casts** |
 | Blood pressure | Normal | **Raised** |
-| Albumin | **<25 g/L** | Normal or mildly low |
+| Albumin | **<30 g/L** (KDIGO 2025; <25 g/L is the older ISKDC figure) | Normal or mildly low |
 | Complement | **Normal C3** | **Low C3, normal by 8 weeks**; C4 normal |
 | Latency | — | **1–2 weeks post-pharyngitis; 3–6 weeks post-impetigo** |
 | Serology | — | **ASOT** (throat) / **anti-DNase B** (skin — relevant to APSGN in remote Australian communities) |
@@ -1461,7 +1464,7 @@ Conservative: daytime fluid loading with evening restriction, void before bed, n
 
 ## 9.6 Undescended testis and phimosis
 
-**Cryptorchidism** affects ~3% of term and ~30% of preterm boys. Most descend by **3 months corrected**; refer if undescended at **6 months corrected**, with **orchidopexy at 12–18 months** ⚑ (earlier than older texts) to protect fertility and allow examination. Untreated: subfertility, **raised testicular malignancy risk (orchidopexy reduces it and makes tumours detectable but does not abolish it)**, torsion, hernia. **Retractile testis** sits in the scrotum without tension with a brisk cremasteric reflex — no surgery, but review (may ascend). **Ascending testis** needs surgery; **impalpable** needs laparoscopy. **Bilateral impalpable testes with hypospadias is a red flag for a difference of sex development, particularly a virilised female with CAH — urgent endocrine review, not routine surgical referral.**
+**Cryptorchidism** affects ~3% of term and ~30% of preterm boys. Most descend by **3 months corrected**; refer if undescended at **6 months corrected**, with **orchidopexy at 6–12 months** ⚑ (earlier than older texts, which said 12–18 months) to protect fertility and allow examination. Untreated: subfertility, **raised testicular malignancy risk (orchidopexy reduces it and makes tumours detectable but does not abolish it)**, torsion, hernia. **Retractile testis** sits in the scrotum without tension with a brisk cremasteric reflex — no surgery, but review (may ascend). **Ascending testis** needs surgery; **impalpable** needs laparoscopy. **Bilateral impalpable testes with hypospadias is a red flag for a difference of sex development, particularly a virilised female with CAH — urgent endocrine review, not routine surgical referral.**
 
 **Phimosis.** Physiological non-retractility is normal (retractile in ~10% at 1 year, ~50% by 10); **do not force retraction** — it scars. Pathological phimosis is a white scarred ring from **balanitis xerotica obliterans** with ballooning and recurrent balanitis — **topical corticosteroid first**, circumcision if it fails. **Paraphimosis** is an emergency needing reduction.
 
@@ -1508,7 +1511,7 @@ Treatment: enteral rapid carbohydrate if conscious; **10% glucose 2 mL/kg IV bol
 - **Female infant:** **virilised genitalia at birth** (clitoromegaly, labial fusion), detected on day 1.
 - **Male infant:** looks normal, so presents in **salt-wasting crisis at 1–3 weeks** — vomiting, poor feeding, weight loss, shock, **hyponatraemia, hyperkalaemia, hypoglycaemia, acidosis**. The trap stem is "vomiting 2-week-old, ?pyloric stenosis": **pyloric stenosis gives a hypochloraemic hypokalaemic alkalosis; CAH gives a hyperkalaemic acidosis** — that flip is the discriminator.
 - Crisis: **0.9% saline 20 mL/kg**, **IV hydrocortisone** (~25 mg infant / 50 mg child stat), glucose, treat hyperkalaemia. Long term hydrocortisone + fludrocortisone (+ salt in infancy), **stress dosing in illness**.
-- ⚑ CAH is **not** universally screened on the Australian newborn bloodspot panel (unlike much of the USA), so **Australian detection of male CAH remains largely clinical**.
+- ⚑ **CAH (21-hydroxylase deficiency) IS now a target condition on the Australian newborn bloodspot screening panel** — this changed with the national panel expansion, so "male CAH is picked up clinically in salt-wasting crisis" is no longer the right exam answer. A positive screen triggers the ANZSPED follow-up pathway.
 
 **Precocious puberty**: secondary sexual characteristics before **8 in girls, 9 in boys**. Central is usually **idiopathic in girls but pathological in boys — image the brain in a boy**. Peripheral: CAH, adrenal or gonadal tumour, McCune-Albright ("coast of Maine" café-au-lait + fibrous dysplasia), exogenous steroid. Work-up: **bone age (advanced), LH/FSH ± GnRH stimulation, oestradiol/testosterone, 17-OHP, pelvic ultrasound, MRI if central**. Treat central precocious puberty with a **GnRH agonist** to protect final height. **Growth velocity and bone age separate benign premature thelarche/adrenarche from true precocious puberty.**
 
@@ -1529,7 +1532,7 @@ Treatment: enteral rapid carbohydrate if conscious; **10% glucose 2 mL/kg IV bol
 | Bloody diarrhoea → anaemia, low platelets, AKI, **DAT negative** | **HUS**; **no antibiotics or antimotility agents** ⚑ |
 | First-line active treatment for monosymptomatic enuresis | **Enuresis alarm** (after conservative measures); allow 6–8 weeks |
 | Desmopressin caveat | Fluid restrict 1 h before to 8 h after; **hyponatraemia**; not intranasal ⚑ |
-| Undescended testis timing | Refer by **6 months corrected**; orchidopexy **12–18 months** ⚑ |
+| Undescended testis timing | Refer by **6 months corrected** (RCH: refer at ~6 mo if not descended by 3 mo); orchidopexy **6–12 months** ⚑ |
 | Bilateral impalpable testes + hypospadias | **DSD/CAH** — urgent endocrine |
 | Paediatric DKA bolus | **10 mL/kg 0.9% saline over 20–30 min, max 20 mL/kg**, only if shocked |
 | Deficit replaced over how long? | **48 hours** |
@@ -1564,7 +1567,7 @@ Three fetal shunts bypass the non-ventilating lungs: ductus venosus, foramen ova
 **The short version**
 - **Left-to-right shunts (VSD, PDA) declare at 4–8 weeks**, as PVR falls — not at birth.
 - **Duct-dependent lesions declare at day 2–14**, when the duct shuts.
-- Pre-ductal (right hand) SpO₂ exceeding post-ductal (foot) by **>10%** = right-to-left ductal shunt (PPHN, coarctation, interrupted arch).
+- Pre-ductal (right hand) SpO₂ exceeding post-ductal (foot) by **>3%** (the CCHD pulse-oximetry screening threshold — normal is ≥95% at both sites with ≤3 points between them) = right-to-left ductal shunt (PPHN, coarctation, interrupted arch).
 - Cyanosis at birth with a quiet chest and no respiratory distress = cardiac until proven otherwise.
 
 ## 10.2 Innocent vs pathological murmurs — the discharge decision
@@ -1644,7 +1647,7 @@ Autoimmune sequela of **group A streptococcal** infection — pharyngitis, and i
 Primary prevention = prompt treatment of GAS pharyngitis and, in endemic settings, skin sores.
 
 ## 10.9 Kawasaki coronary complications (cross-reference)
-Full features in the fever/rash section. **Untreated, ~20–25% develop coronary aneurysms; IVIG 2 g/kg within 10 days of fever onset cuts this to ~4–5%.** Echo at diagnosis, ~2 and ~6 weeks; **giant aneurysm (z-score ≥10 or ≥8 mm)** → warfarin + aspirin. **Suspect incomplete Kawasaki in any infant <12 months with ≥5 days unexplained fever and raised inflammatory markers — infants have the fewest features and the highest aneurysm risk.**
+Full features in the fever/rash section. **Untreated, ~20–25% develop coronary aneurysms; IVIG 2 g/kg within 10 days of fever onset cuts this to ~4–5%.** Echo at diagnosis and at **4–6 weeks**, repeated earlier if high-risk or an abnormal baseline; **giant aneurysm (z-score ≥10 or ≥8 mm)** → warfarin + aspirin. **Suspect incomplete Kawasaki in any infant with ≥5 days fever and 2–3 criteria; AHA additionally advises echo in an infant ≤6 months with ≥7 days unexplained fever and systemic inflammation, with no criteria at all — infants have the fewest features and the highest aneurysm risk.**
 
 ## 10.10 Supraventricular tachycardia in infants
 **Clue → diagnosis: poor feeding, pallor, irritability or shock with a rate that is fast and does not vary.** **SVT: infant >220/min, child >180/min, fixed and monotonous, abrupt on/off, P waves absent or buried.** **Sinus tachycardia: slower, varies with crying/fever/handling, 1:1 P waves, and has a cause.** Usually AV re-entry via an accessory pathway — check the post-conversion ECG for **WPW (short PR, delta wave)**. Infants tolerate it for days, presenting late with hepatomegaly and shock.
@@ -1734,7 +1737,7 @@ Risk factors — **the 4 F's plus family: Female, First-born, Frank breech, Fami
 Management: **strict non-weight-bearing, analgesia, nil by mouth, urgent orthopaedics for in-situ screw fixation** — do not let the child walk to radiology. **Consider prophylactic contralateral fixation** (bilateral in ~20–40%). Complications: AVN, chondrolysis, early OA.
 
 ## 11.6 Osteomyelitis
-Haematogenous, **metaphyseal**, classically distal femur/proximal tibia. ***S. aureus*** predominates; ***Kingella kingae*** under 4 y; **Salmonella** in sickle cell; GBS/*E. coli* in neonates. **Community-associated MRSA is prevalent enough in northern Australia and Aboriginal and Torres Strait Islander communities to change empirical choice.** Clue → diagnosis: **fever with focal tenderness over the metaphysis (not the joint line) and reluctance to use the limb**; neonates may show only pseudoparalysis. **CRP is the best monitoring marker**; **blood cultures before antibiotics**; **plain X-ray is normal for the first 7–10 days — a normal film excludes nothing**; **MRI is the imaging of choice**. IV **flucloxacillin** (clindamycin/vancomycin if MRSA or allergy); ⚑ **early oral switch (often 3–7 days), 3–4 weeks total** is now Australian practice, not 6 weeks IV.
+Haematogenous, **metaphyseal**, classically distal femur/proximal tibia. ***S. aureus*** predominates; ***Kingella kingae*** under 4 y; **Salmonella** in sickle cell; GBS/*E. coli* in neonates. **Community-associated MRSA is prevalent enough in northern Australia and Aboriginal and Torres Strait Islander communities to change empirical choice.** Clue → diagnosis: **fever with focal tenderness over the metaphysis (not the joint line) and reluctance to use the limb**; neonates may show only pseudoparalysis. **CRP is the best monitoring marker**; **blood cultures before antibiotics**; **plain X-ray is normal for the first 7–10 days — a normal film excludes nothing**; **MRI is the imaging of choice**. IV **flucloxacillin** per Therapeutic Guidelines — ⚑ **the RCH bone-and-joint guideline now gives cefazolin 50 mg/kg (max 2 g) 8-hourly** as the empirical choice, so say which you are quoting — (clindamycin/vancomycin if MRSA or allergy); ⚑ **early oral switch (often 2–3 days by response and CRP), 3–4 weeks total** is now Australian practice, not 6 weeks IV.
 
 ## 11.7 Juvenile idiopathic arthritis
 **Arthritis in ≥1 joint, ≥6 weeks, onset before the 16th birthday, other causes excluded** — a diagnosis of exclusion (rule out septic/reactive arthritis and **leukaemia, which masquerades as "JIA that won't respond"**).
@@ -1776,7 +1779,7 @@ Concerning histories are covered in §12.1. Workup: skeletal survey ± repeat fi
 |---|---|---|
 | **In-toeing** | **Metatarsus adductus** (infant) → **internal tibial torsion** (1–3 y, gone ~4–6 y) → **femoral anteversion** (3–8 y, "W" sitting, gone ~10 y) | Asymmetry, pain, worsening tripping, persistence beyond window |
 | **Bow legs / knock knees** | Bowing physiological to ~2 y, then valgus peaking 3–4 y, resolving ~7 y | **Asymmetry, progression after 2 y, short stature** → rickets, **Blount disease**; valgus persisting >8 y |
-| **Flat feet** | Flexible flat foot is normal; **arch returns on tiptoeing (Jack test)** | **Rigid** flat foot → tarsal coalition; also pain, stiffness, unilateral |
+| **Flat feet** | Flexible flat foot is normal; **arch returns on tiptoeing (heel-rise test), or on passive dorsiflexion of the great toe (Jack test / Hubscher manoeuvre)** | **Rigid** flat foot → tarsal coalition; also pain, stiffness, unilateral |
 | **Toe-walking** | Idiopathic under ~3 y | Persistent, unilateral, tight heel cords → cerebral palsy, **Duchenne (CK in boys)** |
 
 ## Rapid-Recall Discriminators
@@ -1801,7 +1804,7 @@ RCH Melbourne CPGs — limping child, DDH, buckle fracture splinting, bone and j
 *Australian sources: state/territory child protection legislation, AIFS resource sheets, AIHW, Red Nose Australia, Australian Immunisation Handbook/NCIRS, RACGP, RCH CPGs. Law is jurisdiction-specific — verify locally.*
 
 ## 12.1 Recognising abuse and neglect
-Four categories — **physical, sexual, emotional/psychological, neglect** — plus **exposure to family and domestic violence**, harm in its own right in most jurisdictions. **Neglect is the most commonly substantiated category nationally (AIHW)** and the easiest to miss: there is no single event.
+Four categories — **physical, sexual, emotional/psychological, neglect** — plus **exposure to family and domestic violence**, harm in its own right in most jurisdictions. ⚑ **Emotional abuse is the most commonly substantiated primary category nationally (AIHW, ~55%), then neglect (~21%), physical (~14%), sexual (~10%)**. Neglect is second and the easiest to miss: there is no single event.
 
 **The short version**
 - **A bruise or fracture in a non-mobile infant is the highest-yield red flag in paediatrics.**
@@ -1820,7 +1823,7 @@ Document the mimics: **congenital dermal melanocytosis (bluish sacral "Mongolian
 ## 12.2 Mandatory reporting in Australia — state-based
 ⚑ **There is no national mandatory reporting law. Each state and territory sets who must report, what is reportable, and the threshold.** UK-oriented texts describe a unitary safeguarding duty; Australia has none. Safe exam answer: *"I have a mandatory reporting obligation under my state's child protection legislation and would report to the relevant child protection authority, and to police if a criminal offence or immediate danger."*
 
-Common to all: **doctors, nurses and midwives are mandated reporters everywhere**; the trigger is **belief on reasonable grounds — proof is not required and you do not investigate**; **family consent is not required**, the duty overriding confidentiality; good-faith reporting carries **legal and identity protection**.
+Common to all: **doctors and registered nurses are mandated reporters in every jurisdiction** (⚑ **midwives are not a listed category in Queensland**, though they are elsewhere); the trigger is **belief on reasonable grounds — proof is not required and you do not investigate**; **family consent is not required**, the duty overriding confidentiality; good-faith reporting carries **legal and identity protection**.
 
 | Jurisdiction | Legislation | Reportable types (mandated reporters) |
 |---|---|---|
@@ -1843,8 +1846,8 @@ Default: a parent or guardian consents, in the child's best interests. **Parents
 **Gillick / mature minor:** adopted in Australia in **Secretary, Department of Health and Community Services v JWB and SMB ("Marion's case", HCA 1992)** — a child may consent once they have **sufficient understanding and intelligence to fully understand what is proposed**. It is **decision-specific and risk-proportionate**: a competent 15-year-old may consent to contraception but not to a high-risk irreversible procedure. **Once competent, parental consent is not additionally required and parents should not be told without the young person's agreement.**
 
 ⚑ **Statute displaces or supplements the common law in some jurisdictions:**
-- **South Australia** (Consent to Medical Treatment and Palliative Care Act 1995): **16 and over consents as an adult**; **under 16, the treating practitioner AND a second medical practitioner who has examined the child must both record in writing that the child understands the nature, consequences and risks and that treatment is in their best interests** — a two-doctor requirement unique to SA.
-- **Northern Territory:** statute sets **16 years** as the age at which a person may consent to their own medical or dental treatment.
+- **South Australia** (Consent to Medical Treatment and Palliative Care Act 1995): **16 and over consents as an adult**; **under 16, the treating practitioner must form the opinion that the child understands the nature, consequences and risks and that treatment is in their best interests, and a second medical practitioner who has personally examined the child must record a supporting opinion in writing** — the written requirement attaches to the second doctor. A two-doctor requirement unique to SA.
+- ⚑ **Only SA and NSW have statute on minors’ consent.** Every other jurisdiction, the **Northern Territory included**, runs on the common-law *Gillick* / *Marion’s case* test. (The NT’s *Emergency Medical Operations Act 1973* governs operating without parental consent in an emergency; it does not set a consent age.)
 - **NSW** (Minors (Property and Contracts) Act 1970, s49) gives a doctor a **defence to assault/trespass** where a child **aged 14+** consented — a protective provision, not a consent age; the common law test still operates.
 
 Marion's case also established that some decisions sit **outside parental power and need court authorisation** — non-therapeutic sterilisation of a child with intellectual disability is the classic. **A competent minor's refusal of life-saving treatment is legally weaker than their consent**; courts have overridden it.
@@ -1933,7 +1936,7 @@ Paediatric dosing is not adult dosing scaled down by mass. Four physiological fa
 
 **Hepatic clearance.** Phase II conjugation, especially **glucuronidation (UGT)**, matures last, reaching adult activity around 2–3 years. This explains **chloramphenicol grey baby syndrome** and neonatal paracetamol reduction. Sulfation partially compensates, which is why paracetamol is comparatively *safer* in toddlers than adults per kg. CYP enzymes mature over 6–12 months then **overshoot** — young children clear many drugs *faster* per kg than adults, so paediatric mg/kg doses often look startlingly high.
 
-**Renal clearance.** GFR at term is ~20–30% of adult values, reaching adult levels by ~1–2 years. Renally cleared drugs need **extended intervals** in neonates — the interval stretches, the mg/kg dose often does not (see gentamicin below).
+**Renal clearance.** GFR at term is ~20–30% of adult values, reaching adult levels by ~1–2 years. Renally cleared drugs need **extended intervals** in neonates — the interval stretches, and for some drugs the mg/kg dose falls too — gentamicin is **5 mg/kg** in the neonate against 7.5 mg/kg at 1 month–10 years (see §13.6).
 
 **The neonatal exception.** Exam rule of thumb: *if the patient is <1 month old, assume the standard paediatric regimen does not apply and a neonatal protocol exists.* True for paracetamol, gentamicin, all sepsis antibiotics, and steroids in meningitis.
 
@@ -1949,7 +1952,7 @@ Paediatric dosing is not adult dosing scaled down by mass. Four physiological fa
 
 Doses are written **mg/kg/dose**, never mg/kg/day, unless stated otherwise — confusing the two is the commonest paediatric prescribing error and produces a 3–4 fold overdose. Every prescription needs a **documented, recently measured weight**; estimation is for resuscitation only, where ANZCOR/APLS prefer a **length-based tape** over age formulae.
 
-Other recurring safety rules: write **micrograms in full**; no trailing zeros ("5 mg" not "5.0 mg") and always a leading zero ("0.5 mL"); and specify the **liquid concentration**, since paracetamol suspension comes as 24 mg/mL (infant) and 48 mg/mL (6+) — a swap halves or doubles the dose. Volumes under 0.1 mL cannot be measured reliably and are the classic setting for **10-fold errors**; ASCIA flags this for adrenaline under 7.5 kg.
+Other recurring safety rules: write **micrograms in full**; no trailing zeros ("5 mg" not "5.0 mg") and always a leading zero ("0.5 mL"); and specify the **liquid concentration**, since paracetamol suspension comes as 24 mg/mL (labelled 1 month–2 y and 1–5 y) and 48 mg/mL (labelled 5–12 y) — a swap halves or doubles the dose. Volumes under 0.1 mL cannot be measured reliably and are the classic setting for **10-fold errors**; ASCIA flags this for adrenaline under 7.5 kg.
 
 ---
 
@@ -2030,11 +2033,11 @@ Two traps. First, the **90 mg/kg/day paracetamol ceiling is a short-term inpatie
 
 | Indication | First-line (Australian) | Dose | Duration |
 |---|---|---|---|
-| **Acute otitis media** (if indicated) | Amoxicillin | 15 mg/kg (max 500 mg–1 g) **8-hourly** | 5 days |
+| **Acute otitis media** (if indicated) | Amoxicillin | 15 mg/kg (**max 500 mg**) **8-hourly** | 5 days |
 | **Strep pharyngitis/tonsillitis** | Phenoxymethylpenicillin | 15 mg/kg (max 500 mg) **12-hourly** | **10 days** |
 | — IM alternative (adherence, ARF risk) | Benzathine benzylpenicillin | Weight-banded IM, single dose | once |
 | **CAP, low severity** | Amoxicillin | **25 mg/kg** (max 1 g) 8-hourly | 3 days |
-| **UTI — cystitis** | Cefalexin (or trimethoprim) | 20–30 mg/kg (max 750 mg–1 g) tds | 3–5 days |
+| **UTI — cystitis** | Cefalexin (or trimethoprim) | 20 mg/kg (**max 750 mg**) tds — the 25 mg/kg / max 1 g dose belongs to pyelonephritis under 12 months | 3–5 days |
 | **UTI — pyelonephritis** | Cefalexin oral, or IV gentamicin if unwell | 25–45 mg/kg/dose oral; gentamicin below | 7–10 days |
 | **Cellulitis, mild** | Cefalexin | 20–30 mg/kg (max 750 mg–1 g) tds | 5 days |
 | — MRSA suspected | Trimethoprim–sulfamethoxazole | 4/20 mg/kg (max 160/800 mg) bd | 5–10 days |
@@ -2044,7 +2047,7 @@ Two traps. First, the **90 mg/kg/day paracetamol ceiling is a short-term inpatie
 
 **Gentamicin (once-daily):** **7.5 mg/kg (max 320 mg)** for 1 month to <10 years; **6 mg/kg (max 560 mg)** for ≥10 years; **5 mg/kg** in neonates at an interval set by postmenstrual age (24 h at ≥35 weeks, 36 h at 30–34 weeks, 48 h at <30 weeks).
 
-**Dexamethasone in meningitis:** **0.15 mg/kg (max 10 mg)**, **with or just before the first antibiotic dose**, continued 6-hourly for 4 days in confirmed bacterial meningitis beyond the neonatal period. **Not advised in neonates.** Benefit is reduced sensorineural hearing loss, chiefly in *Haemophilus influenzae* type b; giving it after antibiotics are running loses the benefit.
+**Dexamethasone in meningitis:** **0.15 mg/kg (max 10 mg)**, **with or just before the first antibiotic dose**, continued 6-hourly for 4 days in confirmed bacterial meningitis beyond the neonatal period. **Not advised in neonates.** Benefit is reduced sensorineural hearing loss, chiefly in *Haemophilus influenzae* type b; give it with or just before the first dose; if that is missed it is **still indicated within 4 h, and acceptable up to 12 h** — do not withhold it at 6–8 hours.
 
 Two traps: **AOM amoxicillin is 15 mg/kg, CAP amoxicillin is a higher 25 mg/kg** — commonly transposed. And **strep throat is 10 days**, a duration chosen for acute rheumatic fever prevention, not symptom relief; in high-ARF-risk populations (Aboriginal and Torres Strait Islander children in central and northern Australia) the threshold to treat sore throat is far lower.
 

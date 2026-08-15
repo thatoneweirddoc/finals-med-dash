@@ -25,7 +25,7 @@ Paediatric dosing is not adult dosing scaled down by mass. Four physiological fa
 
 **Hepatic clearance.** Phase II conjugation, especially **glucuronidation (UGT)**, matures last, reaching adult activity around 2–3 years. This explains **chloramphenicol grey baby syndrome** and neonatal paracetamol reduction. Sulfation partially compensates, which is why paracetamol is comparatively *safer* in toddlers than adults per kg. CYP enzymes mature over 6–12 months then **overshoot** — young children clear many drugs *faster* per kg than adults, so paediatric mg/kg doses often look startlingly high.
 
-**Renal clearance.** GFR at term is ~20–30% of adult values, reaching adult levels by ~1–2 years. Renally cleared drugs need **extended intervals** in neonates — the interval stretches, the mg/kg dose often does not (see gentamicin below).
+**Renal clearance.** GFR at term is ~20–30% of adult values, reaching adult levels by ~1–2 years. Renally cleared drugs need **extended intervals** in neonates — the interval stretches, and for some drugs the mg/kg dose falls too — gentamicin is **5 mg/kg** in the neonate against 7.5 mg/kg at 1 month–10 years (see §13.6).
 
 **The neonatal exception.** Exam rule of thumb: *if the patient is <1 month old, assume the standard paediatric regimen does not apply and a neonatal protocol exists.* True for paracetamol, gentamicin, all sepsis antibiotics, and steroids in meningitis.
 
@@ -41,7 +41,7 @@ Paediatric dosing is not adult dosing scaled down by mass. Four physiological fa
 
 Doses are written **mg/kg/dose**, never mg/kg/day, unless stated otherwise — confusing the two is the commonest paediatric prescribing error and produces a 3–4 fold overdose. Every prescription needs a **documented, recently measured weight**; estimation is for resuscitation only, where ANZCOR/APLS prefer a **length-based tape** over age formulae.
 
-Other recurring safety rules: write **micrograms in full**; no trailing zeros ("5 mg" not "5.0 mg") and always a leading zero ("0.5 mL"); and specify the **liquid concentration**, since paracetamol suspension comes as 24 mg/mL (infant) and 48 mg/mL (6+) — a swap halves or doubles the dose. Volumes under 0.1 mL cannot be measured reliably and are the classic setting for **10-fold errors**; ASCIA flags this for adrenaline under 7.5 kg.
+Other recurring safety rules: write **micrograms in full**; no trailing zeros ("5 mg" not "5.0 mg") and always a leading zero ("0.5 mL"); and specify the **liquid concentration**, since paracetamol suspension comes as 24 mg/mL (labelled 1 month–2 y and 1–5 y) and 48 mg/mL (labelled 5–12 y) — a swap halves or doubles the dose. Volumes under 0.1 mL cannot be measured reliably and are the classic setting for **10-fold errors**; ASCIA flags this for adrenaline under 7.5 kg.
 
 ---
 
@@ -122,11 +122,11 @@ Two traps. First, the **90 mg/kg/day paracetamol ceiling is a short-term inpatie
 
 | Indication | First-line (Australian) | Dose | Duration |
 |---|---|---|---|
-| **Acute otitis media** (if indicated) | Amoxicillin | 15 mg/kg (max 500 mg–1 g) **8-hourly** | 5 days |
+| **Acute otitis media** (if indicated) | Amoxicillin | 15 mg/kg (**max 500 mg**) **8-hourly** | 5 days |
 | **Strep pharyngitis/tonsillitis** | Phenoxymethylpenicillin | 15 mg/kg (max 500 mg) **12-hourly** | **10 days** |
 | — IM alternative (adherence, ARF risk) | Benzathine benzylpenicillin | Weight-banded IM, single dose | once |
 | **CAP, low severity** | Amoxicillin | **25 mg/kg** (max 1 g) 8-hourly | 3 days |
-| **UTI — cystitis** | Cefalexin (or trimethoprim) | 20–30 mg/kg (max 750 mg–1 g) tds | 3–5 days |
+| **UTI — cystitis** | Cefalexin (or trimethoprim) | 20 mg/kg (**max 750 mg**) tds — the 25 mg/kg / max 1 g dose belongs to pyelonephritis under 12 months | 3–5 days |
 | **UTI — pyelonephritis** | Cefalexin oral, or IV gentamicin if unwell | 25–45 mg/kg/dose oral; gentamicin below | 7–10 days |
 | **Cellulitis, mild** | Cefalexin | 20–30 mg/kg (max 750 mg–1 g) tds | 5 days |
 | — MRSA suspected | Trimethoprim–sulfamethoxazole | 4/20 mg/kg (max 160/800 mg) bd | 5–10 days |
@@ -136,7 +136,7 @@ Two traps. First, the **90 mg/kg/day paracetamol ceiling is a short-term inpatie
 
 **Gentamicin (once-daily):** **7.5 mg/kg (max 320 mg)** for 1 month to <10 years; **6 mg/kg (max 560 mg)** for ≥10 years; **5 mg/kg** in neonates at an interval set by postmenstrual age (24 h at ≥35 weeks, 36 h at 30–34 weeks, 48 h at <30 weeks).
 
-**Dexamethasone in meningitis:** **0.15 mg/kg (max 10 mg)**, **with or just before the first antibiotic dose**, continued 6-hourly for 4 days in confirmed bacterial meningitis beyond the neonatal period. **Not advised in neonates.** Benefit is reduced sensorineural hearing loss, chiefly in *Haemophilus influenzae* type b; giving it after antibiotics are running loses the benefit.
+**Dexamethasone in meningitis:** **0.15 mg/kg (max 10 mg)**, **with or just before the first antibiotic dose**, continued 6-hourly for 4 days in confirmed bacterial meningitis beyond the neonatal period. **Not advised in neonates.** Benefit is reduced sensorineural hearing loss, chiefly in *Haemophilus influenzae* type b; give it with or just before the first dose; if that is missed it is **still indicated within 4 h, and acceptable up to 12 h** — do not withhold it at 6–8 hours.
 
 Two traps: **AOM amoxicillin is 15 mg/kg, CAP amoxicillin is a higher 25 mg/kg** — commonly transposed. And **strep throat is 10 days**, a duration chosen for acute rheumatic fever prevention, not symptom relief; in high-ARF-risk populations (Aboriginal and Torres Strait Islander children in central and northern Australia) the threshold to treat sore throat is far lower.
 

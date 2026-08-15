@@ -2,7 +2,7 @@
 title: "Growth, Development and Nutrition"
 system: "Paediatrics"
 sources: [Paediatrics Master Notes]
-tags: [Growth, UK, LH, FSH]
+tags: [Growth, WHO, UK, LH]
 updated: "2026-08-15"
 ---
 
@@ -25,7 +25,7 @@ updated: "2026-08-15"
 | 6 wk | Head lifts briefly prone; head lag | Fixes and follows to 90°; **fixes on face** | Coos; startles to sound | **Social smile (absent by 8 wk = red flag)** |
 | 3 mo | Head control on forearms; minimal head lag | Follows 180°; hands open at midline | Cooing, turn-taking | Laughs |
 | 6 mo | Rolls both ways; **sits with support/tripod** | **Palmar grasp**; transfers hand-to-hand; mouths | **Babbles**; turns to voice | Stranger awareness begins |
-| 9 mo | **Sits unsupported**; crawls; pulls to stand | **Immature pincer**; bangs 2 cubes | Polysyllabic babble; responds to name | **Stranger anxiety**; waves, peek-a-boo; finger feeds |
+| 9 mo | Crawls; **pulls to stand**; cruises from ~10 mo (⚑ **sits unsupported is a 6–8 mo skill** — WHO median 5.9 mo, 99th centile 9.2 mo, which is why *not* sitting at 9 mo is a red flag) | **Immature pincer**; bangs 2 cubes | Polysyllabic babble; responds to name | **Stranger anxiety**; waves, peek-a-boo; finger feeds |
 | 12 mo | Cruises; **stands alone**; walks (range 10–18 mo) | **Mature pincer**; casting; object into cup | **1–3 words with meaning**; follows "no" | Points to show; cup; separation anxiety |
 | 18 mo | **Walks steadily**, runs stiffly; stairs with help | **Scribbles**; tower of 3–4; spoon to mouth | **6–20 words**; 1 body part; 1-step command | Imitates housework; removes shoes |
 | 2 y | Runs; **kicks ball**; stairs 2 feet per step | Tower of 6; **copies vertical line** | **2-word phrases**; ~50 words; **~50% intelligible** | Parallel play; toileting starting |
@@ -57,9 +57,9 @@ The **QLD "Red Flags" Early Identification Guide** sets each threshold at the ag
 | 6 mo | Not lifting head/shoulders prone; **hands persistently fisted**; not reaching for toys; not babbling; not smiling |
 | 9 mo | Not rolling; no head control in supported sitting; hands not to midline; no gestures; no shared eye contact |
 | 12 mo | **Not sitting independently**; not weight-bearing; no pincer; no babbled phrases; no response to familiar words |
-| 15–18 mo | **No independent mobility / not walking by 18 mo**; **no clear words by 18 mo**; not scribbling; no interest in others |
-| 2 y | Not walking independently; **not putting 2 words together**; not learning new words; no spoon-feeding; non-functional toy use |
-| 3 y | **Speech unintelligible to strangers**; not managing stairs holding rail; not dry by day; no pretend play |
+| 15–18 mo | **Not attempting to walk without support at 15 mo**; **no babbled phrases / no response to familiar words at 18 mo**; not scribbling; no interest in others |
+| 2 y | **Not walking independently**; **no clear words**; **not putting 2 words together**; not learning new words; no spoon-feeding; non-functional toy use |
+| 3 y | **Speech unintelligible to strangers**; not managing stairs holding rail; no symbolic/pretend play emerging. ⚑ CHQ puts **no interest in pretend play at 4 y** and **not toilet trained by day at 5 y** — do not refer a 3-year-old for daytime wetting |
 | 4 y | Not running/jumping; can't follow 2-step directions; can't draw lines/circles; can't play cooperatively |
 | 5 y | Can't hop 5× or stand on 1 leg 5 s; can't hold a simple conversation |
 | **Any age** | **Regression/loss of skills** (neurodegenerative, Rett, epileptic encephalopathy, ASD regression); **strong parental concern**; no response to sound or vision; **asymmetry of tone or movement** (hemiplegic CP); persistent tight toe-walking |
@@ -107,8 +107,8 @@ Normal: birthweight loss ≤**10%**, regained by **day 10–14**; doubles ~4–5
 
 | Category | Clue → cause |
 |---|---|
-| **Inadequate intake** (commonest, esp. <2 y) | Formula over-dilution/measuring error; poor latch, short feeds; food insecurity; grazing toddler |
-| **Psychosocial / neglect** (non-organic — the majority overall) | Gains weight when admitted or in respite; parental mental illness, IPV, substance use; poor attachment |
+| **Inadequate intake** (the commonest mechanism overall, esp. <2 y) | Formula over-dilution/measuring error; poor latch, short feeds; food insecurity; grazing toddler |
+| **Psychosocial / neglect** (a major contributor to inadequate intake rather than a separate majority category) | Gains weight when admitted or in respite; parental mental illness, IPV, substance use; poor attachment |
 | **Inadequate absorption** | **Coeliac** (onset after gluten introduction, distended abdomen, irritability); **CF** (bulky greasy stools, chest sx); CMPA (blood/mucus in stool, eczema) |
 | **Excess losses** | GORD; **pyloric stenosis (projectile, 2–8 wk, hypochloraemic hypokalaemic metabolic alkalosis)**; raised ICP |
 | **Increased requirements** | **CHD** (sweaty/breathless feeds, murmur), chronic lung disease, **CKD/RTA (poor growth + normal anion gap acidosis + polyuria)**, hyperthyroidism, chronic infection, malignancy |
@@ -127,7 +127,7 @@ Normal: birthweight loss ≤**10%**, regained by **day 10–14**; doubles ~4–5
 
 | Topic | Australian practice |
 |---|---|
-| Breastfeeding | Exclusive ~6 mo, continue ≥12 mo with solids. Few contraindications: **maternal HIV (in Australia), untreated TB, some drugs (chemo, lithium, amiodarone, radioiodine), infant galactosaemia** |
+| Breastfeeding | Exclusive ~6 mo, continue ≥12 mo with solids. Few contraindications: **untreated TB, some drugs (chemo, lithium, amiodarone, radioiodine), infant galactosaemia**. ⚑ **Maternal HIV is no longer an absolute contraindication in Australia** — formula is the safest option and remains the recommendation, but ASHM supports breastfeeding as a viable choice under shared decision-making with suppressed viral load and close monitoring |
 | Formula | Cow's-milk-based standard; soy only for galactosaemia/vegan; eHF/AAF for CMPA |
 | Weaning order | Iron-rich first (fortified cereal, pureed meat, legumes) → lumpy textures by 8–9 mo (texture-acceptance window) → finger foods → family diet by 12 mo |
 | Cow's milk | **Not the main drink before 12 mo** (low iron, occult GI loss, renal solute load); in food from 6 mo, full-fat to 2 y. **>500–600 mL/day in toddlers → iron deficiency** |
@@ -148,8 +148,8 @@ Normal: birthweight loss ≤**10%**, regained by **day 10–14**; doubles ~4–5
 | 1 | Prepubertal | Testes <4 mL | None |
 | 2 | **Breast bud (thelarche)**, areolar widening | **Testes 4–8 mL**, scrotal thinning/reddening | Sparse, long, slightly pigmented at labia/base of penis |
 | 3 | Breast + areola enlarge, single contour | Testes 8–12 mL, penis lengthens | Darker, coarser, curling, over pubis |
-| 4 | **Areola/papilla form secondary mound** | Testes 12–15 mL, penis widens, glans develops | Adult-type, not yet to thighs |
-| 5 | Adult, areola recedes to breast contour | Testes >15–25 mL, adult | Adult, spread to medial thighs |
+| 4 | **Areola/papilla form secondary mound** | Testes 15–20 mL, penis widens, glans develops | Adult-type, not yet to thighs |
+| 5 | Adult, areola recedes to breast contour | Testes **>20 mL** (to ~25), adult | Adult, spread to medial thighs |
 
 | Clue | Answer |
 |---|---|
@@ -177,17 +177,17 @@ Definition: height **<3rd centile (< −2 SD)**, or height markedly below the mi
 | Short, **thin**, distended abdomen, anaemia, irritability | **Coeliac disease** |
 | **Disproportionate** (↓upper:lower segment, short limbs), FHx | **Skeletal dysplasia** (achondroplasia) |
 | Poor growth + polyuria/polydipsia/acidosis | **CKD / renal tubular acidosis** |
-| SGA with no catch-up by 2 y | **SGA without catch-up** — GH indication |
+| SGA with no catch-up by 2 y | **SGA without catch-up** — ⚑ **not a PBS growth-hormone indication in Australia** (unlike the US/EU); such a child qualifies only via the generic "short stature and slow growth" criteria. PBS categories include Turner, SHOX, Prader–Willi, chronic renal insufficiency and biochemical GHD |
 
 **Workup:** serial heights + velocity, MPH, **bone age (left wrist)**, FBC, UEC/CMP/LFT, **coeliac serology**, TFT, IGF-1, urinalysis, **karyotype in all short girls**. GH stimulation testing is specialist-only.
 
 #### Rapid-Recall Discriminators
 | Clue / question | Answer |
 |---|---|
-| "Sits unsupported, immature pincer, stranger anxiety" | **9 months** |
+| "Immature pincer, polysyllabic babble, stranger anxiety" | **9 months** (sitting unsupported was achieved ~6–8 mo) |
 | "2-word phrases, tower of 6, kicks ball" | **2 years** |
 | Copies circle / cross / triangle | **3 y / 4 y / 5 y** |
-| Not walking, or no clear words — refer at? | **18 months (both)** |
+| Not attempting to walk without support — refer at? | **15 months** (not walking independently = **2 y**; no clear words = **2 y**; the 18-mo language flags are *no babbled phrases / no response to familiar words*) |
 | Hand preference at 10 months | **Abnormal — hemiplegia until proven otherwise** |
 | Loss of acquired skills | **Red flag at any age — regression** |
 | Asymmetric Moro / absent parachute at 12 mo | Clavicle # or **Erb's** / hemiplegia (parachute appears 6–9 mo) |

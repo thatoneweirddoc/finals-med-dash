@@ -2,7 +2,7 @@
 title: "Paediatric Haematology, Oncology and the Bruised Child"
 system: "Paediatrics"
 sources: [Paediatrics Master Notes]
-tags: [Paediatric, ITP, FBE, RCH]
+tags: [Paediatric, RCH, ITP, FBE]
 updated: "2026-08-15"
 ---
 
@@ -18,6 +18,7 @@ updated: "2026-08-15"
 **The short version**
 - **Microcytic, milk-fed toddler, pale and irritable** → iron deficiency.
 - **Microcytic with normal/high ferritin and an MCV disproportionately low for the Hb** → thalassaemia trait.
+- **Age-specific Hb lower limits (RCH, g/L):** 2 mo ≥90 · 2–6 mo ≥95 · 6–24 mo ≥105 · 2–11 y ≥115 · ≥12 y ≥120 (F) / ≥130 (M). Physiological nadir at **6–8 weeks**. **Ferritin <20 µg/L** = low/borderline stores.
 - **Iron studies before haemoglobin electrophoresis, always** — iron deficiency suppresses HbA₂ and gives a false-negative for β-thalassaemia trait.
 
 **Iron deficiency in the milk-fed toddler** is the archetypal stem: 18-month-old on 1–1.5 L cow's milk daily, refusing solids, pale and tired, sometimes with pica. Cow's milk is iron-poor, causes occult gut blood loss and displaces iron-rich solids. Bloods: **low MCV and MCH, high RDW, low ferritin, low transferrin saturation, raised TIBC**, often reactive thrombocytosis. Management: **limit cow's milk to ~500 mL/day**, iron-rich solids with vitamin C, no bottle in bed, plus elemental iron **3–6 mg/kg/day**; expect reticulocytosis within a week and Hb rise by 2–4 weeks, continuing ~3 months beyond normalisation to refill stores. Non-response = non-adherence, ongoing loss, wrong diagnosis, or coeliac disease.
@@ -49,7 +50,7 @@ updated: "2026-08-15"
 **The short version**
 - **Mucocutaneous** bleeding (petechiae, epistaxis, menorrhagia, bruising) = **platelet or von Willebrand** problem.
 - **Deep** bleeding (haemarthrosis, muscle haematoma, delayed post-surgical bleed) = **factor** problem.
-- Petechiae are never ordinary trauma — they mean thrombocytopenia or vasculitis.
+- Petechiae **below the nipple line, or in a dependent/pressure distribution, are never ordinary trauma** — they mean thrombocytopenia or vasculitis. ⚑ Mechanical petechiae **above the nipple line** after forceful coughing, vomiting or crying, in a well child with normal platelets, are benign — a standard distractor.
 
 | | ITP | Haemophilia A/B | von Willebrand disease |
 |---|---|---|---|
@@ -57,10 +58,10 @@ updated: "2026-08-15"
 | Bleeding | Petechiae, purpura, epistaxis, wet purpura | **Haemarthrosis**, muscle and intracranial bleeds, post-circumcision | **Menorrhagia in the adolescent girl**, epistaxis, post-dental |
 | Platelets | **Low, often <20**; otherwise normal film | Normal | Normal (low in type 2B) |
 | APTT / PT | Normal / normal | **Prolonged** / normal | Normal or mildly prolonged / normal |
-| Test | Diagnosis of exclusion | **Factor VIII or IX assay** | **vWF antigen + activity (ristocetin cofactor) + FVIII** |
+| Test | Diagnosis of exclusion | **Factor VIII assay (A) or factor IX assay (B)** — **A = VIII, B = IX** | **vWF antigen + activity (ristocetin cofactor) + FVIII** |
 | Treatment | **Observation**; IVIG or prednisolone if bleeding | Factor concentrate; **emicizumab prophylaxis** ⚑ (A) | **Desmopressin** (not 2B), tranexamic acid, vWF concentrate |
 
-**ITP:** typically 2–6 years, **1–3 weeks post-viral**, petechiae and bruising in an **otherwise well child with no hepatosplenomegaly or lymphadenopathy**, isolated thrombocytopenia. **Treat bleeding, not the number** — ~80% remit within 6 months; intracranial haemorrhage <1%; no contact sport. **Marrow examination is not required** in the classic picture but **is required before steroids** if anything is atypical, so leukaemia is not partially treated and obscured. **The stem that is ALL, not ITP:** pallor, fever, bone pain, organomegaly, lymphadenopathy, or any other cell line involved.
+**ITP:** typically 2–6 years, **1–3 weeks post-viral**, petechiae and bruising in an **otherwise well child with no hepatosplenomegaly or lymphadenopathy**, isolated thrombocytopenia. **Treat bleeding, not the number** — ~**80% have resolved by 12 months**, with ~20% still thrombocytopenic at 12 months (ANZCHOG/CHQ); intracranial haemorrhage <1%; no contact sport. **Marrow examination is not required** in the classic picture but **is required before steroids** if anything is atypical, so leukaemia is not partially treated and obscured. **The stem that is ALL, not ITP:** pallor, fever, bone pain, organomegaly, lymphadenopathy, or any other cell line involved.
 
 #### 8.4 The bruised child — bleeding disorder versus non-accidental injury
 
@@ -82,11 +83,13 @@ Answer on four axes: **site, pattern, developmental plausibility, and the histor
 
 **Mimics:** HSP (palpable purpura, normal platelets), meningococcaemia (unwell, febrile, spreading petechiae — treat, don't investigate), leukaemia, coining/cupping, congenital dermal melanocytosis (bluish, sacral, from birth, does not evolve), osteogenesis imperfecta if fractures dominate.
 
-**Actions:** don't interrogate the carer; document verbatim, photograph, examine fully including mouth (torn frenulum), fundi and genitalia; bleeding screen; **skeletal survey <2 years, neuroimaging in infants with suspicious bruising**; **mandatory report** — Australian doctors are mandatory reporters in every jurisdiction, and reporting needs reasonable suspicion, not proof.
+**Actions:** don't interrogate the carer; document verbatim, photograph, examine fully including mouth (torn frenulum), fundi and genitalia; bleeding screen; **skeletal survey <2 years, neuroimaging in infants with suspicious bruising**; **mandatory report** — doctors are mandated reporters in every jurisdiction, but ⚑ **not for every category of harm**: WA mandates **sexual abuse only**; Vic, ACT and Qld mandate **physical and sexual**; only NSW, NT, SA and Tas cover all four. Reporting needs reasonable suspicion, not proof.
 
 #### 8.5 Leukaemia and the paediatric solid tumours
 
 **ALL** is ~80% of childhood leukaemia, peaks at 2–5 years, and presents with marrow failure plus infiltration: **pallor and lethargy, bruising, fever, bone or joint pain with limp or refusal to weight-bear, hepatosplenomegaly, painless lymphadenopathy**, mediastinal mass in T-cell disease. Red flags: persistent unexplained bone pain, **bruising with any other cytopenia**, pallor with organomegaly, nodes **>2 cm, firm, fixed, supraclavicular, or persisting beyond 4–6 weeks**. First test **FBE and film**, then urgent oncology referral. Trisomy 21 raises risk substantially.
+
+**Tumour lysis syndrome** — the complication to anticipate at induction, and highest-risk in a high-count ALL or a bulky T-cell mediastinal mass. Biochemistry: **↑K⁺, ↑phosphate, ↑urate, ↓calcium** (the low calcium is secondary to the high phosphate), with **AKI**. Prevention and treatment: **aggressive hydration without potassium**, **allopurinol** for standard risk or **rasburicase** for high risk or established TLS (contraindicated in G6PD deficiency), treat hyperkalaemia, and **do not give calcium for asymptomatic hypocalcaemia** — it drives calcium-phosphate deposition. Renal replacement if refractory.
 
 | Tumour | Age | Presentation | Discriminator |
 |---|---|---|---|
@@ -105,7 +108,7 @@ Answer on four axes: **site, pattern, developmental plausibility, and the histor
 - Cultures from **every line lumen and peripherally**, but never let culture-taking delay antibiotics.
 - **No PR examination, no rectal temperatures, no suppositories** — translocation risk.
 
-First-line Australian empiric therapy: **piperacillin–tazobactam 100 mg/kg (max 4 g) IV 6-hourly**. Add **gentamicin** if septic, on a high-risk protocol, or inpatient-onset. Add **vancomycin** only for suspected resistant Gram-positive infection (line-site cellulitis, proven Gram-positive bacteraemia, MRSA colonisation with skin breaks) — **persistent fever alone in a stable child is not an indication** (classic distractor). Consider antifungal cover beyond ~4–5 days. Live vaccines are contraindicated during therapy.
+First-line Australian empiric therapy: **piperacillin–tazobactam 100 mg/kg (max 4 g) IV 6-hourly**. Add an aminoglycoside if septic, on a high-risk protocol, or inpatient-onset — **RCH specifies amikacin 22.5 mg/kg (18 mg/kg if >10 y, max 1.5 g) IV daily**, though gentamicin is the commoner choice nationally. Add **vancomycin** only for suspected resistant Gram-positive infection (line-site cellulitis, proven Gram-positive bacteraemia, MRSA colonisation with skin breaks) — **persistent fever alone in a stable child is not an indication** (classic distractor). Consider antifungal cover beyond ~4–5 days. Live vaccines are contraindicated during therapy.
 
 #### Rapid-Recall Discriminators — Section 8
 | Clue / question | Answer |

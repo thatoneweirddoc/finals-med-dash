@@ -135,7 +135,7 @@ A **non-communicating hydrocele** transilluminates, stays the same size and **re
 
 | | **Torsion** | **Torsion of appendix testis** | **Epididymo-orchitis** |
 |---|---|---|---|
-| Age | Neonatal peak and **12–18 y** | **7–12 y** | Post-pubertal |
+| Age | Neonatal peak and **12–18 y** | **7–12 y** | **Bimodal: <2 y** (post-viral or urinary tract anomaly) **and post-pubertal** |
 | Onset | **Sudden, severe, may wake from sleep**, vomiting | Gradual over days | Gradual, dysuria, fever |
 | Exam | **High-riding, transverse lie, absent cremasteric reflex**, no relief on elevation | **Focal upper-pole tenderness, "blue dot"**, rest of testis fine | **Relief on elevation (Prehn)**, pyuria |
 | Action | **Theatre — bilateral fixation** (bell-clapper is bilateral) | Analgesia, settles ~1 week | Antibiotics; **image the urinary tract in a prepubertal boy** |

@@ -2,7 +2,7 @@
 title: "Paediatric Infectious Disease and Immunisation"
 system: "Paediatrics"
 sources: [Paediatrics Master Notes]
-tags: [Paediatric, UTI, RCH, IVIG]
+tags: [Paediatric, RCH, UTI, IVIG]
 updated: "2026-08-15"
 ---
 
@@ -50,10 +50,10 @@ Medium-vessel vasculitis, peak **6 months–5 years**; **leading cause of acquir
 
 **Management**
 - **IVIG 2 g/kg single infusion over 8–12 h, within 10 days of fever onset** (ideally days 5–7); still give after day 10 if fever/inflammation persists.
-- ⚑ **Aspirin: RCH uses low-dose 3–5 mg/kg/day from the outset** to the 6-week review; Australian practice has largely dropped the **high-dose anti-inflammatory phase (30–50, or US 80–100 mg/kg/day)**, which does not reduce aneurysms. Know both; say which you quote.
+- ⚑ **Aspirin: RCH specifies low-dose 5 mg/kg/day from the outset** (the 3–5 mg/kg band is the general antiplatelet range) to the 6-week review; Australian practice has largely dropped the **high-dose anti-inflammatory phase (30–50, or US 80–100 mg/kg/day)**, which does not reduce aneurysms. Know both; say which you quote.
 - **Steroids upfront if high-risk**: **age ≤6 months**, shock, coronary change already present, marked inflammation, hypoalbuminaemia.
 - **IVIG resistance** (fever ≥36 h post-infusion, 10–20%) → second IVIG, steroids, or **infliximab**.
-- **Echo at diagnosis and 4–6 weeks**; giant aneurysms (Z ≥10) need anticoagulation.
+- **Echo at diagnosis and 4–6 weeks** (earlier repeat if high-risk or baseline coronary abnormality); giant aneurysms (Z ≥10) need anticoagulation.
 - **Defer live vaccines ~11 months after IVIG**; stop aspirin during influenza/varicella (Reye) and vaccinate against influenza.
 
 #### 6.3 Bacterial meningitis and encephalitis
@@ -62,7 +62,7 @@ Medium-vessel vasculitis, peak **6 months–5 years**; **leading cause of acquir
 **Clue → diagnosis:** neck stiffness is unreliable under 18 months — instead **fever with lethargy, irritability, high-pitched cry, poor feeding, bulging fontanelle or seizure**. **Non-blanching purpuric rash + shock = meningococcaemia → antibiotics now, before LP and before transfer.**
 
 - **Empirical (RCH):** neonate — **benzylpenicillin (or amoxicillin) + cefotaxime**; **≥2 months — ceftriaxone 100 mg/kg (max 4 g) IV**, plus **vancomycin** if gram-positive cocci on Gram stain, plus **aciclovir** if encephalitis is possible.
-- **Dexamethasone 0.15 mg/kg (max 10 mg) IV 6-hourly × 4 days** in children **≥2 months**, with or just before the first antibiotic dose (within 4 h) — reduces hearing loss. **Not in neonates.**
+- **Dexamethasone 0.15 mg/kg (max 10 mg) IV 6-hourly × 4 days** in children **≥2 months**, with or just before the first antibiotic dose; if missed, still give **ideally within 4 h and up to 12 h** after the first dose — reduces hearing loss. **Not in neonates.**
 - **Defer LP** for focal neurology, ongoing seizures, markedly reduced GCS, cardiovascular compromise or coagulopathy — but **never delay antibiotics**; if LP will take >30 min, treat first.
 - **CSF:** bacterial — polymorphs, **low glucose (CSF:serum <0.4)**, high protein; viral — lymphocytes, normal glucose; TB — lymphocytes, **very low glucose, very high protein**.
 - **Encephalitis** is distinguished by **altered conscious state, behaviour change or focal signs rather than pure meningism**. Suspect **HSV** in any encephalopathic child → **aciclovir 20 mg/kg IV 8-hourly** (10 mg/kg if >12 y); MRI shows temporal change; **do not stop aciclovir on one early negative PCR**. Also enterovirus, **anti-NMDAR**, **ADEM**.
@@ -119,7 +119,7 @@ Fever without a source in an infant is UTI until proven otherwise (~5–7% of fe
 | Eye movements | **Normal, painless** | **Painful, restricted — ophthalmoplegia** |
 | Proptosis, acuity/colour vision | Absent, normal | **Proptosis; reduced acuity and colour vision, RAPD** |
 | Imaging | Not required | **CT orbits + sinuses with contrast** |
-| Management | Oral antibiotics if mild, review 24 h | **Admit, IV (ceftriaxone + flucloxacillin), urgent ENT/ophthalmology**, drain subperiosteal abscess |
+| Management | Oral antibiotics if mild, review 24 h | **Admit, IV cefotaxime 50 mg/kg (max 2 g) 6-hourly or ceftriaxone 100 mg/kg (max 4 g) daily** — ⚑ **add vancomycin only if MRSA is suspected**, flucloxacillin is not part of the Australian regimen — **urgent ENT/ophthalmology**, drain subperiosteal abscess |
 
 **Discriminator: pain on eye movement, proptosis or reduced colour vision converts periorbital into orbital cellulitis.** Complications: **subperiosteal abscess, cavernous sinus thrombosis, intracranial extension, blindness.**
 
@@ -178,7 +178,7 @@ Community needle-stick (playground syringe) generates far more anxiety than risk
 |---|---|
 | White grains on buccal mucosa before a rash | **Koplik spots** → measles; notify same day |
 | Fever ≥4 days + rash + cracked lips + non-purulent conjunctivitis | **Kawasaki** → IVIG 2 g/kg + aspirin, echo now and at 6 weeks |
-| Kawasaki aspirin dose, current Australian practice | **Low-dose 3–5 mg/kg/day from the start** ⚑ |
+| Kawasaki aspirin dose, current Australian practice | **Low-dose 5 mg/kg/day from the start** (RCH) ⚑ |
 | Meningitis empirical therapy at 3 months | **Ceftriaxone 100 mg/kg** + dexamethasone 0.15 mg/kg 6-hourly × 4 days |
 | Non-blanching rash + shock | Meningococcaemia — **antibiotics before LP and before transfer** |
 | Imaging after a first febrile UTI, Australia | **US only for atypical/recurrent UTI or infants <6 months**; MCUG/DMSA selective — more conservative than NICE ⚑ |

@@ -24,7 +24,7 @@ Parainfluenza; **6 months–3 years**, autumn/winter, **worse at night**. **Bark
 | Severe | **Persistent stridor at rest ± expiratory**, marked recession, agitation, **SpO₂ ≤93%** | **Dexamethasone 0.6 mg/kg (max 12 mg) PO/IM/IV + nebulised adrenaline** |
 | Life-threatening | Quiet stridor, exhaustion, poor effort, drowsy, cyanosis | Adrenaline + steroid + **100% O₂ 15 L/min**, call for senior airway/ICU |
 
-**Nebulised adrenaline: 5 mL of undiluted 1:1000**, repeatable at ~10-min intervals. ⚑ **Australian practice gives a flat 5 mL regardless of weight.** Works within 10–30 min but **wears off by ~2 h** → **observe 3 hours after it**. **Prednisolone 1 mg/kg** is the fallback if dexamethasone is unavailable, but needs a **second dose next day**. ⚑ **Nebulised budesonide has largely dropped out of Australian practice.**
+**Nebulised adrenaline: 5 mL of undiluted 1:1000**, repeatable at ~10-min intervals. ⚑ **Australian practice gives a flat 5 mL regardless of weight.** Works within 10–30 min but **wears off by ~2 h** → **observe 3 hours after it**. **Prednisolone 1 mg/kg** is the fallback if dexamethasone is unavailable, but needs a **second dose next day**. ⚑ **Nebulised budesonide (2 mg) is second-line**, reserved for the child who is vomiting or cannot tolerate oral steroid — it has not been withdrawn from Australian practice.
 
 **Do not** examine the throat, cannulate or upset a child with stridor at rest — agitation worsens turbulent flow and can precipitate complete obstruction. Discharge once **stridor-free at rest**.
 
@@ -43,7 +43,7 @@ Parainfluenza; **6 months–3 years**, autumn/winter, **worse at night**. **Bark
 | **Hypertonic saline, physiotherapy, antivirals** | Not indicated |
 | **Chest X-ray, routine bloods/swabs** | **Not indicated** — CXR drives needless antibiotics; diagnosis is clinical |
 
-**Indicated:** **oxygen when SpO₂ persistently <90%** (⚑ **Australian target 90%** vs NICE/UK 92% — a clean discriminator), **NG or IV hydration** when feeding poorly, **minimal handling**, nasal suction. Escalate to **HFNP** if SpO₂ stays <90% or no improvement after ~2 h of low-flow oxygen. Discharge when **SpO₂ ≥90% and feeding adequately**.
+**Indicated:** **oxygen when SpO₂ persistently <90%** (⚑ **NICE agrees**: <90% for infants over 6 weeks, <92% only for babies **under 6 weeks** or any child with underlying disease — there is no Australia/UK split here), **NG or IV hydration** when feeding poorly, **minimal handling**, **superficial** nasal suction if it helps feeding or apnoea (**deep suction is not recommended**). Escalate to **HFNP** if SpO₂ stays <90% or no improvement after ~2 h of low-flow oxygen. Discharge when **SpO₂ ≥90% and feeding adequately**.
 
 **Apnoea** may be the presenting feature in infants <2 months (especially ex-premature) and mandates admission. Severe-disease risk: **age <10 weeks, prematurity, chronic lung disease, congenital heart disease, neuromuscular disease, immunodeficiency, Indigenous background.** ⚑ **Prevention has changed:** long-acting RSV monoclonal antibody (**nirsevimab**) and maternal RSV vaccination are now in Australian infant programs — confirm eligibility in the Immunisation Handbook.
 
@@ -61,7 +61,7 @@ Diagnosis under 6 years is clinical — **spirometry is unobtainable before ~6 y
 **Doses (Qld paediatric emergency guideline, cross-checked against the Australian Asthma Handbook):**
 - **Salbutamol MDI + spacer: 6 puffs if ≤5 years, 12 puffs if ≥6 years** (100 microgram/puff), repeated **every 20 min for the first hour**, then spaced by response.
 - **Nebulised salbutamol: 2.5 mg (≤5 y), 5 mg (≥6 y)** — reserve nebulisers for severe/life-threatening disease; ⚑ **a spacer is at least as effective in mild–moderate asthma**, with fewer side effects.
-- **Ipratropium (severe only): ≤5 y 4 puffs / 250 microgram neb; ≥6 y 8 puffs / 500 microgram neb — every 20 min, 3 doses only**, then stop.
+- **Ipratropium (severe only): ≤5 y 4 puffs / 250 microgram neb; ≥6 y 8 puffs / 500 microgram neb — every 20 min for the **first hour (3 doses)**, then **4–6 hourly for up to 24 h if still required**; it is the first-hour burst that stops, not the drug.
 - **Prednisolone 1 mg/kg (max 50 mg) daily for 3 days** (Australian Asthma Handbook). ⚑ **Sources differ** — Queensland: **2 mg/kg day 1 then 1 mg/kg days 2–3**, or **dexamethasone 0.6 mg/kg (max 16 mg) once**.
 - **IV magnesium sulfate: 50 mg/kg (0.2 mmol/kg) over 20 min** (RCH max 8 mmol; Qld max 10 mmol).
 - **IV salbutamol (Qld): 15 microgram/kg over 10 min (max 300 microgram), then 0.5–1 microgram/kg/min.**
@@ -91,9 +91,9 @@ Admit for **SpO₂ <90%**, moderate–severe work of breathing, poor hydration, 
 **Treatment (macrolide) — shortens infectivity; alters symptoms only if started within ~2–3 weeks of cough onset:**
 - **Azithromycin: <6 months — 10 mg/kg daily for 5 days; ≥6 months — 10 mg/kg (max 500 mg) day 1, then 5 mg/kg (max 250 mg) days 2–5.**
 - **Clarithromycin 7.5 mg/kg/dose (max 500 mg) BD for 7 days** — **avoid <1 month; azithromycin preferred** (erythromycin–pyloric stenosis association).
-- **Trimethoprim–sulfamethoxazole 4+20 mg/kg BD for 7 days** if macrolide contraindicated (not <1 month).
+- **Trimethoprim–sulfamethoxazole 4+20 mg/kg BD for 7 days** if macrolide contraindicated — ⚑ **only over 6 weeks of age** (sulfonamide/kernicterus risk).
 
-**Exclusion: until 5 days of antibiotic completed, or 21 days from cough onset** if untreated.
+**Exclusion: until the earliest of — 5 days of appropriate antibiotics, 14 days from onset of paroxysmal cough, or 21 days from onset of symptoms.**
 **Household/close-contact prophylaxis** (same macrolide regimen, ideally within 14 days of exposure) targets households with **an infant <6 months** or **a woman in the last month of pregnancy** — not blanket prophylaxis. **Prevention: dTpa in every pregnancy (from 20 weeks) plus the primary schedule at 6 weeks, 4 and 6 months** — maternal vaccination plus cocooning protects the newborn.
 
 #### 4.6 Epiglottitis, bacterial tracheitis and inhaled foreign body
@@ -143,7 +143,7 @@ Admit for **SpO₂ <90%**, moderate–severe work of breathing, poor hydration, 
 | Barking cough, stridor, worse at night, well child | **Croup — dexamethasone 0.15 mg/kg oral** |
 | Croup, stridor at rest, SpO₂ ≤93% | **Dexamethasone 0.6 mg/kg (max 12 mg) + nebulised adrenaline 5 mL of 1:1000; observe 3 h** |
 | Bronchiolitis in an atopic infant — trial salbutamol? | **No — RCH explicitly excludes even atopic infants** ⚑ |
-| Oxygen threshold in bronchiolitis | **SpO₂ persistently <90%** (⚑ UK/NICE uses 92%) |
+| Oxygen threshold in bronchiolitis | **SpO₂ persistently <90%** — ⚑ **92% applies only under 6 weeks** or with underlying disease (same in NICE) |
 | Acute asthma doses | **Salbutamol 6 puffs ≤5 y / 12 puffs ≥6 y q20min ×3; ipratropium severe only, 3 doses; IV Mg 50 mg/kg** |
 | Oral steroid, acute paediatric asthma | **Prednisolone 1 mg/kg (max 50 mg) daily ×3 days** (Qld: 2 mg/kg day 1) |
 | Preventer indication | Symptoms/reliever **>2 days/week**, night waking, or a flare needing oral steroids in the past year |
