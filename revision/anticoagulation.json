@@ -1,0 +1,143 @@
+{
+ "title": "Anticoagulation",
+ "system": "Anticoagulation",
+ "created": "2026-08-15",
+ "rationale": "Selected automatically: anticoagulation scores 0% across all three tracked topics (Cardiology periop 0/2, Haem & Onc 0/2, standalone 0/1). The recorded misses show a single coherent gap rather than three separate ones — bridging logic applied to DOACs, and platelet transfusion in HIT.",
+ "objectives": [
+  "State the perioperative interruption intervals for DOACs by bleeding risk and renal function, and explain why bridging is a warfarin concept that does not transfer.",
+  "List the narrow set of indications that still warrant perioperative bridging, and recognise that a high CHA₂DS₂-VASc score is not one of them.",
+  "Recognise heparin-induced thrombocytopenia from its timing and platelet trajectory, and explain why it is prothrombotic rather than haemorrhagic.",
+  "Select an appropriate non-heparin anticoagulant in HIT and justify why platelet transfusion and warfarin monotherapy are both harmful.",
+  "Choose between warfarin and a DOAC for a given indication, including the situations where a DOAC is contraindicated.",
+  "Apply reversal strategies for warfarin, DOACs and heparin, matching agent to anticoagulant."
+ ],
+ "sections": [
+  {
+   "heading": "Perioperative DOAC management — the PAUSE protocol",
+   "body": "DOACs have short, predictable half-lives (apixaban ~12h, rivaroxaban ~8h, dabigatran ~12–17h and renally cleared). That is the whole reason bridging is unnecessary: there is no prolonged sub-therapeutic window to cover, unlike warfarin with its slow offset and onset.\n\n**Interruption intervals (CrCl ≥50 mL/min):**\n\n| Procedure bleeding risk | Stop before | Restart after |\n|---|---|---|\n| **Low** | **1 day** (24h) | 24 hours |\n| **High** | **2 days** (48h) | 48–72 hours |\n\nWith **CrCl <50**, extend the interval — most importantly for **dabigatran**, which is ~80% renally cleared and may need 4 days before a high-bleed-risk procedure.\n\nThe PAUSE study (3007 patients with AF) applied exactly this, with **no heparin bridging and no preoperative coagulation testing**, and found major bleeding ~1–2% and arterial thromboembolism ~0.2–0.6%. Note PAUSE enrolled AF patients — it does not directly generalise to recent VTE.",
+   "note": { "system": "cardiology", "slug": "cardiovascular-pharmacology", "title": "Cardiovascular Pharmacology" }
+  },
+  {
+   "heading": "When bridging is still indicated — the short list",
+   "body": "Bridging developed for **warfarin**, whose INR takes days to fall and days to recover. Applying it to a DOAC roughly **triples major bleeding with no reduction in thromboembolism** (BRIDGE trial).\n\nBridging is now reserved for a narrow group on **warfarin**:\n\n- **Mechanical heart valve** (especially mitral, or older-generation valves)\n- **VTE within the last 3 months**\n- **Rheumatic mitral stenosis** with AF\n- Previous thromboembolism during a prior interruption\n\n**A high CHA₂DS₂-VASc score alone is not an indication.** That is the distractor most often chosen — it feels like it should matter, and it does for deciding *whether to anticoagulate at all*, but not for bridging during a short interruption.",
+   "note": { "system": "cardiology", "slug": "cardiovascular-pharmacology", "title": "Cardiovascular Pharmacology" }
+  },
+  {
+   "heading": "Heparin-induced thrombocytopenia — the counterintuitive one",
+   "body": "**HIT is a prothrombotic disorder that presents with a low platelet count.** IgG antibodies against the heparin–platelet factor 4 complex *activate* platelets; they are consumed forming clot, not failing to work. The thrombocytopenia is a marker of consumption.\n\n**The 4Ts score** structures recognition:\n\n| | |\n|---|---|\n| **T**hrombocytopenia | Fall **>50%** from baseline, nadir typically 20–100 |\n| **T**iming | **Days 5–10** after heparin exposure (earlier if heparin in the last 30 days) |\n| **T**hrombosis | New venous or arterial thrombosis, or skin necrosis |\n| Absence of o**T**her cause | Sepsis, drugs, dilution, marrow disease excluded |\n\nUnfractionated heparin carries higher risk than LMWH, and surgical patients higher than medical. Confirm with anti-PF4 immunoassay (sensitive, poorly specific) — the serotonin release assay is the gold standard.\n\n**Management — two moves, both required:**\n\n1. **Stop all heparin**, including flushes and heparin-bonded lines\n2. **Start a non-heparin anticoagulant** — in Australia typically **danaparoid**, **argatroban**, **bivalirudin**, or **fondaparinux**\n\n**Two harmful reflexes to avoid:**\n\n- **Do not transfuse platelets.** It adds substrate to an active thrombotic process. Low platelets here does not mean bleeding risk.\n- **Do not start warfarin alone** while acutely thrombocytopenic. Early protein C depletion causes a transient procoagulant state → **venous limb gangrene** and skin necrosis. Wait until platelets recover (>150) and overlap with the non-heparin agent.",
+   "note": { "system": "haematology-oncology", "slug": "additional-notes", "title": "Haematology & Oncology" }
+  },
+  {
+   "heading": "Choosing warfarin versus a DOAC",
+   "body": "DOACs are first-line for **non-valvular AF** and for most **VTE** — fixed dosing, no routine monitoring, fewer interactions, and lower intracranial haemorrhage rates.\n\n**Warfarin is still required for:**\n\n- **Mechanical heart valves** — DOACs are contraindicated (RE-ALIGN showed excess thromboembolism and bleeding with dabigatran)\n- **Moderate–severe rheumatic mitral stenosis**\n- **Antiphospholipid syndrome**, particularly triple-positive — DOACs performed worse\n- **Severe renal impairment** — DOAC thresholds vary; dabigatran is the most renally dependent\n\nThe phrase \"non-valvular AF\" exists precisely to exclude mechanical valves and rheumatic mitral stenosis. If a stem mentions either, the answer is warfarin.",
+   "note": { "system": "cardiology", "slug": "arrhythmias-and-conduction-disorders", "title": "Arrhythmias and Conduction Disorders" }
+  },
+  {
+   "heading": "Reversal — match the agent to the anticoagulant",
+   "body": "| Anticoagulant | Reversal |\n|---|---|\n| **Warfarin** | Vitamin K; **prothrombinex-VF (4-factor PCC)** for major bleeding; FFP if PCC unavailable |\n| **Dabigatran** | **Idarucizumab** (specific monoclonal antibody); dabigatran is also dialysable |\n| **Apixaban / rivaroxaban** | **Andexanet alfa** where available; otherwise PCC |\n| **Unfractionated heparin** | **Protamine sulfate** (full reversal) |\n| **LMWH** | Protamine — **only partial** (~60%) reversal |\n\nFor warfarin with a raised INR but no bleeding, the answer is usually to withhold doses ± oral vitamin K, not to reach for PCC — reserve that for major or life-threatening bleeding.",
+   "note": { "system": "cardiology", "slug": "cardiovascular-pharmacology", "title": "Cardiovascular Pharmacology" }
+  }
+ ],
+ "questions": [
+  {
+   "difficulty": "easy",
+   "stem": "A 68-year-old man on apixaban for non-valvular atrial fibrillation is booked for an elective inguinal hernia repair, a low bleeding-risk procedure. His CrCl is 70 mL/min.",
+   "lead": "How long before surgery should apixaban be withheld?",
+   "options": ["No interruption required", "24 hours", "48 hours", "5 days"],
+   "correct": 1,
+   "explanation": "**24 hours** for a **low** bleeding-risk procedure with CrCl ≥50, per the PAUSE protocol. High bleeding-risk procedures require 48 hours. Apixaban's half-life is ~12 hours, so 24 hours allows roughly two half-lives — sufficient for minimal residual drug effect.",
+   "topic": "Cardiology — anticoagulation & periop",
+   "type": "recall"
+  },
+  {
+   "difficulty": "easy",
+   "stem": "A 72-year-old woman on warfarin for a mechanical mitral valve replacement requires an elective cholecystectomy.",
+   "lead": "Does she require perioperative bridging?",
+   "options": ["No — bridging is never indicated in modern practice", "Yes — a mechanical mitral valve is a standard bridging indication", "No — only if she has had a previous stroke", "Yes — but only if her INR is above 3.0"],
+   "correct": 1,
+   "explanation": "**Mechanical heart valves remain a genuine bridging indication**, particularly mitral position and older-generation valves. This is one of the narrow group still bridged — alongside VTE within 3 months and rheumatic mitral stenosis. The lesson from BRIDGE was that bridging is unnecessary for *most* AF patients, not that it is obsolete entirely.",
+   "topic": "Cardiology — anticoagulation & periop",
+   "type": "recall"
+  },
+  {
+   "difficulty": "easy",
+   "stem": "A patient develops HIT on day 7 of unfractionated heparin. Platelets are 62 × 10⁹/L. There is no active bleeding.",
+   "lead": "What is the role of platelet transfusion?",
+   "options": ["Transfuse to keep platelets above 50", "Transfuse only if platelets fall below 20", "Platelet transfusion is not indicated and may be harmful", "Transfuse before any invasive procedure regardless of count"],
+   "correct": 2,
+   "explanation": "**HIT is prothrombotic.** The antibodies activate platelets, which are consumed forming thrombus — the low count reflects consumption, not bleeding risk. Transfusing platelets adds substrate to an active thrombotic process and may precipitate further thrombosis. This inverts the normal reflex to transfuse a low platelet count, which is exactly why it is examined.",
+   "topic": "Haem & Onc — anticoagulation",
+   "type": "discrimination"
+  },
+  {
+   "difficulty": "medium",
+   "stem": "A 71-year-old man on apixaban for non-valvular AF (CHA₂DS₂-VASc 5) is scheduled for an elective right hemicolectomy — a high bleeding-risk procedure. CrCl is 60 mL/min. He has no history of stroke or VTE.",
+   "lead": "What is the correct periprocedural plan?",
+   "options": ["Stop apixaban 48 hours pre-op and bridge with therapeutic LMWH", "Stop apixaban 48 hours pre-op; no bridging", "Continue apixaban throughout, given his high CHA₂DS₂-VASc score", "Stop apixaban 5 days pre-op and bridge with therapeutic LMWH"],
+   "correct": 1,
+   "explanation": "High bleeding-risk procedure with CrCl ≥50 → **stop 48 hours before, no bridging**. A high CHA₂DS₂-VASc score is *not* a bridging indication — it informs whether to anticoagulate long-term, not whether to bridge a short interruption. Bridging a DOAC roughly triples major bleeding without reducing thromboembolism. The 5-day interval is a warfarin figure and doesn't apply to a drug with a 12-hour half-life.",
+   "topic": "Cardiology — anticoagulation & periop",
+   "type": "discrimination"
+  },
+  {
+   "difficulty": "medium",
+   "stem": "A 68-year-old woman is day 7 following hip replacement, on prophylactic enoxaparin. Platelets have fallen from 250 to 88 × 10⁹/L. She has a new swollen right calf, and ultrasound confirms a DVT.",
+   "lead": "What is the correct management?",
+   "options": ["Cease enoxaparin and transfuse platelets given the thrombocytopenia", "Cease enoxaparin and start warfarin immediately", "Cease enoxaparin and start a non-heparin anticoagulant such as danaparoid or argatroban", "Continue enoxaparin and add aspirin"],
+   "correct": 2,
+   "explanation": "Classic HIT: timing (day 7), >50% platelet fall, new thrombosis, post-surgical. Both moves are required — **stop all heparin AND start a non-heparin anticoagulant**. Stopping heparin alone leaves a prothrombotic patient with a known DVT unanticoagulated. Platelet transfusion is harmful. **Warfarin alone is dangerous here** — early protein C depletion in an acutely thrombocytopenic patient risks venous limb gangrene; delay warfarin until platelets recover above 150 and overlap with the non-heparin agent.",
+   "topic": "Haem & Onc — anticoagulation",
+   "type": "discrimination"
+  },
+  {
+   "difficulty": "medium",
+   "stem": "A 55-year-old woman with a mechanical aortic valve asks whether she can switch from warfarin to apixaban to avoid INR monitoring.",
+   "lead": "What is the most appropriate response?",
+   "options": ["Switch to apixaban — it is non-inferior for all indications", "DOACs are contraindicated with mechanical valves; she must remain on warfarin", "Switch to dabigatran specifically, which is approved for valves", "Switch only if her INR has been stable for 12 months"],
+   "correct": 1,
+   "explanation": "**DOACs are contraindicated with mechanical heart valves.** The RE-ALIGN trial of dabigatran was stopped early for excess thromboembolic events *and* bleeding compared with warfarin. The term \"non-valvular AF\" in DOAC indications exists precisely to exclude mechanical valves and moderate–severe rheumatic mitral stenosis. Warfarin remains mandatory.",
+   "topic": "Cardiology — anticoagulation & periop",
+   "type": "recall"
+  },
+  {
+   "difficulty": "medium",
+   "stem": "A 78-year-old man on warfarin presents with a large intracerebral haemorrhage. INR is 3.4.",
+   "lead": "What is the most appropriate reversal?",
+   "options": ["Oral vitamin K alone", "Fresh frozen plasma alone", "IV vitamin K plus prothrombinex-VF (4-factor PCC)", "Idarucizumab"],
+   "correct": 2,
+   "explanation": "Life-threatening bleeding on warfarin requires **IV vitamin K plus 4-factor prothrombin complex concentrate (Prothrombinex-VF in Australia)** — PCC restores factor levels within minutes, while vitamin K sustains reversal over hours. Oral vitamin K alone is far too slow. FFP is an inferior alternative used only if PCC is unavailable — it requires large volumes and works less completely. **Idarucizumab reverses dabigatran, not warfarin** — matching the reversal agent to the drug is the discriminator here.",
+   "topic": "Anticoagulation",
+   "type": "recall"
+  },
+  {
+   "difficulty": "hard",
+   "stem": "A 64-year-old man on dabigatran 150mg bd for AF requires an urgent laparotomy for perforated diverticulitis. His last dose was 6 hours ago. CrCl is 35 mL/min.",
+   "lead": "What is the most appropriate management of his anticoagulation?",
+   "options": ["Delay surgery for 48 hours to allow drug clearance", "Proceed with surgery after giving idarucizumab", "Give protamine sulfate and proceed", "Give fresh frozen plasma and proceed"],
+   "correct": 1,
+   "explanation": "This is **urgent** surgery — delaying 48 hours in perforated diverticulitis is not an option, and his impaired renal function (CrCl 35) means dabigatran clearance would be even slower than usual. **Idarucizumab** is the specific reversal agent for dabigatran and works within minutes. Protamine reverses heparin, not dabigatran. FFP does not meaningfully reverse direct thrombin inhibitors. Dabigatran is also dialysable, but dialysis is impractical in this emergency setting.",
+   "topic": "Anticoagulation",
+   "type": "application"
+  },
+  {
+   "difficulty": "hard",
+   "stem": "A 45-year-old woman with triple-positive antiphospholipid syndrome and a previous unprovoked DVT is currently on rivaroxaban, started by another clinician. She is well and has had no recurrence.",
+   "lead": "What is the most appropriate management?",
+   "options": ["Continue rivaroxaban — it is equivalent to warfarin for this indication", "Switch to warfarin with a target INR 2.0–3.0", "Stop anticoagulation as she has had no recurrence", "Add aspirin to rivaroxaban"],
+   "correct": 1,
+   "explanation": "**DOACs perform worse than warfarin in antiphospholipid syndrome**, particularly **triple-positive** disease (lupus anticoagulant, anticardiolipin, and anti-β2-glycoprotein I). The TRAPS trial of rivaroxaban was terminated early for excess arterial thrombotic events. She should be switched to **warfarin**. Stopping anticoagulation entirely after an unprovoked VTE in APS carries a high recurrence risk. This is a genuine exception to the DOACs-first-line rule, alongside mechanical valves.",
+   "topic": "Anticoagulation",
+   "type": "discrimination"
+  },
+  {
+   "difficulty": "hard",
+   "stem": "A patient recovering from HIT has been on argatroban for 5 days. Platelets have recovered from 45 to 165 × 10⁹/L. The team plans to transition to warfarin for long-term anticoagulation.",
+   "lead": "What is the correct approach to this transition?",
+   "options": ["Stop argatroban and start warfarin the same day", "Start warfarin while continuing argatroban until INR is therapeutic for at least 48 hours, then stop argatroban", "Start warfarin at a high loading dose of 10mg to achieve rapid therapeutic INR", "Bridge with LMWH while loading warfarin"],
+   "correct": 1,
+   "explanation": "Warfarin must **overlap** with the non-heparin anticoagulant until the INR is therapeutic, because warfarin's early effect is *procoagulant* — protein C (short half-life) falls before factors II, IX and X, transiently worsening the thrombotic state. In HIT this risks **venous limb gangrene and skin necrosis**. Two further points: warfarin is started only once platelets have recovered (>150, satisfied here), and **high loading doses are avoided** for the same reason. **LMWH is heparin — absolutely contraindicated in HIT**, which makes option 4 the most dangerous answer. Note argatroban itself raises the INR, complicating interpretation during overlap.",
+   "topic": "Haem & Onc — anticoagulation",
+   "type": "application"
+  }
+ ]
+}
