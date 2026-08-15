@@ -335,6 +335,16 @@
     }
    ],
    "primary_style": "h1"
+  },
+  {
+   "system": "Obstetrics & Gynaecology",
+   "slug": "obstetrics-gynaecology",
+   "sources": [
+    {
+     "path": "sources/claude_obstetrics_gynaecology_master.md",
+     "label": "O&G Master Notes"
+    }
+   ]
   }
  ]
 }
