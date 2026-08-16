@@ -447,6 +447,16 @@ function writeFile(text, uid) { writeById(trackerFileId(uid), text); }
 
 // --- quiz bank -------------------------------------------------------------------
 
+/**
+ * A quiz built from someone's tracked weak areas is derived from their own
+ * results, so it belongs to them. Anything on a named system is subject matter,
+ * not personal data, and can be shared with every user.
+ */
+function isPersonalScope(system) {
+  const s = String(system || '').toLowerCase();
+  return s.indexOf('weakest') >= 0 || s === 'mixed' || s.indexOf('weak area') >= 0;
+}
+
 function saveQuiz(body) {
   const questions = validateQuestions(body.questions || []);
   if (!questions.length) return { error: 'no valid questions in payload' };
@@ -465,7 +475,9 @@ function saveQuiz(body) {
                       { count: String(questions.length), system: quiz.system,
                         title: quiz.title, source: quiz.source,
                         difficulty: String(body.difficulty || 'exam'),
-                        category: body.category === 'past-paper' ? 'past-paper' : 'topic' });
+                        category: body.category === 'past-paper' ? 'past-paper' : 'topic',
+                        forUser: String(body.forUser || ''),
+                        personal: isPersonalScope(quiz.system) ? '1' : '' });
   return { ok: true, id: id, title: quiz.title, system: quiz.system, count: questions.length };
 }
 
@@ -525,7 +537,8 @@ function listQuizzes() {
     }
     return { id: f.id, name: f.name, title: title, system: system,
              count: count, created: f.createdTime, source: ap.source || '',
-             category: ap.category || 'topic', difficulty: ap.difficulty || '' };
+             category: ap.category || 'topic', difficulty: ap.difficulty || '',
+             for: ap.forUser || '', personal: ap.personal === '1' };
   });
 }
 
@@ -931,7 +944,8 @@ function generateNow(body, uid) {
     title: system + ' — ' + (body.difficulty || 'exam mix') + ' — ' +
       Utilities.formatDate(new Date(), Session.getScriptTimeZone(), 'd MMM HH:mm'),
     system: system, questions: out, source: 'make-now',
-    difficulty: body.difficulty || ''
+    difficulty: body.difficulty || '',
+    forUser: body.forUser || ''
   });
   saved.asked = want;
   return saved;
@@ -1515,8 +1529,11 @@ function topUpRun() {
     if (claim) {
       // GENERATE, deliberately outside the lock — this takes 30-60s and holding
       // the lock across it would stall every user's page behind generation.
+      // claim.by carries who asked, so the result can be filed under "Made for
+      // others" for everyone except them.
       const made = generateNow({ system: claim.system, n: claim.n,
-                                 difficulty: claim.difficulty, kind: claim.kind }, TOPUP_FOR);
+                                 difficulty: claim.difficulty, kind: claim.kind,
+                                 forUser: claim.by || '' }, TOPUP_FOR);
 
       // FINALISE under the lock, against a fresh read.
       withLock(function () {
