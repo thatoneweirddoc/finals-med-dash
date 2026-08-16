@@ -1,0 +1,176 @@
+{
+ "title": "Palliative Care",
+ "system": "Palliative Care",
+ "questions": [
+  {
+   "stem": "A 74-year-old woman with metastatic breast cancer takes MS Contin 60mg bd with good control. She can no longer swallow and needs conversion to a subcutaneous morphine infusion.",
+   "lead": "What 24-hour subcutaneous morphine dose is appropriate?",
+   "options": [
+    "120mg",
+    "60mg",
+    "40mg",
+    "30mg",
+    "20mg"
+   ],
+   "correct": 2,
+   "explanation": "Total daily oral morphine is 120mg. Australian Therapeutic Guidelines use an <b>oral:subcutaneous morphine ratio of 3:1</b>, giving <b>40mg</b> over 24 hours. Worth knowing this ratio is not universal — several Australian services use 2:1, and a national survey found no consensus — so exam answers follow TG, and in practice you check local policy and titrate. Breakthrough is <b>1/6 of the 24-hour dose</b>, about 6mg SC here.",
+   "point": "Australian Therapeutic Guidelines convert oral to subcutaneous morphine at a ratio of 3:1.",
+   "topic": "Palliative Care — pain management",
+   "type": "application",
+   "difficulty": "hard"
+  },
+  {
+   "stem": "A patient on a stable opioid regimen for bone pain from metastatic prostate cancer has good background control but severe pain on standing and walking.",
+   "lead": "What is this called and how is it best managed?",
+   "options": [
+    "Incident pain; a rapid-onset breakthrough dose before movement",
+    "Neuropathic pain; commence pregabalin",
+    "Total pain; increase the background opioid",
+    "Opioid tolerance; rotate to a different opioid",
+    "Opioid-induced hyperalgesia; reduce the opioid"
+   ],
+   "correct": 0,
+   "explanation": "<b>Incident (movement-related) pain</b> — background control is adequate, so raising the regular dose causes toxicity at rest without helping the peaks. The answer is a <b>short-acting breakthrough dose given before the precipitating activity</b>. Also consider bisphosphonates or denosumab, and <b>single-fraction radiotherapy</b>, which is highly effective for localised bone metastases.",
+   "point": "Incident pain is managed with a pre-emptive breakthrough dose before the triggering activity, not by raising the background opioid.",
+   "topic": "Palliative Care — pain management",
+   "type": "discrimination",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A 68-year-old man with advanced lung cancer has distressing breathlessness at rest. His oxygen saturation is 95% on room air.",
+   "lead": "What is the most appropriate first-line pharmacological management?",
+   "options": [
+    "High-flow oxygen",
+    "Low-dose oral morphine",
+    "Nebulised salbutamol",
+    "A benzodiazepine as first-line",
+    "Prednisolone"
+   ],
+   "correct": 1,
+   "explanation": "<b>Low-dose opioid is first-line for refractory breathlessness</b> in advanced disease, and works independently of oxygenation — it alters the central perception of breathlessness. <b>Oxygen does not help a patient who is not hypoxaemic</b> (sats 95%); a fan directed at the face is more effective and evidence-supported. Benzodiazepines are added when anxiety is a major component, not as first-line.",
+   "point": "Low-dose morphine is first-line for refractory breathlessness in advanced disease, even when oxygen saturation is normal.",
+   "topic": "Palliative Care — symptom control",
+   "type": "application",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A patient in the last days of life has noisy, rattling breathing from upper airway secretions. The family is distressed by the sound. He appears settled and unaware.",
+   "lead": "What is the most appropriate management?",
+   "options": [
+    "Deep suctioning of the oropharynx",
+    "Reposition, explain to the family, and consider an antimuscarinic such as hyoscine butylbromide",
+    "IV furosemide",
+    "Broad-spectrum antibiotics for aspiration",
+    "Increase the opioid infusion"
+   ],
+   "correct": 1,
+   "explanation": "'Death rattle' is caused by air moving over pooled secretions and <b>does not appear to distress the patient</b> — the distress is the family's, so <b>explanation is a core part of the treatment</b>. Reposition, and consider an antimuscarinic (hyoscine butylbromide, glycopyrronium) which reduces further secretions but will not clear what is already there. <b>Deep suctioning is traumatic and ineffective</b>. Opioids treat breathlessness, not secretions.",
+   "point": "Terminal respiratory secretions distress the family rather than the patient, and management centres on explanation plus an antimuscarinic.",
+   "topic": "Palliative Care — terminal care",
+   "type": "application",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A 60-year-old woman with ovarian cancer and peritoneal disease has vomiting from a partial bowel obstruction. She is not for surgery.",
+   "lead": "Which antiemetic approach is most appropriate?",
+   "options": [
+    "Metoclopramide",
+    "Haloperidol alone",
+    "Ondansetron",
+    "Hyoscine butylbromide with a centrally acting antiemetic such as haloperidol",
+    "Dexamethasone alone"
+   ],
+   "correct": 3,
+   "explanation": "In <b>bowel obstruction</b>, a prokinetic such as <b>metoclopramide is relatively contraindicated</b> — increasing peristalsis against an obstruction causes colic and can worsen matters. Use an <b>antisecretory agent (hyoscine butylbromide) plus a centrally acting antiemetic (haloperidol)</b>; octreotide is added for high-output vomiting, and dexamethasone may reduce peri-tumour oedema. Matching the antiemetic to the mechanism is the principle being tested.",
+   "point": "Metoclopramide is avoided in bowel obstruction because increasing peristalsis against an obstruction worsens colic.",
+   "topic": "Palliative Care — symptom control",
+   "type": "discrimination",
+   "difficulty": "hard"
+  },
+  {
+   "stem": "A patient is commenced on regular morphine for cancer pain.",
+   "lead": "Which medication should be co-prescribed routinely from the outset?",
+   "options": [
+    "A proton pump inhibitor",
+    "A regular aperient",
+    "An antiemetic indefinitely",
+    "An antihistamine",
+    "A benzodiazepine"
+   ],
+   "correct": 1,
+   "explanation": "<b>Opioid-induced constipation does not resolve with tolerance</b>, unlike nausea and sedation which usually settle within days. A <b>regular aperient</b> — typically a stimulant plus softener, such as docusate with senna or macrogol — is co-prescribed from the start, not reactively. An antiemetic is reasonable for the first few days but need not continue indefinitely.",
+   "point": "Opioid-induced constipation does not improve with tolerance, so a regular aperient is co-prescribed from the start.",
+   "topic": "Palliative Care — prescribing",
+   "type": "recall",
+   "difficulty": "easy"
+  },
+  {
+   "stem": "A 71-year-old man with advanced cancer becomes drowsy and confused, with myoclonic jerks and pinpoint pupils, two days after his opioid dose was increased.",
+   "lead": "What is the most likely explanation?",
+   "options": [
+    "Hypercalcaemia of malignancy",
+    "Opioid toxicity with accumulation of metabolites",
+    "Brain metastases",
+    "Delirium from sepsis",
+    "Terminal restlessness"
+   ],
+   "correct": 1,
+   "explanation": "<b>Myoclonus with drowsiness and pinpoint pupils after a dose increase is opioid toxicity</b> — morphine-6-glucuronide accumulation, worse with renal impairment. Management is dose reduction, hydration, and opioid rotation. Note the trap: <b>hypercalcaemia also causes confusion in advanced malignancy</b> and must be excluded, but it does not cause myoclonus with pinpoint pupils, and the temporal link to the dose change points to the opioid.",
+   "point": "Myoclonic jerks with drowsiness and pinpoint pupils after an opioid increase indicate opioid toxicity from metabolite accumulation.",
+   "topic": "Palliative Care — pain management",
+   "type": "discrimination",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A 63-year-old woman with metastatic lung cancer has become confused, constipated, nauseated and polyuric over a week. Corrected calcium is 3.2 mmol/L (normal 2.20-2.60).",
+   "lead": "What is the initial management?",
+   "options": [
+    "Oral bisphosphonate",
+    "IV 0.9% sodium chloride rehydration, then IV bisphosphonate",
+    "Fluid restriction",
+    "Calcitonin alone",
+    "Dexamethasone"
+   ],
+   "correct": 1,
+   "explanation": "<b>Hypercalcaemia of malignancy</b> — 'stones, bones, groans and psychic moans', with polyuria causing profound dehydration. Management is <b>aggressive IV saline rehydration first</b>, then an <b>IV bisphosphonate</b> (zoledronic acid or pamidronate), which takes 2-4 days to work. Denosumab is an option in renal impairment. Fluid restriction is exactly wrong. It carries a poor prognosis and should prompt a goals-of-care discussion.",
+   "point": "Hypercalcaemia of malignancy is treated with IV saline rehydration first, then an IV bisphosphonate.",
+   "topic": "Palliative Care — oncological emergencies",
+   "type": "application",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A patient with capacity has an Advance Care Directive declining cardiopulmonary resuscitation. He deteriorates and loses capacity, and his adult daughter insists that everything be done.",
+   "lead": "What is the correct position in NSW?",
+   "options": [
+    "The daughter's wishes take precedence as next of kin",
+    "A valid Advance Care Directive made with capacity is legally binding and must be followed",
+    "The treating team decides independently of both",
+    "The directive lapses once the patient loses capacity",
+    "A directive is only ever advisory"
+   ],
+   "correct": 1,
+   "explanation": "A <b>valid Advance Care Directive made by an adult with capacity is legally binding</b> in NSW and applies precisely when the person can no longer speak for themselves — that is its entire purpose. Family cannot override it, though the conversation with the daughter matters enormously and is part of good care. Separately, doctors are not obliged to provide treatment that is not clinically indicated.",
+   "point": "A valid Advance Care Directive made with capacity is legally binding in NSW and cannot be overridden by family.",
+   "topic": "Palliative Care — ethics and law",
+   "type": "recall",
+   "difficulty": "easy"
+  },
+  {
+   "stem": "A patient in the last hours of life has agitation and restlessness. Reversible causes including urinary retention, constipation, pain and opioid toxicity have been excluded and treated.",
+   "lead": "What is the most appropriate management of terminal restlessness?",
+   "options": [
+    "Haloperidol or midazolam, titrated to comfort",
+    "Physical restraint for safety",
+    "Increase the opioid infusion",
+    "Intravenous fluids",
+    "Withhold all sedation to preserve consciousness"
+   ],
+   "correct": 0,
+   "explanation": "<b>Terminal restlessness</b> is managed by first excluding reversible causes — <b>urinary retention and constipation are the two most commonly missed</b> — then a <b>benzodiazepine (midazolam) or antipsychotic (haloperidol) titrated to comfort</b>. Escalating the opioid is a common error: opioids treat pain and breathlessness, and if the agitation is itself opioid toxicity, more opioid worsens it. Proportionate sedation for symptom control is ethically distinct from hastening death.",
+   "point": "Terminal restlessness is treated by excluding reversible causes then titrating midazolam or haloperidol, not by increasing the opioid.",
+   "topic": "Palliative Care — terminal care",
+   "type": "application",
+   "difficulty": "medium"
+  }
+ ]
+}
