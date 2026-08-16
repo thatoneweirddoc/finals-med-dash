@@ -1360,6 +1360,10 @@ async function loadCoverage(){
       UNBUILT = NO_NOTES.filter(x => built.indexOf(x) < 0);
       ALL_SYSTEMS.length = 0;
       [...BUILT, ...UNBUILT].forEach(x => ALL_SYSTEMS.push(x));
+      // The pickers are built from ALL_SYSTEMS, so they have to be rebuilt now
+      // that it has changed — otherwise the newly discovered systems can never
+      // be selected.
+      if(typeof renderSystemPickers === 'function') renderSystemPickers();
       renderAll();
     }
   }catch(e){ /* offline — keep the baked-in lists */ }
@@ -2248,11 +2252,39 @@ $('fSys').innerHTML = [...BUILT,...UNBUILT].map(s => `<option>${esc(s)}</option>
 const ALL_SYSTEMS = [...BUILT, ...UNBUILT];
 loadCoverage();
 
-$('inclGrid').innerHTML = ALL_SYSTEMS.map((s,i) => `
-  <div class="excl-row">
-    <input type="checkbox" id="in${i}" value="${esc(s)}" checked>
-    <label for="in${i}">${esc(s)}</label>
-  </div>`).join('');
+/* Rebuilt whenever the system list changes, not just once at startup.
+   ALL_SYSTEMS starts from a baked-in array and is then replaced by whatever the
+   notes library actually contains — so building the grid once meant systems
+   like ENT, Geriatrics and Urology were never offered, because they were absent
+   from the hardcoded list. Ticks are preserved across a rebuild so a refresh
+   mid-selection doesn't silently reset the choice. */
+function renderSystemPickers(){
+  const grid = $('inclGrid');
+  if(!grid) return;
+
+  const wasUnticked = new Set(
+    [...grid.querySelectorAll('input:not(:checked)')].map(c => c.value));
+  const firstRun = !grid.querySelector('input');
+
+  grid.innerHTML = ALL_SYSTEMS.map((sys,i) => `
+    <div class="excl-row">
+      <input type="checkbox" id="in${i}" value="${esc(sys)}"${
+        firstRun || !wasUnticked.has(sys) ? ' checked' : ''}>
+      <label for="in${i}">${esc(sys)}</label>
+    </div>`).join('');
+
+  // the generation dropdown draws on the same list
+  const sel = $('sessSys');
+  if(sel){
+    const keep = sel.value;
+    sel.innerHTML = '<option value="">Weakest areas (auto)</option>'
+      + ALL_SYSTEMS.map(x => `<option>${esc(x)}</option>`).join('');
+    if(keep && ALL_SYSTEMS.indexOf(keep) >= 0) sel.value = keep;
+  }
+  updateExclCount();
+}
+
+renderSystemPickers();
 
 /* One list, one meaning: ticked is included, unticked is excluded and dimmed.
    The old pair of panes described a single choice twice and left open what a
@@ -2408,11 +2440,8 @@ $('btnNow').onclick = async () => {
 };
 
 (function initGeneration(){
-  const sel = $('sessSys');
-  if(sel){
-    sel.innerHTML = '<option value="">Weakest areas (auto)</option>'
-      + ALL_SYSTEMS.map(s => `<option>${esc(s)}</option>`).join('');
-  }
+  // sessSys is filled by renderSystemPickers, which also refreshes it when the
+  // notes library reports systems the baked-in list didn't know about.
   setTimeout(() => { ingestOutbox(true); refreshBuffer(); }, 1200);
 })();
 
