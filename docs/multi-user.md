@@ -28,12 +28,20 @@ who they are. Nothing is shared between people and there is no secret to leak.
    - No redirect URI is needed; Identity Services hands the credential back in-page.
 2. **Put the client ID in two places.** It is public by design — it ships in the page,
    identifies the app, and authorises nothing on its own:
-   - Apps Script → Project Settings → Script Properties → `GOOGLE_CLIENT_ID`
    - `index.html` → `const GOOGLE_CLIENT_ID = '…'`
+   - `Code.gs` → `const GOOGLE_CLIENT_ID = '…'`, overridable by a Script Property of
+     the same name if it ever needs changing without a redeploy.
 3. **Deploy → New version.**
 
-Until step 2 is done sign-in is simply unavailable: the button hides itself and the
-shared-token path carries on. Nothing breaks, it just isn't offered.
+**Done as of 16 Aug 2026** — client `645861800030-…apps.googleusercontent.com`, origin
+`https://thatoneweirddoc.github.io`.
+
+With no client ID configured, sign-in is simply unavailable: the button hides itself and
+the shared-token path carries on. Nothing breaks, it just isn't offered.
+
+**The origin must be scheme + host only** — `https://thatoneweirddoc.github.io`, not the
+project path the site is served from. That is the usual mistake and it fails with a
+403 that reads like a code fault.
 
 ### Adding a person
 

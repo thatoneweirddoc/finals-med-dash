@@ -86,7 +86,7 @@ const OWNER_ID = 'fadi';
  *
  * Read from Script Properties first so it can be changed without a redeploy.
  */
-const GOOGLE_CLIENT_ID = '';
+const GOOGLE_CLIENT_ID = '645861800030-ign5j8vg7l16fcip1qbtj12lb7dsoh1a.apps.googleusercontent.com';
 
 /**
  * USERS — keyed by the Google account's VERIFIED email address.
