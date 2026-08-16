@@ -987,6 +987,11 @@
       <details class="fold" open>
         <summary>Topic quizzes</summary>
         <div id="repoList"><div class="empty">Loading…</div></div>
+      </details>
+      <details class="fold" id="othersFold" hidden>
+        <summary>Made for others</summary>
+        <p class="note" style="margin-top:8px">Requested by someone else on this dashboard. Sets aimed at a person's own weak areas stay private to them; everything else is shared.</p>
+        <div id="othersList"></div>
         <div id="quizList"></div>
       </details>
       <details class="fold">
@@ -2940,9 +2945,26 @@ async function fetchRepoQuizzes(){
     const d = await r.json();
     const all = (d.quizzes || []).filter(q => !isHidden('repo:' + q.file));
     const past = all.filter(q => q.category === 'past-paper');
-    const topic = all.filter(q => q.category !== 'past-paper');
+
+    /* A quiz built from someone's tracked weak areas is derived from their own
+       results, so it stays with them. Everything else is subject matter, not
+       personal data, and is shared with everyone. `for` names who asked; absent
+       means it was made for the bank generally. */
+    const mine = q => !q.for || q.for === USER.id;
+    const shared = q => !q.personal;
+
+    const rest = all.filter(q => q.category !== 'past-paper');
+    const topic  = rest.filter(q => mine(q));
+    const others = rest.filter(q => !mine(q) && shared(q));
+
     pp.innerHTML = past.length ? groupQuizzes(past, repoItem) : '<div class="empty">No past-paper sets yet</div>';
-    tp.innerHTML = topic.length ? groupQuizzes(topic, repoItem) : '';
+    tp.innerHTML = topic.length ? groupQuizzes(topic, repoItem) : '<div class="empty">Nothing here yet</div>';
+
+    const fold = $('othersFold');
+    if(fold){
+      fold.hidden = !others.length;
+      $('othersList').innerHTML = others.length ? groupQuizzes(others, repoItem) : '';
+    }
   }catch(e){
     pp.innerHTML = tp.innerHTML = `<div class="empty">Couldn't load — ${esc(String(e.message||e).slice(0,80))}</div>`;
   }
