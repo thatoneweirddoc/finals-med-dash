@@ -602,6 +602,11 @@
   :root[data-theme="dark"][data-ink="stronger"]{ --ink:#FFFFFF; --ink-2:#B9BAC8; }
   :root[data-theme="teal"][data-ink="softer"]{ --ink:#2A4B4A; --ink-2:#5C8785; }
   :root[data-theme="teal"][data-ink="stronger"]{ --ink:#041C1C; --ink-2:#26534F; }
+
+  .inprog{font-family:var(--mono);font-size:10px;letter-spacing:.06em;text-transform:uppercase;
+    color:var(--bord);background:var(--bord-wash);border-radius:3px;padding:2px 7px;margin-left:8px}
+  button.mini.danger{color:var(--low);border-color:var(--low-wash)}
+  button.mini.danger:hover{border-color:var(--low);background:var(--low-wash)}
 </style>
 
 <div class="wrap">
@@ -1057,6 +1062,7 @@ function fromDrive(d){
     log: (d.log||[]).map(l => ({d:l.date, n:l.note})),
     misses: d.recent_misses || [],
     history: d.quiz_history || [],
+    hidden: d.hidden || [],
     links: d.links || []
   };
 }
@@ -1068,6 +1074,7 @@ function toDrive(s){
     log: s.log.map(l => ({date:l.d, note:l.n})),
     recent_misses: s.misses || [],
     quiz_history: s.history || [],
+    hidden: s.hidden || [],
     links: s.links || []
   };
 }
@@ -2063,10 +2070,14 @@ function repoItem(q){
         </div>` : `<div class="qbar-none">Not attempted</div>`;
       return `<div class="item">
         <div class="item-top"><span class="item-t">${esc(q.title)}</span></div>
-        <div class="item-d"><span class="sys">${q.count} questions · added ${esc(q.added||'')}</span></div>
+        <div class="item-d"><span class="sys">${q.count} questions · added ${esc(q.added||'')}</span>${progressBadge('repo:'+q.file, Number(q.count||0))}</div>
         ${bar}
         <div class="row" style="margin-top:8px">
-          <button class="mini" data-repo="${esc(q.file)}">${runs.length ? 'Retake' : 'Start'}</button>
+          <button class="mini" data-repo="${esc(q.file)}">${
+            loadProgress('repo:'+q.file, Number(q.count||0)) ? 'Resume' : (runs.length ? 'Retake' : 'Start')}</button>
+          ${loadProgress('repo:'+q.file, Number(q.count||0))
+            ? `<button class="mini" data-repo-restart="${esc(q.file)}">Restart</button>` : ''}
+          <button class="mini danger" data-hide="repo:${esc(q.file)}" title="Remove from your bank">Delete</button>
         </div>
       </div>`;
 }
@@ -2076,7 +2087,7 @@ async function fetchRepoQuizzes(){
   try{
     const r = await fetch(REPO_QUIZZES + 'index.json?t=' + Date.now());
     const d = await r.json();
-    const all = d.quizzes || [];
+    const all = (d.quizzes || []).filter(q => !isHidden('repo:' + q.file));
     const past = all.filter(q => q.category === 'past-paper');
     const topic = all.filter(q => q.category !== 'past-paper');
     pp.innerHTML = past.length ? past.map(repoItem).join('') : '<div class="empty">No past-paper sets yet</div>';
@@ -2087,13 +2098,19 @@ async function fetchRepoQuizzes(){
 }
 
 ['repoList','ppList'].forEach(id => $(id).addEventListener('click', async e => {
-  const file = e.target.dataset.repo;
+  const t = e.target;
+  if(t.dataset.hide){
+    return confirmDelete({ key:t.dataset.hide, title:t.closest('.item').querySelector('.item-t').textContent,
+                           permanent:false, after:fetchRepoQuizzes });
+  }
+  const restartFile = t.dataset.repoRestart;
+  const file = t.dataset.repo || restartFile;
   if(!file) return;
   e.target.textContent = 'Loading…';
   try{
     const r = await fetch(REPO_QUIZZES + file + '?t=' + Date.now());
     const q = await r.json();
-    startQuiz(q, 'repo:' + file);
+    startQuiz(q, 'repo:' + file, restartFile ? 'restart' : undefined);
   }catch(err){ e.target.textContent = 'Failed'; }
 }));
 
@@ -2250,11 +2267,17 @@ function revItem(m){
         : `<div class="qbar-none">Not attempted</div>`;
       return `<div class="item">
         <div class="item-top"><span class="item-t">${esc(m.title)}</span></div>
-        <div class="item-d"><span class="sys">${m.objectives} objectives &middot; ${m.questions} questions</span></div>
+        <div class="item-d"><span class="sys">${m.objectives} objectives &middot; ${m.questions} questions</span>${progressBadge(key, Number(m.questions||0))}</div>
         ${m.rationale ? `<div class="item-d" style="font-size:13px">${esc(m.rationale)}</div>` : ''}
         ${bar}
         <div class="row" style="margin-top:8px">
-          <button class="mini" ${attr}>${runs.length ? 'Revise again' : 'Start revision'}</button>
+          <button class="mini" ${attr}>${
+            loadProgress(key, Number(m.questions||0)) ? 'Resume' : (runs.length ? 'Revise again' : 'Start revision')}</button>
+          ${loadProgress(key, Number(m.questions||0))
+            ? `<button class="mini" data-rev-restart="${esc(key)}">Restart</button>` : ''}
+          ${m.file
+            ? `<button class="mini danger" data-hide="${esc(key)}" title="Remove from your list">Delete</button>`
+            : `<button class="mini danger" data-del-rev="${esc(m.id)}" data-del-title="${esc(m.title||'this module')}">Delete</button>`}
         </div>
       </div>`;
 }
@@ -2276,23 +2299,88 @@ async function fetchRevision(){
       if(!d.error) drive = d.modules || [];
     }
   }catch(e){ /* offline or old deployment */ }
-  const all = [...drive, ...repo];
+  const all = [...drive, ...repo]
+    .filter(m => !isHidden(m.file ? 'rev:' + m.file : m.id));
   el.innerHTML = all.length ? all.map(revItem).join('')
     : '<div class="empty">None yet — request one above</div>';
 }
 
-$('revList').addEventListener('click', async e => {
-  const file = e.target.dataset.rev, id = e.target.dataset.revid;
-  if(!file && !id) return;
-  e.target.textContent = 'Loading\u2026';
+/* ---- hiding and deleting ----
+ * Two different things, deliberately kept apart:
+ *   - Repo-published items live in the GitHub repo and are shared source of
+ *     truth. The page cannot delete them, so "Delete" hides them from your bank.
+ *     Stored in the tracker so the choice follows you across devices.
+ *   - Drive items were generated for you alone, so Delete really removes them.
+ */
+function hiddenList(){ return (S.hidden || []); }
+function isHidden(key){ return hiddenList().indexOf(key) >= 0; }
+async function hideItem(key){
+  S.hidden = hiddenList();
+  if(S.hidden.indexOf(key) < 0) S.hidden.push(key);
+  clearProgress(key);
+  await save();
+}
+
+async function deleteDriveItem(id){
+  const r = await fetch(SYNC_URL, {
+    method:'POST', headers:{'Content-Type':'text/plain;charset=utf-8'},
+    body: JSON.stringify({ token: token(), action:'deleteItem', id })
+  });
+  return r.json();
+}
+
+/** One confirm path for both, so the wording is always honest about which it is. */
+async function confirmDelete(opts){
+  const { key, driveId, title, permanent, after } = opts;
+  const msg = permanent
+    ? `Delete "${title}" permanently?\n\nThis removes it from your Drive and cannot be undone. Past results stay in your tracker.`
+    : `Remove "${title}" from your bank?\n\nIt stays published in the repo, so it can come back if re-added. Any saved answers are cleared.`;
+  if(!confirm(msg)) return;
   try{
-    const url = file
-      ? REPO_REVISION + file + '?t=' + Date.now()
-      : `${SYNC_URL}?token=${encodeURIComponent(token())}&action=getQuiz&id=${id}`;
+    if(permanent){
+      const d = await deleteDriveItem(driveId);
+      if(d.error) throw new Error(d.error);
+      clearProgress(driveId);
+    }else{
+      await hideItem(key);
+    }
+    if(after) after();
+  }catch(err){
+    alert('Could not delete: ' + (err.message || err));
+  }
+}
+
+$('revList').addEventListener('click', async e => {
+  const t = e.target;
+
+  if(t.dataset.hide){
+    return confirmDelete({ key:t.dataset.hide, title:t.closest('.item').querySelector('.item-t').textContent,
+                           permanent:false, after:fetchRevision });
+  }
+  if(t.dataset.delRev){
+    return confirmDelete({ driveId:t.dataset.delRev, title:t.dataset.delTitle,
+                           permanent:true, after:fetchRevision });
+  }
+
+  const restart = t.dataset.revRestart;
+  const file = t.dataset.rev, id = t.dataset.revid;
+  if(!file && !id && !restart) return;
+
+  // Restart re-opens the same module with answers cleared, so the key must match
+  // the one the card was rendered with.
+  const key = restart || (file ? 'rev:' + file : id);
+  const srcFile = restart ? (restart.startsWith('rev:') ? restart.slice(4) : null) : file;
+  const srcId = restart ? (restart.startsWith('rev:') ? null : restart) : id;
+
+  t.textContent = 'Loading\u2026';
+  try{
+    const url = srcFile
+      ? REPO_REVISION + srcFile + '?t=' + Date.now()
+      : `${SYNC_URL}?token=${encodeURIComponent(token())}&action=getQuiz&id=${srcId}`;
     const r = await fetch(url);
     const m = await r.json();
-    startRevision(m, 'rev:' + file);
-  }catch(err){ e.target.textContent = 'Failed'; }
+    startRevision(m, key, restart ? 'restart' : undefined);
+  }catch(err){ t.textContent = 'Failed'; }
 });
 
 // very small markdown subset: tables, bold, headings-free paragraphs
@@ -2318,9 +2406,15 @@ function mdLite(s){
   function fmt(t){ return t.replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>').replace(/\*(.+?)\*/g,'<em>$1</em>'); }
 }
 
-function startRevision(mod, id){
+function startRevision(mod, id, mode){
   CURRENT_REV = mod; CURRENT_REV.id = id;
-  REV_ANSWERS = new Array(mod.questions.length).fill(null);
+  const saved = loadProgress(id, mod.questions.length);
+  if(saved && mode !== 'restart'){
+    REV_ANSWERS = saved.answers.slice();
+  }else{
+    if(mode === 'restart') clearProgress(id);
+    REV_ANSWERS = new Array(mod.questions.length).fill(null);
+  }
   REV_SUBMITTED = false;
   $('revBank').hidden = true;
   $('revPlayer').hidden = false;
@@ -2370,6 +2464,10 @@ function renderRevision(){
       <div class="panel-h">Check your learning &mdash; ${m.questions.length} questions</div>
       <div class="prog-track"><div class="prog-fill" style="width:${done/m.questions.length*100}%"></div></div>
       <div class="prog-text"><span>${done} answered</span><span>of ${m.questions.length}</span></div>
+      ${done && !REV_SUBMITTED ? `<div class="row" style="margin-top:10px">
+        <button class="mini" id="rRestart">Restart — clear these answers</button>
+        <span class="attempts">Saved on this device. Nothing counts until you submit.</span>
+      </div>` : ''}
     </div>
 
     ${m.questions.map((qq,i) => `
@@ -2397,15 +2495,22 @@ function renderRevision(){
   $('revPlayer').querySelectorAll('.opt').forEach(el => el.onclick = () => {
     if(REV_SUBMITTED) return;
     REV_ANSWERS[+el.dataset.rq] = +el.dataset.o;
+    saveProgress(CURRENT_REV.id, REV_ANSWERS, CURRENT_REV.questions.length, CURRENT_REV.title);
     renderRevision();
     $('rq'+el.dataset.rq).scrollIntoView({block:'nearest'});
   });
   $('revExit').onclick = exitRevision;
   $('revSubmit').onclick = submitRevision;
+  const rr = $('rRestart');
+  if(rr) rr.onclick = () => {
+    if(!confirm('Clear your answers for this module and start again?')) return;
+    startRevision(CURRENT_REV, CURRENT_REV.id, 'restart');
+  };
 }
 
 async function submitRevision(){
   REV_SUBMITTED = true;
+  clearProgress(CURRENT_REV.id);
   const m = CURRENT_REV;
   let correct = 0; const byTopic = {}; const flags = []; const misses = [];
   const byDiff = {easy:{c:0,t:0}, medium:{c:0,t:0}, hard:{c:0,t:0}};
@@ -2474,6 +2579,41 @@ async function submitRevision(){
 document.querySelector('[data-tab="revision"]').addEventListener('click', fetchRevision);
 
 /* ---- quiz bank + player ---- */
+/* ---- in-progress answers ----
+ * Answers are kept on this device only, and are worth nothing until the quiz is
+ * submitted: nothing here touches the tracker, so an abandoned attempt never
+ * affects a score. Cleared on submit, or by an explicit restart.
+ */
+const PROG_KEY = 'finals_progress';
+
+function allProgress(){
+  try{ return JSON.parse(localStorage.getItem(PROG_KEY) || '{}'); }catch(e){ return {}; }
+}
+function writeProgress(map){
+  try{ localStorage.setItem(PROG_KEY, JSON.stringify(map)); }catch(e){}
+}
+function saveProgress(id, answers, total, title){
+  if(!id) return;
+  const m = allProgress();
+  const done = answers.filter(a => a !== null).length;
+  if(!done){ delete m[id]; }              // nothing answered — don't clutter the list
+  else m[id] = { answers, total, title: title || '', done, saved: Date.now() };
+  writeProgress(m);
+}
+function loadProgress(id, total){
+  const p = allProgress()[id];
+  // a module whose question count changed since you last sat it can't be resumed
+  if(!p || !Array.isArray(p.answers) || p.answers.length !== total) return null;
+  return p;
+}
+function clearProgress(id){
+  const m = allProgress(); delete m[id]; writeProgress(m);
+}
+function progressBadge(id, total){
+  const p = loadProgress(id, total);
+  return p ? `<span class="inprog">${p.done}/${p.total} answered</span>` : '';
+}
+
 let CURRENT_QUIZ = null, QUIZ_ANSWERS = [], QUIZ_SUBMITTED = false;
 
 async function fetchQuizzes(){
@@ -2512,20 +2652,30 @@ function driveItem(q){
         <div class="item-d"><span class="sys">${esc((q.created||'').slice(0,10))}</span></div>
         ${bar}
         <div class="row" style="margin-top:8px">
-          <button class="mini" data-quiz="${q.id}">${runs.length ? 'Retake' : 'Start'}</button>
+          <button class="mini" data-quiz="${q.id}">${
+            loadProgress(q.id, Number(q.count||0)) ? 'Resume' : (runs.length ? 'Retake' : 'Start')}</button>
+          ${loadProgress(q.id, Number(q.count||0))
+            ? `<button class="mini" data-quiz-restart="${q.id}">Restart</button>` : ''}
+          <button class="mini danger" data-del-quiz="${q.id}" data-del-title="${esc(q.title||'this quiz')}">Delete</button>
         </div>
       </div>`;
 }
 
 ['quizList','ppList'].forEach(id => $(id).addEventListener('click', async e => {
-  const id = e.target.dataset.quiz;
+  const t = e.target;
+  if(t.dataset.delQuiz){
+    return confirmDelete({ driveId:t.dataset.delQuiz, title:t.dataset.delTitle,
+                           permanent:true, after:fetchQuizzes });
+  }
+  const restartId = t.dataset.quizRestart;
+  const id = t.dataset.quiz || restartId;
   if(!id) return;
   e.target.textContent = 'Loading…';
   try{
     const r = await fetch(`${SYNC_URL}?token=${encodeURIComponent(token())}&action=getQuiz&id=${id}`);
     const q = await r.json();
     if(q.error) throw new Error(q.error);
-    startQuiz(q, id);
+    startQuiz(q, id, restartId ? 'restart' : undefined);
   }catch(err){ e.target.textContent = 'Failed'; }
 }));
 
@@ -2552,9 +2702,15 @@ $('quizAdd').onclick = async () => {
   }
 };
 
-function startQuiz(quiz, id){
+function startQuiz(quiz, id, mode){
   CURRENT_QUIZ = quiz; CURRENT_QUIZ.id = id;
-  QUIZ_ANSWERS = new Array(quiz.questions.length).fill(null);
+  const saved = loadProgress(id, quiz.questions.length);
+  if(saved && mode !== 'restart'){
+    QUIZ_ANSWERS = saved.answers.slice();
+  }else{
+    if(mode === 'restart') clearProgress(id);
+    QUIZ_ANSWERS = new Array(quiz.questions.length).fill(null);
+  }
   QUIZ_SUBMITTED = false;
   $('quizBank').hidden = true;
   $('quizPlayer').hidden = false;
@@ -2577,6 +2733,10 @@ function renderPlayer(){
       <div class="panel-h">${esc(q.title)} — ${q.questions.length} questions</div>
       <div class="prog-track"><div class="prog-fill" style="width:${done/q.questions.length*100}%"></div></div>
       <div class="prog-text"><span>${done} answered</span><span>of ${q.questions.length}</span></div>
+      ${done && !QUIZ_SUBMITTED ? `<div class="row" style="margin-top:10px">
+        <button class="mini" id="pRestart">Restart — clear these answers</button>
+        <span class="attempts">Saved on this device. Nothing counts until you submit.</span>
+      </div>` : ''}
     </div>
     ${q.questions.map((qq,i) => `
       <div class="panel qcard" id="qc${i}">
@@ -2599,15 +2759,22 @@ function renderPlayer(){
   $('quizPlayer').querySelectorAll('.opt').forEach(el => el.onclick = () => {
     if(QUIZ_SUBMITTED) return;
     QUIZ_ANSWERS[+el.dataset.q] = +el.dataset.o;
+    saveProgress(CURRENT_QUIZ.id, QUIZ_ANSWERS, CURRENT_QUIZ.questions.length, CURRENT_QUIZ.title);
     renderPlayer();
     $('qc'+el.dataset.q).scrollIntoView({block:'nearest'});
   });
   $('pExit').onclick = exitQuiz;
   $('pSubmit').onclick = submitQuiz;
+  const rs = $('pRestart');
+  if(rs) rs.onclick = () => {
+    if(!confirm('Clear your answers for this quiz and start again?')) return;
+    startQuiz(CURRENT_QUIZ, CURRENT_QUIZ.id, 'restart');
+  };
 }
 
 async function submitQuiz(){
   QUIZ_SUBMITTED = true;
+  clearProgress(CURRENT_QUIZ.id);
   const q = CURRENT_QUIZ;
   let correct = 0; const byTopic = {}; const flags = []; const misses = []; const byDiff = {};
 
