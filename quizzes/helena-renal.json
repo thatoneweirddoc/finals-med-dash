@@ -1,0 +1,176 @@
+{
+ "title": "Renal",
+ "system": "Renal",
+ "questions": [
+  {
+   "stem": "A 58-year-old man is admitted with a three-day history of vomiting and reduced oral intake. Creatinine has risen from a baseline of 82 to 198 µmol/L (60-110). Urine output over the last 8 hours is 0.4 mL/kg/hr.",
+   "lead": "What KDIGO stage of acute kidney injury does his creatinine indicate?",
+   "options": [
+    "Stage 1",
+    "Stage 2",
+    "Stage 3",
+    "Does not meet AKI criteria",
+    "Cannot be staged without a urine output over 12 hours"
+   ],
+   "correct": 1,
+   "explanation": "Creatinine has risen to <b>2.4× baseline</b> (82 → 198), which falls in the <b>2.0-2.9× band = Stage 2</b>. Stage 1 is 1.5-1.9× or a rise of ≥26.5 µmol/L; Stage 3 needs ≥3.0×, creatinine ≥353.6, or starting RRT. His urine output of <0.5 mL/kg/hr for 8 hours meets Stage 1 by that criterion — and when creatinine and urine criteria disagree, <b>the higher stage applies</b>.",
+   "point": "KDIGO Stage 2 AKI is a creatinine rise of 2.0-2.9 times baseline, and when criteria disagree the higher stage applies.",
+   "topic": "Renal — acute kidney injury",
+   "type": "application",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "The same patient's urinary sodium is 14 mmol/L and urine osmolality 640 mOsm/kg. There is no hydronephrosis on ultrasound.",
+   "lead": "What is the most likely cause of his AKI?",
+   "options": [
+    "Pre-renal from hypovolaemia",
+    "Acute tubular necrosis",
+    "Acute interstitial nephritis",
+    "Post-renal obstruction",
+    "Rapidly progressive glomerulonephritis"
+   ],
+   "correct": 0,
+   "explanation": "<b>Low urinary sodium (<20) with concentrated urine (>500 mOsm/kg)</b> means the tubules are intact and appropriately conserving salt and water — the kidney is responding correctly to hypovolaemia, so this is <b>pre-renal</b>. In established ATN the tubules have failed: urinary sodium rises above 40 and the urine becomes inappropriately dilute. Normal imaging excludes obstruction.",
+   "point": "Pre-renal AKI shows urinary sodium under 20 with concentrated urine; ATN shows urinary sodium over 40 with dilute urine.",
+   "topic": "Renal — acute kidney injury",
+   "type": "discrimination",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A 12-year-old boy develops dark urine two days into a sore throat. BP is 112/70, urinalysis shows blood 3+ and protein 1+, and complement C3 is normal.",
+   "lead": "What is the most likely diagnosis?",
+   "options": [
+    "Post-streptococcal glomerulonephritis",
+    "IgA nephropathy",
+    "Alport syndrome",
+    "Thin basement membrane disease",
+    "Minimal change disease"
+   ],
+   "correct": 1,
+   "explanation": "Haematuria appearing <b>during</b> the infection — synpharyngitic, within 1-2 days — with a <b>normal C3</b> is <b>IgA nephropathy</b>. Post-streptococcal GN occurs <b>1-2 weeks after</b> the infection, with a <b>low C3</b> that normalises by 6-8 weeks, and usually hypertension and oedema. Timing and complement together decide it; either alone is insufficient.",
+   "point": "IgA nephropathy causes haematuria during infection with normal C3; post-streptococcal GN follows 1-2 weeks later with low C3.",
+   "topic": "Renal — glomerulonephritis",
+   "type": "discrimination",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A 5-year-old presents with periorbital oedema and frothy urine. Urine protein-to-creatinine ratio is markedly elevated, serum albumin is 18 g/L (35-50), and cholesterol is raised. Blood pressure is normal and there is no haematuria.",
+   "lead": "What is the most appropriate initial management?",
+   "options": [
+    "Renal biopsy before any treatment",
+    "Empirical corticosteroids",
+    "ACE inhibitor alone",
+    "Intravenous cyclophosphamide",
+    "Watchful waiting"
+   ],
+   "correct": 1,
+   "explanation": "This is <b>nephrotic syndrome</b> in a child — heavy proteinuria, hypoalbuminaemia, oedema and hyperlipidaemia. <b>Minimal change disease accounts for the large majority in this age group and responds to corticosteroids</b>, so treatment is started empirically and <b>biopsy is reserved for atypical features</b>: age under 1 or over 12, hypertension, haematuria, renal impairment, low complement, or steroid resistance. None of those are present.",
+   "point": "Childhood nephrotic syndrome is treated with empirical corticosteroids, with biopsy reserved for atypical features or steroid resistance.",
+   "topic": "Renal — glomerular disease",
+   "type": "application",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A 70-year-old man on ramipril and spironolactone is admitted with diarrhoea. Potassium is 7.1 mmol/L (3.5-5.2). The ECG shows peaked T waves with a broadening QRS.",
+   "lead": "What is the first drug to administer?",
+   "options": [
+    "IV insulin with dextrose",
+    "IV calcium gluconate",
+    "Nebulised salbutamol",
+    "Oral sodium polystyrene sulfonate",
+    "IV sodium bicarbonate"
+   ],
+   "correct": 1,
+   "explanation": "<b>Calcium gluconate first.</b> It does not lower potassium at all, but stabilises the cardiac membrane within minutes and reduces the risk of fatal arrhythmia. Insulin-dextrose and salbutamol then <b>shift</b> potassium intracellularly, and resonium or dialysis <b>remove</b> it. The sequence is <b>protect the heart, shift, remove</b>. Also stop the ACE inhibitor and spironolactone, both of which are contributing.",
+   "point": "In hyperkalaemia with ECG changes, calcium gluconate is given first to stabilise the myocardium.",
+   "topic": "Renal — electrolytes",
+   "type": "recall",
+   "difficulty": "easy"
+  },
+  {
+   "stem": "A 68-year-old woman with heart failure is admitted with confusion. Sodium is 118 mmol/L (135-145). She is clinically hypervolaemic with peripheral oedema and raised JVP.",
+   "lead": "What is the most appropriate management of her hyponatraemia?",
+   "options": [
+    "Fluid restriction and treatment of the heart failure",
+    "Rapid correction with hypertonic saline to normal",
+    "0.9% sodium chloride infusion",
+    "Desmopressin",
+    "Salt tablets"
+   ],
+   "correct": 0,
+   "explanation": "<b>Hypervolaemic hyponatraemia</b> — total body sodium is high but water is higher still. Treatment is <b>fluid restriction plus treating the underlying cause</b>, here the heart failure, with a loop diuretic. Giving saline adds to the overload. Hypertonic saline is reserved for <b>severe symptoms such as seizures or coma</b>, given cautiously, and correction must not exceed roughly <b>8-10 mmol/L in 24 hours</b> because of the risk of osmotic demyelination.",
+   "point": "Hypervolaemic hyponatraemia is treated with fluid restriction and treatment of the underlying cause, not saline.",
+   "topic": "Renal — electrolytes",
+   "type": "application",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A 62-year-old man with type 2 diabetes has an eGFR of 44 mL/min/1.73m² and a urine albumin-to-creatinine ratio of 38 mg/mmol (normal <3.5) on two occasions. His blood pressure is 148/86.",
+   "lead": "Which combination gives the greatest protection against progression of his kidney disease?",
+   "options": [
+    "ACE inhibitor plus SGLT2 inhibitor",
+    "Calcium channel blocker plus sulfonylurea",
+    "Beta-blocker plus loop diuretic",
+    "Dual ACE inhibitor and ARB blockade",
+    "Sulfonylurea plus thiazide"
+   ],
+   "correct": 0,
+   "explanation": "An <b>ACE inhibitor or ARB</b> at maximum tolerated dose reduces intraglomerular pressure and proteinuria, and an <b>SGLT2 inhibitor</b> slows progression and reduces cardiovascular events independently of glycaemic control — together they are the current standard in albuminuric diabetic kidney disease. <b>Combining an ACE inhibitor with an ARB is harmful</b>, increasing hyperkalaemia and AKI without benefit. Expect a small eGFR dip on starting the SGLT2 inhibitor; it is haemodynamic and not a reason to stop.",
+   "point": "Albuminuric diabetic kidney disease is treated with an ACE inhibitor or ARB plus an SGLT2 inhibitor; dual ACE inhibitor and ARB blockade is harmful.",
+   "topic": "Renal — chronic kidney disease",
+   "type": "application",
+   "difficulty": "hard"
+  },
+  {
+   "stem": "A 45-year-old woman has recurrent renal colic. She has bilateral flank masses on examination, hypertension, and a family history of kidney disease in her father and brother. Ultrasound shows multiple bilateral renal cysts.",
+   "lead": "Which extrarenal complication most warrants specific consideration?",
+   "options": [
+    "Intracranial berry aneurysm",
+    "Pulmonary fibrosis",
+    "Sensorineural hearing loss",
+    "Retinitis pigmentosa",
+    "Peripheral neuropathy"
+   ],
+   "correct": 0,
+   "explanation": "<b>Autosomal dominant polycystic kidney disease</b> — bilateral cysts, hypertension, flank masses, dominant family history. The association to know is <b>intracranial berry aneurysm</b>, with screening considered where there is a family history of subarachnoid haemorrhage. Also expect hepatic cysts, mitral valve prolapse, and diverticular disease. <b>Sensorineural hearing loss belongs to Alport syndrome</b>, which is the distractor here.",
+   "point": "ADPKD is associated with intracranial berry aneurysms; sensorineural hearing loss belongs to Alport syndrome.",
+   "topic": "Renal — inherited disease",
+   "type": "discrimination",
+   "difficulty": "hard"
+  },
+  {
+   "stem": "A 76-year-old man with CKD stage 4 (eGFR 21 mL/min/1.73m²) has a haemoglobin of 89 g/L. Ferritin is 220 µg/L, transferrin saturation 26%, B12 and folate normal, and there is no evidence of bleeding.",
+   "lead": "What is the appropriate next step?",
+   "options": [
+    "Oral iron supplementation",
+    "An erythropoiesis-stimulating agent",
+    "Urgent colonoscopy",
+    "Blood transfusion",
+    "Corticosteroids"
+   ],
+   "correct": 1,
+   "explanation": "<b>Anaemia of chronic kidney disease</b>, from reduced renal erythropoietin production — typically appearing once eGFR falls below about 30. Iron stores here are adequate for CKD targets (<b>ferritin >100 and transferrin saturation >20%</b>), so this is not iron deficiency and iron alone will not help. Treatment is an <b>erythropoiesis-stimulating agent</b>, given only once iron sufficiency is confirmed, since an ESA cannot work without substrate.",
+   "point": "Anaemia of chronic kidney disease is due to erythropoietin deficiency and treated with an ESA once iron stores are confirmed adequate.",
+   "topic": "Renal — chronic kidney disease",
+   "type": "application",
+   "difficulty": "hard"
+  },
+  {
+   "stem": "A 60-year-old man on haemodialysis has missed his last two sessions. He is breathless, with a pericardial rub, and potassium is 6.8 mmol/L with a pH of 7.18. Chest examination reveals crackles to the mid-zones.",
+   "lead": "What is the indication for urgent dialysis in this presentation?",
+   "options": [
+    "Only the hyperkalaemia",
+    "Only the fluid overload",
+    "Refractory hyperkalaemia, acidosis, fluid overload and uraemic pericarditis together",
+    "The missed sessions alone",
+    "No urgent indication is present"
+   ],
+   "correct": 2,
+   "explanation": "The indications for urgent renal replacement therapy are remembered as <b>AEIOU</b>: <b>A</b>cidosis (refractory), <b>E</b>lectrolytes (refractory hyperkalaemia), <b>I</b>ntoxication (dialysable toxins), <b>O</b>verload (refractory pulmonary oedema), <b>U</b>raemia (pericarditis or encephalopathy). This patient meets <b>four of the five</b>. A pericardial rub in a dialysis patient is uraemic pericarditis and is itself a dialysis indication — it also risks tamponade.",
+   "point": "Urgent dialysis indications are acidosis, electrolytes, intoxication, overload and uraemia, remembered as AEIOU.",
+   "topic": "Renal — renal replacement therapy",
+   "type": "application",
+   "difficulty": "easy"
+  }
+ ]
+}
