@@ -1,0 +1,306 @@
+{
+ "title": "Surgery — part 2",
+ "system": "Surgery",
+ "questions": [
+  {
+   "stem": "A 55-year-old man has severe epigastric pain radiating to the back after a heavy drinking binge. Lipase is 8× the upper limit. On day 3 he becomes hypoxic with bilateral infiltrates on CXR.",
+   "lead": "What has developed?",
+   "options": [
+    "Aspiration pneumonia",
+    "Acute respiratory distress syndrome",
+    "Pulmonary embolism",
+    "Pneumothorax"
+   ],
+   "correct": 1,
+   "explanation": "Severe pancreatitis triggers a systemic inflammatory response causing <b>ARDS</b> — a leading early cause of death. Berlin criteria: onset within a week of a known insult, bilateral infiltrates not explained by cardiac failure, and hypoxaemia graded by P/F ratio. Manage with lung-protective ventilation at 6mL/kg predicted body weight.",
+   "topic": "Surgery — hepatobiliary",
+   "type": "application",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A 62-year-old woman has a 3-day history of colicky abdominal pain, vomiting and distension. She has a midline laparotomy scar. Abdominal X-ray shows dilated small bowel loops with valvulae conniventes and no gas in the rectum.",
+   "lead": "What is the most likely cause?",
+   "options": [
+    "Adhesions",
+    "Colorectal malignancy",
+    "Sigmoid volvulus",
+    "Paralytic ileus"
+   ],
+   "correct": 0,
+   "explanation": "<b>Adhesions</b> cause roughly 60–75% of small bowel obstruction in the developed world, and a previous laparotomy scar is the clue. Valvulae conniventes cross the full bowel width (small bowel); haustra do not (large bowel). Initial management is 'drip and suck' — NBM, IV fluids, NG decompression — with surgery for strangulation or failure to resolve.",
+   "topic": "Surgery — general",
+   "type": "recall",
+   "difficulty": "easy"
+  },
+  {
+   "stem": "An 80-year-old nursing home resident presents with abdominal distension, constipation and a tympanic abdomen. AXR shows a massively dilated loop arising from the pelvis extending to the right upper quadrant, resembling a coffee bean.",
+   "lead": "What is the diagnosis and initial management?",
+   "options": [
+    "Caecal volvulus; urgent laparotomy",
+    "Sigmoid volvulus; flexible sigmoidoscopic decompression",
+    "Small bowel obstruction; NG tube and fluids",
+    "Pseudo-obstruction; neostigmine"
+   ],
+   "correct": 1,
+   "explanation": "The <b>coffee bean sign</b> pointing to the right upper quadrant from the pelvis is <b>sigmoid volvulus</b>, common in elderly institutionalised patients with chronic constipation. First-line treatment is <b>endoscopic decompression with a flatus tube</b>, successful in most cases. Surgery is for failed decompression, peritonism, or ischaemia. Caecal volvulus points the other way and needs surgery.",
+   "topic": "Surgery — colorectal",
+   "type": "discrimination",
+   "difficulty": "hard"
+  },
+  {
+   "stem": "A 45-year-old man presents with severe anal pain on defecation and bright red blood on the paper. Examination is limited by pain; there is a tear in the posterior midline.",
+   "lead": "What is the first-line management?",
+   "options": [
+    "Urgent lateral internal sphincterotomy",
+    "Topical GTN or diltiazem plus stool softeners and increased fibre",
+    "Rubber band ligation",
+    "Incision and drainage"
+   ],
+   "correct": 1,
+   "explanation": "An <b>anal fissure</b> is managed conservatively first: <b>stool softeners, fibre, sitz baths, and a topical vasodilator</b> (GTN or diltiazem) to relax the internal sphincter and improve blood supply — the posterior midline is relatively ischaemic, which is why fissures occur and persist there. Sphincterotomy is reserved for chronic fissures failing medical therapy, given the incontinence risk.",
+   "topic": "Surgery — colorectal",
+   "type": "recall",
+   "difficulty": "easy"
+  },
+  {
+   "stem": "A 30-year-old man has a painful, fluctuant, erythematous swelling in the natal cleft with a visible midline pit and protruding hair.",
+   "lead": "What is the diagnosis and immediate management?",
+   "options": [
+    "Perianal abscess; incision and drainage",
+    "Pilonidal abscess; incision and drainage",
+    "Anal fistula; seton insertion",
+    "Hidradenitis suppurativa; antibiotics"
+   ],
+   "correct": 1,
+   "explanation": "A <b>pilonidal abscess</b> — midline natal cleft pits with hair are pathognomonic. Acute management is <b>incision and drainage</b>; antibiotics alone will not resolve a collection. Definitive excision is considered later for recurrent disease. Risk factors: young males, hirsutism, prolonged sitting, obesity.",
+   "topic": "Surgery — colorectal",
+   "type": "recall",
+   "difficulty": "easy"
+  },
+  {
+   "stem": "A 68-year-old man has painless macroscopic haematuria. He is a lifelong smoker. Urine culture is negative and there is no proteinuria.",
+   "lead": "What is the essential next step?",
+   "options": [
+    "Repeat urinalysis in 3 months",
+    "Trial of antibiotics",
+    "Urgent CT urogram and cystoscopy",
+    "Renal biopsy"
+   ],
+   "correct": 2,
+   "explanation": "<b>Painless visible haematuria in an adult is urothelial malignancy until proven otherwise</b>, particularly with a smoking history (the dominant risk factor for bladder cancer, alongside aromatic amines). Investigation requires <b>upper tract imaging (CT urogram) plus cystoscopy</b> — imaging alone misses bladder lesions, and cystoscopy alone misses upper tract tumours.",
+   "topic": "Surgery — urology",
+   "type": "application",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A 70-year-old man cannot pass urine for 12 hours and has suprapubic pain. Bladder scan shows 900mL. He has a long history of poor stream and nocturia. Creatinine is normal.",
+   "lead": "What is the immediate management?",
+   "options": [
+    "Urethral catheterisation",
+    "Suprapubic catheterisation",
+    "Tamsulosin and review in 48 hours",
+    "Urgent TURP"
+   ],
+   "correct": 0,
+   "explanation": "<b>Acute urinary retention</b> — decompress with a <b>urethral catheter</b>. Watch for <b>post-obstructive diuresis</b> in high-volume or chronic retention, and monitor renal function and electrolytes. Start an alpha-blocker (tamsulosin) before a trial without catheter, which improves success. Suprapubic catheterisation is for failed urethral attempts or urethral injury.",
+   "topic": "Surgery — urology",
+   "type": "application",
+   "difficulty": "easy"
+  },
+  {
+   "stem": "A 55-year-old woman undergoes thyroidectomy. In recovery she develops rapidly increasing neck swelling, difficulty breathing and stridor.",
+   "lead": "What is the immediate action?",
+   "options": [
+    "Urgent CT neck",
+    "Open the wound at the bedside to release the haematoma",
+    "IV dexamethasone and observe",
+    "Nebulised adrenaline"
+   ],
+   "correct": 1,
+   "explanation": "<b>Post-thyroidectomy haematoma</b> compressing the airway is a surgical emergency — <b>open the wound immediately at the bedside</b> to evacuate the clot, before any imaging or transfer to theatre. Waiting for CT or attempting medical management risks complete airway obstruction. Every thyroidectomy patient should have clip removers or a suture cutter at the bedside.",
+   "topic": "Surgery — endocrine",
+   "type": "application",
+   "difficulty": "hard"
+  },
+  {
+   "stem": "A 74-year-old man presents with sudden severe central abdominal pain, out of proportion to examination findings. He is in atrial fibrillation. Lactate is 4.8 and there is a metabolic acidosis. The abdomen is soft.",
+   "lead": "What is the most likely diagnosis?",
+   "options": [
+    "Perforated peptic ulcer",
+    "Acute mesenteric ischaemia",
+    "Acute pancreatitis",
+    "Diverticulitis"
+   ],
+   "correct": 1,
+   "explanation": "<b>Pain out of proportion to a soft abdomen</b>, with AF (embolic source, typically superior mesenteric artery) and a <b>raised lactate with metabolic acidosis</b>, is acute mesenteric ischaemia. Diagnosis is <b>CT angiography</b> and treatment is urgent revascularisation ± resection of necrotic bowel. Mortality is high and the diagnosis is classically delayed because early examination is unremarkable.",
+   "topic": "Surgery — vascular",
+   "type": "discrimination",
+   "difficulty": "hard"
+  },
+  {
+   "stem": "A 40-year-old woman has intermittent right upper quadrant pain after fatty meals, lasting a few hours and settling spontaneously. She is afebrile with normal bloods. Ultrasound shows gallstones, a normal wall thickness and no duct dilatation.",
+   "lead": "What is the diagnosis?",
+   "options": [
+    "Acute cholecystitis",
+    "Biliary colic",
+    "Ascending cholangitis",
+    "Choledocholithiasis"
+   ],
+   "correct": 1,
+   "explanation": "<b>Biliary colic</b> — self-limiting postprandial pain from transient cystic duct obstruction, with <b>no fever, no inflammatory markers, and a normal gallbladder wall</b>. Acute cholecystitis adds fever, leucocytosis, a thickened wall and Murphy's sign. Cholangitis adds jaundice (Charcot's triad). Management is elective laparoscopic cholecystectomy.",
+   "topic": "Surgery — hepatobiliary",
+   "type": "discrimination",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A 24-year-old man is stabbed in the left chest. He is hypotensive with distended neck veins and muffled heart sounds. Breath sounds are equal bilaterally.",
+   "lead": "What is the diagnosis?",
+   "options": [
+    "Tension pneumothorax",
+    "Cardiac tamponade",
+    "Massive haemothorax",
+    "Flail chest"
+   ],
+   "correct": 1,
+   "explanation": "<b>Beck's triad</b> — hypotension, distended neck veins, muffled heart sounds — is <b>cardiac tamponade</b>. <b>Equal breath sounds distinguish it from tension pneumothorax</b>, which also causes hypotension and distended veins but with absent breath sounds and tracheal deviation. Management is pericardiocentesis or, preferably in trauma, urgent thoracotomy.",
+   "topic": "Surgery — trauma",
+   "type": "discrimination",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A 60-year-old woman is 2 days post hemicolectomy. She has not passed flatus, has a distended silent abdomen, and mild nausea. AXR shows gas throughout small and large bowel without a transition point.",
+   "lead": "What is the most likely diagnosis?",
+   "options": [
+    "Mechanical small bowel obstruction",
+    "Post-operative ileus",
+    "Anastomotic leak",
+    "Ogilvie syndrome"
+   ],
+   "correct": 1,
+   "explanation": "<b>Post-operative ileus</b> — gas distributed throughout <b>both</b> small and large bowel with <b>no transition point</b>, and a silent (not tinkling) abdomen. Mechanical obstruction shows a transition point with collapsed distal bowel and hyperactive bowel sounds. Management is supportive: correct electrolytes (particularly potassium and magnesium), minimise opioids, mobilise, NG tube if vomiting.",
+   "topic": "Surgery — perioperative",
+   "type": "discrimination",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A 35-year-old woman notices a breast lump. It is hard, irregular, and tethered to the skin, with a palpable axillary node.",
+   "lead": "What is the correct diagnostic approach?",
+   "options": [
+    "Ultrasound alone",
+    "Triple assessment — clinical examination, imaging, and core biopsy",
+    "Fine needle aspiration alone",
+    "Observe for 3 months"
+   ],
+   "correct": 1,
+   "explanation": "All breast lumps are assessed by <b>triple assessment</b>: clinical examination, imaging (<b>ultrasound under 35, plus mammography if older</b>), and <b>core biopsy</b> — core is preferred over FNA because it distinguishes invasive from in situ disease and provides receptor status. Hard, irregular, tethered lumps with nodal disease are highly suspicious and must not be observed.",
+   "topic": "Surgery — breast",
+   "type": "application",
+   "difficulty": "easy"
+  },
+  {
+   "stem": "A 58-year-old man has an ulcer over the medial malleolus with irregular sloping edges, surrounding haemosiderin staining and lipodermatosclerosis. Pedal pulses are palpable. ABPI is 1.0.",
+   "lead": "What is the diagnosis and key management?",
+   "options": [
+    "Arterial ulcer; revascularisation",
+    "Venous ulcer; compression bandaging",
+    "Neuropathic ulcer; offloading",
+    "Malignant ulcer; biopsy and excision"
+   ],
+   "correct": 1,
+   "explanation": "Medial malleolus (gaiter area), sloping edges, haemosiderin staining and lipodermatosclerosis with <b>normal pulses and ABPI</b> is a <b>venous ulcer</b> — treated with <b>graduated compression</b>. Compression is the key intervention and is <b>only safe once arterial disease is excluded</b> (ABPI >0.8), which is exactly why the ABPI is given. Arterial ulcers are punched-out, painful, on pressure points and toes, with absent pulses.",
+   "topic": "Surgery — vascular",
+   "type": "discrimination",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A 66-year-old man with a 40 pack-year history has intermittent claudication in the calf at 100m, relieved by rest. ABPI is 0.6. He has no rest pain or tissue loss.",
+   "lead": "What is the initial management?",
+   "options": [
+    "Urgent angiography and bypass",
+    "Supervised exercise therapy, smoking cessation, statin and antiplatelet",
+    "Immediate amputation planning",
+    "Anticoagulation with warfarin"
+   ],
+   "correct": 1,
+   "explanation": "Stable claudication without critical limb ischaemia is managed with <b>best medical therapy first</b>: supervised exercise (the single most effective intervention for walking distance), smoking cessation, statin, antiplatelet, and BP/diabetes control. Revascularisation is reserved for lifestyle-limiting symptoms failing conservative management, or <b>critical limb ischaemia</b> — rest pain, ulceration, or gangrene.",
+   "topic": "Surgery — vascular",
+   "type": "application",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A 25-year-old man has a painless swelling in the scrotum that transilluminates and which you can get above on examination. The testis is not separately palpable.",
+   "lead": "What is the diagnosis?",
+   "options": [
+    "Inguinal hernia",
+    "Hydrocele",
+    "Varicocele",
+    "Testicular tumour"
+   ],
+   "correct": 1,
+   "explanation": "<b>Transilluminates</b> and you can <b>get above it</b> = <b>hydrocele</b> (fluid in the tunica vaginalis). If you cannot get above the swelling, think inguinoscrotal hernia. A varicocele feels like a 'bag of worms' and does not transilluminate. Important caveat: a new hydrocele in a young man warrants <b>ultrasound to exclude an underlying testicular tumour</b>.",
+   "topic": "Surgery — urology",
+   "type": "discrimination",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A 72-year-old man on the ward develops sudden severe abdominal pain. He is rigid with absent bowel sounds. Erect CXR shows free air under the diaphragm.",
+   "lead": "What is the diagnosis and immediate management?",
+   "options": [
+    "Perforated viscus; resuscitation, antibiotics and urgent laparotomy",
+    "Pancreatitis; conservative management",
+    "Bowel obstruction; NG tube and observation",
+    "Ileus; correct electrolytes"
+   ],
+   "correct": 0,
+   "explanation": "<b>Pneumoperitoneum with peritonitis</b> is a perforated viscus — commonly perforated peptic ulcer or diverticulum. Management is <b>resuscitation, broad-spectrum antibiotics, analgesia, NG tube and urgent laparotomy</b>. Note that free air is absent in around 20–30% of perforations, so a normal erect CXR does not exclude it — CT is more sensitive.",
+   "topic": "Surgery — general",
+   "type": "application",
+   "difficulty": "easy"
+  },
+  {
+   "stem": "A 45-year-old woman is 6 hours post laparoscopic cholecystectomy. She has increasing abdominal pain, tachycardia, and a rising lactate. Bilirubin is rising.",
+   "lead": "What is the most concerning complication?",
+   "options": [
+    "Normal post-operative pain",
+    "Bile duct injury with biliary peritonitis",
+    "Port site hernia",
+    "Retained stone"
+   ],
+   "correct": 1,
+   "explanation": "<b>Bile duct injury</b> is the most feared complication of laparoscopic cholecystectomy (roughly 0.3–0.5%). Bile leak causes chemical peritonitis with pain out of proportion, tachycardia, rising lactate and deranged LFTs. Investigate with CT and MRCP/ERCP; management ranges from ERCP stenting to hepaticojejunostomy. Early recognition markedly improves outcome.",
+   "topic": "Surgery — hepatobiliary",
+   "type": "application",
+   "difficulty": "hard"
+  },
+  {
+   "stem": "A 30-year-old woman has a firm 2cm lump in the upper outer quadrant of the breast, present for 4 months, mobile and non-tender. Ultrasound shows a well-circumscribed hypoechoic lesion with smooth margins. Core biopsy confirms a fibroadenoma.",
+   "lead": "What is the appropriate management?",
+   "options": [
+    "Wide local excision",
+    "Mastectomy",
+    "Reassurance, with excision only if symptomatic, enlarging or patient preference",
+    "Radiotherapy"
+   ],
+   "correct": 2,
+   "explanation": "A biopsy-proven <b>fibroadenoma</b> is benign and can be safely observed once triple assessment is concordant. Excision is offered for size >3cm, growth, patient preference, or diagnostic uncertainty. Note the importance of <b>concordance</b>: if imaging or clinical findings were suspicious despite a benign biopsy, further assessment would be required rather than reassurance.",
+   "topic": "Surgery — breast",
+   "type": "application",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A 78-year-old woman with a fractured neck of femur is booked for surgery. She takes apixaban for AF, last dose 14 hours ago. CrCl is 45 mL/min.",
+   "lead": "What is the most appropriate approach?",
+   "options": [
+    "Proceed immediately; hip fracture surgery overrides anticoagulation concerns",
+    "Bridge with therapeutic LMWH",
+    "Balance the interruption interval against the harm of delaying hip fracture surgery, with multidisciplinary input",
+    "Give andexanet alfa routinely before surgery"
+   ],
+   "correct": 2,
+   "explanation": "Two competing evidence-based imperatives: hip fracture outcomes worsen with <b>delay beyond 48 hours</b>, but this is high bleeding-risk surgery where the standard apixaban interval is <b>48 hours</b>, extended further with CrCl <50. The correct answer is an explicit <b>multidisciplinary trade-off</b>, not a rule. <b>Bridging is never used with DOACs</b>, and andexanet is reserved for life-threatening bleeding, not routine pre-op reversal.",
+   "topic": "Surgery — perioperative",
+   "type": "application",
+   "difficulty": "hard"
+  }
+ ]
+}
