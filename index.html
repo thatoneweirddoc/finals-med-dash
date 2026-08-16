@@ -1024,36 +1024,63 @@
       });
     }
   }
+  // Current selections, so they can be handed to the tracker and travel with the
+  // token to another device rather than being stuck in this browser.
+  var STATE = { theme:'auto', font:'default', ink:'default' };
+  var SETTERS = {};
+  window.APPEARANCE = {
+    get: function(){ return { theme:STATE.theme, font:STATE.font, ink:STATE.ink }; },
+    // silent = applying what the tracker already knows, so don't echo it back
+    set: function(p, silent){
+      if(!p) return;
+      ['theme','font','ink'].forEach(function(k){
+        if(p[k] && p[k] !== STATE[k] && SETTERS[k]) SETTERS[k](p[k], silent !== false);
+      });
+    },
+    onChange: null
+  };
+  function changed(){
+    if(window.APPEARANCE.onChange) window.APPEARANCE.onChange(window.APPEARANCE.get());
+  }
+
+  SETTERS.theme = function(mode, silent){
+    STATE.theme = mode;
+    writePref(KEY_T, mode);
+    apply(mode);
+    if(!silent) changed();
+  };
+
   btns.forEach(function(b){
-    b.addEventListener('click', function(){
-      writePref(KEY_T, b.dataset.themeSet);
-      apply(b.dataset.themeSet);
-    });
+    b.addEventListener('click', function(){ SETTERS.theme(b.dataset.themeSet, false); });
   });
   var saved = 'auto';
   try{ saved = readPref(KEY_T) || 'auto'; }catch(e){}
-  apply(saved);
+  SETTERS.theme(saved, true);
 
   // Typeface and text-weight work the same way: a data-attribute on <html> that
   // swaps CSS variables, remembered per device. 'default' clears the attribute.
   function pref(attr, key, sel, dataKey){
     var group = document.querySelectorAll(sel);
-    function set(v){
+    function paint(v){
       if(!v || v === 'default'){ delete root.dataset[attr]; } else { root.dataset[attr] = v; }
       group.forEach(function(b){
         b.setAttribute('aria-pressed', String((b.dataset[dataKey] || 'default') === (v || 'default')));
       });
     }
+    SETTERS[attr] = function(v, silent){
+      STATE[attr] = v;
+      writePref(key, v);
+      paint(v);
+      if(!silent) changed();
+    };
     group.forEach(function(b){
       b.addEventListener('click', function(){
-        var v = b.dataset[dataKey] || 'default';
-        writePref(key, v);
-        set(v);
+        SETTERS[attr](b.dataset[dataKey] || 'default', false);
       });
     });
     var v = 'default';
     try{ v = readPref(key) || 'default'; }catch(e){}
-    set(v);
+    SETTERS[attr](v, true);
   }
   pref('font', 'finals_font', '[data-font]', 'font');
   pref('ink',  'finals_ink',  '[data-ink]',  'ink');
@@ -1224,6 +1251,7 @@ function fromDrive(d){
     misses: d.recent_misses || [],
     history: d.quiz_history || [],
     hidden: d.hidden || [],
+    prefs: d.prefs || null,
     links: d.links || []
   };
 }
@@ -1236,6 +1264,7 @@ function toDrive(s){
     recent_misses: s.misses || [],
     quiz_history: s.history || [],
     hidden: s.hidden || [],
+    prefs: s.prefs || null,
     links: s.links || []
   };
 }
@@ -1264,6 +1293,9 @@ async function pull(){
       S = JSON.parse(JSON.stringify(SEED));
     }
     cacheSet(JSON.stringify(S));
+    // Appearance travels with the token: applied here so connecting on a new
+    // device restores the look you last chose, rather than that browser's.
+    if(S.prefs && window.APPEARANCE) window.APPEARANCE.set(S.prefs, true);
     SYNCED = true;
     setSync(`Synced · ${u.name}${d.updated ? ' · ' + d.updated : ''}`, 'ok');
     return true;
@@ -3145,6 +3177,17 @@ document.addEventListener('keydown', e => {
   if(e.key === 'Escape' && !$('brkBack').hidden) brkClose();
 });
 
+
+/* Appearance changes are saved against the token, not the browser, so the theme
+ * follows you to another device. Written straight to the tracker — it is a tiny
+ * field and a change is a deliberate, infrequent act, so there is no debounce.
+ */
+if(window.APPEARANCE){
+  window.APPEARANCE.onChange = prefs => {
+    S.prefs = prefs;
+    if(token()) save();
+  };
+}
 
 load();
 </script>
