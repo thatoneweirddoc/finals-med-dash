@@ -1,0 +1,238 @@
+{
+ "title": "Endocrine",
+ "system": "Endocrine",
+ "created": "2026-08-17",
+ "rationale": "Requested module. Adrenal is your highest-volume weakness at 56% over 27 questions, so this covers the adrenal axis properly and then the rest of the system — thyroid, calcium and diabetes emergencies — which have barely been tested.",
+ "objectives": [
+  "Separate primary from secondary adrenal insufficiency using ACTH and the aldosterone/renin pair.",
+  "Predict the electrolyte and glucose direction of cortisol excess and deficiency in both directions.",
+  "Interpret thyroid function tests including the patterns that do not fit the simple feedback model.",
+  "Manage thyroid emergencies and state why the order of drugs matters in thyroid storm.",
+  "Work up hypercalcaemia by PTH, and treat hypercalcaemia of malignancy in the right order.",
+  "Distinguish DKA from HHS and apply the potassium rule before insulin."
+ ],
+ "sections": [
+  {
+   "heading": "The adrenal axis",
+   "body": "Three layers, and **only two are ACTH-driven** — *salt, sugar, sex; the deeper you go the sweeter it gets*. Zona **glomerulosa** makes aldosterone under **RAAS control**; **fasciculata** makes cortisol under ACTH; **reticularis** makes androgens under ACTH.\n\n| | Primary (Addison's) | Secondary |\n|---|---|---|\n| ACTH | **High** | **Low** |\n| Aldosterone | **Low** | Normal |\n| Renin | **High** | Normal |\n| Potassium | **High** | **Normal** |\n| Pigmentation | Yes | No |\n\n**Potassium is the discriminating electrolyte.** Hyponatraemia occurs in both — salt wasting in primary, loss of cortisol's suppression of ADH in both. Hyperkalaemia needs aldosterone gone, so it is primary only.\n\n**Short Synacthen:** pass is roughly **>430 nmol/L at 30 min** (PathWest), with many labs using >450; older texts say 550. Assay-dependent, so a fair question gives you the range.\n\n**Crisis:** IV/IM hydrocortisone 100 mg plus aggressive saline, immediately, without waiting for confirmatory results. **Fludrocortisone has no role acutely** — stress-dose hydrocortisone supplies ample mineralocorticoid activity.",
+   "note": "ACTH high means primary; hyperkalaemia occurs only in primary because it requires loss of aldosterone.",
+   "link": {
+    "system": "endocrine",
+    "slug": "adrenal-disorders",
+    "title": "Adrenal Disorders"
+   }
+  },
+  {
+   "heading": "Aldosterone and renin — read renin first",
+   "body": "**Aldosterone is high in both primary and secondary aldosteronism, so it carries no information on its own.**\n\n| | Renin | Aldosterone | ARR |\n|---|---|---|---|\n| **Primary (Conn's)** | **Suppressed** | High | **High** |\n| **Secondary** (renal artery stenosis, heart failure, cirrhosis) | **High** | High | Normal |\n| **Addison's** | High | **Low** | — |\n\nIn Conn's the adrenal secretes autonomously; the resulting volume expansion switches renin **off**. High renin means something upstream is driving the system.\n\nPresentation: hypertension with hypokalaemia, often resistant. Confirm with the aldosterone/renin ratio after correcting potassium and, where possible, stopping interfering drugs. Then CT adrenals and **adrenal vein sampling** to distinguish a unilateral adenoma (adrenalectomy) from bilateral hyperplasia (spironolactone).",
+   "note": "Read renin first: suppressed means the adrenal is the problem, high means something upstream is driving it.",
+   "link": {
+    "system": "endocrine",
+    "slug": "adrenal-disorders",
+    "title": "Adrenal Disorders"
+   }
+  },
+  {
+   "heading": "Thyroid — including the patterns that break the rule",
+   "body": "| Pattern | TSH | Free T4 | Meaning |\n|---|---|---|---|\n| Primary hypothyroidism | **High** | Low | Gland failure |\n| Subclinical hypothyroidism | High | Normal | Treat if TSH >10, symptomatic, pregnant, or antibody positive |\n| Primary hyperthyroidism | **Low** | High | Graves', toxic nodule, thyroiditis |\n| **Secondary hypothyroidism** | **Low or normal** | **Low** | **Pituitary** — the trap, because a low TSH looks like hyperthyroidism |\n| Sick euthyroid | Low/normal | Low, low T3 | Non-thyroidal illness — do not treat |\n\n**Graves' vs thyroiditis** decides management and the discriminator is uptake: **diffuse uptake in Graves', absent uptake in thyroiditis**, patchy in multinodular goitre, a hot nodule in toxic adenoma. TRAb confirms Graves'; eye disease and pretibial myxoedema are pathognomonic.\n\n**Thyroid storm — order matters.** Give the **thionamide (propylthiouracil or carbimazole) BEFORE iodine**, because iodine given first provides substrate for further hormone synthesis. Then beta-blocker, corticosteroid (blocks T4→T3 conversion), and treat the precipitant.\n\n**Amiodarone** causes both hypo- and hyperthyroidism, and is worth remembering as a cause when the picture is otherwise puzzling.",
+   "note": "A low TSH with a LOW free T4 is pituitary disease, not hyperthyroidism.",
+   "link": {
+    "system": "endocrine",
+    "slug": "thyroid-disorders",
+    "title": "Thyroid Disorders"
+   }
+  },
+  {
+   "heading": "Calcium — split by PTH",
+   "body": "Measure **PTH** and the differential halves immediately.\n\n**PTH high or inappropriately normal** → primary hyperparathyroidism (commonest outpatient cause; adenoma), tertiary hyperparathyroidism, familial hypocalciuric hypercalcaemia (low urinary calcium — the one not to operate on).\n\n**PTH suppressed** → **malignancy** (commonest inpatient cause): PTHrP from squamous tumours, bone metastases, or myeloma. Also vitamin D excess, granulomatous disease, thyrotoxicosis, immobilisation.\n\n**Hypercalcaemia of malignancy — the order is the answer:** aggressive **IV 0.9% saline rehydration first** (these patients are profoundly dry from polyuria), **then IV bisphosphonate** (zoledronic acid; takes 2–4 days). Denosumab where renal function precludes it. **Never fluid-restrict.**\n\nSymptoms: *stones, bones, abdominal groans and psychic moans*, plus polyuria and dehydration.",
+   "note": "PTH splits hypercalcaemia in two: high means parathyroid, suppressed means malignancy until proven otherwise.",
+   "link": {
+    "system": "endocrine",
+    "slug": "calcium-bone-and-parathyroid-disorders",
+    "title": "Calcium, Bone and Parathyroid"
+   }
+  },
+  {
+   "heading": "Diabetic emergencies",
+   "body": "| | DKA | HHS |\n|---|---|---|\n| Typical | Type 1, hours | Type 2, days |\n| Glucose | >11 | Often >30 |\n| Ketones | **High** | Minimal |\n| pH / bicarbonate | **Acidotic** | Near normal |\n| Osmolality | Variable | **Very high** |\n\n**The potassium rule governs both.** Total body potassium is depleted even when the serum level looks normal or high, because acidosis has driven it extracellularly. **Insulin drives it back in.** If potassium is **below 3.5, replace it before starting insulin** — otherwise you precipitate fatal hypokalaemia.\n\nOther points: fluids first and generously; **bicarbonate is not routine** even with marked acidosis; look for the precipitant (infection, missed insulin, MI, new diagnosis); and in HHS correct osmolality **slowly** to avoid cerebral oedema, with a lower fluid and insulin rate than DKA.",
+   "note": "In DKA, replace potassium before starting insulin if it is below 3.5 mmol/L.",
+   "link": {
+    "system": "endocrine",
+    "slug": "diabetes-mellitus",
+    "title": "Diabetes Mellitus"
+   }
+  }
+ ],
+ "questions": [
+  {
+   "difficulty": "easy",
+   "stem": "A 42-year-old woman has fatigue and weight gain. TSH is 11.2 mIU/L (0.4-4.0) and free T4 is 8 pmol/L (10-20).",
+   "lead": "What is the diagnosis?",
+   "options": [
+    "Primary hypothyroidism",
+    "Secondary hypothyroidism",
+    "Subclinical hypothyroidism",
+    "Sick euthyroid syndrome",
+    "Primary hyperthyroidism"
+   ],
+   "correct": 0,
+   "explanation": "<b>High TSH with low free T4</b> is <b>primary</b> hypothyroidism — the gland has failed and the pituitary is driving hard. Subclinical would have a high TSH with a <b>normal</b> free T4. Secondary would have a <b>low or normal</b> TSH with a low T4, because the pituitary is the problem.",
+   "point": "Primary hypothyroidism gives a high TSH with a low free T4.",
+   "topic": "Endocrine — thyroid",
+   "type": "recall"
+  },
+  {
+   "difficulty": "easy",
+   "stem": "A 55-year-old man has a corrected calcium of 2.95 mmol/L (2.20-2.60). PTH is 8.2 pmol/L (1.6-6.9).",
+   "lead": "What is the most likely diagnosis?",
+   "options": [
+    "Hypercalcaemia of malignancy",
+    "Primary hyperparathyroidism",
+    "Vitamin D deficiency",
+    "Sarcoidosis",
+    "Thyrotoxicosis"
+   ],
+   "correct": 1,
+   "explanation": "A raised calcium with an <b>inappropriately high PTH</b> is <b>primary hyperparathyroidism</b> — normally hypercalcaemia should suppress PTH completely. In malignancy PTH is <b>suppressed</b>, because the driver is PTHrP or bone destruction rather than the parathyroid. PTH is the first test and it splits the differential in half.",
+   "point": "Hypercalcaemia with a high or inappropriately normal PTH indicates primary hyperparathyroidism.",
+   "topic": "Endocrine — calcium",
+   "type": "recall"
+  },
+  {
+   "difficulty": "easy",
+   "stem": "A 24-year-old with type 1 diabetes has glucose 26 mmol/L, pH 7.14, bicarbonate 9, ketones 5.6, and potassium 3.2 mmol/L (3.5-5.2).",
+   "lead": "What is the correct first step?",
+   "options": [
+    "Start IV insulin immediately",
+    "IV fluids and potassium replacement before insulin",
+    "IV sodium bicarbonate",
+    "Insulin plus bicarbonate together",
+    "Oral rehydration"
+   ],
+   "correct": 1,
+   "explanation": "<b>Potassium is low.</b> Insulin drives potassium intracellularly and will precipitate dangerous hypokalaemia — so fluids and potassium come first, with insulin typically withheld until K⁺ ≥3.5 or run alongside replacement. Bicarbonate is not routine in DKA even at this pH; it worsens paradoxical CNS acidosis.",
+   "point": "In DKA with potassium below 3.5, replace potassium before starting insulin.",
+   "topic": "Endocrine — diabetes emergencies",
+   "type": "application"
+  },
+  {
+   "difficulty": "medium",
+   "stem": "A 48-year-old woman has resistant hypertension on three agents and K 2.9 mmol/L. Aldosterone is elevated and plasma renin activity is suppressed.",
+   "lead": "What is the diagnosis and next step?",
+   "options": [
+    "Secondary aldosteronism; investigate renal arteries",
+    "Primary aldosteronism; CT adrenals and consider adrenal vein sampling",
+    "Addison's disease; short Synacthen test",
+    "Phaeochromocytoma; plasma metanephrines",
+    "Cushing's syndrome; dexamethasone suppression"
+   ],
+   "correct": 1,
+   "explanation": "High aldosterone with <b>suppressed renin</b> and a high ratio is <b>primary aldosteronism</b> — the adrenal is autonomous, and the resulting volume expansion switches renin off. Secondary aldosteronism has <b>high renin</b> driving high aldosterone with a normal ratio. Next steps are CT adrenals and <b>adrenal vein sampling</b> to separate a unilateral adenoma (surgical) from bilateral hyperplasia (spironolactone).",
+   "point": "Primary aldosteronism has suppressed renin; secondary aldosteronism has high renin driving the aldosterone.",
+   "topic": "Endocrine — aldosterone/renin axis",
+   "type": "discrimination"
+  },
+  {
+   "difficulty": "medium",
+   "stem": "A 35-year-old woman has weight loss, palpitations and heat intolerance. TSH is suppressed, free T4 elevated. Radioiodine uptake scan shows absent uptake throughout the gland.",
+   "lead": "What is the diagnosis?",
+   "options": [
+    "Graves' disease",
+    "Toxic multinodular goitre",
+    "Toxic adenoma",
+    "Thyroiditis",
+    "Factitious thyrotoxicosis only"
+   ],
+   "correct": 3,
+   "explanation": "<b>Absent uptake</b> means the gland is not making hormone — it is <b>leaking</b> preformed hormone from inflammation, which is <b>thyroiditis</b>. Graves' gives <b>diffuse</b> uptake, multinodular goitre patchy uptake, and a toxic adenoma a single hot nodule. This matters because thyroiditis is treated symptomatically with a beta-blocker and is self-limiting, whereas antithyroid drugs are useless against a gland that is not synthesising.",
+   "point": "Absent radioiodine uptake in thyrotoxicosis indicates thyroiditis, which leaks preformed hormone rather than synthesising it.",
+   "topic": "Endocrine — thyroid",
+   "type": "discrimination"
+  },
+  {
+   "difficulty": "medium",
+   "stem": "A 70-year-old woman with metastatic breast cancer is confused and polyuric. Corrected calcium is 3.4 mmol/L. She is clinically dehydrated.",
+   "lead": "What is the correct sequence of treatment?",
+   "options": [
+    "IV bisphosphonate, then fluids",
+    "IV 0.9% saline rehydration, then IV bisphosphonate",
+    "Fluid restriction and calcitonin",
+    "Oral bisphosphonate and observation",
+    "Dexamethasone alone"
+   ],
+   "correct": 1,
+   "explanation": "<b>Rehydrate first.</b> Hypercalcaemia causes nephrogenic diabetes insipidus and profound dehydration, and saline both restores volume and promotes calciuresis. <b>Then</b> give an IV bisphosphonate, which takes 2-4 days to act. Giving the bisphosphonate to a dehydrated patient risks nephrotoxicity and does nothing for the immediate problem. Fluid restriction is exactly wrong.",
+   "point": "Hypercalcaemia of malignancy is rehydrated with IV saline before a bisphosphonate is given.",
+   "topic": "Endocrine — calcium",
+   "type": "application"
+  },
+  {
+   "difficulty": "medium",
+   "stem": "A 60-year-old man on amiodarone has TSH 0.02 mIU/L (0.4-4.0), free T4 34 pmol/L (10-20). He is thyrotoxic.",
+   "lead": "Which statement is most accurate?",
+   "options": [
+    "Amiodarone causes hypothyroidism but not hyperthyroidism",
+    "Amiodarone can cause both hypo- and hyperthyroidism, and the cause here needs distinguishing",
+    "Amiodarone has no thyroid effects",
+    "This must be Graves' disease coincidentally",
+    "The TSH is unreliable on amiodarone and should be ignored"
+   ],
+   "correct": 1,
+   "explanation": "Amiodarone is roughly 37% iodine by weight and causes <b>both</b> hypothyroidism and thyrotoxicosis. Amiodarone-induced thyrotoxicosis has two types: <b>type 1</b>, excess synthesis in an abnormal gland (treated with thionamides), and <b>type 2</b>, a destructive thyroiditis (treated with corticosteroids). Distinguishing them changes treatment, and they can coexist. This is a common cause of a puzzling thyroid picture.",
+   "point": "Amiodarone causes both hypothyroidism and thyrotoxicosis, and thyrotoxicosis has synthetic and destructive types needing different treatment.",
+   "topic": "Endocrine — thyroid",
+   "type": "discrimination"
+  },
+  {
+   "difficulty": "hard",
+   "stem": "A 45-year-old woman has fatigue and amenorrhoea. TSH is 0.3 mIU/L (0.4-4.0) and free T4 is 7 pmol/L (10-20). She has also had reduced libido and postural dizziness.",
+   "lead": "What does this thyroid pattern indicate?",
+   "options": [
+    "Primary hyperthyroidism",
+    "Subclinical hyperthyroidism",
+    "Pituitary failure with secondary hypothyroidism",
+    "Sick euthyroid syndrome",
+    "Poor compliance with thyroxine"
+   ],
+   "correct": 2,
+   "explanation": "A <b>low TSH with a LOW free T4</b> breaks the usual feedback logic — a failing gland should drive TSH up. Both being low means the <b>pituitary</b> is not producing TSH: <b>secondary hypothyroidism</b>. The amenorrhoea, reduced libido and postural symptoms suggest other pituitary axes are failing too, so assess the whole pituitary and image it. Critically, <b>replace corticosteroid BEFORE thyroxine</b> — giving thyroxine first can precipitate adrenal crisis by raising metabolic demand.",
+   "point": "A low TSH with a low free T4 indicates pituitary failure, and corticosteroid must be replaced before thyroxine.",
+   "topic": "Endocrine — thyroid",
+   "type": "discrimination"
+  },
+  {
+   "difficulty": "hard",
+   "stem": "A 38-year-old woman with untreated Graves' disease develops fever 39.5°C, agitation, atrial fibrillation and vomiting after an emergency appendicectomy.",
+   "lead": "Which sequence of drug administration is correct?",
+   "options": [
+    "Iodine first, then propylthiouracil, then beta-blocker",
+    "Propylthiouracil first, then iodine at least an hour later, plus beta-blocker and corticosteroid",
+    "Beta-blocker alone",
+    "Corticosteroid alone, then iodine",
+    "Radioiodine immediately"
+   ],
+   "correct": 1,
+   "explanation": "<b>Thyroid storm.</b> The thionamide must be given <b>before</b> iodine: iodine blocks hormone release, but given first it also supplies <b>substrate for further synthesis</b>. Propylthiouracil is preferred over carbimazole here because it additionally blocks peripheral T4→T3 conversion. Add a <b>beta-blocker</b> (propranolol, also blocking conversion) and a <b>corticosteroid</b>, and treat the precipitant — here surgery and possibly infection.",
+   "point": "In thyroid storm the thionamide is given before iodine, because iodine given first supplies substrate for further hormone synthesis.",
+   "topic": "Endocrine — thyroid emergencies",
+   "type": "application"
+  },
+  {
+   "difficulty": "hard",
+   "stem": "A 61-year-old man with small cell lung cancer develops proximal weakness, oedema and hypertension over 6 weeks. He is not cushingoid in appearance. K 2.8 mmol/L, bicarbonate 33, glucose 12.4.",
+   "lead": "What explains the hypokalaemic alkalosis?",
+   "options": [
+    "Aldosterone excess from an adrenal adenoma",
+    "Very high cortisol saturating 11β-HSD2 and acting on mineralocorticoid receptors",
+    "Renal tubular acidosis",
+    "Diuretic use",
+    "Aldosterone deficiency"
+   ],
+   "correct": 1,
+   "explanation": "<b>Ectopic ACTH</b> produces extremely high cortisol, which <b>overwhelms 11β-HSD2</b> — the renal enzyme that normally inactivates cortisol — so cortisol spills onto mineralocorticoid receptors, causing <b>hypokalaemia and metabolic alkalosis</b>. Hyperglycaemia follows from cortisol's insulin antagonism. The rapid course explains the absent Cushingoid habitus: weakness, oedema and hypertension dominate instead. Note this is the exact inverse of the Addisonian pattern.",
+   "point": "Ectopic ACTH causes hypokalaemic alkalosis because very high cortisol saturates 11-beta-HSD2 and acts on mineralocorticoid receptors.",
+   "topic": "Endocrine — adrenal insufficiency",
+   "type": "application"
+  }
+ ]
+}
