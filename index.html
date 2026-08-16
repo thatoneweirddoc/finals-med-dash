@@ -825,6 +825,10 @@
   button.panel-h.disclose:hover{color:var(--ink)}
   button.panel-h.disclose .chev{font-size:12px;line-height:1}
   #pasteBody{padding-top:12px}
+
+  /* Brief highlight so the rendered Google button is obvious after the banner
+     sends you here, rather than being one more control on a busy tab. */
+  .gsi-flash{outline:2px solid var(--ink);outline-offset:4px;border-radius:var(--r-ctl)}
 </style>
 
 <!-- build: 2026-08-16 09:11 UTC -->
@@ -1500,17 +1504,42 @@ async function onCredential(resp){
   renderAll();
 }
 
-function gisSignIn(){
+/**
+ * Start sign-in and make sure something visible happens.
+ *
+ * One Tap alone is not enough: it is silently suppressed after a previous
+ * dismissal, with third-party cookies blocked, and in private windows. The
+ * rendered button is the dependable path — but it lives in the Data tab, so
+ * rendering it while that tab is hidden left the user staring at an unchanged
+ * page after pressing "Sign in". So: reveal the tab, render the button, put it
+ * on screen, and only then also try One Tap as the quicker route.
+ */
+function gisSignIn(opts){
   if(!gisInit()){ setSync('Google Sign-In is not available here', 'warn'); return; }
+  const reveal = !opts || opts.reveal !== false;
+  const host = $('gsiBtn');
+
   try{
-    google.accounts.id.prompt();
-    // A rendered button is the reliable path; One Tap can be suppressed by the
-    // browser or by a previous dismissal, and then nothing visible happens.
-    const host = $('gsiBtn');
     if(host && !host.childElementCount){
       google.accounts.id.renderButton(host, { type:'standard', theme:'outline',
         size:'large', text:'signin_with', shape:'pill' });
     }
+    if(reveal){
+      showTab('data');
+      if(host){
+        host.scrollIntoView({ block:'center', behavior:'smooth' });
+        host.classList.add('gsi-flash');
+        setTimeout(() => host.classList.remove('gsi-flash'), 1600);
+      }
+    }
+    google.accounts.id.prompt(notif => {
+      // If One Tap won't show, the rendered button is already on screen —
+      // say so rather than leaving the click feeling ignored.
+      if(notif && (notif.isNotDisplayed && notif.isNotDisplayed() ||
+                   notif.isSkippedMoment && notif.isSkippedMoment())){
+        setSync('Use the Google button below to sign in', 'warn');
+      }
+    });
   }catch(e){ setSync('Google Sign-In could not start', 'warn'); }
 }
 
@@ -3683,7 +3712,7 @@ $('resetAll').onclick = () => {
   save(); renderAll();
 };
 
-if($('gsiGo')) $('gsiGo').onclick = () => gisSignIn();
+if($('gsiGo')) $('gsiGo').onclick = () => gisSignIn({ reveal:false });
 
 $('disconnect').onclick = () => {
   if(!confirm('Sign out on this device? Your progress stays safe in Drive and comes ' +
