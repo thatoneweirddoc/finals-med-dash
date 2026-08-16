@@ -607,6 +607,56 @@
     color:var(--bord);background:var(--bord-wash);border-radius:3px;padding:2px 7px;margin-left:8px}
   button.mini.danger{color:var(--low);border-color:var(--low-wash)}
   button.mini.danger:hover{border-color:var(--low);background:var(--low-wash)}
+
+  /* ---- breathing break ---- */
+  .break-tile{cursor:pointer;font:inherit;color:inherit}
+  .break-tile:hover{border-color:var(--ink)}
+  .break-tile .mini-ico{color:var(--in);font-size:15px}
+
+  .brk-back{position:fixed;inset:0;z-index:200;display:flex;align-items:center;
+    justify-content:center;background:color-mix(in srgb, var(--paper) 75%, transparent);
+    backdrop-filter:blur(3px);-webkit-backdrop-filter:blur(3px);
+    padding:calc(16px + env(safe-area-inset-top)) 16px calc(16px + env(safe-area-inset-bottom))}
+  .brk{width:80%;height:80%;max-width:640px;background:var(--panel);
+    border:1px solid var(--rule);border-radius:var(--r-card);box-shadow:var(--shadow-lift);
+    position:relative;display:flex;align-items:center;justify-content:center;
+    padding:28px;overflow:hidden}
+  @media (max-width:600px){ .brk{width:92%;height:88%;padding:20px} }
+
+  .brk-x{position:absolute;top:12px;right:14px;background:none;border:0;cursor:pointer;
+    font-size:26px;line-height:1;color:var(--ink-2);padding:6px 10px;border-radius:var(--r-ctl)}
+  .brk-x:hover{color:var(--ink)}
+
+  .brk-stage,.brk-end{display:flex;flex-direction:column;align-items:center;
+    justify-content:center;gap:14px;text-align:center;width:100%}
+
+  .brk-orb{width:150px;height:150px;border-radius:50%;display:flex;align-items:center;
+    justify-content:center;background:var(--in-wash);border:2px solid var(--in);
+    transform:scale(.55);transition:transform 7s cubic-bezier(.37,0,.63,1)}
+  .brk-orb.grow{transform:scale(1)}
+  .brk-orb.hold{transform:scale(1)}
+  .brk-orb.shrink{transform:scale(.55)}
+  .brk-count{font-family:var(--mono);font-size:34px;font-weight:600;color:var(--in)}
+
+  .brk-phase{font-family:var(--serif);font-size:27px;font-weight:500;letter-spacing:-.01em}
+  .brk-hint{font-size:14px;color:var(--ink-2);min-height:20px}
+
+  .brk-bar{width:min(320px,80%);height:4px;background:var(--rule);border-radius:2px;overflow:hidden}
+  .brk-fill{height:4px;background:var(--in);width:0%}
+
+  .brk-cycle{font-family:var(--mono);font-size:10px;letter-spacing:.12em;
+    text-transform:uppercase;color:var(--ink-2)}
+  .brk-skip{margin-top:6px}
+
+  .brk-cap{font-family:var(--serif);font-size:22px;line-height:1.45;max-width:34ch;
+    color:var(--ink)}
+
+  /* Reduced motion: the orb stops animating, the words and count still carry the
+     pacing. The exercise works without movement; it just shouldn't lurch. */
+  @media (prefers-reduced-motion:reduce){
+    .brk-orb{transition:none}
+    .brk-back{backdrop-filter:none;-webkit-backdrop-filter:none}
+  }
 </style>
 
 <div class="wrap">
@@ -621,6 +671,11 @@
           <span class="n" id="days">—</span>
           <span class="l">days remaining</span>
         </div>
+        <button class="tile break-tile" id="breakBtn" type="button"
+                aria-label="Take a breathing break">
+          <span class="n mini-ico">&#9679;</span>
+          <span class="l">Break</span>
+        </button>
         <div class="tile drop-mini" id="drop" tabindex="0" role="button"
              aria-label="Add an eMedici page or session file">
           <span class="n mini-ico">+</span>
@@ -916,6 +971,26 @@
       <textarea id="mdOut" rows="9" style="width:100%;margin-top:12px;font-family:var(--mono);font-size:11px" readonly></textarea>
     </div>
   </section>
+</div>
+
+<div class="brk-back" id="brkBack" hidden>
+  <div class="brk" role="dialog" aria-modal="true" aria-labelledby="brkPhase">
+    <button class="brk-x" id="brkClose" type="button" aria-label="Close">&times;</button>
+
+    <div class="brk-stage" id="brkStage">
+      <div class="brk-orb" id="brkOrb"><span class="brk-count" id="brkCount">7</span></div>
+      <div class="brk-phase" id="brkPhase">Breathe in</div>
+      <div class="brk-hint" id="brkHint">Through your nose, slowly</div>
+      <div class="brk-bar"><div class="brk-fill" id="brkFill"></div></div>
+      <div class="brk-cycle" id="brkCycle"></div>
+      <button class="act ghost brk-skip" id="brkSkip" type="button">Finish early</button>
+    </div>
+
+    <div class="brk-end" id="brkEnd" hidden>
+      <div class="brk-cap" id="brkCap"></div>
+      <button class="act" id="brkBack2" type="button">Go back to the page</button>
+    </div>
+  </div>
 </div>
 
 <script>
@@ -1669,10 +1744,7 @@ async function refreshBuffer(){
       ? ` \u2014 <b>${d.short} short</b> of the ${d.target} floor, the hourly task will top it up`
       : ` \u2014 above the ${d.target} floor`;
     const q = d.pending ? ` \u00b7 ${d.pending} request${d.pending === 1 ? '' : 's'} queued` : '';
-    // A request being generated right now is claimed, not queued — showing it as
-    // queued made it look stuck for the minute the model takes to answer.
-    const run = d.running ? ` \u00b7 ${d.running} being built` : '';
-    el.innerHTML = pool + floor + q + run;
+    el.innerHTML = pool + floor + q;
   }catch(e){
     el.textContent = "Couldn't read the pool \u2014 " + String(e.message || e).slice(0, 70);
   }
@@ -2951,6 +3023,106 @@ $('disconnect').onclick = () => {
   renderAll();
   setSync('Not connected — add your token in Data', 'warn');
 };
+
+/* ---- breathing break ----
+ * 7/7/7 box-ish breathing: in for 7, hold for 7, out for 7. Four cycles is
+ * about 90 seconds, which is long enough to actually settle and short enough
+ * that you'll use it.
+ *
+ * Timing is driven from one rAF loop reading wall-clock time rather than
+ * setInterval or CSS keyframes: a backgrounded tab throttles timers, and the
+ * countdown, the bar and the orb would drift apart from each other. This way
+ * they're all derived from the same elapsed value, so they cannot disagree.
+ */
+const BRK_PHASES = [
+  { key:'in',   secs:7, label:'Breathe in',  hint:'Through your nose, slowly',     orb:'grow' },
+  { key:'hold', secs:7, label:'Hold',        hint:'Soft shoulders, unclench your jaw', orb:'hold' },
+  { key:'out',  secs:7, label:'Breathe out', hint:'Through your mouth, let it go', orb:'shrink' }
+];
+const BRK_CYCLES = 4;
+
+const BRK_CAPTIONS = [
+  'Nothing about the exam changed in the last ninety seconds. Your head is just quieter.',
+  'You know more than you did last week. Go back when you\'re ready.',
+  'Tired is not the same as unprepared.',
+  'That\'s enough for now. Pick one thing and start there.',
+  'Steady beats frantic, every time.'
+];
+
+let BRK = { raf:null, startedAt:0, phase:0, cycle:0, running:false, prevFocus:null };
+
+function brkOpen(){
+  BRK.prevFocus = document.activeElement;
+  $('brkBack').hidden = false;
+  $('brkEnd').hidden = true;
+  $('brkStage').hidden = false;
+  document.body.style.overflow = 'hidden';
+  BRK.phase = 0; BRK.cycle = 0; BRK.running = true; BRK.startedAt = performance.now();
+  brkApplyPhase();
+  $('brkClose').focus();
+  BRK.raf = requestAnimationFrame(brkTick);
+}
+
+function brkClose(){
+  BRK.running = false;
+  if(BRK.raf) cancelAnimationFrame(BRK.raf);
+  $('brkBack').hidden = true;
+  document.body.style.overflow = '';
+  if(BRK.prevFocus && BRK.prevFocus.focus) BRK.prevFocus.focus();
+}
+
+function brkApplyPhase(){
+  const p = BRK_PHASES[BRK.phase];
+  const orb = $('brkOrb');
+  orb.classList.remove('grow','hold','shrink');
+  // force a reflow so a repeated class change restarts the transition
+  void orb.offsetWidth;
+  orb.classList.add(p.orb);
+  $('brkPhase').textContent = p.label;
+  $('brkHint').textContent = p.hint;
+  $('brkCycle').textContent = `Cycle ${BRK.cycle + 1} of ${BRK_CYCLES}`;
+}
+
+function brkTick(now){
+  if(!BRK.running) return;
+  const p = BRK_PHASES[BRK.phase];
+  const elapsed = (now - BRK.startedAt) / 1000;
+  const left = Math.max(0, p.secs - elapsed);
+
+  $('brkCount').textContent = Math.ceil(left) || 1;
+  $('brkFill').style.width = Math.min(100, (elapsed / p.secs) * 100) + '%';
+
+  if(elapsed >= p.secs){
+    BRK.phase++;
+    if(BRK.phase >= BRK_PHASES.length){
+      BRK.phase = 0;
+      BRK.cycle++;
+      if(BRK.cycle >= BRK_CYCLES) return brkFinish();
+    }
+    BRK.startedAt = now;
+    brkApplyPhase();
+  }
+  BRK.raf = requestAnimationFrame(brkTick);
+}
+
+function brkFinish(){
+  BRK.running = false;
+  if(BRK.raf) cancelAnimationFrame(BRK.raf);
+  $('brkStage').hidden = true;
+  $('brkEnd').hidden = false;
+  $('brkCap').textContent = BRK_CAPTIONS[Math.floor(Math.random() * BRK_CAPTIONS.length)];
+  $('brkBack2').focus();
+}
+
+$('breakBtn').addEventListener('click', brkOpen);
+$('brkClose').addEventListener('click', brkClose);
+$('brkBack2').addEventListener('click', brkClose);
+$('brkSkip').addEventListener('click', brkFinish);
+$('brkBack').addEventListener('click', e => { if(e.target === $('brkBack')) brkClose(); });
+document.addEventListener('keydown', e => {
+  if(e.key === 'Escape' && !$('brkBack').hidden) brkClose();
+});
+
 
 load();
 </script>
