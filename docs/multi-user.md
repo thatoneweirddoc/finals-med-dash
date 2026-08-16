@@ -14,31 +14,91 @@ shared — they are identical for everyone and are the expensive part to produce
 | Mid-quiz progress (resume/restart) | The generation queue |
 | Theme, typeface and text-weight settings | |
 
-## Adding someone
+## Signing in
 
-1. **Invent a token.** Use a password manager's random string — 16+ characters. It is
-   a bearer credential: anyone holding it *is* that user.
-2. **Add a row to `USERS` in `Code.gs`:**
+**Google Sign-In is the way in.** A person signs in with a Google account, the browser
+receives an ID token, and Apps Script verifies that token with Google before deciding
+who they are. Nothing is shared between people and there is no secret to leak.
 
-   ```javascript
-   const USERS = {
-     'fadmag':                    { id: 'fadi', name: 'Fadi', generate: true },
-     'x7Qm-2vLp-9RtK-4wZa':       { id: 'sam',  name: 'Sam',  generate: false }
-   };
-   ```
+### Turning it on — one time
 
-3. **Deploy > Manage deployments > edit > New version.** The URL does not change.
-4. **Send them the token privately** — not in a group chat that outlives the exam.
-   They paste it into Data > Drive sync > Connect.
+1. **Create an OAuth client.** Google Cloud Console → APIs & Services → Credentials →
+   Create credentials → OAuth client ID → **Web application**.
+   - Authorized JavaScript origins: `https://thatoneweirddoc.github.io`
+   - No redirect URI is needed; Identity Services hands the credential back in-page.
+2. **Put the client ID in two places.** It is public by design — it ships in the page,
+   identifies the app, and authorises nothing on its own:
+   - Apps Script → Project Settings → Script Properties → `GOOGLE_CLIENT_ID`
+   - `index.html` → `const GOOGLE_CLIENT_ID = '…'`
+3. **Deploy → New version.**
 
-Their tracker file `finals-tracker-<id>.json` is created in your Drive on first use.
+Until step 2 is done sign-in is simply unavailable: the button hides itself and the
+shared-token path carries on. Nothing breaks, it just isn't offered.
+
+### Adding a person
+
+Add a row to `USERS` in `Code.gs`, keyed by their **verified Google email**:
+
+```javascript
+const USERS = {
+  'fadimaghak@gmail.com': { id: 'fadi', name: 'Fadi', generate: true },
+  'someone@example.com':  { id: 'sam',  name: 'Sam',  generate: false }
+};
+```
+
+Deploy a new version and tell them to sign in. Their tracker
+`finals-tracker-<id>.json` is created in your Drive on first use.
+
+An address that is not listed is refused, and the refusal names the address so the
+person can see which account they used. **Nobody is auto-provisioned by merely having
+a Google account.**
 
 **Never change an existing `id`.** The tracker filename is derived from it, so renaming
-an id orphans that person's entire history. The `name` is safe to change; the `id` is
-not.
+an id orphans that person's whole history. `name` is safe to change; `id` is not.
 
-To remove someone, delete the row and redeploy. Their tracker file stays in Drive, so
-the removal is reversible.
+To remove someone, delete their row and redeploy. Their tracker file stays in Drive, so
+it is reversible.
+
+### What the server actually checks
+
+`verifyIdToken()` calls Google's tokeninfo endpoint, then verifies:
+
+- **`aud` matches the client ID.** This is the load-bearing check. Without it an ID
+  token minted for *any other Google app* — which anyone can obtain — would be accepted
+  here as proof of identity.
+- `iss` is Google.
+- `exp` has not passed.
+- `email_verified` is true.
+- the address appears in `USERS`.
+
+Results are cached until the token's own expiry, so a page making six calls costs one
+verification rather than six. Failures fail **closed**: if tokeninfo is unreachable the
+request is refused, not waved through.
+
+Tokeninfo is used instead of local RS256 + JWKS validation deliberately. At this volume
+the round-trip is cheap, and hand-rolled signature verification is exactly the kind of
+code that is wrong in a way nobody notices.
+
+### The old shared tokens
+
+`LEGACY_TOKENS` maps the pre-sign-in tokens to the same accounts, and still works.
+
+That is deliberate. Deploying sign-in must not lock anyone out of their tracker four
+weeks before the exam, and sign-in cannot work at all until the client ID exists. The
+dashboard shows *"using a shared token — sign in when you can"* beside the name, so the
+older method reads as the older method.
+
+Delete a row once that person has signed in successfully; delete the map to require
+sign-in. A token identifies without authenticating — anyone holding one **is** that
+person — which is why it is now the fallback rather than the front door.
+
+### Credential lifetime
+
+Google ID tokens last an hour. The page stores the credential with its expiry, treats
+the final minute as already gone (a request that leaves valid can still arrive
+expired), and re-requests one within ten minutes of lapsing. If Identity Services is
+blocked, slow, or the origin is not authorised, every path ends with the page working
+as it did before.
 
 ## Why generation is gated
 
@@ -72,9 +132,10 @@ genuinely empty and everyone else's first session does not open with someone els
 ## Shared devices
 
 The cached tracker is namespaced (`finals_v1:<id>`), so two people using the same
-browser keep separate local copies and switching tokens switches the cache rather than
-merging it. The connected name is shown in Data > Drive sync, so a quiz cannot be
-silently recorded against the wrong tracker. **Disconnect** clears the token without
+browser keep separate local copies and switching accounts switches the cache rather
+than merging it. The connected name and email are shown in Data > Drive sync, so a quiz
+cannot be silently recorded against the wrong tracker. **Sign out** clears the
+credential — and tells Google not to auto-select that account next time — without
 touching either person's data in Drive.
 
 ## Concurrency — where files can and cannot collide
@@ -147,9 +208,9 @@ not; and concurrent recording keeps each tracker correct.
 
 ## What this is not
 
-- **Not authentication.** A token identifies, it does not authenticate. Someone who
-  obtains another person's token becomes that person. For a group of people who know
-  each other this is proportionate; for anything public it is not.
+- **Not authorisation beyond a list.** Sign-in proves *who* someone is; the `USERS`
+  map decides whether that person gets in at all. There are no roles beyond the
+  `generate` flag.
 - **Not isolation.** All tracker files live in the owner's Drive and the script runs as
   the owner, so the owner can read everyone's progress. Say so to anyone you invite.
 - **Not free of quota.** Drive API calls and Apps Script runtime all count against the

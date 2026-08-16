@@ -77,15 +77,118 @@
  */
 const OWNER_ID = 'fadi';
 
+/**
+ * The OAuth 2.0 Web client ID. This is PUBLIC by design — it ships in the page
+ * and identifies the app, it does not authorise anything on its own. Create it
+ * at console.cloud.google.com > APIs & Services > Credentials > OAuth client ID
+ * > Web application, with Authorized JavaScript origin
+ * https://thatoneweirddoc.github.io. Put the same value in index.html.
+ *
+ * Read from Script Properties first so it can be changed without a redeploy.
+ */
+const GOOGLE_CLIENT_ID = '';
+
+/**
+ * USERS — keyed by the Google account's VERIFIED email address.
+ *
+ *   id       the tracker filename suffix. NEVER change an existing id — the
+ *            tracker is finals-tracker-<id>.json and renaming it orphans that
+ *            person's whole history.
+ *   name     shown in the dashboard.
+ *   generate whether this person may spend the owner's Anthropic credit.
+ *
+ * An email that is not listed is refused. Nobody is auto-provisioned by simply
+ * having a Google account.
+ */
 const USERS = {
-  'fadmag': { id: 'fadi', name: 'Fadi', generate: true }
-  // 'paste-a-random-token-here': { id: 'sam', name: 'Sam', generate: false },
+  'fadimaghak@gmail.com': { id: 'fadi', name: 'Fadi', generate: true }
+  // 'someone@example.com': { id: 'sam', name: 'Sam', generate: false },
 };
 
-function resolveUser(token) {
-  const u = USERS[String(token || '')];
+/**
+ * Shared tokens from before sign-in existed, mapped to the same account.
+ *
+ * Kept deliberately: deploying sign-in must not lock anyone out of their
+ * tracker four weeks before the exam, and Google Sign-In cannot work until the
+ * client ID is configured. Delete a row once that person has signed in at
+ * least once; delete the whole map to require sign-in.
+ */
+const LEGACY_TOKENS = {
+  'fadmag': 'fadimaghak@gmail.com'
+};
+
+/**
+ * Verify a Google ID token and return the verified identity, or null.
+ *
+ * Uses Google's tokeninfo endpoint rather than local RS256 + JWKS validation:
+ * at this volume the round-trip is cheap, and hand-rolled signature checking is
+ * exactly the kind of code that is wrong in a way nobody notices. The result is
+ * cached until the token's own expiry, so a page making six calls in a row
+ * costs one verification, not six.
+ */
+function verifyIdToken(jwt) {
+  const raw = String(jwt || '');
+  if (raw.split('.').length !== 3) return null;          // not a JWT at all
+
+  const clientId = props().getProperty('GOOGLE_CLIENT_ID') || GOOGLE_CLIENT_ID;
+  if (!clientId) return null;                            // sign-in not configured
+
+  const cache = CacheService.getScriptCache();
+  const key = 'idt:' + Utilities.base64Encode(
+    Utilities.computeDigest(Utilities.DigestAlgorithm.SHA_256, raw));
+  const hit = cache.get(key);
+  if (hit) { try { return JSON.parse(hit); } catch (err) { /* fall through */ } }
+
+  let info;
+  try {
+    const r = UrlFetchApp.fetch(
+      'https://oauth2.googleapis.com/tokeninfo?id_token=' + encodeURIComponent(raw),
+      { muteHttpExceptions: true });
+    if (r.getResponseCode() !== 200) return null;
+    info = JSON.parse(r.getContentText());
+  } catch (err) { return null; }
+
+  // aud is THE check. Without it, an ID token minted for any other Google app —
+  // which anyone can obtain — would be accepted here as proof of identity.
+  if (info.aud !== clientId) return null;
+  if (info.iss !== 'accounts.google.com' &&
+      info.iss !== 'https://accounts.google.com') return null;
+
+  const now = Math.floor(new Date().getTime() / 1000);
+  const exp = Number(info.exp || 0);
+  if (!exp || exp <= now) return null;
+  // tokeninfo returns these as strings, so compare as strings.
+  if (String(info.email_verified) !== 'true') return null;
+  if (!info.email) return null;
+
+  const out = { email: String(info.email).toLowerCase(), name: String(info.name || '') };
+  try { cache.put(key, JSON.stringify(out), Math.min(3600, Math.max(60, exp - now))); }
+  catch (err) { /* cache is a nicety, not a requirement */ }
+  return out;
+}
+
+/**
+ * Resolve whatever the client sent into a user record, or null.
+ * Google ID token first; shared token second, while that map still has rows.
+ */
+function resolveUser(credential) {
+  const c = String(credential || '');
+  if (!c) return null;
+
+  if (c.split('.').length === 3) {
+    const v = verifyIdToken(c);
+    if (!v) return null;
+    const u = USERS[v.email];
+    if (!u) return null;
+    return { id: u.id, name: u.name || v.name, generate: !!u.generate,
+             email: v.email, via: 'google' };
+  }
+
+  const email = LEGACY_TOKENS[c];
+  if (!email) return null;
+  const u = USERS[email];
   if (!u) return null;
-  return { id: u.id, name: u.name, generate: !!u.generate };
+  return { id: u.id, name: u.name, generate: !!u.generate, email: email, via: 'token' };
 }
 
 const FOLDER_NAME = 'Finals tracker';
@@ -135,6 +238,10 @@ function setup() {
   Logger.log('Queue id:   ' + queueFileId());
   Logger.log('Outbox id:  ' + outboxFileId());
   Logger.log('API key set: ' + (props().getProperty('ANTHROPIC_API_KEY') ? 'yes' : 'no (Make now will refuse)'));
+  Logger.log('Sign-in:    ' + ((props().getProperty('GOOGLE_CLIENT_ID') || GOOGLE_CLIENT_ID)
+    ? 'Google Sign-In configured' : 'NOT configured — set GOOGLE_CLIENT_ID in Script Properties'));
+  Logger.log('Legacy:     ' + (Object.keys(LEGACY_TOKENS).length
+    ? Object.keys(LEGACY_TOKENS).length + ' shared token(s) still accepted' : 'none'));
   Logger.log('Users:      ' + Object.keys(USERS).map(function (k) {
     return USERS[k].name + ' (' + USERS[k].id + (USERS[k].generate ? ', can generate' : '') + ')';
   }).join(', '));
@@ -159,7 +266,7 @@ function doGet(e) {
   const user = resolveUser(p.token);
   if (!user) return json({ error: 'bad token' });
   try {
-    if (p.action === 'whoami')      return json({ user: user });
+    if (p.action === 'whoami')      return json({ user: user, signInConfigured: !!(props().getProperty('GOOGLE_CLIENT_ID') || GOOGLE_CLIENT_ID) });
     if (p.action === 'listQuizzes') return json({ quizzes: listQuizzes() });
     if (p.action === 'listRevision') return json({ modules: listRevision() });
     if (p.action === 'getQuiz')     return json(JSON.parse(readById(p.id)));

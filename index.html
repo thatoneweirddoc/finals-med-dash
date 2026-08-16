@@ -12,6 +12,11 @@
      when the serif typeface setting is chosen, so it is fetched on demand
      (see applyFontPref). Urbanist moved here from a CSS @import, which
      blocked rendering later than a link in the head does. -->
+<!-- Google Identity Services. Deliberately async and optional: if it is
+     blocked, slow, or the client ID is unset, the page falls back to the
+     shared-token path rather than failing to load. -->
+<script src="https://accounts.google.com/gsi/client" async defer
+        onload="window.__gisArrived = true; if (window.__gisLoaded) window.__gisLoaded();"></script>
 <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 
 <style>
@@ -180,6 +185,9 @@
     background:var(--bord-wash);border:1px solid var(--border-flag);
     font-size:15px;color:var(--ink)}
   .conn-banner .act{min-height:44px;padding:0 16px;flex-shrink:0}
+  .who-via{font-size:13px;color:var(--ink-3);margin-left:8px}
+  .who-via.warn{color:var(--border-flag)}
+  #gsiBtn:empty{display:none}
 
   .sync{font-family:var(--sans);font-size:13px;
         color:var(--ink-2);margin-top:14px;display:inline-flex;align-items:center;gap:7px}
@@ -832,8 +840,8 @@
       </div>
     </div>
     <div class="conn-banner" id="connBanner" hidden>
-      <span id="connMsg">Not connected — nothing is syncing.</span>
-      <button class="act" id="connGo" type="button">Connect in Data</button>
+      <span id="connMsg">Not signed in — nothing is syncing.</span>
+      <button class="act" id="connGo" type="button">Sign in</button>
     </div>
     <div class="sync-row">
       <span class="who" id="whoTop" hidden></span>
@@ -1107,17 +1115,27 @@
     <div class="panel">
       <div class="panel-h">Drive sync</div>
       <p style="font-size:14px;color:var(--ink-2);margin:6px 0 0">
-        Your token stays on this device. Enter it once here and on your other device,
-        and both read and write your own tracker. Each person's progress, flags and
-        history are separate; notes and the quiz bank are shared.</p>
+        Sign in with the Google account you were added under. Each person's progress,
+        flags and history are separate; notes and the quiz bank are shared.</p>
       <p style="font-size:14px;color:var(--ink-2);margin:8px 0 0">
-        Connected as <strong id="whoami">Not connected</strong></p>
-      <div class="row">
-        <input class="grow" id="tokIn" type="password" placeholder="Sync token">
-        <button class="act" id="saveTok">Connect</button>
+        Connected as <strong id="whoami">Not connected</strong>
+        <span id="whoVia" class="who-via"></span></p>
+      <div class="row" id="signinRow">
+        <span id="gsiBtn"></span>
+        <button class="act" id="gsiGo" type="button">Sign in with Google</button>
         <button class="act ghost" id="pullNow">Reload from Drive</button>
-        <button class="act ghost" id="disconnect">Disconnect</button>
+        <button class="act ghost" id="disconnect">Sign out</button>
       </div>
+      <details class="fold" style="margin-top:14px">
+        <summary>Use a sync token instead</summary>
+        <p class="note" style="margin-top:0">The older shared-token method. Still
+          accepted, but a token identifies without authenticating — anyone holding
+          it is you. Prefer signing in.</p>
+        <div class="row">
+          <input class="grow" id="tokIn" type="password" placeholder="Sync token">
+          <button class="act" id="saveTok">Connect</button>
+        </div>
+      </details>
     </div>
     <div class="panel">
       <div class="panel-h">Chat shortcuts</div>
@@ -1381,13 +1399,138 @@ const USER_KEY  = 'finals_user';
 /* Who the token resolves to, as last reported by the server. Cached so the page
    can pick the right local tracker before the network answers. */
 let USER = { id:'', name:'', generate:false };
+/* Whether the server has a client ID at all — decides between offering sign-in
+   and offering the token box, rather than showing both and hoping. */
+let SIGNIN_CONFIGURED = false;
 try{ USER = JSON.parse(localStorage.getItem(USER_KEY)) || USER; }catch(e){}
 
-function token(){ try{ return localStorage.getItem(TOKEN_KEY) || ''; }catch(e){ return ''; } }
+/* The OAuth Web client ID. Public by design — it ships in this page and only
+   identifies the app. Must match GOOGLE_CLIENT_ID in Code.gs, and the page's
+   origin must be an Authorized JavaScript origin on that client. Left empty,
+   sign-in is simply unavailable and the shared-token path carries on. */
+const GOOGLE_CLIENT_ID = '';
+const CRED_KEY = 'finals_gid';
+
+/* Read the JWT's payload WITHOUT trusting it. Used only to know when to
+   refresh and which account is showing; every security decision is made
+   server-side against Google's tokeninfo. */
+function jwtPayload(jwt){
+  try{
+    const b = String(jwt).split('.')[1];
+    if(!b) return null;
+    const pad = b.replace(/-/g,'+').replace(/_/g,'/');
+    return JSON.parse(decodeURIComponent(escape(atob(
+      pad + '==='.slice((pad.length + 3) % 4)))));
+  }catch(e){ return null; }
+}
+
+function googleCred(){
+  try{
+    const c = JSON.parse(localStorage.getItem(CRED_KEY) || 'null');
+    if(!c || !c.jwt || !c.exp) return '';
+    // Treat the last minute as already gone: a request that leaves here valid
+    // can still arrive expired.
+    if(c.exp * 1000 <= Date.now() + 60000) return '';
+    return c.jwt;
+  }catch(e){ return ''; }
+}
+function googleEmail(){
+  try{ return (JSON.parse(localStorage.getItem(CRED_KEY) || 'null') || {}).email || ''; }
+  catch(e){ return ''; }
+}
+function clearCred(){ try{ localStorage.removeItem(CRED_KEY); }catch(e){} }
+
+/* Signed in wins; the shared token is the fallback so deploying sign-in cannot
+   lock anyone out before the client ID is configured. */
+function token(){
+  const g = googleCred();
+  if(g) return g;
+  try{ return localStorage.getItem(TOKEN_KEY) || ''; }catch(e){ return ''; }
+}
 function setToken(t){ try{ localStorage.setItem(TOKEN_KEY, t); }catch(e){} }
 
+/* ---- Google Identity Services ----
+   Loaded lazily and entirely optionally. If the script is blocked, the client
+   ID is unset, or the origin isn't authorised, every one of these paths ends
+   with the page working exactly as it did before. */
+let GIS_READY = false;
+function gisAvailable(){
+  return !!(GOOGLE_CLIENT_ID && window.google && google.accounts && google.accounts.id);
+}
+function gisInit(){
+  if(GIS_READY || !gisAvailable()) return GIS_READY;
+  try{
+    google.accounts.id.initialize({
+      client_id: GOOGLE_CLIENT_ID,
+      callback: onCredential,
+      auto_select: true,
+      cancel_on_tap_outside: false
+    });
+    GIS_READY = true;
+  }catch(e){ GIS_READY = false; }
+  return GIS_READY;
+}
+
+async function onCredential(resp){
+  if(!resp || !resp.credential) return;
+  const pay = jwtPayload(resp.credential);
+  if(!pay || !pay.exp){ setSync('Sign-in returned something unreadable', 'warn'); return; }
+  try{
+    localStorage.setItem(CRED_KEY, JSON.stringify(
+      { jwt: resp.credential, exp: pay.exp, email: pay.email || '' }));
+  }catch(e){}
+  setSync('Signing in…','');
+  const u = await whoami();
+  if(!u){
+    // Authenticated with Google, but this address isn't on the list. Say which
+    // address was used — otherwise the only feedback is a silent failure.
+    clearCred();
+    setSync('That Google account isn\'t set up for this dashboard' +
+            (pay.email ? ' (' + pay.email + ')' : ''), 'warn');
+    renderAll();
+    return;
+  }
+  try{ const c = cacheGet(); S = c ? JSON.parse(c) : fromDrive({}); }catch(e){}
+  await pull();
+  renderAll();
+}
+
+function gisSignIn(){
+  if(!gisInit()){ setSync('Google Sign-In is not available here', 'warn'); return; }
+  try{
+    google.accounts.id.prompt();
+    // A rendered button is the reliable path; One Tap can be suppressed by the
+    // browser or by a previous dismissal, and then nothing visible happens.
+    const host = $('gsiBtn');
+    if(host && !host.childElementCount){
+      google.accounts.id.renderButton(host, { type:'standard', theme:'outline',
+        size:'large', text:'signin_with', shape:'pill' });
+    }
+  }catch(e){ setSync('Google Sign-In could not start', 'warn'); }
+}
+
+function gisSignOut(){
+  try{ if(gisAvailable()) google.accounts.id.disableAutoSelect(); }catch(e){}
+  clearCred();
+}
+
+/* An ID token lasts an hour. Re-request one before it lapses so a long session
+   doesn't silently stop syncing mid-quiz. */
+function gisWatch(){
+  setInterval(() => {
+    if(!GOOGLE_CLIENT_ID) return;
+    let c = null;
+    try{ c = JSON.parse(localStorage.getItem(CRED_KEY) || 'null'); }catch(e){}
+    if(!c || !c.exp) return;
+    if(c.exp * 1000 - Date.now() < 10 * 60 * 1000 && gisInit()){
+      try{ google.accounts.id.prompt(); }catch(e){}
+    }
+  }, 5 * 60 * 1000);
+}
+
 function setUser(u){
-  USER = { id:(u&&u.id)||'', name:(u&&u.name)||'', generate:!!(u&&u.generate) };
+  USER = { id:(u&&u.id)||'', name:(u&&u.name)||'', generate:!!(u&&u.generate),
+           via:(u&&u.via)||'', email:(u&&u.email)||'' };
   try{ localStorage.setItem(USER_KEY, JSON.stringify(USER)); }catch(e){}
   applyUserUI();
 }
@@ -1398,6 +1541,19 @@ const GEN_BUTTONS = ['btnSchedule','btnNow','revSchedule','revNow'];
 function applyUserUI(){
   const who = $('whoami');
   if(who) who.textContent = USER.name ? USER.name : 'Not connected';
+  // Say which method is in use. A shared token still works, but it should feel
+  // like the older option it is, not like the normal state of affairs.
+  const via = $('whoVia');
+  if(via){
+    via.className = 'who-via' + (USER.via === 'token' ? ' warn' : '');
+    via.textContent = !USER.id ? ''
+      : USER.via === 'google' ? (USER.email ? '· ' + USER.email : '· signed in with Google')
+      : USER.via === 'token'  ? '· using a shared token — sign in when you can'
+      : '';
+  }
+  // Offer sign-in only where it can actually work.
+  const row = $('gsiGo');
+  if(row) row.hidden = !GOOGLE_CLIENT_ID;
   // Same fact, shown in the header — who the data on screen belongs to is worth
   // knowing at a glance, not two tabs away.
   const top = $('whoTop');
@@ -1430,7 +1586,7 @@ async function whoami(){
 
     // A bad token gets an explicit error — that is a real rejection.
     if(d.error) return null;
-    if(d.user){ setUser(d.user); return d.user; }
+    if(d.user){ SIGNIN_CONFIGURED = !!d.signInConfigured; setUser(d.user); return d.user; }
 
     // No error and no user means the deployed script predates multi-user: it
     // doesn't know the whoami action, so it fell through and handed back the
@@ -1556,8 +1712,34 @@ async function push(){
   }
 }
 
+/* GIS calls this when its script finishes loading. Declared on window so the
+   inline onload attribute can reach it however late the script arrives. */
+window.__gisLoaded = function(){
+  if(!gisInit()) return;
+  // Only auto-prompt when there is nothing usable already; re-prompting a
+  // signed-in user on every page load is obnoxious.
+  if(!token()){ try{ google.accounts.id.prompt(); }catch(e){} }
+  applyUserUI();
+};
+
+/* The two scripts race, and either can win: GIS is small and cached, this page
+   is not. Cover both orders — the onload flag for "GIS got here first", and a
+   short retry for "GIS is still in flight". Gives up quietly after ~6s, by
+   which point sign-in is unavailable and the fallback path applies. */
+function gisBootstrap(){
+  if(!GOOGLE_CLIENT_ID) return;
+  if(window.__gisArrived || gisAvailable()){ window.__gisLoaded(); return; }
+  let tries = 0;
+  const t = setInterval(() => {
+    if(gisAvailable()){ clearInterval(t); window.__gisLoaded(); return; }
+    if(++tries > 20) clearInterval(t);
+  }, 300);
+}
+
 async function load(){
   applyUserUI();               // hide generation controls from the cached identity
+  gisBootstrap();              // whichever way the script race went
+  gisWatch();                  // keep the hour-long credential fresh
   const c = cacheGet();
   if(c){ try{ S = JSON.parse(c); }catch(e){} }
   renderAll();
@@ -1978,8 +2160,20 @@ function navFade(){
 
 // The connection banner's action actually goes there (finding 03).
 if($('connGo')) $('connGo').onclick = () => {
+  // Do the thing the button says wherever possible; only fall back to sending
+  // the user somewhere else when sign-in genuinely isn't available.
+  if(GOOGLE_CLIENT_ID && gisInit()){ gisSignIn(); return; }
   showTab('data');
-  const t = $('tokIn'); if(t) { t.focus(); t.scrollIntoView({block:'center'}); }
+  // The token box now lives inside a collapsed "use a sync token instead"
+  // disclosure, so focusing it without opening that does nothing at all —
+  // the banner would send you to a tab and then appear to abandon you.
+  const t = $('tokIn');
+  if(t){
+    const d = t.closest('details');
+    if(d) d.open = true;
+    t.focus();
+    t.scrollIntoView({block:'center'});
+  }
 };
 
 // system dropdown
@@ -3448,9 +3642,12 @@ $('resetAll').onclick = () => {
   save(); renderAll();
 };
 
+if($('gsiGo')) $('gsiGo').onclick = () => gisSignIn();
+
 $('disconnect').onclick = () => {
-  if(!confirm('Disconnect this device? Your progress stays safe in Drive and comes ' +
-              'back when you reconnect with your token.')) return;
+  if(!confirm('Sign out on this device? Your progress stays safe in Drive and comes ' +
+              'back when you sign in again.')) return;
+  gisSignOut();
   try{ localStorage.removeItem(TOKEN_KEY); }catch(e){}
   setUser(null);               // switches the cache namespace away from this user
   S = fromDrive({});
