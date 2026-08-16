@@ -1,0 +1,156 @@
+{
+ "title": "Neurology",
+ "system": "Neurology",
+ "questions": [
+  {
+   "stem": "A 68-year-old man presents 90 minutes after sudden onset right-sided weakness and expressive dysphasia. BP 168/94, BSL 6.2. CT brain shows no haemorrhage and no established infarct.",
+   "lead": "What is the most appropriate immediate management?",
+   "options": [
+    "Aspirin 300mg and admit for observation",
+    "IV thrombolysis with alteplase or tenecteplase",
+    "Wait for MRI before any treatment",
+    "Commence therapeutic enoxaparin"
+   ],
+   "correct": 1,
+   "explanation": "Ischaemic stroke within the <b>4.5-hour window</b> with haemorrhage excluded and no contraindication → <b>thrombolysis</b>. Aspirin is given but is <b>delayed 24 hours after thrombolysis</b>. Endovascular thrombectomy is considered in parallel for large vessel occlusion, with a much longer window (up to 24 hours in selected patients). Anticoagulation acutely increases haemorrhagic transformation risk and is not the answer.",
+   "topic": "Neurology — stroke",
+   "type": "application",
+   "difficulty": "easy"
+  },
+  {
+   "stem": "A 72-year-old woman has sudden onset vertigo, nausea, hoarseness and difficulty swallowing. Examination shows left Horner syndrome, loss of pain and temperature on the left face and right body, and left-sided ataxia.",
+   "lead": "Which artery is occluded?",
+   "options": [
+    "Left middle cerebral artery",
+    "Left posterior inferior cerebellar artery",
+    "Left anterior cerebral artery",
+    "Basilar artery"
+   ],
+   "correct": 1,
+   "explanation": "This is <b>lateral medullary (Wallenberg) syndrome</b> — PICA territory. The signature is <b>crossed sensory loss</b>: ipsilateral face, contralateral body. Add Horner syndrome, ipsilateral ataxia, vertigo, and bulbar features (hoarseness, dysphagia) from nucleus ambiguus involvement. Notably <b>there is no limb weakness</b> — the corticospinal tract is spared, which distinguishes it from an MCA stroke.",
+   "topic": "Neurology — stroke",
+   "type": "discrimination",
+   "difficulty": "hard"
+  },
+  {
+   "stem": "A 26-year-old woman describes recurrent unilateral throbbing headaches lasting up to a day, with nausea, photophobia, and preceding visual zigzag lines lasting 20 minutes. She currently uses the combined oral contraceptive pill.",
+   "lead": "What is the most important management consideration?",
+   "options": [
+    "Start propranolol prophylaxis",
+    "Stop the combined oral contraceptive pill",
+    "Start high-dose codeine for acute attacks",
+    "Arrange urgent CT brain"
+   ],
+   "correct": 1,
+   "explanation": "<b>Migraine with aura is an absolute contraindication to the combined oral contraceptive (UKMEC 4)</b> because of substantially increased ischaemic stroke risk — she should switch to a progestogen-only method. Propranolol is reasonable prophylaxis but is not the priority. Opioids are avoided in migraine (medication-overuse headache, poor efficacy). Imaging is not indicated for a typical aura history without red flags.",
+   "topic": "Neurology — headache",
+   "type": "application",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A 58-year-old man presents with the worst headache of his life, sudden onset while lifting, with neck stiffness and photophobia. CT brain at 8 hours is reported as normal.",
+   "lead": "What is the next step?",
+   "options": [
+    "Discharge with analgesia — CT excludes subarachnoid haemorrhage",
+    "Lumbar puncture at 12 hours looking for xanthochromia",
+    "MRI brain in 48 hours",
+    "Start nimodipine and observe"
+   ],
+   "correct": 1,
+   "explanation": "CT sensitivity for SAH is very high in the first 6 hours but <b>falls progressively after that</b> — a normal CT at 8 hours does not exclude it. <b>Lumbar puncture at ≥12 hours from onset</b> allows time for oxyhaemoglobin to break down to bilirubin, detected as <b>xanthochromia</b>, which also distinguishes true SAH from a traumatic tap. Nimodipine is used once SAH is confirmed, to reduce vasospasm.",
+   "topic": "Neurology — headache",
+   "type": "application",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A 30-year-old woman reports two episodes over 18 months: one of blurred vision with pain on eye movement, and one of numbness ascending both legs lasting weeks. Examination now shows brisk reflexes and an afferent pupillary defect.",
+   "lead": "What is the most likely diagnosis?",
+   "options": [
+    "Multiple sclerosis",
+    "Guillain-Barré syndrome",
+    "Myasthenia gravis",
+    "Functional neurological disorder"
+   ],
+   "correct": 0,
+   "explanation": "<b>Multiple sclerosis</b> — lesions disseminated in <b>time and space</b>: optic neuritis (painful visual loss, RAPD) and a separate spinal cord episode, months apart. Upper motor neurone signs fit a CNS demyelinating process. Guillain-Barré is monophasic with <i>areflexia</i> and ascending flaccid weakness. Myasthenia causes fatigable weakness without sensory symptoms or RAPD.",
+   "topic": "Neurology — demyelination",
+   "type": "discrimination",
+   "difficulty": "easy"
+  },
+  {
+   "stem": "A 22-year-old man has a witnessed generalised tonic-clonic seizure lasting 90 seconds, his first ever. He recovers fully over 30 minutes. Examination and bloods including glucose are normal.",
+   "lead": "What is the most appropriate management?",
+   "options": [
+    "Start sodium valproate immediately",
+    "Investigate with EEG and MRI; do not routinely start an antiseizure medication after a single unprovoked seizure",
+    "Start levetiracetam and discharge",
+    "Admit for 48 hours of continuous EEG"
+   ],
+   "correct": 1,
+   "explanation": "After a <b>single unprovoked seizure</b> with full recovery, the standard approach is <b>investigation (EEG, MRI) without immediately starting medication</b>, since recurrence risk is roughly 40% and treatment is usually deferred until a second seizure or high-risk features. Also mandatory: <b>driving restrictions</b> and safety advice. Valproate is additionally avoided where possible in people who could become pregnant.",
+   "topic": "Neurology — seizures",
+   "type": "application",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A 68-year-old man has a resting tremor worse on the left, bradykinesia, and rigidity. He has no early falls, no visual hallucinations, and no early autonomic failure. Symptoms improve substantially with levodopa.",
+   "lead": "What is the diagnosis?",
+   "options": [
+    "Progressive supranuclear palsy",
+    "Multiple system atrophy",
+    "Idiopathic Parkinson's disease",
+    "Drug-induced parkinsonism"
+   ],
+   "correct": 2,
+   "explanation": "<b>Asymmetric</b> onset with resting tremor, bradykinesia and rigidity, plus a <b>good levodopa response</b>, is idiopathic Parkinson's disease. The 'red flags' that suggest a Parkinson-plus syndrome are absent: early falls and vertical gaze palsy (PSP), early autonomic failure and cerebellar signs (MSA), early visual hallucinations and fluctuating cognition (Lewy body dementia). Drug-induced parkinsonism is typically symmetric and follows dopamine antagonists.",
+   "topic": "Neurology — movement disorders",
+   "type": "discrimination",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A 34-year-old woman describes fluctuating double vision and drooping eyelids, worse in the evening and after sustained upgaze. Power is normal on brief testing but fatigues on repetition. Reflexes are normal.",
+   "lead": "Which investigation is most likely to confirm the diagnosis?",
+   "options": [
+    "Acetylcholine receptor antibodies",
+    "Nerve conduction studies showing conduction block",
+    "CSF oligoclonal bands",
+    "Creatine kinase"
+   ],
+   "correct": 0,
+   "explanation": "<b>Fatigable</b> weakness with ptosis and diplopia is <b>myasthenia gravis</b> — confirmed by <b>anti-acetylcholine receptor antibodies</b> (positive in ~85% of generalised disease; anti-MuSK in some seronegative cases). Also arrange <b>CT chest for thymoma</b>. Repetitive nerve stimulation shows a decremental response. Key safety point: watch for myasthenic crisis with respiratory involvement, monitored by <b>FVC, not oximetry</b>.",
+   "topic": "Neurology — neuromuscular",
+   "type": "recall",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A 55-year-old man presents with progressive ascending symmetrical weakness over 6 days, following a diarrhoeal illness. Reflexes are absent. He reports mild back pain. FVC is falling.",
+   "lead": "What is the most important immediate concern?",
+   "options": [
+    "Starting corticosteroids",
+    "Respiratory failure requiring ventilatory support",
+    "Preventing pressure areas",
+    "Starting gabapentin for pain"
+   ],
+   "correct": 1,
+   "explanation": "In <b>Guillain-Barré syndrome</b>, the immediate threat is <b>neuromuscular respiratory failure</b> — monitor with <b>serial FVC</b> and intubate on declining FVC rather than waiting for hypoxia, which is a very late sign. Treatment is <b>IVIG or plasma exchange</b>. <b>Corticosteroids do not work in GBS</b>, which is a favourite distractor. Also monitor for autonomic instability and arrhythmia.",
+   "topic": "Neurology — neuromuscular",
+   "type": "application",
+   "difficulty": "hard"
+  },
+  {
+   "stem": "A 78-year-old woman on warfarin has a fall, striking her head. She is initially alert with GCS 15, then becomes progressively drowsy over 4 hours. CT shows a crescent-shaped hyperdense collection crossing suture lines.",
+   "lead": "What is the diagnosis?",
+   "options": [
+    "Extradural haematoma",
+    "Acute subdural haematoma",
+    "Subarachnoid haemorrhage",
+    "Diffuse axonal injury"
+   ],
+   "correct": 1,
+   "explanation": "<b>Crescent-shaped and crossing suture lines = subdural</b>, from torn bridging veins — favoured by age (cerebral atrophy) and <b>anticoagulation</b>. An <b>extradural</b> haematoma is biconvex/lens-shaped, does <b>not</b> cross suture lines (limited by dural attachments), is usually arterial from the middle meningeal artery, and classically follows a lucid interval. Management here includes urgent neurosurgical referral and <b>warfarin reversal with vitamin K plus prothrombinex</b>.",
+   "topic": "Neurology — head injury",
+   "type": "discrimination",
+   "difficulty": "hard"
+  }
+ ]
+}
