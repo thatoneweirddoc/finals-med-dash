@@ -130,6 +130,36 @@
    "added": "2026-08-16",
    "category": "topic",
    "servicedRequest": "r1786876771812"
+  },
+  {
+   "file": "respiratory.json",
+   "title": "Respiratory",
+   "system": "Respiratory",
+   "count": 10,
+   "added": "2026-08-16",
+   "category": "topic",
+   "servicedRequest": "r1786887442692",
+   "alsoServices": [
+    "r1786887427895"
+   ]
+  },
+  {
+   "file": "critical-care-2.json",
+   "title": "Critical Care — part 2",
+   "system": "Critical Care",
+   "count": 10,
+   "added": "2026-08-16",
+   "category": "topic",
+   "servicedRequest": "r1786887418070"
+  },
+  {
+   "file": "anaesthetics.json",
+   "title": "Anaesthetics",
+   "system": "Anaesthetics",
+   "count": 20,
+   "added": "2026-08-16",
+   "category": "topic",
+   "servicedRequest": "r1786887405899"
   }
  ]
 }
