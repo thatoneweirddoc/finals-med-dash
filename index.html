@@ -3034,13 +3034,13 @@ $('disconnect').onclick = () => {
  * countdown, the bar and the orb would drift apart from each other. This way
  * they're all derived from the same elapsed value, so they cannot disagree.
  */
-// 3 in, 7 hold, 10 out. The long exhale is the active ingredient: a slower out
-// than in is what actually shifts you toward parasympathetic, so the phases are
-// deliberately unequal rather than a tidy box.
+// 3 in, 7 hold, 5 out. A slower out than in is the active ingredient
+// for shifting toward parasympathetic, so the phases are deliberately unequal
+// rather than a tidy box.
 const BRK_PHASES = [
   { key:'in',   secs:3,  label:'Breathe in',  hint:'Through your nose',                 orb:'grow' },
   { key:'hold', secs:7,  label:'Hold',        hint:'Soft shoulders, unclench your jaw', orb:'hold' },
-  { key:'out',  secs:10, label:'Breathe out', hint:'Slowly, through your mouth',        orb:'shrink' }
+  { key:'out',  secs:5,  label:'Breathe out', hint:'Slowly, through your mouth',        orb:'shrink' }
 ];
 const BRK_CYCLES = 2;
 
