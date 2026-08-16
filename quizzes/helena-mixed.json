@@ -1,0 +1,176 @@
+{
+ "title": "Mixed review — clinical systems",
+ "system": "Mixed",
+ "questions": [
+  {
+   "stem": "A 62-year-old man is admitted with vomiting and poor oral intake for four days. Creatinine has risen from a baseline of 88 to 205 µmol/L. Urine output is 0.4 mL/kg/hr. Urinary sodium is 12 mmol/L and urine osmolality 620 mOsm/kg.",
+   "lead": "What is the most likely cause of his acute kidney injury?",
+   "options": [
+    "Pre-renal from hypovolaemia",
+    "Acute tubular necrosis",
+    "Acute interstitial nephritis",
+    "Post-renal obstruction",
+    "Glomerulonephritis"
+   ],
+   "correct": 0,
+   "explanation": "<b>Low urinary sodium (<20) with concentrated urine (>500 mOsm/kg)</b> means the tubules are working hard to retain salt and water — the kidney is responding appropriately to hypovolaemia, so this is <b>pre-renal</b>. In established ATN the tubules have failed, so urinary sodium rises above 40 and the urine becomes inappropriately dilute. That pair of numbers is the discriminator; the history of vomiting supports it.",
+   "point": "Pre-renal AKI shows urinary sodium under 20 with concentrated urine; ATN shows urinary sodium over 40 with dilute urine.",
+   "topic": "Renal — acute kidney injury",
+   "type": "discrimination",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A 26-year-old man has sudden severe left testicular pain and vomiting that began 3 hours ago. The testis is high-riding with a horizontal lie and the cremasteric reflex is absent.",
+   "lead": "What is the most appropriate management?",
+   "options": [
+    "Urgent scrotal ultrasound before deciding",
+    "Immediate surgical exploration",
+    "Antibiotics for epididymo-orchitis",
+    "Analgesia and review in 12 hours",
+    "Urgent urine culture"
+   ],
+   "correct": 1,
+   "explanation": "<b>Testicular torsion is a clinical diagnosis and a surgical emergency</b> — the testis is salvageable within roughly 6 hours and viability falls steeply after. Do not delay for imaging when the presentation is classic. Absent cremasteric reflex, high-riding testis and horizontal lie separate it from epididymo-orchitis, which comes on gradually with fever and is relieved by elevation.",
+   "point": "Testicular torsion is diagnosed clinically and explored immediately; imaging must not delay surgery.",
+   "topic": "Surgery — urology",
+   "type": "application",
+   "difficulty": "easy"
+  },
+  {
+   "stem": "A 58-year-old man is admitted with fever, confusion and BP 84/50 three days after bowel surgery. Lactate is 3.6 mmol/L (normal <2). He remains hypotensive after 30 mL/kg of crystalloid.",
+   "lead": "Within what timeframe should broad-spectrum antibiotics be given from recognition?",
+   "options": [
+    "Within 1 hour",
+    "Within 3 hours",
+    "Within 6 hours",
+    "Once blood cultures return",
+    "After source imaging"
+   ],
+   "correct": 0,
+   "explanation": "The Surviving Sepsis Campaign <b>Hour-1 bundle</b>: antibiotics within <b>1 hour</b> of recognising septic shock, alongside cultures (taken before antibiotics if that causes no delay), lactate, fluids and vasopressors. Waiting for culture results or imaging before treating is the classic and lethal error — every hour of delay increases mortality.",
+   "point": "Broad-spectrum antibiotics are given within one hour of recognising septic shock, without waiting for cultures.",
+   "topic": "Critical Care — sepsis",
+   "type": "recall",
+   "difficulty": "easy"
+  },
+  {
+   "stem": "Thirty minutes into a general anaesthetic with sevoflurane, a patient develops a rising end-tidal CO2 that does not fall with increased ventilation, generalised rigidity, tachycardia and a temperature of 39.2°C.",
+   "lead": "What is the specific treatment?",
+   "options": [
+    "Dantrolene",
+    "Bromocriptine",
+    "Cyproheptadine",
+    "Active cooling alone",
+    "Sodium bicarbonate"
+   ],
+   "correct": 0,
+   "explanation": "<b>Malignant hyperthermia</b>, triggered by volatile agents and suxamethonium in genetically susceptible patients. The earliest and most sensitive sign is a <b>rising end-tidal CO2 unresponsive to increased ventilation</b>; hyperthermia is late. Treatment is stopping the trigger, 100% oxygen, and <b>dantrolene 2.5 mg/kg</b> repeated as needed, plus cooling and treating hyperkalaemia. Bromocriptine is for neuroleptic malignant syndrome, cyproheptadine for serotonin syndrome.",
+   "point": "Malignant hyperthermia is treated with dantrolene, and rising end-tidal CO2 is its earliest sign.",
+   "topic": "Anaesthetics — complications",
+   "type": "recall",
+   "difficulty": "easy"
+  },
+  {
+   "stem": "A 34-year-old woman attends her GP for cervical screening. She has no symptoms and her last test was five years ago and normal.",
+   "lead": "What is the correct test under the Australian National Cervical Screening Program?",
+   "options": [
+    "Liquid-based cytology alone, every two years",
+    "Primary HPV test, with reflex cytology if HPV positive",
+    "Co-testing with HPV and cytology every three years",
+    "Colposcopy",
+    "No screening needed until age 40"
+   ],
+   "correct": 1,
+   "explanation": "Australia screens with a <b>primary HPV test every 5 years from age 25 to 74</b>, with <b>reflex liquid-based cytology only if HPV is detected</b>. HPV 16/18 positive goes straight to colposcopy; other oncogenic types are triaged by the cytology result. <b>Self-collection is available to all participants.</b> Note that screening is for asymptomatic women — abnormal bleeding needs assessment regardless of screening history.",
+   "point": "Australian cervical screening is a primary HPV test every five years from 25 to 74, with reflex cytology if HPV positive.",
+   "topic": "O&G — screening",
+   "type": "recall",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A 6-month-old is brought in with three days of coryza followed by increasing work of breathing, wheeze and poor feeding. He is afebrile with widespread fine crackles and subcostal recession. Oxygen saturation is 93%.",
+   "lead": "What is the most appropriate management?",
+   "options": [
+    "Salbutamol via spacer",
+    "Oral prednisolone",
+    "Supportive care with feeding support and oxygen if needed",
+    "Nebulised adrenaline and discharge",
+    "Oral amoxicillin"
+   ],
+   "correct": 2,
+   "explanation": "<b>Bronchiolitis</b> — typically under 12 months, coryzal prodrome, wheeze and crackles, poor feeding. Management is <b>supportive</b>: feeding support (nasogastric or IV if intake is poor), oxygen if saturations fall below about 90-92%, and minimal handling. <b>Salbutamol, corticosteroids, antibiotics and adrenaline do not change the course</b> — this is one of the most consistently examined 'do less' answers in paediatrics.",
+   "point": "Bronchiolitis is managed supportively; bronchodilators, steroids and antibiotics do not alter its course.",
+   "topic": "Paediatrics — respiratory",
+   "type": "application",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A 22-year-old man is brought in by police, agitated and stating that his neighbours are broadcasting his thoughts on the radio. He has not slept for three days and believes his food is being poisoned. He refuses admission. He has no known medical history.",
+   "lead": "What is the most important initial step?",
+   "options": [
+    "Commence an antipsychotic immediately",
+    "Exclude organic causes including substance use with examination and investigations",
+    "Arrange outpatient psychiatry review in one week",
+    "Discharge with a family member",
+    "Commence a benzodiazepine and review in 24 hours"
+   ],
+   "correct": 1,
+   "explanation": "A <b>first presentation of psychosis requires organic causes to be excluded before it is attributed to a primary psychiatric illness</b> — substance use (particularly methamphetamine), delirium, encephalitis, thyroid disease, and space-occupying lesions. Examination, bloods, urine drug screen, and imaging where indicated. Treatment follows, and involuntary assessment under the Mental Health Act may be needed given the risk and impaired insight.",
+   "point": "A first episode of psychosis requires exclusion of organic and substance-related causes before attributing it to primary psychiatric illness.",
+   "topic": "Psychiatry — psychosis",
+   "type": "application",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A 70-year-old farmer has a lesion on his ear that has grown over four months. It is a firm, tender, hyperkeratotic nodule with central ulceration. He is a kidney transplant recipient.",
+   "lead": "Which statement is most accurate?",
+   "options": [
+    "This is likely a basal cell carcinoma and will not metastasise",
+    "This is likely a squamous cell carcinoma, and site plus immunosuppression make metastasis a real risk",
+    "This is a seborrhoeic keratosis requiring no treatment",
+    "This is an actinic keratosis and topical therapy is sufficient",
+    "Melanoma is the most likely diagnosis given the growth rate"
+   ],
+   "correct": 1,
+   "explanation": "A firm, tender, hyperkeratotic ulcerated nodule on sun-damaged skin is a <b>squamous cell carcinoma</b>, and unlike BCC it <b>can metastasise</b>. Two features here raise that risk substantially: <b>site (ear, also lip)</b> and <b>immunosuppression</b> — transplant recipients have many times the incidence and more aggressive disease. BCC is pearly and translucent with rolled edges and does not metastasise.",
+   "point": "SCC can metastasise, and risk is highest on the ear or lip and in immunosuppressed patients such as transplant recipients.",
+   "topic": "Dermatology — skin cancer",
+   "type": "discrimination",
+   "difficulty": "hard"
+  },
+  {
+   "stem": "A 68-year-old woman presents with sudden painless loss of vision in one eye. Examination shows a relative afferent pupillary defect, a pale retina and a cherry-red spot at the macula. She is 68 with hypertension.",
+   "lead": "What must be excluded urgently, and why?",
+   "options": [
+    "Giant cell arteritis, because the other eye is at risk within days",
+    "Diabetic retinopathy, because it requires laser",
+    "Cataract, because it needs surgery",
+    "Open-angle glaucoma, because it needs drops",
+    "Retinal detachment, because it needs surgery"
+   ],
+   "correct": 0,
+   "explanation": "This is <b>central retinal artery occlusion</b> — a stroke of the eye. In anyone over 50, <b>giant cell arteritis must be excluded urgently</b> because the fellow eye can be lost within days, and <b>high-dose corticosteroids are started on clinical suspicion without waiting for ESR, CRP or biopsy</b>. Ask about headache, jaw claudication and scalp tenderness. Also investigate the embolic source — carotids, atrial fibrillation, cardiac.",
+   "point": "Any sudden painless vision loss over 50 requires urgent exclusion of giant cell arteritis, with steroids started on suspicion.",
+   "topic": "Ophthalmology — sudden vision loss",
+   "type": "application",
+   "difficulty": "hard"
+  },
+  {
+   "stem": "A 45-year-old man attends his GP requesting a repeat script for oxycodone. He is not a regular patient, says he is visiting from interstate, reports his medication was stolen, and declines alternatives when offered.",
+   "lead": "What is the most appropriate response?",
+   "options": [
+    "Provide the requested script to avoid withdrawal",
+    "Refuse and end the consultation",
+    "Check real-time prescription monitoring, contact his usual prescriber, and provide only what is clinically justified with follow-up arranged",
+    "Report him to police",
+    "Prescribe a two-week supply without further checks"
+   ],
+   "correct": 2,
+   "explanation": "The features described — unknown patient, specific drug requested, lost or stolen script, from out of area, declining alternatives — are recognised <b>red flags</b>, but they are not proof, and genuine patients do lose medication. The safe course is to <b>verify via SafeScript, contact the usual prescriber, and supply only what is clinically justified with proper follow-up</b>. Refusing outright abandons someone who may be dependent and in withdrawal; prescribing on request without checks is unsafe. In NSW, prescribing Schedule 8 drugs to a drug-dependent person requires authority.",
+   "point": "Suspected drug-seeking is managed by verifying through real-time prescription monitoring and contacting the usual prescriber, not by refusing care outright.",
+   "topic": "General Practice — prescribing",
+   "type": "application",
+   "difficulty": "medium"
+  }
+ ]
+}
