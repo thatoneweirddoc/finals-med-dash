@@ -1,0 +1,238 @@
+{
+ "title": "Dermatology",
+ "system": "Dermatology",
+ "created": "2026-08-16",
+ "rationale": "Requested module. Dermatology has notes but no test data at all — this converts an untested system into a measured one, weighted to the recognition patterns and emergencies that carry marks.",
+ "objectives": [
+  "Describe a skin lesion in the standard sequence and use the correct primary-lesion term, since the description usually decides the diagnosis.",
+  "Distinguish the three common skin cancers by their described appearance, and state which can metastasise.",
+  "State why a suspicious pigmented lesion is excised whole rather than shave- or punch-biopsied, and what determines melanoma prognosis.",
+  "Recognise the dermatological emergencies — SJS/TEN, DRESS, eczema herpeticum, necrotising fasciitis, meningococcaemia — and name the first action for each.",
+  "Select topical corticosteroid potency by body site, and recognise where a steroid is actively harmful.",
+  "Apply the Australian specifics: solaria, SunSmart, and scabies management including household treatment and post-treatment itch."
+ ],
+ "sections": [
+  {
+   "heading": "Describing a lesion — the words that do the work",
+   "body": "Marks come from an accurate description, and the diagnosis usually follows from it.\n\n| Term | Meaning |\n|---|---|\n| **Macule** | Flat, <1 cm, colour change only |\n| **Patch** | Flat, >1 cm |\n| **Papule** | Raised, <1 cm |\n| **Plaque** | Raised, flat-topped, >1 cm |\n| **Nodule** | Raised, >1 cm, deeper |\n| **Vesicle / bulla** | Fluid-filled, <1 cm / >1 cm |\n| **Pustule** | Pus-filled |\n| **Wheal** | Transient oedematous papule — urticaria |\n| **Erosion** | Epidermis only — heals **without** scar |\n| **Ulcer** | Through dermis or deeper — **scars** |\n\nSequence: site and distribution → size → shape → surface → colour → border → secondary change. Then nails, scalp, mucosa, hair.\n\n**Distribution is diagnostic in itself:** extensor (psoriasis), flexural (atopic dermatitis beyond infancy), photodistributed (drug or lupus), dermatomal (zoster), symmetrical (endogenous), asymmetric or bizarre (exogenous — contact or infection).",
+   "note": "Erosion heals without scarring; ulceration reaches dermis and scars.",
+   "link": {
+    "system": "dermatology",
+    "slug": "skin-structure-and-descriptive-terminology",
+    "title": "Skin Structure and Descriptive Terminology"
+   }
+  },
+  {
+   "heading": "The three skin cancers, and the one that kills",
+   "body": "**BCC** — commonest. Pearly, translucent papule with **rolled edges and arborising (branching) telangiectasia**, often centrally ulcerated. Locally destructive, essentially never metastasises. Superficial BCC on the trunk mimics eczema but has a fine thread-like pearly rim.\n\n**SCC** — firm, hyperkeratotic or crusted, often tender, on sun-damaged skin. **Can metastasise** — that is the discriminator from BCC — particularly lip, ear, and immunosuppressed patients. Precursors: actinic keratosis (rough, 'sandpaper'), Bowen disease (SCC in situ).\n\n**Melanoma** — **ABCDE**: Asymmetry, Border irregularity, Colour variation, Diameter >6 mm, **Evolution**. Change is the most sensitive single feature. The **ugly duckling sign** — the lesion unlike the patient's others — often outperforms ABCDE in someone with many naevi.\n\nSubtypes: superficial spreading (commonest), nodular (rapid vertical growth, may be amelanotic, worse prognosis), lentigo maligna melanoma (chronically sun-damaged elderly skin), **acral lentiginous** (palms, soles, subungual — least sun-related, most easily missed). **Hutchinson sign** — pigment onto the proximal nail fold — suggests subungual melanoma.",
+   "note": "BCC does not metastasise; SCC can. That single fact separates the two most-asked skin cancers.",
+   "link": {
+    "system": "dermatology",
+    "slug": "skin-cancer-and-pigmented-lesions",
+    "title": "Skin Cancer and Pigmented Lesions"
+   }
+  },
+  {
+   "heading": "Why the biopsy technique matters",
+   "body": "**Prognosis in melanoma depends primarily on Breslow thickness** — depth of invasion in millimetres. That is why a suspicious pigmented lesion gets an **excisional biopsy with a 2 mm margin**, not a shave or punch: a partial sample cannot be measured reliably for depth, so it destroys the single most important prognostic variable.\n\nWide local excision follows, with margins set by Breslow thickness, and sentinel node biopsy considered for staging in intermediate-thickness disease.\n\n**Australian context:** highest incidence in the world. Risks are fair skin (Fitzpatrick I–II), high naevus count, atypical naevi, personal or family history, **intermittent intense sun exposure and childhood sunburn**, solarium use, immunosuppression. Commercial solaria have been banned nationally since 2016. There is no population screening program — high-risk patients get structured surveillance instead.",
+   "note": "Suspicious pigmented lesion = excisional biopsy with 2 mm margin. Never shave or punch.",
+   "link": {
+    "system": "dermatology",
+    "slug": "skin-cancer-and-pigmented-lesions",
+    "title": "Skin Cancer and Pigmented Lesions"
+   }
+  },
+  {
+   "heading": "The emergencies",
+   "body": "Warning features in any rash: **mucosal involvement, skin pain, blistering or detachment, positive Nikolsky, fever, facial oedema, rapid progression.**\n\n| Condition | Signature | First action |\n|---|---|---|\n| **SJS/TEN** | Painful dusky macules → detachment, **≥2 mucosal surfaces**, Nikolsky+ | **Stop the culprit drug**, burns/ICU care, early ophthalmology |\n| **DRESS** | 2–8 weeks after drug, **facial oedema, eosinophilia, organ involvement** | Stop drug, corticosteroids, monitor liver |\n| **Eczema herpeticum** | Monomorphic punched-out erosions in eczema, unwell | **Urgent aciclovir** |\n| **Necrotising fasciitis** | **Pain out of proportion**, rapid, systemic toxicity | **Surgical debridement** — imaging must not delay |\n| **Meningococcaemia** | Non-blanching purpura + fever | **Immediate parenteral antibiotics** |\n\nBody surface detached: **SJS <10%, overlap 10–30%, TEN >30%**. Culprits: allopurinol, **anticonvulsants** (carbamazepine, lamotrigine, phenytoin), sulfonamides, NSAIDs.\n\n**Erythema multiforme is a different entity** — target lesions, usually **HSV**-triggered, generally self-limiting. Conflating it with SJS is a common error.",
+   "note": "In SJS/TEN the single most important intervention is stopping the causative drug.",
+   "link": {
+    "system": "dermatology",
+    "slug": "dermatological-emergencies-and-drug-eruptions",
+    "title": "Dermatological Emergencies and Drug Eruptions"
+   }
+  },
+  {
+   "heading": "Topical steroids, and where they do harm",
+   "body": "Match potency to site: **mild (hydrocortisone) on face, flexures and genitals**; moderate to potent on trunk and limbs. Use enough for long enough, then step down. A **fingertip unit** covers about two adult palms.\n\n**Where a topical steroid makes things worse — all regularly examined:**\n\n- **Tinea** → **tinea incognito**: scale and defined edge disappear, the rash spreads and looks atypical. If a 'rash' worsens on steroid, scrape it.\n- **Rosacea** → aggravated; treat with metronidazole or ivermectin instead.\n- **Perioral dermatitis** → caused and perpetuated by topical steroid.\n- **Psoriasis** → *systemic* steroids risk severe rebound and pustular flare on withdrawal.\n\n**Scabies (Australian relevance):** intense itch worse at night, burrows in finger webs and wrists, **spares the head in adults**. Permethrin 5% neck-down, **repeat in 7 days**, and **treat all household contacts simultaneously**. Itch is a delayed hypersensitivity reaction and **persists 2–4 weeks after successful treatment** — tell the patient, or they return convinced it failed. Crusted scabies is a significant issue in remote Aboriginal communities and needs oral ivermectin plus topical therapy.",
+   "note": "Post-scabies itch lasts 2-4 weeks after cure and is not treatment failure.",
+   "link": {
+    "system": "dermatology",
+    "slug": "skin-infections-and-infestations",
+    "title": "Skin Infections and Infestations"
+   }
+  }
+ ],
+ "questions": [
+  {
+   "difficulty": "easy",
+   "stem": "A 72-year-old farmer has a slowly growing lesion on his nose over 18 months. It is a pearly, translucent papule with a rolled edge, fine branching vessels across the surface, and a central crust.",
+   "lead": "What is the most likely diagnosis?",
+   "options": [
+    "Basal cell carcinoma",
+    "Squamous cell carcinoma",
+    "Amelanotic melanoma",
+    "Seborrhoeic keratosis",
+    "Keratoacanthoma"
+   ],
+   "correct": 0,
+   "explanation": "<b>Pearly, translucent, rolled edge with arborising telangiectasia</b> is the classic BCC. SCC is hyperkeratotic, crusted and often tender rather than translucent. Seborrhoeic keratosis looks 'stuck-on' with a waxy surface. BCC is locally destructive but essentially <b>never metastasises</b>.",
+   "point": "BCC presents as a pearly translucent papule with rolled edges and arborising telangiectasia, and does not metastasise.",
+   "topic": "Dermatology — skin cancer",
+   "type": "recall"
+  },
+  {
+   "difficulty": "easy",
+   "stem": "A 34-year-old woman has an itchy annular plaque on her thigh with a raised scaly advancing edge and central clearing. Her GP prescribed a potent topical corticosteroid; it improved for a week, then spread and lost its defined edge.",
+   "lead": "What has happened?",
+   "options": [
+    "Contact dermatitis from the steroid base",
+    "Tinea incognito",
+    "Psoriasis unmasked by steroid withdrawal",
+    "Cutaneous T-cell lymphoma",
+    "Steroid-induced acneiform eruption"
+   ],
+   "correct": 1,
+   "explanation": "An annular scaly plaque with an advancing edge and central clearing is <b>tinea</b>. A topical steroid suppresses the inflammation, removing the scale and defined border, so the rash looks atypical and spreads — <b>tinea incognito</b>. If a rash worsens on steroids, take skin scrapings before doing anything else.",
+   "point": "A fungal rash treated with topical steroid becomes tinea incognito: it loses its scale and defined edge and spreads.",
+   "topic": "Dermatology — infections",
+   "type": "application"
+  },
+  {
+   "difficulty": "easy",
+   "stem": "A 6-year-old with known atopic eczema develops fever and malaise, with numerous uniform punched-out erosions and vesicles over his face and neck within 48 hours.",
+   "lead": "What is the most appropriate immediate management?",
+   "options": [
+    "Increase the topical corticosteroid potency",
+    "Oral flucloxacillin",
+    "Urgent aciclovir",
+    "Oral prednisolone",
+    "Wet dressings and review in 48 hours"
+   ],
+   "correct": 2,
+   "explanation": "<b>Eczema herpeticum</b> — disseminated HSV on eczematous skin. Monomorphic punched-out erosions with systemic upset is the signature. Treat with <b>urgent aciclovir</b>; delay risks ocular involvement and dissemination. Bacterial superinfection may coexist, but the antiviral is the priority, and increasing the steroid would worsen it.",
+   "point": "Eczema herpeticum is disseminated HSV on eczematous skin and needs urgent aciclovir.",
+   "topic": "Dermatology — emergencies",
+   "type": "application"
+  },
+  {
+   "difficulty": "medium",
+   "stem": "A 58-year-old woman has a 9 mm pigmented lesion on her calf with an irregular border and three colours. She reports it has changed over four months.",
+   "lead": "What is the correct diagnostic step?",
+   "options": [
+    "Punch biopsy of the darkest area",
+    "Shave biopsy for speed",
+    "Excisional biopsy with a 2 mm margin",
+    "Wide local excision with 1 cm margins now",
+    "Dermoscopy and review in 3 months"
+   ],
+   "correct": 2,
+   "explanation": "<b>Excisional biopsy with a 2 mm margin</b>. Melanoma prognosis depends primarily on <b>Breslow thickness</b>, and a shave or partial punch cannot measure depth reliably — it destroys the key prognostic information. Definitive wide local excision comes <i>after</i> histology, with margins set by thickness. A changing pigmented lesion is not observed.",
+   "point": "A suspicious pigmented lesion is removed by excisional biopsy with a 2 mm margin, because Breslow thickness determines prognosis.",
+   "topic": "Dermatology — skin cancer",
+   "type": "application"
+  },
+  {
+   "difficulty": "medium",
+   "stem": "A 25-year-old man reports intense itch worse at night for three weeks. There are burrows in the finger webs and wrists and excoriated papules around the umbilicus. His partner has similar itch. His scalp and face are clear.",
+   "lead": "Which statement about management is correct?",
+   "options": [
+    "Treat the patient only; contacts are treated if they develop symptoms",
+    "Apply permethrin from the neck down, repeat in 7 days, and treat all household contacts at the same time",
+    "Oral ivermectin is first-line for uncomplicated scabies in Australia",
+    "Persistent itch two weeks after treatment indicates treatment failure",
+    "A topical corticosteroid alone is adequate treatment"
+   ],
+   "correct": 1,
+   "explanation": "<b>Permethrin 5% neck-down, repeated at 7 days, with simultaneous treatment of all household and close contacts</b> — treating the index case alone guarantees reinfestation. Oral ivermectin is reserved for crusted scabies or outbreaks. <b>Itch persists 2–4 weeks after successful treatment</b> because it is a delayed hypersensitivity response, so it does not indicate failure — patients must be warned or they present again convinced it did not work.",
+   "point": "Scabies itch persists 2-4 weeks after successful treatment and does not indicate failure.",
+   "topic": "Dermatology — infestations",
+   "type": "application"
+  },
+  {
+   "difficulty": "medium",
+   "stem": "A 62-year-old man started allopurinol three weeks ago. He now has fever, a widespread morbilliform rash, marked facial swelling, cervical lymphadenopathy, eosinophils 1.8 × 10⁹/L (normal <0.5), and ALT 320 U/L (normal <40).",
+   "lead": "What is the diagnosis?",
+   "options": [
+    "Stevens-Johnson syndrome",
+    "DRESS syndrome",
+    "Acute generalised exanthematous pustulosis",
+    "Urticarial drug eruption",
+    "Erythema multiforme"
+   ],
+   "correct": 1,
+   "explanation": "<b>DRESS</b> — the combination of <b>facial oedema, eosinophilia and internal organ involvement</b> (here hepatic) at <b>2–8 weeks</b> after the drug is characteristic; allopurinol is a classic culprit. SJS causes mucosal erosions and skin detachment, not eosinophilia with hepatitis. AGEP produces sterile pustules within days. DRESS can relapse over weeks and is associated with later autoimmune thyroid disease, so it needs follow-up.",
+   "point": "DRESS presents 2-8 weeks after the drug with facial oedema, eosinophilia and internal organ involvement.",
+   "topic": "Dermatology — drug eruptions",
+   "type": "discrimination"
+  },
+  {
+   "difficulty": "medium",
+   "stem": "A 40-year-old woman has central facial erythema, telangiectasia, and papules and pustules on her cheeks and nose. There are no comedones. Flushing is triggered by alcohol and hot drinks. She has been using hydrocortisone cream, which helped briefly then made it worse.",
+   "lead": "What is the most appropriate treatment?",
+   "options": [
+    "Continue hydrocortisone and add an emollient",
+    "Topical metronidazole or ivermectin, and stop the corticosteroid",
+    "Topical benzoyl peroxide and adapalene",
+    "Oral isotretinoin",
+    "Potent topical corticosteroid"
+   ],
+   "correct": 1,
+   "explanation": "<b>Absence of comedones</b> distinguishes rosacea from acne — that is the discriminator. Treat with trigger avoidance, sun protection and <b>topical metronidazole or ivermectin</b>, with doxycycline for more severe papulopustular disease. <b>Topical corticosteroids worsen rosacea</b> and cause a rebound flare on withdrawal, which is exactly the pattern described.",
+   "point": "Rosacea has no comedones, and topical corticosteroids make it worse.",
+   "topic": "Dermatology — inflammatory",
+   "type": "discrimination"
+  },
+  {
+   "difficulty": "hard",
+   "stem": "A 45-year-old man is 12 days into a course of lamotrigine. He has painful dusky macules on the trunk that have begun to blister, erosions of the lips and conjunctivae, and gentle lateral pressure on normal-looking skin causes the epidermis to shear. Roughly 12% of body surface is detached.",
+   "lead": "Which best describes the diagnosis and the single most important intervention?",
+   "options": [
+    "Toxic epidermal necrolysis; start prophylactic broad-spectrum antibiotics",
+    "SJS/TEN overlap; cease lamotrigine immediately",
+    "Stevens-Johnson syndrome; commence high-dose corticosteroids",
+    "Erythema multiforme major; commence aciclovir",
+    "Staphylococcal scalded skin syndrome; commence flucloxacillin"
+   ],
+   "correct": 1,
+   "explanation": "Detachment of <b>10–30%</b> defines <b>SJS/TEN overlap</b> (SJS <10%, TEN >30%), and the positive Nikolsky sign with two mucosal surfaces fits. The <b>single most important intervention is stopping the culprit drug</b> — outcome correlates with how promptly it is withdrawn. Prophylactic antibiotics are <b>not</b> given. SSSS spares mucosa and occurs in young children. Erythema multiforme is HSV-driven with target lesions, not sheet detachment.",
+   "point": "SJS involves under 10% body surface detachment, TEN over 30%, and overlap 10-30%.",
+   "topic": "Dermatology — emergencies",
+   "type": "discrimination"
+  },
+  {
+   "difficulty": "hard",
+   "stem": "A 68-year-old woman has a 6-month history of intense vulval itch. There are white atrophic plaques with loss of the labial architecture in a figure-of-eight distribution around the vulva and anus. One area has remained thickened and eroded despite three months of a potent topical corticosteroid.",
+   "lead": "What is the most appropriate next step?",
+   "options": [
+    "Switch to a topical calcineurin inhibitor",
+    "Reassure — this is expected in lichen sclerosus",
+    "Biopsy the non-responding area",
+    "Commence oral antifungal therapy",
+    "Refer for vulvectomy"
+   ],
+   "correct": 2,
+   "explanation": "This is <b>lichen sclerosus</b>, treated with a potent topical corticosteroid. The point of the question is the <b>non-responding area</b>: lichen sclerosus carries a small but real risk of <b>vulval squamous cell carcinoma</b>, so any region that fails to respond, remains thickened, or ulcerates must be <b>biopsied</b>. Switching agents or reassuring both risk missing a malignancy.",
+   "point": "Any area of lichen sclerosus failing to respond to potent topical steroid must be biopsied to exclude vulval SCC.",
+   "topic": "Dermatology — inflammatory",
+   "type": "application"
+  },
+  {
+   "difficulty": "hard",
+   "stem": "A 55-year-old man has an enlarging lesion on his left ear, present four months, now a 15 mm firm tender nodule with a keratotic crust and central ulceration. He is a kidney transplant recipient on tacrolimus and mycophenolate.",
+   "lead": "Which feature most increases the risk that this lesion will metastasise?",
+   "options": [
+    "The four-month history",
+    "Its location on the ear combined with his immunosuppression",
+    "The presence of a keratotic crust",
+    "His age",
+    "Ulceration of the surface"
+   ],
+   "correct": 1,
+   "explanation": "This is a <b>squamous cell carcinoma</b>, and unlike BCC it <b>can metastasise</b>. The high-risk features here are <b>site (ear, also lip) and immunosuppression</b> — organ transplant recipients have many times the SCC incidence and markedly more aggressive disease. Size >20 mm, depth, poor differentiation and perineural invasion also raise risk. Crusting and ulceration are morphological features common to many SCCs and do not independently predict spread.",
+   "point": "SCC on the ear or lip, and SCC in immunosuppressed patients such as transplant recipients, carries high metastatic risk.",
+   "topic": "Dermatology — skin cancer",
+   "type": "discrimination"
+  }
+ ]
+}
