@@ -1,0 +1,227 @@
+{
+ "title": "Your Repeat Failures",
+ "system": "Weakest areas",
+ "created": "2026-08-17",
+ "rationale": "Built from the four errors your tracker shows you making repeatedly: Parkland missed 3 times with the identical wrong answer, ANZCOR adrenaline timing missed 4 times, periop bridging now wrong in both directions, and the primary-vs-secondary adrenal fork missed 5 times.",
+ "objectives": [
+  "State the Parkland formula precisely and apply it from time of injury, not time of presentation.",
+  "Give the ANZCOR drug sequence in shockable arrest, and name the guideline that says otherwise.",
+  "Decide bridging correctly in both directions: which few warfarin patients need it, and why no DOAC patient does.",
+  "Use ACTH and the aldosterone/renin pair to separate primary from secondary adrenal insufficiency in either direction.",
+  "Recognise that potassium is the discriminating electrolyte in adrenal insufficiency, and explain why."
+ ],
+ "sections": [
+  {
+   "heading": "Parkland — you have used ×2 three times",
+   "body": "**4 mL × body weight (kg) × %TBSA** of crystalloid in the first 24 hours.\n\nYour three attempts at the 80 kg / 30% question all answered **4800 mL**. That is 2 × 80 × 30. The correct answer is **4 × 80 × 30 = 9600 mL**. You are not guessing — you are consistently using the wrong multiplier, which is the easiest kind of error to fix.\n\n**Half in the first 8 hours, measured from the TIME OF INJURY**, not from arrival. A patient presenting 3 hours post-burn must receive that half over the remaining 5 hours.\n\nTitrate to **urine output 0.5–1 mL/kg/hr** rather than following the formula blindly — the formula is a starting estimate, not a prescription.",
+   "note": "Parkland is 4 mL per kg per %TBSA, half in the first 8 hours from the time of injury.",
+   "link": {
+    "system": "anaesthetics",
+    "slug": "5-intraoperative-fluids",
+    "title": "Fluids"
+   }
+  },
+  {
+   "heading": "ANZCOR arrest drugs — you have answered '3rd shock' three times",
+   "body": "| | Shockable (VF/pVT) | Non-shockable (PEA/asystole) |\n|---|---|---|\n| **Adrenaline 1 mg** | **After the 2nd shock**, then every 2nd loop | **As soon as feasible**, then every 2nd loop |\n| **Amiodarone 300 mg** | **After the 3rd shock** (150 mg after the 5th) | No role |\n\nThe reason you keep answering third is that it **is** the right answer — under the **ERC/UK** guidelines. AHA and **ANZCOR** both say after the second. You are in Australia, so ANZCOR governs.\n\nHold the two together as one sequence: **adrenaline 2nd, amiodarone 3rd.** They interlock, which makes them easier to keep straight than either alone.",
+   "note": "ANZCOR: adrenaline after the 2nd shock, amiodarone after the 3rd. ERC says adrenaline after the 3rd.",
+   "link": {
+    "system": "critical-care",
+    "slug": "additional-notes",
+    "title": "Critical Care"
+   }
+  },
+  {
+   "heading": "Bridging — you have now missed it in both directions",
+   "body": "On 16 August you answered *'bridging is never indicated in modern practice'* for a **mechanical mitral valve** (it is indicated), having earlier answered *'bridge with LMWH'* for a **DOAC** (it is not). That is overcorrection: the first teaching moved you from always-bridge to never-bridge, when the real answer is a short specific list.\n\n**Bridging applies to WARFARIN only, and only for:**\n- Mechanical heart valve, especially mitral or older-generation\n- VTE within the last 3 months\n- Rheumatic mitral stenosis with AF\n- Prior thromboembolism during a previous interruption\n\n**Never for a DOAC.** Half-lives are ~12 hours, so there is no prolonged sub-therapeutic window to cover; bridging roughly triples major bleeding with no reduction in thromboembolism.\n\n**A high CHA₂DS₂-VASc score is not a bridging indication.** It decides whether to anticoagulate at all, not what to do during a 48-hour interruption.",
+   "note": "Bridging is a warfarin concept for a short specific list; no DOAC patient is bridged.",
+   "link": {
+    "system": "cardiology",
+    "slug": "cardiovascular-pharmacology",
+    "title": "Cardiovascular Pharmacology"
+   }
+  },
+  {
+   "heading": "Primary vs secondary adrenal insufficiency — 5 misses",
+   "body": "The cortex has three layers and **they are not all ACTH-driven**:\n\n| Layer | Product | Driven by |\n|---|---|---|\n| Zona **g**lomerulosa | Aldosterone (**salt**) | **RAAS — not ACTH** |\n| Zona **f**asciculata | Cortisol (**sugar**) | ACTH |\n| Zona **r**eticularis | Androgens (**sex**) | ACTH |\n\nThat single fact generates the whole discriminator:\n\n| | Primary (Addison's) | Secondary (steroid withdrawal, pituitary) |\n|---|---|---|\n| **ACTH** | **High** | **Low / inappropriately normal** |\n| **Aldosterone** | **Low** | **Normal** — RAAS intact |\n| **Renin** | **High** | Normal |\n| **Potassium** | **High** | **Normal** |\n| Pigmentation | **Yes** | **No** |\n\nYour 16 August miss was a prednisolone withdrawal case where you predicted *ACTH high, aldosterone low, renin high* — the primary pattern. Exogenous steroid suppresses the pituitary, so **ACTH must be LOW**, and the glomerulosa was never ACTH-dependent, so aldosterone stays normal.\n\n**Potassium is the discriminating electrolyte.** Hyponatraemia occurs in both (two different mechanisms). Hyperkalaemia needs aldosterone to be gone, so it only happens in primary.",
+   "note": "ACTH high means primary; ACTH low means secondary. Hyperkalaemia occurs only in primary.",
+   "link": {
+    "system": "endocrine",
+    "slug": "adrenal-disorders",
+    "title": "Adrenal Disorders"
+   }
+  }
+ ],
+ "questions": [
+  {
+   "difficulty": "easy",
+   "stem": "A 60 kg woman sustains burns to 20% total body surface area.",
+   "lead": "What total crystalloid volume does Parkland give for the first 24 hours?",
+   "options": [
+    "2400 mL",
+    "4800 mL",
+    "6000 mL",
+    "9600 mL",
+    "1200 mL"
+   ],
+   "correct": 1,
+   "explanation": "<b>4 × 60 × 20 = 4800 mL</b>. Note this is the number you have previously given as the answer to a different question (80 kg, 30%) where the correct value was 9600 — the arithmetic is the same each time, only the multiplier matters. Half (2400 mL) goes in the first 8 hours from the time of injury.",
+   "point": "Parkland is 4 mL per kg per %TBSA over 24 hours, with half in the first 8 hours from injury.",
+   "topic": "Critical Care — burns resuscitation",
+   "type": "application"
+  },
+  {
+   "difficulty": "easy",
+   "stem": "A patient is in VF. Three shocks have been delivered, CPR is ongoing, and adrenaline was given after the second shock.",
+   "lead": "Per ANZCOR, what is given now?",
+   "options": [
+    "A second dose of adrenaline",
+    "Amiodarone 300 mg",
+    "Amiodarone 150 mg",
+    "Lignocaine 3 mg/kg",
+    "Nothing further until the 5th shock"
+   ],
+   "correct": 1,
+   "explanation": "<b>Amiodarone 300 mg after the 3rd shock</b>, with 150 mg considered after the 5th. Adrenaline follows the 2nd shock and then every second loop, so its next dose comes after the 4th shock, not now. Holding the pair as one sequence — <b>adrenaline 2nd, amiodarone 3rd</b> — is what stops these being confused.",
+   "point": "ANZCOR gives amiodarone 300 mg after the third shock, and a further 150 mg after the fifth.",
+   "topic": "Critical Care — ALS medications",
+   "type": "recall"
+  },
+  {
+   "difficulty": "easy",
+   "stem": "A 66-year-old man with a mechanical aortic valve on warfarin requires an elective hernia repair.",
+   "lead": "Does he require bridging?",
+   "options": [
+    "No — bridging is obsolete",
+    "Yes — a mechanical valve is a standard bridging indication",
+    "No — only mitral valves are bridged",
+    "Only if his INR exceeds 3.5",
+    "Only if his CHA₂DS₂-VASc is above 4"
+   ],
+   "correct": 1,
+   "explanation": "<b>Mechanical heart valves remain a genuine bridging indication.</b> The lesson from BRIDGE was that most AF patients do not need it — not that bridging is obsolete, which is the overcorrection to avoid. Mitral position and older-generation valves carry the highest risk, but aortic mechanical valves are still bridged.",
+   "point": "Mechanical heart valves are a standard indication for perioperative bridging on warfarin.",
+   "topic": "Cardiology — anticoagulation & periop",
+   "type": "recall"
+  },
+  {
+   "difficulty": "medium",
+   "stem": "A 75 kg man sustains 35% TBSA burns. He arrives at hospital 4 hours after the injury, having received no fluid.",
+   "lead": "How much crystalloid should he receive over the next 4 hours?",
+   "options": [
+    "5250 mL",
+    "2625 mL",
+    "10500 mL",
+    "1312 mL",
+    "3500 mL"
+   ],
+   "correct": 0,
+   "explanation": "Total = <b>4 × 75 × 35 = 10500 mL</b>. Half — <b>5250 mL</b> — is due in the first 8 hours <b>from the time of injury</b>. He is already 4 hours in, so that entire 5250 mL must run over the remaining 4 hours. The remaining 5250 mL then runs over the following 16 hours. Timing from injury rather than arrival is the part most often missed.",
+   "point": "The first half of Parkland fluid is delivered within 8 hours of the injury, so a delayed presentation compresses the remaining time.",
+   "topic": "Critical Care — burns resuscitation",
+   "type": "application"
+  },
+  {
+   "difficulty": "medium",
+   "stem": "A 70-year-old man on apixaban for non-valvular AF, CHA₂DS₂-VASc 6, CrCl 55, is booked for an elective colonoscopy with anticipated polypectomy (high bleeding risk). He has never had a thromboembolic event.",
+   "lead": "What is the correct plan?",
+   "options": [
+    "Stop apixaban 48 hours before; bridge with therapeutic LMWH given the high CHA₂DS₂-VASc",
+    "Stop apixaban 48 hours before; no bridging",
+    "Continue apixaban throughout",
+    "Stop apixaban 5 days before; no bridging",
+    "Stop apixaban 24 hours before; bridge with prophylactic LMWH"
+   ],
+   "correct": 1,
+   "explanation": "High bleeding risk with CrCl ≥50 means <b>48 hours</b>, and <b>no bridging</b> — DOACs are never bridged. The high CHA₂DS₂-VASc is the distractor: it determines whether he should be anticoagulated long-term, not what happens across a two-day interruption. The 5-day interval is a warfarin figure.",
+   "point": "DOACs are never bridged, and a high CHA2DS2-VASc score is not a bridging indication.",
+   "topic": "Cardiology — anticoagulation & periop",
+   "type": "discrimination"
+  },
+  {
+   "difficulty": "medium",
+   "stem": "A 62-year-old woman on prednisolone 10 mg daily for 2 years stops abruptly. Five days later she is fatigued and hypotensive. Na 131, K 4.2, glucose 3.4. No hyperpigmentation.",
+   "lead": "Which pattern do you expect?",
+   "options": [
+    "ACTH high, aldosterone low, renin high",
+    "ACTH low, aldosterone normal, renin normal",
+    "ACTH high, aldosterone normal, renin normal",
+    "ACTH low, aldosterone low, renin high",
+    "ACTH normal, aldosterone high, renin low"
+   ],
+   "correct": 1,
+   "explanation": "Exogenous steroid suppresses the pituitary, so <b>ACTH is low</b> — this is <b>secondary</b>. The zona glomerulosa is driven by RAAS, not ACTH, so <b>aldosterone and renin stay normal</b>, which is exactly why her <b>potassium is normal at 4.2</b> and why she has no pigmentation. Option 1 is the primary pattern, which is the answer you gave to this question type on 16 August.",
+   "point": "Secondary adrenal insufficiency gives low ACTH with normal aldosterone, renin and potassium.",
+   "topic": "Endocrine — adrenal insufficiency",
+   "type": "discrimination"
+  },
+  {
+   "difficulty": "medium",
+   "stem": "A patient is found in cardiac arrest with PEA on the monitor. CPR is in progress.",
+   "lead": "When is adrenaline given?",
+   "options": [
+    "After the 2nd shock",
+    "As soon as feasible",
+    "After 2 minutes of CPR",
+    "Only once the rhythm becomes shockable",
+    "After the 3rd loop"
+   ],
+   "correct": 1,
+   "explanation": "In <b>non-shockable</b> rhythms there are no shocks to count from, so adrenaline is given <b>as soon as feasible</b> and then every second loop — and it is a stronger recommendation here than in shockable rhythms. Shocks have no role in PEA or asystole. Knowing both branches prevents the shock-count rule being misapplied.",
+   "point": "In non-shockable arrest, adrenaline is given as soon as feasible rather than after a shock.",
+   "topic": "Critical Care — ALS medications",
+   "type": "discrimination"
+  },
+  {
+   "difficulty": "hard",
+   "stem": "A collapsed 54-year-old man has Na 129, K 4.0, glucose 2.8. He is hypotensive and has no hyperpigmentation. He takes no regular medications and has no known endocrine disease.",
+   "lead": "Which single finding argues most strongly AGAINST established primary adrenal insufficiency?",
+   "options": [
+    "The hyponatraemia",
+    "The hypoglycaemia",
+    "The normal potassium",
+    "The absent hyperpigmentation",
+    "The absence of regular medications"
+   ],
+   "correct": 2,
+   "explanation": "<b>Normal potassium</b> is mechanistically incompatible. Primary disease destroys the whole cortex including the glomerulosa, so aldosterone is lost and potassium <b>must</b> rise. Hyponatraemia and hypoglycaemia arise from cortisol deficiency and occur in <b>both</b> primary and secondary, so neither discriminates. Absent pigmentation is suggestive but weaker — it takes months to appear, so early primary disease may have none.",
+   "point": "Normal potassium argues against established primary adrenal insufficiency because hyperkalaemia requires loss of aldosterone.",
+   "topic": "Endocrine — adrenal insufficiency",
+   "type": "discrimination"
+  },
+  {
+   "difficulty": "hard",
+   "stem": "A UK-trained colleague states that adrenaline should be given after the third shock in VF arrest. You are working in a Sydney emergency department.",
+   "lead": "What is the correct response?",
+   "options": [
+    "He is wrong; adrenaline is never given in VF",
+    "He is describing ERC guidance; ANZCOR specifies after the second shock",
+    "He is correct; ANZCOR also specifies the third shock",
+    "Both are acceptable as the evidence is equivalent",
+    "Adrenaline timing is not specified by either guideline"
+   ],
+   "correct": 1,
+   "explanation": "He is not mistaken — he is quoting the <b>European Resuscitation Council</b>, which does specify after the third shock. <b>ANZCOR and AHA both specify after the second.</b> In Australia you follow ANZCOR. This is worth understanding rather than memorising, because it explains why you have repeatedly encountered and accepted the 'third shock' answer: it is correct in another jurisdiction.",
+   "point": "ERC gives adrenaline after the third shock; ANZCOR and AHA give it after the second.",
+   "topic": "Critical Care — ALS medications",
+   "type": "recall"
+  },
+  {
+   "difficulty": "hard",
+   "stem": "A 68-year-old woman on warfarin for AF with a prior DVT 8 weeks ago requires urgent hip fracture surgery. INR is 2.6.",
+   "lead": "Which aspect of her history most changes perioperative management?",
+   "options": [
+    "Her age",
+    "The AF alone",
+    "VTE within the last 3 months",
+    "The fracture site",
+    "The INR value"
+   ],
+   "correct": 2,
+   "explanation": "<b>VTE within 3 months</b> is one of the few genuine bridging indications on warfarin — the early recurrence risk is high enough to justify covering the interruption. AF alone, at any CHA₂DS₂-VASc score, is not. Note the competing pressure: hip fracture outcomes worsen beyond 48 hours, so this becomes a multidisciplinary trade-off between reversal, timing and thrombotic risk rather than a formula.",
+   "point": "VTE within the last three months is one of the few genuine indications for perioperative bridging on warfarin.",
+   "topic": "Cardiology — anticoagulation & periop",
+   "type": "application"
+  }
+ ]
+}
