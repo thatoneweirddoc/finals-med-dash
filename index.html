@@ -657,6 +657,12 @@
     .brk-orb{transition:none}
     .brk-back{backdrop-filter:none;-webkit-backdrop-filter:none}
   }
+
+  .sync-row{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-top:10px}
+  .sync-row .sync{margin-top:0}
+  .who{font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;
+    color:var(--ink-2);background:var(--panel-2);border:1px solid var(--rule);
+    border-radius:var(--r-ctl);padding:4px 9px}
 </style>
 
 <!-- build: 2026-08-16 09:11 UTC -->
@@ -685,7 +691,10 @@
         </div>
       </div>
     </div>
-    <div class="sync" id="syncState">Connecting…</div>
+    <div class="sync-row">
+      <span class="who" id="whoTop" hidden></span>
+      <span class="sync" id="syncState">Connecting…</span>
+    </div>
     <div class="head-row">
       <a class="notes-btn" href="notes.html">Notes library →</a>
       <form class="notes-search" id="notesSearch" onsubmit="return false">
@@ -1197,6 +1206,13 @@ const GEN_BUTTONS = ['btnSchedule','btnNow','revSchedule','revNow'];
 function applyUserUI(){
   const who = $('whoami');
   if(who) who.textContent = USER.name ? USER.name : 'Not connected';
+  // Same fact, shown in the header — who the data on screen belongs to is worth
+  // knowing at a glance, not two tabs away.
+  const top = $('whoTop');
+  if(top){
+    top.textContent = USER.name ? 'Connected as ' + USER.name : '';
+    top.hidden = !USER.name;
+  }
   GEN_BUTTONS.forEach(id => {
     const b = $(id);
     if(!b) return;
