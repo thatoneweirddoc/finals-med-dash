@@ -8,7 +8,8 @@
    "questions": 10,
    "rationale": "Requested module. Dermatology has notes but no test data at all — this converts an untested system into a measured one, weighted to the recognition patterns and emergencies that carry marks.",
    "added": "2026-08-16",
-   "servicedRequest": "r1786879721789"
+   "servicedRequest": "r1786879721789",
+   "for": "fadi"
   },
   {
    "file": "adrenal-axis.json",
@@ -17,7 +18,8 @@
    "objectives": 6,
    "questions": 10,
    "rationale": "Your highest-volume weakness: 47% across 17 questions. The recorded misses show one principle failing repeatedly across three different diseases — renin direction misread in Addison's, Conn's, and renal artery stenosis.",
-   "added": "2026-08-16"
+   "added": "2026-08-16",
+   "for": "fadi"
   },
   {
    "file": "anticoagulation.json",
@@ -26,7 +28,8 @@
    "objectives": 6,
    "questions": 10,
    "rationale": "Selected from your tracker: 0% across all three anticoagulation topics.",
-   "added": "2026-08-15"
+   "added": "2026-08-15",
+   "for": "fadi"
   }
  ]
 }
