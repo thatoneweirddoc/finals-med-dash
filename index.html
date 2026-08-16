@@ -3332,6 +3332,9 @@ async function submitRevision(){
   clearProgress(CURRENT_REV.id);
   const m = CURRENT_REV;
   let correct = 0; const byTopic = {}; const flags = []; const misses = [];
+  // Correct answers were previously thrown away into a tally. They carry the
+  // identity of what you got right, which is what retires a flag.
+  const corrects = [];
   const byDiff = {easy:{c:0,t:0}, medium:{c:0,t:0}, hard:{c:0,t:0}};
 
   m.questions.forEach((qq,i) => {
@@ -3345,7 +3348,10 @@ async function submitRevision(){
       flags.push({topic:qq.topic, system:m.system, type:qq.type||'recall'});
       misses.push({topic:qq.topic, stem:qq.stem, lead:qq.lead,
                    mine:qq.options[REV_ANSWERS[i]], correct:qq.options[qq.correct],
-                   type:qq.type||'recall'});
+                   point:qq.point||'', type:qq.type||'recall'});
+    } else {
+      corrects.push({topic:qq.topic, lead:qq.lead,
+                     correct:qq.options[qq.correct], point:qq.point||''});
     }
     const card = $('rq'+i);
     card.querySelectorAll('.opt').forEach((el,j) => {
@@ -3378,7 +3384,7 @@ async function submitRevision(){
         score: `${correct}/${m.questions.length} (${pct}%)`,
         correct, total: m.questions.length,
         results: Object.entries(byTopic).map(([topic,v]) => ({topic, correct:v.c, total:v.t})),
-        flags, misses
+        flags, misses, corrects
       })
     });
     const d = await r.json();
@@ -3596,6 +3602,8 @@ async function submitQuiz(){
   clearProgress(CURRENT_QUIZ.id);
   const q = CURRENT_QUIZ;
   let correct = 0; const byTopic = {}; const flags = []; const misses = []; const byDiff = {};
+  // What you got right, with enough identity to retire the matching flag.
+  const corrects = [];
 
   q.questions.forEach((qq,i) => {
     const ok = QUIZ_ANSWERS[i] === qq.correct;
@@ -3612,6 +3620,9 @@ async function submitQuiz(){
                    mine:qq.options[QUIZ_ANSWERS[i]], correct:qq.options[qq.correct],
                    point:qq.point||'', type:qq.type||'recall',
                    difficulty:qq.difficulty||''});
+    } else {
+      corrects.push({topic:qq.topic, lead:qq.lead,
+                     correct:qq.options[qq.correct], point:qq.point||''});
     }
     const card = $('qc'+i);
     card.querySelectorAll('.opt').forEach((el,j) => {
@@ -3641,7 +3652,7 @@ async function submitQuiz(){
         score: `${correct}/${q.questions.length} (${pct}%)`,
         correct, total: q.questions.length,
         results: Object.entries(byTopic).map(([topic,v]) => ({topic, correct:v.c, total:v.t})),
-        flags, misses,
+        flags, misses, corrects,
         byDifficulty: Object.entries(byDiff).map(([level,v]) => ({level, total:v.t, correct:v.c}))
       })
     });

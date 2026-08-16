@@ -1210,6 +1210,30 @@ function recordResults(body, uid) {
                   { error: 'Your tracker is busy — try recording again in a moment.' });
 }
 
+/**
+ * How many correct answers on the same point retire it.
+ *
+ * One, as asked for. Worth knowing the trade: a four-option question is a 25%
+ * guess, so a single correct answer is weaker evidence than it looks. Raise
+ * this to 2 and a point has to survive two separate sittings before the flag
+ * goes — the counter below already tracks it.
+ */
+const CLEARS_REQUIRED = 1;
+
+/**
+ * The identity of a learning point, built identically whether it arrives as a
+ * miss or as a correct answer — otherwise the two would never match and
+ * nothing would ever clear.
+ */
+function pointLine(m) {
+  const authored = String((m && m.point) || '').trim();
+  if (authored) return authored;
+  const lead = String((m && m.lead) || '').replace(/\s*\?\s*$/, '').trim();
+  const ans = String((m && m.correct) || '').trim();
+  if (!ans) return '';
+  return (lead ? lead + ' — ' : '') + ans;
+}
+
 function recordResultsLocked(body, uid) {
   const t = JSON.parse(readFile(uid));
   const date = new Date().toISOString().slice(0, 10);
@@ -1239,16 +1263,47 @@ function recordResultsLocked(body, uid) {
     // generation time. Lead+answer is only the fallback for old quizzes, and it
     // reads badly ("what happens next — needle decompression") because it
     // depends on a stem that isn't shown.
-    let line = String(m.point || '').trim();
-    if (!line) {
-      const lead = String(m.lead || '').replace(/\s*\?\s*$/, '').trim();
-      line = (lead ? lead + ' — ' : '') + String(m.correct).trim();
-    }
+    const line = pointLine(m);
+    if (!line) return;
     pointsByTopic[key] = pointsByTopic[key] || [];
     if (pointsByTopic[key].indexOf(line) < 0) pointsByTopic[key].push(line);
   });
 
   t.open = t.open || [];
+  t.resolved = t.resolved || [];
+
+  /* A point answered correctly retires. Done BEFORE the new flags below, so a
+     session that gets one instance right and another wrong still ends flagged —
+     missing it again is the stronger signal and must win.
+     A flag with no points is a manual one: it names no question, so no answer
+     can be "the same question", and it is left alone. */
+  (body.corrects || []).forEach(function (c) {
+    const key = String(c.topic || '').toLowerCase();
+    const line = pointLine(c);
+    if (!key || !line) return;
+
+    const hit = t.open.filter(function (o) {
+      return String(o.topic).toLowerCase() === key;
+    })[0];
+    if (!hit || !(hit.points || []).length) return;
+    if (hit.points.indexOf(line) < 0) return;      // a different question
+
+    hit.hits = hit.hits || {};
+    hit.hits[line] = (hit.hits[line] || 0) + 1;
+    if (hit.hits[line] < CLEARS_REQUIRED) return;
+
+    hit.points = hit.points.filter(function (l) { return l !== line; });
+    delete hit.hits[line];
+
+    // Every point that put this flag here has now been answered correctly.
+    if (!hit.points.length) {
+      t.open = t.open.filter(function (o) { return o !== hit; });
+      t.resolved.unshift({ topic: hit.topic, system: hit.system || '', date: date });
+      t.log = t.log || [];
+      t.log.unshift({ date: date, note: 'Cleared — ' + hit.topic + ', answered correctly.' });
+    }
+  });
+
   (body.flags || []).forEach(function (f) {
     if (!f.topic) return;
     const key = String(f.topic).toLowerCase();
