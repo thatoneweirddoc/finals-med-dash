@@ -214,6 +214,34 @@ the unlocked version loses Fadi's request, the locked version does not; two over
 runs cannot both claim one request; a stranded claim is reclaimed while a live one is
 not; and concurrent recording keeps each tracker correct.
 
+## What protects the tracker
+
+Three guards, in the order a bad write would meet them:
+
+1. **An unrecognised action never falls through to a tracker write.** An older
+   deployment receiving a newer client's action would otherwise treat the whole
+   request body as a tracker and overwrite with it.
+2. **A body that doesn't look like a tracker is refused.** No `topics` object, no write.
+3. **An empty tracker cannot overwrite a full one.** The page deliberately starts empty
+   so a stranger opening the public URL sees nothing, and `pull()` is async — so
+   between load and first sync there is a window where the in-memory tracker is blank.
+   `push()` refuses to write an empty tracker until a pull has succeeded, because that
+   is the only proof the remote is genuinely empty. A new user with nothing yet still
+   saves normally; the destructive ordering is simply unreachable.
+
+## If something does go wrong
+
+- **Code**: every version is a commit on GitHub. `git revert` or reset to any earlier
+  one, push, and GitHub Pages redeploys in about a minute. Apps Script keeps its own
+  deployment versions — Deploy → Manage deployments → choose an earlier version.
+- **Tracker**: it is an ordinary file in Drive, so Drive keeps its revision history.
+  Right-click the file → **File information → Manage versions** and restore.
+- **A third copy** sits in the browser: `localStorage['finals_v1:<id>']` is the last
+  synced tracker on every device that has opened the dashboard.
+
+The code and the data are independent. A bad deploy cannot rewrite history that a bad
+deploy did not write.
+
 ## What this is not
 
 - **Not authorisation beyond a list.** Sign-in proves *who* someone is; the `USERS`

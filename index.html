@@ -1692,10 +1692,32 @@ async function pull(){
   }
 }
 
+/* Is the in-memory tracker empty? Not "has no score" — genuinely nothing. */
+function trackerIsEmpty(x){
+  return !Object.keys(x.topics || {}).length
+      && !(x.open || []).length
+      && !(x.cleared || []).length
+      && !(x.history || []).length
+      && !(x.log || []).length;
+}
+
 async function push(){
   const t = token();
   cacheSet(JSON.stringify(S));
   if(!t) return false;
+
+  /* SAFETY: never let an empty tracker overwrite a full one.
+     The page deliberately starts empty (so a stranger opening a public URL
+     can't see the owner's history), and pull() is async — so between load and
+     first sync there is a window where S is blank. Anything that calls save()
+     in that window would write {} over a real tracker. A successful pull is
+     the only proof that the remote is genuinely empty; without it, refuse.
+     Costs nothing in normal use and makes the destructive case unreachable. */
+  if(trackerIsEmpty(S) && !SYNCED){
+    setSync('Not saved — still loading your tracker', 'warn');
+    return false;
+  }
+
   try{
     const r = await fetch(SYNC_URL, {
       method:'POST',
