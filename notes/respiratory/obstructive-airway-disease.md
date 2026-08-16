@@ -116,11 +116,11 @@ GINA 2025 (Track 1 ICS-formoterol; SABA-only not recommended); GOLD 2025 (ABE gr
 | Pathophysiology | Airway obstruction → V/Q mismatch → hypoxemia → ↑ ventilation → ↓ PaCO2 → ↑ pH and muscle fatigue → ↓ ventilation, ↑ PaCO2, ↓ pH |
 | Pathology | ![](notes/images/respiratory-anu/img012.jpg) Lumen containing mucous plugThickened BMHyperplasia and hypertrophy of smooth muscles Degranulated mast cellsAbundance of polymorphsRed-staining eosinophils |
 | Presentation | Dyspnoea, wheezing, chest tightness, dry cough (nocturnal), sputumSEVERE SYMPTOMS: pulsus paradoxus, hypoxemia,PHYSICAL EXAM: hyper/hypo-ventilation, ↓air-entry, accessory muscles, expiratory wheeze, pulsus paradoxus, signs of atopy (eczema, urticaria, angioedema, rash)SIGNS OF POOR ASTHMA CONTROL (mnemonic: DANGERS)Daytime symptoms ≥ 4 times/weekActivities reducedNight-tieGP visitsED visitsRescue puffer (SABA) ≥ 4≥ times/weekSchool/work absences |
-| Investigation | O2 SATURATIONAUSCULTATION: prolonged expiratory phase with wheezing, ↓ breath sounds, tachypnoeaPERCUSSION: hyper-resonance, inferior diaphragmSPIROMETRY: obstructive lung disease, &gt; 12% improvement in FEV1 with bronchodilatorPEFR: two measurements (waking prior bronchodilator and before bed after a bronchodilator), variable airflow limitationABG: respiratory alkalosis in mild/acute attack (tachypnoea), respiratory acidosis in severe diseaseCXR: low flattened diaphragm, wide intercostal spaces, barrel chestALLERGIC SKIN PRICK TESTING |
+| Investigation | O2 SATURATIONAUSCULTATION: prolonged expiratory phase with wheezing, ↓ breath sounds, tachypnoeaPERCUSSION: hyper-resonance, inferior diaphragmSPIROMETRY: obstructive lung disease, > 12% improvement in FEV1 with bronchodilatorPEFR: two measurements (waking prior bronchodilator and before bed after a bronchodilator), variable airflow limitationABG: respiratory alkalosis in mild/acute attack (tachypnoea), respiratory acidosis in severe diseaseCXR: low flattened diaphragm, wide intercostal spaces, barrel chestALLERGIC SKIN PRICK TESTING |
 | Classification |  | INTERMITTENT | MILD | MODERATE | SEVERE |
 | SYMPTOMS | ≤2 d/week | ~2d/week | Most days | Daily |
 | NIGHT SYMPTOMS | Rare | 3-4 times/month | 1-2times/week | Most nights |
-| FEV1 | &gt;80% | &gt;80% | 60-80% | &lt;60% |
+| FEV1 | >80% | >80% | 60-80% | <60% |
 
 **Differentials**
 

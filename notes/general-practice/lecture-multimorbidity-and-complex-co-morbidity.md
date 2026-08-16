@@ -11,7 +11,7 @@ updated: "2026-08-14"
 
 ### General Practice (ANU) — Lecture: Multimorbidity and Complex co-morbidity
 
-- DEFINITION: ≥2 chronic conditions (&gt;3 months) within one person where one is not a known complication of the other
+- DEFINITION: ≥2 chronic conditions (>3 months) within one person where one is not a known complication of the other
 - EPIDEMIOLOGY: In 2016, 47.4% ≥2 chronic conditions at GP, 32.6% ≥ 2 chronic conditions in population
 - KEY FEATURES IN MANAGING: MDT, monitoring potential interactions between morbidities and their treatments
 
@@ -43,7 +43,7 @@ updated: "2026-08-14"
 - Patient-centered medical homes
 - Integrated health care: patient register, risk stratification, MDT care interventions (including self-management)
 - Electronic health record: medicines, allergies, medicare claims history, organ donor?, hospital discharge information, diagnostic imaging and pathology reports, advanced care planning
-- Challenges (SELFIE FRAMEWORK): service delivery, leadership &amp; governance, workforce, financing, technologies &amp; medical products, information &amp; research
+- Challenges (SELFIE FRAMEWORK): service delivery, leadership & governance, workforce, financing, technologies & medical products, information & research
 
 - PATIENT PERSPECTIVE: FLINDER’S CHRONIC CONDITION SELF-CARE MODEL
 

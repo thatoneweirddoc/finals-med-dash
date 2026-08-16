@@ -104,14 +104,14 @@ updated: "2026-08-14"
 
 | DEFINITION | Metabolic disease characterised by chronic hyperglycaemia due to auto-immune destruction of pancreatic β cells, leading to absolute insulin deficiency |
 | --- | --- |
-| EPIDEMIOLOGY | Usually &lt;30 years of ageMore common in Caucasians (Less common in Asians, Hispanics, Aboriginals and Blacks)Accounts for 5-10% of all DM |
+| EPIDEMIOLOGY | Usually <30 years of ageMore common in Caucasians (Less common in Asians, Hispanics, Aboriginals and Blacks)Accounts for 5-10% of all DM |
 | AETIOLOGY | 1) AUTOIMMUNE Associated with HLA-DQ and HLA-DR gene polymorphismsIn susceptible patients environmental factors (usually a viral infection) → autoantibodies → immune-mediated (Type IV Hypersensitivity) destruction of pancreatic β cells by autoreactive T cells → symptomatic when 80-90% β cells have been destroyed → absolute insulin deficiency → glucose is unable to enter cells via GLUT-4 → hyperglycaemia in blood but hypoglycaemia in cell  ![](notes/images/endocrinology-anu/img005.jpg) Up to 90% of patients will have islet cell antibodies to at least one of 3 antigens:Glutamic acid decarboxylase (GAD)Tyrosine phosphatase-2 protein (IA2)Insulin (IAA)In response, the body secretes counter-regulatory hormones to intracellular hypoglycaemia:Glucagon: promotes gluconeogenesis and glycogenolysisAdrenaline: promotes glucagon secretion and lipolysis of adipose tissueCortisol: promotes gluconeogenesis and decreases GLUT-4 translocationGrowth hormone: promotes gluconeogenesisThis causes blood hyperglycaemia which cannot enter the cellChronic hyperglycaemia leads to the production of:Advanced glycosylated end-products: non-enzymatic glycosylation of proteins e.g. haemoglobinIntracellular fructose: glucose metabolised by aldose reductase to sorbitol and eventually fructose in cells that do not require insulin for glucose transport (e.g. nerves, kidney, lenses and blood vessels)Reactive oxygen species, TGF-β and VEGF2. IDIOPATHICRare, with stronger genetic component and increased incidence in African/AsiaNOTESCoeliac, AI thyroid disease, MG and pernicious anaemia share HLA-DQ2 genotype with TMD1Onset related to: congenital rubella syndrome, enteroviruses. Vitamin D may be protective |
 | PRESENTATION | Polyuria and polydipsia: serum hyperglycaemia → renal osmotic excretion → ↑ urine productionPolyphagia and weight loss: cellular hypoglycaemia → ↑ energy production by lipolysisNon-specific: fatigue, visual disturbances (blurred vision), calf cramps, poor wound healing (e.g. recurrent cellulitis, candidiasis etc.), pruritis, abdominal (pain, N/V) |
-| INVESTIGATIONS | Random plasma glucose:&gt;11.1 mmol/L, with presence of symptoms of polyuria, polydipsia, unexplained weight lossFasting plasma glucose:No caloric intake for at least 8 hoursPositive for diabetes if &gt;7.0mmol/LHbA1c:Reflects degree of hyperglycaemia over preceding 3 monthsAllows monitoring of patient’s control over their diabetesGAD, IA2 and IAA autoantibodiesC peptide↓ levels indicate absolute insulin deficiency → T1DMUrine analysisMicroalbuminuria (diabetic nephropathy), glucosuria, ketone bodies (DKA) |
+| INVESTIGATIONS | Random plasma glucose:>11.1 mmol/L, with presence of symptoms of polyuria, polydipsia, unexplained weight lossFasting plasma glucose:No caloric intake for at least 8 hoursPositive for diabetes if >7.0mmol/LHbA1c:Reflects degree of hyperglycaemia over preceding 3 monthsAllows monitoring of patient’s control over their diabetesGAD, IA2 and IAA autoantibodiesC peptide↓ levels indicate absolute insulin deficiency → T1DMUrine analysisMicroalbuminuria (diabetic nephropathy), glucosuria, ketone bodies (DKA) |
 | DIAGNOSTIC CRITERIA |  | Diabetes mellitus | Pre-diabetes | Healthy |
-| Fasting plasma glucose (FPG) in mg/dL (mmol/L) | ≥ 126 (≥ 7.0) | 100–125 (5.6–6.9)Impaired fasting glucose | &lt; 100 (&lt; 5.6) |
-| 2-hour glucose value after OGTT  in mg/dL (mmol/L) | ≥ 200 (≥ 11.1) | 140–199 (7.8–11.0)Impaired glucose tolerance | &lt; 140 (&lt; 7.8) |
-| HbA1c in % | ≥ 6.5 | 5.7–6.4 | &lt; 5.7 |
+| Fasting plasma glucose (FPG) in mg/dL (mmol/L) | ≥ 126 (≥ 7.0) | 100–125 (5.6–6.9)Impaired fasting glucose | < 100 (< 5.6) |
+| 2-hour glucose value after OGTT  in mg/dL (mmol/L) | ≥ 200 (≥ 11.1) | 140–199 (7.8–11.0)Impaired glucose tolerance | < 140 (< 7.8) |
+| HbA1c in % | ≥ 6.5 | 5.7–6.4 | < 5.7 |
 
 - Presence of classic symptoms (polyuria, polydipsia, polyphagia, weight loss, blurry vision, nocturia, ketonuria) PLUS RBG ≥ 11.1 mmol/L
 - On at least two separate occasions:
@@ -136,12 +136,12 @@ MANAGEMENT
 
 | DEFINITION | Hyperglycaemia in the context of insulin resistance and relative lack of insulin |
 | --- | --- |
-| EPIDEMIOLOGY | Common in both the developed and developing world, but remains uncommon in the underdeveloped worldF&gt;MAccounts for &gt;90% of DM |
+| EPIDEMIOLOGY | Common in both the developed and developing world, but remains uncommon in the underdeveloped worldF>MAccounts for >90% of DM |
 | AETIOLOGY | Genetic predisposition and environmental factorsStrong correlation with metabolic syndromeNon-modifiable risk factors: age, genetics, family history, Aboriginal descent, history of GDM, PCOSModifiable risk factors: dyslipidaemia, hypertension, obesity, physical inactivity, CVD |
 | PATHOPHYSIOLOGY | Two major mechanisms: peripheral insulin resistance  + pancreatic β cell dysfunction In the initial stages of disease, insulin resistance is compensated by increased insulin secretion Over time, insulin resistance progresses, while insulin secretion capacity declinesAfter a period of impaired glucose tolerance with isolated postprandial hyperglycaemia, diabetes manifests with fasting hyperglycaemia |
 | PRESENTATION | Onset: gradual, majority of patients asymptomatic and complications may be the first clinical signPolyuria and polydipsia: serum hyperglycaemia → renal osmotic excretion → ↑ urine production → nocturiaPolyphagia and weight loss: cellular hypoglycaemia → ↑ energy production by lipolysisNon-specific: fatigue, visual disturbances (blurred vision), calf cramps, poor wound healing (e.g. recurrent cellulitis, candidiasis etc.), pruritis, paraesthesiaAcanthosis nigricans: dark, velvety patches in body folds and creasesChronic hyperglycaemia: stroke, IHD, vascular disease, nephropathy, neuropathy, blurred vision |
-| INVESTIGATIONS | Fasting plasma glucose: &gt;7.0mmol/L (MUST be repeated)Random plasma glucose: &gt;11.1mmol/LConvenient, but lacks accuracy compared to fasting plasma glucoseUsed if symptoms present such as polyuria, polydipsia or weight loss2-hour post-load glucose after 75g OGTT: &gt;11.1mmol/LHbA1c: degree of hyperglycaemia over preceding 3 months and to monitor controlC peptide: ↑ in T2DM Monitor for micro and macrovascular complications |
-| MANAGEMENT | Goals of Management | Glycaemic controlHbA1c &lt; 53 mmol/mol (7%) generally  but should be individualizedFasting and pre-prandial concentration: 4 to 8 mmol/LControl other risk factors for micro and macrovascular diseaseLDL-C: Primary &lt;2, secondary less than 1.8 mmol/LHDL-C: &gt;1 mmol/LTotal cholesterol &lt; 4 mmol/LTriglycerides &lt; 2 mmol/LBP: &lt;130/80 |
+| INVESTIGATIONS | Fasting plasma glucose: >7.0mmol/L (MUST be repeated)Random plasma glucose: >11.1mmol/LConvenient, but lacks accuracy compared to fasting plasma glucoseUsed if symptoms present such as polyuria, polydipsia or weight loss2-hour post-load glucose after 75g OGTT: >11.1mmol/LHbA1c: degree of hyperglycaemia over preceding 3 months and to monitor controlC peptide: ↑ in T2DM Monitor for micro and macrovascular complications |
+| MANAGEMENT | Goals of Management | Glycaemic controlHbA1c < 53 mmol/mol (7%) generally  but should be individualizedFasting and pre-prandial concentration: 4 to 8 mmol/LControl other risk factors for micro and macrovascular diseaseLDL-C: Primary <2, secondary less than 1.8 mmol/LHDL-C: >1 mmol/LTotal cholesterol < 4 mmol/LTriglycerides < 2 mmol/LBP: <130/80 |
 | Individual treatment target | Blood glucose control and regular glycemic monitoring (HbA1c)Blood pressure controlImproved lipid profile |
 | Lifestyle modification | Consultation with dietician, endocrinologist, support teamDiet: ↓ fats, sodium, alcohol, caffeine, carbohydrates, smokingExerciseSelf-management education |
 | Medical Treatment | ANTI-HYPERGLCAEMIC THERAPYMetformin aloneConsider dual anti-hyperglycemic therapy at this pointSulfonylureaDPP-4 inhibitor GLP-1 agonistAcarboseThiazolidinedionesBegin insulin therapy (continue metformin)Basal insulin infusion Mixed insulin fusion or basal-bolus regimen |
@@ -151,7 +151,7 @@ ANTI-HYPERGLYCAEIMIC AGENTS
 
 ![](notes/images/endocrinology-anu/img006.jpg)
 
-| Metformin | Dose: maximum 3 g, initially 500 mg oral BDMoA: reduces hepatic glucose production (through AMP-activated protein kinase) and  sensitizes peripheral tissues to insulin (to increase glucose uptake)Side effects:Gastrointestinal intolerance (abdominal discomfort, bloating, diarrhoea, anorexia) thus take with food andtitrate graduallyLactic acidosisContraindications:Renal failure (excreted by kidneys): (GFR 60-90 = max 2g, GFR &lt;30 = max 1 g, contraindicated in GFR&lt;30)Severe illness e.g. acute cardiac failure |
+| Metformin | Dose: maximum 3 g, initially 500 mg oral BDMoA: reduces hepatic glucose production (through AMP-activated protein kinase) and  sensitizes peripheral tissues to insulin (to increase glucose uptake)Side effects:Gastrointestinal intolerance (abdominal discomfort, bloating, diarrhoea, anorexia) thus take with food andtitrate graduallyLactic acidosisContraindications:Renal failure (excreted by kidneys): (GFR 60-90 = max 2g, GFR <30 = max 1 g, contraindicated in GFR<30)Severe illness e.g. acute cardiac failure |
 | --- | --- |
 | Sulfonylureas | Examples: gliclazide, glipizide, glimepiride, glibenclamideMoA: increase insulin secretion via the pancreatic sulfonylurea receptorSide Effects: Weight gainHypoglycaemiaLonger-acting sulfonylureas (glibenclamide and glimepiride) should usually be avoided in older people with type 2 diabetes |
 | Sodium-glucose linked transporter 2 (SGLT-2) Inhibitor | Example: Dapagliﬂozin (forxiga)MoA: enhances urinary glucose excretion by inhibiting glucose reabsorption in the proximal renal tubuleSide effects: UTI/genital infections, hyperlipidaemia, weight lossContraindications: Renal impairment |
@@ -171,9 +171,9 @@ COMPLICATIONS
 
 1. Hyponatraemia, hyperkalaemia
 
-- 2. Low morning cortisol (&lt; 150 nmol/L)  (it should be high in morning…)
+- 2. Low morning cortisol (< 150 nmol/L)  (it should be high in morning…)
 - but there is a wide normal range anyway - 150 - 600 nmol/L..bad test
-- Having a cortisol &gt; 500 nmol/L excludes diagnosis
+- Having a cortisol > 500 nmol/L excludes diagnosis
 - 3. Lack of response to ACTH (Synacthen)
 - 4. Lack of response to hypoglycaemia (ITT)
 - Synacthen test
@@ -181,7 +181,7 @@ COMPLICATIONS
 | ABOUT | this is a stimulation testsynthetic ACTH (tetracosactide) 1-24 aa protein fragment |
 | --- | --- |
 | INDICATIONS | test only useful for primary adrenal diseaseAddison’s diagnosisscreening for ACTH deficiency |
-| METHOD | at 0900, non fasting, give 250 µg IV or IM at time 0take cortisol level before and then 30  -60 mins afternormal result is doubling of levels and meak &gt;550 nmol/L400 - 600 is borderline - might be deficient |
+| METHOD | at 0900, non fasting, give 250 µg IV or IM at time 0take cortisol level before and then 30  -60 mins afternormal result is doubling of levels and meak >550 nmol/L400 - 600 is borderline - might be deficient |
 | RESULTS | a healthy subject shows a normal response subject with primary hypoadrenalism demonstrates impaired cortisol response to tetracosactide (ACTH) |
 
 

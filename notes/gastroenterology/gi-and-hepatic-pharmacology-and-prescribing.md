@@ -313,7 +313,7 @@ BNF and NICE (GORD/PUD, IBD, antiemetics, prescribing in hepatic impairment); EC
 - TREATMENT AND MANAGEMENT
 - Lifestyle: smoking cessation, fluids in acute exacerbations, enteral diet for symptomatic management, supplementation (Vit D, Ca2+, Mg2+, Zn, Fe, B12)
 - PharmacologyFor mild disease: 5-ASA compounds (aminosalicylates) e.g. sulfazaline/mesalamine (↑ effective in mild UC)
-- For moderate disease: immunomodulators e.g. 6-mercaptopurine (6-MP, azathioprine, and methotrexate (less often) often used to maintain remission and as steroid-sparing agents; may require &gt;3 mo for beneficial effect
+- For moderate disease: immunomodulators e.g. 6-mercaptopurine (6-MP, azathioprine, and methotrexate (less often) often used to maintain remission and as steroid-sparing agents; may require >3 mo for beneficial effect
 - For severe disease: biologics (anti-TNF agents) e.g. Infliximab IV or adalimumab SC and proven for effective treatment of fistulae and medically refractory CD
 - For flares: steroids e.g. prednisolone, methylprednisolone or IV hydrocortisone + antibiotics (metronidazole/ ciprofloxacin)
 

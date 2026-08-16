@@ -32,7 +32,7 @@ PERIODONTITIS/PERIODONTAL DISEASE
 
 - Periodontium is the tissue that surround and support teeth
 - Bystander immune-mediated tissue destruction of alveolar bone and periodontal ligament, invoked by overgrowth of oral bacteria into gingival crevice/periodontal ligament
-- Characterised by gingivitis, bleeding gums, pain, pocket depths &gt;3mm
+- Characterised by gingivitis, bleeding gums, pain, pocket depths >3mm
 - Involves progressive loss of alveolar bone around teeth → mobility → tooth loss
 
 ACUTE APICAL PERIODONTITIS/APICAL ABSCESS
@@ -51,9 +51,9 @@ PULPITIS
 DENTAL ABSCESS/FACIAL CELLULITIS
 
 - Features: “mixed” bacterial flora, dominated by facultative anaerobic species
-- Early infections (&lt;3 days) dominated by gram positive streptococci species
+- Early infections (<3 days) dominated by gram positive streptococci species
 - Persistent infections increasingly dominated by anaerobic species
-- Presentation: extra-oral swelling, regional tender (reactive) lymphadenopathy, fever (&gt;37.5oC)
+- Presentation: extra-oral swelling, regional tender (reactive) lymphadenopathy, fever (>37.5oC)
 - Rx:
 - Analgesia
 - Antibiotics (amoxil, metronidazole, clindamycin, macrolide, metronidazole)

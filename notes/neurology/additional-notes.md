@@ -36,7 +36,7 @@ L. common carotid artery
 ### Neurology (ANU) — hypertensive encephalopathy — Additional Notes
 
 - DEFINITION: transient neurological Sx associated with malignant hypertensive state
-- AETIOLOGY: abrupt ↑ BP in a chronically hypertensive state 🡪 BP &gt; cerebral autoregulatory range 🡪 hydrostatic leakage 🡪 cerebral oedema 🡪 neurological deficits and altered medication
+- AETIOLOGY: abrupt ↑ BP in a chronically hypertensive state 🡪 BP > cerebral autoregulatory range 🡪 hydrostatic leakage 🡪 cerebral oedema 🡪 neurological deficits and altered medication
 - HISTORY: vague (headache, confusion, visual distrubances)
 - EXAMINATION: vitals (↑BP), ophthalmoscopy (papilloedema, haemorrhage, exudates, cotton wool spots), neuro exam (altered mental status, weakness)
 - INVESTIGATIONS: FBC, EUC and urinalysis (kidney function), cardiac enzymes an ECG (?MI), CT head (rule out stroke), CXR (rule out aortic dissection, a concomitant)
@@ -52,14 +52,14 @@ L. common carotid artery
 
 - TYPES
 - Primary: glial vs. non-glial (developed on/in the structures of brain including nerves, blood vessels and glands)
-- Metastatic (70%): arise from primary sources (lung &gt; breast &gt; kidney &gt; GI &gt; melanoma)
+- Metastatic (70%): arise from primary sources (lung > breast > kidney > GI > melanoma)
 - Main types to know
 - Pituitary: craniopharyngioma, prolactinoma, acromegaly
 - Posterior fossa (P for paeds): medulloblastoma, ependymoma (both present withhydrocephalus)
 - Anterior fossa (A for adults): meningioma, glioblastoma
 - Astrocytoma: most common primary intra-axial brain tumour
 - PRESENTATION: commonly focal neurological deficits and seizures, headaches worse in AM, progressive N/V
-- INVESTIGATIONS: MRI w contrast &gt; CT w contrast, stereotactic biopsy (tissue diagnosis), metastatic work-up, tumour markers (i.e. germ cell)
+- INVESTIGATIONS: MRI w contrast > CT w contrast, stereotactic biopsy (tissue diagnosis), metastatic work-up, tumour markers (i.e. germ cell)
 - TREATMENT
 - Conservative: serial history, physical exam and imaging for slow growing/benign lesions
 - Medical: corticosteroids (e.g. dexamethasone, palliative, ↓ cerebral oedema), seizure prophylaxis (e.g. phenytoin), pharmacologic (i.e. pituitary adenoma)
@@ -88,7 +88,7 @@ L. common carotid artery
 
 | Definition | Rare degenerative fatal brain disorder caused by prion proteins causing spongiform changes, astrocytosis, and neuronal loss |
 | --- | --- |
-| Forms | Sporadic (85%), hereditary (5-10%), acquired (&lt;1%) |
+| Forms | Sporadic (85%), hereditary (5-10%), acquired (<1%) |
 | Investigations | CSF analysis (gel electrophoresis), MRI brain (cortical/subcortical FLAIR changes), EEG (periodic complexes)Brain biopsy- tonsil/olfactory mucosal biopsy, definite diagnosis |
 | Presentation | Progressive dementia, focal CNS signs, myoclonus (95%), depression, eye (diploplia, supranuclear palsies, complex visual disturbances, homonymous field defects, hallucinations, cortical blindness) |
 | Management | Nil existing; death occurs in ~6 months |

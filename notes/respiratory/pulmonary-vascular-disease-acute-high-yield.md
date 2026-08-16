@@ -96,10 +96,10 @@ NORMAL VALUES
 - pO2: 11-13 kPa
 - HCO3-: 22-26 mmol/L
 - BE: -2 to +2
-- SaO2: &gt; 95%
+- SaO2: > 95%
 - PaO2 should ~ FiO2­% - 10
-- Alveolar arterial gradient: &lt; 10 (increased in emphysema, fibrosing alveolitis, age)
-- Lactate: &lt;2
+- Alveolar arterial gradient: < 10 (increased in emphysema, fibrosing alveolitis, age)
+- Lactate: <2
 
 INTERPRETATION
 
@@ -128,13 +128,13 @@ INTERPRETATION
 | Definition | Progressive disease characterized by chronic incompletely reversible airflow obstruction with periodic exacerbations, gas trapping and lung hyperinflation |
 | --- | --- |
 | Classification | CHRONIC BRONCHITISDefined clinically by a productive cough on most days for ≥ 3 months in 2 consecutive yearsIt is caused by narrowing of the airway lumen by mucosal thickening and excess mucusEMPHYSEMADefined pathologicallyPermanent dilatation of pulmonary air spaces distal to the terminal bronchioles, accompanied by destruction of alveolar walls needed for gas exchangeTwo typesCentriacinar: respiratory bronchioles affected, seen in smokers and in upper lung zonesPanacinar: respiratory bronchioles, alveolar ducts, and alveolar sacs affected, seen in a1-antitripsin deficiency and in lower lobes |
-| Epidemiology | M &gt; F, fourth most common cause of death worldwide |
+| Epidemiology | M > F, fourth most common cause of death worldwide |
 | Risk Factors | EXOGENOUS: tobacco (90%), passive smoking, air pollution, fine/industrial dust, recurrent pulmonary infections and tuberculosis, premature birthENDOGENOUS: α1-antitrypsin deficiency, IgA deficiency, primary ciliary dyskinesiaIn α1-antitrypsin deficiency, elastase (produced by neutrophils) is free to break down elastin leading to loss of the normally passive elastic recoil of the lung 🡪 emphysema |
 | Classification | GOLD STAGE | FEV1/FVC | % PREDICTED |
-| MILD | &lt;70% | ≥80% |
-| MODERATE | &lt;70% | &lt;80% |
-| SEVERE | &lt;70% | &lt;50% |
-| VERY SEVERE | &lt;70% | &lt;30% |
+| MILD | <70% | ≥80% |
+| MODERATE | <70% | <80% |
+| SEVERE | <70% | <50% |
+| VERY SEVERE | <70% | <30% |
 
 **Pathology**
 
@@ -163,7 +163,7 @@ PARENCHYMAL DESTRUCTION:
 
 **CHRONIC BRONCHITIS (Blue Bloater)**
 
-- Hypertrophy and hyperplasia of mucus-secreting glands in bronchi (Reid index &gt; 50%)
+- Hypertrophy and hyperplasia of mucus-secreting glands in bronchi (Reid index > 50%)
 - Symptoms
 - Daily productive cough
 - Cor pulmonale (RHF, pulmonary oedema/HTN, hepatosplenomegaly)
@@ -197,7 +197,7 @@ PARENCHYMAL DESTRUCTION:
 - AUSCULTATION:  early inspiratory coarse crackles and wheezing, prolonged expiratory phase, ↓ breath sounds (silent in advanced COPD), soft/distant heart sounds
 - SPIROMATORY: FEV1/FVC, residual volume, confirm if asthma vs COPD (irreversible)
 - ABG: hypoxemia and hypercapnia in advanced cases
-- CXR: hyper-expanded lungs &gt; 10 ribs, flattened diaphragms, ↓ lung markings, blackened bulla signs, prominent hila
+- CXR: hyper-expanded lungs > 10 ribs, flattened diaphragms, ↓ lung markings, blackened bulla signs, prominent hila
 
 **Management**
 
@@ -289,10 +289,10 @@ Pulmonary vascular disease
 | Aetiology | DEEP VEIN THROMBOSIS: most common cause FAT EMBOLISM: during major surgical interventions OTHERS: air embolism, amniotic fluid embolism, tissue embolism, cement embolism |
 | Pathogenesis | VIRCHOW’S TRIAD: hypercoagulability, haemodynamic changes, endothelial injury/dysfunctionMECHANISM: thrombus formation (fibrin and entrapped RBCs)→ DVT → embolization to pulmonary arteries via inferior vena cava  → partial or complete obstruction of pulmonary arteriesPATHOPHYSIOLOGIC RESPONSE OF THE LUNG TO ARTERIAL OBSTRUCTIONInfarction/inflammation of lungs/pleura: pleuritic chest pain, haemoptysis, surfactant dysfunction (atelectasis), respiratory drive triggered (hyperventilation, respiratory alkalosis, hypocapnia)Impaired gas exchangeVessel obstruction → V/Q mismatch  → arterial hypoxemia (↓ PaO2) and elevated A-a gradient Cardiac compromise: ↑ pulmonary artery pressure (PAP) → right ventricular pressure overload → forward RHF with decreased cardiac output  → hypotension + tachycardia → shock |
 | Presentation | Acute onset, often triggered by an event e.g. physical strainDyspnoea , syncope, hypotension, low-grade feverPleuritic chest pain Cough and haemoptysisDVT: previous/current unilateral redness, oedema, and/or tenderness in calvesRespiratory exam: ↑RR, ↑HR, ↑JVP, DVT, rapid/irregular heartbeat, sudden pleural rub, cyanosisCardio exam: RHF, split-second heart sound |
-| Investigations | If Wells &gt; 4, go straight to CTPA. If Wells negative, use PERC criteria to determine if d-dimer needed |
-| WELL’S CRITERIAClinical features of a DVT (+3)PE #1 diagnosis (+3)Tachycardia &gt; 100 bpm (+1.5)Immobilisation &gt;3days, surgery in last 4weeks (+1.5)Past PE or DVT (+1.5)Haemoptysis (+1)Active Malignancy (+1) | PERC CRITERIA (RULE-OUT)Age ≥ 50 HR ≥ 100SpO2 on RA&gt;95%Unilateral leg swellingHaemoptysisTrauma/surgery within 4 weeksPHx of DVT/PEOCP / HRT |
+| Investigations | If Wells > 4, go straight to CTPA. If Wells negative, use PERC criteria to determine if d-dimer needed |
+| WELL’S CRITERIAClinical features of a DVT (+3)PE #1 diagnosis (+3)Tachycardia > 100 bpm (+1.5)Immobilisation >3days, surgery in last 4weeks (+1.5)Past PE or DVT (+1.5)Haemoptysis (+1)Active Malignancy (+1) | PERC CRITERIA (RULE-OUT)Age ≥ 50 HR ≥ 100SpO2 on RA>95%Unilateral leg swellingHaemoptysisTrauma/surgery within 4 weeksPHx of DVT/PEOCP / HRT |
 | BLOOD: FBC, EUC, coags PLASMA D-DIMER: fibrin degradation product; ↑ sensitivity and negative predictive value; ↓ specificityABG (INSENSITIVE, NON-SPECIFIC): may show respiratory alkalosisCTPA (GOLD STANDARD): wedge-shaped infarction with pleural effusion, filling defectCXR: rule out other causesAtelectasisPleural effusionsHampton’s hump (wedge-shaped opacity in peripheral lung with its base at thoracic wall)Westermark sign (↓ perfusion of downstream lung tissue which appears hyperlucent on CXR)ECG: sinus tachycardia, non-specific ST features,  S1/Q3/T3 (deep S wave in lead I, Q wave in III, inverted T wave in III)VENOUS DUPLEX U/S OR DOPPLER TO diagnose DVTV/Q SCAN: when CTPA is contraindicated (allergy, renal dysfunction, pregnancy) where an abnormal scan suggests a high probability |
-| Management | GENERAL45o sitting positionSupplemental oxygenIVFAnalgesia in chest painTHERAPEUTIC ANTICOAGULATION:Acute (0-10 days)LMWH in stable patients without renal failure Unfractioned heparin in patients with renal failureOnce therapeutic, review dose, APTT, platelet countLong-term (3-6 months)Warfarin (target INR 2–3) commenced within 48 hours alongside heparin (continue heparin ≥5 days and until INR &gt;2.0 on two consecutive days)LMWHDOACs (rivaroxaban, apixaban, edoxaban, dabigatran) Patients with a hypercoagulable state: heparin followed by 3–6 months of warfarin for the first event, 6–12 months for the second, and lifelong anticoagulation for further eventsFIBRINOLYSIS If significant hemodynamic compromise is presenttPA (e.g. alteplase) DVT PROPHYLAXISEarly post-op mobilisationTED stockingsCalf compressors during surgery/wardsLMWHEMBOLECTOMYSurgical/catheter-based thrombus removal used as a last resort |
+| Management | GENERAL45o sitting positionSupplemental oxygenIVFAnalgesia in chest painTHERAPEUTIC ANTICOAGULATION:Acute (0-10 days)LMWH in stable patients without renal failure Unfractioned heparin in patients with renal failureOnce therapeutic, review dose, APTT, platelet countLong-term (3-6 months)Warfarin (target INR 2–3) commenced within 48 hours alongside heparin (continue heparin ≥5 days and until INR >2.0 on two consecutive days)LMWHDOACs (rivaroxaban, apixaban, edoxaban, dabigatran) Patients with a hypercoagulable state: heparin followed by 3–6 months of warfarin for the first event, 6–12 months for the second, and lifelong anticoagulation for further eventsFIBRINOLYSIS If significant hemodynamic compromise is presenttPA (e.g. alteplase) DVT PROPHYLAXISEarly post-op mobilisationTED stockingsCalf compressors during surgery/wardsLMWHEMBOLECTOMYSurgical/catheter-based thrombus removal used as a last resort |
 | Complications | Acute bleeding, pulmonary infarction, cardiac arrest/death, heparin-induced thrombocytopenia |
 
 
@@ -332,4 +332,4 @@ BENIGN VS. MALIGNANT
 
 | BENIGN | MALIGNANT |
 | --- | --- |
-| &lt;3 cm, round, regularSmooth marginCalcified patternCentral “popcorn” pattern if hamartomaUsually no cavitation: if cavitating, wall is smooth and thin, no other lung pathologyDoubles in &lt;1 month or &gt;2 years | &gt;3 cm, irregular, spiculated	Ill-defined or notched marginUsually not calcified; if calcified, pattern is eccentricNo satellite lesionsCavitation with thick walMay have pleural effusionsLymphadenopathyDoubles in &gt;1 month or &lt; 2 years |
+| <3 cm, round, regularSmooth marginCalcified patternCentral “popcorn” pattern if hamartomaUsually no cavitation: if cavitating, wall is smooth and thin, no other lung pathologyDoubles in <1 month or >2 years | >3 cm, irregular, spiculated	Ill-defined or notched marginUsually not calcified; if calcified, pattern is eccentricNo satellite lesionsCavitation with thick walMay have pleural effusionsLymphadenopathyDoubles in >1 month or < 2 years |

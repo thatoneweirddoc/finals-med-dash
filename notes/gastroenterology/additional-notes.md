@@ -12,7 +12,7 @@ updated: "2026-08-14"
 ### General Surgery & Gastroenterology (ANU) — HIATUS HERNIA — Additional Notes
 
 - DEFINITION: Protrusion of the upper stomach into the thorax, through a tear/weakness in the diaphragm
-- RISK FACTORS: age (~60% of individuals &gt;50), ↑ abdominal pressure (in obesity, pregnancy, coughing, heavy lifting), smoking, structural abnormalities
+- RISK FACTORS: age (~60% of individuals >50), ↑ abdominal pressure (in obesity, pregnancy, coughing, heavy lifting), smoking, structural abnormalities
 - PATHOGENESIS/CLASSIFICATION
 
 ![](notes/images/general-surgery-and-gastroenterology-anu/img001.jpg)
@@ -42,7 +42,7 @@ updated: "2026-08-14"
 ### General Surgery & Gastroenterology (ANU) — inguinal hernia — Additional Notes
 
 - DEFINITION: Protrusion of abdominal or pelvic contents through a weak point in the abdominal muscles
-- EPIDEMIOLOGY: M&gt;F, ↑ incidence with age
+- EPIDEMIOLOGY: M>F, ↑ incidence with age
 
 | Direct Inguinal | Indirect Inguinal | Femoral Hernia |
 | --- | --- | --- |
@@ -107,7 +107,7 @@ ANATOMY OF INGUINAL CANAL (spermatic cord + ilioinguinal nerve)
 - EPIDEMIOLOGY: young men (15-40 y/o)
 - AETIOLOGY: obstruction of the hair follicles in this area 🡪 cysts, sinuses, abscess
 - CLINICAL FEATURES: asymptomatic until acutely infected 🡪 pain, tenderness, purulent discharge, inspissated hair
-- TREATMENT: acute abscess (I&amp;D, wound packed open), surgery (failure to I&amp;D and in recurrent disease 🡪 pilonidal cystotomy (excision of sinus tract and cyst; wound closed by secondary intention, primary closure with tissue flap)
+- TREATMENT: acute abscess (I&D, wound packed open), surgery (failure to I&D and in recurrent disease 🡪 pilonidal cystotomy (excision of sinus tract and cyst; wound closed by secondary intention, primary closure with tissue flap)
 
 
 ---

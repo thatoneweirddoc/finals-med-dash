@@ -149,7 +149,7 @@ Robbins & Cotran (IBD, coeliac, colorectal neoplasia); NICE NG151 (coeliac — n
 - Oesophogram: If perforation in abdomen, use gastograffin (barium causes peritonitis); if perforation above diaphragm, use barium (gastrograffin causes pneumonitis)
 - CT chest: With thoracic perforations, mediastinal widening and pleural effusion with or without pneumothorax
 - DIFFERENTIAL DIAGNOSES: MI, pancreatitis, lung abscess, pericarditis, spontaneous pneumothorax
-- TREATMENT AND MANAGEMENT: NBM, broad-spectrum IV ABx, IV PPI, drainage of fluid collections/debridement of infected &amp; necrotic tissue, surgical consultation
+- TREATMENT AND MANAGEMENT: NBM, broad-spectrum IV ABx, IV PPI, drainage of fluid collections/debridement of infected & necrotic tissue, surgical consultation
 - INDICATIONS FOR SURGERY: diffuse extravasation, extension of perforation, clinical deterioration (persistent fevers/sepsis), progression of pneumomediastinum/pneumothorax, empyema
 - COMPLICATIONS: septicaemia, mediastinitis, massive pleural effusion, empyema, pneumothorax, sepsis, abscess
 - PROGNOSIS: Dependent on early recognition and appropriate intervention (Within 24 hours= ~75% survival rate)
@@ -161,8 +161,8 @@ Robbins & Cotran (IBD, coeliac, colorectal neoplasia); NICE NG151 (coeliac — n
 ### General Surgery & Gastroenterology (ANU) — coeliac disease — Small & Large Bowel Disorders
 
 - DEFINITION: autoimmune enteropathy creating abnormal small intestine mucosa due to permanent insensitivity to gliadin, a component of gluten
-- EPIDEMIOLOGY: W&gt;M, most commonly diagnosed at ~40 y/o
-- PATHOGENESIS: Gluten (a protein in cereal) is broken down to gliadin (toxic factor).  ↓ immune tolerance to gliadin peptide antigens 🡪 antigens resistant to human proteases 🡪 persist in SI 🡪 gain access to lamina propria via faulty tight junctions/dendritic cells 🡪 intestinal submucosa 🡪 innate &amp; adaptive immune responses 🡪 peptides deamidated by tissue tranglutaminase (tTG) 🡪 binding to coeliac-associated HLA peptides (DQ2 or DQ8) found on APCs and activation of T-Helper cells 🡪 1. Cytotoxic T cells- cell death/tissue remodelling with villous atrophy and crypt hyperplasia 2. Plasma cell maturation (anti-gliadin, anti-tTG antibody production). Inflammatory process leads to disruption of small bowel 🡪 malabsorption of nutrients, minerals and fat-soluble vitamins (A, D, E, K). Gliadin fermented by bacteria 🡪 diarrhoea and abd distension. HLA-DQ2 (80-90% pts) and HLA-DQ8 associated with patients.
+- EPIDEMIOLOGY: W>M, most commonly diagnosed at ~40 y/o
+- PATHOGENESIS: Gluten (a protein in cereal) is broken down to gliadin (toxic factor).  ↓ immune tolerance to gliadin peptide antigens 🡪 antigens resistant to human proteases 🡪 persist in SI 🡪 gain access to lamina propria via faulty tight junctions/dendritic cells 🡪 intestinal submucosa 🡪 innate & adaptive immune responses 🡪 peptides deamidated by tissue tranglutaminase (tTG) 🡪 binding to coeliac-associated HLA peptides (DQ2 or DQ8) found on APCs and activation of T-Helper cells 🡪 1. Cytotoxic T cells- cell death/tissue remodelling with villous atrophy and crypt hyperplasia 2. Plasma cell maturation (anti-gliadin, anti-tTG antibody production). Inflammatory process leads to disruption of small bowel 🡪 malabsorption of nutrients, minerals and fat-soluble vitamins (A, D, E, K). Gliadin fermented by bacteria 🡪 diarrhoea and abd distension. HLA-DQ2 (80-90% pts) and HLA-DQ8 associated with patients.
 - RISK FACTORS: IgA deficiency. T1DM, AI thyroid disease, IBD
 - HISTORY:Diarrhoea (loose, pale, malodorous, floats), weight loss, anaemia, vitamin/mineral deficiency, FTT, bloating, gas, abdominal pain/discomfort, fatigue. Sx ↑ with gluten-free diet
 - Disease most severe in proximal bowel (mainly duodenum) 🡪 Fe, Ca, folic acid deficiency more common than vitamin B12 deficiency (absorbed in ileum)
@@ -172,11 +172,11 @@ Robbins & Cotran (IBD, coeliac, colorectal neoplasia); NICE NG151 (coeliac — n
 - EXAMINATION: Abd exam signs of anaemia, abd distension, dermatitis herpetiformis (intensely pruritic papuloveiscular lesions that occur symmetrically over the extensor surfaces of the arms and legs)
 - INVESTIGATIONSBloods- FBC (iron deficiency anaemia, macrocytic anaemia from folate deficiency), anti-tTG antibody (+predictive value), IgG-DGP (in IgA deficiency as false-neg anti-tTG), EMA (↑ specificity, ↓sensitivity)
 - Evidence of malabsorption- ↓ferritin/iron, Ca2+, albumin, cholesterol, carotene, B12 absorption
-- Small bowel histology (specific &amp; sensitive, duodenum, ↑ intraepithelial lymphocytes, crypt hyperplasia, villous atrophy)
+- Small bowel histology (specific & sensitive, duodenum, ↑ intraepithelial lymphocytes, crypt hyperplasia, villous atrophy)
 - HLA typing- look for HLA-DQ2 and HLA-DQ8, used if biopsy and serology results disagree
 - Skin biopsy (d?ermatitis herpetiformis)
 - CT enterography (visualise small bowel, rule out lymphoma)
-- Fecal fat &gt; 7%
+- Fecal fat > 7%
 
 ![](notes/images/general-surgery-and-gastroenterology-anu/img004.jpg)
 
@@ -188,7 +188,7 @@ Robbins & Cotran (IBD, coeliac, colorectal neoplasia); NICE NG151 (coeliac — n
 - Check for associated osteopenia/osteoporosis using bone density scan + other autoimmune disease
 
 - COMPLICATIONS: FTT, anaemia, osteopenia (↓ common osteoporosis due to ↓ Vit D 🡪 ↑PTH), ↑ risk of AI disease (T1DM, IBD, AI Thyroid Disease), malignancy
-- PROGNOSIS: gluten-free diet resolve ~90% of patients (&lt;1% develop refractory coeliac disease where SI fails to heal)
+- PROGNOSIS: gluten-free diet resolve ~90% of patients (<1% develop refractory coeliac disease where SI fails to heal)
 
 
 ---
@@ -213,7 +213,7 @@ Robbins & Cotran (IBD, coeliac, colorectal neoplasia); NICE NG151 (coeliac — n
 | Signs | Fe deficiency anemia, RLQ mass (uncommon) | Bright blood on PR, LBO | Palpable mass, bright blood on PR |
 
 - EXAMINATION: GI exam (signs of anaemia, palpable abd mass, increased liver span in metastases, Virchow’s node, DRE mass/bloody stool on glove)
-- INVESTIGATIONS: FBC, Carcinogenic embryonic antigen (CEA) to monitor response of Tx, FOBT (sensitive, not specific, cheap), CT chest/abd/pelvis, colonoscopy [allows for biopsy for histological analysis; alternative: air contrast barium enema (“apple core” lesion) + sigmoidoscopy], pelvic MRI/endorectal US for rectal cancer, Coags/stool OCP &amp; MCS in active bleeding, LFTs for metastases
+- INVESTIGATIONS: FBC, Carcinogenic embryonic antigen (CEA) to monitor response of Tx, FOBT (sensitive, not specific, cheap), CT chest/abd/pelvis, colonoscopy [allows for biopsy for histological analysis; alternative: air contrast barium enema (“apple core” lesion) + sigmoidoscopy], pelvic MRI/endorectal US for rectal cancer, Coags/stool OCP & MCS in active bleeding, LFTs for metastases
 - STAGING: Duke’s staging is no longer used 🡪 TNM staging used
 - DIFFERENTIAL DIAGNOSES: IBD, IBS, Diverticular Disease
 - TREATMENT AND MANAGEMENT
@@ -241,8 +241,8 @@ Robbins & Cotran (IBD, coeliac, colorectal neoplasia); NICE NG151 (coeliac — n
 ### General Surgery & Gastroenterology (ANU) — colorectal polyP — Small & Large Bowel Disorders
 
 - POLYP: protuberance into the lumen of normally flat colonic mucosa
-- TUBULAR POLYPS (69-80%)- small &lt;2 cm, pedunculated, lower malignant potential, even distribution, easier to remove
-- VILLOUS POLYPS (10%)- large &gt; 2cm, sessile, higher malignant potential, left-sided predominance
+- TUBULAR POLYPS (69-80%)- small <2 cm, pedunculated, lower malignant potential, even distribution, easier to remove
+- VILLOUS POLYPS (10%)- large > 2cm, sessile, higher malignant potential, left-sided predominance
 
 
 ---
@@ -258,12 +258,12 @@ Robbins & Cotran (IBD, coeliac, colorectal neoplasia); NICE NG151 (coeliac — n
 - Diverticulitis – inflammation of diverticulum or diverticula
 
 - EPIDEMIOLOGY: ↑ incidence with age
-- PATHOGENESIS: ↓ fibre 🡪 ↓ stool volume and ↑ transition time 🡪 ↑ intraluminal pressure, colonic segmentation, colonic wall tension 🡪 degenerative changes in collagen and elastin content of colonic wall 🡪 diverticular formation 🡪 obstruction of diverticulum (inspissated faeces, fexolith) 🡪 bacterial overgrowth, gas &amp; toxin production 🡪 mucosal injury 🡪 perforation of colonic diverticulum 🡪 diverticulitis
+- PATHOGENESIS: ↓ fibre 🡪 ↓ stool volume and ↑ transition time 🡪 ↑ intraluminal pressure, colonic segmentation, colonic wall tension 🡪 degenerative changes in collagen and elastin content of colonic wall 🡪 diverticular formation 🡪 obstruction of diverticulum (inspissated faeces, fexolith) 🡪 bacterial overgrowth, gas & toxin production 🡪 mucosal injury 🡪 perforation of colonic diverticulum 🡪 diverticulitis
 - Sigmoid colon most affected but ↑ incidence on right side in Asians
 - Protrusion occurs at the point where vasa recti penetrates through muscularis propria, breaking wall integrity
 - RISK FACTORS: ↓ fibre, ↑ red meat, ↓ physical activity, obesity
 - HISTORY: constipation; flatulence; LLQ colicky abdominal pain in sigmoid location (relieved by defecation); abrupt, painless, profuse lower GI bleeding; nausea; bloating
-- INVESTIGATIONS: FBC (↑WBC in infection, ↓Hb in bleeding), CT abdomen (thickened bowel wall  &gt;4mm, masses, abscess, , inflammation with pericolic fat and collection of contrast material or fluid), other (CXR in perforation,  barium enema/colonscopy after 6 weeks of acute attack to rule out sigmoid malignancy)
+- INVESTIGATIONS: FBC (↑WBC in infection, ↓Hb in bleeding), CT abdomen (thickened bowel wall  >4mm, masses, abscess, , inflammation with pericolic fat and collection of contrast material or fluid), other (CXR in perforation,  barium enema/colonscopy after 6 weeks of acute attack to rule out sigmoid malignancy)
 - DIFFERENTIAL DIAGNOSES: colorectal cancer, appendicitis, ulcerative colitis, Crohn’s disease, PID
 - STAGING OF DIVERTICULITIS- HINCHEY’S CLASSIFICATION
 - Stage I- diverticulitis with a pericolic abscess
@@ -298,13 +298,13 @@ Robbins & Cotran (IBD, coeliac, colorectal neoplasia); NICE NG151 (coeliac — n
 ### General Surgery & Gastroenterology (ANU) — ulcerative colitis — Small & Large Bowel Disorders
 
 - DEFINITION: IBD affecting colonic mucosa always affecting the rectum, extending proximally to caecum
-- EPIDEMIOLOGY: M&gt;F, 20-40 y/o + another peak at ~60 y/o, smoking is protective
+- EPIDEMIOLOGY: M>F, 20-40 y/o + another peak at ~60 y/o, smoking is protective
 - PATHOGENESIS: involves only the mucosa, with the formation of crypt abscesses (crypts of leiberkuhn; hallmark of disease) and a coexisting depletion of goblet cell mucin
 - RISK FACTORS: strong (FHx, HLA-B27, infection), others (NSAIDs, non-smoker/former smoker)
-- HISTORY: rectal bleeding (hallmark feature), diarrhoea (chronic &gt; 4 weeks, with/without blood), colicky cramping abd pain, tenesmus, urgency, incontinence, systemic (fever, anorexia, weight loss, fatigue)
+- HISTORY: rectal bleeding (hallmark feature), diarrhoea (chronic > 4 weeks, with/without blood), colicky cramping abd pain, tenesmus, urgency, incontinence, systemic (fever, anorexia, weight loss, fatigue)
 - ABDOMINAL EXAM: non-specific tenderness, gross/occult blood on DRA
 - INVESTIGATIONS: FBC (↓Hb, ↑WCC), CMP (LFTs), ESR, CRP, stool studies (?C.Diff toxins A and B; ?acute exacerbation with infection), AXR (dilated loops with air-fluid levels 2o to ileus, thumb-printing sign), flexible sigmoidoscopy/ colonoscopy (continuous uniform involvement, loss of vascular marking, engorgement of mucosa 🡪 erythematous appearance, extent of disease), biopsies (crypt abscesses, mucin depletion); ASCA/pANCA (70% of patients +ve)
-- TRUELOVE AND WITTS SEVERITY INDEX: Bloody stools/day (mild &lt;4, moderate &gt;4, severe ≥6) plus pulse, temperature, Hb, High ESR/CRP
+- TRUELOVE AND WITTS SEVERITY INDEX: Bloody stools/day (mild <4, moderate >4, severe ≥6) plus pulse, temperature, Hb, High ESR/CRP
 - DIFFERENTIAL DIAGNOSES: Crohn’s disease, infectious colitis, diverticulitis, IBS, radiation colitis
 - TREATMENT AND MANAGEMENT
 - ![](notes/images/general-surgery-and-gastroenterology-anu/img013.jpg)
@@ -312,7 +312,7 @@ Main: 5-ASA (mesalamine) and corticosteroids, with azathioprine in steroid-depen
 - Other agents that can be used include ciclosporin, infliximab or methotrexate
 - For severe, intractable symptoms or intolerable medicine effects, surgery should be considered. In UC, surgery is curative!
 - For flares: Steroids + Antibiotics (prednisone AND metronidazole or ciprofloxacin)
-- COMPLICATIONS: ↑ liver problems (primary sclerosing cholangitis), CRC (↑ risk with duration, extent, active inflammation, sclerosing cholangitis), toxic megacolon (colonic diameter &gt;6cm on AXR and caecal &gt;9 cm + systemic toxicity; most common cause of death)
+- COMPLICATIONS: ↑ liver problems (primary sclerosing cholangitis), CRC (↑ risk with duration, extent, active inflammation, sclerosing cholangitis), toxic megacolon (colonic diameter >6cm on AXR and caecal >9 cm + systemic toxicity; most common cause of death)
 
 
 ---
@@ -365,6 +365,6 @@ DEFINITION: protrusion of part or all layers of the rectum through the anal cana
 - AETIOLOGY: E.coli, proteus, streptococci, staphylococci, bacteroides, anaerobes
 - TYPES: perianal (downward spread), ischiorectal (horizontal spread), intersphincteric (origin), supralevator (upward spread)
 - CLINICAL FEATURES: throbbing pain (↑ straining), tender perianal/rectal mass on exam
-- TREATMENT: 1&amp;D, antibiotics
+- TREATMENT: 1&D, antibiotics
 
 appendix

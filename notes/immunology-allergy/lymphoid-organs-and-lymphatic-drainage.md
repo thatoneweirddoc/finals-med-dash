@@ -114,7 +114,7 @@ SPLENIC DYSFUNCTION (POST-SPLENECTOMY, SICKLE CELL): ↓ IgM → ↓ complement 
 | Aetiology | Primary: idiopathic association with HLA-DR52 in 87% of cases (type III hypersensitivity reaction with hyperactive B cells and auto-antibodies)Secondary: autoimmune CTD (e.g. RA, SLE, systemic scleoris) or PBC |
 | Presentation | The classical presentation is a middle-aged woman with dry eyes and a dry mouth, accompanied by rheumatoid arthritis or systemic lupus erythematosus!MNEMONIC: RLADDDSRenal disease: glomerulonephritisLacrimal gland inflammation (dacryoadenitis) :↓ tears, dry eyes → keratoconjunctitis siccaArthralgiaDental caries and tendency to oral infectionDepression and neurological manifestations (seizures, paresis, peripheral neuropathy)DysphagiaSicca complex: dry eyes, dry mouth |
 | Investigations | Bloods: ↑ESR, normocytic anaemia, leukopenia, eosinophiliaImmunology: Anti-RO/SSa and anti-La/SSB (~70% of case), ANA (97% of cases)Urinalysis: proteinuria, red cell cast |
-| Diagnostic criteria | Positive serum anti-SSA/Ro and/or anti-SSB/La or positive RF and ANALabial salivary gland biopsy with focal lymphocytic sialadenitis Keratoconjunctivitis sicca with ocular staining score &gt;3 |
+| Diagnostic criteria | Positive serum anti-SSA/Ro and/or anti-SSB/La or positive RF and ANALabial salivary gland biopsy with focal lymphocytic sialadenitis Keratoconjunctivitis sicca with ocular staining score >3 |
 | Treatment | Underlying diseaseOcular: artificial tears or surgical punctual occlusion for dry eyesOral: good dental hygiene, hydration, parasympathomimetic agentsSystemic: hydroxychloroquine, corticosteroids |
 
 vasculitides

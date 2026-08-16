@@ -25,24 +25,24 @@ This section runs in four blocks: the general definition, then bradyarrhythmias,
 | --- | --- |
 | Presentation | Palpitations, dizziness, light-headedness, syncope, chest discomfort, dyspnoea, weakness, anxiety |
 
-#### Bradyarrhythmias — HR &lt; 60/min
+#### Bradyarrhythmias — HR < 60/min
 
 **The short version**
 
 - Sinus node problems (sinus bradycardia, SA pause/arrest, tachy-brady) share the same causes: **physiological/athletic, sick sinus syndrome, rate-slowing drugs (B-blockers, CCBs)**.
-- AV block is graded by the **PR interval and the P:QRS relationship**: 1o = PR &gt; 200 ms, every P conducts; Mobitz I = progressive PR lengthening then a dropped beat; Mobitz II = **constant PR with intermittently dropped P**; 3o = complete AV dissociation.
+- AV block is graded by the **PR interval and the P:QRS relationship**: 1o = PR > 200 ms, every P conducts; Mobitz I = progressive PR lengthening then a dropped beat; Mobitz II = **constant PR with intermittently dropped P**; 3o = complete AV dissociation.
 - Aetiology tracks severity: 1o and Mobitz I are often vagal/drug-related or inferior MI; **Mobitz II follows anterior MI**; 3o is fibrosis/blockage of the bundle of His.
 
 | Type | Aetiology | ECG FIndings |
 | --- | --- | --- |
-| Sinus bradycardia | Physiological (athletes), sick sinus syndrome, drugs (B-blockers, CCBs) | Rate:&lt; 60 bpm; regularP wave before every QRS |
+| Sinus bradycardia | Physiological (athletes), sick sinus syndrome, drugs (B-blockers, CCBs) | Rate:< 60 bpm; regularP wave before every QRS |
 | Sinoatrial pause/arrest | Healthy individuals, CVD, sick sinus syndrome | Transient absence of the P wave |
 | Tachy-brady Syndrome | Abnormal supraventricular impulse generation/conduction, sick sinus syndrome | Intermittent tachy and  bradyarrhythmias |
-| 1o heart block | Physiological, ↑ vagal tone, drugs (B-blockers, CCBs), acute MI | Rate: regularPR interval &gt; 200 ms (&gt; small sq) ![](notes/images/cardiovascular-anu/img017.jpg) |
+| 1o heart block | Physiological, ↑ vagal tone, drugs (B-blockers, CCBs), acute MI | Rate: regularPR interval > 200 ms (> small sq) ![](notes/images/cardiovascular-anu/img017.jpg) |
 | 2o heart block | Type I: acute MI, ↑ vagal tone, drugs (B-blockers, CCBs, digoxin)Type II: anterior MI | Mobitz type I/Wenckebach: progressive lengthening of PR until a beat is dropped  ![](notes/images/cardiovascular-anu/img018.jpg) <br>• Mobitz type II: constant PR but P wave dropped from time to time so periodically a complete P-QRS-T is missed out ![](notes/images/cardiovascular-anu/img019.jpg) <br>• 2nd degree AV block with 2:1/3:1/4:1 block: alternate conducted and non-conducted atrial beats (P:QRS) |
 | 3o heart block | Fibrosis/blockage of Bundle of His | AV dissociation: no relationship between P waves and QRS complexes↑PR of two large boxes ![](notes/images/cardiovascular-anu/img020.jpg) |
 
-#### Supraventricular tachyarrhythmias — HR &gt; 100/min; originates in SA node, atrial myocardium or AV node
+#### Supraventricular tachyarrhythmias — HR > 100/min; originates in SA node, atrial myocardium or AV node
 
 **The short version**
 
@@ -66,12 +66,12 @@ This section runs in four blocks: the general definition, then bradyarrhythmias,
 | Junctional tachycardia | AV node has pacemaker function due to myocarditis, MI, or digitalis toxicity | Rate: 100–130; regular<br>• P waves before/during/after QRS complex<br>• P waves are inverted <br>• AV dissociation may occur<br>• Narrow QRS |
 | Wolff-Parkinson White | Ventricular pre-excitation syndrome with fast accessory conduction pathway from atria to ventricle (bundle of Kent) which bypasses rate-slowing AV node | Widened QRS and short PR<br>• May cause SVT (re-entry circuit)<br>• Slurred upstroke into QRS (delta wave) ![](notes/images/cardiovascular-anu/img023.jpg) |
 
-#### Ventricular arrhythmias — HR&gt;100/min and originates below AV node
+#### Ventricular arrhythmias — HR>100/min and originates below AV node
 
 **The short version**
 
 - Ventricular origin = **wide QRS**; VT adds **AV dissociation** and a regular rapid rhythm, on a background of CAD, MI or structural heart disease.
-- Two named patterns to recognise on sight: **torsade de pointes** (polymorphic VT twisting around the isoelectric line — long QT, proarrhythmic drug, hypoK+) and **VF** (fibrillatory baseline &gt;300 bpm, no discernible QRS).
+- Two named patterns to recognise on sight: **torsade de pointes** (polymorphic VT twisting around the isoelectric line — long QT, proarrhythmic drug, hypoK+) and **VF** (fibrillatory baseline >300 bpm, no discernible QRS).
 - **Brugada** is the inherited one: **AD, Asian males, pseudo-RBBB with ST elevation V1–V3**, high risk of ventricular tachyarrhythmia and SCD.
 
 | Type | Aetiology | ECG Findings |
@@ -79,5 +79,5 @@ This section runs in four blocks: the general definition, then bradyarrhythmias,
 | Premature ventricular beats | Ectopic beat that originates from a ventricular focus in ↓O2, ↓thyroid, electrolyte abnormalities | Premature, wide QRS not preceded by PCompensatory pause after premature beat |
 | Ventricular tachycardia | CAD, MI, structural heart disease | Regular, rapid rhythm<br>• Wide QRS complexes <br>• AV dissociation (P waves may or may not be discernible) |
 | Torsade de pointes tachycardia | Long QT, proarrhythmic drug, hypoK+ | Polymorphic VT with QRS that appear to twist around the isoelectric line ![](notes/images/cardiovascular-anu/img024.jpg) |
-| Ventricular fibrillation | MI, structural heart disease | Arrhythmic, fibrillatory baseline, usually &gt; 300 bpmIndiscernible QRS complexes ![](notes/images/cardiovascular-anu/img025.jpg) |
+| Ventricular fibrillation | MI, structural heart disease | Arrhythmic, fibrillatory baseline, usually > 300 bpmIndiscernible QRS complexes ![](notes/images/cardiovascular-anu/img025.jpg) |
 | Brugada syndrome | Autosomal dominant commonly in Asian males | Pseudo-right bundle branch block and ST elevations in V1-V3↑ risk ventricular tachyarrhythmias + SCD |

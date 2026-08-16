@@ -143,7 +143,7 @@ SCLC
 
 **Surgical Management**
 
-| Lobectomy | Standard approach in early stage NSCLCResection of one lobe Pulmonary function preservedIf FEV1 &gt; 1.5 L and DLCO &gt; 60%, lobectomy can be tolerated |
+| Lobectomy | Standard approach in early stage NSCLCResection of one lobe Pulmonary function preservedIf FEV1 > 1.5 L and DLCO > 60%, lobectomy can be tolerated |
 | --- | --- |
 | Sublobar resection | Wedge resection/segmentectomy for those who cannot tolerate lobectomyAdv: ↓ perioperative mortality than lobectomy; preserved lung functionDisadv: only for small (≤3 cm), localized tumours |
 | Pneumonectomy | Complete lung resection in the case of a central tumour |

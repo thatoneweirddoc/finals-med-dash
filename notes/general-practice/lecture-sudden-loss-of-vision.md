@@ -53,7 +53,7 @@ updated: "2026-08-14"
 #### Optic Neuropathy due to Giant Cell Arteritis
 
 - GCA: granulomatous vasculitis of large and medium-sized arteries
-- AETIOLOGY/RISK FACTORS: women, &gt; 50y/o, PMR
+- AETIOLOGY/RISK FACTORS: women, > 50y/o, PMR
 - PRESENTATION: jaw claudication, blurry vision/loss of vision, headache, superficial temporal artery tenderness, thickening or nodularity, systemically unwell
 - O/E: swollen tender temporal artery, relative afferent pupillary defect, pale swollen optic discs
 - IX: ↑ESR, ↑CRP, thrombocytosis, temporal artery biopsy

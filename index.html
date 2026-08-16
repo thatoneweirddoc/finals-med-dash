@@ -1,3 +1,4 @@
+<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
@@ -3106,13 +3107,22 @@ const BRK_PHASES = [
 ];
 const BRK_CYCLES = 2;
 
+/* CAPTIONS ARE APPROVAL-GATED.
+ * Nothing goes in this array without Fadi approving the exact wording first,
+ * and every entry must be a real quotation traced to a named primary work by
+ * a philosopher or theologian writing about study, knowledge or attention.
+ * Misattributed quotations are rife — "Beware the man of a single book"
+ * (Jeremy Taylor reporting a rumour, not Aquinas), "The things that we love
+ * tell us what we are" (Thomas Merton, not Aquinas) and "The roots of
+ * education are bitter" (a saying reported about Aristotle 500 years later,
+ * in no extant work) were all proposed and all rejected on checking.
+ * Do NOT add an entry you cannot cite. See docs/break-captions.md. */
 const BRK_CAPTIONS = [
   'Nothing about the exam changed in the last ninety seconds. Your head is just quieter.',
   'You know more than you did last week. Go back when you\'re ready.',
   'Tired is not the same as unprepared.',
   'That\'s enough for now. Pick one thing and start there.',
-  'Steady beats frantic, every time.',
-  'Helena was right about the long exhale.'
+  'Steady beats frantic, every time.'
 ];
 
 let BRK = { raf:null, startedAt:0, phase:0, cycle:0, running:false, prevFocus:null };

@@ -103,7 +103,7 @@ S – STRATEGY AND SUMMARY
 
 - intracranial haemorrhage
 - stroke - small cortical stroke
-- non convulsive SERisk factors for deliriumage &gt;65
+- non convulsive SERisk factors for deliriumage >65
 - dementia
 - hospitalised / institutionalised
 - poor nutrition
@@ -151,7 +151,7 @@ raise arms high in the air for proximal myopathy
 - labsFBC esp WCC and differential
 - EUC, CMP, glucose
 - LFT (nutritional status, alcoholic) , TFTs
-- CRP (&gt;100 probably sepsis, &gt;50 could be sepsis)
+- CRP (>100 probably sepsis, >50 could be sepsis)
 
 - Imaging + septic screenCXR (pneumonia)
 - CT brain (intracranial bleed)
@@ -198,7 +198,7 @@ Discontinue all anticholinergic medicines, if possible.
 
 Reassess pain; adding analgesic may be necessary, or reduce the dose or discontinue narcotics if high doses have been used.
 
-Discontinue all benzodiazepines if use &lt;1 week; if &gt;1 week taper slowly as tolerated and use non- pharmacological management for sleep.
+Discontinue all benzodiazepines if use <1 week; if >1 week taper slowly as tolerated and use non- pharmacological management for sleep.
 
 Reduce the dose of other delirogenic medication as appropriate.
 
@@ -302,7 +302,7 @@ Reduce the dose of other delirogenic medication as appropriate.
 - Cognition - orientation, language, memory, attention
 
 - VTE riskWhy? age, immobile, comorbidities like COPD/stroke.
-- PERC criteria - age &gt;50 is a risk
+- PERC criteria - age >50 is a risk
 - Mx? ensure early ambulation, preserve mobility, early referral to PTx, remove things that impair mobility like catheters as soon as possible
 
 - Pressure soresWhy? age, thin skin, poor wound healing, immobility, peripheral vascular disease, autonomic neuropathy, concurrent medications like steroids
@@ -354,7 +354,7 @@ Reduce the dose of other delirogenic medication as appropriate.
 - Attention (5 for world or serial 7’s)
 - Recall (3 for remembering apple table paper)
 - Language (2 pen and watch, 1 no ifs ands or buts, 3 for three stage command, 1 close your eyes, 1 write a sentence, 1 copy design)
-- Max score 30 (single cutoff &lt; 24 is abnormal)
+- Max score 30 (single cutoff < 24 is abnormal)
 
 ![](notes/images/geriatrics-summary/img001.jpg)
 

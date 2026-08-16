@@ -198,7 +198,7 @@ There are two components in the pathological pain state:
 
 The nerve fibres associated with pain include:
 
-- C-Fibres (more than 70%)Non-myelinated with low conduction velocities (&lt;1 m/s); this group is known as C polymodal nociceptors
+- C-Fibres (more than 70%)Non-myelinated with low conduction velocities (<1 m/s); this group is known as C polymodal nociceptors
 - C-fibre activity causes a dull, diffuse, burning pain
 
 - Aδ FibresFine myelinated fibres which conduct more rapidly

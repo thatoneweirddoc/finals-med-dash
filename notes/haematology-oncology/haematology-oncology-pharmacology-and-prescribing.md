@@ -142,4 +142,4 @@ BENIGN VS. MALIGNANT
 
 | BENIGN | MALIGNANT |
 | --- | --- |
-| &lt;3 cm, round, regularSmooth marginCalcified patternCentral “popcorn” pattern if hamartomaUsually no cavitation: if cavitating, wall is smooth and thin, no other lung pathologyDoubles in &lt;1 month or &gt;2 years | &gt;3 cm, irregular, spiculated	Ill-defined or notched marginUsually not calcified; if calcified, pattern is eccentricNo satellite lesionsCavitation with thick walMay have pleural effusionsLymphadenopathyDoubles in &gt;1 month or &lt; 2 years |
+| <3 cm, round, regularSmooth marginCalcified patternCentral “popcorn” pattern if hamartomaUsually no cavitation: if cavitating, wall is smooth and thin, no other lung pathologyDoubles in <1 month or >2 years | >3 cm, irregular, spiculated	Ill-defined or notched marginUsually not calcified; if calcified, pattern is eccentricNo satellite lesionsCavitation with thick walMay have pleural effusionsLymphadenopathyDoubles in >1 month or < 2 years |

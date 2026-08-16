@@ -53,14 +53,14 @@ Hypertension-mediated organ damage: **LV hypertrophy**/heart failure, coronary d
 | Definition | Persistent systolic BP ≥ 140 mm Hg and/or diastolic BP ≥ 90 mm Hg |
 | --- | --- |
 | Classification | Category | Systolic | Diastolic |
-| Optimal | &lt;120 | &lt;80 |
+| Optimal | <120 | <80 |
 | Normal | 120-29 | 80-84 |
 | High Normal | 130-39 | 85-89 |
 | Grade 1 HTN | 140-59 | 90-99 |
 | Grade 2 HTN | 160-79 | 100-109 |
 | Grade 3 HTN | ≥180 | ≥110 |
-| Isolated systolic HTN | ≥140 | &lt;90 |
-| Isolated systolic HTN with widened pulse pressure | ≥160 | &lt;70 |
+| Isolated systolic HTN | ≥140 | <90 |
+| Isolated systolic HTN with widened pulse pressure | ≥160 | <70 |
 
 **Mechanism of BP control**
 
@@ -92,7 +92,7 @@ ANP/BNP
 
 **Risk Factors**
 
-↑ age, male, dyslipidaemia, obesity, DM, physical inactivity, ↑ salt/fatty diet, FHx; African American &gt; Caucasian &gt; Asian
+↑ age, male, dyslipidaemia, obesity, DM, physical inactivity, ↑ salt/fatty diet, FHx; African American > Caucasian > Asian
 
 **Features**
 
@@ -115,7 +115,7 @@ White coat syndrome (from anxiety)
 
 **Treatment**
 
-- Target: BP: &lt;140/90 mmHG, &lt;130/80 mmHg if DM, sBP &lt; 150 in elderly
+- Target: BP: <140/90 mmHG, <130/80 mmHg if DM, sBP < 150 in elderly
 - Non-pharmacological: diet (↓cholesterol, saturated fats, Na+ intake ≤4g/day, no K/Mg/Ca supplementation), exercise, stress management, smoking cessation, ↓ EtOH, healthy BMI
 - Pharmacological
 - Begin for Grade 3, isolated systolic HTN, evidence of end-organ damage and high CVD risk

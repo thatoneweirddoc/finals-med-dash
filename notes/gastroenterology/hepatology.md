@@ -198,7 +198,7 @@ Robbins & Cotran (hepatic pathology); EASL/AASLD guidance (acute liver failure, 
 
 - HEP DRequires Hep A; causes more aggressive disease
 
-- INVESTIGATIONS: ↑ AST, ALT (AST: ALT &lt; 1), hepatitis serology (IgM antibody directed to the virus), cirrhosis on biopsy
+- INVESTIGATIONS: ↑ AST, ALT (AST: ALT < 1), hepatitis serology (IgM antibody directed to the virus), cirrhosis on biopsy
 - TREATMENT: hepatocellular carcinoma screening with U/S, anti-virals Tenofovir/adefovir, inteferon alpha + ribavirin, cease ETOH (increases risk of disease progression), educate about blood and sexual practices, diet (↓Na, ↑protein, fluid restriction), liver transplant
 
 
@@ -232,7 +232,7 @@ Robbins & Cotran (hepatic pathology); EASL/AASLD guidance (acute liver failure, 
 - Bloods-↓platelet (earliest finding) 🡪 ↑INR 🡪 ↓albumin 🡪 ↑bilirubin 🡪 ↓glucose (pre-terminal)
 - Fibrotest- combination of clinical and biochemical markers to predict degree of fibrosis
 - Imaging- U/S, CT (varices, nodular liver texture, splenomegaly, ascites), gastroscopy
-- TREATMENT: treat underlying disorder, ↓ insults (EtOH, heptotoxic drugs, immunize for Hep A/B), manage complications, liver transplantation (if no EtOH for &gt; 6 months, use MELD score)
+- TREATMENT: treat underlying disorder, ↓ insults (EtOH, heptotoxic drugs, immunize for Hep A/B), manage complications, liver transplantation (if no EtOH for > 6 months, use MELD score)
 - ![](notes/images/general-surgery-and-gastroenterology-anu/img024.jpg)
 PROGNOSIS
 - Child-Pugh Score for Severity

@@ -243,13 +243,13 @@ spinal cord
 
 | Epidemiology | Any age, any location |
 | --- | --- |
-| Aetiology | Normal ICP &lt; 15 mmHGMass (primary/metastatic tumour, cyst), head injury, haemorrhage, infection (meningitis, encephalitis, abscess), hydrocephalus, cerebral oedema (vasogenic, cytotoxic, interstitial, osmotic in acute ↓Na+ and hepatic encephalopathy), status epilepticus |
+| Aetiology | Normal ICP < 15 mmHGMass (primary/metastatic tumour, cyst), head injury, haemorrhage, infection (meningitis, encephalitis, abscess), hydrocephalus, cerebral oedema (vasogenic, cytotoxic, interstitial, osmotic in acute ↓Na+ and hepatic encephalopathy), status epilepticus |
 | Presentation | Acute ↑ICP | Chronic ↑ICP |
 | Cushing’s Triad: HTN, bradycardia (late), irregular Cheyne-Stokes respiratory pattern; in 1/3 casesHeadache (worse in morning, bending, coughing, Valsalva, recumbence)N/V +++Altered GCS +++Hx of TraumaPupil changes + Extra-occular movements:Constriction 🡪 dilation↓ Visual acuity (peripheral visual field loss)Optic disc (subtle changes of papilloedema)Extra-occular movements: CN VI Palsy Herniation syndromeFocal neurological deficits | Headache (same aggravating features)N/V +Altered GCS +Pupil Changes + EOMPapilloedemaVisual changes (optic atrophy/blindness)Often full EOMHerniation Syndrome if acute on chronic presentationFocal neurological deficits |
 
 **Diagnosis**
 
-- Bloods- FBC&lt; EUC, BSL, serum osmolality, coags, blood culture, toxicology screen
+- Bloods- FBC< EUC, BSL, serum osmolality, coags, blood culture, toxicology screen
 - Urgent CT/MRI
 - LP if safe- measure opening pressure!!
 - Serial ICP where appropriate

@@ -253,7 +253,7 @@ Cells of bone are:
 - Osteoblasts which produce collagen and bone matrix 🡪 become entrapped in the osteoid 🡪 degenerate to osteocytes
 - Osteoclasts: multinucleated giant cells which phagocytose and reabsorb bone matrix
 
-#### Embryology &amp; Bone Growth
+#### Embryology & Bone Growth
 
 - Endochondral ossification occurs at embryological at week 8 of 40 and creates woven bone.
 
@@ -282,7 +282,7 @@ Woven bone is highly cellular, rapidly and randomly growing 🡪 gradually repla
 #### PATHOPHYSIOLOGY
 
 - Primary bone tumours are quite rare compared to bone metastases.
-- Metastases:These cancers arise from other organs, which has subsequently spread to the bones (in contrast to primary tumours). Usually equates to the terminal or near-terminal phase of the cancer illness. &gt;90% come from the thyroid, breast, lungs, kidneys or prostate in adults, commonly involving the axial skeleton. Metastases are typically lytic (kidney, thyroid) or sclerotic (prostate), giving a clue to their origin on a simple x-ray.
+- Metastases:These cancers arise from other organs, which has subsequently spread to the bones (in contrast to primary tumours). Usually equates to the terminal or near-terminal phase of the cancer illness. >90% come from the thyroid, breast, lungs, kidneys or prostate in adults, commonly involving the axial skeleton. Metastases are typically lytic (kidney, thyroid) or sclerotic (prostate), giving a clue to their origin on a simple x-ray.
 
 #### Investigations
 
@@ -305,7 +305,7 @@ These are tumours that arise from the bone (excluding marrow), and are quite rar
 
 #### Pathophysiology
 
-Sarcomas of the bone have a bimodal age distribution (10’s and &gt;60), with majority arising de novo. However, recognized precursors include:
+Sarcomas of the bone have a bimodal age distribution (10’s and >60), with majority arising de novo. However, recognized precursors include:
 
 - Paget disease
 - Radiation exposure

@@ -62,14 +62,14 @@ updated: "2026-08-14"
 - SHAPE: discoid, annular, serpiginous
 - SURFACE CHANGES: crust, scale, lichenification (thickened skin)
 - MACULE: flat circumscribed area of discolouration
-- PAPULE: small lump &lt;5mm
-- NODULE: larger lump &gt;5mm
+- PAPULE: small lump <5mm
+- NODULE: larger lump >5mm
 - PLAQUE: circumscribed area of elevated skin
 - EROSION: area of loss of epidermis
 - EXCORIATION: ulceration due to scratching
 - FISSURE: crack through epidermis into dermis
 - ULCER: loss of epidermis, some dermis ± possibly fat
-- FLUID FILLED LESIONS: vesicle (&lt;5mm), bulla (&gt;5mm), pustule (visible accumulation of pus)
+- FLUID FILLED LESIONS: vesicle (<5mm), bulla (>5mm), pustule (visible accumulation of pus)
 - TELANGIECTASIA: small blood vessels on skin surface
 - PETECHIAE: small dots of blood in skin
 - PURPURA: larger patches of blood

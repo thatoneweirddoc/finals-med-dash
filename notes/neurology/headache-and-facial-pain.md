@@ -161,12 +161,12 @@ NICE **NG217** *Epilepsies in children, young people and adults* (2022) — firs
 | Classification | Common migraine (no aura)≥ 5 attacks fulfilling each of the following criteria and not attributable to any other disorder4-72 h duration≥ 2 of: unilateral, pulsating, moderate-severe pain, aggravated by routine physical activity≥1 of : N/V, photophobia/phonophobia/osmophobiaClassic migraine (with aura) ≥ 2 attacks with a reversible aura (visual/sensory/dysphasic/vertiningous; no motor weakness)≥ 2 of homonoymous visual symptoms/unilateral sensory Sx lasting ≥5 and ≤60 minutesComplicated migraine: with severe/persistent sensorimotor deficitsBasilar-type (occipital headache with diplopia, vertigo, ataxia, and altered LOC)Others: hemisensory or ophthalmoplegic Acephalgic migraine (i.e. migraine equivalent): aura without headache |
 | --- | --- |
 | Pathogenesis | Depolarizing wave of “cortical spreading depression”🡪 aura, trigeminal afferent fibre activation, vasoconstriction/dilation, chemical mediators activating central pain pathways |
-| Epidemiology | 12% of adults, F&gt;M, age of onset ~ 10-30 y/o, 20% with aura, 80% without auraFun fact: OCP contraindicated with complicated migraine due to risk of stroke |
+| Epidemiology | 12% of adults, F>M, age of onset ~ 10-30 y/o, 20% with aura, 80% without auraFun fact: OCP contraindicated with complicated migraine due to risk of stroke |
 | Risk Factors | FHx, female, obesity |
 | Triggers | Stress, ↑/↓ sleep (fatigue), drugs (oestrogen, nitroglycerin), hormonal changes (menstruation), caffeine, chocolate, tyramine (red wine), nitrites (processed meats), motion sickness |
 | Differentials | Tension/cluster headache, temporal arteritis, SAH, ischemic stroke, cerebrl neoplasm |
 | Presentation | Prodrome: hours or days before (gradual onset); altered mood, sleepiness, appetite change, psychomotor agitation/retardation, autonomic Sx (N/V)Aura: fully reversible symptom of focal cerebral dysfunction, immediately preceding the headache but can occur in associationHeadache (mod-severe; crescendo pattern) POUND (pulsating/photophobia/phonophoia, one day duration, unilateral, N/V, debilitating)Bilateral in 40% of cases; agg by exercise/stress/fatigue/drugs and rel by dark quiet roomsPostdrome period: tired, ‘washed-out’, impaired concentration |
-| Investigations | Clinical diagnosis, ESR (exclude temporal arteritis), lumbar puncture &amp; CSF culture normal  (abnormal in SAH, meningitis), CT/MRI (SOL, ischemia, SAH) |
+| Investigations | Clinical diagnosis, ESR (exclude temporal arteritis), lumbar puncture & CSF culture normal  (abnormal in SAH, meningitis), CT/MRI (SOL, ischemia, SAH) |
 | Management | Avoid triggers + hydration + behavioral modificationAnalgesia (NSAIDS/paracetamol in mild, triptans in severe)Symptomatic (anti-emetics e.g. metoclopramide)Prophylaxis (B-blockers e.g. propranalol, calcium-channel blockers e.g. verapamil, anti-depressants e.g. TCA, anti-convulsants) |
 
 
@@ -188,9 +188,9 @@ NICE **NG217** *Epilepsies in children, young people and adults* (2022) — firs
 
 ### Neurology (ANU) — Cluster headache — Headache and Facial Pain
 
-| Features | Unknown aetiology, affects &lt; 0.1 % of adults, M &gt; F |
+| Features | Unknown aetiology, affects < 0.1 % of adults, M > F |
 | --- | --- |
-| Presentation | Asymptomatic for months Attacks will cluster together suddenly (8-10 per/day) with same attack for &lt; 3h at same time of daySudden unilateral eye pain (retro-orbital), frequently awakening pt (AM&gt;PM), stabbing/constantRelieved by walking aroundAss: unilateral Horner’s syndrome (rhinorrhoea, lacrimation, conjunctival injection, sagging eyelid) |
+| Presentation | Asymptomatic for months Attacks will cluster together suddenly (8-10 per/day) with same attack for < 3h at same time of daySudden unilateral eye pain (retro-orbital), frequently awakening pt (AM>PM), stabbing/constantRelieved by walking aroundAss: unilateral Horner’s syndrome (rhinorrhoea, lacrimation, conjunctival injection, sagging eyelid) |
 | Triggers | Often EtOH |
 | Investigation | Clinical diagnosis, only primary headache you should do one-time brain imaging with CT/MRI |
 | Management | High-flow O2 (first-line), triptans (second-line)Prophylaxis (Ca2+ channel blockers – so the patient doesn’t need O2  all the time)Can consider corticosteroids (short-term), verapamil 260 mg, lithium 900mg |
@@ -219,7 +219,7 @@ NICE **NG217** *Epilepsies in children, young people and adults* (2022) — firs
 | --- | --- |
 | Aetiology | Assoc with: dural sinus thrombosis, 4Fs (fat/forties/female/fertile), use of TCA/OCP/retinoids (for acne) |
 | Presentation | Insidious headache, with similar features to VST although less acuteVisual: CN VI palsy, diploplia, transient visual obscurations, scotoma (↑blind spot) |
-| Investigation | MRI-brain (with/without contrast)- rule out VST, mass, infection, hydrocephalusLP- opening pressure &gt; 20 mmHg, normal CSF analysisOphthalmologic: fields, acuity, papilloedema |
+| Investigation | MRI-brain (with/without contrast)- rule out VST, mass, infection, hydrocephalusLP- opening pressure > 20 mmHg, normal CSF analysisOphthalmologic: fields, acuity, papilloedema |
 | Management | Lifestyle: weight loss, fluid/salt restriction, cease insultsPharmacotherapy: acetazolamide (↓CSF prod.), thiazide diuretic or furosemideSurgery- serial LPs, shunts, optic nerve sheath decompression (if progressive ↓ visual acuity)Long term- 2 year follow up to rule out occult tumour, ophthalmology follow up |
 | Prognosis | Usually self-limited, recurrence in 10% |
 

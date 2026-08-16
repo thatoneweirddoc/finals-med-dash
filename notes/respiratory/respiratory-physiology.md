@@ -189,7 +189,7 @@ ALVEOLAR MODEL
 
 ### Respiratory (ANU) — 3. diffusion — Respiratory Physiology
 
-- O2 diffuses from the alveoli into the blood and CO2 diffuses from the blood into the alveoli according to their concentration gradients. Thus [O2] in alveoli &gt; blood and [CO2] in alveoli &lt; blood.
+- O2 diffuses from the alveoli into the blood and CO2 diffuses from the blood into the alveoli according to their concentration gradients. Thus [O2] in alveoli > blood and [CO2] in alveoli < blood.
 - Diffusion is affected by thickness of membrane and surface area
 - O2 binding to Hb is dependent on PaO2 – where oxygen carriage is sigmoid
 - ![](notes/images/respiratory-anu/img008.jpg)

@@ -138,7 +138,7 @@ Robbins & Cotran (bone & parathyroid pathology); Endocrine Society/associated gu
 
 ### Endocrinology (ANU) — hypercalcaemia — Calcium, Bone & Parathyroid Disorders
 
-| DEFINITION | Total serum calcium concentration &gt; 10.5 mg/dL (&gt; 2.62 mmol/L), or ionized (free) calcium concentration &gt; 5.25 mg/dL (&gt; 1.31 mmol/L) |
+| DEFINITION | Total serum calcium concentration > 10.5 mg/dL (> 2.62 mmol/L), or ionized (free) calcium concentration > 5.25 mg/dL (> 1.31 mmol/L) |
 | --- | --- |
 | AETIOLOGY | Types | Aetiology | Pathophysiology |
 | PTH-mediated | Primary hyperparathyroidism | Adenoma (sporadic) or MEN |
@@ -156,7 +156,7 @@ Robbins & Cotran (bone & parathyroid pathology); Endocrine Society/associated gu
 PRESENTATION
 
 - Variable (may be asymptomatic)
-- Stones (nephrolithiasis: calcium oxalate &gt; calcium phosphate stones)
+- Stones (nephrolithiasis: calcium oxalate > calcium phosphate stones)
 - Bones (bone pain, arthralgia)
 - Abdominal groans (abdominal pain, nausea, vomiting, PUD, constipation, pancreatitis)
 - Psychiatric overtones (anxiety, depression, fatigue)
@@ -171,24 +171,24 @@ INVESTIGATIONS
 MANAGEMENT
 
 - Treatment of any underlying disorder (e.g., glucocorticoids in granulomatous disease)
-- Mild or asymptomatic hypercalcemia: total calcium &lt; 12 mg/dL (&lt; 3 mmol/L) or ionized calcium &lt; 8 mg/dL (&lt; 2 mmol/L)
+- Mild or asymptomatic hypercalcemia: total calcium < 12 mg/dL (< 3 mmol/L) or ionized calcium < 8 mg/dL (< 2 mmol/L)
 
 - Reduced dietary intake of calcium
 - Avoidance of thiazide diuretics, lithium, high-calcium diet
 
-- Severe or symptomatic hypercalcemia: total calcium &gt; 14 mg/dL (&gt; 3.5 mmol/L) or ionized calcium &gt; 12 mg/dL (&gt; 3 mmol/L)
+- Severe or symptomatic hypercalcemia: total calcium > 14 mg/dL (> 3.5 mmol/L) or ionized calcium > 12 mg/dL (> 3 mmol/L)
 
 - IV hydration with isotonic saline
 - Loop diuretics (with monitoring of serum potassium!) in patients with renal insufficiency or heart failure to avoid volume overload (Loop diuretics increase the renal excretion of calcium but also prevent volume overload in at-risk patients.)
 - Bisphosphonates (e.g., zoledronic acid, pamidronate), in cases of excessive bone resorption (e.g. hypercalcemia of malignancy, immobilization)
 - Calcitonin
-- Dialysis in severe cases or renal failure: &gt; 18 mg/dL (&gt; 4.5 mmol/L)
+- Dialysis in severe cases or renal failure: > 18 mg/dL (> 4.5 mmol/L)
 
 Note: thiazide diuretics are calcium sparing → discontinue them in hypercalcemia!
 
 HYPERCALCAEMIC CRISIS
 
-- Definition: life-threatening condition that should be suspected at total calcium levels &gt; 14 mg/dL (3.5 mmol/L) or ionized calcium &gt; 12 mg/dL (3 mmol/L)
+- Definition: life-threatening condition that should be suspected at total calcium levels > 14 mg/dL (3.5 mmol/L) or ionized calcium > 12 mg/dL (3 mmol/L)
 - Symptoms: dehydration (ADH resistance, nausea, and vomiting), fever, psychosis, and ultimately coma
 - Treatment:
 
@@ -203,7 +203,7 @@ HYPERCALCAEMIC CRISIS
 
 ### Endocrinology (ANU) — hypocalcaemia — Calcium, Bone & Parathyroid Disorders
 
-| DEFINITION | Total serum calcium concentration &lt; 8.5 mg/dL (&lt; 2.12 mmol/L), or ionized (or free) calcium concentration &lt; 4.65 mg/dL (&lt; 1.16 mmol/L) |
+| DEFINITION | Total serum calcium concentration < 8.5 mg/dL (< 2.12 mmol/L), or ionized (or free) calcium concentration < 4.65 mg/dL (< 1.16 mmol/L) |
 | --- | --- |
 | AETIOLOGY | Types | Aetiology | Pathophysiology |
 | Low PTH | Hypoparathyroidism | Destruction of the parathyroid glandsSurgicalAutoimmune |
@@ -233,7 +233,7 @@ MANAGEMENT
 - Calcium supplementation
 
 - IV calcium (1–2 g calcium gluconate in 50 mL of 5% dextrose infused over 10–20 mins): in severely symptomatic patients (tetany, seizures), prolonged QT interval, and asymptomatic patients with an acute decrease in serum corrected calcium to ≤ 7.5 mg/dL
-- Oral calcium: indicated in patients with mild neuromuscular irritability (e.g., paresthesias), and those with serum corrected calcium &gt; 7.5 mg/dL (&gt; 1.9 mmol/L)
+- Oral calcium: indicated in patients with mild neuromuscular irritability (e.g., paresthesias), and those with serum corrected calcium > 7.5 mg/dL (> 1.9 mmol/L)
 
 - Vitamin D supplementation: hypocalcemia caused by hypoparathyroidism/vitamin D deficiency
 - For patients taking loop diuretics, medication change to thiazides
@@ -250,8 +250,8 @@ MANAGEMENT
 | --- | --- |
 | EPIDEMIOLOGY | F:M=~4:1Age of onset: 50-70 years |
 | AETIOLOGY | Primary Osteoporosis (95% in women, 80% in men)Primary type 1 (post-menopausal OA): most common in post-menopausal women, due to decline in estrogen, worsens with agePrimary type 2 (senile OA): occurs after age 75, seen in females and males at 2:1 ratio, possibly due to zinc deficiencyRisk factors: female, post menopause, age, late menarche, FHx, Caucasian/Asian, shortSecondary Osteoporosis: Risk Factors (mnemonic abcdef)MalAbsorption syndromes: Coeliac disease, gastric/bowel resection, bariatric surgeryB: rheumatoid arthritis and other CTDChronic medical disorders Liver, kidney, cardiopulmonary diseasesLow body weight and weight loss, including anorexia nervosa | Drugs causing bone lossGlucocorticoidsExcessive thyroid hormoneLong-term heparinAntiepileptic drugs, particularly hepatic enzyme inducersAndrogen deprivation therapyAromatase inhibitors for breast cancerThiazolidinediones for diabetesEndocrine disordersCushing syndromeHyperthyroidismHyperparathyroidismSex hormone deficiency in men and women bvFactors that increase risk of fallsBalance disorderVisual impairmentMuscle weakness/sarcopeniaSedating and antihypertensive drugsLifestyle and NutritionSmoking and excessive alcohol intakeImmobilisation↓ Ca2+ and Vitamin D |
-| PRESENTATION | Mostly asymptomatic Pathological fractures:  spontaneous fracture following mild physical exertion/minor trauma (e.g. lifting/bending/sneezing/coughing)Location: vertebral (back pain) &gt; femoral neck &gt; distal radius (Colles) fractures, fractures of long bone (e.g. humerus)Vertebral compression (crush) fractures are commonly asymptomatic, but may cause acute back pain and possible point tenderness without neurological symptomsLong-term findings after repeated vertebral compression fracturesDecreased height (loss of 2–3 cm with each fractureThoracic hyper-kyphosis → stooped posture with a “dowager's hump” |
-| INVESTIGATIONS | BMD testing: Dual-energy x-ray absorptiometry (DEXA)Calculates bone mineral density (BMD) in g/cm2T ≤ -2.5 SD = osteoporosis-1  ≤ T  &lt; -2.5 SD = osteopeniaPlain radiographyIncreased radiolucencyVertical compression fracturesBloodsFBC, EUC, TFTALP + phosphate  (osteomalacia)Corrected Ca, Albumin, PTH, 25-hydroxy vitamin D (2o osteoperosis)Consider: testosterone, urinary free cortisol (for Cushing’s Disease) |
+| PRESENTATION | Mostly asymptomatic Pathological fractures:  spontaneous fracture following mild physical exertion/minor trauma (e.g. lifting/bending/sneezing/coughing)Location: vertebral (back pain) > femoral neck > distal radius (Colles) fractures, fractures of long bone (e.g. humerus)Vertebral compression (crush) fractures are commonly asymptomatic, but may cause acute back pain and possible point tenderness without neurological symptomsLong-term findings after repeated vertebral compression fracturesDecreased height (loss of 2–3 cm with each fractureThoracic hyper-kyphosis → stooped posture with a “dowager's hump” |
+| INVESTIGATIONS | BMD testing: Dual-energy x-ray absorptiometry (DEXA)Calculates bone mineral density (BMD) in g/cm2T ≤ -2.5 SD = osteoporosis-1  ≤ T  < -2.5 SD = osteopeniaPlain radiographyIncreased radiolucencyVertical compression fracturesBloodsFBC, EUC, TFTALP + phosphate  (osteomalacia)Corrected Ca, Albumin, PTH, 25-hydroxy vitamin D (2o osteoperosis)Consider: testosterone, urinary free cortisol (for Cushing’s Disease) |
 | MANAGEMENT | LifestyleCessation of smoking and caffeineWeight bearing exercise Dietary calcium and vitamin D intakeAvoid/minimise glucocorticoidsMedical TherapyIndicationHistory of fragility fracturesT-scores ≤ -2.5T-score between -1 and -2.5 with severely increased risk of fractureWith each therapy: Calcium (1200mg/d) and Vitamin D (1000 IU/d) supplementation Bisphosphonates: alendronate, risedronate, zoledronic acid (5mg IV/year) which inhibit Inhibits osteoclast-mediated bone resorption. They should be taken in the morning and evening, at least 30 minutes before meals to prevent them forming complexes with calcium. Contraindicated in hypocalcaemia and hypersensitivity. Side effects include  GI, MSK pain, headaches, and osteonecrosis of jawRaloxifene or DenosumabRaloxifene: decreases resorption of bone through selectively binding to estrogen receptors. Side-effects include hot flushes, increased risk of stroke and thromboembolism/ Denosumab: Inhibits RANKL (osteoclast differentiating factor) →  inhibits osteoclast formation and decreases bone resorptionNote: Teriparatide, a synthetic form of human parathyroid hormone (PTH), is the only osteoporosis treatment that increases bone formation - only if other treatment contraindicated |
 
 
@@ -276,7 +276,7 @@ MANAGAMENT
 
 Primary hyperparathyroidism
 
-- Parathyroidectomy: for symptomatic or for those who are asymptomatic but meet criteria (age &lt;50 years, Ca2+ &gt; 1mg/dL of normal upper limit, eGFR &lt;60mL/min, nephrolithiasis/nephrocalcinosis, T&lt;-2.5 on DEXA scan)
+- Parathyroidectomy: for symptomatic or for those who are asymptomatic but meet criteria (age <50 years, Ca2+ > 1mg/dL of normal upper limit, eGFR <60mL/min, nephrolithiasis/nephrocalcinosis, T<-2.5 on DEXA scan)
 
 - Solitary adenoma: remove the respective gland
 - Hyperplasia: remove all four (total parathyroidectomy)
@@ -319,7 +319,7 @@ Osteoporosis, nephrolithiasis, pathological fractures, osteodystrophy
 
 | DEFINITION | Slowly progressive monostotic (1 bone)/polyostotic (many bones) skeletal disease, characterised by increased bone turnover causing normal lamellar bone to be replaced by weak woven boneE |
 | --- | --- |
-| EPIDEMIOLOGY | M&gt;FAge of onset &gt; 55 years |
+| EPIDEMIOLOGY | M>FAge of onset > 55 years |
 | AETIOLOGY | IdiopathicAssociated with a ↑ rate of bone remodellingDisease localisation: pelvis, skull, vertebral column, long bones of lower extremities are commonly affected |
 | PRESENTATION | Approximately 70–90% of cases are asymptomaticBone pain ± erythema ± ↑skin temperature over the affected bones Bony deformities: e.g., bowing of legs (saber shin) Skull involvement (in ∼ 40%): skull enlargement (↑ hat size), CN deficits, ↓ hearing, headachePathological fractures |
 | INVESTIGATIONS | Labs: ↑↑ alkaline phosphatase; normal Ca2+/PO43-/PTH, hyperuricaemia, collagen degradation markers in urineX-Ray: Deformed bones with sclerotic and osteolytic lesionsSkull x-ray: thickening of diploe, cotton wool spotsVertebral x-ray: thickening, diffuse enlargement (ivory vertrebra), “picture-frame” appearancePelvic: disruption/fusion of sacroiliac joints, thickened iliopectineal lineBone scans: bony lesions |
@@ -333,7 +333,7 @@ Osteoporosis, nephrolithiasis, pathological fractures, osteodystrophy
 
 | DEFINITION | Rickets: osteopenia with disordered calcification leading to a higher proportion of (unmineralized) osteoid tissue prior to epiphyseal closure (in childhood)Osteomalacia: osteopenia with disordered calcification leading to a higher proportion of (unmineralized) osteoid tissue after epiphyseal closure (in adulthood) |
 | --- | --- |
-| AETIOLOGY | Vitamin D DeficiencyDeficient uptake or absorption ( Cystic fibrosis, Celiac disease, gastrectomy)Defective 25-hydroxylation in liver (liver disease or cytochrome P450 inducers e.g. anticonvulsants which increase vitamin D metabolism)Defective 1-α-hydroxylation (in proximal tubule - calidiol --&gt; calitriol, i.e. renal failure)Loss of Vitamin D binding protein (nephrotic syndrome)Vitamin D deficiency will lead to secondary hyperparathyroidism and hypophosphatemiaMineralization DefectAbnormal matrix (osteogenesis imperfecta, fibrogenesis imperfecta, axial osteomalacia)Enzyme deficiency (hypophosphatasia (inadequate ALP))Presence of calcification inhibitors (bisphosphonates, aluminium, anticonvulsants) |
+| AETIOLOGY | Vitamin D DeficiencyDeficient uptake or absorption ( Cystic fibrosis, Celiac disease, gastrectomy)Defective 25-hydroxylation in liver (liver disease or cytochrome P450 inducers e.g. anticonvulsants which increase vitamin D metabolism)Defective 1-α-hydroxylation (in proximal tubule - calidiol --> calitriol, i.e. renal failure)Loss of Vitamin D binding protein (nephrotic syndrome)Vitamin D deficiency will lead to secondary hyperparathyroidism and hypophosphatemiaMineralization DefectAbnormal matrix (osteogenesis imperfecta, fibrogenesis imperfecta, axial osteomalacia)Enzyme deficiency (hypophosphatasia (inadequate ALP))Presence of calcification inhibitors (bisphosphonates, aluminium, anticonvulsants) |
 | PRESENTATION | OsteomalaciaNot as dramaticDiffuse skeletal pain Bone tendernessFracturesGait disturbances (waddling)Proximal muscle weakness Hypotonia | RicketsSkeletal pain and deformities, bow leggedFracture susceptibilityWeakness and hypotoniaDisturbed growthRachitic rosary (prominent costochondral junctions)Marfan's sign (distention of the bone-cartilage junctions in the joints)Craniotabes (softening of the occipital bones)Varum/valgus deformities of the kneeHarrison’s groove (indentation of lower ribs)Hypocalcaemia |
 | PATHOPHYSIOLOGY | Vitamin D deficiency and defective vitamin D metabolismHypocalcaemia → defective bone matrix mineralization (osteomalacia) or growth plate mineralization (rickets) Renal disease → ↓ production of vitamin D and metabolic acidosis → impaired calcificationVitamin D-independent formsPhosphate deficiency → ↓ phosphate blood levels → defective bone matrix mineralization (osteomalacia) or growth plate mineralization (rickets) |
 | INVESTIGATIONS | Labs: ↓Ca2+, ↓PO43-, ↑alkaline phosphatase, ↑PTH ![](notes/images/endocrinology-anu/img018.jpg) X-rayOsteomalacia: ↓ bone mineral density, thin cortices, pseudofractures (looser zones with transverse bands of radiolucency indicating defective calcification of osteoid)Rickets: ↓ bone mineral density, thin cortices, growth plates in the metaphysis of the long bones are less defines with cupping/stippling/fraying, wide epiphysis, looser zones, bone deformities |

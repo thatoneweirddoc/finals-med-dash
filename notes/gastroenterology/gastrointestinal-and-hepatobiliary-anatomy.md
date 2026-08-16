@@ -190,7 +190,7 @@ MALIGNANT MELANOMA OF ANAL CANAL
 - 3rd most common site for primary malignant melanoma after skin, eyes
 - Aggressive, distant metastases
 - Treatment: wide excision or APR ± chemoradiation
-- Prognosis:&lt;5%5yrsurvival
+- Prognosis:<5%5yrsurvival
 
 
 ---
@@ -221,7 +221,7 @@ DEFINITION: abnormal communication between the epithelialized surface of the ana
 
 ### General Surgery & Gastroenterology (ANU) — portal hypertension — Gastrointestinal & Hepatobiliary Anatomy
 
-- DEFINITION: HTN in the hepatic portal system, made up of the portal vein and its branches that drain from most of the intestine to the liver; defined as a hepatic venous pressure gradient &gt; 5 mmHg
+- DEFINITION: HTN in the hepatic portal system, made up of the portal vein and its branches that drain from most of the intestine to the liver; defined as a hepatic venous pressure gradient > 5 mmHg
 - PATHOPHYSIOLOGY (PRESSURE= FLOW X RESISTANCE): pre-sinusoidal (portal vein thrombosis), sinusoidal (cirrhosis, alcoholic hepatitis), post-sinusoidal (RHF, hepatic vein thrombosis, constrictive pericarditis)
 - COMPLICATIONS: GI bleeding (varices), ascites, encephalopathy, thrombocytopenia, renal dysfunction, sepsis
 - TREATMENT: B- blockers (↓ bleeding from varicies), nitrates (vasodilator), TIPS (↓ portal venous pressure and complications such as variceal bleeding)

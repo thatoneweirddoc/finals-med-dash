@@ -27,7 +27,7 @@ FOETAL ERYTHROPOIESIS
 
 - DEFINITION: A group of conditions characterized by an increase in premature leukocytes that are subsequently released into the bloodstream
 - TYPES: acute myeloid leukemia (AML), acute lymphocytic leukemia (ALL), chronic myeloid leukemia (CML), chronic lymphocytic leukemia (CLL)
-- LIKELY DIAGNOSIS BASED ON AGE AT PRESENTATION: ALL: &lt; 13 years (but can present in any age group); AML: 13–40 years (but can present in any age group); CML: 40–60 years; CLL: &gt; 60 years
+- LIKELY DIAGNOSIS BASED ON AGE AT PRESENTATION: ALL: < 13 years (but can present in any age group); AML: 13–40 years (but can present in any age group); CML: 40–60 years; CLL: > 60 years
 - PATHOPHYSIOLOGY: Unregulated WBC growth/differentiation in bone marrow → marrow failure → anaemia, infections (↓ mature WBC), and haemorrhage (↓ platelets). Usually with ↑ circulating WBCs (malignant leukocytes in blood); rare cases present with normal/↓ WBCs. Leukemic  infiltration of liver, spleen, lymph nodes, and skin (leukemia cutis) possible
 
 
@@ -38,12 +38,12 @@ FOETAL ERYTHROPOIESIS
 
 | Definition | Clonal disorders of early haematopoietic stem calls characterised by the proliferation of immature, non-functional cells in the bone marrow that are subsequently released into the blood stream |
 | --- | --- |
-| Epidemiology | ACUTE LYMPHOBLASTIC LEUKEMIAPeak incidence: 2–5 years with M&gt;F80% of acute leukemias during childhood are lymphocytic | ACUTE MYELOID LEUKEMIAPeak incidence: 65 years80% of acute leukemias during adulthood are myelogenous |
+| Epidemiology | ACUTE LYMPHOBLASTIC LEUKEMIAPeak incidence: 2–5 years with M>F80% of acute leukemias during childhood are lymphocytic | ACUTE MYELOID LEUKEMIAPeak incidence: 65 years80% of acute leukemias during adulthood are myelogenous |
 | Aetiology | ACUTE LYMPHOBLASTIC LEUKEMIA (ALL)Mostly unknown aetiologyAdult T-cell leukemia/lymphoma is linked to infection with HTL viruses (human T-lymphotropic virus)Genetic: Down syndrome, Neurofibromatosis type 1, Ataxia telangiectasia | ACUTE MYELOID LEUKEMIA (AML)Environmental: benzene, radiation, tobacco, chemotherapyGenetic: Down syndrome, Philadelphia translocation, t15:17 translocation, Fanconi anemiaMyeloproliferative and myelodysplastic disorders: myelodysplastic diseases, osteomyelofibrosis, chronic myelogenous leukemia |
 | Classification | ALLWHO classification relies on cytogenetic criteria to determine the immunophenotype of the leukemic cells. This includes their origin (B or T cell) and maturity:B-cell ALL (around 80–85% of cases)T-cell ALL (around 15–20% of cases) | AMLWHO classification is based on factors e.g. genetic abnormalities, prior chemotherapy/radiationFAB Classification according to 8 subtypes of AMLM0: minimally differentiatedM1: without maturationM2: with granulocytic maturationM3: acute promyelocytic leukemia (APL)M4: acute myelomonocytic leukemiaM5: acute monocytic leukemiaM6: acute erythroid leukemiasM7: acute megakaryoblastic leukemia |
 | Pathophysiology | TWO-HIT HYPOTHESIS: Leukemia is the result of two separate genetic mutations:The first causes clonal proliferation of a lymphoid or myeloid stem cellThe second impairs its normal hematopoietic differentiation As a result, the bone marrow is filled with numerous immature, non-functional cells that eventually impair normal haematopoiesis and cause the following abnormalities:Leukopenia (↑ risk of infections)Thrombocytopenia (↑ bleeding)AnaemiaAccumulation of blasts in other organs e.g. skin, gums, liver, spleenMetabolic consequences: tumour lysis syndrome |
 | Presentation | SYMPTOMS OCCURRING IN BOTH AML AND ALLAnaemia: fatigue, pallor, and weaknessBleeding (petechiae, epistaxis, or hematoma, caused by thrombocytopenia)Hepatomegaly and/or splenomegaly (caused by leukemic infiltration)CNS involvement: headache, visual field changesFeverAMLLeukemia cutis (or myeloid sarcoma): nodular skin lesions with a purple or gray-blue colorGingival hyperplasia (subtype M4 and M5) Fever in AML patients is usually a sign of infection and requires immediate investigation! | ALLPainless lymphadenopathyConstitutional: fever, night sweats, unexplained weight lossBone painTesticular enlargement (rare finding)Airway obstruction (stridor, difficulty breathing) caused by mediastinal infiltration Meningeal leukemia (or leukemic meningitis) → headache, neck stiffness Fever and lymphadenopathy are rare in AML, but can be common first signs in ALL! |
-| Investigations | FBC: anaemia, thrombocytopenia, variable WBC (not a good diagnostic marker)Coags (INR, aPTT, FDP, fibrinogen): in DICRFTs/LFTsIncreased cell lysis: ↑LDH, ↑uric acidPeripheral blood smear: Auer rods (especially M3 subtype) are pinkish-red rod-shaped granular components within the cytoplasm that are pathognomonic for AMLBone marrow aspirate/biopsy (confirmatory)AML: &gt; 20% myeloblasts in the bone marrowALL: &gt; 25% lymphoblasts in the bone marrow Morphology: hypercellular and homogenous bone marrow; blasts are predominantImmunophenotypeALL: B-ALL is usually positive for CD10, 19, and 20; T-ALL is usually positive for CD2-5, 7 and 8AML: The majority of subtypes are positive for CD13, 33, 34, 117, and HLA-DRCerebrospinal fluid analysis: relevant for diagnosis and treatment of leukemic meningitisCXR: mediastinal widening in thymic infiltration or mediastinal lymphadenopathyAbdominal U/S: liver/spleen enlargement |
+| Investigations | FBC: anaemia, thrombocytopenia, variable WBC (not a good diagnostic marker)Coags (INR, aPTT, FDP, fibrinogen): in DICRFTs/LFTsIncreased cell lysis: ↑LDH, ↑uric acidPeripheral blood smear: Auer rods (especially M3 subtype) are pinkish-red rod-shaped granular components within the cytoplasm that are pathognomonic for AMLBone marrow aspirate/biopsy (confirmatory)AML: > 20% myeloblasts in the bone marrowALL: > 25% lymphoblasts in the bone marrow Morphology: hypercellular and homogenous bone marrow; blasts are predominantImmunophenotypeALL: B-ALL is usually positive for CD10, 19, and 20; T-ALL is usually positive for CD2-5, 7 and 8AML: The majority of subtypes are positive for CD13, 33, 34, 117, and HLA-DRCerebrospinal fluid analysis: relevant for diagnosis and treatment of leukemic meningitisCXR: mediastinal widening in thymic infiltration or mediastinal lymphadenopathyAbdominal U/S: liver/spleen enlargement |
 | Treatment | ALL and AML are treated primarily with chemotherapeutic agents, although transfusions, antibiotics, and colony-stimulating factors are also usedCHEMOTHERAPYInduction therapy (massive reduction of tumour cell count)Duration: 4–6 weeksEffective, but can cause severe side effectsConsolidation therapy  (destruction of remaining tumour cells and prevent recurrence)Duration: several monthsMedium dosesStem cell transplantation – autologous/allogeneic Maintenance therapy (maintaining remission)Duration: up to 24 monthsLow doses | Chemotherapeutic drugsALLInduction therapy: vincristine, glucocorticoids, asparaginaseIn Philadelphia chromosome mutation: BCR-ABL tyrosine kinase inhibitor (e.g., imatinib)AMLInduction therapy: cytarabine and anthracyclines (e.g., daunorubicin)Exception: AML M3 (promyelocytic leukemia) can be treated with vitamin A derivatives, such as ATRA (all-trans-retinoic acid)Preventive CNS treatment: Intrathecal chemotherapy is indicated for all acute leukemia patients to prevent meningeal leukemiaSUPPORTIVEGerm-free environment and hygieneScreening for infection regularlyPlatelet and RBC transfusions ± EPOPrevention and treatment of metabolic abnormalities: e.g. allopurinol to prevent hyperuricemia |
 | Complications | Tumour lysis syndrome |
 | Prognosis | ALL: The 5-year survival rate varies from 20% (elderly patients) to 80% (children and adolescents)AML: The overall 5-year survival rate of treated patients is on average 30% (varies with age) |
@@ -59,10 +59,10 @@ FOETAL ERYTHROPOIESIS
 | Epidemiology | Most common adult leukemiaM:F=2:1Mostly occur in older patients: median age 70 years old |
 | Risk factors | Advanced age, environmental factors (organic solvents), family history |
 | Rai staging system | Stage |  | Finding | Median survival |
-| 0 | Low risk | Isolated lymphocytosis | &gt; 150 months |
+| 0 | Low risk | Isolated lymphocytosis | > 150 months |
 | I | Intermediate risk | + lymphadenopathy | 101 months |
 | II | + hepatomegaly ± splenomegaly | 71 months |
-| III | High risk | + anaemia (Hb &lt; 11 g/dL) | 19 months |
+| III | High risk | + anaemia (Hb < 11 g/dL) | 19 months |
 | IV | + thombocytopenia | 19 months |
 
 **Pathophysiology**
@@ -89,7 +89,7 @@ Acquired mutations in hematopoietic stem cells **→ increased proliferation of 
 - Cytometry: B-CLL immunophenotype (CD19, CD20, CD23), light chain restriction (kappa or lambda)
 - Serum antibody electrophoresis: antibody deficiency (decreased γ globulin fraction)
 - Bone marrow aspiration (not necessary to confirm the diagnosis)
-- Lymphocytes &gt;30% of all nucleated cells
+- Lymphocytes >30% of all nucleated cells
 - Patterns: nodular (10%), interstitial (30%), diffuse (35%, worse prognosis), or mixed (25%)
 - Genetics: FISH analysis to detect mutations associated with CLL (e.g., del(17p13))
 - Ultrasound: hepato/spleno-megaly
@@ -101,17 +101,17 @@ Acquired mutations in hematopoietic stem cells **→ increased proliferation of 
 
 | Asymptomatic | Rai stage 0, slow disease progressionObserve and monitor |
 | --- | --- |
-| Symptomatic or advanced | Rai stage &gt; 0, accelerated disease progressionChemotherapyIf CD 20 positive: rituximab Targeted therapy with ibrutinib |
+| Symptomatic or advanced | Rai stage > 0, accelerated disease progressionChemotherapyIf CD 20 positive: rituximab Targeted therapy with ibrutinib |
 | Refractory CLL or early recurrence in fit, young patients | Allogeneic stem cell transplantation |
 
 TREATMENT REGIMENS
 
-&lt; 65–70 years
+< 65–70 years
 
 - FCR: fludarabine, cyclophosphamide, rituximab or alemtuzumab
 - Stem cell transplantation
 
-&gt; 65–70 years
+> 65–70 years
 
 - Chlorambucil + monoclonal antibody (e.g., rituximab)
 - Possibly a single agent: chlorambucil or rituximab
@@ -172,7 +172,7 @@ Poor prognostic factors: ↑ age, del(17p13) abnormality, β-2 microglobulin lev
 | --- | --- |
 | FACTOR V LEIDEN | Point mutation in the Factor V gene (R506Q) results in resistance to inactivation of Factor Va by activated protein C Most common cause of inherited hypercoagulability in CaucasiansComplications: DVT, cerebral vein, thromboses, recurrent pregnancy loss |
 | PROTEIN C OR S DEFICIENCY | Protein C inactivates Factor Va and VIIIa using protein S as a cofactorTogether, protein C cancels, and protein S stops, coagulation ↑ risk of thrombotic skin necrosis with haemorrhage after administration of warfarin |
-| ANTIPHOSPHOLIPID ANTIBODY SYNDROME | Definition: ≥1 clinical and ≥1 laboratory criteriaClinical: thrombosis, recurrent (&gt;3) early pregnancy losses &lt;10 weeks, one late foetal loss ≥10 weeks (morphologically normal), or premature birth before 34 weeks due to (pre)eclampsia or placental insufficiencyLaboratory (confirmed on two occasions, tested ≥12 weeks apart): anticardiolipin antibodies, anti-β2 glycoprotein-I antibody, lupus anticoagulantMechanism: not well understood, antibodies interact with platelet membrane phospholipid causing increased activation; can also interfere with thrombin regulation, fibrinolysis, and inhibit the protein C pathway |
+| ANTIPHOSPHOLIPID ANTIBODY SYNDROME | Definition: ≥1 clinical and ≥1 laboratory criteriaClinical: thrombosis, recurrent (>3) early pregnancy losses <10 weeks, one late foetal loss ≥10 weeks (morphologically normal), or premature birth before 34 weeks due to (pre)eclampsia or placental insufficiencyLaboratory (confirmed on two occasions, tested ≥12 weeks apart): anticardiolipin antibodies, anti-β2 glycoprotein-I antibody, lupus anticoagulantMechanism: not well understood, antibodies interact with platelet membrane phospholipid causing increased activation; can also interfere with thrombin regulation, fibrinolysis, and inhibit the protein C pathway |
 | PROTHROMBIN GENE MUTATION | Mutation in 3′ untranslated region → ↑ prothrombin → ↑plasma levels and venous clots |
 
 causes of thrombocytopenia
@@ -181,13 +181,13 @@ causes of thrombocytopenia
 
 Neutropenia
 
-**An absolute neutrophil count (ANC) &lt; 1500/mm3**, where ANC = (WBC count) × (% bands + % segmented neutrophils)
+**An absolute neutrophil count (ANC) < 1500/mm3**, where ANC = (WBC count) × (% bands + % segmented neutrophils)
 
 ![](notes/images/haematology-anu/img029.jpg)
 
 Eosinophilia
 
-- DEFINITION: an absolute eosinophil count &gt; 350/mm
+- DEFINITION: an absolute eosinophil count > 350/mm
 - PATHOPHYSIOLOGY: eosinophilia can be triggered by the overproduction of cytokines (IL-3, IL-5, and GM-CSF) or by chemokines that stimulate the migration of eosinophils into peripheral blood and tissues
 - EOSINOPHILIA MAY BE A:
 - 1°: clonal bone marrow disorder
@@ -240,7 +240,7 @@ pharmacology
 
 - DEFINITION: A group of conditions characterized by an increase in premature leukocytes that are subsequently released into the bloodstream
 - TYPES: acute myeloid leukemia (AML), acute lymphocytic leukemia (ALL), chronic myeloid leukemia (CML), chronic lymphocytic leukemia (CLL)
-- LIKELY DIAGNOSIS BASED ON AGE AT PRESENTATION: ALL: &lt; 13 years (but can present in any age group); AML: 13–40 years (but can present in any age group); CML: 40–60 years; CLL: &gt; 60 years
+- LIKELY DIAGNOSIS BASED ON AGE AT PRESENTATION: ALL: < 13 years (but can present in any age group); AML: 13–40 years (but can present in any age group); CML: 40–60 years; CLL: > 60 years
 - PATHOPHYSIOLOGY: Unregulated WBC growth/differentiation in bone marrow → marrow failure → anaemia, infections (↓ mature WBC), and haemorrhage (↓ platelets). Usually with ↑ circulating WBCs (malignant leukocytes in blood); rare cases present with normal/↓ WBCs. Leukemic  infiltration of liver, spleen, lymph nodes, and skin (leukemia cutis) possible
 
 
@@ -251,12 +251,12 @@ pharmacology
 
 | DEFINITION | Clonal disorders of early haematopoietic stem calls characterised by the proliferation of immature, non-functional cells in the bone marrow that are subsequently released into the blood stream |
 | --- | --- |
-| EPIDEMIOLOGY | ACUTE LYMPHOBLASTIC LEUKEMIAPeak incidence: 2–5 years with M&gt;F80% of acute leukemias during childhood are lymphocytic | ACUTE MYELOID LEUKEMIAPeak incidence: 65 years80% of acute leukemias during adulthood are myelogenous |
+| EPIDEMIOLOGY | ACUTE LYMPHOBLASTIC LEUKEMIAPeak incidence: 2–5 years with M>F80% of acute leukemias during childhood are lymphocytic | ACUTE MYELOID LEUKEMIAPeak incidence: 65 years80% of acute leukemias during adulthood are myelogenous |
 | AETIOLOGY | ACUTE LYMPHOBLASTIC LEUKEMIA (ALL)Mostly unknown aetiologyAdult T-cell leukemia/lymphoma is linked to infection with HTL viruses (human T-lymphotropic virus)Genetic: Down syndrome, Neurofibromatosis type 1, Ataxia telangiectasia | ACUTE MYELOID LEUKEMIA (AML)Environmental: benzene, radiation, tobacco, chemotherapyGenetic: Down syndrome, Philadelphia translocation, t15:17 translocation, Fanconi anemiaMyeloproliferative and myelodysplastic disorders: myelodysplastic diseases, osteomyelofibrosis, chronic myelogenous leukemia |
 | CLASSIFICATION | ALLWHO classification relies on cytogenetic criteria to determine the immunophenotype of the leukemic cells. This includes their origin (B or T cell) and maturity:B-cell ALL (around 80–85% of cases)T-cell ALL (around 15–20% of cases) | AMLWHO classification is based on factors e.g. genetic abnormalities, prior chemotherapy/radiationFAB Classification according to 8 subtypes of AMLM0: minimally differentiatedM1: without maturationM2: with granulocytic maturationM3: acute promyelocytic leukemia (APL)M4: acute myelomonocytic leukemiaM5: acute monocytic leukemiaM6: acute erythroid leukemiasM7: acute megakaryoblastic leukemia |
 | PATHOPHYSIOLOGY | TWO-HIT HYPOTHESIS: Leukemia is the result of two separate genetic mutations:The first causes clonal proliferation of a lymphoid or myeloid stem cellThe second impairs its normal hematopoietic differentiation As a result, the bone marrow is filled with numerous immature, non-functional cells that eventually impair normal haematopoiesis and cause the following abnormalities:Leukopenia (↑ risk of infections)Thrombocytopenia (↑ bleeding)AnaemiaAccumulation of blasts in other organs e.g. skin, gums, liver, spleenMetabolic consequences: tumour lysis syndrome |
 | PRESENTATION | SYMPTOMS OCCURRING IN BOTH AML AND ALLAnaemia: fatigue, pallor, and weaknessBleeding (petechiae, epistaxis, or hematoma, caused by thrombocytopenia)Hepatomegaly and/or splenomegaly (caused by leukemic infiltration)CNS involvement: headache, visual field changesFeverAMLLeukemia cutis (or myeloid sarcoma): nodular skin lesions with a purple or gray-blue colorGingival hyperplasia (subtype M4 and M5) Fever in AML patients is usually a sign of infection and requires immediate investigation! | ALLPainless lymphadenopathyConstitutional: fever, night sweats, unexplained weight lossBone painTesticular enlargement (rare finding)Airway obstruction (stridor, difficulty breathing) caused by mediastinal infiltration Meningeal leukemia (or leukemic meningitis) → headache, neck stiffness Fever and lymphadenopathy are rare in AML, but can be common first signs in ALL! |
-| INVESTIGATIONS | FBC: anaemia, thrombocytopenia, variable WBC (not a good diagnostic marker)Coags (INR, aPTT, FDP, fibrinogen): in DICRFTs/LFTsIncreased cell lysis: ↑LDH, ↑uric acidPeripheral blood smear: Auer rods (especially M3 subtype) are pinkish-red rod-shaped granular components within the cytoplasm that are pathognomonic for AMLBone marrow aspirate/biopsy (confirmatory)AML: &gt; 20% myeloblasts in the bone marrowALL: &gt; 25% lymphoblasts in the bone marrow Morphology: hypercellular and homogenous bone marrow; blasts are predominantImmunophenotypeALL: B-ALL is usually positive for CD10, 19, and 20; T-ALL is usually positive for CD2-5, 7 and 8AML: The majority of subtypes are positive for CD13, 33, 34, 117, and HLA-DRCerebrospinal fluid analysis: relevant for diagnosis and treatment of leukemic meningitisCXR: mediastinal widening in thymic infiltration or mediastinal lymphadenopathyAbdominal U/S: liver/spleen enlargement |
+| INVESTIGATIONS | FBC: anaemia, thrombocytopenia, variable WBC (not a good diagnostic marker)Coags (INR, aPTT, FDP, fibrinogen): in DICRFTs/LFTsIncreased cell lysis: ↑LDH, ↑uric acidPeripheral blood smear: Auer rods (especially M3 subtype) are pinkish-red rod-shaped granular components within the cytoplasm that are pathognomonic for AMLBone marrow aspirate/biopsy (confirmatory)AML: > 20% myeloblasts in the bone marrowALL: > 25% lymphoblasts in the bone marrow Morphology: hypercellular and homogenous bone marrow; blasts are predominantImmunophenotypeALL: B-ALL is usually positive for CD10, 19, and 20; T-ALL is usually positive for CD2-5, 7 and 8AML: The majority of subtypes are positive for CD13, 33, 34, 117, and HLA-DRCerebrospinal fluid analysis: relevant for diagnosis and treatment of leukemic meningitisCXR: mediastinal widening in thymic infiltration or mediastinal lymphadenopathyAbdominal U/S: liver/spleen enlargement |
 | TREATMENT | ALL and AML are treated primarily with chemotherapeutic agents, although transfusions, antibiotics, and colony-stimulating factors are also usedCHEMOTHERAPYInduction therapy (massive reduction of tumour cell count)Duration: 4–6 weeksEffective, but can cause severe side effectsConsolidation therapy  (destruction of remaining tumour cells and prevent recurrence)Duration: several monthsMedium dosesStem cell transplantation – autologous/allogeneic Maintenance therapy (maintaining remission)Duration: up to 24 monthsLow doses | Chemotherapeutic drugsALLInduction therapy: vincristine, glucocorticoids, asparaginaseIn Philadelphia chromosome mutation: BCR-ABL tyrosine kinase inhibitor (e.g., imatinib)AMLInduction therapy: cytarabine and anthracyclines (e.g., daunorubicin)Exception: AML M3 (promyelocytic leukemia) can be treated with vitamin A derivatives, such as ATRA (all-trans-retinoic acid)Preventive CNS treatment: Intrathecal chemotherapy is indicated for all acute leukemia patients to prevent meningeal leukemiaSUPPORTIVEGerm-free environment and hygieneScreening for infection regularlyPlatelet and RBC transfusions ± EPOPrevention and treatment of metabolic abnormalities: e.g. allopurinol to prevent hyperuricemia |
 | COMPLICATIONS | Tumour lysis syndrome |
 | PROGNOSIS | ALL: The 5-year survival rate varies from 20% (elderly patients) to 80% (children and adolescents)AML: The overall 5-year survival rate of treated patients is on average 30% (varies with age) |
@@ -272,10 +272,10 @@ pharmacology
 | EPIDEMIOLOGY | Most common adult leukemiaM:F=2:1Mostly occur in older patients: median age 70 years old |
 | RISK FACTORS | Advanced age, environmental factors (organic solvents), family history |
 | RAI STAGING SYSTEM | Stage |  | Finding | Median survival |
-| 0 | Low risk | Isolated lymphocytosis | &gt; 150 months |
+| 0 | Low risk | Isolated lymphocytosis | > 150 months |
 | I | Intermediate risk | + lymphadenopathy | 101 months |
 | II | + hepatomegaly ± splenomegaly | 71 months |
-| III | High risk | + anaemia (Hb &lt; 11 g/dL) | 19 months |
+| III | High risk | + anaemia (Hb < 11 g/dL) | 19 months |
 | IV | + thombocytopenia | 19 months |
 
 PATHOPHYSIOLOGY
@@ -302,7 +302,7 @@ INVESTIGATIONS:
 - Cytometry: B-CLL immunophenotype (CD19, CD20, CD23), light chain restriction (kappa or lambda)
 - Serum antibody electrophoresis: antibody deficiency (decreased γ globulin fraction)
 - Bone marrow aspiration (not necessary to confirm the diagnosis)
-- Lymphocytes &gt;30% of all nucleated cells
+- Lymphocytes >30% of all nucleated cells
 - Patterns: nodular (10%), interstitial (30%), diffuse (35%, worse prognosis), or mixed (25%)
 - Genetics: FISH analysis to detect mutations associated with CLL (e.g., del(17p13))
 - Ultrasound: hepato/spleno-megaly
@@ -314,17 +314,17 @@ TREATMENT
 
 | Asymptomatic | Rai stage 0, slow disease progressionObserve and monitor |
 | --- | --- |
-| Symptomatic or advanced | Rai stage &gt; 0, accelerated disease progressionChemotherapyIf CD 20 positive: rituximab Targeted therapy with ibrutinib |
+| Symptomatic or advanced | Rai stage > 0, accelerated disease progressionChemotherapyIf CD 20 positive: rituximab Targeted therapy with ibrutinib |
 | Refractory CLL or early recurrence in fit, young patients | Allogeneic stem cell transplantation |
 
 TREATMENT REGIMENS
 
-&lt; 65–70 years
+< 65–70 years
 
 - FCR: fludarabine, cyclophosphamide, rituximab or alemtuzumab
 - Stem cell transplantation
 
-&gt; 65–70 years
+> 65–70 years
 
 - Chlorambucil + monoclonal antibody (e.g., rituximab)
 - Possibly a single agent: chlorambucil or rituximab
@@ -352,14 +352,14 @@ Poor prognostic factors: ↑ age, del(17p13) abnormality, β-2 microglobulin lev
 
 - TYPES
 - Primary: glial vs. non-glial (developed on/in the structures of brain including nerves, blood vessels and glands)
-- Metastatic (70%): arise from primary sources (lung &gt; breast &gt; kidney &gt; GI &gt; melanoma)
+- Metastatic (70%): arise from primary sources (lung > breast > kidney > GI > melanoma)
 - Main types to know
 - Pituitary: craniopharyngioma, prolactinoma, acromegaly
 - Posterior fossa (P for paeds): medulloblastoma, ependymoma (both present withhydrocephalus)
 - Anterior fossa (A for adults): meningioma, glioblastoma
 - Astrocytoma: most common primary intra-axial brain tumour
 - PRESENTATION: commonly focal neurological deficits and seizures, headaches worse in AM, progressive N/V
-- INVESTIGATIONS: MRI w contrast &gt; CT w contrast, stereotactic biopsy (tissue diagnosis), metastatic work-up, tumour markers (i.e. germ cell)
+- INVESTIGATIONS: MRI w contrast > CT w contrast, stereotactic biopsy (tissue diagnosis), metastatic work-up, tumour markers (i.e. germ cell)
 - TREATMENT
 - Conservative: serial history, physical exam and imaging for slow growing/benign lesions
 - Medical: corticosteroids (e.g. dexamethasone, palliative, ↓ cerebral oedema), seizure prophylaxis (e.g. phenytoin), pharmacologic (i.e. pituitary adenoma)
@@ -375,7 +375,7 @@ Poor prognostic factors: ↑ age, del(17p13) abnormality, β-2 microglobulin lev
 
 | DEFINITION | Metaplastic columnar epithelium replaces the stratified squamous epithelium that normally lines the distal esophagus (intestinal metaplasia) |
 | --- | --- |
-| EPIDEMIOLOGY | &gt; 50 y/o, M&gt;F, Caucasians, smokers, overweight, hiatus hernia, reflux Sx |
+| EPIDEMIOLOGY | > 50 y/o, M>F, Caucasians, smokers, overweight, hiatus hernia, reflux Sx |
 | AETIOLOGY | Long-standing GORD (gastric acid secretion + reflux) |
 | PATHOPHYSIOLOGY | Endoscopy shows erythematous epithelium in distal oesophagus, need biopsy for diagnosisPre-malignant changes categorized as low/high-grade dysplasia 🡪 can progress to adenocarcinoma |
 | TREATMENT | Acid suppression (high-dose PPI/surgical fundoplication)Endoscopy every 3 years if no dysplasiaRegular surveillance + biopsyEndoscopic ablation/resection or oesophagectomy |
@@ -415,7 +415,7 @@ Poor prognostic factors: ↑ age, del(17p13) abnormality, β-2 microglobulin lev
 | --- | --- |
 | EPIDEMIOLOGY | Peak incidence ~ 35-60 years old |
 | AETIOLOGY | Most cases occur sporadicallySome cases (~5%) have genetic association with MEN 1 |
-| PATHOLOGY | Pathology: usually clonal in origin, with a single cell having altered growth control and feedback regulation, leading to development of the adenomaType of tumour according to size:Microadenoma: ≤ 10 mm; have no mass effect and have very little risk of growth, and usually occur physiologically as a result of pregnancyMacroadenoma: &gt; 10 mm; cause mass effects (dural sac, optic chiasm, cranial nerves III/IV/V/VI)Functional adenoma: secretory pituitary adenomas (60%) → hyperpituitarismMost secrete one pituitary hormone.The presence of multiple pituitary hormones should also raise the suspicion of atypical pituitary adenomas or pituitary carcinomasType | Frequency | Pathophysiology |
+| PATHOLOGY | Pathology: usually clonal in origin, with a single cell having altered growth control and feedback regulation, leading to development of the adenomaType of tumour according to size:Microadenoma: ≤ 10 mm; have no mass effect and have very little risk of growth, and usually occur physiologically as a result of pregnancyMacroadenoma: > 10 mm; cause mass effects (dural sac, optic chiasm, cranial nerves III/IV/V/VI)Functional adenoma: secretory pituitary adenomas (60%) → hyperpituitarismMost secrete one pituitary hormone.The presence of multiple pituitary hormones should also raise the suspicion of atypical pituitary adenomas or pituitary carcinomasType | Frequency | Pathophysiology |
 | Lactotroph adenoma (prolactinoma) | ~40% | Hyperprolactinemia |
 | Somatroph adenoma | ~15% | ↑Growth hormone → acromegaly/gigantism |
 | Corticotroph adenoma (Cushing’s Disease) | ~5% | ↑ACTH → secondary hypercortisolism |

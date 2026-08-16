@@ -299,19 +299,19 @@ EFNS/PNS and ABN guidance on **GBS** and **CIDP** — IVIg versus plasma exchang
 
 | DISEASE | SENSORY | MOTOR | AUTONOMIC | FIBER SIZE | COMMON CLINICAL PRESENTATION |
 | --- | --- | --- | --- | --- | --- |
-| Diabetes | +++ | ± | ++ | S &gt; L | Burning starting in feet; ‘glove and stocking’ |
-| Alcohol | +++ | ± | ++ | S &gt; L | Burning in feetOften cerebellar, ocular or cognitive features |
+| Diabetes | +++ | ± | ++ | S > L | Burning starting in feet; ‘glove and stocking’ |
+| Alcohol | +++ | ± | ++ | S > L | Burning in feetOften cerebellar, ocular or cognitive features |
 |  |  |  |  |  |
 | Critical illness | ++ |  | ++ | Mixed | Weakness, difficulty weaning from ventilator |
-| Vitamin B 12 | +++ | − | − | L &gt; S | Sensory ataxia, often dorsal column signs |
-| Uremia | +++ | ± | + | S &gt; L | Glove and stocking |
+| Vitamin B 12 | +++ | − | − | L > S | Sensory ataxia, often dorsal column signs |
+| Uremia | +++ | ± | + | S > L | Glove and stocking |
 | Malignancy | +++ | ++ | ± | Variable | Variable, may have other neurological features, may have cachexia and muscle weakness |
-| Liver failure | +++ | + | ± | S &gt; L | Glove and stocking |
+| Liver failure | +++ | + | ± | S > L | Glove and stocking |
 | Anti-MAG | ++ | ++ | − | Both | Slowly progressive glove and stocking |
-| MGUS | ++ | ++ | + | S &gt; L | Glove and stocking |
+| MGUS | ++ | ++ | + | S > L | Glove and stocking |
 | POEMS | ++ | ++ | + | Both | Progressive sensorimotor involvement with other features of myeloma |
-| Amyloidosis | ++ | ± | +++ | S &gt; L | Painful neuropathy with autonomic dysfunction |
-| Chemotherapy | +++ | + | ± | L&gt;S | Glove and stocking pattern—may be rapidly progressive with repeat exposure |
+| Amyloidosis | ++ | ± | +++ | S > L | Painful neuropathy with autonomic dysfunction |
+| Chemotherapy | +++ | + | ± | L>S | Glove and stocking pattern—may be rapidly progressive with repeat exposure |
 | HIV | +++ | + | ± | Both | Progressive glove and stocking |
 | Hereditary (multiple) | Variable | Variable | Variable | Variable | Typically do not have dysesthesia or pain (may be present late) |
 
@@ -348,7 +348,7 @@ EFNS/PNS and ABN guidance on **GBS** and **CIDP** — IVIg versus plasma exchang
 | Aetiology | Autoimmune, preceded by infection (URTI and gastroenteritis, most commonly C.jejuni, CMV, EBV) |
 | Variants | ACUTE INFLAMMATORY DEMYELINATING POLYNEUROPATHY (AIDP)Autoimmune disorder that destroys Schwann cells, impacting on nerve conductionProgressive, fairly symmetric muscle weakness and absent/depressed tendon reflexesLower extremities before upper extremities + proximal muscles before distal musclesACUTE MOTOR AXONAL NEUROPATHY (AMAN)Preceded by Campylobacter jejuni infectionOccurs frequently in Japan and China, particularly in young peopleSelective involvement of motor nervesACUTE MOTOR AND SENSORY AXONAL NEUROPATHY (AMSAN)Severe form with marked axonal degenerationAffects both motor and sensory fibresOTHERSMiller Fisher syndrome: ophthalmoplegia + ataxia + areflexiaBickerstaff encephalitis:  encephalopathy + hyperreflexia +/- Miller FisherPharyngeal-cervical-brachial weakness: weakness of oropharyngeal, neck and shoulder muscles with swallowing dysfunctionParaparesis |
 | Pathology | Many infectious agents induce antibody production that cross-react with specific antigens that are distributed throughout the myelin in the PNSLymphocytic infiltration of spinal roots and peripheral nerves followed by macrophage- mediated, multifocal stripping of myelin 🡪  defects in propagation of electrical nerve impulses, with eventual absence/delay in conduction 🡪 flaccid paralysis Recovery is typically associated with re-myelination |
-| Presentation | RANGE: very acute and symmetrical to exceedingly slow and asymmetricalCommonly follow an acute gastrointestinal or respiratory tract infectionASCENDING BILATERAL MOTOR WEAKNESS: ↓ reflexes, dyspnoea, dysarthria, dysphagia, facial + respiratory weaknessPERIPHERAL SENSORY IMPAIRMENT: paraesthesia in hands and feet, pain very common (&gt;50% of time; variable in site and extent) DYSAUTONOMIA: constipation, urinary retention, postural hypotension, tachycardia |
+| Presentation | RANGE: very acute and symmetrical to exceedingly slow and asymmetricalCommonly follow an acute gastrointestinal or respiratory tract infectionASCENDING BILATERAL MOTOR WEAKNESS: ↓ reflexes, dyspnoea, dysarthria, dysphagia, facial + respiratory weaknessPERIPHERAL SENSORY IMPAIRMENT: paraesthesia in hands and feet, pain very common (>50% of time; variable in site and extent) DYSAUTONOMIA: constipation, urinary retention, postural hypotension, tachycardia |
 | Investigations | Diagnosis predominantly clinicalLP: cytoalbumin dissociation, ↑CSF protein without ↑ WCC (inflammation of nerve roots); in 80-90% of patients at one weekNCS/EMG: axonal vs demyelinating; serial EMG helpful as conduction abnormalities progress ANTIBODIES: serum IgG antibodies to GQ1b (Miller-Fisher; 85-90% sensitivity and also in Bickerstaff encephalitis + pharyngeal-cervical brachial variant)DIAGNOSTIC CRITERIA: ![](notes/images/neurology-anu/img036.jpg) |
 | Management | IVIg or plasmapheresis, ± pain management, monitor vitals (supportive Tx: fluids, analgesia, respiration) |
 | Prognosis | Good- 85% make full functional recovery within 6-12 monthsDeath is commonly due to acute respiratory failure |

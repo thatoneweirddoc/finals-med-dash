@@ -143,7 +143,7 @@ Greenspan's *Basic & Clinical Endocrinology* (dynamic function testing); Endocri
 | DEFINITION | Chronic, progressive multi-system disease due to excessive amounts of growth hormonesBenign pituitary adenomas lead to an excess secretion of growth hormone (GH) and insulin-like growth factor 1 (IGF-1) |
 | --- | --- |
 | EPIDEMIOLOGY | Often occurs in middle-aged men or womenEqual distribution between the sexes |
-| AETIOLOGY | Benign growth hormone-secreting pituitary adenoma (&gt; 95% of cases)Very rare: neuroendocrine or hypothalamic tumours, paraneoplastic syndromes |
+| AETIOLOGY | Benign growth hormone-secreting pituitary adenoma (> 95% of cases)Very rare: neuroendocrine or hypothalamic tumours, paraneoplastic syndromes |
 | PATHOGENESIS | Physiology of GH and IGF-1: hypothalamus secretes GHRH → ↑ secretion of GH  → GH induces IGF-1 synthesis → ↑ serum IGF-1 :Binds to IGF-1/insulin receptors → cell growth and proliferation, inhibits programmed cell deathProliferative effects on bone, cartilage, skeletal muscle, skin, soft tissue, and organsPathological glucose tolerance caused by binding to insulin receptorsSecretion of somatostatin from the hypothalamus → ↓ serum GH and IGF-1 (negative feedback)Effects of a pituitary adenomaOverproduction of GH → abnormally high serum IGF-1 levels → overstimulation of cell growth and proliferation → symptoms of acromegalyTumour mass compresses neighbouring structures (e.g., optic nerve) → symptoms of mass effectImpaired secretion of other pituitary hormones possible, especially gonadotropins → ↓ LH and FSH → ↓ oestrogen and testosteroneExcess GH secretion before the conclusion of longitudinal growth (i.e., prior to epiphyseal plate closure) leads to pituitary gigantism with a possible height of ≥2 m. After epiphyseal plate closure, GH excess causes acromegaly, but no change in height! |
 | PRESENTATION | Risk Factors: MEN-1Arthralgia, arthritisBlood pressure raisedCarpal tunnel syndrome, colonic polyps, cardiovascular disease (HTN, LVH, cardiomyopathy)Diabetes mellitus Enlarged organs (kidney, thyroid), enlargement of hands and feet, coarsening of facial features, thickening of calvarium, enlarges nose/forehead/jaw (macrognathia)Visual field defect (mass effects → bitemporal hemianopsia), headachesGonad Females (oligomenorrhoea, amenorrhoea, galactorrhoea, vaginal atrophy)Male (erectile dysfunction, decreased libido, ↓ testicular volume) |
 | INVESTIGATIONS | ![](notes/images/endocrinology-anu/img020.jpg) |
@@ -178,7 +178,7 @@ Greenspan's *Basic & Clinical Endocrinology* (dynamic function testing); Endocri
 
 **How: **patient is given a prescription for 1 mg of dexamethasone and instructed to take it between 11 pm and 12 am. The next morning, a serum cortisol is obtained btw 8 - 9am.
 
-**Result: **Cortisol should be &lt;50 nmol/L because dexamethasone should result in suppression of the hypothalamic-pituitary-adrenal axis in normal persons and a fall in plasma and urinary cortisol levels. Failure to suppress cortisol levels following low-dose dexamethasone administration is indicative of Cushing syndrome as lowest levels of cortisol occur at night
+**Result: **Cortisol should be <50 nmol/L because dexamethasone should result in suppression of the hypothalamic-pituitary-adrenal axis in normal persons and a fall in plasma and urinary cortisol levels. Failure to suppress cortisol levels following low-dose dexamethasone administration is indicative of Cushing syndrome as lowest levels of cortisol occur at night
 
 **Cons: **10 - 15% are false negatives. Also dexamethasone is primarily metabolized by the cytochrome P-450 (CYP) system; several drugs, such as phenobarbital, carbamazepine (Tegretol), and rifampicin (Rifadin), that induce the activity of CYP3A4 can lead to false-positive tests. OCP also interfere with serum cortisol levels owing to an increase in corticosteroid-binding globulin and by increasing dexamethasone metabolism. Obesity, chronic illness, chronic alcoholism and depression can cause false-positive results.
 
@@ -210,11 +210,11 @@ If the process is ACTH dependent, a high-dose dexamethasone suppression test com
 
 #### INFERIOR PETROSAL VENOUS SAMPLING
 
-pituitary MRI with gadolinium enhancement is insufficiently sensitive to detect small (&lt;2 mm) pituitaryACTH-secreting adenomas
+pituitary MRI with gadolinium enhancement is insufficiently sensitive to detect small (<2 mm) pituitaryACTH-secreting adenomas
 
 so, bilateral inferior petrosal sinus ACTH sampling before and after CRH administration may be required to distinguish these lesions from ectopic ACTH-secreting tumors that may have similar clinical and biochemical characteristics.
 
-An increased ratio (&gt;2) of inferior petrosal:peripheral vein ACTH confirms pituitary Cushing's syndrome
+An increased ratio (>2) of inferior petrosal:peripheral vein ACTH confirms pituitary Cushing's syndrome
 
 Cons: procedure should not be performed in patients with hypertension or in the presence of a well-visualized pituitary adenoma on MRI
 

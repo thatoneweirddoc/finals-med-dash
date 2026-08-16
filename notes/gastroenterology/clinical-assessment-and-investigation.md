@@ -146,11 +146,11 @@ NICE NG12 (suspected cancer referral / ALARM features) and CG184 (dyspepsia); Ku
 - Alcoholic cirrhosis (irreversible): hepatic cell death, inflammation, nodular regeneration, scarring/fibrosis; deranged vascular perfusion,  ↓ function of new hepatocytes, green tint from bile stasis
 - HISTORY: RUQ abdominal discomfort, weight loss (malnutrition), weight gain (ascites)
 - ABDOMINAL EXAM reveals stigmata of chronic liver disease: finger clubbing, palmar erythaema, Dupuytren’s contracture, asterixis, signs of jaundice, venous collaterals, spider naevi, gynaecomastia, ascites and pitting oedema, hepatomegaly for fatty liver and hepatitis, but liver size is decreased with cirrhosis
-- INVESTIGATIONS: CAGE, LFT (AST:ALT &gt; 2:1, ↑GGT, ↑bilirubin, ↓albumin), FBC (↓Hb, ↑MCV, ↑WBC), U/S  for cirrhosis, CT for hepatosplenomegaly/varices/nodular texture/ascites, liver biopsy (swollen hepatocytes, Mallory bodies, neutrophils, fibrosis in speace of Disse), Hepatitis serology (Hep B surface antigen, anti-Hep B IgG, Hep X antibodies), fluid/stool chart, serial weights (ascites), copper studies (wilson’s), iron studies (haemochromatosis), INR to assess function
+- INVESTIGATIONS: CAGE, LFT (AST:ALT > 2:1, ↑GGT, ↑bilirubin, ↓albumin), FBC (↓Hb, ↑MCV, ↑WBC), U/S  for cirrhosis, CT for hepatosplenomegaly/varices/nodular texture/ascites, liver biopsy (swollen hepatocytes, Mallory bodies, neutrophils, fibrosis in speace of Disse), Hepatitis serology (Hep B surface antigen, anti-Hep B IgG, Hep X antibodies), fluid/stool chart, serial weights (ascites), copper studies (wilson’s), iron studies (haemochromatosis), INR to assess function
 - DIFFERENTIAL DIAGNOSES: viral hepatitis, autoimmune hepatitis, haemochromatosis, biliary obstruction, cholecystitis
 - TREATMENT AND MANAGEMENT
 
-- Alcohol cessation –naltrexone for addiction, Valium for withdrawal, rehab, AA, Drug &amp; EtOH referral, counselling
+- Alcohol cessation –naltrexone for addiction, Valium for withdrawal, rehab, AA, Drug & EtOH referral, counselling
 - Nutritional support –dietician referral, thiamine, B12, folate, correct electrolyte and glucose abnormalities
 - Weight reduction; smoking cessation
 - Cease drugs metabolised by liver and

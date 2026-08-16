@@ -1,7 +1,7 @@
 ---
 title: "Endocrine Physiology"
 system: "Endocrine"
-sources: [Adrenal Summary — 24-hour urinary–free cortisol testing (&gt;95%), Adrenal Summary — ADRENOCORTICOID HORMONES, Endocrine Master Notes, Endocrinology (ANU) — glucocorticoid excess, Thyroid & Parathyroid Summary — Iodination of tyrosine (organification), Thyroid & Parathyroid Summary — Nuclear scan with technetium (99mTc), Thyroid & Parathyroid Summary — regulating cellular metabolic function (incl catecholamine effects), Thyroid & Parathyroid Summary — via the HPT axis]
+sources: [Adrenal Summary — 24-hour urinary–free cortisol testing (>95%), Adrenal Summary — ADRENOCORTICOID HORMONES, Endocrine Master Notes, Endocrinology (ANU) — glucocorticoid excess, Thyroid & Parathyroid Summary — Iodination of tyrosine (organification), Thyroid & Parathyroid Summary — Nuclear scan with technetium (99mTc), Thyroid & Parathyroid Summary — regulating cellular metabolic function (incl catecholamine effects), Thyroid & Parathyroid Summary — via the HPT axis]
 tags: [Endocrine, ACTH, GH, PTH]
 updated: "2026-08-14"
 ---
@@ -131,7 +131,7 @@ Guyton & Hall *Textbook of Medical Physiology* (endocrinology chapters); Greensp
 | EndocrineWeight gain characterized by central obesity, moon facies, and a buffalo hump - relocation of fat from periphery to centreFemales: decreased libido, virilization, and/or irregular menstrual cycles through inhibition of GnRHInsulin resistance Dyslipidaemia |
 | Neuropsychological: Lethargy, depression, sleep disturbance, psychosis |
 | Other: Secondary hypertension (90% of cases) - mineralocorticoid effect, enhanced sympatheticInfectionsPeptic ulcer diseaseCataracts |
-| INVESTIGATIONS | ![](notes/images/endocrinology-anu/img024.jpg) Bloods: hyperNa+, hypoK+, metabolic alkalosis, hyperglycaemia, hyperlipidaemia (cholesterol and triglycerides), leukocytosis (predominantly neutrophilic), eosinopenia, thrombocytosisScreening Diagnostic tests24-hour urine cortisol - ↑cortisolLow-dose dexamethasone suppression test  - late night dexamethasone (suppresses ACTH) followed by morning serum cortisol level (still elevated)↑ midnight salivary cortisol↑ midnight serum cortisolIdentifying Primary versus SecondarySerum ACTH levelsIf low - suspect primary (adrenal adenoma - then do CT/MRI abdomenIf high suspect secondary and now must differentiate between Ectopic/Cushing's DiseaseHigh-dose dexamethasone suppression test Suppression (to &gt;50%) = Cushing's Disease (higher doses DO have the ability to suppress the adenoma)Nil suppression - ectopic ACTH production  CRH Stimulation test ACTH and cortisol levels increase further: Cushing's diseaseNo increase in ACTH or cortisol levels: ectopic ACTH production |
+| INVESTIGATIONS | ![](notes/images/endocrinology-anu/img024.jpg) Bloods: hyperNa+, hypoK+, metabolic alkalosis, hyperglycaemia, hyperlipidaemia (cholesterol and triglycerides), leukocytosis (predominantly neutrophilic), eosinopenia, thrombocytosisScreening Diagnostic tests24-hour urine cortisol - ↑cortisolLow-dose dexamethasone suppression test  - late night dexamethasone (suppresses ACTH) followed by morning serum cortisol level (still elevated)↑ midnight salivary cortisol↑ midnight serum cortisolIdentifying Primary versus SecondarySerum ACTH levelsIf low - suspect primary (adrenal adenoma - then do CT/MRI abdomenIf high suspect secondary and now must differentiate between Ectopic/Cushing's DiseaseHigh-dose dexamethasone suppression test Suppression (to >50%) = Cushing's Disease (higher doses DO have the ability to suppress the adenoma)Nil suppression - ectopic ACTH production  CRH Stimulation test ACTH and cortisol levels increase further: Cushing's diseaseNo increase in ACTH or cortisol levels: ectopic ACTH production |
 | MANAGEMENT | EXOGENOUS Cushing's syndromeConsider lowering the dose of glucocorticoidsConsider the use of alternatives to glucocorticoids (e.g. azathioprine)ENDOGENOUS Cushing's syndromeSurgery (if operable disease)Pituitary adenoma: transsphenoidal resection of the pituitary adenoma ACTH-secreting ectopic tumour: resection of the ectopic foci (e.g. bronchial carcinoid)Inoperable disease: adrenocortical tumour (laparoscopic or open adrenalectomy)Drugs to suppress cortisol synthesis: metyrapone, mitotane, ketoconazole |
 | COMPLICATIONS | Cardiovascular disease, hypertension, diabetes mellitus, osteoporosis, nephrolithiasis |
 
@@ -164,7 +164,7 @@ cholesterol in the cell is delivered to the mitochondria 🡪 cleaved by cholest
 ---
 
 
-### Adrenal Summary — 24-hour urinary–free cortisol testing (&gt;95%) — Endocrine Physiology
+### Adrenal Summary — 24-hour urinary–free cortisol testing (>95%) — Endocrine Physiology
 
 precise and cost-effective
 

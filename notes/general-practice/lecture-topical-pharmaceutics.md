@@ -38,7 +38,7 @@ updated: "2026-08-14"
 - Severe: max 3 weeks continuous without review
 - Long term use associated with tolerance and risk of rebound
 
-#### Eye drops &amp; ointments
+#### Eye drops & ointments
 
 - NASAL DRAINAGE MORE COMMON WITH DROPS: systemic absorption
 - OINTMENTS: longer duration of effect, appropriate for night, used in children, sustained drug concentrations. Cons: difficult to self-administer, blur vision, more likely to cause contact dermatitis

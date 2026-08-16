@@ -25,9 +25,9 @@ updated: "2026-08-14"
 
 #### Example: Antihypertensives
 
-- HIGH RISK (&gt;15%) start antihypertensive. Start with ACE-I, CCB, or if 65 or older, thiazide diuretic (low dose)
+- HIGH RISK (>15%) start antihypertensive. Start with ACE-I, CCB, or if 65 or older, thiazide diuretic (low dose)
 - MODERATE RISK (10-15%) consider antihypertensive if 3-6month lifestyle changes doesn’t reduce risk
-- OR if BP persists &gt;160/100, FHx of CVD , at risk population (ATSI, Maori, South Asian, Middle Eastern, Pacific Islander)
+- OR if BP persists >160/100, FHx of CVD , at risk population (ATSI, Maori, South Asian, Middle Eastern, Pacific Islander)
 - Allow ~ 4-6wks to gauge response to treatment
 
 #### Home Medicine Review

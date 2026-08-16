@@ -88,7 +88,7 @@ Greenspan's *Basic & Clinical Endocrinology*; Endocrine Society guidelines (acro
 - Modifies gene transcription by binding to nuclear receptors
 - Biological effects:
 - Carbohydrate metabolism: gluconeogenesis and glycogenolysis
-- Protein metabolism: proteolysis &gt; protein synthesis, causing a net loss of muscle protein
+- Protein metabolism: proteolysis > protein synthesis, causing a net loss of muscle protein
 - Lipid metabolism: lipolysis
 - Na-K pump activity: increases activity of this pump → ↑ basal metabolic rate ↑ O2 consumption, respiratory rate, body temperature
 - Systemic effects:
@@ -151,7 +151,7 @@ Arises as a downward outgrowth from the diencephalon
 | DEFINITION | Inadequate production of ≥1 anterior pituitary hormones as a result of trauma to pituitary gland ± hypothalamus |
 | --- | --- |
 | AETIOLOGY | Intrasellar/parasellar masses Non-secretory pituitary macroadenomas (≥ 10 mm in diameter) are the most common cause Other: internal carotid artery aneurysms, meningiomas, craniopharyngiomas, Rathke's cleft cyst Pituitary apoplexy Sheehan syndrome: postpartum necrosis of the pituitary gland, usually following PPHTraumatic brain injury (especially around the skull base)Infiltration of the pituitary and/or hypothalamusHemochromatosisInfections: meningitis, TBCongenital deficiency of hypothalamic hormonesGnRH deficiency (Kallman syndrome) |
-| PATHOGENESIS | Hypopituitarism becomes symptomatic when &gt; 80% of pituitary cells are damagedIn most cases, hypopituitarism develops slowly (e.g. adenomas, post-irradiation) Certain cases of hypopituitarism develop rapidly (e.g. pituitary apoplexy) |
+| PATHOGENESIS | Hypopituitarism becomes symptomatic when > 80% of pituitary cells are damagedIn most cases, hypopituitarism develops slowly (e.g. adenomas, post-irradiation) Certain cases of hypopituitarism develop rapidly (e.g. pituitary apoplexy) |
 | PRESENTATION | ACTH: fatigue, weight loss, hypoglycaemia, anaemia, hyponatremia, failure to thrive and delayed puberty in childrenGH: short stature in childrenTSH: tiredness, cold intolerance, constipation, weight gain, hair lossLH and FSH: oligo- or amenorrhea, infertility, decreased facial/body hair and muscle mass in men, delayed pubertyProlactin: inability to breastfeedADH: symptoms of diabetes insipidus (extreme thirst, polydipsia, hypernatremia)Oxytocin: usually asymptomatic- only needed during labour and breastfeeding |
 | INVESTIGATIONS | Triple bolus test: rapid sequence of IV infusion of insulin, GnRH, and TRHInsulin → hypoglycaemia → increased GH and ACTH/cortisolGnRH → increased LH and FSHTRH → increased TSH and PRLGnRH and TRH stimulation tests are very limited in their utility; the insulin tolerance test is the only truly useful test in the triple bolus assessment |
 | MANAGEMENT | Transsphenoidal resection in cases of pituitary macroadenomaHormone replacement therapyGrowth hormone deficiency: GH replacement in children onlyTSH deficiency: administration of levothyroxine ACTH deficiency: glucocorticoid replacement therapy with increased dosage during periods of stress. When this is suspected, immediate treatment necessary to prevent adrenal crisis!GnRH deficiencyMalesIf fertility is desired: exogenous gonadotropins (e.g, HCG) should be administeredIf fertility is not desired: testosterone replacement therapyFemales: oestrogen replacement therapy with/without progesteroneProlactin deficiency: no treatment is requiredCentral diabetes insipidus: desmopressin |
@@ -166,7 +166,7 @@ Arises as a downward outgrowth from the diencephalon
 | --- | --- |
 | EPIDEMIOLOGY | Peak incidence ~ 35-60 years old |
 | AETIOLOGY | Most cases occur sporadicallySome cases (~5%) have genetic association with MEN 1 |
-| PATHOLOGY | Pathology: usually clonal in origin, with a single cell having altered growth control and feedback regulation, leading to development of the adenomaType of tumour according to size:Microadenoma: ≤ 10 mm; have no mass effect and have very little risk of growth, and usually occur physiologically as a result of pregnancyMacroadenoma: &gt; 10 mm; cause mass effects (dural sac, optic chiasm, CN III/IV/V/VI)Functional adenoma: secretory pituitary adenomas (60%) → hyperpituitarismMost secrete one pituitary hormone.The presence of multiple pituitary hormones should also raise the suspicion of atypical pituitary adenomas or pituitary carcinomasType | Frequency | Pathophysiology |
+| PATHOLOGY | Pathology: usually clonal in origin, with a single cell having altered growth control and feedback regulation, leading to development of the adenomaType of tumour according to size:Microadenoma: ≤ 10 mm; have no mass effect and have very little risk of growth, and usually occur physiologically as a result of pregnancyMacroadenoma: > 10 mm; cause mass effects (dural sac, optic chiasm, CN III/IV/V/VI)Functional adenoma: secretory pituitary adenomas (60%) → hyperpituitarismMost secrete one pituitary hormone.The presence of multiple pituitary hormones should also raise the suspicion of atypical pituitary adenomas or pituitary carcinomasType | Frequency | Pathophysiology |
 | Lactotroph adenoma (prolactinoma) | ~40% | Hyperprolactinemia |
 | Somatroph adenoma | ~15% | ↑Growth hormone → acromegaly/gigantism |
 | Corticotroph adenoma (Cushing’s Disease) | ~5% | ↑ACTH → secondary hypercortisolism |
@@ -209,7 +209,7 @@ Following transsphenoidal resection and/or pituitary irradiation, patients may d
 | --- | --- |
 | PATHOGENESIS | Prolactin stimulates milk production in the breast and inhibits GnRH and gonadotropin secretion |
 | PRESENTATION | Bitemporal hemianopsiaFemale: galactorrhoea, amenorrhoea, infertility, osteoporosisMale: galactorrhoea (rare), hypogonadism, impotence, gynaecomastia, osteoperosis erectile dysfunction |
-| INVESTIGATIONS | Serum prolactin &gt; 200 mg/MLSerum TSH, liver enzymes, creatinineMRI shows a sellar turcica lesion |
+| INVESTIGATIONS | Serum prolactin > 200 mg/MLSerum TSH, liver enzymes, creatinineMRI shows a sellar turcica lesion |
 | MANAGEMENT | First line: dopamine agonists (e.g. cabergoline, bromocriptine) which cause pituitary adenoma to shrinkSecond line: transsphenoidal hypophysectomy ± adjuvant radiotherapy which is indicated in adenomas refractory to medical management or with compressive effects (e.g. visual loss)Cease insulting drugs |
 
 Adrenal Gland Disorders

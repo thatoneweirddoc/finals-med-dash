@@ -160,7 +160,7 @@ ATS/ERS Technical Standard on spirometry & interpretation (2019/2022 — LLN, re
 | OBSTRUCTIVE LUNG DISEASE | RESTRICTIVE LUNG DISEASE |
 | --- | --- |
 | ↓ airflow → air trapping in lungs(↑RV/FRC/TLC) | Reduced lung capacity causes ↓ lung volumes (FVC, TLC) |
-| ↓ FEV1 (&lt;80%) | ↓ FEV1 (&lt;80%) |
-| Normal FVC (&gt;80%) | ↓ FVC (&lt;80%) |
-| ↓FEV1/FVC (&lt;0.7) | Normal or ↑ FEV1/FVC (0.7-0.8/&gt;0.8) |
+| ↓ FEV1 (<80%) | ↓ FEV1 (<80%) |
+| Normal FVC (>80%) | ↓ FVC (<80%) |
+| ↓FEV1/FVC (<0.7) | Normal or ↑ FEV1/FVC (0.7-0.8/>0.8) |
 | COPD, asthma, bronchiectasis, cystic fibrosis, bronchiolitis, α1- antitrypsin deficiency | Alveolar (oedema, haemorrhage, pus, pulmonary fibrosis)Interstitial lung disease (pneumonias), Inflammatory (sarcoid, cryptogenic pneumonitis), IdiopathicNeuromuscular e.g. MG, phrenic nerve palsyThoracic (kyphoscoliosis, ascites, obesity, pregnancy, ankylosing spondylitis) |

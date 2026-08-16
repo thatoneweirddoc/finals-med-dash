@@ -1,7 +1,7 @@
 ---
 title: "Metabolic Bone Disease"
 system: "MSK & Rheumatology"
-sources: [MSK & Rheumatology Notes, Orthopaedics & MSK (ANU) — Complications associated with fractures, Orthopaedics & MSK (ANU) — Embryology &amp; Bone Growth, Orthopaedics & MSK (ANU) — Orientation/fracture pattern:, Orthopaedics (SNEHA) — Complications associated with fractures, Orthopaedics (SNEHA) — FRACTURE DESCRIPTION, Orthopaedics (SNEHA) — Fractures, Orthopaedics (SNEHA) — common fractures, Orthopaedics (SNEHA) — fracture healing, Orthopaedics (SNEHA) — fracture management, Rheumatology & Immunology (ANU) — pseudogout (calcium pryophosphate dihydrate disease)]
+sources: [MSK & Rheumatology Notes, Orthopaedics & MSK (ANU) — Complications associated with fractures, Orthopaedics & MSK (ANU) — Embryology & Bone Growth, Orthopaedics & MSK (ANU) — Orientation/fracture pattern:, Orthopaedics (SNEHA) — Complications associated with fractures, Orthopaedics (SNEHA) — FRACTURE DESCRIPTION, Orthopaedics (SNEHA) — Fractures, Orthopaedics (SNEHA) — common fractures, Orthopaedics (SNEHA) — fracture healing, Orthopaedics (SNEHA) — fracture management, Rheumatology & Immunology (ANU) — pseudogout (calcium pryophosphate dihydrate disease)]
 tags: [Metabolic, ORIF, ALP, OA]
 updated: "2026-08-14"
 ---
@@ -74,7 +74,7 @@ updated: "2026-08-14"
 ---
 
 
-### Orthopaedics & MSK (ANU) — Embryology &amp; Bone Growth — Metabolic Bone Disease
+### Orthopaedics & MSK (ANU) — Embryology & Bone Growth — Metabolic Bone Disease
 
 - Endochondral ossification occurs at embryological at week 8 of 40 and creates woven bone
 - Woven bone is highly cellular, rapidly and randomly growing → gradually replaced by lamellar bone → mature skeleton
@@ -93,7 +93,7 @@ TRANSVERSE: fracture line perpendicular to long axis of bone; result of direct h
 - BUTTERFLY: fracture site fragment which looks like a butterfly
 - SEGMENTAL: a separate segment of bone bordered by fracture lines; result of high energy force
 - SPIRAL: complex, multi-planar fracture line; result of rotational force, low energy
-- COMMINUTED/MULTI-FRAGMENTARY: &gt;2 fracture fragments
+- COMMINUTED/MULTI-FRAGMENTARY: >2 fracture fragments
 - INTRA-ARTICULAR: fracture line crosses articular cartilage and enters joint
 - AVULSION: tendon or ligament tears/pulls off bone fragment; often in children, high energy
 - COMPRESSION/IMPACTED: impaction of bone; typical sites are vertebrae or proximal tibia
@@ -118,17 +118,17 @@ common fractures
 | --- | --- | --- | --- | --- |
 | CERVICAL SPINE | CompressionBurst Fracture-dislocation. Direct penetrating wound, fall from heights | Abnormal neck position, limb pain or paresthesia | Quadriplegia, paralysis, incontinence, | Preserve neurological function, treat neural compression, re-align and stabilize spine using collar/lumbar brace for stable fractures, unstable fractures require halo device |
 | HUMERAL – MID-SHAFT | Foosh/rotational injury in elderly | Pain, swelling, +/-shortening, Must test radial nerve for wrist drop, sensory loss on dorsum of hand | Radial nerve palsyNon-unionVascular injuryDecreased rom Compartment syndrome | Reduction Hanging cast with collar and cuff Op: if open or neurovascular injury – plating, external fixation |
-| COLLES(F&gt;40, WITH OSTEOPOROTIC BONE) | Extra-articular transverse distal radius fracture with dorsal displacement +/- impaction+/- ulnar styloid fractureMOI: FOOSH with wrist dorsi-flexion | Dinner fork deformitySwellingEcchymosisTenderness | Compartment syndromePoor grip strengthRadial shorteningStiffness | Closed reductionPost-reduction filmsComminuted – ORIF required |
+| COLLES(F>40, WITH OSTEOPOROTIC BONE) | Extra-articular transverse distal radius fracture with dorsal displacement +/- impaction+/- ulnar styloid fractureMOI: FOOSH with wrist dorsi-flexion | Dinner fork deformitySwellingEcchymosisTenderness | Compartment syndromePoor grip strengthRadial shorteningStiffness | Closed reductionPost-reduction filmsComminuted – ORIF required |
 | SCAPHOID | Carpal bone(most common of carpal fractures -68%)FOOSH | Pain with wrist movementTenderness over “snuff box” | Non or mal-unionCompression of radial artery 🡪 avascular necrosisAnd osteonecrosis of proximal fragment | Non-displaced: long-arm thumb SPICA cast for 6 weeks Displaced: ORIF |
 | BENNETT’S | Oblique intra-articular fracture of the base of the first metacarpal bone, which extends into the carpometacarpal joint. Punching a hard object or fall onto thumb (common in bike falls) |  | Osteoarthritis | Closed reduction by pulling on the thumb, adducting it and extending it. Percutaneous wiring (kirschner wires). ORIF if unstable and plaster slab for 4 weeks |
 | PELVIS |  | Local swellingTendernessDeformity of lower extremity | HemorrhageInjury to urogenital structure | Iv fluids/bloodsPelvic binderExt fixation |
 | NECK OF FEMUR | (Young: MVC or fall)(Old: osteopenia + fall)SubcapitalIntertrochantericSubtrochanteric | Pain on movement, Asymmetrical leg length ImmobilityEcchymosis | Must administer DVT prophylaxisNon-unionMalalignment AVN of femoral head | Closed reduction under fluoroscopy Total hip replacement |
 | FEMORAL DIAPHYSIS | High energy traumaChildren: low energy | Shortened, ext rotated legInability to weight bear | HemorrhageFat embolism Extensive soft tissue damageNerve injury | Stabilize patientImmobilize leg ORIF |
-| DISTAL FEMORAL | High energy Intra or extra articular | Extreme pain Knee effusion Shortened &amp; ext rotation NV deficits if displaced fracture | Femoral artery tear Popliteal artery injury Nerve injury Extensive soft tissue injury | ORIF Early mobilization and strengthening |
+| DISTAL FEMORAL | High energy Intra or extra articular | Extreme pain Knee effusion Shortened & ext rotation NV deficits if displaced fracture | Femoral artery tear Popliteal artery injury Nerve injury Extensive soft tissue injury | ORIF Early mobilization and strengthening |
 | PATELLA | Direct trauma (MVA) Indirect trauma by sudden flexion of knee against contracted quadriceps | Marked tendernessInability to extend knee/walkProximal patella displacementEffusion/haemarthrosis in joint | Muscle weakness, chronic pain, infection, mal/non/delayed union | Non-displaced – straight leg immbolisation and plaster for 4-6 weeks and aspirate any haemarthrosis Displaced: ORIF Comminuted: ORIF, partial patellectomy |
-| TIBIAL PLATEAU | Varus/valgus load &amp; axial loadOsteoporotic – minor trauma | Lateral&gt;medial Knee effusion SwellingInability to weight bear | Ligament injury Meniscal lesion AVNInfectionOA | Straight leg immobilization ORIF |
-| TIBIAL SHAFT | Low energy – torsion High energy | Open or closedNvs Displacement | Nv injury Compartment syndromePoor soft tissue coverage | Closed &amp; minimal displacement – straight leg cast 🡪 brace Displacement: ORIFOpen: ORIF, antibiotics |
-| ANKLE: CONSISTS OF TIBIA, FIBULA AND TALUS | Ipsilateral ligamentous tears or transverse bony avulsionContralateral shear fractures (oblique or spiral)Due to twisting/rotating ankle, tripping/falling | Lateral or medial malleolus – inversion &amp; external rotation – starts at lateral malleolus moves posterior, and then spirals to medial malleolusPain and dislocation/subluxation of talus, | Post-traumatic arthritis (OA)Unstable if deltoid ligament is rupturedStable – no change in mortus space Joint stiffness, complex regional pain syndrome | Elevate leg to reduce swelling before surgeryUndisplaced: NWB below knee castORIF if: DislocatedType CType B (most)Open fractureTrimalleolar (medial, posterior, lateral) Immobilization |
+| TIBIAL PLATEAU | Varus/valgus load & axial loadOsteoporotic – minor trauma | Lateral>medial Knee effusion SwellingInability to weight bear | Ligament injury Meniscal lesion AVNInfectionOA | Straight leg immobilization ORIF |
+| TIBIAL SHAFT | Low energy – torsion High energy | Open or closedNvs Displacement | Nv injury Compartment syndromePoor soft tissue coverage | Closed & minimal displacement – straight leg cast 🡪 brace Displacement: ORIFOpen: ORIF, antibiotics |
+| ANKLE: CONSISTS OF TIBIA, FIBULA AND TALUS | Ipsilateral ligamentous tears or transverse bony avulsionContralateral shear fractures (oblique or spiral)Due to twisting/rotating ankle, tripping/falling | Lateral or medial malleolus – inversion & external rotation – starts at lateral malleolus moves posterior, and then spirals to medial malleolusPain and dislocation/subluxation of talus, | Post-traumatic arthritis (OA)Unstable if deltoid ligament is rupturedStable – no change in mortus space Joint stiffness, complex regional pain syndrome | Elevate leg to reduce swelling before surgeryUndisplaced: NWB below knee castORIF if: DislocatedType CType B (most)Open fractureTrimalleolar (medial, posterior, lateral) Immobilization |
 
 pathology
 
@@ -158,7 +158,7 @@ Growth hormone, thyroid hormone, calcitonin, insulin anabolic hormones, vitd, vi
 
 #### Factors that inhibit healing:
 
-NSAIDS steroid, DM, anaemia &amp; decreased oxygenation, vit d deficiency, excessive bone gap or motion, infection, osteoporosis, pagets, advanced age
+NSAIDS steroid, DM, anaemia & decreased oxygenation, vit d deficiency, excessive bone gap or motion, infection, osteoporosis, pagets, advanced age
 ![](notes/images/orthopaedics-sneha/img007.jpg)
 
 
@@ -186,7 +186,7 @@ NSAIDS steroid, DM, anaemia &amp; decreased oxygenation, vit d deficiency, exces
 - butterfly: fracture site fragment which looks like a butterfly
 - segmental: a separate segment of bone bordered by fracture lines; result of high energy force
 - spiral: complex, multi-planar fracture line; result of rotational force, low energy
-- comminuted/multi-fragmentary: &gt;2 fracture fragments
+- comminuted/multi-fragmentary: >2 fracture fragments
 - intra-articular: fracture line crosses articular cartilage and enters joint
 - avulsion: tendon or ligament tears/pulls off bone fragment; often in children, high energy
 - compression/impacted: impaction of bone; typical sites are vertebrae or proximal tibia
@@ -309,7 +309,7 @@ Description:
 **Complications**
 
 - Plaster burn – plaster formation is an exothermic procedure
-- Thermal injury – avoid &gt;10 ply cast &amp; &gt;24 degree water
+- Thermal injury – avoid >10 ply cast & >24 degree water
 - Pressure sores – formed if there is insufficient padding
 - Pressure necrosis – as early as 2 hours post cast
 - Nerve palsy – direct compression; avoided by sufficient padding
@@ -382,17 +382,17 @@ Description:
 | --- | --- | --- | --- | --- |
 | Cervical spine | CompressionBurst Fracture-dislocation. Direct penetrating wound, fall from heights | Abnormal neck position, limb pain or paresthesia | Quadriplegia, paralysis, incontinence, | Preserve neurological function, treat neural compression, re-align and stabilize spine using collar/lumbar brace for stable fractures, unstable fractures require halo device |
 | Humeral – Mid-shaft | Foosh/rotational injury in elderly | Pain, swelling, +/-shortening, Must test radial nerve for wrist drop, sensory loss on dorsum of hand | Radial nerve palsyNon-unionVascular injuryDecreased rom Compartment syndrome | Reduction Hanging cast with collar and cuff Op: if open or neurovascular injury – plating, external fixation |
-| Colles(f&gt;40, with osteoporotic bone) | Extra-articular transverse distal radius fracture with dorsal displacement +/- impaction+/- ulnar styloid fractureMOI: FOOSH with wrist dorsi-flexion | Dinner fork deformitySwellingEcchymosisTenderness | Compartment syndromePoor grip strengthRadial shorteningStiffness | Closed reductionPost-reduction filmsComminuted – ORIF required |
+| Colles(f>40, with osteoporotic bone) | Extra-articular transverse distal radius fracture with dorsal displacement +/- impaction+/- ulnar styloid fractureMOI: FOOSH with wrist dorsi-flexion | Dinner fork deformitySwellingEcchymosisTenderness | Compartment syndromePoor grip strengthRadial shorteningStiffness | Closed reductionPost-reduction filmsComminuted – ORIF required |
 | Scaphoid | Carpal bone(most common of carpal fractures -68%)FOOSH | Pain with wrist movementTenderness over “snuff box” | Non or mal-unionCompression of radial artery 🡪 avascular necrosisAnd osteonecrosis of proximal fragment | Non-displaced: long-arm thumb SPICA cast for 6 weeks Displaced: ORIF |
 | Bennett’s | Oblique intra-articular fracture of the base of the first metacarpal bone, which extends into the carpometacarpal joint. Punching a hard object or fall onto thumb (common in bike falls) |  | Osteoarthritis | Closed reduction by pulling on the thumb, adducting it and extending it. Percutaneous wiring (kirschner wires). ORIF if unstable and plaster slab for 4 weeks |
 | Pelvis |  | Local swellingTendernessDeformity of lower extremity | HemorrhageInjury to urogenital structure | Iv fluids/bloodsPelvic binderExt fixation |
 | Neck of femur | (Young: MVC or fall)(Old: osteopenia + fall)SubcapitalIntertrochantericSubtrochanteric | Pain on movement, Asymmetrical leg length ImmobilityEcchymosis | Must administer DVT prophylaxisNon-unionMalalignment AVN of femoral head | Closed reduction under fluoroscopy Total hip replacement |
 | Femoral diaphysis | High energy traumaChildren: low energy | Shortened, ext rotated legInability to weight bear | HemorrhageFat embolism Extensive soft tissue damageNerve injury | Stabilize patientImmobilize leg ORIF |
-| Distal femoral | High energy Intra or extra articular | Extreme pain Knee effusion Shortened &amp; ext rotation NV deficits if displaced fracture | Femoral artery tear Popliteal artery injury Nerve injury Extensive soft tissue injury | ORIF Early mobilization and strengthening |
+| Distal femoral | High energy Intra or extra articular | Extreme pain Knee effusion Shortened & ext rotation NV deficits if displaced fracture | Femoral artery tear Popliteal artery injury Nerve injury Extensive soft tissue injury | ORIF Early mobilization and strengthening |
 | Patella | Direct trauma (MVA) Indirect trauma by sudden flexion of knee against contracted quadriceps | Marked tendernessInability to extend knee/walkProximal patella displacementEffusion/haemarthrosis in joint | Muscle weakness, chronic pain, infection, mal/non/delayed union | Non-displaced – straight leg immbolisation and plaster for 4-6 weeks and aspirate any haemarthrosis Displaced: ORIF Comminuted: ORIF, partial patellectomy |
-| Tibial plateau | Varus/valgus load &amp; axial loadOsteoporotic – minor trauma | Lateral&gt;medial Knee effusion SwellingInability to weight bear | Ligament injury Meniscal lesion AVNInfectionOA | Straight leg immobilization ORIF |
-| Tibial shaft | Low energy – torsion High energy | Open or closedNvs Displacement | Nv injury Compartment syndromePoor soft tissue coverage | Closed &amp; minimal displacement – straight leg cast 🡪 brace Displacement: ORIFOpen: ORIF, antibiotics |
-| Ankle: consists of tibia, fibula and talus | Ipsilateral ligamentous tears or transverse bony avulsionContralateral shear fractures (oblique or spiral)Due to twisting/rotating ankle, tripping/falling | Lateral or medial malleolus – inversion &amp; external rotation – starts at lateral malleolus moves posterior, and then spirals to medial malleolusPain and dislocation/subluxation of talus, | Post-traumatic arthritis (OA)Unstable if deltoid ligament is rupturedStable – no change in mortus space Joint stiffness, complex regional pain syndrome | Elevate leg to reduce swelling before surgeryUndisplaced: NWB below knee castORIF if: DislocatedType CType B (most)Open fractureTrimalleolar (medial, posterior, lateral) Immobilization |
+| Tibial plateau | Varus/valgus load & axial loadOsteoporotic – minor trauma | Lateral>medial Knee effusion SwellingInability to weight bear | Ligament injury Meniscal lesion AVNInfectionOA | Straight leg immobilization ORIF |
+| Tibial shaft | Low energy – torsion High energy | Open or closedNvs Displacement | Nv injury Compartment syndromePoor soft tissue coverage | Closed & minimal displacement – straight leg cast 🡪 brace Displacement: ORIFOpen: ORIF, antibiotics |
+| Ankle: consists of tibia, fibula and talus | Ipsilateral ligamentous tears or transverse bony avulsionContralateral shear fractures (oblique or spiral)Due to twisting/rotating ankle, tripping/falling | Lateral or medial malleolus – inversion & external rotation – starts at lateral malleolus moves posterior, and then spirals to medial malleolusPain and dislocation/subluxation of talus, | Post-traumatic arthritis (OA)Unstable if deltoid ligament is rupturedStable – no change in mortus space Joint stiffness, complex regional pain syndrome | Elevate leg to reduce swelling before surgeryUndisplaced: NWB below knee castORIF if: DislocatedType CType B (most)Open fractureTrimalleolar (medial, posterior, lateral) Immobilization |
 
 #### ankle fracture: WEBBER CLASSIFICATION
 
@@ -437,7 +437,7 @@ Type c (supra-syndesmotic)
 
 | Definition | Joint inflammation from calcium pyrophosphate dihydrate (CPPD) crystals in the hyaline or fibrocartilage |
 | --- | --- |
-| Epidemiology | M=F, age of onset &gt; 50 years old |
+| Epidemiology | M=F, age of onset > 50 years old |
 | Aetiology | Non-modifiable: old age, advanced OA, neuropathic jointsSecondary form: joint trauma, familial chondrocalcinosis, hyperparathyroidism, haemochromatosis, gout, hypophosphatemia, DM |
 | Presentation | Often asymptomaticACUTE: monoarthritis, mostly affecting knees and other large jointsPSEUDO-OA: progressive jt degeneration, sometimes with episodes of acute inflammatory arthritisPSEUDO-RA: symmetrical polyarticular pattern with morning stiffness and constitutional symptoms |
 | Investigations | Bloods: hyperCa2+, hyperPTH, serum uric acid normalArthrocentesis: to rule out septic arthritis, goutCPPD crystals: ~ 60% of patients, often only a few crystals, positive birefringence (blue) and rhomboid shapedX-rays: chondrocalcinosis in 75% (radiodensities in fibrocartilaginous structures or linear radiodensities in hyaline articular cartilage) |

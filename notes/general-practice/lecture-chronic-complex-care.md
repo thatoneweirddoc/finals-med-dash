@@ -22,7 +22,7 @@ updated: "2026-08-14"
 - Mutable normal (35-49 CTG repeat size): premutation
 - Mild (50-150 CTG repeat size): cataracts (Christmas tree), mild myotonic
 - Classic (100-1000 CTG repeat size): weakness, myotonia, cataracts, balding, arrhythmia, ↓ life expectancy
-- Congenital (&gt;2000 CTG repeat size): hypotonia, resp, intellectual disability, adult classic signs, ↓ life expectancy
+- Congenital (>2000 CTG repeat size): hypotonia, resp, intellectual disability, adult classic signs, ↓ life expectancy
 - Variable clinical manifestation caused by: anticipation, maternal expansion bias, somatic mosaicism, genetic/epigenetic interactions, interactions with comorbidities
 
 #### Barriers to healthcare in chronic disease

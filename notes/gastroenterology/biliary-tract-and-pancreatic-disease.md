@@ -112,13 +112,13 @@ In gallstone pancreatitis, mechanical obstruction of the pancreatic duct whereas
 INVESTIGATIONS
 - ↑ Lipase (?EtOH- related; x3 reference range; starts rising 4-8 hrs after onset peaks at 24 hrs and lasts for 8-14 days)
 - ↑ Amylase (more pancreas-?gallstone-related; x3 reference range; starts rising 2-12 hrs peaks at 48 hrs and lasts for 3-5 days)
-- FBC, CRP (severity), IgG (acute), ALT&gt;100 (pancreatitis)
+- FBC, CRP (severity), IgG (acute), ALT>100 (pancreatitis)
 - AXR (calcification; sentinel loop which is isolated distension of gut segment adjacent to pancreas)
 - CXR (usually L sided pleural effusion)
 - U/S (inflammation, calcification, fluid collection, stones)
 - CT contrast (gold standard to visualize fat stranding, viable tissue, necrosis, micro-calcification, circulation disruption, necrosis)
 - FNAB (?necrosis, causative organism)
-- If Glasgow&gt;3=severe pancreatitis 🡪 ICU transfer
+- If Glasgow>3=severe pancreatitis 🡪 ICU transfer
 - DIFFERENTIAL DIAGNOSES: peptic ulcer, intestinal obstruction, AAA, cholangitis, choledocholithiasis, cholecystitis
 - TREATMENT AND MANAGEMENT
 - NBM, NG/NJ tube to aspirate gastric secretions (no necessary)
@@ -140,7 +140,7 @@ INVESTIGATIONS
 ### General Surgery & Gastroenterology (ANU) — CHRONIC PANCREATITIS — Biliary Tract & Pancreatic Disease
 
 - DEFINITION: persistent/irreversible pancreatic inflammation with cell loss (from necrosis), inflammation, fibrosis
-- AETIOLOGY: idiopathic, EtOH (&gt;90%), cystic fibrosis
+- AETIOLOGY: idiopathic, EtOH (>90%), cystic fibrosis
 - PATHOGENESIS: unrelenting injury to the pancreas 🡪 fibrosis and chronic pancreatitis and ↓ amylase and lipase
 - RISK FACTORS: EtOH, smoking, coeliac disease
 - HISTORY: dull epigastric pain that radiates to the back, and relieved by sitting forward; weight loss and steatorrhea (different from acute), N/V, jaundice, ascites, GI bleed, malabsorption (chronic diarrhoea, steatorrhea, weight loss, fatigue), endocrine insufficiency (frank initially vs pancreatogenic after surgery types of diabetes)
@@ -181,13 +181,13 @@ INVESTIGATIONS
 - CLINICAL FEATUREs
 - Vague abd pain with weight loss ± jaundice in a patient over 50 yr old is pancreatic cancer until proven otherwise
 - Head (70%)- weight loss, obstructive jaundice, steatorrhea, vague constant and mid-epigastric pain (worse at night, radiate to back), Courvoisier’s sign (painless jaundice, with palpable epigastric mass = pancreatic cancer, Trousseau's Sign (spontaneous peripheral venous thrombosis, often associated with pancreatic/other)
-- Body/tail (30%)- tends to present later + usually inoperable, weight loss, vague epigastric pain, &lt;10% jaundiced, sudden onset DM
+- Body/tail (30%)- tends to present later + usually inoperable, weight loss, vague epigastric pain, <10% jaundiced, sudden onset DM
 - FHx
 - INVESTIGATIONS: ↑ALP, ↑bilirubin, Ca19-9 (most useful serum marker), U/S or CT (evaluates metastases + resectability), ± ERCP/MRI/EUS/Bone Scan for staging/metastases
 - TREATMENT
 - Resectable (10-20%)
 - No involvement of liver, peritoneum, vasculature or distant sites
-- Whipple procedure (pancreoduodenectomy) for cure &lt;5% mortality
+- Whipple procedure (pancreoduodenectomy) for cure <5% mortality
 - Distal pancreatectomy ± splenectomy, lymphadenectomy if carcinoma of midbody/tail
 - Non-resectable Palliation: Endoscopic stenting or double bypass procedure (choledochoenterostomy + gastroenterostomy)‚
 - Chemotherapy (gemcitabine + nab-paclitaxel, FOLFIRNOX) ± radiotherapy
@@ -232,10 +232,10 @@ biliary tract
 |  | Primary Sclerosing Cholangitis | Primary Biliary Cholangitis |
 | --- | --- | --- |
 | Definition | Biliary tree narrowing from scarring/fibrosis of bile ducts (intra and/or extrahepatic bile ducts) | Chronic granulomatous inflammation and fibrous obliteration of intra-hepatic bile ducts |
-| Epidemiology | Male 20-40s | Females 50-60s &gt; 90% |
+| Epidemiology | Male 20-40s | Females 50-60s > 90% |
 | Aetiology | Primary- Commonly UCSecondary- long-term choledocholithiasis, cholangiocarcinoma, trauma, post-ERCP, HIV/AIDS, IgG4-related disease) | Autoimmune- Sjogren’s Disease (most commonly), RA, scleroderma, thyroiditis |
 | Microscopic Features | Concentric “onion-skin” fibrosis around bile ducts | Florid duct lesion (granulomas) |
-| Symptoms | Insidious onsetFatigue &amp; pruritusEpisodic bacterial cholangitis secondary to biliary obstruction | Usually asymptomaticPruritus &amp; fatigue 🡪 jaundice, melanosis, cholestasis 🡪 hepatocellular failure, portal HTN, ascites↑ incidence of osteoporosis |
+| Symptoms | Insidious onsetFatigue & pruritusEpisodic bacterial cholangitis secondary to biliary obstruction | Usually asymptomaticPruritus & fatigue 🡪 jaundice, melanosis, cholestasis 🡪 hepatocellular failure, portal HTN, ascites↑ incidence of osteoporosis |
 | Investigations | AMA -ve↑ ALP (hallmark), ↑ bilirubin, ↑AST, pANCA (30-80%), ↑ IgMERCP/MRCP (narrowing and dilatations of ducts 🡪 “beaded” appearance of bile ducts)Liver biopsy shows fibrous, obliterative cholangitis | Anti-mitochondrial antibodies (AMA+)IgM↑ALP, GGT, bilirubin in later stages↑ lipidsLiver biopsy shows florid duct lesion (granulomas)Normal bile ducts on MRCP/ERCP |
 | Treatment | Endoscopic sphincterotomy/ERCP + biliary stentAbx ± drainage of pusLiver transplant in advanced diseasePotential MRCP to monitor for cholangiocarcinoma (controversial) | UrsodiolCholestyramine (pruritis, ↑cholesterol)Ca2+/Vit D (low bone density)/bisphosphonateMonitor for thyroid diseaseLiver transplant in advanced disease |
 | Prognosis | Unfavourable regardless of treatmentLong-term complications of cirrhosis and cholangiocarcinoma | Long-term complication of cirrhosis |
@@ -249,7 +249,7 @@ biliary tract
 
 - ![](notes/images/general-surgery-and-gastroenterology-anu/img021.jpg)
 DEFINITION: presence of gallstones in the gallbladder
-- EPIDEMIOLOGY: 10-15% of population, M&gt;F, ↑ in elderly
+- EPIDEMIOLOGY: 10-15% of population, M>F, ↑ in elderly
 - PATHOGENESIS
 - Bile is produced in pancreas and stored in gallbladder. Composition of bile is 92% water, 6% bile salts, 0.3% bilirubin and 1.7% fats (cholesterol, fatty acid, lecithin) and it aids in the digestion of lipids.
 - CHOLESTEROL GALLSTONES: Formation dependent on cholesterol supersaturation of bile,  crystalisation-promoting factors within bile, and stasis of gall bladder (supersaturation of bile 🡪 cholesterol crystallisation 🡪 sludge🡪 stone)
@@ -261,7 +261,7 @@ DEFINITION: presence of gallstones in the gallbladder
 - INVESTIGATIONS
 - Bloods (to rule out complications)- FBC, EUC, LFT (↑GGT, ALP), pancreatic enzymes (?pancreatitis), INR/PT
 - Urinalysis
-- Abdominal U/S (inflammation, obstruction, localisation of stone):Gallbladder wall thickening &gt;4mm, oedema (double-wall sign), sludge, pericholecystic fluid, sonographic Murphy’s sign
+- Abdominal U/S (inflammation, obstruction, localisation of stone):Gallbladder wall thickening >4mm, oedema (double-wall sign), sludge, pericholecystic fluid, sonographic Murphy’s sign
 - Magnetic resonance cholangiopancreatography (MRCP): non-invasive to visualise ampullary region, biliary and pancreatic anatomy
 - Endoscopic retrograde cholangiopancreatography (ERCP): can obtain biopsy sample (risk of pancreatitis 10%)
 - HIDA Scan (less common but technetium-99 injected into vein and excreted into bile 🡪 visualisation of biliary tree occlusion)
@@ -285,12 +285,12 @@ DEFINITION: presence of gallstones in the gallbladder
 - AETIOLOGY: Gallstones (95%), infections, starvation, TPN
 - RISK FACTORS: ↓ fibre, ↓ physical activity, DM, trauma
 - PATHOGENESIS: Stasis of gallbladder 🡪 bile becomes trapped 🡪 irritation and increased pressure 🡪 inflammatory process and oedema 🡪 bacterial invasion 🡪 gallbladder wall becomes thickened with subserosal haemorrhage, pericholecystic fluid present 🡪 mucosa may show hyperaemia and patchy necrosis (loss of venous initially and then arterial) 🡪 5-10% develop ischemia and necrosis 🡪 perforation (less likely to perforate due to greater compliance and volume)
-- HISTORY: RUQ pain (intense, prolonged &gt; 6 hrs 🡪 radiates to R shoulder tip; post-prandial), fever, anorexia, N/V
+- HISTORY: RUQ pain (intense, prolonged > 6 hrs 🡪 radiates to R shoulder tip; post-prandial), fever, anorexia, N/V
 - EXAMINATION
 - Boas Sign- hyperaesthesia (↑ or altered sensitivity) below the R scapula can be a symptom in acute cholecystitis
 - Murphy’s sign – inspire deeply while the examiner palpates the area of the gallbladder fossa just beneath the liver edges
 - Other- palpable gallbladder, peritonism, ↑HR, febrile
-- INVESTIGATIONS: FBC (↑WBC with left shift), ↑CRP, EUC, LFT, albumin, INR, amylase/lipase, U/S (thickened walls &gt; 3 mm, pericolic fluid, CBD dilation &gt; 6mm, shadow of stone, sonographic Murphy’s sign); HIDA scan (if U/S is inconclusive to show cystic duct obstruction); CT scan (less sensitive then U/S)
+- INVESTIGATIONS: FBC (↑WBC with left shift), ↑CRP, EUC, LFT, albumin, INR, amylase/lipase, U/S (thickened walls > 3 mm, pericolic fluid, CBD dilation > 6mm, shadow of stone, sonographic Murphy’s sign); HIDA scan (if U/S is inconclusive to show cystic duct obstruction); CT scan (less sensitive then U/S)
 - DIFFERENTIAL DIAGNOSES: biliary colic, acute cholangitis, peptic ulcer, acute pancreatitis, appendicitis
 - TREATMENT AND MANAGEMENT:
 - Conservative- analgesia (NSAIDs), IVF, electrolyte correction, NBM, antibiotics (ceftriaxone + metronidazole)
@@ -306,7 +306,7 @@ DEFINITION: presence of gallstones in the gallbladder
 
 - DEFINITION: ascending bacterial infection in association with partial or complete obstruction of the bile ducts
 - AETIOLOGY: cholelithiasis, benign stasis, iatrogenic (during cholecystectomy)
-- PATHOGENESIS: biliary obstruction and stasis🡪 increases intrabiliary pressure 🡪 increases permeability of ductules 🡪 permits translocation of bacteria into biliary tract; &gt;90% of cases involve mixed growth of gram-negative (e.g. E.coli and Klebsiella) and gram-positive (e.g. Enterococcus)
+- PATHOGENESIS: biliary obstruction and stasis🡪 increases intrabiliary pressure 🡪 increases permeability of ductules 🡪 permits translocation of bacteria into biliary tract; >90% of cases involve mixed growth of gram-negative (e.g. E.coli and Klebsiella) and gram-positive (e.g. Enterococcus)
 - Mnemonic common bacteria in biliary tract KEEPS (Klebsiella, Enterococcus, E.Coli/Enterobacter, Proteus/Pseudomonas, Serratia)
 - HISTORY
 - Charcot’s triad – RUQ pain + fever + jaundice (usually the one missing)
@@ -438,7 +438,7 @@ tender subcut nodules - from subcut fat necrosis
 - gastrointestinal fistulation or infection of a pseudocyst can also be identified by the presence of gas in the cyst
 - Sequential contrast-enhanced CT is useful for detection of pancreatic necrosis.
 
-**MRCP** has &gt;90% sensitivity for choledocholithiasis and can identify other anatomic abnormalities.
+**MRCP** has >90% sensitivity for choledocholithiasis and can identify other anatomic abnormalities.
 
 **EUS** is a minimally invasive test that provides high res imaging of the pancreas 🡪 good for anatomical abn good sensitivity and specificity for small gallstones (≤5 mm).
 
@@ -474,7 +474,7 @@ Guidelines suggest that urgent ERCP (within 24 hr of admission) is indicated in 
 
 ●Mild = no organ failure + no local or systemic complications
 
-●Moderately severe acute pancreatitis = transient organ failure (resolves within 48 hours) and/or local or systemic complications without persistent organ failure (&gt;48 hours)
+●Moderately severe acute pancreatitis = transient organ failure (resolves within 48 hours) and/or local or systemic complications without persistent organ failure (>48 hours)
 
 ●Severe acute pancreatitis  = persistent organ failure that may involve one or multiple organs
 
@@ -490,21 +490,21 @@ This assists in appropriate early triage to ICU and selection of patients for sp
 
 Poor predictor of severity according to 110 study meta analysis.
 
-**Acute physiology and chronic health examination (APACHE) II score** was originally developed for critically ill ICU patients. It has 12 physiologic measures and extra points based upon age and presence of chronic disease. It is probably the most widely studied severity scoring system in AP. Good negative predictive value and modest positive predictive value for predicting severe AP and can be performed daily. Decreasing values during the first 48 hours suggest a mild attack, while increasing values suggest a severe attack. score &lt; 8 = &lt;4% mortality. score &gt; 8 = 11 - 18% mortality. Limitations: complex, does not differentiate btw interstitial and necrotizing pancreatitis, or sterile vs infected necrosis. Finally, it has a poor predictive value at 24 hours
+**Acute physiology and chronic health examination (APACHE) II score** was originally developed for critically ill ICU patients. It has 12 physiologic measures and extra points based upon age and presence of chronic disease. It is probably the most widely studied severity scoring system in AP. Good negative predictive value and modest positive predictive value for predicting severe AP and can be performed daily. Decreasing values during the first 48 hours suggest a mild attack, while increasing values suggest a severe attack. score < 8 = <4% mortality. score > 8 = 11 - 18% mortality. Limitations: complex, does not differentiate btw interstitial and necrotizing pancreatitis, or sterile vs infected necrosis. Finally, it has a poor predictive value at 24 hours
 
 ![](notes/images/pancreatitis-summary/img009.jpg)
 
 ![](notes/images/pancreatitis-summary/img010.jpg)
 
-**CT severity score (the Balthazar score)** has been developed based upon the degree of necrosis, inflammation, and the presence of fluid collections. In an initial validation study, mortality was 23 percent with any degree of pancreatic necrosis and 0 percent with no necrosis. In addition, there was a strong association between necrosis &gt;30 percent and morbidity and mortality
+**CT severity score (the Balthazar score)** has been developed based upon the degree of necrosis, inflammation, and the presence of fluid collections. In an initial validation study, mortality was 23 percent with any degree of pancreatic necrosis and 0 percent with no necrosis. In addition, there was a strong association between necrosis >30 percent and morbidity and mortality
 
 **Organ failure scoring systems** such as the **Goris multiple OF score**, the **Marshall (or multiple) organ dysfunction score**, the Bernard score, the sequential OF assessment (SOFA), and the logistic organ dysfunction system score have been described. All these scores take into account the number of organ systems involved and the degree of dysfunction of each individual organ. Some also include the use of inotropic or vasopressor agents, mechanical ventilation, or dialysis. As noted above, the presence of persistent OF lasting for more than 48 hours appears to be important (severe acute pancreatitis)
 
 **SIRS score**— presence of SIRS a/w increased mortality. A study found that the severity of AP was greater among patients with AP and SIRS on day one, particularly in those with 3-4 SIRS criteria, compared with those without SIRS on day one.
 
-**BISAP score** — bedside index of severity in acute pancreatitis score. Patients are assigned 1 point for each of the following during the first 24 hours of admission: BUN &gt;25 mg/dL, impaired mental status, 2 or more SIRS criteria, age &gt;60 years, presence of a pleural effusion. Predicts mortality as well as Apache but doesn’t predict ICU, LOS etc
+**BISAP score** — bedside index of severity in acute pancreatitis score. Patients are assigned 1 point for each of the following during the first 24 hours of admission: BUN >25 mg/dL, impaired mental status, 2 or more SIRS criteria, age >60 years, presence of a pleural effusion. Predicts mortality as well as Apache but doesn’t predict ICU, LOS etc
 
-Scoring 0 = &lt;1% mortality vs 5 = 22% mortality
+Scoring 0 = <1% mortality vs 5 = 22% mortality
 
 ![](notes/images/pancreatitis-summary/img011.jpg)
 
@@ -560,11 +560,11 @@ Be vigilant for complications - any persistence of pain, fever, abdominal mass o
 - APO = cardiogenic APO from myocardial dysfunction or non cardiogenic APO from ARDS
 - Prognosis varies with the severity of pancreatitis; overall mortality rate in AP is 5% to 10%
 
-**peripancreatic fluid collection (&lt; 4 weeks **after onset of interstitial oedematous pancreatitis.**)**
+**peripancreatic fluid collection (< 4 weeks **after onset of interstitial oedematous pancreatitis.**)**
 
-Peripancreatic fluid a/w interstitial oedematous pancreatitis with no associated peripancreatic necrosis. Defined as &lt;4 weeks and without the features of a pseudocyst.
+Peripancreatic fluid a/w interstitial oedematous pancreatitis with no associated peripancreatic necrosis. Defined as <4 weeks and without the features of a pseudocyst.
 
-**Pseudocyst: (&gt; 4 weeks **after onset of interstitial oedematous pancreatitis.**)**
+**Pseudocyst: (> 4 weeks **after onset of interstitial oedematous pancreatitis.**)**
 
 round or spheroid collection of fluid, tissue, pancreatic enzymes, and blood with well defined inflammation wall. Unlike true cysts 🡪 no epithelial lining. Usually outside of the pancreas with little or no necrosis. Diagnosed by CT scan or sonography.
 
@@ -572,7 +572,7 @@ Treatment: drain surgically or endoscopically. The endoscopic approach is prefer
 
 CT or US-guided percutaneous drainage (with a pigtail catheter left in place for continuous drainage) can be used, but the recurrence rate is high; must reevaluate (with CT scan or sonography) after 6 to 7 wk and surgically drain if not shrinking.
 
-Generally, pseudocysts &lt;5 cm are spontaneously reabsorbed vs those &gt;5 cm require surgical drainage b/c the wall has matured.
+Generally, pseudocysts <5 cm are spontaneously reabsorbed vs those >5 cm require surgical drainage b/c the wall has matured.
 
 **Pancreatic ascites: **usually caused by leaking of pseudocyst or post tear in pancreatic duct. Paracentesis reveals very high amylase and lipase levels in the pancreatic fluid; ERCP may demonstrate the lesion. Treatment is surgical correction if exudative ascites from severe pancreatitis does not resolve spontaneously.
 
@@ -639,7 +639,7 @@ Pharmacological -
 - trial PO pancreatic enzyme supplements for the steatorrhoea + acid suppression for 1 month
 - analgesia 🡪 simple +/- antioxidants (?data) if requiring narcotics, perform MRCP / EUS
 - percutaneous / EUS based coeliac plexus blockage with corticosteroids or neurolysis with ethanol for temp pain relief
-- treat complications eg T1DM, dyslipidaemia (get TG &lt; 2)
+- treat complications eg T1DM, dyslipidaemia (get TG < 2)
 - treat cause eg induce remission in AIP with glucocorticoids
 
 Surgical

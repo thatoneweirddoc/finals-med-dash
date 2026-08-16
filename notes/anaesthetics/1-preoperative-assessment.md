@@ -31,8 +31,8 @@ updated: "2026-08-14"
 
 (Recommended by ANZCA)
 
-- Adults and Children&gt;6months, Elective Procedure- Breast Milk and/or Limited solid food six hours prior to anaesthesia, clear fluids up to two hours prior to anaesthesia
-- Infants &lt;6 months, Elective Procedure- Formula up to four hours, breast milk up to three hours, clear fluids up to two hours
+- Adults and Children>6months, Elective Procedure- Breast Milk and/or Limited solid food six hours prior to anaesthesia, clear fluids up to two hours prior to anaesthesia
+- Infants <6 months, Elective Procedure- Formula up to four hours, breast milk up to three hours, clear fluids up to two hours
 - Prescribed medications may be taken with a sip of water less than two hours prior to anaesthesia unless otherwise directed (for example oral hypoglycaemics and anticoagulants).
 - An H2-antagonist, proton pump inhibitor or other agent that decreases gastric secretion and acidity should be considered for patients with an increased risk of gastric regurgitation.
 

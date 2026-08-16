@@ -152,7 +152,7 @@ METHOD
 COMPLICATIONS
 
 - Plaster burn:  plaster formation is an exothermic procedure
-- Thermal injury: avoid &gt;10 ply cast &amp; &gt;24 degree water
+- Thermal injury: avoid >10 ply cast & >24 degree water
 - Pressure sores: formed if there is insufficient padding
 - Pressure necrosis: as early as 2 hours post cast
 - Nerve palsy: direct compression; avoided by sufficient padding
@@ -169,11 +169,11 @@ COMPLICATIONS
 | DEFINITION | Degenerative joint disease involving degradation of joints, including articular cartilage and subchondral bone |
 | --- | --- |
 | AEITOLOGY | Genetics: collagen defects, proteoglycan defects, enzyme Biomechanics: occupation, sport, muscle bulk Inflammation |
-| RISK FACTORS | Non-modifiable: age (&gt; 55 years), family history, joint/trauma history, anatomic factors contributing to joint stress, haemophilic hemarthroses and deposition diseases that stiffen cartilage, genderModifiable: obesity, ↑ joint loading/over-use |
+| RISK FACTORS | Non-modifiable: age (> 55 years), family history, joint/trauma history, anatomic factors contributing to joint stress, haemophilic hemarthroses and deposition diseases that stiffen cartilage, genderModifiable: obesity, ↑ joint loading/over-use |
 | CLASSIFICATION | Idiopathic OANo identifiable, underlying causeGenetic factors of causation have been implicated, but not definitively provenSecondary OAHemochromatosis and Wilson's diseaseEhlers-Danlos Syndrome (affects collagen synthesis)DiabetesCongenital disorders of jointsAlkaptonuriaPrevious injury |
 | ANATOMY OF ARTICULAR CARTILAGE | Articular Cartilage 65 – 80% water, of which is in gel formCollagen types II (↑↑), IX and XI form string bag which holds proteoglycans and water gelHyaluronan binds aggrecan molecules that attract water, keeping them within the collageObtaining nutrients:During compression: water exudes outDuring relaxation:  system springs back, and hence water from synovial fluid, along with new nutrients, come into the cartilageShock absorber: Fluid changes shape within the cartilage, acting to absorb the pressure of movement |
 | PATHOGENESIS | Failure in maintaining the homeostatic balance of the cartilage matrix synthesis and degradationMatrix metalloproteinase catalyse collagen/proteoglycan degradation, and ↑ in OA cartilageAFFECTS JOINTS AND ITS’ STRUCTURESIrregular thickening and remodelling of subchondral bone with sclerosis and cystsCapsular thickening and fibrosisLoss of volume of articular cartilageSynovial inflammationOsteophytosis and soft tissue growth at joint marginCOMMONLY AFFECTS:Small joints:  dip, pip, base of thumbWeight-bearing joints: spine, hips and kneesEARLY OA: chondrocytes proliferate, secrete inflammatory mediators, collagens and proteoglycans and proteases → remodel cartilaginous matrix and initiate secondary inflammatory changes in synovium and subchondral boneLATE OA: repetitive injury and chronic inflammation lead to chondrocyte drop out, marked loss of cartilage and extensive subchondral bone changes |
-| PRESENTATION | Early clinical findingsPain on exertion, which is relieved with restPain in both complete flexion and extensionCrepitus on joint movementJoint stiffness and restricted range of motionRadiating or referred pain (e.g., coxarthrosis may lead to knee pain)Late clinical findingsConstant pain (including at night)Morning joint stiffness usually lasting &lt; 30 minutesMore severely restricted range of motion |
+| PRESENTATION | Early clinical findingsPain on exertion, which is relieved with restPain in both complete flexion and extensionCrepitus on joint movementJoint stiffness and restricted range of motionRadiating or referred pain (e.g., coxarthrosis may lead to knee pain)Late clinical findingsConstant pain (including at night)Morning joint stiffness usually lasting < 30 minutesMore severely restricted range of motion |
 | INVESTIGATIONS | X-ray (mnemonic LOSS): loss of joint space, osteophytes, subchondral sclerosis, subchondral cystsSerum CRP and ESR: should be normal in OA and ↑ in inflammatory arthritis |
 | DIFFERENTIALS | Bursitits, gout, pseudogout, RA, psoriatic arthritis |
 | MANAGEMENT | Protection of affected joints from overloadingWeight loss, use of walking sticks, off-loading bracesOther: shoe inserts, topical and heat tehrapyStrengthen supporting muscles around joints: physiotherapyImprove joint function:Hyaluronic acid injectionGlucosamine, chondroitin sulphate, fish oilIf benefits not seen within 8 weeks, then not likely to be beneficialPain reliefParacetamol, NSAIDs, opiatesIntra-articular steroid injections every 6-12 weeksSurgical treatmentNon-arthroplasty: osteotomy, arthrodesis, excision, cartilage implantation, stem cell therapy Arthroplasty: TKA, hemi-arthroplasty |
@@ -190,8 +190,8 @@ COMPLICATIONS
 | EPIDEMIOLOGY | F:M=~4:1Age of onset: 50-70 years |
 | AETIOLOGY | ![](notes/images/orthopaedics-and-msk-anu/img009.jpg) |
 | Primary Osteoporosis (95% in women, 80% in men)Primary type 1 (post-menopausal OA): most common in post-menopausal women, due to decline in estrogen, worsens with agePrimary type 2 (senile OA): occurs after age 75, seen in females and males at 2:1 ratio, possibly due to zinc deficiencyRisk factors: female, post menopause, age, late menarche, FHx, Caucasian/Asian, shortSecondary Osteoporosis: Risk Factors (mnemonic abcdef)MalAbsorption syndromes: Coeliac disease, gastric/bowel resection, bariatric surgeryB: rheumatoid arthritis and other CTDChronic medical disorders Liver, kidney, cardiopulmonary diseasesLow body weight and weight loss, including anorexia nervosa | Drugs causing bone lossGlucocorticoidsExcessive thyroid hormoneLong-term heparinAntiepileptic drugs, particularly hepatic enzyme inducersAndrogen deprivation therapyAromatase inhibitors for breast cancerThiazolidinediones for diabetesEndocrine disordersCushing syndromeHyperthyroidismHyperparathyroidismSex hormone deficiency in men and women bvFactors that increase risk of fallsBalance disorderVisual impairmentMuscle weakness/sarcopeniaSedating and antihypertensive drugsLifestyle and NutritionSmoking and excessive alcohol intakeImmobilisation↓ Ca2+ and Vitamin D |
-| PRESENTATION | Mostly asymptomatic Pathological fractures:  spontaneous fracture following mild physical exertion/minor trauma (e.g. lifting/bending/sneezing/coughing)Location: vertebral (back pain) &gt; femoral neck &gt; distal radius (Colles) fractures, fractures of long bone (e.g. humerus)Vertebral compression (crush) fractures are commonly asymptomatic, but may cause acute back pain and possible point tenderness without neurological symptomsLong-term findings after repeated vertebral compression fracturesDecreased height (loss of 2–3 cm with each fractureThoracic hyper-kyphosis → stooped posture with a “dowager's hump” |
-| INVESTIGATIONS | BMD testing: Dual-energy x-ray absorptiometry (DEXA)Calculates bone mineral density (BMD) in g/cm2T ≤ -2.5 SD = osteoporosis-1  ≤ T  &lt; -2.5 SD = osteopeniaPlain radiographyIncreased radiolucencyVertical compression fracturesBloodsFBC, EUC, TFTALP + phosphate  (osteomalacia)Corrected Ca, Albumin, PTH, 25-hydroxy vitamin D (2o osteoperosis)Consider: testosterone, urinary free cortisol (for Cushing’s Disease) |
+| PRESENTATION | Mostly asymptomatic Pathological fractures:  spontaneous fracture following mild physical exertion/minor trauma (e.g. lifting/bending/sneezing/coughing)Location: vertebral (back pain) > femoral neck > distal radius (Colles) fractures, fractures of long bone (e.g. humerus)Vertebral compression (crush) fractures are commonly asymptomatic, but may cause acute back pain and possible point tenderness without neurological symptomsLong-term findings after repeated vertebral compression fracturesDecreased height (loss of 2–3 cm with each fractureThoracic hyper-kyphosis → stooped posture with a “dowager's hump” |
+| INVESTIGATIONS | BMD testing: Dual-energy x-ray absorptiometry (DEXA)Calculates bone mineral density (BMD) in g/cm2T ≤ -2.5 SD = osteoporosis-1  ≤ T  < -2.5 SD = osteopeniaPlain radiographyIncreased radiolucencyVertical compression fracturesBloodsFBC, EUC, TFTALP + phosphate  (osteomalacia)Corrected Ca, Albumin, PTH, 25-hydroxy vitamin D (2o osteoperosis)Consider: testosterone, urinary free cortisol (for Cushing’s Disease) |
 | MANAGEMENT | LifestyleCessation of smoking and caffeineWeight bearing exercise Dietary calcium and vitamin D intakeAvoid/minimise glucocorticoidsMedical TherapyIndicationHistory of fragility fracturesT-scores ≤ -2.5T-score between -1 and -2.5 with severely increased risk of fractureWith each therapy: Calcium (1200mg/d) and Vitamin D (1000 IU/d) supplementation Bisphosphonates: alendronate, risedronate, zoledronic acid (5mg IV/year) which inhibit Inhibits osteoclast-mediated bone resorption. They should be taken in the morning and evening, at least 30 minutes before meals to prevent them forming complexes with calcium. Contraindicated in hypocalcaemia and hypersensitivity. Side effects include  GI, MSK pain, headaches, and osteonecrosis of jawRaloxifene or DenosumabRaloxifene: decreases resorption of bone through selectively binding to estrogen receptors. Side-effects include hot flushes, increased risk of stroke and thromboembolism/ Denosumab: Inhibits RANKL (osteoclast differentiating factor) →  inhibits osteoclast formation and decreases bone resorptionNote: Teriparatide, a synthetic form of human parathyroid hormone (PTH), is the only osteoporosis treatment that increases bone formation - only if other treatment contraindicated |
 
 salter-harris classification for paediatric fractures
@@ -218,11 +218,11 @@ Low Ca 🡪 PTH release 🡪kidney 🡪 increase Ca reabsorption
 
 Vitamin D: from skin is hydroxylated by liver and then by kidney 🡪 Vit D 1,25 trigger by low Ca to increase intestinal uptake and bone reabsorption
 
-Calcitonin: release when serum Ca is elevates &amp; directly inhibits osteoclasts and increases urinary excretion from kidneys
+Calcitonin: release when serum Ca is elevates & directly inhibits osteoclasts and increases urinary excretion from kidneys
 
-Other: estrogen, thyroid hormone, insulin, growth hormone 🡪 promote osteoblast&gt;osteoclasts
+Other: estrogen, thyroid hormone, insulin, growth hormone 🡪 promote osteoblast>osteoclasts
 
-Glucocorticoids, excess thyroid hormone, acidosis 🡪 promote osteoclast&gt;osteoblasts
+Glucocorticoids, excess thyroid hormone, acidosis 🡪 promote osteoclast>osteoblasts
 
 ![](notes/images/orthopaedics-sneha/img004.jpg)
 
@@ -277,11 +277,11 @@ Generally, fractures will be immobilised for 4-6weeks which may lead to stiffnes
 
 - Prevention: daily shoulder stretches and avoid overuse of the one muscle
 
-- Epicondylitis: tennis elbow and golfers elbow Tennis players, w&gt;m, increased age
+- Epicondylitis: tennis elbow and golfers elbow Tennis players, w>m, increased age
 - Micro tears in muscles originating at elbow causing lateral (tennis elbow) and medial (golfer’s elbow) epicondyle
 - Prevention: proper ergonomic positioning / functioning in both workplace + recreational environmental
 
-- Adhesive capsulitis (frozen shoulder)W&gt;m, &gt; 40 years
+- Adhesive capsulitis (frozen shoulder)W>m, > 40 years
 - Stages: freezing (pain onset), frozen (slow improvement in pain but the stiffness remains and generally lasts from four to nine months) thawing (takes 26 months and pain/function returns to normal
 
 - Bursitis
@@ -493,7 +493,7 @@ Allergic Reactions
 | --- | --- |
 | Epidemiology | 10-15% of all children are affected with an age of onset between 3-6 months of ageDisease often improves with age |
 | Aetiology | Incompletely understoodGENETIC: polygenic inheritance of predisposition for increased IgE formation and sensitisation in which abnormal Th2 response in the skin → cytokine overproduction → excessive IgE production → allergic dermatitisTRIGGERS: dust, heat, dry/humid climates, emotional stress, infections, skin irritation |
-| Presentation | Intense pruritis and dry skinINFANTILE AD (&lt;2 YEARS): eczema (cheeks, face, head, extensors), Dennie-Morgan fold (below eye)CHILDHOOD AD (2-12 YEARS): eczema (flexural creases, skin folds, lichenified lesions (thickened skin)ADULT/ADOLESCENT AD (&gt; 12 YEARS): LICHENIFIED lesions and pruritis of flexor surfaces of extremities), nummular eczema (coin-shaped)ASSOCIATED: asthma, allergic rhinitis, xerosis |
+| Presentation | Intense pruritis and dry skinINFANTILE AD (<2 YEARS): eczema (cheeks, face, head, extensors), Dennie-Morgan fold (below eye)CHILDHOOD AD (2-12 YEARS): eczema (flexural creases, skin folds, lichenified lesions (thickened skin)ADULT/ADOLESCENT AD (> 12 YEARS): LICHENIFIED lesions and pruritis of flexor surfaces of extremities), nummular eczema (coin-shaped)ASSOCIATED: asthma, allergic rhinitis, xerosis |
 | Diagnostic Criteria | Essential: pruritis, eczema (maculopapular, erythematous lesions that can also have scale, crusting, oozing, or blistering)Important features: early age of onset, atopy, xerosis |
 | Differentials | Seborrheic dermatitis (usually more greasy lesions), psoriasis (onset in adolescent years) |
 | Management | Avoid triggers e.g. pets, dust, mites, pollens, foods, chemical/clothing irritants, heats, stressKeep skin moist with moisturisers and emollients (reduce skin evaporation to ↑ hydration)In severe AD can add topical steroids, calcineurin inhibitors (immunosuppressant), phototherapy (narrow band UVB) or systemic therapy (cyclosporine, azathioprine, methotrexate) |
@@ -533,10 +533,10 @@ connective tissue disorders
 | --- | --- | --- |
 | LARGE-VESSEL VASCULITIS |
 | Giant cell (temporal) arteritis | In CVS notes | In CVS notes |
-| Takayasu arteritis | Asian females &lt; 40 years oldWeak upper extremity pulses, fever, night sweats, arthritis, myalgias, skin nodules, ocular disturbances. | Granulomatous thickening +narrowing of aortic arch and proximal great vessels↑ESRTreat with corticosteroids |
+| Takayasu arteritis | Asian females < 40 years oldWeak upper extremity pulses, fever, night sweats, arthritis, myalgias, skin nodules, ocular disturbances. | Granulomatous thickening +narrowing of aortic arch and proximal great vessels↑ESRTreat with corticosteroids |
 | MEDIUM-VESSEL VASCULITIS |
 | Polyarteritis nodosa | Middle-aged menHep B seropositivity in 30% Fever, wt loss, malaise, headache.GI: abdominal pain, melenaRenal: HTN, neurologic dysfunction, cutaneous eruptions, renal damage | Renal and visceral vessels (not pulmonary arteries)Transmural inflammation of arterial wall with fibrinoid necrosisRenal microaneurysms and spasms on arteriogramTreat with corticosteroids, cyclophosphamide |
-| Kawasaki disease (mucocutaneous lymph node syndrome) | Asian children &lt; 4 years old.Conjunctival injection, rash (polymorphous desquamating), adenopathy (cervical), strawberry tongue (oral mucositis), hand and foot changes (edema, erythema), fever | Coronary artery aneurysms: thrombosis or rupture can cause death.Treat with IV immunoglobulin and aspirin |
+| Kawasaki disease (mucocutaneous lymph node syndrome) | Asian children < 4 years old.Conjunctival injection, rash (polymorphous desquamating), adenopathy (cervical), strawberry tongue (oral mucositis), hand and foot changes (edema, erythema), fever | Coronary artery aneurysms: thrombosis or rupture can cause death.Treat with IV immunoglobulin and aspirin |
 | Buerger disease (thromboangiitis obliterans) | Heavy smokers May lead to gangrene, autoamputation of digits, superficial nodular phlebitis.Raynaud phenomenon is often present. | Segmental thrombosing vasculitisTreat with smoking cessation |
 | SMALL-VESSEL VASCULITISFEATURES: palpable purpura, vesicles, chronic urticaria, superficial ulcers (erosions) |
 | Granulomatosis with polyangiitis (Wegener) | c-ANCA-associated vasculitisGranulomatosis inflammation of the vessels that affect upper airways (rhinitis, sinusitis), lungs (pulmonary nodules, infiltrates), and kidneys (GN, renal failure) | Triad: focal necrotizing vasculitis, necrotizing granulomas in the lung and upper airway, necrotizing glomerulonephritisPR3-ANCA/c-ANCA G (anti-proteinase 3)CXR: large nodular densitiesTreat with cyclophosphamide, corticosteroids |

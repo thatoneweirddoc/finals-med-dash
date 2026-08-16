@@ -107,7 +107,7 @@ Robbins & Cotran (oesophageal/gastric pathology, Barrett's, gastric cancer); NIC
 - DIAGNOSISHistory: Heartburn (retrosternal area, postprandial, exacerbated by bending/recumbence)
 - Associated: regurgitation, dysphagia, metallic taste in mouth, hiatus hernia, cough (atypical), chest pain (mimic angina pectoris; uncommon), globus sensation (lump in throat; uncommon), hematemesis (O)
 
-- INVESTIGATIONSpH monitoring:  Catheter in oesophagus for 24 hours, electrodes every 5 – 10cm apart, [atient notes time of the event/symptoms which can be correlated with pH readings and if correlating pH &lt;4 then GORD can be expected
+- INVESTIGATIONSpH monitoring:  Catheter in oesophagus for 24 hours, electrodes every 5 – 10cm apart, [atient notes time of the event/symptoms which can be correlated with pH readings and if correlating pH <4 then GORD can be expected
 - Endoscopy with biopsy – patients with troublesome dysphagia, odynophagia, GI bleeding, anaemia, weight loss or anorexia
 - Oesophageal manometry (assessing movement/peristalsis and pressure) – dysphagia
 
@@ -129,11 +129,11 @@ Robbins & Cotran (oesophageal/gastric pathology, Barrett's, gastric cancer); NIC
 - EPIDEMIOLOGY: M:F=3:1, 50-60 y/o onset, upper (20-33%)/middle (33%)/lower (33-50%)
 - Regardless of type, is aggressive and spreads rapidly due to the extensive lymphatic network in the submucosa
 - OESOPHAGEAL SCC (arise from the skin cells lining oesophagus, affecting upper 2/3 of oesophagus)
-- ↑ risk in males; rarely seen &lt; 30 y/o’; most common worldwide (incidence has fallen that adenocarcinoma has become most common)
+- ↑ risk in males; rarely seen < 30 y/o’; most common worldwide (incidence has fallen that adenocarcinoma has become most common)
 - Causative factors: Smoking, EtOH, hot liquids, underlying oesophageal disease e.g. strictures/diverticula/achalasia
 - Lesions are subtle and can be missed on endoscopy
 - OESOPHAGEAL ADENOCARCINOMA (arise from the glandular cells present in lower 1/3 of oesophagus)
-- ↑ risk in males; rarely seen &lt; 40 y/o
+- ↑ risk in males; rarely seen < 40 y/o
 - Causative factors: Gastric metaplasia from gastric reflux (GORD), Barrett’s oesophagus, smoking, EtOH
 - HISTORY: progressively worsening dysphagia (first solids than liquids) with or without odynophagia, frequently asymptomatic (late presentation), constitutional symptoms, regurgitation and aspiration, anaemia, dyspepsia, hematemesis
 - DIRECT HEMATOGENOUS, OR LYMPHATIC SPREAD- trachea (coughing), recurrent laryngeal nerves (hoarseness, vocal paralysis), aortic, liver, lung, bone, celiac and mediastinal nodes
@@ -195,7 +195,7 @@ tissues/distanct organs); bronchoscopy ± thoracoscopy (rule out airway invasion
 
 - DEFINITION: metaplastic columnar epithelium replaces the stratified squamous epithelium that normally lines the distal esophagus (intestinal metaplasia)
 - AETIOLOGY: Long-standing GORD (gastric acid secretion + reflux)
-- EPIDEMIOLOGY: &gt; 50 y/o, M&gt;F, Caucasians, smokers, overweight, hiatus hernia, reflux Sx
+- EPIDEMIOLOGY: > 50 y/o, M>F, Caucasians, smokers, overweight, hiatus hernia, reflux Sx
 - PATHOPHYSIOLOGY: endoscopy shows erythematous epithelium in distal oesophagus, need biopsy for diagnosis
 - Pre-malignant changes categorized as low/high-grade dysplasia 🡪 can progress to adenocarcinoma
 - TREATMENT AND MANAGEMENT: 1. Acid suppression (high-dose PPI/surgical fundoplication), 2. endoscopy every 3 year if no dysplasia, 3. Regular surveillance + biopsy, endoscopic ablation/resection or oesophagectomy
@@ -206,7 +206,7 @@ tissues/distanct organs); bronchoscopy ± thoracoscopy (rule out airway invasion
 
 ### General Surgery & Gastroenterology (ANU) — gastric cancer — Oesophageal & Gastric Disorders
 
-- EPIDEMIOLOGY: 50-59 y/o, M&gt;F
+- EPIDEMIOLOGY: 50-59 y/o, M>F
 - AETIOLOGY: compensatory epithelial cell proliferation via gastric atrophy (H.Pylori gastritis, pernicious anaemia, previous partial gastrectomy), host-related (blood type A, HNPCC, hereditary diffuse gastric carcinoma HDGC, gastric adenomatous polyps), environmental (smoking, EtOH, smoked/salted food)
 - PATHOGENESIS: Gastric dysplasia 🡪 gastric adenocarcinoma 🡪 early cancer limited to the mucosa + submucosa, regardless of lymph node status 🡪 malignant epithelial tumour, originating from glandular epithelium of the gastric mucosa
 - CLASSIFICATIONS
@@ -256,7 +256,7 @@ tissues/distanct organs); bronchoscopy ± thoracoscopy (rule out airway invasion
 
 ### General Surgery & Gastroenterology (ANU) — peptic ulcer disease — Oesophageal & Gastric Disorders
 
-- DEFINITION: Break in the mucosal lining of the stomach/duodenum &gt; 5mm in diameter, with a depth to the submucosa
+- DEFINITION: Break in the mucosal lining of the stomach/duodenum > 5mm in diameter, with a depth to the submucosa
 - EPIDEMIOLOGY: ↑incidence with age, M=F
 - AETIOLOGY: H. pylori infection (90% of duodenal, 60% of gastric), NSAID use, Zollinger-Ellison syndrome, malignancy. Only 5% of population of H.Pylori are symptomatic.
 - PATHOGENESIS: Imbalance between gastric acid that damages the gastroduodenal mucosal defenses (mucus HCO3-, tight junctions b/w epithelial cells, process of restitution) that normally limits the injury.
@@ -278,7 +278,7 @@ tissues/distanct organs); bronchoscopy ± thoracoscopy (rule out airway invasion
 - Serology for H.Pylori- can remain positive after treatment
 - DIFFERENTIAL DIAGNOSES: stomach cancer, GORD, acute pancreatitis, coeliac disease
 - TREATMENT AND MANAGEMENT
-- Goals: 1. Treat underlying cause 2. Inhibit hypersecretion of acid (pH &gt;6  ↓  pepsin which ↓ fibrin clot degradation)
+- Goals: 1. Treat underlying cause 2. Inhibit hypersecretion of acid (pH >6  ↓  pepsin which ↓ fibrin clot degradation)
 - Cessation of NSAID, smoking, EtOH if possible
 - Triple Therapy (PPI + 2ABx)
 - Acid Suppression- PPI e.g. emomeprazole: inhibits parietal cell H+/K+ ATPase pump which secretes acid (heals most ulcers even if NSAIDs continued). H2 antagonists e.g. ranitidine can be used; except less effective.
@@ -303,7 +303,7 @@ tissues/distanct organs); bronchoscopy ± thoracoscopy (rule out airway invasion
 
 - EPIDEMIOLOGY: 50% present as acute appendicitis, spreads rapidly to lymph nodes, ovaries, and peritoneal surfaces
 - CLINICAL PRESENTATION: ascites, bloating, appendicitis pain, changes in bowel function
-- TREATMENT: appendectomy (only treatment when tumour &lt;1.5cm), right hemicolectomy (with nearby blood vessels + lymph nodes; no stoma required), debulking/cytoreduction surgery (doctor removes as much tumour as possible, usually followed by chemotherapy), chemotherapy
+- TREATMENT: appendectomy (only treatment when tumour <1.5cm), right hemicolectomy (with nearby blood vessels + lymph nodes; no stoma required), debulking/cytoreduction surgery (doctor removes as much tumour as possible, usually followed by chemotherapy), chemotherapy
 
 PANCREAS
 
@@ -390,7 +390,7 @@ Normal protective mechanisms exist to control gastric mucosal function and repai
 
 *2. MECHANISMS OF GASTRODUODENAL PROTECTION BY ENDOGENOUS PROSTAGLANDINS *
 
-There are also non-antisecretory effect of PGs (ie not to do with inhibiting gastrin) called &quot;cytoprotection&quot;. Some of the cytoprotective mechanisms of PGs include:
+There are also non-antisecretory effect of PGs (ie not to do with inhibiting gastrin) called "cytoprotection". Some of the cytoprotective mechanisms of PGs include:
 
 ●Stimulation of glycoprotein (mucin) AND bicarb secretion by epithelial cells
 
@@ -461,7 +461,7 @@ non selective NSAIDs a/w 1-4% per year risk of a clinically significant NSAID-in
 
 - prior history of clinical PUD or PUD complications
 - duration of action, dose, duration of therapy with NSAIDs
-- old age (esp &gt;75)
+- old age (esp >75)
 - co therapy with drugs that enhance toxicity
 - genetic predisposition (P4502C9 polymorphism may delay metabolism)
 
@@ -508,7 +508,7 @@ bonus - family history of GI cancer.
 
 **Describe the natural history of PUD**
 
-~ 60 % of peptic ulcers heal spontaneously but with eradication of *H. pylori *infection, ulcer healing rates are &gt;90 %. Even with continued PPI use, ~ 5 to 30 % of peptic ulcers recur within the first year based on whether *H. pylori* has been eradicated. ~ 5 to 10 % of ulcers are refractory to antisecretory therapy with a PPI. The risk of complications in patients with chronic PUD is 2 to 3 % per year.
+~ 60 % of peptic ulcers heal spontaneously but with eradication of *H. pylori *infection, ulcer healing rates are >90 %. Even with continued PPI use, ~ 5 to 30 % of peptic ulcers recur within the first year based on whether *H. pylori* has been eradicated. ~ 5 to 10 % of ulcers are refractory to antisecretory therapy with a PPI. The risk of complications in patients with chronic PUD is 2 to 3 % per year.
 
 **What are the complications of PUD**
 
@@ -625,11 +625,11 @@ refractory PUD
 
 H pylori negative and NSAID negative ulcer
 
-giant (&gt;2cm) ulcer and age &gt; 50
+giant (>2cm) ulcer and age > 50
 
 failure of H pylori eradication
 
-frequent recurrent PUs (&gt;2 in one year)
+frequent recurrent PUs (>2 in one year)
 
 continued NSAID use
 

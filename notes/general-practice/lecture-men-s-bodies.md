@@ -49,7 +49,7 @@ CLINICAL ASSESSMENT
 
 - Oral or injectable
 - Cycling, stacking and pyramiding
-- Reversible SE: ↑appetite, anxiety, aggression, acne, libido change, scrotal pain &amp; impotence, oedema
+- Reversible SE: ↑appetite, anxiety, aggression, acne, libido change, scrotal pain & impotence, oedema
 - Irreversible SE: hirsutism, striae, baldness, cardiac disease, gynaecomastia, testicular atrophy, infertility may improve
 - May also use tamoxifen, HCG, diuretics, opioids to counteract SE
 - Long-term risks: cardiac disease, cholestasis, hepatocellular carcinoma, tendon rupture, mental illness (depression)
@@ -61,7 +61,7 @@ CLINICAL ASSESSMENT
 
 #### Erectile Dysfunction
 
-- Epidemiology: 20% of men &gt; 40 y/o; &lt; 20% present for treatment
+- Epidemiology: 20% of men > 40 y/o; < 20% present for treatment
 - Consequences of delayed treatment:
 - Poorer response to treatment
 - Increased emotional impact
@@ -91,6 +91,6 @@ RED FLAGS:
 
 #### Depression in men
 
-- 12.2% of Australian males &gt; 16 years expected to experience mood disorder in their lifetime
+- 12.2% of Australian males > 16 years expected to experience mood disorder in their lifetime
 - Suicide rate higher in men
 - Describe somatic symptoms more often than woman

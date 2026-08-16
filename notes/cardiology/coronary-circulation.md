@@ -82,8 +82,8 @@ The **left main** coronary artery divides into the **LAD** and **circumflex**; t
 | Definition | Symptom complex resulting when myocardial O2 demand exceeds O2 supply |
 | --- | --- |
 | Pathophysiology | Factors that ↓ supply: ↓ luminal diameter (atherosclerosis, vasospasm), ↑ diastole (tachycardia), ↓ Hb, ↓SaO2, congenital anomaliesFactors that ↑ demand: ↑ HR/contractility (hyperthyroidism), ↑ wall stress (myocardial hypertrophy, aortic stenosis) |
-| Classification- Canadian Cardiovascular Society (CCS) | Class I: ordinary activity doesn’t cause angina; with strenuous/rapid/prolonged activityClass II: slight limitation of activity; brought on at &gt;2 blocks on level/climbing &gt;1 flight of stairs or by emotional stressClass III: marked limitation of ordinary activity at &lt;2 blocks on level/climbing &lt;1 flight of stairsClass IV: inability to carry activity without discomfort; angina may be present at rest |
-| Presentation | TYPICAL ANGINARetrosternal chest pain/discomfort radiating to left (± right) shoulder/arm/neck/jaw, associated with diaphoresis, nausea, anxietyPrecipitated by exertion, emotion, eatingBrief duration &lt;10-15 min and typically relieved by rest and nitratesATYPICAL/PROBABLE ANGINA (meets 2 of the above)NON-CARDIAC CHEST PAIN (meets &lt;1 of the above)Levine’s sign: clutching fist over sternum when describing chest painEquivalents: dyspnoea, acute LV failure, flash pulmonary oedema |
+| Classification- Canadian Cardiovascular Society (CCS) | Class I: ordinary activity doesn’t cause angina; with strenuous/rapid/prolonged activityClass II: slight limitation of activity; brought on at >2 blocks on level/climbing >1 flight of stairs or by emotional stressClass III: marked limitation of ordinary activity at <2 blocks on level/climbing <1 flight of stairsClass IV: inability to carry activity without discomfort; angina may be present at rest |
+| Presentation | TYPICAL ANGINARetrosternal chest pain/discomfort radiating to left (± right) shoulder/arm/neck/jaw, associated with diaphoresis, nausea, anxietyPrecipitated by exertion, emotion, eatingBrief duration <10-15 min and typically relieved by rest and nitratesATYPICAL/PROBABLE ANGINA (meets 2 of the above)NON-CARDIAC CHEST PAIN (meets <1 of the above)Levine’s sign: clutching fist over sternum when describing chest painEquivalents: dyspnoea, acute LV failure, flash pulmonary oedema |
 | Investigations | Bloods: Hb, fasting glucose, fasting lipid profleECG: at rest and during episode of chest pain if possibleCXR: HF, valvular disease, pericardial disease, aortic dissection/aneurysm, pulmonary diseaseStress testing or angiographyEcho: to assess systolic murmur suggestive of aortic stenosis, mitral regurgitation, and/or HCM and to assess LV function in patients with prior MI, pathological Q waves, CHF |
 | Treatment | Lifestyle, statins/antihypertensives (for RF), pharmacology (stabilise coronary plaque)Antiplatelets (1st line):  e.g. aspirin 75 to 325 mg daily, clopidogrelβ-blockers (1st line):  ↑ coronary perfusion and ↓ demand (HR, contractility) and BP (aferload). Cardioselective agents (e.g. metoprolol, atenolol) to avoid peripheral effects (inhibition of vasodilation and bronchodilation via β2 receptors)  Nitrates (symptomatic, 1ST line): ↓ preload (venous dilatation) + afterload (arteriolar dilatation),and ↑ coronary perfusion. Maintain daily nitrate-free intervals to prevent toleranceCCBs: ↑perfusion and ↓ demand (HR, contractility) and BP (afterload)ACEI: for risk factor management (HTN, DM, proteinuric renal disease, previous MI, LV dysfunction)ARBs: when ACE-I contra-indicatedInvasive: revascularization |
 | Other | Variant angina (Prinzmetal’s): Occurs at rest/asleep 2o to coronary artery spasm with transient ST elevation on ECGRisk factors: smoking (but HTN and hypercholesterolemia are not)Triggers: cocaine, EtOH, triptansTreatment: CCBs, nitrates, smoking cessation   Syndrome X: typical angina Sx (normal angiogram, may show definite signs of ischemia with exercise testing); due to inadequate vasodilator reserve of coronary resistance vessels |
@@ -102,7 +102,7 @@ The **left main** coronary artery divides into the **LAD** and **circumflex**; t
 | NSTEMI | - | + |
 | Unstable Angina | - | - |
 
-- UNSTABLE ANGINA: ACS with no biomarker changes of myocardial damage; clinically defined:  ↑ frequency, duration (&gt; 20m), ↓ threshold of exertion, ↓ response to treatment
+- UNSTABLE ANGINA: ACS with no biomarker changes of myocardial damage; clinically defined:  ↑ frequency, duration (> 20m), ↓ threshold of exertion, ↓ response to treatment
 - Angina at rest
 - New onset of severe angina
 - Angina that occurs after a recent episode of MI/post-procedure (e.g. PCI, CABG)
@@ -155,7 +155,7 @@ Globally, leading cause of death for men and women
 
 **Presentation**
 
-- Commonly occluded coronary arteries: LAD &gt; RCA &gt; circumflex
+- Commonly occluded coronary arteries: LAD > RCA > circumflex
 - Local myocardial inflammation 🡪 irritation of cardiac plexus, T1-T4 dermatome afferents and Irritation of cardiac branches of vagus nerve 🡪  reflexive vagal responsesRetrosternal chest pain, radiating to jaw, arm or neck
 - Weakness, dizziness, nausea, vomiting, palpations, syncope
 
@@ -179,8 +179,8 @@ Globally, leading cause of death for men and women
 
 - 12- LEAD ECG: for all those with chest pain
 - STEMI: new LBBB or ST-segment elevation of at least 1mm in 2 or more contiguous leads
-- NSTEMI: ST depressions (atleast 0.5 mm) or T wave inversions (1.0 mm at least) without Q waves in 2 contiguous leads with prominent R wave or R/S ratio &gt;1
-- Isolated T wave inversions: ↑risk for MI; may represent Wellen’s syndrome (critical LAD stenosis, &gt;2mm inversions in anterior precordial leads )
+- NSTEMI: ST depressions (atleast 0.5 mm) or T wave inversions (1.0 mm at least) without Q waves in 2 contiguous leads with prominent R wave or R/S ratio >1
+- Isolated T wave inversions: ↑risk for MI; may represent Wellen’s syndrome (critical LAD stenosis, >2mm inversions in anterior precordial leads )
 - Unstable angina: may have non-specific or transient ST depressions/elevation
 
 ![](notes/images/cardiovascular-anu/img012.jpg)
@@ -200,7 +200,7 @@ ACUTE (MNEMONIC MONASH TB)
 
 - Stabilise: ABCs, correct haemodynamic status, telemetry, 3 sets of troponins (if no ECG changes)
 - Morphine
-- Oxygen: if PaO2 &lt; 90
+- Oxygen: if PaO2 < 90
 - Nitrate: glyceryl trinitrate (sublingual/IV) → vasodilation (CI: RV and inferior infarcts as vasodilation ↑ venous return which ↑ pumping action of R. heart)
 - Aspirin (COX Inhibitor) + Clopidogrel (inhibits platelet activation)
 - Heparin: unfractioned heparin/LMWH
@@ -212,7 +212,7 @@ ACUTE (MNEMONIC MONASH TB)
 - Contraindications: prior ICH, known malignant intracranial neoplasm, closed-head/facial trauma (≤3m), ischaemic stroke (≤3m), active bleeding, suspected aortic dissection
 - Emergency revascularization (necessary for STEMI but optional otherwise)
 - Coronary angiography (locate infarcted vessel) + PCI within 90 minutes (balloon angioplasty and stenting or atherectomy)
-- Primary PCI (without prior thrombolytic therapy) and recue PCI (following failed thrombolytic therapy shown by &lt; ½ reduction in ST elevation)
+- Primary PCI (without prior thrombolytic therapy) and recue PCI (following failed thrombolytic therapy shown by < ½ reduction in ST elevation)
 - PCI is used in medically refractive angina, NSTEMI, UA and rescue/primary for STEMI
 - Balloon inflation to dilate coronary lesions 🡪 intracoronary stent to prevent restenosis (bare metal stent, drug-eluting stent)
 - Coronary bypass grafting (if PCI unsuccessful or in high risk patients with multiple lesions)
@@ -221,7 +221,7 @@ ACUTE (MNEMONIC MONASH TB)
 
 | PCI | CABG |
 | --- | --- |
-| Less invasive, ↓ periprocedural M&amp;M, ↓ hospitalisationIndications: single/double-vessel disease, inability to tolerate surgery | ↑ ability for complete revascularisationIndications: triple-vessel disease (≥ 70% stenosis), left main disease (≥ 50%), DM, plaque morphology unfavourable for PCIConduits include saphenous vein, left inte |
+| Less invasive, ↓ periprocedural M&M, ↓ hospitalisationIndications: single/double-vessel disease, inability to tolerate surgery | ↑ ability for complete revascularisationIndications: triple-vessel disease (≥ 70% stenosis), left main disease (≥ 50%), DM, plaque morphology unfavourable for PCIConduits include saphenous vein, left inte |
 
 POST MI (MNEMONIC LEN SAAB C)
 
@@ -248,7 +248,7 @@ RISK STRATIFICATION: TIMI SCORE - 0-2: LOW 3-4: INTERMEDIATE 5-7: HIGH RISK
 **Complications**
 
 - Cardiac rupture, Arrhythmia, Shock, HTN/HF, Pericarditis/PE, Aneurysm, DVT/death
-- CARDIAC SHOCK: state of inadequate tissue perfusion due to cardiac dysfunction (sBP &lt;80 mmHG/&lt;90mmHg with inotropes, ↓ cardiac index &lt; 2.0L/min/m2, oliguria, peripheral vasoconstriction and altered LOC)
+- CARDIAC SHOCK: state of inadequate tissue perfusion due to cardiac dysfunction (sBP <80 mmHG/<90mmHg with inotropes, ↓ cardiac index < 2.0L/min/m2, oliguria, peripheral vasoconstriction and altered LOC)
 
 **Prognosis**
 

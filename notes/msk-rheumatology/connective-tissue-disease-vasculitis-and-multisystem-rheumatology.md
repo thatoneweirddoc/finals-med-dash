@@ -183,7 +183,7 @@ Kumar & Clark; Robbins; StatPearls (SLE, APS, systemic sclerosis, GCA, ANCA vasc
 
 | Definition | Characterised by pain and stiffness (no muscle weakness) in proximal extremities (girdle area) |
 | --- | --- |
-| Epidemiology | F&gt;M, age of onset &gt; 50 years, most common inflammatory rheumatic disease in the elderly |
+| Epidemiology | F>M, age of onset > 50 years, most common inflammatory rheumatic disease in the elderly |
 | Aetiology | Unknown, possibly contributed by genetic predisposition (HLA-DR4) and GCA (in ~15%) |
 | Presentation | Constitutional: fever, weight loss, night sweats, symptoms of anaemiaMood: depressedPain and stiffness of symmetrical proximal muscles: neck, shoulder, hip girdles, thighsGel phenomenon: stiffness after prolonged activityGCA symptoms |
 | Investigations | Bloods: ↑ESR, ↑CRP, leucocytosis, normochromic anaemia, normal CK, neg RF, no autoantibodiesImaging: bursitis on ultrasound of affected joints |

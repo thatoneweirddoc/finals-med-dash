@@ -224,7 +224,7 @@ ADRENAL CRISIS (ADDISON’S CRISIS)
 
 | DEFinition | Group of autosomal recessive defects in enzymes that are responsible for cortisol, aldosterone and in very rare cases, androgen synthesisAll forms of CAH are characterized by ↓ cortisol, ↑ ACTH, and adrenal hyperplasiaCAH can manifest either in a salt-losing form or in a non-salt-losing form |
 | --- | --- |
-| Pathophysiology | CAH is a result of autosomal recessive defects in enzymes that are responsible for the production of cortisol. The most common defects are:21β-hydroxylase (&gt; 95% ): ↓cortisol, ↓ aldosterone, ↓ 11-deoxycorticostrone, ↑ androgen11β-hydroxylase (∼ 5%): ↓cortisol, ↓ aldosterone, ↑ 11-deoxycorticostrone, ↑ androgen17α-hydroxylase (rare): ↓cortisol, ↓ aldosterone, ↑ 11-deoxycorticostrone, ↓ androgen↓ cortisol → lack of negative feedback to the pituitary → ↑ ACTH → adrenal hyperplasia and increased synthesis of adrenal precursor steroids |
+| Pathophysiology | CAH is a result of autosomal recessive defects in enzymes that are responsible for the production of cortisol. The most common defects are:21β-hydroxylase (> 95% ): ↓cortisol, ↓ aldosterone, ↓ 11-deoxycorticostrone, ↑ androgen11β-hydroxylase (∼ 5%): ↓cortisol, ↓ aldosterone, ↑ 11-deoxycorticostrone, ↑ androgen17α-hydroxylase (rare): ↓cortisol, ↓ aldosterone, ↑ 11-deoxycorticostrone, ↓ androgen↓ cortisol → lack of negative feedback to the pituitary → ↑ ACTH → adrenal hyperplasia and increased synthesis of adrenal precursor steroids |
 | Presentation | Females: in both forms, presents at birth with ambiguous genitaliaMales: presents at birth with adrenal crisis in the salt-losing form, but presents with precocious puberty in the non-salt-losing form |
 | Investigations | Electrolyte abnormalities include hyponatremia, hyperkalaemia, and metabolic acidosis. In severe cases, mineralocorticoid deficiency may lead to life-threatening salt wastingAn elevated serum 17-hydroxyprogesterone level is diagnostic |
 | Management | MedicalImmediate fluid resuscitation and salt repletionAdminister cortisol to ↓ ACTH and adrenal androgensFludrocortisone is appropriate for severe 21-hydroxylase deficiency.Surgical: cocorrect ambiguous genitalia in female infants |
@@ -286,9 +286,9 @@ Each gland is composed of the capsule, cortex and medulla (embryologically, thes
 | ADRENOCORTICAL HORMONES |
 | Mineralocorticoids (chiefly aldosterone) | Stimulated by RAAS, serum ↑K+ or ↓Na+ ACTH (minor stim)Inhibited by own effect(↑ BP, ↓ K, ↑ Na) | Collecting duct in glomerulus in kidneys:↑’s Na+ blood levels and ↓’s K+ blood levels ↑BP through water retention | ↑:Aldosteronism(Conn’s disease)↓:Addison’s disease |
 | Glucocorticoids (chiefly cortisol) | Stimulated by ACTH; in response to stress and diurnal rhythms in a feed forward mechanismInhibited by feedback inhibition exerted by cortisol on the anterior pituitary and hypothalamus | Anabolic effects on liver↑ enzyme synthesis↑ gluconeogenesis 🡪 ↑ plasma [glucose]Catabolic effectsIn muscle, lymphoid, skin, adipose tissue:↑ mobilisation of fats↑  protein catabolism 🡪 ↑ free aa↓ protein / nuclei acid synthesis↓ glucose uptake by cellsOtherAssist body to resist stressors↓inflammatory, immune response | ↑:Cushing’s syndrome↓:Addison’s disease |
-| Gonadocorticoids (chiefly androgens, converted to testosterone or oestrogens after release) | Stimulated by ACTH;Inhibition mechanism incompletely understood, but feedback inhibition not seen | Insignificant effects in males;Responsible for female libido;Development of pubic &amp; axillary hair in females;Post-menopause oestrogen source | ↑: Virilisation of females (adrenogenital syndrome)↓: No effects known |
+| Gonadocorticoids (chiefly androgens, converted to testosterone or oestrogens after release) | Stimulated by ACTH;Inhibition mechanism incompletely understood, but feedback inhibition not seen | Insignificant effects in males;Responsible for female libido;Development of pubic & axillary hair in females;Post-menopause oestrogen source | ↑: Virilisation of females (adrenogenital syndrome)↓: No effects known |
 | ADRENAL MEDULLARY HORMONES |
-| Catecholamines (noradrenaline and adrenaline) | Stimulated by preganglionic fibres of sympathetic nervous system | SNS target organs:Effects mimic sympathetic nervous system activation;↑HR &amp; metabolic rate;↑BP by ++ vasoconstriction | ↑: HypertensionProlonged fight-or-flight response;↓:Unimportant |
+| Catecholamines (noradrenaline and adrenaline) | Stimulated by preganglionic fibres of sympathetic nervous system | SNS target organs:Effects mimic sympathetic nervous system activation;↑HR & metabolic rate;↑BP by ++ vasoconstriction | ↑: HypertensionProlonged fight-or-flight response;↓:Unimportant |
 
 
 ---
@@ -371,9 +371,9 @@ Addison’s disease - only became treatable in the 1930s when cortisol became ex
 
 This can be accomplished through measurement of the late-afternoon ACTH plasma level. Late-afternoon (after 4 p.m.) timing is important because ACTH levels are normally low at that time.
 
-**If the ACTH level &gt; than 10 pg per mL = ACTH dependent. **
+**If the ACTH level > than 10 pg per mL = ACTH dependent. **
 
-**If the ACTH level is &lt; 5 pg per mL = ACTH independent**
+**If the ACTH level is < 5 pg per mL = ACTH independent**
 
 Intermediate ACTH levels indicate the need for further study with, for example, a CRH stimulation test.
 
@@ -403,12 +403,12 @@ adrenal “incidentalomas” common – need to rule out hormone production/canc
 
 ### Adrenal Summary — CT and MRI — Adrenal Disorders
 
-- Adrenal tumors &gt; 6cm are highly suspicious for adrenocortical carcinomas.
-- CT &gt; MRI esp for detecting small unilateral adrenocortical adenomas or bilateral micronodular hyperplasia
+- Adrenal tumors > 6cm are highly suspicious for adrenocortical carcinomas.
+- CT > MRI esp for detecting small unilateral adrenocortical adenomas or bilateral micronodular hyperplasia
 - MRI with dynamic gadolinium-enhanced and chemical shift technique is as effective as CT in distinguishing malignant from benign lesions.
 - MRI is much less useful for detecting adrenal nodularity owing to motion artifacts.
 - differentiation btw malignant and benign adrenal tumors fat content
-- Measurement of Hounsfield units (HU) in unenhanced CT attenuation value &gt; 10 HU OR enhancement washout &lt; 50% and a delayed attenuation &gt; 35 HU (on 10- to 15-min delayed enhanced CT) are suspicious for malignancy.
+- Measurement of Hounsfield units (HU) in unenhanced CT attenuation value > 10 HU OR enhancement washout < 50% and a delayed attenuation > 35 HU (on 10- to 15-min delayed enhanced CT) are suspicious for malignancy.
 
 
 ---
@@ -416,12 +416,12 @@ adrenal “incidentalomas” common – need to rule out hormone production/canc
 
 ### Adrenal Summary — Treatment of Adrenal Disease eg adrenocortical cancer — Adrenal Disorders
 
-- Laparoscopic adrenalectomy 1st choice for benign adrenal lesions w/ diameter of &lt; 6cm.
+- Laparoscopic adrenalectomy 1st choice for benign adrenal lesions w/ diameter of < 6cm.
 - The treatment of choice for bilateral adrenal hyperplasias associated with ACTH-independent Cushing's syndrome
 - Complications: Patients require lifelong replacement therapy with glucocorticoids and mineralocorticoids, and they should be adequately educated about the risk of acute adrenal insufficiency
 - In stages I to III adrenocortical carcinoma, complete tumor removal offers best chance for cure.
 - disadvantage: Surgery’s often extensive, with en bloc resection of invaded organs, and regularly includes lymphadenectomy.
-- 5 YSR ranges between 16% and 38%. Median survival for metastatic disease (stage IV) is &lt; 12 months.
+- 5 YSR ranges between 16% and 38%. Median survival for metastatic disease (stage IV) is < 12 months.
 
 - Radiotherapyineffective for adrenocortical cancer
 - can control localized disease not amenable to surgery.

@@ -104,7 +104,7 @@ Endocrine Society/relevant guidelines (PCOS Rotterdam criteria, MEN, neuroendocr
 
 ### Endocrinology (ANU) — metabolic syndrome — Reproductive, Metabolic & Multi-Gland Endocrinology
 
-| DEFINITION | Also known as insulin resistance syndrome or Syndrome XSeveral risk factors that increase the risk of cardiovascular disease, type 2 diabetes, and fatty liverPresence of ≥ 3 of the following conditions (or already receiving medical treatment for them) Insulin resistance: fasting glucose ≥ 100 mg/dLElevated blood pressure: ≥ 130/85 mm HgElevated triglycerides: ≥ 150 mg/dL Low HDL-C: in men &lt; 40 mg/dL; in women &lt; 50 mg/dLAbdominal obesity: waist circumference ≥ 102 cm in men; ≥ 88 cm in women |
+| DEFINITION | Also known as insulin resistance syndrome or Syndrome XSeveral risk factors that increase the risk of cardiovascular disease, type 2 diabetes, and fatty liverPresence of ≥ 3 of the following conditions (or already receiving medical treatment for them) Insulin resistance: fasting glucose ≥ 100 mg/dLElevated blood pressure: ≥ 130/85 mm HgElevated triglycerides: ≥ 150 mg/dL Low HDL-C: in men < 40 mg/dL; in women < 50 mg/dLAbdominal obesity: waist circumference ≥ 102 cm in men; ≥ 88 cm in women |
 | --- | --- |
 | MANAGEMENT | First-line: lifestyle modificationsDietary changes: calorie restriction, healthy foods (e.g., fruit/vegetables, protein-rich, unsaturated fats, sodium-restricted)Physical activity: minimum of 30 minutes moderate exercise per day (2.5 hours per week) , which increases insulin sensitivity, lowers blood pressure, and promotes weight lossMedical therapy: treat hypertension, diabetes mellitus, and dyslipidaemiaBariatric surgery: if BMI ≥ 40 and no success with dietary and lifestyle changes Sleeve gastrectomy: large part of the greater curvature is removed, so that the remaining stomach resembles a sleeveRoux-en-Y gastric bypass |
 
@@ -135,7 +135,7 @@ thyroid disorders
 
 **Epidemiology - **extremely rare - 1-2 people per million.
 
-- Macroscopic: &gt;100g (&gt;750g) yellowish cut surface. necrosis, haemorrhage,calcification.
+- Macroscopic: >100g (>750g) yellowish cut surface. necrosis, haemorrhage,calcification.
 
 **Microscopic**: solid, lobules Variable cortical cells, ↑ mitoses, necrosis, haemorrhage. +/- invasion into capsule or blood vessels
 

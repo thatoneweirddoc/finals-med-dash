@@ -243,7 +243,7 @@ RADIATION THERAPY
 
 SURGICAL MANAGEMENT
 
-| Lobectomy | Standard approach in early stage NSCLCResection of one lobe Pulmonary function preservedIf FEV1 &gt; 1.5 L and DLCO &gt; 60%, lobectomy can be tolerated |
+| Lobectomy | Standard approach in early stage NSCLCResection of one lobe Pulmonary function preservedIf FEV1 > 1.5 L and DLCO > 60%, lobectomy can be tolerated |
 | --- | --- |
 | Sublobar resection | Wedge resection/segmentectomy for those who cannot tolerate lobectomyAdv: ↓ perioperative mortality than lobectomy; preserved lung functionDisadv: only for small (≤3 cm), localized tumours |
 | Pneumonectomy | Complete lung resection in the case of a central tumour |
@@ -268,7 +268,7 @@ CNS TUMOURs
 | PILOCYTIC ASTROCYTOMA (GRADE I- LOW GRADE) | Definition: derived from astrocytes (glial cell)Location: most commonly in children, suprotentorial in adultsFeatures: Benign slow-growing tumour that usually arises in the posterior fossa of the cerebellum, forming single/multiple cystsHistology: biphasic (cell rich and cell poor cystic areas), Rosenthal fibres (eosinophilic, corkscrew fibres)Prognosis: good |
 | --- | --- |
 | CRANIOPHARYNGIOMA | Definition: derived from remnants of the Rathke pouchFeatures: most common supratentorial tumour that is generally benign with ↑ recurrence after resection; calcification of sella(tooth enamel-like); bitemporal hemianopiaPresentation: short statureHistology: nesting of squamous epithelium bordered by radially arranged cellsPrognosis: good |
-| MEDULLOBLASTOMA | Definition: originates from immature or embryonal cells at their earliest stage of developmentFeatures: highly malignant, compress 4th ventricle (→ hydrocephalus), seeds arachnoid space → “drop metastases” to spinal cordHistology:  Homer-Wright rosettes (differentiated tumour cells surrounding neuropil), small blue cellsPrognosis: dependent on transcriptional profiling but poor prognosis for children &lt;3 years oldTreatment: resection, radiation for mets |
+| MEDULLOBLASTOMA | Definition: originates from immature or embryonal cells at their earliest stage of developmentFeatures: highly malignant, compress 4th ventricle (→ hydrocephalus), seeds arachnoid space → “drop metastases” to spinal cordHistology:  Homer-Wright rosettes (differentiated tumour cells surrounding neuropil), small blue cellsPrognosis: dependent on transcriptional profiling but poor prognosis for children <3 years oldTreatment: resection, radiation for mets |
 | EPENDYMOMA | Definition: arises from the ependymal, the thin epithelium-like lining of the ventricular systemFeatures: commonly 4th ventricle, obstructive hydrocephalus (child better in fetal position)Histology: perivascular rosettes, blepharoblasts (basal ciliary bodies) near nucleusPrognosis: poorTreatment: resection |
 
 
@@ -283,7 +283,7 @@ CNS TUMOURs
 | HAEMANGIO-BLASTOMA | Definition: originate from the vascular system of CNSFeatures: associated with von Hippel-Lindau syndrome when found with retinal angiomas, most often cerebellarHistology: closely arranged, thin-walled capillaries with minimal interleaving parenchymaPrognosis: very good, if surgical extraction of tumour can be achieved |
 | SCHWANNOMA | Definition: nerve sheath tumour composed of Schwann cellsFeatures: often benign, localised to CN VIII (acoustic neuroma → hearing loss, tinnitus and disequilibrium); bilateral acoustic neuroma associated with NF-2Prognosis: resectable or treated with stereotactic radiosurgery |
 | OLIGO-DENDROGLIOMA | Definition: originates from the oligodendrocytes of the brain or from a glial precursor cellFeatures: relatively rare, slow growing, most often in frontal lobesHistology: chicken-wire capillary pattern, “fried egg” cellsPrognosis: currently considered incurable but since slow-growing (good prognosis) |
-| PITUITARY ADENOMA | Definition: tumour that arises in the pituitary glandFeatures: benign, microadenoma &lt;1cm, macroadenoma &gt;1cm, mass effects (bitemporal hemianopia, headache)Endocrine effects (↑/↓ pituitarism) Most often prolactinoma causing hyperprolactinema– infertility, amenorrhea, galactorrhea, decreased libidoACTH production – Cushing’s disease and hyperpigmentationGH production – acromegalyDiabetes insipidus Pituitary apoplexy (sudden expansion of mass due to haemorrhage/necrosis)- abrupt onset headache, visual disturbances, ↓ mental status, panhypopituitarismTreatment: resection (trans-sphenoidal approach), appropriate endocrine replacement therapy (DA agonist for prolactinoma, serotonin agonist/↓ cortisol production for Cushing’s, somatostatin analogue for acromegaly) |
+| PITUITARY ADENOMA | Definition: tumour that arises in the pituitary glandFeatures: benign, microadenoma <1cm, macroadenoma >1cm, mass effects (bitemporal hemianopia, headache)Endocrine effects (↑/↓ pituitarism) Most often prolactinoma causing hyperprolactinema– infertility, amenorrhea, galactorrhea, decreased libidoACTH production – Cushing’s disease and hyperpigmentationGH production – acromegalyDiabetes insipidus Pituitary apoplexy (sudden expansion of mass due to haemorrhage/necrosis)- abrupt onset headache, visual disturbances, ↓ mental status, panhypopituitarismTreatment: resection (trans-sphenoidal approach), appropriate endocrine replacement therapy (DA agonist for prolactinoma, serotonin agonist/↓ cortisol production for Cushing’s, somatostatin analogue for acromegaly) |
 
 nephrology and urology neoplasms
 
@@ -297,11 +297,11 @@ nephrology and urology neoplasms
 | --- | --- |
 | EPIDEMIOLOGY | Most prevalent cancer in males, 75% diagnosed between 60-85 |
 | RISK FACTORS | Advanced age, family history, African-American race, genetic (BRCA-2, Lynch Syndrome), obesity, dietary fat (Note: BPH is NOT a risk factor) |
-| PATHOPHYSIOLOGY | High-grade prostatic intra-epithelial neoplasia is the most likely precursor of invasive cancer 🡪 can spread up to bladder neck or ejaculatory ducts and seminal vesicles60-70% nodules in the peripheral zone, 10-20%  in the transition zone, 5-10% arise in central zoneAdenocarcinoma: &gt; 95%, expresses PSA, multifocalOther types: urothelial, endometrialMethod of spread: local invasion, lymphatic (obturator &gt; iliac &gt; presacral/para-aortic), hematogenous dissemination occurs early |
+| PATHOPHYSIOLOGY | High-grade prostatic intra-epithelial neoplasia is the most likely precursor of invasive cancer 🡪 can spread up to bladder neck or ejaculatory ducts and seminal vesicles60-70% nodules in the peripheral zone, 10-20%  in the transition zone, 5-10% arise in central zoneAdenocarcinoma: > 95%, expresses PSA, multifocalOther types: urothelial, endometrialMethod of spread: local invasion, lymphatic (obturator > iliac > presacral/para-aortic), hematogenous dissemination occurs early |
 | PRESENTATION | Early-stage: asymptomatic (usually found during screening tests)Advanced-stage:ConstitutionalUrinary: obstructive, irritative retention, haematuria (terminal), incontinenceHydronephrosis Erectile dysfunction Metastatic disease Bone pain: bone metastasis, especially lumbosacral spine)Neurological deficits due to spinal cord compression Lymphedema: usually causes swelling, pain, and redness in the legs |
-| INVESTIGATIONS | DRE: asymmetrical, nodular prostate that is smooth, non-firm and painless (pain in adv stage)PSA: Glycoprotein produced by epithelial cells of the prostate gland that leaks into circulation in the setting of disrupted glandular architectureTotal PSA &gt; 4 ng/mL suggests malignancy but may be ↑ in BPH, UTI, prostatitis, trauma and manipulation of prostate gland. Normal PSA values do not exclude prostate cancer!↑ alkaline phosphatase in bone metastasesRenal function: normal, except for locally advanced disease causing obstructionProstate biopsy: Transurectal ultrasound (TRUS)-guided needle biopsy confirms diagnosis and aids grading. ∼ 12 prostate samples are biopsied from different areas of the prostateBone scan (technetium-99m) and CT scan for osteoblastic lesions and asses extra-prostatic extension, liver mets and urinary obstruction |
+| INVESTIGATIONS | DRE: asymmetrical, nodular prostate that is smooth, non-firm and painless (pain in adv stage)PSA: Glycoprotein produced by epithelial cells of the prostate gland that leaks into circulation in the setting of disrupted glandular architectureTotal PSA > 4 ng/mL suggests malignancy but may be ↑ in BPH, UTI, prostatitis, trauma and manipulation of prostate gland. Normal PSA values do not exclude prostate cancer!↑ alkaline phosphatase in bone metastasesRenal function: normal, except for locally advanced disease causing obstructionProstate biopsy: Transurectal ultrasound (TRUS)-guided needle biopsy confirms diagnosis and aids grading. ∼ 12 prostate samples are biopsied from different areas of the prostateBone scan (technetium-99m) and CT scan for osteoblastic lesions and asses extra-prostatic extension, liver mets and urinary obstruction |
 | GLEASON SCORE | Sum of two scales scored 1 – 5 Grade ranges from 1–5, with grade 1 being the most and grade 5 the least differentiatedGrade 1: well-differentiated, microscopically uniform glands without invasion into adjacent healthy prostate tissue; Grade 5: undifferentiated cancer cells with no glandular differentiation) |
-| MANAGEMENT | Localised disease:  watchful waiting in elderly with comorbidity and life expectancy &lt; 10 years)Definite treatment:Radiation therapy: external beam radiation and brachytherapy (Iodine-125 radioactive seeds implanted into the prostate)Radical prostatectomy: in localised disease to remove entire prostate gland (including prostatic capsule, seminal vesicles, vas deferens → infertility, pelvic lymph nodes)Anti-androgen therapy: GnRH agonist(e.g. leuprolide)/antagonist (e.g. degarelix) with antiandrogen (e.g. flutamide, bicalutamide). The aim is to ↓ serum testosterone to ↓ prostate cancer growthSurgical castration: bilateral orchictomyDisseminated disease:Anti-androgen therapyChemotherapy with Docetaxel (mitotic inhibitor)Osteoclast inhibitors (bisphosphonates, denosumab) in bone metastasesTreatment based on stageT1/2 (localised, low risk): watchful waitingT1/2 (intermediate, high-risk): definite therapyT3/4: EBRT, androgen deprivation therapy or RPN&gt;0 or M&gt;0: Hormonal therapy/palliative radiotherapy for metastases Bilateral orchiectomy which removes 90% of testosteroneGnRH agonists (e.g. leuprolide, goserelin) or antagonist (e.g. degarelix)Oestrogens (e.g. DES)Antiandrogens (bicalutamide)Hormone-refractory prostate cancer: chemotherapy e.g. docetaxel, cabazitaxel |
+| MANAGEMENT | Localised disease:  watchful waiting in elderly with comorbidity and life expectancy < 10 years)Definite treatment:Radiation therapy: external beam radiation and brachytherapy (Iodine-125 radioactive seeds implanted into the prostate)Radical prostatectomy: in localised disease to remove entire prostate gland (including prostatic capsule, seminal vesicles, vas deferens → infertility, pelvic lymph nodes)Anti-androgen therapy: GnRH agonist(e.g. leuprolide)/antagonist (e.g. degarelix) with antiandrogen (e.g. flutamide, bicalutamide). The aim is to ↓ serum testosterone to ↓ prostate cancer growthSurgical castration: bilateral orchictomyDisseminated disease:Anti-androgen therapyChemotherapy with Docetaxel (mitotic inhibitor)Osteoclast inhibitors (bisphosphonates, denosumab) in bone metastasesTreatment based on stageT1/2 (localised, low risk): watchful waitingT1/2 (intermediate, high-risk): definite therapyT3/4: EBRT, androgen deprivation therapy or RPN>0 or M>0: Hormonal therapy/palliative radiotherapy for metastases Bilateral orchiectomy which removes 90% of testosteroneGnRH agonists (e.g. leuprolide, goserelin) or antagonist (e.g. degarelix)Oestrogens (e.g. DES)Antiandrogens (bicalutamide)Hormone-refractory prostate cancer: chemotherapy e.g. docetaxel, cabazitaxel |
 | COMPLICATIONS | Metastasis, surgery/RT complications e.g. erectile dysfunction, urinary incontinence, infertility |
 | PROGNOSIS | T1-T2 is comparable to normal life expectancy T3-T4, 40-70% 10 year survival rate However, morbidity resulting from treatment can be high |
 
@@ -313,7 +313,7 @@ nephrology and urology neoplasms
 
 | DEFINITION | Carcinoma of the epithelial lining of the urinary tract May involve bladder (most common), renal pelvis, ureters, and urethra (rare) |
 | --- | --- |
-| EPIDEMIOLOGY | M&gt;F, peak incidence 65 year oldSites: bladder (90%), renal pelvis (8%), ureter (especially lower 1/3), urethra (2%)Histology: Transitional cell carcinoma (~95%) in bladder/ureter/renal pelvis/proximal urethra in malesSquamous cell carcinoma (~60%)  in distal urethra in males and entire urethra in females |
+| EPIDEMIOLOGY | M>F, peak incidence 65 year oldSites: bladder (90%), renal pelvis (8%), ureter (especially lower 1/3), urethra (2%)Histology: Transitional cell carcinoma (~95%) in bladder/ureter/renal pelvis/proximal urethra in malesSquamous cell carcinoma (~60%)  in distal urethra in males and entire urethra in females |
 | AETIOLOGY | Nicotine abuseOccupational carcinogensChronic inflammation of the urinary tract | HPV 16Iatrogenic:  pelvic irradiation in prostate cancer, chemotherapy (cyclophosphamide)FHx or PMHx |
 | PRESENTATION | Bladder: painless gross haematuria throughout micturition, irritative symptoms; bladder outlet obstruction; suprapubic/perineal pain, palpable massUreteral: flank pain, painless gross haematuria throughout micturition Urethral: painless gross haematuria at the beginning of micturition, bladder outlet obstruction, irritative symptoms, inguinal lymphadenopathy, urethral discharge, bimanual mass in womenAdvanced/metastatic disease:Uraemia, constitutional, enlarged lymph nodesLiver: right upper quadrant pain, hepatomegaly, jaundice, ascites Lungs: dyspnoea, cough, chest pain, pleural effusion Bone: pain in long bones/vertebrae, pathological fractures |
 |  | Urinalysis: haematuriaUrine cytology: malignant cellsBloods: FBC (anaemia), thrombocytopoenia, RFTS (↑BUN, ↑Cr), coagsCT Urography: non-enhanced phase (thickening) and excretory phase (tumours=filling defects)Ultrasound KUB:  visualize the tumourRetrograde urethrogram: location and extent of invasionCystoscopy: visualize the tumour and pathological diagnosis |
@@ -328,8 +328,8 @@ nephrology and urology neoplasms
 
 | EPIDEMIOLOGY | M:F=3:1, 50-60 y/o onsetUpper (20-33%), middle (33%), lower (33-50%)Regardless of type, is aggressive and spreads rapidly due to the extensive lymphatic network in the submucosa |
 | --- | --- |
-| OESOPHAGEAL SCC | Arise from the skin cells lining oesophagus, affecting upper 2/3 of oesophagus↑ risk in males; rarely seen &lt; 30 y/o; most common worldwide (incidence has fallen that adenocarcinoma has become most common)Causative factors: Smoking, EtOH, hot liquids, underlying oesophageal disease e.g. strictures/diverticula/achalasiaLesions are subtle and can be missed on endoscopy |
-| OESOPHAGEAL ADENOCARCINOMA | Arise from the glandular cells present in lower 1/3 of oesophagus↑ risk in males; rarely seen &lt; 40 y/oCausative factors: Gastric metaplasia from gastric reflux (GORD), Barrett’s oesophagus, smoking, EtOH |
+| OESOPHAGEAL SCC | Arise from the skin cells lining oesophagus, affecting upper 2/3 of oesophagus↑ risk in males; rarely seen < 30 y/o; most common worldwide (incidence has fallen that adenocarcinoma has become most common)Causative factors: Smoking, EtOH, hot liquids, underlying oesophageal disease e.g. strictures/diverticula/achalasiaLesions are subtle and can be missed on endoscopy |
+| OESOPHAGEAL ADENOCARCINOMA | Arise from the glandular cells present in lower 1/3 of oesophagus↑ risk in males; rarely seen < 40 y/oCausative factors: Gastric metaplasia from gastric reflux (GORD), Barrett’s oesophagus, smoking, EtOH |
 | PRESENTATION | Progressively worsening dysphagia (first solids than liquids) with or without odynophagia, frequently asymptomatic (late presentation), constitutional symptoms, regurgitation and aspiration, anaemia, dyspepsia, hematemesis |
 | SPREAD | DIRECT HEMATOGENOUS, OR LYMPHATIC SPREAD: trachea (coughing), recurrent laryngeal nerves (hoarseness, vocal paralysis), aortic, liver, lung, bone, celiac and mediastinal nodes |
 | EXAMINATION | Palpable supraclavicular lymph nodes |
@@ -348,7 +348,7 @@ nephrology and urology neoplasms
 
 | DEFINITION | Neoplasm in the stomach |
 | --- | --- |
-| EPIDEMIOLOGY | 50-59 y/o, M&gt;F |
+| EPIDEMIOLOGY | 50-59 y/o, M>F |
 | AETIOLOGY | Compensatory epithelial cell proliferation via gastric atrophy (H.Pylori gastritis, pernicious anaemia, previous partial gastrectomy)Host-related (blood type A, HNPCC, hereditary diffuse gastric carcinoma HDGC, gastric adenomatous polyps)Environmental (smoking, EtOH, smoked/salted food) |
 | PATHOGENESIS | Gastric dysplasia 🡪 gastric adenocarcinoma 🡪 early cancer limited to the mucosa + submucosa, regardless of lymph node status 🡪 malignant epithelial tumour, originating from glandular epithelium of the gastric mucosa |
 | CLASSIFICATION | Intestinal type: irregular tubular structures (frequently ulcerative) 🡪 intestinal metaplasia commonly in lesser curvature of antrumDiffuse type: poorly/un-differentiated + lacking gland formation 🡪 infiltrate gastric wall 🡪 secretes mucous into interstitium 🡪 large pools of mucous/colloid in tumour cell 🡪 pushes to nucleus to periphery 🡪 Signet Ring Cell |
@@ -372,8 +372,8 @@ nephrology and urology neoplasms
 | EPIDEMIOLOGY | Most common mesenchymal neoplasm of GI tract |
 | AETIOLOGY | Tyrosine kinase mutations (75-80%)Type IA neurofibromatosisCarney’s triadMost common in stomach (50%), proximal SI (25%) but can occur anywhere along GI tract |
 | PRESENTATION | Vague abdominal massFeeling of abdominal fullness with secondary bleeding or anaemiaOften incidental finding on CT, laparotomy, endoscopy |
-| TREATMENT | Surgical resection: resection &gt; 2cm, endoscopy &lt;2cmLocalized GIST: surgical resection, lymphadenectomy, adjuvant chemo with ImatinibAdvanced disease: palliative intent chemo Imatinib, metastectomy |
-| PROGNOSIS | Metastatic potential depends on tumour size (&gt;10cm), mitotic activity (&gt;5 figures), nuclear pleomorphism, location (extra-gastric location); metastases to liver, omentum, peritoneum, nodal |
+| TREATMENT | Surgical resection: resection > 2cm, endoscopy <2cmLocalized GIST: surgical resection, lymphadenectomy, adjuvant chemo with ImatinibAdvanced disease: palliative intent chemo Imatinib, metastectomy |
+| PROGNOSIS | Metastatic potential depends on tumour size (>10cm), mitotic activity (>5 figures), nuclear pleomorphism, location (extra-gastric location); metastases to liver, omentum, peritoneum, nodal |
 
 
 ---
@@ -385,7 +385,7 @@ nephrology and urology neoplasms
 | --- | --- |
 | EPIDEMIOLOGY | 3rd most common cancer, ~70 y/o median age |
 | AETIOLOGY | Genetic factors Familial Adenomatous Polyposis (FAP): autosomal dominant affecting APC gene with ↑polyps usually in rectumHereditary non-polyposis colorectal cancer (Lynch) – type I predominant colorectal cancer; type II involves other cancers especially uterine, ovarian and breastPredisposing conditions: adenomas, IBD, DM, acromegaly, FHxEnvironmental factors: increased weight, ↑ energy intake, ↑inactivity, smoking, ETOH) |
-| COLORECTAL POLYP | Polyp: protuberance into the lumen of normally flat colonic mucosaTubular polyps (69-80%)- small &lt;2 cm, pedunculated, lower malignant potential, even distribution, easier to removeVillous polyps (10%)- large &gt; 2cm, sessile, higher malignant potential, left-sided predominance |
+| COLORECTAL POLYP | Polyp: protuberance into the lumen of normally flat colonic mucosaTubular polyps (69-80%)- small <2 cm, pedunculated, lower malignant potential, even distribution, easier to removeVillous polyps (10%)- large > 2cm, sessile, higher malignant potential, left-sided predominance |
 | PATHOGENESIS | Dysplastic adenomatous polyps + inactivation of tumour-suppressor and DNA repair genes + activation of oncogenes → cells gains advantage in growth without apoptosis → adenocarcinoma (95% of case) ![](notes/images/oncology-anu/img017.jpg) |
 | PRESENTATION |  | Right Colon (25%) | Left Colon (35%) | Rectum (30%) |
 | Information | Asymptomatic Weakness, weight loss, occult blood loss, mucusUlcerating lesions 🡪 chronic, insidious blood loss without a change stool appearance | Constipation ± overflow diarrhea, hematochezia, abd cramps, mucusStool more formed, thus tumours tend to impede its passage 🡪 cramps, obstruction, perforation | Constipation ± overflow diarrhea, tenesmus, hematochezia, mucus, pseudo-diarrhea |
@@ -402,7 +402,7 @@ INVESTIGATIONS
 - CT chest/abd/pelvis, colonoscopy (allows for biopsy for histological analysis
 - Air contrast barium enema (“apple core” lesion) + sigmoidoscopy
 - Pelvic MRI/endorectal US for rectal cancer
-- Coags/stool OCP &amp; MCS in active bleeding
+- Coags/stool OCP & MCS in active bleeding
 - LFTs for metastases
 
 TUMOUR STAGING
@@ -446,7 +446,7 @@ In stage III disease, the five-year survival rates are 44 – 83% and ↑ by 10-
 | EPIDEMIOLOGY | 50% present as acute appendicitis, spreads rapidly to lymph nodes, ovaries, and peritoneal surfaces |
 | --- | --- |
 | PRESENTATION | Ascites, bloating, appendicitis pain, changes in bowel function |
-| TREATMENT | Appendectomy (only treatment when tumour &lt;1.5cm)Right hemicolectomy (with nearby blood vessels + lymph nodes; no stoma required)Debulking/cytoreduction surgery (doctor removes as much tumour as possible, usually followed by chemotherapy)Chemotherapy |
+| TREATMENT | Appendectomy (only treatment when tumour <1.5cm)Right hemicolectomy (with nearby blood vessels + lymph nodes; no stoma required)Debulking/cytoreduction surgery (doctor removes as much tumour as possible, usually followed by chemotherapy)Chemotherapy |
 
 
 ---
@@ -458,9 +458,9 @@ In stage III disease, the five-year survival rates are 44 – 83% and ↑ by 10-
 | --- | --- |
 | EPIDEMIOLOGY | 4th most common in relation to mortality |
 | AETIOLOGY | RISK FACTORS: age, smoking, ↑ fat, ↓ fibre, EtOH, DM, chronic pancreatitis, gastrectomy, cholecystectomy, African |
-| PRESENTATION | Vague abdominal pain with weight loss ± jaundice in a patient over 50 year old is pancreatic cancer until proven otherwiseHead (70%)- weight loss, obstructive jaundice, steatorrhea, vague constant and mid-epigastric pain (worse at night, radiate to back)Courvoisier’s sign (painless jaundice, with palpable epigastric mass = pancreatic cancer)Trousseau's Sign (spontaneous peripheral venous thrombosis, often associated with pancreatic/other)Body/tail (30%)- tends to present later + usually inoperable, weight loss, vague epigastric pain, &lt;10% jaundiced, sudden onset DM |
+| PRESENTATION | Vague abdominal pain with weight loss ± jaundice in a patient over 50 year old is pancreatic cancer until proven otherwiseHead (70%)- weight loss, obstructive jaundice, steatorrhea, vague constant and mid-epigastric pain (worse at night, radiate to back)Courvoisier’s sign (painless jaundice, with palpable epigastric mass = pancreatic cancer)Trousseau's Sign (spontaneous peripheral venous thrombosis, often associated with pancreatic/other)Body/tail (30%)- tends to present later + usually inoperable, weight loss, vague epigastric pain, <10% jaundiced, sudden onset DM |
 | INVESTIGATIONS | ↑ALP, ↑bilirubinCa19-9 (most useful serum marker)U/S or CT (evaluates metastases + resectability)± ERCP/MRI/EUS/Bone Scan for staging/metastases |
-| TREATMENT | Resectable (10-20%)No involvement of liver, peritoneum, vasculature or distant sitesWhipple procedure (pancreoduodenectomy) for cure &lt;5% mortalityDistal pancreatectomy ± splenectomy, lymphadenectomy if carcinoma of midbody/tailNon-resectable Palliation: Endoscopic stenting or double bypass procedure (choledochoenterostomy + gastroenterostomy)‚Chemotherapy (gemcitabine + nab-paclitaxel, FOLFIRNOX) ± radiotherapy |
+| TREATMENT | Resectable (10-20%)No involvement of liver, peritoneum, vasculature or distant sitesWhipple procedure (pancreoduodenectomy) for cure <5% mortalityDistal pancreatectomy ± splenectomy, lymphadenectomy if carcinoma of midbody/tailNon-resectable Palliation: Endoscopic stenting or double bypass procedure (choledochoenterostomy + gastroenterostomy)‚Chemotherapy (gemcitabine + nab-paclitaxel, FOLFIRNOX) ± radiotherapy |
 | PROGNOSIS | 5 year survival is 1% |
 
 
@@ -500,16 +500,16 @@ endocrine neoplasms
 
 ### Oncology (ANU) — THRoid cancer — Oncology Principles, Solid Tumours & Oncological Emergencies
 
-| EPIDEMIOLOGY | Most common endocrinological malignancyW&gt;FMedian age of diagnosis is 40 – 45 years |
+| EPIDEMIOLOGY | Most common endocrinological malignancyW>FMedian age of diagnosis is 40 – 45 years |
 | --- | --- |
-| TYPES | Papillary Thyroid cancerTissue of origin: thyrocytesEpidemiology: most common type of thyroid cancer (~80% of cases), 30-50 y/o peak incidenceDifferentiation: well-differentiatedAetiology: associated with RET/PTC rearrangements and BRAF mutations; ionising radiationFeatures: lymphatic metastasis (often detected first), may be multi-focalCytology: psammoma bodies, “orphan annie” eyes nuclei, nuclear groovesPrognosis: most identified in early stages and have excellent prognosis (&gt;90% at 5-years) |
+| TYPES | Papillary Thyroid cancerTissue of origin: thyrocytesEpidemiology: most common type of thyroid cancer (~80% of cases), 30-50 y/o peak incidenceDifferentiation: well-differentiatedAetiology: associated with RET/PTC rearrangements and BRAF mutations; ionising radiationFeatures: lymphatic metastasis (often detected first), may be multi-focalCytology: psammoma bodies, “orphan annie” eyes nuclei, nuclear groovesPrognosis: most identified in early stages and have excellent prognosis (>90% at 5-years) |
 | Follicular thyroid cancerTissue of origin: thyrocytesEpidemiology: ~10% of cases, 40-60 y/o peak incidenceDifferentiation: well-differentiatedGenetics: associated with PAX8-PPAR-γ rearrangement and RAS mutationCytology: uniform follicles, vascular/capsular invasionFeatures: haematogenous metastasis to lung/bone, rarely multifocal, vascular/capsular invasionDifficult to diagnose by FNA because distinction between benign and malignant follicular neoplasms rests largely on evidence of invasion into vessels, nerves, or adjacent structuresPrognosis: less favourable (in comparison) as most patients present with stage IV disease |
-| Anaplastic thyroid cancerTissue of origin: thyrocytesEpidemiology: ~1-2% cases; &gt;60 year old peak incidenceDifferentiation: poorly differentiated, aggressive cancerFeatures: rapid local growth, lymphatic and haematogenous metastasisPrognosis: poor and most patients die within 6 months of diagnosis |
+| Anaplastic thyroid cancerTissue of origin: thyrocytesEpidemiology: ~1-2% cases; >60 year old peak incidenceDifferentiation: poorly differentiated, aggressive cancerFeatures: rapid local growth, lymphatic and haematogenous metastasisPrognosis: poor and most patients die within 6 months of diagnosis |
 | Thyroid lymphomaOften arises in the background of Hashimoto’s thyroiditisRapidly expanding thyroid mass |
-| Medullary thyroid cancerTissue of origin: parafollicular C cellsEpidemiology: &lt;10% of cases; 50-60 y/o peak incidenceCytology: ovoid cells of C cell origin, amyloid in the stromaFeatures: sometimes a genetic predisposition to multiple endocrine neoplasia type 2 (MEN2) in 25% or it can be sporadic (in 75%)Prognosis: 50% survival rate at 5 years |
+| Medullary thyroid cancerTissue of origin: parafollicular C cellsEpidemiology: <10% of cases; 50-60 y/o peak incidenceCytology: ovoid cells of C cell origin, amyloid in the stromaFeatures: sometimes a genetic predisposition to multiple endocrine neoplasia type 2 (MEN2) in 25% or it can be sporadic (in 75%)Prognosis: 50% survival rate at 5 years |
 | RISK FACTORS | History of head and neck irradiationIodine deficiency |
-| PRESENTATION | Early symptoms: rare noticeable; firm/painless thyroid nodules	Late symptomsIncreased nodule size (&gt;4cm)Vocal cord paralysis → hoarse voiceHorner’s syndromePossible SVC obstructionDyspnoeaDysphagiaPalpable thyroid nodule – hard in consistencyCervical lymphadenopathy |
-| INVESTIGATIONS | Serum TSH: usually normalSerum calcitonin: high in medullary cancerFine-needle biopsy and cytology studyI-123 thyroid scan and uptake: ↓ tracer uptake suggests a malignant non-functioning (cold) noduleUltrasound: hypoechoic thyroid lesions with irregular margins &gt; 1 cm; microcalcificationsStaging: CXR, abdominal U/S, neck CT/MRT, bone scan/PET scan, familial screening |
+| PRESENTATION | Early symptoms: rare noticeable; firm/painless thyroid nodules	Late symptomsIncreased nodule size (>4cm)Vocal cord paralysis → hoarse voiceHorner’s syndromePossible SVC obstructionDyspnoeaDysphagiaPalpable thyroid nodule – hard in consistencyCervical lymphadenopathy |
+| INVESTIGATIONS | Serum TSH: usually normalSerum calcitonin: high in medullary cancerFine-needle biopsy and cytology studyI-123 thyroid scan and uptake: ↓ tracer uptake suggests a malignant non-functioning (cold) noduleUltrasound: hypoechoic thyroid lesions with irregular margins > 1 cm; microcalcificationsStaging: CXR, abdominal U/S, neck CT/MRT, bone scan/PET scan, familial screening |
 | MANAGEMENT | Total/radical thyroidectomyPapillary or follicular: radioactive iodine ablation 4-6 weeks post-surgery, hemithyroidectomy in papillary is sufficient, TSH suppression with high-dose levothyroxineMedullary: thyroid replacement with a lower dose of levothyroxineAnaplastic: palliative surgeryLymphoma: chemotherapy, external radiation |
 | COMPLICATIONS | Airway obstruction, metastases to bone, lung and CNS |
 
@@ -542,9 +542,9 @@ endocrine neoplasms
 | Definition | Type 1: well-differentiated endometrioid adenocarcinomas derived from atypical endometrial hyperplasia (oestrogen-dependent)Type 2: tumours of non-endometrioid histology that are serous, clear cell, undifferentiated carcinosarcoma (oestrogen-independent); more aggressive |
 | --- | --- |
 | Aetiology | Oestrogen-dependent: nulliparity, early menarche, late menopause, PCOS, unopposed oestrogen replacement therapy, breast cancer (+ tamoxifen), metabolic syndrome, Lynch SyndromeProtective factors (↓oestrogen, ↑progesterone): multiparity, combined OCP, tobacco, regular physical activity, soy-rich diet |
-| Epidemiology | Peak incidence occurs &gt;50 years of ageDetected at a low stage due to quite obvious signs |
+| Epidemiology | Peak incidence occurs >50 years of ageDetected at a low stage due to quite obvious signs |
 | Presentation | If post-menopausal: bleedingIf premenopausal: menorrhagia, irregular periodsLater stages: pelvic pain, palpable abdominal mass, weight lossLocalised metastasis: contiguous spread to the cervix, vagina, fallopian tubes and ovariesLymphogenic metastasis: retroperitoneal, pelvic/para-aortic lymph nodesHaematogenic metastasis: lungs |
-| Investigations | Transvaginal ultrasound: if post-menopausal, the cut off is ≥5 mmEndometrial biopsy and histopathology: assess endometrial hyperplasia with/without atypia, glandular tissue proliferation (adenocarcinoma)Hysteroscopy, D&amp;C and histopathology: if biopsy not possibleAbdominal U/S, CXR, CT, MRI: assess metastatic spread |
+| Investigations | Transvaginal ultrasound: if post-menopausal, the cut off is ≥5 mmEndometrial biopsy and histopathology: assess endometrial hyperplasia with/without atypia, glandular tissue proliferation (adenocarcinoma)Hysteroscopy, D&C and histopathology: if biopsy not possibleAbdominal U/S, CXR, CT, MRI: assess metastatic spread |
 | FIGO | I: confined to corpusII: invades cervical stroma but does not extend beyond uterusIII: local and/or regional spread of tumourIV: invasion of bladder ± bowel mucosa ± distant metastases |
 | Management | Total abdominal hysterectomyBilateral salpingo-oopherectomyPelvic and para-aortic lymphadenectomyPeritoneal washings for cytologyAdjuvant: radiation therapy, hormone therapy (progesterone-receptor), chemotherapy |
 
@@ -605,9 +605,9 @@ endocrine neoplasms
 
 | Epidemiology | 3-5% of all malignant genital tract tumours |
 | --- | --- |
-| Aetiology | 90% SCC: remainder melanomas, BCC&lt; Paget’s disease, Bartholin’s gland carcinomaType 1 disease: HPV-related and more likely in younger womenType 2 disease: non-HPV related, associated with current/previous vulvar dystrophy and usually in post-menopausal women |
+| Aetiology | 90% SCC: remainder melanomas, BCC< Paget’s disease, Bartholin’s gland carcinomaType 1 disease: HPV-related and more likely in younger womenType 2 disease: non-HPV related, associated with current/previous vulvar dystrophy and usually in post-menopausal women |
 | Risk factors | HPV infectionVulvar intraepithelial neoplasia (VIN): precancerous change which presents as multicentric white/pigmented plaques on vulva (visible at colposcopy)Progression rarely occurs with appropriate management |
-| Presentation | Most patients are asymptomatic at diagnosisMost lesions occur on the labia majoraLong history of vulval irritation with localised pruritis/lesionPainful vaginal lump, bleeding, dischargeMultifocal in 5%Most present latePatterns of spread: local, groin lymph nodes (inguinal &gt; pelvic), haematogenous |
+| Presentation | Most patients are asymptomatic at diagnosisMost lesions occur on the labia majoraLong history of vulval irritation with localised pruritis/lesionPainful vaginal lump, bleeding, dischargeMultifocal in 5%Most present latePatterns of spread: local, groin lymph nodes (inguinal > pelvic), haematogenous |
 | Investigations | ± ColposcopyBiopsy suspicious lesions |
 | Management | Radical vulvectomy and bilateral lymph node dissection |
 | Prognosis | Overall 5 year survival rate 79% |
@@ -623,8 +623,8 @@ oncological emergencies
 - Definition: single temperature of
 
 - 38.3 or 38+ lasting an hour
-- Presence of neutrophil count &lt;0.5/109/l and or
-- &lt; 1 and predicted decline to &lt;500/mcL over 48 hours
+- Presence of neutrophil count <0.5/109/l and or
+- < 1 and predicted decline to <500/mcL over 48 hours
 
 - Investigations: FBC, EUCs, LFTs, blood cultures, CXR, UA, cultures
 - Treatment:
@@ -643,7 +643,7 @@ oncological emergencies
 
 ### Oncology (ANU) — Hypercalcaemia — Oncology Principles, Solid Tumours & Oncological Emergencies
 
-- Definition: &gt;2.6mmol/L, in 10-20% advanced cancers (breast, kidney, lung, prostate, head/neck, multiple myeloma)
+- Definition: >2.6mmol/L, in 10-20% advanced cancers (breast, kidney, lung, prostate, head/neck, multiple myeloma)
 - Epidemiology: most common oncological emergency
 - Osteolytic hypercalcaemia: direct bone invasion → osteoclast activating factor → bone resorption
 - Paraneoplastic hypercalcaemia: tumour cells secrete PTHrP which induces bone resorption

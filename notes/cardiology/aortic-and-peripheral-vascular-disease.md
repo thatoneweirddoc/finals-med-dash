@@ -69,7 +69,7 @@ updated: "2026-08-14"
 | Aetiology | Insufficient tissue perfusion due to atherosclerosis in aorta/peripheral arteriesOften co-exists with CAD |
 | Classification | Fontaine Classification of PAD |
 | Stage I | Asymptomatic |
-| Stage II | Pain of exertion (claudication): IIa &gt; 200m, IIb &lt;200m |
+| Stage II | Pain of exertion (claudication): IIa > 200m, IIb <200m |
 | Stage III | Ishcemic pain at rest |
 | Stage IV | Necrosis/gangrene/ulcers: IVa- dry necrosis, IVb- infection of necrotic tissue |
 
@@ -88,11 +88,11 @@ updated: "2026-08-14"
 - Routine bloods: FBC, coags, fasting metabolic profile
 - Ankle-Brachial Index ± exercise testing in normal resting ABI
 - ABI= systolic ankle BP: systolic brachial BP
-- &gt;1.3 = calcified vessels
+- >1.3 = calcified vessels
 - 1.0–1.30 = normal value
 - 0.91–0.99 = borderline
 - 0.40– 0.90 = mild to moderate PAD → claudication
-- &lt; 0.40 = critical limb ischemia
+- < 0.40 = critical limb ischemia
 - Duplex ultrasonography: volume/direction of blood flow
 - Contrast CTA/MRA: good for large arteries (aorta, iliac, femoral) but difficult with tibial arteries
 - Catheter-based angiography: invasive, superior resolution, can obtain in operating theatre before potential revascularisation
@@ -122,9 +122,9 @@ Poor prognostic markers: rest pain, ischemic ulcer, ↓ABI (↑ risk for seconda
 
 ### Cardiovascular (ANU) — chronic venous disease — Aortic & Peripheral Vascular Disease
 
-| Definition | Chronic venous insufficiency: ↑ venous pressure 🡪 alterations of the skin and veins (pigmentation, oedema, lipodermatosclerosis, ulceration)Varicose veins: cylindrical extension and dilated tortuous superficial veins (&gt;3mm) due to incompetent valves in the deep, superficial or perforator systems |
+| Definition | Chronic venous insufficiency: ↑ venous pressure 🡪 alterations of the skin and veins (pigmentation, oedema, lipodermatosclerosis, ulceration)Varicose veins: cylindrical extension and dilated tortuous superficial veins (>3mm) due to incompetent valves in the deep, superficial or perforator systems |
 | --- | --- |
-| Epidemiology | F&gt;M, ↑ incidence with age |
+| Epidemiology | F>M, ↑ incidence with age |
 | Aetiology | ↑ age, FHx, ligamentous laxity, sedentary lifestyle, prolonged standing, obesity, pregnancy, smoking, post-thrombotic syndrome, prior extremity trauma, congenital abnormalities |
 | Pathophysiology | Normal venous return driven by: arterial flow, negative pressure of respiration, unidirectional valves, muscle pumps (thus ↓ valve function or inadequate muscle pump 🡪 venous pooling)Normally, blood from the superficial leg veins 🡪 perforating veins 🡪 deep veinVaricose veins: incompetence of venous valves (believed to be inflammation + prolonged venous HTN) 🡪 reflux of blood into superficial veins into extremity 🡪 ↑ venous pressure 🡪 varicose veinsChronic venous insufficiency: calf muscle pump dysfunction and valvular incompetence (reflux) due to phlebitis, varicosities, or DVT 🡪 free radicals 🡪 capillary BM damage 🡪 plasma protein leakage 🡪 oedema 🡪 ↓O2 supply 🡪 tissue hypoperfusion 🡪 inflammation and atrophy 🡪 ulcer |
 | Presentation | Generalised/localised pain exacerbated by heat and standing, relieved by walking and raising legsPruritis, tingling, numbnessSkinOedema formationTelangiectasiasStasis dermatitisVaricose veinsLipodermatosclerosis: localised chronic inflammation/fibrosis of skin + subcutaneous tissuePainful, indurated, hardened skin 🡪 atrophic blanche (white plaques in fibrotic tissue) |

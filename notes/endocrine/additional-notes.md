@@ -67,7 +67,7 @@ MAJOR REGULATORS: PTH, Calcitriol (1,25-(OH)2D3, Calcitonin, Mg, PO43-
 | AETIOLOGY | Primary (Conn’s Syndrome): bilateral idiopathic adrenal hyperplasia (most common), unilateral aldosterone-producing adenoma), glucocorticoid-remediable aldosteronism, aldosterone-producing adrenocortical carcinoma, ectopic aldosterone (kidney/ovary tumours)Secondary: renin-producing tumours, JG cell tumour, renal artery stenosis, fibromuscular hyperplasia, advanced CHF, liver cirrhosis, diuretics, laxative abuse |
 | PATHOPHYSIOLOGY | Aldosterone is stimulated by ANG II, and so follows the activation of RAASExcessive sodium reabsorption, and urinary loss of potassium and hydrogen ions as these are exchangedWater follows sodium via osmosis, leading to fluid retention |
 | PRESENTATION | HypertensionFeatures of hypokalemia: fatigue, muscle weakness/cramps, headaches, polyuria, polydipsia, palpitations, constipationLack of significant oedema  in primary disease → aldosterone escape results in a lack of oedema formation and frank hypernatremia. Sodium and water retention → volume expansion → secretion of ANP and pressure natriuresis → compensatory diuresis → “escape” from oedema and formation and frank hypernatremia.Paraesthesia in severe cases due to metabolic alkalosis |
-| INVESTIGATIONS | ![](notes/images/endocrinology-anu/img025.jpg) Aldosterone: renin: pplasma aldosterone concentration (PAC) to plasma renin (PRA) activity → ↑ PAC,  ↓ PRA,  ↑ PAC/PRA ratio (ratio &gt; 20)Aldosterone suppression test (confirmatory)High sodium diet/tablets for 3 days followed by 24 hour measurements of aldosterone, Na and creatinineHealthy individuals: RAAS is physiologically suppressed → inhibition of aldosterone secretionPrimary hyperaldosteronism: failure to suppress aldosterone secretion Saline Infusion Test: 2L infusion over 4 hoursHealthy individuals: RAAS is physiologically suppressedPrimary hyperaldosteronism: failure to suppress aldosterone secretion Adrenal CT - identify the cause, carcinoma exclusion Adrenal venous sampling - differentiating uniltaral from bilateral adenoma |
+| INVESTIGATIONS | ![](notes/images/endocrinology-anu/img025.jpg) Aldosterone: renin: pplasma aldosterone concentration (PAC) to plasma renin (PRA) activity → ↑ PAC,  ↓ PRA,  ↑ PAC/PRA ratio (ratio > 20)Aldosterone suppression test (confirmatory)High sodium diet/tablets for 3 days followed by 24 hour measurements of aldosterone, Na and creatinineHealthy individuals: RAAS is physiologically suppressed → inhibition of aldosterone secretionPrimary hyperaldosteronism: failure to suppress aldosterone secretion Saline Infusion Test: 2L infusion over 4 hoursHealthy individuals: RAAS is physiologically suppressedPrimary hyperaldosteronism: failure to suppress aldosterone secretion Adrenal CT - identify the cause, carcinoma exclusion Adrenal venous sampling - differentiating uniltaral from bilateral adenoma |
 | MANAGEMENT | PrimaryAldosterone receptor antagonists (eplernone, spirinolactone)Surgery (adrenalectomy) - not for bilateral adrenal hyperplasia Prior to surgery hypokalaemia should be correctedMonitor for hyperkalaemia post op (as renin may be slow to recover after chronic suppression)Secondary: treat underlying cause |
 
 
@@ -93,7 +93,7 @@ Multiple Endocrine Neoplasias
 | WERMER SYNDROME | SIPPLE SYNDROME |
 | GENETICS | Altered menin protein expression | Altered expression of the RET proto-oncogene → elevated tyrosine kinase activity |
 | MAIN DISEASE | Primary hyperparathyroidism (∼ 90%) | Medullary thyroid carcinoma (95–100%) |
-| FURTHER MANIFESTATIONS | Endocrine pancreatic tumours (∼ 50–80% of cases) such as gastrinoma (most common) and insulinomaPituitary adenoma (∼ 30–50% of cases)Carcinoid tumours (∼ 10–15% of cases | Primary hyperparathyroidism | Multiple neurinomas (mucosal neuroma, intestinal ganglio-neuromatosis)Marfanoid habitus (&gt; 95%) |
+| FURTHER MANIFESTATIONS | Endocrine pancreatic tumours (∼ 50–80% of cases) such as gastrinoma (most common) and insulinomaPituitary adenoma (∼ 30–50% of cases)Carcinoid tumours (∼ 10–15% of cases | Primary hyperparathyroidism | Multiple neurinomas (mucosal neuroma, intestinal ganglio-neuromatosis)Marfanoid habitus (> 95%) |
 | MANAGEMENT | ParathyroidectomyExcision of pancreatic tumourTranssphenoidal surgery for excision of pituitary adenomaMedical: PPI for gastrinoma, cabergoline (DA agonist) in prolactinoma, somatostatin for carcinoid tumours | Thyroidectomy including cervical lymph nodesPheochromocytoma should first be ruled out or treated before undergoing surgery If pheochromocytoma removal (adrenalectomy)If hyperparathyroidism: remove pathologic parathyroid glands (parathyroidectomy)Medical: prostaglandin inhibitors to alleviate diarrhoea, a-blocker for 10-21 days pre-operatively, somatostatin for carcinoid tumours |
 
 
@@ -155,7 +155,7 @@ Cortisol withdrawal syndrome
 This problem addresses the structure and function of the adrenal glands and disorders of the adrenal cortex, particularly glucocorticoid excess.
 
 - physiology of the pituitary-adrenal axis
-- biochemistry of adrenal steroid hormones Adrenal Cortex &amp; Medulla D.Mahns
+- biochemistry of adrenal steroid hormones Adrenal Cortex & Medulla D.Mahns
 
 - anatomy of the adrenal gland
 - pathology of adrenal tumours
@@ -312,7 +312,7 @@ There is decreased expression of this enzyme in states of starvation (hypothyroi
 
 #### Type II deiodinase
 
-Cardiac &amp; skeletal muscle, brown fat, cerebral cortex
+Cardiac & skeletal muscle, brown fat, cerebral cortex
 
 Key role is to regulate thyroid function (governs how HPA detects levels of thyroid hormone) When there is low T3 🡪 UPREGULATE the activity of type II deiodinase
 

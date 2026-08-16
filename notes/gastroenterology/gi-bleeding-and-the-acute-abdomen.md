@@ -145,7 +145,7 @@ NICE CG141/NG12 (acute upper GI bleeding, transfusion, risk scoring); **Villanue
 ### General Surgery & Gastroenterology (ANU) — MALLORY-WEISS TEAR — GI Bleeding & the Acute Abdomen
 
 - DEFINITION: non-transmural/ oesophageal laceration (partial thickness tear) at or near the gastro-oesophageal junction
-- EPIDEMIOLOGY: M&gt;F, 3-15% of upper GI bleeding, incident ↑ with age
+- EPIDEMIOLOGY: M>F, 3-15% of upper GI bleeding, incident ↑ with age
 - PATHOGENESIS: secondary to sudden ↑ in intra-abdominal pressure from retching/vomiting against a closed glottis 🡪 distension 🡪 acute gastro-oesophageal laceration 🡪 bleeding from submucosal arteries
 - RISK FACTORS: condition causing retching/vomiting/straining, hiatus hernia, heavy EtOH
 - HISTORY:  hematemesis ± melaena (classically following an episode of retching); sudden large hematemesis (can be fatal); may be accompanies by epigastric/back pain
@@ -155,7 +155,7 @@ NICE CG141/NG12 (acute upper GI bleeding, transfusion, risk scoring); **Villanue
 
 - DIFFERENTIAL DIAGNOSES: Oesophagitis, Boerhaave’s syndrome, peptic ulcer, oesophageal varices, oesophageal cancer
 - TREATMENT AND MANAGEMENT: Most tears heal spontaneously however if bleeding doesn’t cease, endoscopic intervention with adrenaline injection ± haemoclip placement/thermal therapy/band ligation.  Evaluate fluid loss and replace with IVF/electrolytes and blood transfusion if necessary. Cease NSAIDS/anticoagulants and start antigastric acid therapy (PPI/H2 antagonists), anti-emetics (ondansetron/promethazine). Surgery should be reserved for situations where endoscopic haemostasis of bleeding has failed or transmural oesophageal perforation is a problem
-- PROGNOSIS: Portal hypertension and coagulopathy are risk factors for re-bleeding (occurs in ~8-15% of cases). High risk factors for re-bleeding include &gt;65 y/o, hematemesis at presentation, hemodynamic instability, alcoholism, aspirin/NSAID use and comorbidities.
+- PROGNOSIS: Portal hypertension and coagulopathy are risk factors for re-bleeding (occurs in ~8-15% of cases). High risk factors for re-bleeding include >65 y/o, hematemesis at presentation, hemodynamic instability, alcoholism, aspirin/NSAID use and comorbidities.
 
 
 ---
@@ -173,7 +173,7 @@ NICE CG141/NG12 (acute upper GI bleeding, transfusion, risk scoring); **Villanue
 - Neoplasm (2nd; primary vs metastases from colon/ovarian/pancreatic/gastric)
 - Gallstone (biliary-enteric fistula)
 - TOP 3 causes (mneumonic ABC)- Adhesions, Bulge (hernias), Cancer
-- TYPES: Partial: portion of intestinal lumen is occluded, allows passage of some gas &amp; fluid, ↓ risk of strangulation
+- TYPES: Partial: portion of intestinal lumen is occluded, allows passage of some gas & fluid, ↓ risk of strangulation
 - Complete: the lumen of the intestine is occluded, no passage of gas or stool, ↑risk of strangulation
 - Closed-loop: segment of intestine is obstructed both proximally and distally e.g. in volvulus ↑ intraluminal pressure from gas and fluid that cannot escape, ↑ riskof strangulation due to bowel wall ischemia
 
@@ -189,9 +189,9 @@ NICE CG141/NG12 (acute upper GI bleeding, transfusion, risk scoring); **Villanue
 
 - EXAMINATION: dehydration, abd exam (surgical scars, hernias, distension, abnormal masses, “tinkling”/muffled bowel sounds, hyper resonance to percussion)
 - INVESTIGATIONS:Vitals- SIRS criteria (?ischemia)
-- Bloods- FBC, EUC, ABG (lactate acidosis in ischemia), Group &amp; Hold, LFTs, BUN
+- Bloods- FBC, EUC, ABG (lactate acidosis in ischemia), Group & Hold, LFTs, BUN
 - Urinalysis
-- Erect and supine AXR (dilated looks of bowel &gt;3mm in SB, &gt;6mm in LB, &gt;9mm in caecum; air fluid levels, proximal bowel dilatation + distal bowel collapse, ?pneumoperitoneum, paucity of air in colon)
+- Erect and supine AXR (dilated looks of bowel >3mm in SB, >6mm in LB, >9mm in caecum; air fluid levels, proximal bowel dilatation + distal bowel collapse, ?pneumoperitoneum, paucity of air in colon)
 - CT scan can show obstruction and sites of ischemia (dilated loops of bowel, air fluid level, sites of ischemia, aetiology, transition point for point of obstruction, donut sign/kinks for adhesion)Ischemic bowel/strangulation pneumatosis intestinalis, thickened bowel wall, air in portal vein, free intraperitoneal fluid, differential wall enhancements (↓ IV contrast uptake in affected bowel)
 
 - Angiography for acute mesenteric arterial occlusion
@@ -220,7 +220,7 @@ Large bowel
 ### General Surgery & Gastroenterology (ANU) — large bowel obstruction — GI Bleeding & the Acute Abdomen
 
 - DEFINITION: Normal flow of intraluminal contents interrupted in large bowel
-- AETIOLOGY: top 3 causes- 1. CRC, 2. Volvulus (sigmoid &gt; caecal) 3. Diverticulitis; can also be caused by chronic constipation, IBD stricture, radiation stricture, volvulus or adhesions
+- AETIOLOGY: top 3 causes- 1. CRC, 2. Volvulus (sigmoid > caecal) 3. Diverticulitis; can also be caused by chronic constipation, IBD stricture, radiation stricture, volvulus or adhesions
 - PATHOGENESIS: proximally, progressive dilatation; distally, decompression as luminal contents pass
 - HISTORY:Open loop (10-20%; safer)- incompetent ileocecal valve allows relief of colonic pressure as contents reflux into ileum (similar presentation to SBO)
 - Closed loop (80-90%; dangerous)-competent ileocaecal valve resulting in proximal/distal occlusions
@@ -246,18 +246,18 @@ Large bowel
 - DEFINITION: acute inflammation of the appendix
 - EPIDEMIOLOGY: Early teens-late 40s
 - AETIOLOGY: faecal matter, lymphoid hyperplasia (↑ lymphocytes in the lymph nodes)
-- PATHOGENESIS: Faecolith/enlarged lymphoid follicles/ inspissated barium/parasites/tumours 🡪 appendiceal luminal obstruction 🡪 lumen distal to obstruction fills with mucus 🡪 closed-loop obstruction 🡪 ↑ intraluminal pressure 🡪 distension 🡪 bacteria (e.g. E Coli) rapidly colonisation 🡪 intraluminal pressure &gt; venous pressure 🡪 ↓ drainage 🡪 engorgement/congestion of appendix 🡪 inflammatory response 🡪 spreads to serosa/parietal peritoneum 🡪 RLQ pain 🡪 small arterioles thrombosed 🡪 ischemia 🡪 necrosis 🡪 perforation 🡪 bacteria and pus leak out from dying appendix wall 🡪 fistula/absess
+- PATHOGENESIS: Faecolith/enlarged lymphoid follicles/ inspissated barium/parasites/tumours 🡪 appendiceal luminal obstruction 🡪 lumen distal to obstruction fills with mucus 🡪 closed-loop obstruction 🡪 ↑ intraluminal pressure 🡪 distension 🡪 bacteria (e.g. E Coli) rapidly colonisation 🡪 intraluminal pressure > venous pressure 🡪 ↓ drainage 🡪 engorgement/congestion of appendix 🡪 inflammatory response 🡪 spreads to serosa/parietal peritoneum 🡪 RLQ pain 🡪 small arterioles thrombosed 🡪 ischemia 🡪 necrosis 🡪 perforation 🡪 bacteria and pus leak out from dying appendix wall 🡪 fistula/absess
 - PAIN: Initially, inflammation irritates visceral peritoneum 🡪 referred pain to umbilical area (embryonic midgut; visceral afferent fibers from appendix follow same nerve  distribution of small intestine; T10 origins). Disease progression 🡪 irritates parietal peritoneum 🡪 localised RLQ pain (McBurney’s Point; pain carried by somatosensory T12 nerves with specific dermatomal distribution)
 - RISK FACTORS: ↓dietary fibre
 - HISTORY: onset over 12-24 hours, constant umbilical pain that shifts to the RLQ, anorexia (↓ appetite), N/V, fever
 - EXAMINATION: Vitals abnormal, McBurney’s Sign (tenderness 2/3 between ASIS and umbilicus), Rosving’s Sign (R-sided pain upon deep left palpation), Psoas Sign (RLQ pain on passive extension of right hip), Obturator Sign (pain with passive flexion and internal rotation of right hip); peritonism upon rupture
 - ![](notes/images/general-surgery-and-gastroenterology-anu/img018.jpg)
 INVESTIGATIONS:
-- Bloods- FBC (mild leucocytosis with left shift; leucocytosis &gt; 20,000=probable perforation; Hb/MCV for blood loss anaemia), EUC, LFT, CRP, pancreatic enzymes, bHCG
+- Bloods- FBC (mild leucocytosis with left shift; leucocytosis > 20,000=probable perforation; Hb/MCV for blood loss anaemia), EUC, LFT, CRP, pancreatic enzymes, bHCG
 - Urinalysis
 - CXR- pneumoperitoneum
 - U/S- thick-walled appendix, excludes gynae causes e.g. ovarian cyst/ectopic pregnancy/tubo-ovarian abscess
-- Abdominal and pelvic CT scan- enlarged appendix (&gt;6mm), peri-appendiceal stranding, faecolith presence, inflammatory changes
+- Abdominal and pelvic CT scan- enlarged appendix (>6mm), peri-appendiceal stranding, faecolith presence, inflammatory changes
 - DIFFERENTIAL DIAGNOSES: mesenteric adenitis, viral gastroenteritis, meckel’s diverticulitis, intussusception, right-sided ureteric stone, ectopic pregnancy, ovarian torsion
 - TREATMENT AND MANAGEMENT: ABCD, NBM, IVF, analgesia, MAG ABx, anti-emetics, appendicectomy
 - COMPLICATIONS: perforation, peritonitis, sepsis/septic shock, abscess, carcinoma,
@@ -312,7 +312,7 @@ Diagnostic testing in emergency setting
 
 - NGT lavage only indicated if fresh blood and clots need to be removed to facilitate endoscopy
 - Blood tests – FBC (Hb, WBC, platelets) Coags (PT, INR), EUC, LFTs, ABG (lactate), albumin, BUN, Cr
-- G&amp;H (or type and crossmatch if hemodynamic instability, severe bleeding, or high-risk patient)
+- G&H (or type and crossmatch if hemodynamic instability, severe bleeding, or high-risk patient)
 
 Resuscitation
 
@@ -325,9 +325,9 @@ Resuscitation
 
 Medications:
 
-- IV PPI – omeprazole 40mg IV BD, as pH &gt;6 decreases pepsin activity, which in turn decreases fibrin clot degradation. Overall stabilises newly formed clot. Note H2RA (ranitidine, cimetidine) don’t have the same effect. whereas oral and IV PPIs ↓ length of hospital stay, rebleeding rate and need for blood transfusions in pts with high risk ulcers treated endoscopically; but also promote clot stabilisation in non ulcer lesions.
+- IV PPI – omeprazole 40mg IV BD, as pH >6 decreases pepsin activity, which in turn decreases fibrin clot degradation. Overall stabilises newly formed clot. Note H2RA (ranitidine, cimetidine) don’t have the same effect. whereas oral and IV PPIs ↓ length of hospital stay, rebleeding rate and need for blood transfusions in pts with high risk ulcers treated endoscopically; but also promote clot stabilisation in non ulcer lesions.
 - NO ROLE FOR Tranexamic acid at present - antifibrinolytic - benefits mortality but not bleeding surgery or transfusion requirements.
-- if INR &gt; 3, try to correct to &lt; 3 before endoscopy 🡪 give FFP. Also give 1 unit of FFP per 4 units PRBCs given as RBCs don’t have coagulation factors in them
+- if INR > 3, try to correct to < 3 before endoscopy 🡪 give FFP. Also give 1 unit of FFP per 4 units PRBCs given as RBCs don’t have coagulation factors in them
 - If known or suspected oesophageal varices and or cirrhosisAntibiotics - unless cirrhotic
 - Somatostatin and analogues eg octreotide for variceal bleeding but may also help other bleeding. IV bolus 20 - 50 mcg then continuous infusion 25 - 50 mcg per hour.
 - Terlipression (a vasoactive agent)
@@ -339,9 +339,9 @@ Restricted targets 🡪 7 - 9 is the aim
 Predictive factors for severe upper GI bleeding
 
 - Presents with haematemesis
-- Hypotension/hypovolaemia (especially if systolic &lt;90mmHg)
+- Hypotension/hypovolaemia (especially if systolic <90mmHg)
 - Tachycardia and shock
-- Hb &lt;80g/L
+- Hb <80g/L
 - Malignancy or cirrhosis
 
 Endoscopic haemostatic therapy devices - using 2 has better outcomes than using 1!
@@ -357,7 +357,7 @@ Endoscopic haemostatic therapy devices - using 2 has better outcomes than using 
 
 Who gets endoscopic therapy?
 
-patients with active bleeding (100% risk) , a nonbleeding visible vessel (50% risk), an adherent clot (25% risk), or bleeding esophageal varices. Provided pt is haemodynamically stable, no need to postpone endoscopy until coagulopathy is corrected - urgent endocscopy can proceed concurrently with transfusion. However if INR is &gt;3 attempt to correct with FFP infusion before endoscopy. Non urgent endoscopy (still within 24 hours) are done in haemodynamically stable patients.
+patients with active bleeding (100% risk) , a nonbleeding visible vessel (50% risk), an adherent clot (25% risk), or bleeding esophageal varices. Provided pt is haemodynamically stable, no need to postpone endoscopy until coagulopathy is corrected - urgent endocscopy can proceed concurrently with transfusion. However if INR is >3 attempt to correct with FFP infusion before endoscopy. Non urgent endoscopy (still within 24 hours) are done in haemodynamically stable patients.
 
 Problems with endoscopy
 
@@ -365,13 +365,13 @@ It may be helpful to irrigate the stomach prior to endoscopy to help remove resi
 
 **List the risk factors for continued bleeding from an ulcer and the indications for operation in a patient with gastrointestinal haemorrhage.**
 
-● Hemodynamic instability (SBP &lt; 100 mmHg, or HR &gt;100 bpm)
+● Hemodynamic instability (SBP < 100 mmHg, or HR >100 bpm)
 
-●Hemoglobin &lt; 10 g/L
+●Hemoglobin < 10 g/L
 
 ●Active bleeding at the time of endoscopy
 
-●Large ulcer size (&gt; 1 to 3 cm in various studies)
+●Large ulcer size (> 1 to 3 cm in various studies)
 
 ●Ulcer location (posterior duodenal bulb or high lesser gastric curvature)
 
@@ -431,7 +431,7 @@ It should be kept in mind that overhydration can lead to a falsely low hemoglobi
 
 Patients with acute bleeding should have normocytic RBC. Microcytic RBC or IDA suggest chronic bleeding.
 
-Unlike patients with acute UGIB, patients with acute LGIB and normal renal perfusion should have a normal blood urea nitrogen (BUN)-to-creatinine or urea-to-creatinine ratio (&lt;20:1 or &lt;100:1, respectively)
+Unlike patients with acute UGIB, patients with acute LGIB and normal renal perfusion should have a normal blood urea nitrogen (BUN)-to-creatinine or urea-to-creatinine ratio (<20:1 or <100:1, respectively)
 
 Approach
 
@@ -470,7 +470,7 @@ Diagnostic approach
 - exclude UGIB
 - Colonoscopy is initial management of choice for diagnosis and treatment
 
-controversy - benefit of urgent early colonoscopy (&lt;12 h of admission) vs late is unclear…
+controversy - benefit of urgent early colonoscopy (<12 h of admission) vs late is unclear…
 
 ?reduce risk of rebleed and surgery in diverticular haemorrhage
 

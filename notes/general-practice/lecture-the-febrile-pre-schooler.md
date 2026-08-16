@@ -20,7 +20,7 @@ updated: "2026-08-14"
 
 #### Red flags
 
-- Age &lt;3 months
+- Age <3 months
 - Apnoea
 - Increasing difficulty breathing
 - A weak suck (that was previously strong)

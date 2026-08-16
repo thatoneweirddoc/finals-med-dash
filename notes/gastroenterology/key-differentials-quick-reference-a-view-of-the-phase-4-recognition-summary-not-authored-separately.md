@@ -187,7 +187,7 @@ Warnings and why
 
 How do stool softeners work?
 
-- stool softener is an umbrella term -&gt; include surfactant, lubricant, osmotics
+- stool softener is an umbrella term -> include surfactant, lubricant, osmotics
 
 - SURFACTANTS are EMULSIFIERS - facilitate admixture of fat and water in faeces, allow water to enter the poop by ↓ surface tension of the stool
 - LUBRICANTS delay absorption of water from stools 🡪 make them softer

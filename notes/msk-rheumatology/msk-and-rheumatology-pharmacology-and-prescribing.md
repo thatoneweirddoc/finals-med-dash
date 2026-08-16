@@ -101,9 +101,9 @@ Kumar & Clark; Robbins; StatPearls (osteoporosis, osteomalacia, Paget's, AVN); N
 
 ### Rheumatology & Immunology (ANU) — fibromyalgia — MSK & Rheumatology Pharmacology & Prescribing
 
-| Definition | Neurosensory disorder characterised by chronic (&gt; 3 months), widespread, non-articular pain with characteristic tender points |
+| Definition | Neurosensory disorder characterised by chronic (> 3 months), widespread, non-articular pain with characteristic tender points |
 | --- | --- |
-| Epidemiology | F&gt;M, age range 20-50 years |
+| Epidemiology | F>M, age range 20-50 years |
 | Aetiology | Incompletely understood but likely multifactorial (genetic, environmental e.g. stress, dysregulation of neuroendocrine and ANS) |
 | Presentation | Chronic, widespread pain, primarily where muscles and tendons attach to bones (tender points)Headache, fatigue, morning stiffness, unrefreshing sleepCognitive dysfunction (“fibro fog”)ParaesthesiaANS dysfunction: digestion, weight fluctuations, palpitations, sexual dysfunction, night swefts |
 | Differentials | Chronic fatigue syndrome, IBS, psychiatric disorders, sleep disorders, inflammatory rheumatic disease (SLE, RA) |

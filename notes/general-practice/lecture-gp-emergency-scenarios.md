@@ -24,9 +24,9 @@ updated: "2026-08-14"
 - 0.01ml/kg of 1/1000 IM adrenaline into lateral thigh
 - Repeat after 5 mins if not improving
 - IV adrenaline only unless cardiac arrest imminent
-- Child &gt; 12 -  500mcg IM (0.5ml)
+- Child > 12 -  500mcg IM (0.5ml)
 - Child 6-12 -  300mcg IM (0.3ml)
-- Child &lt; 6 -  150mcg IM (0.15ml)
+- Child < 6 -  150mcg IM (0.15ml)
 - If adrenaline insufficient
 - Promethazine 25mg IM or slow IV
 - Hydrocortisone 200mg (adults) IM or slow IV (takes ~6h to work)

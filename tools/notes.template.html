@@ -1,3 +1,4 @@
+<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
@@ -44,6 +45,25 @@
   .sfield.has-q .kbd{display:none} .sfield.has-q .clear{display:block}
 
   .chips{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}
+  /* On a phone 21 systems wrap to eight rows and eat half the screen above the
+     note you are actually reading. Collapse to a single swipeable row; the
+     selected ones are sorted to the front so the active filter is always the
+     first thing in view. `.chips.open` restores the wrapped grid for picking
+     several at once. */
+  .chips-more{display:none}
+  @media (max-width:760px){
+    .chips{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;-ms-overflow-style:none;
+           margin-top:8px;padding-bottom:2px;scroll-snap-type:x proximity}
+    .chips::-webkit-scrollbar{display:none}
+    .chips>.chip{flex:0 0 auto;scroll-snap-align:start}
+    .chips.open{flex-wrap:wrap;overflow-x:visible;max-height:44vh;overflow-y:auto}
+    .chips-more{display:inline-flex;align-items:center;gap:6px;margin-top:8px;
+      background:none;border:0;padding:2px 0;color:var(--ink-2);
+      font-family:var(--mono);font-size:10.5px;letter-spacing:.06em;
+      text-transform:uppercase;cursor:pointer}
+    .chips-more:after{content:'\25be';font-size:12px}
+    .chips-more[aria-expanded="true"]:after{content:'\25b4'}
+  }
   .chip{appearance:none;background:var(--panel);border:1px solid var(--rule);border-radius:999px;
     font-family:var(--mono);font-size:10px;letter-spacing:.06em;text-transform:uppercase;
     font-weight:600;color:var(--ink-2);padding:7px 12px;min-height:32px;cursor:pointer;
@@ -233,6 +253,8 @@
       <button class="clear" id="qClear" type="button" aria-label="Clear search">&times;</button>
     </div>
     <div class="chips" id="chips"></div>
+    <button class="chips-more" id="chipsMore" type="button"
+            aria-expanded="false" aria-controls="chips">All systems</button>
   </div>
 
   <button class="browse-tog" id="browseTog" type="button">Browse topics</button>
@@ -370,18 +392,40 @@ function renderHead(){
 
 /* ---------------------------------------------------------- system chips */
 function renderChips(){
-  $('chips').innerHTML = (IDX.systems||[]).map(s =>
-    `<button class="chip" type="button" data-sys="${esc(s.system)}" aria-pressed="false">
+  // Selected first, then original order. In the collapsed single-row layout the
+  // active filter would otherwise scroll out of sight and look like it was lost.
+  const sys = (IDX.systems||[]).slice().sort((a,b) =>
+    (activeSystems.has(b.system)?1:0) - (activeSystems.has(a.system)?1:0));
+  $('chips').innerHTML = sys.map(s =>
+    `<button class="chip" type="button" data-sys="${esc(s.system)}"
+             aria-pressed="${activeSystems.has(s.system)}">
        ${esc(s.system)} <span style="opacity:.55">${s.notes.length}</span></button>`).join('');
   $('chips').querySelectorAll('[data-sys]').forEach(b => b.addEventListener('click', () => {
     const s = b.dataset.sys;
     if(activeSystems.has(s)) activeSystems.delete(s); else activeSystems.add(s);
-    b.setAttribute('aria-pressed', String(activeSystems.has(s)));
+    renderChips();                       // re-sort so the selection leads the row
     renderTree();
     if($('q').value.trim()) doSearch();
   }));
+  const more = $('chipsMore');
+  if(more){
+    more.textContent = activeSystems.size
+      ? `${activeSystems.size} system${activeSystems.size===1?'':'s'} filtered`
+      : 'All systems';
+  }
 }
 const sysAllowed = s => activeSystems.size===0 || activeSystems.has(s);
+
+// Expand the collapsed row back to the wrapped grid when you want to pick
+// several systems at once. Only rendered on narrow screens; harmless elsewhere.
+(function(){
+  const more = document.getElementById('chipsMore');
+  if(!more) return;
+  more.addEventListener('click', () => {
+    const open = document.getElementById('chips').classList.toggle('open');
+    more.setAttribute('aria-expanded', String(open));
+  });
+})();
 
 /* ----------------------------------------------------------------- tree */
 function renderTree(){
