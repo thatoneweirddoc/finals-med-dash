@@ -284,10 +284,16 @@ function doPost(e) {
     const user = resolveUser(body.token);
     if (!user) return json({ error: 'bad token' });
 
-    // Actions that spend the owner's Anthropic credit, or that write to the
-    // shared quiz bank, are gated. Everything else — sitting quizzes, reading
+    // Actions that spend the owner's Anthropic credit ON DEMAND, or that write to
+    // the shared quiz bank, are gated. Everything else — sitting quizzes, reading
     // notes, recording your own results — is open to every user.
-    const NEEDS_GENERATE = ['saveQuiz', 'saveRevision', 'queueRequest',
+    //
+    // queueRequest is deliberately NOT gated. Anyone may ask for a quiz; the
+    // request simply waits for the scheduled run, which is rate-limited by
+    // MAX_PER_RUN and happens on the owner's schedule. generateNow is different:
+    // it bills an API call the instant the button is pressed, so it stays with
+    // the owner. The distinction is on-demand spend, not spend as such.
+    const NEEDS_GENERATE = ['saveQuiz', 'saveRevision',
                             'ingestOutbox', 'generateNow', 'deleteItem'];
     if (NEEDS_GENERATE.indexOf(body.action) >= 0 && !user.generate) {
       return json({ error: 'Generating content is not enabled for your account. ' +
@@ -297,7 +303,7 @@ function doPost(e) {
     if (body.action === 'saveQuiz')      return json(saveQuiz(body));
     if (body.action === 'saveRevision')  return json(saveRevision(body));
     if (body.action === 'recordResults') return json(recordResults(body, user.id));
-    if (body.action === 'queueRequest')  return json(queueRequest(body));
+    if (body.action === 'queueRequest')  return json(queueRequest(body, user));
     if (body.action === 'ingestOutbox')  return json(ingestOutbox());
     if (body.action === 'generateNow')   return json(generateNow(body, user.id));
     if (body.action === 'deleteItem')    return json(deleteItem(body));
@@ -756,10 +762,33 @@ function withLock(fn, fallback, waitMs) {
   try { return fn(); } finally { lock.releaseLock(); }
 }
 
-function queueRequest(body) {
+/**
+ * Queue a request. Open to every user — see the gate in doPost for why.
+ *
+ * A per-user cap keeps a guest from filling the queue and monopolising the
+ * owner's scheduled runs. The owner is uncapped: it is their credit and their
+ * exam.
+ */
+const GUEST_QUEUE_CAP = 3;
+
+function queueRequest(body, user) {
   const id = 'r' + new Date().getTime();
+  const uid = (user && user.id) || '';
+  const mayGenerate = !!(user && user.generate);
+
   return withLock(function () {
   const q = readQueue();
+
+  if (!mayGenerate) {
+    const mine = q.requests.filter(function (r) {
+      return r.by === uid && r.status === 'pending';
+    }).length;
+    if (mine >= GUEST_QUEUE_CAP) {
+      return { error: 'You already have ' + mine + ' requests waiting. They are built ' +
+                      'on a schedule — let those come through first.' };
+    }
+  }
+
   q.requests.unshift({
     id: id,
     system: body.system || 'Weakest areas',
@@ -769,6 +798,8 @@ function queueRequest(body) {
     difficulty: ['easy', 'medium', 'hard'].indexOf(body.difficulty) >= 0 ? body.difficulty : '',
     note: String(body.note || ''),
     status: 'pending',
+    by: uid,
+    byName: (user && user.name) || '',
     requested: new Date().toISOString()
   });
   q.requests = q.requests.slice(0, 50);
