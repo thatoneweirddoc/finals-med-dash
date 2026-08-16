@@ -1,7 +1,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
-<meta name="apple-mobile-web-app-title" content="Finals Panel">
+<title>Medical School Finals Study Dashboard</title>
+<meta name="apple-mobile-web-app-title" content="Finals Dashboard">
 <meta name="theme-color" content="#F7F8F6">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -482,60 +483,168 @@
 
   @media (prefers-reduced-motion:reduce){*{transition:none !important}}
 
+
+  /* ---- header tiles: countdown + compact eMedici drop ---- */
+  .head-tiles{display:flex;gap:10px;align-items:stretch}
+  .tile{background:var(--panel-2);border:1px solid var(--rule);border-radius:var(--r-ctl);
+        padding:10px 14px;text-align:center;min-width:104px;display:flex;
+        flex-direction:column;justify-content:center}
+  .countdown.tile .n{font-size:26px}
+  .drop-mini{cursor:pointer;border-style:dashed;transition:border-color .15s,background .15s}
+  .drop-mini:hover,.drop-mini.over{border-color:var(--ink);border-style:solid;background:var(--panel)}
+  .drop-mini .mini-ico{font-size:22px;line-height:1;color:var(--ink-2)}
+  .drop-mini .l{font-size:9px}
+
+  /* ---- notes button + search ---- */
+  .head-row{display:flex;gap:10px;align-items:center;margin-top:12px;flex-wrap:wrap}
+  .notes-btn{display:inline-flex;align-items:center;gap:6px;font-family:var(--sans);
+    font-size:13px;font-weight:600;color:var(--ink-2);background:var(--panel-2);
+    border:1px solid var(--rule);padding:9px 16px;border-radius:var(--r-ctl);text-decoration:none}
+  .notes-btn:hover{color:var(--ink);border-color:var(--ink)}
+  .notes-search{display:flex;align-items:center;gap:8px;flex:1;min-width:220px;
+    background:var(--panel-2);border:1px solid var(--rule);border-radius:var(--r-ctl);padding:3px 3px 3px 12px}
+  .notes-search input{border:0;background:none;flex:1;min-width:80px;padding:7px 0;font-size:16px}
+  .notes-search input:focus{outline:none}
+  .notes-search .hits{font-family:var(--mono);font-size:10.5px;color:var(--ink-2);
+    opacity:.55;white-space:nowrap}
+  .notes-search .act{padding:8px 14px;min-height:0}
+
+  /* ---- at-a-glance summary ---- */
+  .glance{display:grid;grid-template-columns:minmax(150px,1fr) 1fr 1fr;gap:1px;
+          background:var(--rule);border:1px solid var(--rule);border-radius:var(--r-card);
+          overflow:hidden;margin-bottom:18px}
+  .glance > div{background:var(--panel);padding:16px 18px}
+  .glance h4{font-family:var(--mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;
+    color:var(--ink-2);margin:0 0 10px;font-weight:600}
+  .g-big{font-family:var(--serif);font-size:38px;line-height:1;font-weight:500}
+  .g-sub{font-family:var(--mono);font-size:10.5px;color:var(--ink-2);margin-top:5px}
+  .g-ring{display:flex;align-items:center;gap:14px}
+  .g-list{list-style:none;margin:0;padding:0;font-size:13px}
+  .g-list li{display:flex;justify-content:space-between;gap:10px;padding:4px 0;
+    border-bottom:1px solid var(--rule)}
+  .g-list li:last-child{border-bottom:0}
+  .g-list .v{font-family:var(--mono);font-size:11.5px;flex-shrink:0}
+  .g-good .v{color:var(--in)} .g-bad .v{color:var(--low)}
+  .g-none{font-family:var(--mono);font-size:11px;color:var(--un)}
+  @media (max-width:640px){.glance{grid-template-columns:1fr}}
+
+  /* ---- settings ---- */
+  .set-row{display:flex;align-items:center;gap:14px;padding:12px 0;
+           border-bottom:1px solid var(--rule);flex-wrap:wrap}
+  .set-row:last-of-type{border-bottom:0}
+  .set-lab{font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;
+    color:var(--ink-2);min-width:96px}
+  .seg{display:flex;gap:0;border:1px solid var(--rule);border-radius:var(--r-ctl);overflow:hidden}
+  .seg button{appearance:none;background:var(--panel-2);border:0;border-right:1px solid var(--rule);
+    font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;
+    color:var(--ink-2);padding:10px 15px;cursor:pointer;min-height:40px}
+  .seg button:last-child{border-right:0}
+  .seg button:hover{color:var(--ink)}
+  .seg button[aria-pressed="true"]{background:var(--ink);color:var(--paper);font-weight:600}
+
+  /* ---- teal theme ---- */
+  :root[data-theme="teal"]{
+    --ink:#0C2B2B;
+    --ink-2:#3D6B69;
+    --ink-3:#4A7876;
+    --paper:#E8F2F0;
+    --panel:#F4FAF9;
+    --panel-2:#DCEDEA;
+    --rule:#BBD8D3;
+    --rule-2:#CAE1DD;
+    --lav:#2E7D74;
+
+    --low:#B33A2B;
+    --border-flag:#B07C22;
+    --inrange:#1F7A5C;
+    --untested:#7EA4A0;
+    --low-wash:#F7E6E3;
+    --bord-wash:#F7EEDC;
+    --in-wash:#DCF0E7;
+
+    --in:#1F7A5C;
+    --un:#7EA4A0;
+    --bord:#B07C22;
+
+    --tint-1:#D7EBE7;
+    --tint-2:#DCEDEA;
+    --tint-3:#CFE7E2;
+    --tint-4:#E3F2EF;
+
+    --stat-border:#BBD8D3;
+  }
+
+  /* ---- typeface variants ---- */
+  :root[data-font="serif"]{
+    --sans:'Newsreader',Georgia,'Times New Roman',serif;
+  }
+  :root[data-font="system"]{
+    --sans:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
+    --serif:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
+  }
+  :root[data-font="mono"]{
+    --sans:'IBM Plex Mono',ui-monospace,SFMono-Regular,Menlo,monospace;
+    --serif:'IBM Plex Mono',ui-monospace,SFMono-Regular,Menlo,monospace;
+  }
+
+  /* ---- text weight variants ---- */
+  :root[data-ink="softer"]{ --ink:#3C3A48; --ink-2:#6E6C7C; }
+  :root[data-ink="stronger"]{ --ink:#000000; --ink-2:#3A3846; }
+  :root[data-theme="dark"][data-ink="softer"]{ --ink:#C9C6D4; --ink-2:#8A8B99; }
+  :root[data-theme="dark"][data-ink="stronger"]{ --ink:#FFFFFF; --ink-2:#B9BAC8; }
+  :root[data-theme="teal"][data-ink="softer"]{ --ink:#2A4B4A; --ink-2:#5C8785; }
+  :root[data-theme="teal"][data-ink="stronger"]{ --ink:#041C1C; --ink-2:#26534F; }
 </style>
 
 <div class="wrap">
   <header>
     <div class="masthead">
       <div>
-        <h1>Finals Panel</h1>
+        <h1>Medical School Finals Study Dashboard</h1>
         <div class="sub">Written paper &middot; 14 Sep 2026</div>
       </div>
-      <div class="countdown">
-        <span class="n" id="days">—</span>
-        <span class="l">days remaining</span>
+      <div class="head-tiles">
+        <div class="countdown tile">
+          <span class="n" id="days">—</span>
+          <span class="l">days remaining</span>
+        </div>
+        <div class="tile drop-mini" id="drop" tabindex="0" role="button"
+             aria-label="Add an eMedici page or session file">
+          <span class="n mini-ico">+</span>
+          <span class="l">eMedici / session</span>
+          <input type="file" id="fileIn" accept=".json,.pdf,.mhtml,.mht,application/json,application/pdf" hidden>
+        </div>
       </div>
     </div>
     <div class="sync" id="syncState">Connecting…</div>
-    <div style="margin-top:12px">
-      <a href="notes.html" style="display:inline-flex;align-items:center;gap:6px;font-family:var(--sans);
-        font-size:13px;font-weight:600;color:var(--ink-2);background:var(--panel-2);
-        border:1px solid var(--rule);padding:9px 16px;border-radius:var(--r-ctl);
-        text-decoration:none">Notes library →</a>
+    <div class="head-row">
+      <a class="notes-btn" href="notes.html">Notes library →</a>
+      <form class="notes-search" id="notesSearch" onsubmit="return false">
+        <input type="search" id="noteQ" placeholder="Search notes" autocomplete="off">
+        <span class="hits" id="noteHits"></span>
+        <button class="act" id="noteGo" type="submit">Search</button>
+      </form>
     </div>
+    <div class="drop-r" id="dropR"></div>
   </header>
 
   <nav role="tablist">
-    <button role="tab" aria-selected="true"  data-tab="panel">Panel</button>
+    <button role="tab" aria-selected="true"  data-tab="panel">Home</button>
     <button role="tab" aria-selected="false" data-tab="session">Session</button>
     <button role="tab" aria-selected="false" data-tab="sessions">Bank</button>
     <button role="tab" aria-selected="false" data-tab="revision">Revision</button>
     <button role="tab" aria-selected="false" data-tab="flagged">Flagged</button>
     <button role="tab" aria-selected="false" data-tab="cleared">Cleared</button>
     <button role="tab" aria-selected="false" data-tab="log">Session log</button>
+    <button role="tab" aria-selected="false" data-tab="settings">Settings</button>
     <button role="tab" aria-selected="false" data-tab="data">Data</button>
   </nav>
 
   <!-- PANEL -->
   <section id="tab-panel">
-    <div class="drop" id="drop" tabindex="0" role="button"
-         aria-label="Drop a session file or eMedici PDF to update the dashboard">
-      <div class="drop-t">Drop an eMedici page or session file</div>
-      <div class="drop-s">Save the answered question page as <strong>Webpage, Single File (.mhtml)</strong> and your result is read automatically. PDFs and session JSON also work.</div>
-      <div class="drop-r" id="dropR"></div>
-      <input type="file" id="fileIn" accept=".json,.pdf,.mhtml,.mht,application/json,application/pdf" hidden>
-    </div>
     <div id="queue"></div>
-    <div class="panel">
-      <div class="panel-h">Paste from Claude</div>
-      <textarea id="pasteIn" rows="3" placeholder="Paste a session block here — anything around it is ignored"
-                style="width:100%;font-family:var(--mono);font-size:13px"></textarea>
-      <div class="row">
-        <button class="act" id="pasteGo">Apply</button>
-        <span class="drop-r" id="pasteR"></span>
-      </div>
-    </div>
     <div class="stats" id="stats"></div>
+    <div class="glance" id="glance"></div>
     <div class="summary" id="summary"></div>
     <div class="top-pri" id="topPriority"></div>
 
@@ -594,6 +703,15 @@
 
   <!-- SESSIONS -->
   <section id="tab-sessions" hidden>
+    <div class="panel">
+      <div class="panel-h">Paste from Claude</div>
+      <textarea id="pasteIn" rows="3" placeholder="Paste a session block here — anything around it is ignored"
+                style="width:100%;font-family:var(--mono);font-size:13px"></textarea>
+      <div class="row">
+        <button class="act" id="pasteGo">Apply</button>
+        <span class="drop-r" id="pasteR"></span>
+      </div>
+    </div>
     <div id="quizPlayer" hidden></div>
     <div id="quizBank">
       <details class="fold" open>
@@ -700,6 +818,44 @@
   </section>
 
   <!-- DATA -->
+  <!-- SETTINGS -->
+  <section id="tab-settings" hidden>
+    <div class="panel">
+      <div class="panel-h">Appearance</div>
+
+      <div class="set-row">
+        <span class="set-lab">Theme</span>
+        <div class="seg" id="setTheme">
+          <button type="button" data-theme-set="light">Light</button>
+          <button type="button" data-theme-set="dark">Dark</button>
+          <button type="button" data-theme-set="teal">Teal</button>
+          <button type="button" data-theme-set="auto">Auto</button>
+        </div>
+      </div>
+
+      <div class="set-row">
+        <span class="set-lab">Typeface</span>
+        <div class="seg" id="setFont">
+          <button type="button" data-font="default">Default</button>
+          <button type="button" data-font="serif">Serif</button>
+          <button type="button" data-font="system">System</button>
+          <button type="button" data-font="mono">Mono</button>
+        </div>
+      </div>
+
+      <div class="set-row">
+        <span class="set-lab">Text colour</span>
+        <div class="seg" id="setInk">
+          <button type="button" data-ink="default">Default</button>
+          <button type="button" data-ink="softer">Softer</button>
+          <button type="button" data-ink="stronger">Stronger</button>
+        </div>
+      </div>
+
+      <p class="note">Saved on this device. Theme follows your system setting on Auto.</p>
+    </div>
+  </section>
+
   <section id="tab-data" hidden>
     <div class="panel">
       <div class="panel-h">Drive sync</div>
@@ -745,14 +901,6 @@
   </section>
 </div>
 
-<!-- Appearance switch — additive only. Nothing above it is touched.
-     Paste immediately before the closing </div> of .wrap. -->
-<div class="theme-sw" role="group" aria-label="Appearance">
-  <span>Appearance</span>
-  <button type="button" data-theme-set="light" aria-pressed="false">Light</button>
-  <button type="button" data-theme-set="dark" aria-pressed="false">Dark</button>
-  <button type="button" data-theme-set="auto" aria-pressed="true">Auto</button>
-</div>
 <script>
 (function(){
   var KEY_T = 'finals_theme';                       // own key; the tracker's data is untouched
@@ -777,6 +925,30 @@
   var saved = 'auto';
   try{ saved = localStorage.getItem(KEY_T) || 'auto'; }catch(e){}
   apply(saved);
+
+  // Typeface and text-weight work the same way: a data-attribute on <html> that
+  // swaps CSS variables, remembered per device. 'default' clears the attribute.
+  function pref(attr, key, sel, dataKey){
+    var group = document.querySelectorAll(sel);
+    function set(v){
+      if(!v || v === 'default'){ delete root.dataset[attr]; } else { root.dataset[attr] = v; }
+      group.forEach(function(b){
+        b.setAttribute('aria-pressed', String((b.dataset[dataKey] || 'default') === (v || 'default')));
+      });
+    }
+    group.forEach(function(b){
+      b.addEventListener('click', function(){
+        var v = b.dataset[dataKey] || 'default';
+        try{ localStorage.setItem(key, v); }catch(e){}
+        set(v);
+      });
+    });
+    var v = 'default';
+    try{ v = localStorage.getItem(key) || 'default'; }catch(e){}
+    set(v);
+  }
+  pref('font', 'finals_font', '[data-font]', 'font');
+  pref('ink',  'finals_ink',  '[data-ink]',  'ink');
 })();
 </script>
 
@@ -1164,56 +1336,47 @@ function renderSummary(){
   const acc = totalQ ? Math.round(totalC/totalQ*100) : null;
 
   const touched = new Set(Object.keys(S.topics).map(k => k.split('—')[0].trim().toLowerCase()));
-  const untestedSystems = [...BUILT, ...UNBUILT].filter(s => !touched.has(s.toLowerCase()));
+  const untested = [...BUILT, ...UNBUILT].filter(x => !touched.has(x.toLowerCase()));
 
   // A strength needs enough attempts to mean something — one lucky answer isn't
-  // evidence. Two or more questions at 75%+ is the bar.
+  // evidence. Two or more questions at 75%+ is the bar. Three shown, not five.
   const strengths = entries
     .filter(([,d]) => d.score >= 75 && d.tested >= 2)
     .sort((a,b) => b[1].score - a[1].score || b[1].tested - a[1].tested)
-    .slice(0,5);
+    .slice(0,3);
 
-  // Weaknesses draw on scored topics AND repeat-missed flags, since a topic can
-  // look mediocre on score while hiding a specific fork missed three times.
+  // Weaknesses lead with repeat-missed flags: a topic can look mediocre on score
+  // while hiding one specific fork missed three times.
   const weakTopics = entries.filter(([,d]) => d.score < 60)
-    .sort((a,b) => a[1].score - b[1].score).slice(0,5);
+    .sort((a,b) => a[1].score - b[1].score);
   const repeatFlags = [...S.open].filter(o => o.n >= 2).sort((a,b) => b.n - a.n);
-
   const weaknesses = [];
-  repeatFlags.slice(0,2).forEach(f => weaknesses.push(`${f.t} (missed ${f.n}×)`));
-  weakTopics.forEach(([n,d]) => {
-    if(weaknesses.length < 5) weaknesses.push(`${n} — ${d.score}%`);
-  });
+  repeatFlags.slice(0,2).forEach(f => weaknesses.push(`${f.t} (${f.n}×)`));
+  weakTopics.forEach(([n,d]) => { if(weaknesses.length < 3) weaknesses.push(`${n} — ${d.score}%`); });
 
-  // Three sentences: accuracy, coverage, and the single sharpest issue.
-  let s1, s2, s3;
+  // Under 30 words. The old version ran three long sentences; at a glance you
+  // want the number, the gap, and the one thing to fix — nothing else.
+  let line;
   if(!totalQ){
-    s1 = 'No questions attempted yet, so there is no accuracy figure to report.';
-    s2 = `All ${untestedSystems.length} syllabus systems are currently untested.`;
-    s3 = 'Start anywhere — the first session converts guesswork into a measurement.';
+    line = `Nothing attempted yet. ${untested.length} systems untested, ${daysLeft()} days to go.`;
   }else{
-    const band = acc >= 75 ? 'solid' : acc >= 60 ? 'workable but not yet exam-safe' : 'below where it needs to be';
-    s1 = `Diagnostic accuracy sits at ${acc}% across ${totalQ} question${totalQ===1?'':'s'} in ${entries.length} topic${entries.length===1?'':'s'} — ${band} with ${daysLeft()} days to go.`;
-    s2 = untestedSystems.length
-      ? `${untestedSystems.length} system${untestedSystems.length===1?'':'s'} remain untested entirely (${untestedSystems.slice(0,3).join(', ')}${untestedSystems.length>3?', and others':''}), so the picture is incomplete rather than reassuring.`
-      : 'Every system has now been tested at least once, so the picture is complete.';
     const worst = repeatFlags[0];
-    s3 = worst
-      ? `The sharpest single issue is "${worst.t}", missed ${worst.n} times — a repeated failure on one principle costs more marks than several isolated gaps.`
-      : (weakTopics[0]
-          ? `The weakest measured area is ${weakTopics[0][0]} at ${weakTopics[0][1].score}%.`
-          : 'No topic is currently below 60%, and nothing has been missed repeatedly.');
+    const focus = worst ? `${worst.t}, missed ${worst.n}×`
+                : (weakTopics[0] ? `${weakTopics[0][0]} at ${weakTopics[0][1].score}%` : 'nothing repeating');
+    line = `${acc}% over ${totalQ} questions, ${daysLeft()} days left. `
+         + (untested.length ? `${untested.length} systems untested. ` : 'All systems tested. ')
+         + `Sharpest gap: ${focus}.`;
   }
 
   $('summary').innerHTML = `
     <h3>Where you stand</h3>
-    <p>${esc(s1)} ${esc(s2)} ${esc(s3)}</p>
+    <p>${esc(line)}</p>
     <div class="lists">
       <div>
         <h4 class="s">Strengths</h4>
         ${strengths.length
-          ? `<ul>${strengths.map(([n,d]) => `<li>${esc(n)} — ${d.score}% (${d.tested}q)</li>`).join('')}</ul>`
-          : '<div class="none">Nothing yet at 75%+ over 2 or more questions</div>'}
+          ? `<ul>${strengths.map(([n,d]) => `<li>${esc(n)} — ${d.score}%</li>`).join('')}</ul>`
+          : '<div class="none">Nothing yet at 75%+ over 2+ questions</div>'}
       </div>
       <div>
         <h4 class="w">Weaknesses</h4>
@@ -1224,15 +1387,79 @@ function renderSummary(){
     </div>`;
 }
 
+/**
+ * At-a-glance block: overall accuracy as a ring, then best and worst systems.
+ * Rolled up to SYSTEM level rather than topic — "Cardiology", not
+ * "Cardiology — anticoagulation & periop" — since that's the resolution you
+ * actually plan a day's revision at.
+ */
+function renderGlance(){
+  const bySys = {};
+  Object.entries(S.topics).forEach(([k,d]) => {
+    if(!d.tested) return;
+    const sys = k.split('—')[0].trim() || 'Other';
+    bySys[sys] = bySys[sys] || {c:0,t:0};
+    bySys[sys].t += d.tested;
+    bySys[sys].c += (d.correct != null ? d.correct : Math.round((d.score||0)/100*d.tested));
+  });
+
+  const totalT = Object.values(bySys).reduce((a,v) => a+v.t, 0);
+  const totalC = Object.values(bySys).reduce((a,v) => a+v.c, 0);
+  const pct = totalT ? Math.round(totalC/totalT*100) : 0;
+
+  // 2+ questions before a system can be called best or worst — one lucky or
+  // unlucky answer shouldn't put a system on either list.
+  const ranked = Object.entries(bySys).filter(([,v]) => v.t >= 2)
+    .map(([n,v]) => [n, Math.round(v.c/v.t*100), v.t])
+    .sort((a,b) => b[1]-a[1]);
+
+  const top = ranked.slice(0,3);
+  const bottom = ranked.slice(-3).reverse().filter(x => !top.some(t => t[0]===x[0]));
+
+  const circ = 2 * Math.PI * 26;
+  const ring = `
+    <svg width="72" height="72" viewBox="0 0 72 72" aria-label="${pct} percent overall">
+      <circle cx="36" cy="36" r="26" fill="none" stroke="var(--rule)" stroke-width="8"/>
+      <circle cx="36" cy="36" r="26" fill="none" stroke="var(--in)" stroke-width="8"
+        stroke-linecap="round" transform="rotate(-90 36 36)"
+        stroke-dasharray="${(circ*pct/100).toFixed(1)} ${circ.toFixed(1)}"/>
+    </svg>`;
+
+  const list = (rows, cls, empty) => rows.length
+    ? `<ul class="g-list ${cls}">${rows.map(([n,p,t]) =>
+        `<li><span>${esc(n)}</span><span class="v">${p}% · ${t}q</span></li>`).join('')}</ul>`
+    : `<div class="g-none">${empty}</div>`;
+
+  $('glance').innerHTML = `
+    <div>
+      <h4>Overall</h4>
+      <div class="g-ring">
+        ${totalT ? ring : ''}
+        <div>
+          <div class="g-big">${totalT ? pct + '%' : '—'}</div>
+          <div class="g-sub">${totalT ? totalC + ' of ' + totalT + ' correct' : 'no questions yet'}</div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h4>Strongest systems</h4>
+      ${list(top, 'g-good', 'Needs 2+ questions in a system')}
+    </div>
+    <div>
+      <h4>Weakest systems</h4>
+      ${list(bottom, 'g-bad', 'Needs 2+ questions in a system')}
+    </div>`;
+}
+
 function renderAll(){
   $('days').textContent = daysLeft();
-  renderStats(); renderSummary(); renderAssays(); renderOpen(); renderCleared(); renderLog(); renderCoverage(); renderLinks(); renderMd();
+  renderStats(); renderSummary(); renderGlance(); renderAssays(); renderOpen(); renderCleared(); renderLog(); renderCoverage(); renderLinks(); renderMd();
 }
 
 // tabs
 document.querySelectorAll('nav button').forEach(b => b.onclick = () => {
   document.querySelectorAll('nav button').forEach(x => x.setAttribute('aria-selected', x===b));
-  ['panel','session','sessions','revision','flagged','cleared','log','data'].forEach(t =>
+  ['panel','session','sessions','revision','flagged','cleared','log','settings','data'].forEach(t =>
     $('tab-'+t).hidden = (t !== b.dataset.tab));
 });
 
@@ -1747,11 +1974,12 @@ const dz = $('drop');
 
 // iOS Safari has no file drag-and-drop — say the true thing on touch devices
 const touchOnly = !window.matchMedia('(hover:hover)').matches;
-if(touchOnly){
-  dz.querySelector('.drop-t').textContent = 'Add a session file';
-  dz.querySelector('.drop-s').textContent =
-    'Tap to pick the file from Files or iCloud Drive. Merges results, flags and scores.';
-}
+// The header tile has no .drop-t/.drop-s any more — it's a compact target, so the
+// wording lives in the markup and only the tooltip changes by input type.
+dz.title = touchOnly
+  ? 'Tap to add an eMedici page (.mhtml), PDF or session file'
+  : 'Drop or click to add an eMedici page (.mhtml), PDF or session file';
+
 
 dz.onclick = () => $('fileIn').click();
 dz.onkeydown = e => { if(e.key==='Enter'||e.key===' '){ e.preventDefault(); $('fileIn').click(); } };
@@ -1860,6 +2088,45 @@ async function fetchRepoQuizzes(){
     startQuiz(q, 'repo:' + file);
   }catch(err){ e.target.textContent = 'Failed'; }
 }));
+
+
+/* ---- notes search in the header ---- */
+// Counts matches against the notes manifest already fetched for NOTE_WORDS, so
+// typing costs nothing. Deliberately shows only a count — no dropdown, no result
+// list. Submitting hands off to notes.html, which already understands #q=.
+let NOTE_INDEX = [];
+
+async function loadNoteIndex(){
+  try{
+    const r = await fetch('notes/index.json?t=' + Date.now());
+    const d = await r.json();
+    (d.systems||[]).forEach(sys => (sys.notes||[]).forEach(n => {
+      NOTE_INDEX.push(((n.title||'') + ' ' + (sys.system||'') + ' ' +
+                       (n.tags||[]).join(' ')).toLowerCase());
+    }));
+  }catch(e){ /* search still submits, it just can't preview a count */ }
+}
+
+function noteHitCount(q){
+  const t = q.trim().toLowerCase();
+  if(!t) return null;
+  const words = t.split(/\s+/);
+  return NOTE_INDEX.filter(h => words.every(w => h.indexOf(w) >= 0)).length;
+}
+
+function updateNoteHits(){
+  const q = $('noteQ').value;
+  const n = noteHitCount(q);
+  $('noteHits').textContent = n === null ? '' : `${n} result${n===1?'':'s'}`;
+}
+
+$('noteQ').addEventListener('input', updateNoteHits);
+$('notesSearch').addEventListener('submit', e => {
+  e.preventDefault();
+  const q = $('noteQ').value.trim();
+  window.open('notes.html' + (q ? '#q=' + encodeURIComponent(q) : ''), '_blank');
+});
+loadNoteIndex();
 
 /* ---- revision modules ---- */
 const REPO_REVISION = 'https://raw.githubusercontent.com/thatoneweirddoc/finals-med-dash/main/revision/';
