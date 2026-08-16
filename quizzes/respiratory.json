@@ -1,0 +1,176 @@
+{
+ "title": "Respiratory",
+ "system": "Respiratory",
+ "questions": [
+  {
+   "stem": "A 24-year-old woman with asthma presents with breathlessness. She is too breathless to complete sentences, RR 28, HR 122, PEF 42% predicted, SpO2 93% on room air.",
+   "lead": "How is this exacerbation classified?",
+   "options": [
+    "Mild",
+    "Moderate",
+    "Severe",
+    "Life-threatening",
+    "Near-fatal"
+   ],
+   "correct": 2,
+   "explanation": "<b>Severe</b>: inability to complete sentences, PEF 33-50% predicted, RR ≥25, HR ≥110. <b>Life-threatening</b> requires PEF <33%, SpO2 <92%, silent chest, cyanosis, poor effort, exhaustion, altered consciousness, arrhythmia or hypotension — none present here. Near-fatal means a raised PaCO2 or need for ventilation. Her SpO2 of 93% sits just above the life-threatening threshold, which is the detail deciding this question.",
+   "point": "Severe asthma is PEF 33-50% predicted with inability to complete sentences; life-threatening requires PEF under 33% or SpO2 under 92%.",
+   "topic": "Respiratory — asthma",
+   "type": "application",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "The same patient is treated with salbutamol and ipratropium nebulisers and oral prednisolone. An hour later she is quieter, drowsy, and her ABG shows pH 7.31, PaCO2 48mmHg (normal 35-45), PaO2 68mmHg.",
+   "lead": "How should the rising PaCO2 be interpreted?",
+   "options": [
+    "Reassuring — she is settling and ventilating more normally",
+    "A sign of exhaustion and impending respiratory arrest",
+    "Expected effect of nebulised salbutamol",
+    "Evidence of a coexisting metabolic alkalosis",
+    "Suggests the diagnosis is not asthma"
+   ],
+   "correct": 1,
+   "explanation": "An asthmatic in an acute attack should be <b>hyperventilating with a LOW PaCO2</b>. A normal or rising CO2 means she can no longer sustain the work of breathing — <b>exhaustion and impending respiratory arrest</b>. Combined with drowsiness and a quieter chest, this is near-fatal asthma requiring urgent ICU involvement. Mistaking the quieter chest and 'normalising' gas for improvement is the classic and lethal error.",
+   "point": "A normal or rising PaCO2 in acute asthma signals exhaustion and impending respiratory arrest, not improvement.",
+   "topic": "Respiratory — asthma",
+   "type": "discrimination",
+   "difficulty": "hard"
+  },
+  {
+   "stem": "A 68-year-old man with COPD has an FEV1/FVC of 0.58 post-bronchodilator and FEV1 42% predicted. He has had two exacerbations needing oral steroids in the past year, neither requiring admission. His mMRC score is 2.",
+   "lead": "What is his GOLD classification?",
+   "options": [
+    "GOLD 2, Group A",
+    "GOLD 2, Group B",
+    "GOLD 3, Group B",
+    "GOLD 3, Group E",
+    "GOLD 4, Group E"
+   ],
+   "correct": 3,
+   "explanation": "FEV1 42% predicted falls in the <b>30-49% band = GOLD 3</b>. Exacerbation history places him in <b>Group E</b> — under GOLD 2023 that required ≥2 moderate exacerbations or ≥1 hospitalisation, and GOLD has since lowered the threshold further. Group E overrides symptom score entirely, which is why mMRC 2 does not make him Group B. Group E is treated with LABA+LAMA, adding ICS if eosinophils ≥300.",
+   "point": "GOLD spirometric grade and exacerbation group are separate axes; Group E is determined by exacerbations regardless of symptom score.",
+   "topic": "Respiratory — COPD",
+   "type": "application",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A 55-year-old smoker has a 3-week history of cough with haemoptysis and 5kg weight loss. Sodium is 121 mmol/L (135-145), serum osmolality low, urine osmolality inappropriately high, and he is clinically euvolaemic.",
+   "lead": "What is the most likely underlying diagnosis?",
+   "options": [
+    "Small cell lung cancer",
+    "Squamous cell lung cancer",
+    "Adenocarcinoma of the lung",
+    "Tuberculosis",
+    "Bronchiectasis"
+   ],
+   "correct": 0,
+   "explanation": "Euvolaemic hyponatraemia with low serum and inappropriately concentrated urine is <b>SIADH</b>, and in a smoker with haemoptysis and weight loss the cause is <b>small cell lung cancer</b> — the classic SIADH-secreting tumour. Note the discriminator: <b>squamous cell causes hyperCALCAEMIA</b> via PTHrP, not hyponatraemia. Both are central tumours in smokers, and swapping the two paraneoplastic syndromes is the trap.",
+   "point": "Small cell lung cancer causes SIADH; squamous cell lung cancer causes hypercalcaemia via PTHrP.",
+   "topic": "Respiratory — lung cancer",
+   "type": "discrimination",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A 32-year-old woman presents with pleuritic chest pain and breathlessness 10 days after a long-haul flight. She is haemodynamically stable, HR 102, SpO2 95%. Wells score is 4.5.",
+   "lead": "What is the most appropriate next investigation?",
+   "options": [
+    "D-dimer",
+    "CTPA",
+    "V/Q scan",
+    "Bilateral leg ultrasound",
+    "Echocardiography"
+   ],
+   "correct": 1,
+   "explanation": "A Wells score >4 makes PE <b>likely</b>, and in that group <b>you proceed directly to CTPA</b> — D-dimer is only useful to <i>exclude</i> PE in a low-probability patient, because a positive result in a high-probability patient changes nothing and a negative one cannot be trusted. V/Q is reserved for renal impairment, contrast allergy, or pregnancy where reducing breast radiation matters.",
+   "point": "With a Wells score above 4 the patient goes straight to CTPA; D-dimer is only for excluding PE in low-probability patients.",
+   "topic": "Respiratory — pulmonary embolism",
+   "type": "application",
+   "difficulty": "easy"
+  },
+  {
+   "stem": "A 70-year-old man has progressive exertional breathlessness over 18 months and a dry cough. Examination shows fine bibasal inspiratory crackles and finger clubbing. Spirometry: FEV1 72% predicted, FVC 68% predicted, FEV1/FVC 0.84. DLCO is reduced.",
+   "lead": "What does this pattern indicate?",
+   "options": [
+    "Obstructive disease — likely COPD",
+    "Restrictive disease — likely interstitial lung disease",
+    "Mixed obstructive and restrictive disease",
+    "Normal spirometry with anaemia",
+    "Upper airway obstruction"
+   ],
+   "correct": 1,
+   "explanation": "A <b>preserved or raised FEV1/FVC ratio with both volumes reduced</b> is the restrictive pattern; add reduced DLCO, fine bibasal crackles and clubbing and this is <b>interstitial lung disease</b>, most likely idiopathic pulmonary fibrosis. Obstruction would give a ratio <0.7. The ratio is what separates the two — reading only the absolute FEV1 is what misleads people here.",
+   "point": "Restrictive lung disease shows reduced FVC with a preserved or raised FEV1/FVC ratio.",
+   "topic": "Respiratory — interstitial lung disease",
+   "type": "discrimination",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A previously well 22-year-old tall thin man develops sudden right-sided pleuritic chest pain and breathlessness. He is stable. CXR shows a 3cm rim of air at the level of the hilum with no mediastinal shift.",
+   "lead": "What is the most appropriate management?",
+   "options": [
+    "Observation and discharge with follow-up",
+    "Needle aspiration or small-bore chest drain",
+    "Immediate needle decompression at the 2nd intercostal space",
+    "Large-bore surgical chest drain",
+    "Video-assisted thoracoscopic surgery"
+   ],
+   "correct": 1,
+   "explanation": "A <b>primary spontaneous pneumothorax that is large (>2cm rim) or symptomatic</b> is treated with aspiration or a small-bore drain. Small (<2cm) and asymptomatic pneumothoraces can be observed. Needle decompression is for <b>tension</b> pneumothorax, which this is not — he is stable with no mediastinal shift. Note the tall thin young male demographic is characteristic of primary spontaneous pneumothorax.",
+   "point": "A primary spontaneous pneumothorax over 2cm or symptomatic is aspirated; needle decompression is reserved for tension pneumothorax.",
+   "topic": "Respiratory — pneumothorax",
+   "type": "application",
+   "difficulty": "easy"
+  },
+  {
+   "stem": "A 45-year-old woman has a pleural effusion. Pleural fluid protein is 38 g/L, serum protein 62 g/L. Pleural LDH 260 U/L, serum LDH 380 U/L.",
+   "lead": "How is this effusion classified?",
+   "options": [
+    "Transudate",
+    "Exudate",
+    "Empyema",
+    "Chylothorax",
+    "Haemothorax"
+   ],
+   "correct": 1,
+   "explanation": "Apply <b>Light's criteria</b> — an effusion is an exudate if ANY one is met: pleural/serum protein <b>>0.5</b> (here 38/62 = 0.61 ✓), pleural/serum LDH <b>>0.6</b> (260/380 = 0.68 ✓), or pleural LDH >2/3 the upper limit of normal serum LDH. Two criteria are met, so this is an <b>exudate</b> — think malignancy, infection, PE, or inflammatory disease rather than heart failure or hypoalbuminaemia.",
+   "point": "Light's criteria define an exudate: pleural/serum protein above 0.5, or pleural/serum LDH above 0.6.",
+   "topic": "Respiratory — pleural disease",
+   "type": "application",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A 58-year-old man is admitted with community-acquired pneumonia. He is confused, urea 8.2 mmol/L (2.5-7.5), RR 32, BP 88/56, age 58.",
+   "lead": "What is his CURB-65 score and what does it indicate?",
+   "options": [
+    "2 — consider outpatient management",
+    "3 — admit, consider ICU review",
+    "4 — admit, ICU assessment",
+    "5 — maximal severity",
+    "1 — outpatient management"
+   ],
+   "correct": 2,
+   "explanation": "<b>C</b>onfusion ✓, <b>U</b>rea >7 ✓, <b>R</b>R ≥30 ✓, <b>B</b>P systolic <90 or diastolic ≤60 ✓ (88/56 meets both), age <b>65</b> ✗ — he is 58. That gives <b>4</b>. A score of 3 or more indicates severe pneumonia warranting admission and ICU assessment. The age criterion is the one most often misapplied: it is 65 and over, so a 58-year-old scores nothing for it.",
+   "point": "CURB-65 scores one point each for confusion, urea over 7, respiratory rate 30 or more, low BP, and age 65 or over.",
+   "topic": "Respiratory — pneumonia",
+   "type": "application",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A 60-year-old man with obesity reports daytime somnolence, unrefreshing sleep, and witnessed apnoeas. His wife describes loud snoring with pauses. He has resistant hypertension.",
+   "lead": "Which investigation confirms the diagnosis?",
+   "options": [
+    "Overnight polysomnography",
+    "Arterial blood gas",
+    "Spirometry with bronchodilator response",
+    "CT chest",
+    "Echocardiography"
+   ],
+   "correct": 0,
+   "explanation": "<b>Polysomnography (sleep study)</b> confirms obstructive sleep apnoea and grades severity by the apnoea-hypopnoea index. STOP-BANG is a screening tool, not diagnostic. The association with <b>resistant hypertension</b> is worth knowing — OSA is a recognised secondary cause and should be considered in any patient whose blood pressure resists three agents. Treatment is CPAP plus weight loss, and it has implications for driving.",
+   "point": "Obstructive sleep apnoea is confirmed by polysomnography and is a recognised secondary cause of resistant hypertension.",
+   "topic": "Respiratory — sleep disordered breathing",
+   "type": "recall",
+   "difficulty": "easy"
+  }
+ ]
+}
