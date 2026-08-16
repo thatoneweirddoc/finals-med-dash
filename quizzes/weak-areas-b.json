@@ -1,0 +1,81 @@
+{
+ "title": "Weak areas — resuscitation & trauma",
+ "system": "Mixed",
+ "questions": [
+  {
+   "stem": "A 70kg man sustains burns to 40% total body surface area. He presents 2 hours post-injury.",
+   "lead": "Using the Parkland formula, how much crystalloid is required in the first 24 hours, and how is it given?",
+   "options": [
+    "5600mL, half over the first 8 hours from time of injury",
+    "11200mL, half over the first 8 hours from time of injury",
+    "11200mL, given evenly over 24 hours",
+    "2800mL, half over the first 8 hours from presentation"
+   ],
+   "correct": 1,
+   "explanation": "<b>4mL × weight × %TBSA</b> = 4 × 70 × 40 = <b>11200mL</b>. <b>Half is given in the first 8 hours measured from the time of injury, not from presentation</b> — he is already 2 hours in, so that half must be delivered over the remaining 6 hours. The remaining half runs over the following 16 hours. Titrate to urine output 0.5–1mL/kg/hr rather than following the formula blindly.",
+   "topic": "Critical Care — burns resuscitation",
+   "type": "application",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A patient in cardiac arrest has received three shocks for refractory VF. CPR is ongoing and adrenaline has been given.",
+   "lead": "Per ANZCOR, what is the next drug and dose?",
+   "options": [
+    "Amiodarone 150mg",
+    "Amiodarone 300mg",
+    "Lignocaine 3mg/kg",
+    "Magnesium 2g"
+   ],
+   "correct": 1,
+   "explanation": "<b>Amiodarone 300mg after the 3rd shock</b> for shock-refractory VF/pVT, with a further <b>150mg</b> considered after the 5th shock. Remember the interlocking sequence: <b>adrenaline after the 2nd shock, amiodarone after the 3rd</b> (ANZCOR), then adrenaline every second loop. Lignocaine is an alternative at 1mg/kg, not 3mg/kg. Magnesium is reserved for torsades or known hypomagnesaemia.",
+   "topic": "Critical Care — ALS medications",
+   "type": "recall",
+   "difficulty": "easy"
+  },
+  {
+   "stem": "A cyclist is brought in after a high-speed collision. He is speaking, GCS 15, but has absent breath sounds on the left, tracheal deviation to the right, distended neck veins and BP 78/40.",
+   "lead": "What is the immediate next step?",
+   "options": [
+    "Portable chest X-ray to confirm the diagnosis",
+    "Immediate needle decompression, then continue the primary survey",
+    "Complete the full primary survey before intervening",
+    "Urgent CT chest"
+   ],
+   "correct": 1,
+   "explanation": "<b>Tension pneumothorax is a clinical diagnosis and a 'B' problem — treat it the moment you find it.</b> ATLS is sequential, but you do not move past a life threat to finish the survey, and you do not send an unstable patient for imaging. Needle decompression first, then a chest drain, then resume the primary survey.",
+   "topic": "Surgery — trauma",
+   "type": "application",
+   "difficulty": "easy"
+  },
+  {
+   "stem": "A 74-year-old man with a known 5.8cm infrarenal AAA presents with sudden severe back pain and BP 82/48. He is pale and clammy.",
+   "lead": "What is the most appropriate management?",
+   "options": [
+    "CT angiogram, then transfer to theatre",
+    "Aggressive fluid resuscitation to normalise blood pressure, then CT",
+    "Immediate vascular surgical referral and transfer to theatre, with permissive hypotension",
+    "Bedside ultrasound, then admit for observation"
+   ],
+   "correct": 2,
+   "explanation": "A <b>ruptured AAA</b> in an unstable patient goes to theatre — imaging is only appropriate if the patient is stable enough and it would change the operative approach. Use <b>permissive hypotension</b> (systolic ~90mmHg): raising the pressure dislodges clot and worsens haemorrhage. Note the contrast with the asymptomatic 4.2cm AAA, which is surveilled until ≥5.5cm.",
+   "topic": "Surgery — vascular",
+   "type": "application",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A 24-year-old is resuscitated after a prolonged cardiac arrest and achieves ROSC. He remains comatose. Temperature is 38.4°C at 2 hours post-arrest.",
+   "lead": "What is the most appropriate temperature management?",
+   "options": [
+    "Cool actively to 33°C for 24 hours",
+    "Actively prevent fever, targeting ≤37.5°C",
+    "Allow permissive hyperthermia to support immune function",
+    "Rewarm to 38°C and maintain"
+   ],
+   "correct": 1,
+   "explanation": "Post-arrest care now centres on <b>actively preventing fever (≤37.5°C)</b> in comatose survivors rather than routine deep hypothermia. The TTM2 trial found hypothermia at 33°C offered no benefit over normothermia with fever prevention. Fever after arrest is independently associated with worse neurological outcome, so it is actively treated. Also avoid hyperoxia (target SpO₂ 94–98%) and maintain normocapnia.",
+   "topic": "Critical Care — post-arrest care",
+   "type": "recall",
+   "difficulty": "hard"
+  }
+ ]
+}
