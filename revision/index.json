@@ -1,6 +1,16 @@
 {
  "modules": [
   {
+   "file": "dermatology.json",
+   "title": "Dermatology",
+   "system": "Dermatology",
+   "objectives": 6,
+   "questions": 10,
+   "rationale": "Requested module. Dermatology has notes but no test data at all — this converts an untested system into a measured one, weighted to the recognition patterns and emergencies that carry marks.",
+   "added": "2026-08-16",
+   "servicedRequest": "r1786879721789"
+  },
+  {
    "file": "adrenal-axis.json",
    "title": "The Adrenal Axis",
    "system": "Endocrine",
