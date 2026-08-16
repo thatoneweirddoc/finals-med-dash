@@ -1,5 +1,5 @@
 /**
- * Finals tracker + quiz bank sync endpoint.  v2 — adds the generation loop.
+ * Finals tracker + quiz bank sync endpoint.  v3 — module generation fixed.
  *
  * Everything goes through the Drive v3 REST API via UrlFetchApp, never DriveApp
  * (DriveApp's create methods are gated to the broad "drive" scope; the REST API
@@ -17,20 +17,21 @@
  * Actions — GET: ?action=
  *   (none)        tracker JSON
  *   listQuizzes   [{id, title, system, count, created}]
- *   getQuiz&id=   one quiz's question set
+ *   listRevision  [{id, title, system, objectives, questions, created}]
+ *   getQuiz&id=   one quiz's or module's question set
  *   status        {unattempted, target, short, pending, quizzes:[...]}
  *   queue         the request queue
  * Actions — POST body {action:...}
  *   (none)         overwrite tracker (existing behaviour)
  *   saveQuiz       {title, system, questions:[...]} → stores a new quiz
+ *   saveRevision   {title, system, objectives, sections, questions} → module
  *   recordResults  {quizId, title, system, results, flags, misses, score}
- *   queueRequest   {system, n, topics, note} → "Schedule" button; the hourly
- *                  Claude task drains this
+ *   queueRequest   {system, n, topics, note, kind} → "Schedule" button
  *   ingestOutbox   pull anything Claude left in claude-outbox.json into real
  *                  quiz files; called by the page on load
- *   generateNow    {system, n, topics} → "Make now" button; calls the Anthropic
- *                  API directly and saves the result. Needs ANTHROPIC_API_KEY
- *                  in Script Properties.
+ *   generateNow    {system, n, topics, kind} → "Make now" button; calls the
+ *                  Anthropic API directly. Needs ANTHROPIC_API_KEY in Script
+ *                  Properties.
  *
  * SETUP: paste over Code.gs, keep appsscript.json unchanged, Run > setup,
  * then Deploy > Manage deployments > pencil > New version > Deploy.
@@ -38,7 +39,19 @@
  * For "Make now" only: Project Settings > Script Properties > add
  *   ANTHROPIC_API_KEY = sk-ant-...
  *   MODEL             = claude-sonnet-5      (optional, this is the default)
- * The Schedule button and the hourly task work without a key.
+ * The Schedule button and the scheduled task work without a key.
+ *
+ * CHANGES IN v3
+ *   - section `note` (a memorable sentence) and `link` (a notes-page reference)
+ *     are now distinct fields. They were the same field, so every generated
+ *     module rendered a dead link to notes.html#undefined/undefined.
+ *   - generateModule now honours the easy/medium/hard mix instead of generating
+ *     everything at medium.
+ *   - generateModule is split into two API calls. It previously asked for
+ *     objectives + six 350-word sections + 15 questions in a single call, which
+ *     is the longest request in the file and the one most likely to exceed the
+ *     ~60s UrlFetchApp ceiling — and a timeout lost the entire module.
+ *   - saveRevision returns `count`, so the scheduler stops logging "undefinedq".
  */
 
 const TOKEN = 'fadmag';
@@ -50,7 +63,7 @@ const FILE_NAME = 'finals-tracker.json';
 const QUEUE_NAME = 'queue.json';
 const OUTBOX_NAME = 'claude-outbox.json';
 
-// the standing pool of unattempted questions the hourly task tops back up
+// the standing pool of unattempted questions the scheduled task tops back up
 const BUFFER_TARGET = 30;
 
 const REPO_RAW = 'https://raw.githubusercontent.com/thatoneweirddoc/finals-med-dash/main/';
@@ -83,7 +96,7 @@ function setup() {
 
 /**
  * Run this once by hand after deploying, then paste the two ids it logs to
- * whoever is setting up the hourly Claude task. Claude needs the OUTBOX id to
+ * whoever is setting up the scheduled Claude task. Claude needs the OUTBOX id to
  * write to and the QUEUE id to read.
  */
 function idsForClaude() {
@@ -331,15 +344,40 @@ function listQuizzes() {
 // Same shape of plumbing as the quiz bank, so a revision module requested from the
 // site travels the identical path: queue -> generate -> Drive -> listed on the page.
 
+/**
+ * A section carries two optional extras that were previously conflated:
+ *   note — ONE sentence worth memorising, a plain string, rendered as a callout
+ *   link — {system, slug, title}, a reference into the student's own notes
+ * They used to share the `note` field, so every generated module rendered its
+ * link as notes.html#undefined/undefined. Hand-built modules that put a link
+ * object in `note` are still accepted and migrated.
+ */
 function validateModule(body) {
   const objectives = (body.objectives || []).map(function (x) { return String(x).trim(); })
     .filter(function (x) { return x.length > 10; });
+
   const sections = (body.sections || []).filter(function (x) {
     return x && String(x.heading || '').trim() && String(x.body || '').trim();
   }).map(function (x) {
-    return { heading: String(x.heading).trim(), body: String(x.body).trim(),
-             note: String(x.note || '').trim() };
+    const sec = { heading: String(x.heading).trim(), body: String(x.body).trim() };
+
+    if (x.note && typeof x.note === 'string') sec.note = String(x.note).trim();
+
+    if (x.link && typeof x.link === 'object' && x.link.system && x.link.slug) {
+      sec.link = { system: String(x.link.system).trim(),
+                   slug: String(x.link.slug).trim(),
+                   title: String(x.link.title || x.link.slug).trim() };
+    }
+    // legacy shape: a link object passed in `note`
+    if (!sec.link && x.note && typeof x.note === 'object' && x.note.system && x.note.slug) {
+      sec.link = { system: String(x.note.system).trim(),
+                   slug: String(x.note.slug).trim(),
+                   title: String(x.note.title || x.note.slug).trim() };
+      delete sec.note;
+    }
+    return sec;
   });
+
   const questions = validateQuestions(body.questions || []);
   return { objectives: objectives, sections: sections, questions: questions };
 }
@@ -366,8 +404,11 @@ function saveRevision(body) {
                         objectives: String(m.objectives.length),
                         questions: String(m.questions.length),
                         source: body.source || 'make-now' });
+  // `count` and `kind` are here so the scheduler can log a revision result the
+  // same way it logs a quiz — it reads made.count regardless of which it made.
   return { ok: true, id: id, title: mod.title, system: mod.system,
-           objectives: m.objectives.length, questions: m.questions.length };
+           objectives: m.objectives.length, questions: m.questions.length,
+           count: m.questions.length, kind: 'revision' };
 }
 
 function listRevision() {
@@ -411,11 +452,13 @@ function bufferStatus() {
       const id = 'repo:' + q.file;
       const done = !!taken[id];
       if (!done) unattempted += Number(q.count || 0);
-      // The hourly task cannot write to Drive (the connector can create files but
-      // not overwrite one, and drive.file hides anything this script didn't make),
-      // so it publishes to the repo instead and stamps which request it answered.
-      // That stamp is how a queued request gets marked off.
+      // The scheduled task cannot write to Drive (the connector can create files
+      // but not overwrite one, and drive.file hides anything this script didn't
+      // make), so it publishes to the repo instead and stamps which request it
+      // answered. That stamp is how a queued request gets marked off.
       if (q.servicedRequest) serviced[q.servicedRequest] = 'repo:' + q.file;
+      // one published quiz may answer several duplicate requests
+      (q.alsoServices || []).forEach(function (rid) { serviced[rid] = 'repo:' + q.file; });
       quizzes.push({ id: id, title: q.title, system: q.system,
                      count: Number(q.count || 0), taken: done, src: 'repo' });
     });
@@ -488,7 +531,7 @@ function queueRequest(body) {
 /**
  * Drain claude-outbox.json into real quiz files.
  *
- * Claude (the hourly scheduled task) cannot create a file this script can see —
+ * Claude (the scheduled task) cannot create a file this script can see —
  * drive.file scope only covers files the script itself made. It overwrites the
  * body of this one instead, and this pulls the contents across.
  */
@@ -506,9 +549,13 @@ function ingestOutbox() {
 
   list.forEach(function (z) {
     if (!z || !Array.isArray(z.questions)) { rejected.push('not a quiz object'); return; }
-    const saved = saveQuiz({
-      title: z.title, system: z.system, questions: z.questions, source: 'claude-scheduled'
-    });
+    // an outbox entry may be a revision module rather than a quiz
+    const saved = (z.kind === 'revision' || z.sections)
+      ? saveRevision({ title: z.title, system: z.system, rationale: z.rationale,
+                       objectives: z.objectives, sections: z.sections,
+                       questions: z.questions, source: 'claude-scheduled' })
+      : saveQuiz({ title: z.title, system: z.system, questions: z.questions,
+                   source: 'claude-scheduled' });
     if (saved.error) { rejected.push((z.title || 'untitled') + ': ' + saved.error); return; }
     made.push(saved);
     if (z.requestId) {
@@ -536,6 +583,7 @@ function generateNow(body) {
   // A revision module is the same request travelling the same path — it just
   // produces objectives + teaching + questions rather than questions alone.
   if (body.kind === 'revision') return generateModule(key, body);
+
   const system = body.system || 'Mixed';
   const want = Math.min(20, Math.max(5, Number(body.n) || 10));
 
@@ -569,8 +617,6 @@ function generateNow(body) {
 
   if (!out.length) return { error: 'model returned nothing usable' };
 
-  if (!out.length) return { error: 'model returned nothing usable' };
-
   const saved = saveQuiz({
     title: system + ' — ' + (body.difficulty || 'exam mix') + ' — ' +
       Utilities.formatDate(new Date(), Session.getScriptTimeZone(), 'd MMM HH:mm'),
@@ -583,75 +629,118 @@ function generateNow(body) {
 
 /**
  * Build a revision module: learning objectives, short teaching sections written to
- * close the gap, then questions that test exactly those objectives. Weighted to the
- * tracker's weak areas, same as a quiz request.
+ * close the gap, then questions that test exactly those objectives.
+ *
+ * Split across two API calls deliberately. Asking for objectives, six 350-word
+ * sections and fifteen questions in one request is the longest call in this file
+ * and the one most likely to pass the ~60s UrlFetchApp ceiling — and a timeout
+ * there loses the entire module. Teaching first, then questions grounded in the
+ * objectives that came back, which also makes the questions test the module
+ * rather than the topic in general.
  */
 function generateModule(key, body) {
   const system = body.system || 'Weakest areas';
   const nq = Math.min(15, Math.max(5, Number(body.n) || 10));
   const ground = groundingFor(system);
   const weak = weakAreasFor(system);
+  const plan = difficultyPlan(body.difficulty, nq);
 
-  const prompt = [
-    'Build a REVISION MODULE for a final-year Australian medical student sitting written',
-    'finals (no OSCE). A module teaches first and tests second — it exists to close a',
-    'known gap, not merely to assess.',
+  // ---- call 1: objectives + teaching -------------------------------------------
+  const tPrompt = [
+    'Build the TEACHING HALF of a revision module for a final-year Australian medical',
+    'student sitting written finals (no OSCE). Teaching first — this exists to close a',
+    'known gap, not to assess.',
     '',
     'Topic / scope: ' + system,
     '',
-    weak ? 'These are the student\'s tracked weak points. Aim the module squarely at them,\n' +
-           'and say so in the rationale:\n' + weak + '\n' : '',
+    weak ? 'The student\'s tracked weak points. Aim squarely at them, and say so in the\n' +
+           'rationale:\n' + weak + '\n' : '',
     ground ? 'Ground the teaching in the notes the student has actually studied:\n\n' +
              '<notes>\n' + ground + '\n</notes>\n' : '',
     'Produce:',
     '- 4 to 7 LEARNING OBJECTIVES, each a full sentence naming what must be recalled or',
     '  discriminated. Not "understand X" — state the actual discriminator or threshold.',
-    '- 3 to 6 TEACHING SECTIONS. Each has a heading and a body of 150-350 words that',
+    '- 3 to 6 TEACHING SECTIONS, each with a heading and a body of 150-350 words that',
     '  actually teaches the point: mechanism, the discriminator, the numbers. Markdown',
-    '  tables are welcome where they earn their place. An optional short "note" field',
-    '  may carry the single sentence worth memorising.',
-    '- ' + nq + ' QUESTIONS testing those objectives, in the house single-best-answer format.',
+    '  tables are welcome where they earn their place.',
+    '- Each section MAY carry "note": ONE sentence worth memorising, as a plain string.',
+    '- Each section MAY carry "link": {"system":"<notes system slug>","slug":"<note slug>",',
+    '  "title":"..."} pointing at the relevant page of the student\'s own notes. Omit it',
+    '  unless you are confident that page exists — a dead link is worse than none.',
     '',
-    DIFFICULTY_RULES.medium,
-    '',
-    'Rules:',
-    '- Australian guidelines (ANZCOR not Resuscitation Council UK; Therapeutic Guidelines;',
-    '  RACGP; RCH/Queensland for paediatrics). Say where Australian practice differs.',
-    '- Five options per question, exactly one defensible answer.',
-    '- Supply reference intervals inline whenever a value must be judged.',
-    '- No question may depend on seeing an image.',
-    '- Every question carries a "point": the takeaway as one standalone factual sentence',
-    '  that makes sense with zero context from the stem.',
+    'Australian guidelines throughout (ANZCOR not Resuscitation Council UK; Therapeutic',
+    'Guidelines; RACGP; RCH/Queensland for paediatrics). Say where Australia differs.',
     '',
     'Return ONLY a JSON object, no prose, no code fence:',
-    '{"title":"...","system":"' + system + '","rationale":"why this module, in one sentence",',
+    '{"title":"...","system":"' + system + '","rationale":"why this module, one sentence",',
     ' "objectives":["...","..."],',
-    ' "sections":[{"heading":"...","body":"...","note":"..."}],',
-    ' "questions":[{"stem":"...","lead":"...","options":["a","b","c","d","e"],"correct":<0-4>,',
-    '   "explanation":"...","point":"...","topic":"...","type":"recall|application|discrimination",',
-    '   "difficulty":"easy|medium|hard"}]}'
+    ' "sections":[{"heading":"...","body":"...","note":"...",',
+    '   "link":{"system":"...","slug":"...","title":"..."}}]}'
   ].join('\n');
 
+  const teach = anthropicJson(key, tPrompt, 6000, parseJsonObject);
+  if (!teach || !teach.sections || !teach.sections.length) {
+    return { error: 'model did not return usable teaching sections' };
+  }
+
+  // ---- call 2: questions, grounded in the teaching just written ----------------
+  const objText = (teach.objectives || []).map(function (o) { return '- ' + o; }).join('\n');
+  const mixLine = ['easy', 'medium', 'hard'].filter(function (d) { return plan[d]; })
+    .map(function (d) { return plan[d] + ' ' + d; }).join(', ');
+
+  const qPrompt = [
+    'Write ' + nq + ' single-best-answer questions testing these learning objectives,',
+    'for a final-year Australian medical student sitting written finals.',
+    '',
+    'Topic: ' + system,
+    '',
+    'Objectives the questions must test:',
+    objText,
+    '',
+    'Difficulty mix: ' + mixLine + '. Label each question with its intended difficulty.',
+    '',
+    DIFFICULTY_RULES.easy, '', DIFFICULTY_RULES.medium, '', DIFFICULTY_RULES.hard,
+    '',
+    'Rules:',
+    '- Australian guidelines where they differ (ANZCOR, Therapeutic Guidelines, RACGP).',
+    '- Five options, exactly one defensible answer.',
+    '- Supply the reference interval inline whenever a value must be judged.',
+    '- No question may depend on seeing an image.',
+    '- Explanation says why the right answer is right AND why the tempting wrong one is',
+    '  wrong, with <b>...</b> around the number, threshold or drug that is the point.',
+    '- Every question carries "point": the takeaway as ONE standalone factual sentence',
+    '  that makes sense with zero context from the stem.',
+    '',
+    'Return ONLY a JSON array, no prose, no code fence. Each element:',
+    '{"stem":"...","lead":"...","options":["a","b","c","d","e"],"correct":<0-4>,',
+    ' "explanation":"...","point":"...","topic":"' + system + ' — <subtopic>",',
+    ' "type":"recall|application|discrimination","difficulty":"easy|medium|hard"}'
+  ].join('\n');
+
+  const qs = anthropicJson(key, qPrompt, 700 * nq + 1000, parseJsonArray) || [];
+  if (!qs.length) return { error: 'teaching generated but no usable questions came back' };
+
+  teach.questions = qs;
+  teach.system = teach.system || system;
+  teach.source = 'make-now';
+  return saveRevision(teach);
+}
+
+/** One Anthropic call, parsed with the supplied extractor. Returns null on failure. */
+function anthropicJson(key, prompt, maxTokens, parser) {
   const res = UrlFetchApp.fetch(ANTHROPIC_URL, {
     method: 'post', contentType: 'application/json', muteHttpExceptions: true,
     headers: { 'x-api-key': key, 'anthropic-version': '2023-06-01' },
     payload: JSON.stringify({
       model: props().getProperty('MODEL') || DEFAULT_MODEL,
-      max_tokens: 700 * nq + 4000,
+      max_tokens: maxTokens,
       messages: [{ role: 'user', content: prompt }]
     })
   });
-  if (res.getResponseCode() >= 300) {
-    return { error: 'Anthropic ' + res.getResponseCode() + ': ' +
-                    res.getContentText().slice(0, 300) };
-  }
+  if (res.getResponseCode() >= 300) return null;
   const out = JSON.parse(res.getContentText());
   const text = (out.content || []).map(function (c) { return c.text || ''; }).join('');
-  const mod = parseJsonObject(text);
-  if (!mod) return { error: 'model did not return a usable module object' };
-
-  mod.source = 'make-now';
-  return saveRevision(mod);
+  return parser(text);
 }
 
 /** Same tolerance as parseJsonArray, for a top-level object. */
@@ -960,7 +1049,7 @@ function recordResults(body) {
   return { ok: true, updated: date };
 }
 
-// --- the hourly top-up, run by Google's scheduler ---------------------------------
+// --- the scheduled top-up, run by Google's scheduler ------------------------------
 
 // Sydney clock hours, per Project Settings > Time zone. 6-hourly across a waking
 // day: 8am, 2pm, 8pm. The 2am slot is deliberately dropped — questions generated
@@ -1038,7 +1127,8 @@ function topUpRun() {
       if (made && !made.error) {
         r.status = 'done'; r.quizId = made.id; r.done = new Date().toISOString();
         writeQueue(q);
-        did.push('request "' + r.system + '" served (' + made.count + 'q)');
+        did.push((made.kind === 'revision' ? 'module' : 'request') + ' "' + r.system +
+                 '" served (' + made.count + 'q)');
         continue;
       }
       did.push('request "' + r.system + '" FAILED: ' + ((made && made.error) || 'unknown'));
