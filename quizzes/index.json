@@ -170,6 +170,16 @@
    "added": "2026-08-16",
    "category": "topic",
    "servicedRequest": "r1786887405899"
+  },
+  {
+   "file": "helena-mixed.json",
+   "title": "Mixed review — clinical systems",
+   "system": "Mixed",
+   "count": 10,
+   "added": "2026-08-16",
+   "category": "topic",
+   "for": "helena",
+   "servicedRequest": "r1786889148149"
   }
  ]
 }
