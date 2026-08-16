@@ -497,17 +497,25 @@
 
   /* ---- notes button + search ---- */
   .head-row{display:flex;gap:10px;align-items:center;margin-top:12px;flex-wrap:wrap}
+  /* Both controls are pinned to one height. Left to their own padding they
+     diverge: the search input must stay at 16px to stop iOS zooming on focus,
+     and that taller line box made the bar overshoot the 13px button beside it. */
+  .head-row{--ctl-h:40px}
   .notes-btn{display:inline-flex;align-items:center;gap:6px;font-family:var(--sans);
     font-size:13px;font-weight:600;color:var(--ink-2);background:var(--panel-2);
-    border:1px solid var(--rule);padding:9px 16px;border-radius:var(--r-ctl);text-decoration:none}
+    border:1px solid var(--rule);padding:0 16px;border-radius:var(--r-ctl);
+    text-decoration:none;height:var(--ctl-h);box-sizing:border-box;flex-shrink:0}
   .notes-btn:hover{color:var(--ink);border-color:var(--ink)}
   .notes-search{display:flex;align-items:center;gap:8px;flex:1;min-width:220px;
-    background:var(--panel-2);border:1px solid var(--rule);border-radius:var(--r-ctl);padding:3px 3px 3px 12px}
-  .notes-search input{border:0;background:none;flex:1;min-width:80px;padding:7px 0;font-size:16px}
+    background:var(--panel-2);border:1px solid var(--rule);border-radius:var(--r-ctl);
+    padding:0 4px 0 12px;height:var(--ctl-h);box-sizing:border-box}
+  .notes-search input{border:0;background:none;flex:1;min-width:60px;padding:0;
+    font-size:16px;line-height:1.2;height:100%}
   .notes-search input:focus{outline:none}
   .notes-search .hits{font-family:var(--mono);font-size:10.5px;color:var(--ink-2);
     opacity:.55;white-space:nowrap}
-  .notes-search .act{padding:8px 14px;min-height:0}
+  .notes-search .act{padding:0 14px;min-height:0;height:calc(var(--ctl-h) - 10px);
+    align-self:center;flex-shrink:0}
 
   /* ---- at-a-glance summary ---- */
   .glance{display:grid;grid-template-columns:minmax(150px,1fr) 1fr 1fr;gap:1px;
