@@ -1542,7 +1542,10 @@ function setUser(u){
 
 /* Generation spends the owner's API credit, so the controls are hidden rather
    than left to fail server-side with an error nobody expects. */
-const GEN_BUTTONS = ['btnSchedule','btnNow','revSchedule','revNow'];
+/* Only the instant-generation buttons are owner-only. Schedule stays available
+   to everyone: it queues a request that waits for the owner's scheduled run,
+   rather than billing an API call the moment it is pressed. */
+const GEN_BUTTONS = ['btnNow','revNow'];
 function applyUserUI(){
   const who = $('whoami');
   if(who) who.textContent = USER.name ? USER.name : 'Not connected';
@@ -1576,7 +1579,7 @@ function applyUserUI(){
       note = document.createElement('span');
       note.id = id + 'Note';
       note.className = 'note';
-      note.textContent = 'New quizzes are produced centrally and appear in the Bank — sit them from there.';
+      note.textContent = 'Use Schedule — your request is built on the next scheduled run.';
       b.parentNode.insertBefore(note, b);
     } else if(allowed && note){ note.remove(); }
   });
