@@ -1,0 +1,81 @@
+{
+ "title": "Weak areas — adrenal & anticoagulation",
+ "system": "Mixed",
+ "questions": [
+  {
+   "stem": "A 42-year-old woman with known Addison's disease presents with vomiting and diarrhoea for 24 hours. BP 84/52, HR 118. She has taken no oral hydrocortisone today because she cannot keep it down.",
+   "lead": "What is the immediate management?",
+   "options": [
+    "Double her usual oral hydrocortisone dose",
+    "IM/IV hydrocortisone 100mg and IV fluid resuscitation",
+    "Oral rehydration and review in 24 hours",
+    "IV fludrocortisone 200mcg"
+   ],
+   "correct": 1,
+   "explanation": "This is an <b>adrenal crisis</b>. She cannot absorb oral steroid, so the sick-day rule of doubling the oral dose no longer applies — the answer is <b>parenteral hydrocortisone 100mg plus aggressive IV saline</b>. Fludrocortisone has no role acutely: at stress doses hydrocortisone provides ample mineralocorticoid activity.",
+   "topic": "Endocrine — adrenal insufficiency",
+   "type": "application",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A 51-year-old man is being investigated for fatigue and postural dizziness. Short Synacthen test: baseline cortisol 140 nmol/L, 30-minute cortisol 260 nmol/L (pass threshold ~430–450). ACTH is markedly elevated.",
+   "lead": "Where is the lesion?",
+   "options": [
+    "Pituitary — secondary adrenal insufficiency",
+    "Adrenal gland — primary adrenal insufficiency",
+    "Hypothalamus — tertiary adrenal insufficiency",
+    "No adrenal insufficiency; investigate other causes"
+   ],
+   "correct": 1,
+   "explanation": "The Synacthen test fails (260 is well below threshold), so adrenal insufficiency is confirmed. <b>ACTH markedly elevated</b> means the pituitary is driving hard and the adrenal is not responding — the defect is <b>at the gland: primary</b>. In secondary and tertiary disease ACTH is low or inappropriately normal, because the problem is upstream. <b>ACTH high → primary; ACTH low → secondary.</b>",
+   "topic": "Endocrine — adrenal insufficiency",
+   "type": "discrimination",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A 63-year-old woman on warfarin for atrial fibrillation has an INR of 6.2. She has no bleeding and is otherwise well.",
+   "lead": "What is the most appropriate management?",
+   "options": [
+    "Withhold warfarin and give oral vitamin K",
+    "IV vitamin K plus prothrombinex-VF",
+    "Fresh frozen plasma",
+    "Continue warfarin unchanged and recheck in a week"
+   ],
+   "correct": 0,
+   "explanation": "Raised INR <b>without bleeding</b> is managed by <b>withholding warfarin ± low-dose oral vitamin K</b>, then rechecking. Prothrombinex and IV vitamin K are reserved for <b>major or life-threatening bleeding</b> — using them here over-corrects and risks thrombosis in a patient anticoagulated for a reason. Matching intensity of reversal to severity of bleeding is the point being tested.",
+   "topic": "Anticoagulation",
+   "type": "application",
+   "difficulty": "easy"
+  },
+  {
+   "stem": "A 58-year-old man on dabigatran for AF is admitted with melaena and haemodynamic instability.",
+   "lead": "Which reversal agent is indicated?",
+   "options": [
+    "Andexanet alfa",
+    "Idarucizumab",
+    "Protamine sulfate",
+    "Vitamin K"
+   ],
+   "correct": 1,
+   "explanation": "<b>Idarucizumab</b> is the specific monoclonal antibody reversal agent for <b>dabigatran</b>, a direct thrombin inhibitor. <b>Andexanet alfa</b> reverses the factor Xa inhibitors (apixaban, rivaroxaban). Protamine reverses heparin; vitamin K reverses warfarin. Matching agent to drug class is the discriminator — dabigatran is also dialysable, unlike the Xa inhibitors.",
+   "topic": "Anticoagulation",
+   "type": "recall",
+   "difficulty": "easy"
+  },
+  {
+   "stem": "A 61-year-old man with small cell lung cancer develops proximal weakness, oedema and new hypertension over 6 weeks. He is not cushingoid in appearance.",
+   "lead": "Which biochemical pattern fits ectopic ACTH secretion?",
+   "options": [
+    "K 5.9, bicarbonate 18, glucose 3.2",
+    "K 2.9, bicarbonate 34, glucose 12.1",
+    "K 4.2, bicarbonate 24, glucose 5.5",
+    "K 3.4, bicarbonate 20, glucose 4.1"
+   ],
+   "correct": 1,
+   "explanation": "Ectopic ACTH causes <b>cortisol excess</b>, and very high cortisol saturates 11β-HSD2 so it acts on mineralocorticoid receptors: <b>hypokalaemia, metabolic alkalosis, hyperglycaemia</b>. The rapid onset means classic Cushingoid habitus has not developed — weakness, oedema and hypertension dominate instead. Option 1 is the pattern of cortisol <i>deficiency</i>, the exact inversion worth being able to recite in both directions.",
+   "topic": "Endocrine — adrenal insufficiency",
+   "type": "discrimination",
+   "difficulty": "hard"
+  }
+ ]
+}
