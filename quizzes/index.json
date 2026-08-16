@@ -180,6 +180,16 @@
    "category": "topic",
    "for": "helena",
    "servicedRequest": "r1786889148149"
+  },
+  {
+   "file": "helena-renal-uro-ent-geri.json",
+   "title": "Renal, Urology, ENT and Geriatrics",
+   "system": "Mixed",
+   "count": 10,
+   "added": "2026-08-16",
+   "category": "topic",
+   "for": "helena",
+   "servicedRequest": "r1786889215095"
   }
  ]
 }
