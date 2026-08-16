@@ -1,0 +1,156 @@
+{
+ "title": "Weak areas — mixed review",
+ "system": "Mixed",
+ "questions": [
+  {
+   "stem": "A 70-year-old man is 5 days post anterior resection. He develops fever 38.7°C, tachycardia, abdominal pain and feculent fluid in his drain.",
+   "lead": "What is the diagnosis?",
+   "options": [
+    "Wound infection",
+    "Anastomotic leak",
+    "Paralytic ileus",
+    "Atelectasis"
+   ],
+   "correct": 1,
+   "explanation": "<b>Anastomotic leak</b> — classically days 5–7, with pain, fever, tachycardia and feculent drainage. A major cause of post-operative mortality. Management: resuscitate, antibiotics, CT with contrast, then radiological drainage or return to theatre depending on stability. The post-op fever timeline (the 'five Ws') places respiratory causes days 1–2, UTI 3–5, DVT 4–6, wound 5–7.",
+   "topic": "Surgery — perioperative",
+   "type": "recall",
+   "difficulty": "easy"
+  },
+  {
+   "stem": "A 24-year-old man has a tibial fracture. Six hours later he has severe pain worsened by passive toe extension, and a tense swollen calf. Distal pulses are palpable.",
+   "lead": "What is the most appropriate action?",
+   "options": [
+    "Reassure — palpable pulses exclude compartment syndrome",
+    "Urgent fasciotomy",
+    "Elevate the limb and reassess in 4 hours",
+    "Arterial Doppler before deciding"
+   ],
+   "correct": 1,
+   "explanation": "<b>Acute compartment syndrome</b> — pain out of proportion, worse on passive stretch, tense compartment. <b>Pulses are usually present</b>, because compartment pressure exceeds venous but not arterial pressure; pulselessness is a very late sign and waiting for it costs the limb. Treatment is <b>urgent fasciotomy</b>. Elevation above heart level reduces perfusion and is avoided.",
+   "topic": "Surgery — orthopaedics",
+   "type": "discrimination",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A 26-year-old woman with type 1 diabetes has vomiting and drowsiness. Glucose 24, pH 7.12, bicarbonate 9, ketones 5.4. Potassium is 3.1.",
+   "lead": "What is the correct sequence?",
+   "options": [
+    "Start insulin immediately, then fluids",
+    "IV fluids and potassium replacement before starting insulin",
+    "IV sodium bicarbonate first",
+    "Insulin plus bicarbonate together"
+   ],
+   "correct": 1,
+   "explanation": "The <b>potassium is low</b>. Insulin drives K⁺ intracellularly and will precipitate dangerous, potentially fatal hypokalaemia. Give <b>fluids and replace potassium first</b> — insulin is typically withheld until K⁺ ≥3.5, or run alongside replacement. <b>Bicarbonate is not routine in DKA</b> even with marked acidosis; it worsens paradoxical CNS acidosis.",
+   "topic": "Critical Care — DKA management",
+   "type": "application",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A 60-year-old woman presents with painless obstructive jaundice, weight loss, and a palpable non-tender gallbladder.",
+   "lead": "What does the palpable gallbladder suggest?",
+   "options": [
+    "Gallstone disease — the commonest cause of jaundice",
+    "Malignant obstruction, likely pancreatic head",
+    "Acute cholecystitis",
+    "Ascending cholangitis"
+   ],
+   "correct": 1,
+   "explanation": "<b>Courvoisier's law</b>: a palpable, non-tender gallbladder with jaundice is unlikely to be due to stones — chronic stone disease produces a fibrotic, non-distensible gallbladder. Painless obstructive jaundice with weight loss points to <b>malignancy of the pancreatic head</b> (or distal biliary tree). Cholecystitis and cholangitis are painful and febrile.",
+   "topic": "Surgery — hepatobiliary",
+   "type": "discrimination",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A 68-year-old man with COPD has a routine ABG: pH 7.36, PaCO₂ 58mmHg, HCO₃ 32, PaO₂ 62mmHg on room air.",
+   "lead": "How should this be interpreted?",
+   "options": [
+    "Acute respiratory acidosis requiring urgent NIV",
+    "Chronic compensated respiratory acidosis",
+    "Metabolic alkalosis",
+    "Normal gas exchange"
+   ],
+   "correct": 1,
+   "explanation": "pH is <b>near-normal</b> despite a markedly raised CO₂, with a correspondingly raised bicarbonate — that is <b>chronic respiratory acidosis with renal metabolic compensation</b>. Renal compensation takes days, so its presence tells you this is chronic. An <i>acute</i> rise in CO₂ would give a low pH with a normal bicarbonate. Target SpO₂ 88–92% in this patient.",
+   "topic": "Respiratory — blood gas interpretation",
+   "type": "application",
+   "difficulty": "hard"
+  },
+  {
+   "stem": "A 55-year-old woman on long-term prednisolone for rheumatoid arthritis is admitted for emergency laparotomy.",
+   "lead": "What additional perioperative management is required?",
+   "options": [
+    "No change — continue her usual oral dose",
+    "Stress-dose corticosteroid cover",
+    "Stop steroids to reduce infection risk",
+    "Switch to fludrocortisone"
+   ],
+   "correct": 1,
+   "explanation": "Long-term exogenous steroid suppresses the HPA axis, so she cannot mount the cortisol surge that major surgery demands — without <b>stress-dose cover</b> she risks adrenal crisis intraoperatively. Stopping steroids abruptly is the opposite of what is required. This is the surgical face of secondary adrenal insufficiency.",
+   "topic": "Endocrine — adrenal insufficiency",
+   "type": "application",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A 32-year-old woman at 34 weeks gestation presents with painless bright red PV bleeding of about 250mL. The uterus is soft and non-tender; CTG is normal.",
+   "lead": "Which examination must be avoided?",
+   "options": [
+    "Abdominal palpation",
+    "Digital vaginal examination",
+    "Speculum examination",
+    "Fetal heart auscultation"
+   ],
+   "correct": 1,
+   "explanation": "Painless bleeding with a soft non-tender uterus suggests <b>placenta praevia</b>. A <b>digital vaginal examination</b> can disrupt a low-lying placenta and cause catastrophic haemorrhage — it is avoided in any antepartum haemorrhage until praevia is excluded by ultrasound. Speculum examination is acceptable. Contrast with abruption: painful bleeding, tender woody uterus, loss often concealed.",
+   "topic": "O&G — antepartum haemorrhage",
+   "type": "recall",
+   "difficulty": "easy"
+  },
+  {
+   "stem": "A 45-year-old man has an incidental 3cm left adrenal mass on CT performed for trauma. He is normotensive and asymptomatic.",
+   "lead": "What is the essential first step?",
+   "options": [
+    "Immediate adrenalectomy",
+    "Biochemical evaluation for hormone excess, including exclusion of phaeochromocytoma",
+    "Repeat CT in 12 months only",
+    "Biopsy the lesion"
+   ],
+   "correct": 1,
+   "explanation": "Every adrenal incidentaloma needs <b>functional assessment</b> — overnight dexamethasone suppression, aldosterone/renin ratio if hypertensive or hypokalaemic, and <b>plasma metanephrines</b> — plus assessment of malignant risk by size and imaging characteristics. <b>Biopsy is contraindicated before excluding phaeochromocytoma</b>, since it can precipitate a hypertensive crisis. Surgery follows the results, not the other way round.",
+   "topic": "Endocrine — adrenal insufficiency",
+   "type": "application",
+   "difficulty": "hard"
+  },
+  {
+   "stem": "An 82-year-old woman on warfarin falls and hits her head. She is alert, GCS 15, with no focal deficit. INR is 2.8.",
+   "lead": "What is the most appropriate management?",
+   "options": [
+    "Discharge with head injury advice",
+    "CT head, and observe even if the initial scan is normal",
+    "Reverse warfarin immediately regardless of imaging",
+    "Repeat INR in 24 hours"
+   ],
+   "correct": 1,
+   "explanation": "Anticoagulation is an independent indication for <b>CT head</b> after any head injury, even with GCS 15 and no deficit — and a period of <b>observation is warranted even with a normal initial scan</b>, because delayed intracranial haemorrhage is well described in anticoagulated patients. Reversal is only indicated if bleeding is demonstrated; reversing prophylactically exposes her to thrombotic risk.",
+   "topic": "Neurology — head injury",
+   "type": "application",
+   "difficulty": "hard"
+  },
+  {
+   "stem": "A 58-year-old man with cirrhosis has ascites. Diagnostic paracentesis shows an ascitic neutrophil count of 340 cells/mm³.",
+   "lead": "What is the diagnosis and treatment?",
+   "options": [
+    "Sterile ascites — no antibiotics needed",
+    "Spontaneous bacterial peritonitis — IV antibiotics and albumin",
+    "Secondary peritonitis — urgent laparotomy",
+    "Malignant ascites — palliative drainage"
+   ],
+   "correct": 1,
+   "explanation": "An ascitic <b>neutrophil count ≥250 cells/mm³</b> diagnoses <b>spontaneous bacterial peritonitis</b>, regardless of culture result. Treat with <b>IV antibiotics (third-generation cephalosporin) plus IV albumin</b>, which reduces hepatorenal syndrome and mortality. Secondary bacterial peritonitis (from a perforated viscus) is suggested by polymicrobial culture, very high protein, and multiple organisms — that one needs surgery.",
+   "topic": "Gastroenterology — cirrhosis complications",
+   "type": "recall",
+   "difficulty": "medium"
+  }
+ ]
+}
