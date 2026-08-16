@@ -1,7 +1,7 @@
 # System build playbook
 
-Written 16 Aug 2026, after five systems (O&G, Paediatrics, Urology, ENT, Geriatrics,
-Surgery) and **155 verified corrections**. This exists because the same mistakes kept
+Written 16 Aug 2026, after six systems (O&G, Paediatrics, Urology, ENT, Geriatrics,
+Surgery, Psychiatry) and **256 verified corrections**. This exists because the same mistakes kept
 recurring across builds and were being re-learned each session instead of encoded.
 
 Read this before starting a system. It is a procedure, not a reflection.
@@ -101,7 +101,21 @@ file: *"Reply with ONLY: file path, word count, list of `##` headings. Under 100
 words."* Write the file first, report second — an agent that dies mid-report has still
 delivered.
 
-### 7. Assuming a slug from a display name
+### 7. Not re-running the recognition summary after applying corrections
+
+Psychiatry, 16 Aug 2026. The recognition summary flagged 11 contradictions, all
+were adjudicated and fixed — and re-running it against the corrected sections
+found **5 more**, three of them introduced or exposed by the correction pass
+itself (five separate editors working on their own files cannot see each other's
+wording). One was safety-relevant: two sections gave the IM olanzapine /
+parenteral benzodiazepine interval rule in **opposite directions**.
+
+**Mechanism.** The recognition summary runs **twice** — once before verification
+to generate the verifier's target list, and again after corrections land, as the
+cross-file consistency check that no single-file editor can perform. Patch the
+second run's findings rather than regenerating a 10,000-word file for five lines.
+
+### 8. Assuming a slug from a display name
 
 `assemble_notes.py --system "Obstetrics & Gynaecology"` builds **0 notes silently**.
 It takes the slug. This one was already documented and did not recur — proof the
@@ -119,10 +133,11 @@ Deviating from this order is what caused mistakes 2 and 3.
 | 1 | Scope from the past papers | Topics extracted from `quizzes/pp-*.json`, so the build is aimed at the actual exam |
 | 2 | Check what already exists | Don't duplicate — cross-reference. Surgery cross-refs Gastro for pancreatitis, biliary, hepatology, GI bleeding, IBD |
 | 3 | **Fan out section agents** | `ls sources/<slug>/` — count the files against what you launched |
-| 4 | **Recognition-summary agent** | It reads all sections, and **flags contradictions rather than picking**. Its inconsistency list is an input to step 5, not something to act on directly |
+| 4 | **Recognition-summary agent (pass 1)** | It reads all sections, and **flags contradictions rather than picking**. Its inconsistency list is an input to step 5, not something to act on directly |
 | 5 | **Adversarial verification** | One reviewer per 1–2 sections. Instructed to find errors, not confirm. **Include the flagged contradictions from step 4 in the verifier's target list** |
 | 6 | Apply corrections | Script the edits with exact-string matching and **report which failed** — a silent no-op is worse than an error |
-| 7 | Harmonise leftovers | Only now, using verified facts |
+| 7 | **Recognition-summary agent (pass 2)** | Re-run against the corrected sections. It sees across files; the per-file editors cannot. Expect it to find contradictions the correction pass introduced |
+| 7b | Harmonise leftovers | Only now, using verified facts. Each conflict goes to a verifier with a source — never resolved by preference |
 | 8 | Reassemble → assemble_notes → build_notes → build_notes_page | Word count sane; new slug appears in the index |
 | 9 | Write the verification doc | What was wrong, what survived, what could not be checked |
 | 10 | Fetch, rebase, rebuild, commit, push | |
