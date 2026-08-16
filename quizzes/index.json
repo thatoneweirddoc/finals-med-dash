@@ -201,6 +201,16 @@
    "difficulty": "exam",
    "for": "helena",
    "servicedRequest": "r1786889770126"
+  },
+  {
+   "file": "obstetrics-gynaecology.json",
+   "title": "Obstetrics & Gynaecology",
+   "system": "Obstetrics & Gynaecology",
+   "count": 20,
+   "added": "2026-08-17",
+   "category": "topic",
+   "for": "fadi",
+   "servicedRequest": "r1786916191546"
   }
  ]
 }
