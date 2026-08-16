@@ -1,0 +1,176 @@
+{
+ "title": "Renal, Urology, ENT and Geriatrics",
+ "system": "Mixed",
+ "questions": [
+  {
+   "stem": "A 72-year-old man on ramipril and spironolactone for heart failure is admitted with gastroenteritis. Potassium is 6.9 mmol/L (3.5-5.2). ECG shows peaked T waves and a widened QRS.",
+   "lead": "What is the first drug to give?",
+   "options": [
+    "IV insulin with dextrose",
+    "IV calcium gluconate",
+    "Nebulised salbutamol",
+    "Oral resonium",
+    "IV sodium bicarbonate"
+   ],
+   "correct": 1,
+   "explanation": "<b>Calcium gluconate first</b> — it does not lower potassium at all, but stabilises the cardiac membrane within minutes and reduces arrhythmia risk. Insulin-dextrose and salbutamol then <b>shift</b> potassium intracellularly; resonium and dialysis <b>remove</b> it. The sequence is <b>protect the heart, shift, then remove</b>. Also stop the ACE inhibitor and spironolactone.",
+   "point": "In hyperkalaemia with ECG changes, calcium gluconate is given first to stabilise the myocardium before shifting or removing potassium.",
+   "topic": "Renal — electrolytes",
+   "type": "application",
+   "difficulty": "easy"
+  },
+  {
+   "stem": "A 58-year-old woman with type 2 diabetes has an eGFR of 48 mL/min/1.73m² and a urine albumin-to-creatinine ratio of 42 mg/mmol (normal <3.5), confirmed on repeat.",
+   "lead": "Which medication class has the strongest evidence for slowing progression of her kidney disease?",
+   "options": [
+    "Calcium channel blocker",
+    "SGLT2 inhibitor",
+    "Sulfonylurea",
+    "Loop diuretic",
+    "Beta-blocker"
+   ],
+   "correct": 1,
+   "explanation": "<b>SGLT2 inhibitors</b> slow progression of chronic kidney disease and reduce cardiovascular events in diabetic kidney disease, independent of glycaemic effect — this is now standard alongside an <b>ACE inhibitor or ARB</b> titrated to maximum tolerated dose. Expect a small initial eGFR dip on starting an SGLT2 inhibitor; that is haemodynamic and not a reason to stop.",
+   "point": "SGLT2 inhibitors slow progression of diabetic kidney disease independently of their glycaemic effect.",
+   "topic": "Renal — chronic kidney disease",
+   "type": "recall",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A 34-year-old woman has sudden severe left loin pain radiating to the groin, with nausea and macroscopic haematuria. She is afebrile. Non-contrast CT KUB shows a 4mm stone at the vesicoureteric junction with mild hydronephrosis.",
+   "lead": "What is the most appropriate management?",
+   "options": [
+    "Immediate ureteroscopy",
+    "Conservative management with analgesia and likely spontaneous passage",
+    "Urgent nephrostomy",
+    "Shockwave lithotripsy today",
+    "Broad-spectrum antibiotics and admission"
+   ],
+   "correct": 1,
+   "explanation": "Stones <b>under 5mm pass spontaneously in the large majority</b>, so management is analgesia (NSAIDs are first-line and more effective than opioids here), hydration, and outpatient follow-up, with a tamsulosin trial for distal stones. Intervention is needed for <b>infection with obstruction</b> (a urological emergency requiring urgent decompression), a solitary kidney, acute kidney injury, intractable pain, or failure to pass. She is afebrile, so there is no infected obstruction.",
+   "point": "Ureteric stones under 5mm usually pass spontaneously; urgent decompression is for obstruction with infection.",
+   "topic": "Urology — stones",
+   "type": "application",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A 68-year-old man has a PSA of 6.8 ng/mL and a hard irregular nodule on digital rectal examination. Biopsy confirms prostate adenocarcinoma with a Gleason score of 4+3=7.",
+   "lead": "What does the Gleason score of 4+3 indicate compared with 3+4?",
+   "options": [
+    "They are equivalent, as both total 7",
+    "4+3 has a worse prognosis because the predominant pattern is higher grade",
+    "3+4 is worse because the secondary pattern is higher",
+    "The order carries no clinical meaning",
+    "4+3 indicates metastatic disease by definition"
+   ],
+   "correct": 1,
+   "explanation": "The <b>first number is the predominant pattern</b> and the second the next most common. So <b>4+3 carries a worse prognosis than 3+4</b> despite both summing to 7 — they sit in different ISUP grade groups (3 versus 2). Reading the total alone and ignoring the order is the trap. Staging then guides management: active surveillance, radical prostatectomy, radiotherapy, or androgen deprivation.",
+   "point": "In Gleason scoring the first number is the predominant pattern, so 4+3 is worse than 3+4 despite the same total.",
+   "topic": "Urology — prostate",
+   "type": "discrimination",
+   "difficulty": "hard"
+  },
+  {
+   "stem": "A 71-year-old man reports poor urinary stream, hesitancy, nocturia and incomplete emptying over two years. DRE shows a smoothly enlarged prostate. PSA is 3.1 ng/mL and post-void residual is 90mL. He is troubled by the symptoms.",
+   "lead": "What is the most appropriate first-line medical therapy?",
+   "options": [
+    "An alpha-blocker such as tamsulosin",
+    "A 5-alpha reductase inhibitor alone",
+    "Antimuscarinic therapy",
+    "Long-term indwelling catheter",
+    "Immediate TURP"
+   ],
+   "correct": 0,
+   "explanation": "<b>Alpha-blockers</b> relax prostatic smooth muscle and work within days, making them first-line for symptomatic benign prostatic hyperplasia. <b>5-alpha reductase inhibitors shrink the gland but take 3-6 months</b>, and are added for larger prostates. Warn about postural hypotension and about <b>intraoperative floppy iris syndrome</b> if cataract surgery is planned. Antimuscarinics risk retention in a man with obstruction.",
+   "point": "Alpha-blockers act within days in BPH, whereas 5-alpha reductase inhibitors take three to six months.",
+   "topic": "Urology — benign prostatic hyperplasia",
+   "type": "recall",
+   "difficulty": "easy"
+  },
+  {
+   "stem": "A 24-year-old man has a sore throat for four days. He has a temperature of 38.4°C, tender anterior cervical lymphadenopathy, tonsillar exudate and no cough.",
+   "lead": "What is his Centor score and what does it suggest?",
+   "options": [
+    "2 — antibiotics not indicated",
+    "3 — consider testing or antibiotics",
+    "4 — consider testing or antibiotics",
+    "1 — symptomatic treatment only",
+    "Centor does not apply over age 15"
+   ],
+   "correct": 2,
+   "explanation": "<b>Centor criteria</b>: tonsillar exudate ✓, tender anterior cervical nodes ✓, fever ✓, absence of cough ✓ — that is <b>4</b>, the maximum, giving the highest probability of group A streptococcal infection. Australian guidance is more conservative than some others about antibiotics in low-risk populations, reserving them for higher-risk groups such as Aboriginal and Torres Strait Islander patients in areas with high rheumatic fever incidence — where treatment matters for preventing acute rheumatic fever.",
+   "point": "Centor scores one point each for tonsillar exudate, tender anterior cervical nodes, fever and absence of cough.",
+   "topic": "ENT — throat",
+   "type": "application",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A 62-year-old man has had unilateral hearing loss and tinnitus in the right ear for six months. Weber test lateralises to the LEFT ear. Rinne is positive bilaterally (air conduction better than bone).",
+   "lead": "How should these findings be interpreted?",
+   "options": [
+    "Right conductive hearing loss",
+    "Right sensorineural hearing loss",
+    "Left conductive hearing loss",
+    "Normal hearing",
+    "Bilateral conductive loss"
+   ],
+   "correct": 1,
+   "explanation": "<b>Weber lateralises AWAY from the affected ear in sensorineural loss</b>, and towards it in conductive loss. Here it lateralises left, and Rinne is positive (normal) bilaterally, so this is <b>right sensorineural hearing loss</b>. Unilateral sensorineural loss with tinnitus in an adult requires <b>MRI to exclude a vestibular schwannoma</b> — that is the reason this pattern matters.",
+   "point": "Weber lateralises away from the affected ear in sensorineural loss and towards it in conductive loss.",
+   "topic": "ENT — hearing",
+   "type": "discrimination",
+   "difficulty": "hard"
+  },
+  {
+   "stem": "An 84-year-old woman is admitted after a fall. She takes 9 regular medications including temazepam, amitriptyline, oxybutynin and a diuretic. She has postural dizziness.",
+   "lead": "Which principle should guide her medication review?",
+   "options": [
+    "Continue all medications as they were prescribed for good reason",
+    "Deprescribe drugs with high anticholinergic and sedative burden, which contribute directly to falls",
+    "Add a medication to treat the postural symptoms",
+    "Stop all medications at once",
+    "Only the diuretic requires review"
+   ],
+   "correct": 1,
+   "explanation": "<b>Temazepam, amitriptyline and oxybutynin all carry high anticholinergic and sedative burden</b> and are recognised contributors to falls, confusion and urinary retention in older people — they appear on the Beers and STOPP/START lists. Deprescribing is planned and gradual, one agent at a time with monitoring, not abrupt. Also review the diuretic for postural hypotension, and address vision, footwear, home hazards, vitamin D and strength training.",
+   "point": "Anticholinergic and sedative burden from drugs such as benzodiazepines, tricyclics and oxybutynin is a major modifiable contributor to falls in older people.",
+   "topic": "Geriatrics — falls and polypharmacy",
+   "type": "application",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "An 88-year-old nursing home resident becomes acutely confused over 24 hours. She is drowsy and inattentive, with symptoms worse in the evening. She was cognitively intact last week. She is on day 3 of treatment for a urinary tract infection.",
+   "lead": "Which feature most reliably distinguishes this from dementia?",
+   "options": [
+    "The presence of confusion",
+    "Her age",
+    "The acute onset with fluctuating course and impaired attention",
+    "The nursing home setting",
+    "The presence of an infection"
+   ],
+   "correct": 2,
+   "explanation": "<b>Acute onset, fluctuating course and impaired attention</b> define <b>delirium</b>; dementia is chronic and progressive in clear consciousness. Attention is the cardinal deficit — assess with 4AT or CAM. Note that <b>hypoactive delirium</b>, as here, is more common than the agitated form and is frequently missed because the patient is quiet. Management is treating the cause plus non-pharmacological measures.",
+   "point": "Delirium is distinguished from dementia by acute onset, a fluctuating course and impaired attention.",
+   "topic": "Geriatrics — delirium",
+   "type": "discrimination",
+   "difficulty": "easy"
+  },
+  {
+   "stem": "A 78-year-old man with chronic kidney disease stage 4 (eGFR 22 mL/min/1.73m²) has a haemoglobin of 92 g/L. Ferritin is 180 µg/L and transferrin saturation 24%. B12 and folate are normal.",
+   "lead": "What is the most likely cause of his anaemia and the appropriate treatment?",
+   "options": [
+    "Iron deficiency; oral iron",
+    "Erythropoietin deficiency; consider an erythropoiesis-stimulating agent after ensuring iron stores are adequate",
+    "Occult malignancy; urgent colonoscopy first",
+    "Haemolysis; corticosteroids",
+    "Vitamin B12 deficiency; parenteral B12"
+   ],
+   "correct": 1,
+   "explanation": "<b>Anaemia of chronic kidney disease</b> results principally from reduced renal erythropoietin production, and typically appears once eGFR falls below about 30. Iron studies here are adequate (ferritin >100 and transferrin saturation >20% are the usual CKD targets), so this is not iron deficiency. Treatment is an <b>erythropoiesis-stimulating agent</b>, but only after confirming iron stores are sufficient — giving one to an iron-deficient patient will not work.",
+   "point": "Anaemia of chronic kidney disease is caused by erythropoietin deficiency and treated with an ESA once iron stores are confirmed adequate.",
+   "topic": "Renal — chronic kidney disease",
+   "type": "application",
+   "difficulty": "hard"
+  }
+ ]
+}
