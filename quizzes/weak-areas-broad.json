@@ -1,0 +1,156 @@
+{
+ "title": "Weak areas — broad review (excl. Psychiatry)",
+ "system": "Mixed",
+ "questions": [
+  {
+   "stem": "A 34-year-old woman presents with 4 months of fatigue, 6kg weight loss and postural dizziness. BP 96/58 lying, 78/50 standing. There is hyperpigmentation of the palmar creases and buccal mucosa. Na 128, K 5.8, glucose 3.1.",
+   "lead": "Which biochemical pattern do you expect on further testing?",
+   "options": [
+    "ACTH high, renin low, aldosterone high",
+    "ACTH high, renin high, aldosterone low",
+    "ACTH low, renin high, aldosterone low",
+    "ACTH low, renin low, aldosterone high"
+   ],
+   "correct": 1,
+   "explanation": "Primary adrenal insufficiency destroys the <b>whole cortex</b>. Cortisol deficiency removes pituitary feedback → <b>ACTH high</b> (and pigmentation, since ACTH and MSH share the POMC precursor). Loss of the zona glomerulosa → <b>aldosterone low</b>, so volume depletion drives <b>renin high</b>. The rule: <b>aldosterone low with renin high = the gland has failed</b>. High aldosterone with low renin is the opposite problem (Conn's).",
+   "topic": "Endocrine — adrenal insufficiency",
+   "type": "discrimination",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A 12-year-old boy has dark urine 2 days after the onset of a sore throat. BP 118/75. Urinalysis: blood 3+, protein 1+. Complement C3 is normal.",
+   "lead": "What is the most likely diagnosis?",
+   "options": [
+    "Post-streptococcal glomerulonephritis",
+    "IgA nephropathy",
+    "Alport syndrome",
+    "Thin basement membrane disease"
+   ],
+   "correct": 1,
+   "explanation": "Haematuria <b>during</b> the infection (synpharyngitic, 1–2 days) with a <b>normal C3</b> is <b>IgA nephropathy</b>. Post-streptococcal GN occurs <b>1–2 weeks after</b> infection with a <b>low C3</b> that normalises by 6–8 weeks, and usually with hypertension and oedema. Timing plus complement separates them; either alone is insufficient.",
+   "topic": "Renal — glomerulonephritis",
+   "type": "discrimination",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A 62-year-old man has an inferior STEMI. BP 86/54, HR 52, JVP elevated, chest clear. ECG shows ST elevation in II, III and aVF, with ST elevation in V4R.",
+   "lead": "Which is contraindicated?",
+   "options": [
+    "IV fluid bolus",
+    "Glyceryl trinitrate",
+    "Aspirin",
+    "Urgent PCI"
+   ],
+   "correct": 1,
+   "explanation": "V4R elevation confirms <b>right ventricular infarction</b>. The RV becomes acutely <b>preload-dependent</b>, so <b>nitrates (and morphine and diuretics) can cause profound hypotension</b> and are avoided. Management is the opposite of the usual reflex: <b>give fluids</b> to support preload, and proceed to urgent reperfusion. Note the rule is not 'withhold GTN in inferior MI' — it is 'withhold when there is RV involvement'.",
+   "topic": "Cardiology — ACS / RV infarct",
+   "type": "application",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A 70-year-old woman is 4 days post laparotomy. Platelets have fallen from 280 to 95 × 10⁹/L. She has been on subcutaneous heparin prophylaxis. There is no bleeding and no thrombosis.",
+   "lead": "Which feature most argues against heparin-induced thrombocytopenia?",
+   "options": [
+    "The timing at day 4",
+    "The magnitude of the platelet fall",
+    "The absence of thrombosis",
+    "Recent surgery"
+   ],
+   "correct": 0,
+   "explanation": "HIT characteristically begins <b>days 5–10</b> after heparin exposure (earlier only if there was heparin exposure within the preceding 30 days). A fall at <b>day 4</b> without prior exposure is too early and points to another cause — post-operative haemodilution, sepsis, or drug effect. The other features are all compatible with HIT: a >50% fall fits, thrombosis is common but not required, and surgical patients are at higher risk than medical.",
+   "topic": "Haem & Onc — anticoagulation",
+   "type": "discrimination",
+   "difficulty": "hard"
+  },
+  {
+   "stem": "A 55-year-old man with COPD presents with increasing breathlessness. ABG on 28% oxygen: pH 7.28, PaCO₂ 66mmHg, PaO₂ 55mmHg, HCO₃ 30. He is alert and cooperative.",
+   "lead": "What is the most appropriate next step?",
+   "options": [
+    "Immediate intubation",
+    "Non-invasive ventilation (BiPAP)",
+    "Increase FiO₂ to 60%",
+    "Continue current therapy and repeat the gas in 4 hours"
+   ],
+   "correct": 1,
+   "explanation": "Acute-on-chronic hypercapnic respiratory failure with <b>pH <7.35</b> in an alert patient who can protect their airway → <b>NIV</b>, which reduces intubation rates and mortality. Intubation is for NIV failure or inability to protect the airway. Escalating FiO₂ risks worsening hypercapnia; target SpO₂ 88–92% in COPD.",
+   "topic": "Critical Care — respiratory failure management",
+   "type": "application",
+   "difficulty": "easy"
+  },
+  {
+   "stem": "An 80-year-old woman is brought in confused. She is disorientated, inattentive, and her symptoms fluctuate through the day, worse in the evening. She was cognitively normal a week ago. She is on oxybutynin for urinary urgency.",
+   "lead": "What is the most likely diagnosis and the priority action?",
+   "options": [
+    "Alzheimer's dementia; start donepezil",
+    "Delirium; identify and treat the underlying cause including medication review",
+    "Depression; start an SSRI",
+    "Normal ageing; reassure"
+   ],
+   "correct": 1,
+   "explanation": "<b>Acute onset, fluctuating course, impaired attention</b> defines <b>delirium</b> — dementia is chronic and progressive, in clear consciousness. Priority is finding the cause: infection, medications (<b>oxybutynin is anticholinergic and a common culprit</b>), metabolic derangement, retention, constipation, pain. Management is treating the cause plus non-pharmacological measures; antipsychotics are reserved for severe distress or risk.",
+   "topic": "Critical Care — delirium",
+   "type": "application",
+   "difficulty": "easy"
+  },
+  {
+   "stem": "A 26-year-old man is brought to ED after a fall from a roof. GCS is E2 V2 M4. He is maintaining his own airway currently.",
+   "lead": "What is the GCS total and what does it indicate?",
+   "options": [
+    "GCS 7 — intubate for airway protection",
+    "GCS 8 — intubate for airway protection",
+    "GCS 9 — observe closely",
+    "GCS 10 — observe closely"
+   ],
+   "correct": 1,
+   "explanation": "E2 (opens to pain) + V2 (incomprehensible sounds) + M4 (withdraws from pain) = <b>8</b>. The classic threshold is <b>GCS ≤8 → intubate</b>, since airway protective reflexes are unreliable — 'GCS 8, intubate' is the aide-memoire. Note that maintaining an airway <i>at this moment</i> does not mean he will continue to, particularly with a deteriorating head injury.",
+   "topic": "Critical Care — GCS assessment",
+   "type": "application",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A 45-year-old woman has an anaphylactic reaction to an antibiotic. She has stridor, widespread urticaria and BP 78/44.",
+   "lead": "What is the immediate treatment?",
+   "options": [
+    "IV hydrocortisone 200mg",
+    "IM adrenaline 0.5mg (0.5mL of 1:1000) into the anterolateral thigh",
+    "IV promethazine",
+    "Nebulised salbutamol"
+   ],
+   "correct": 1,
+   "explanation": "<b>IM adrenaline into the anterolateral thigh</b> is the only intervention that reverses the immediate life threat, repeated every 5 minutes as needed. Steroids and antihistamines are adjuncts with <b>no role in acute reversal</b> — giving them first is the classic fatal delay. IV adrenaline is reserved for refractory shock with specialist involvement, given the arrhythmia risk.",
+   "topic": "Critical Care — anaphylaxis",
+   "type": "recall",
+   "difficulty": "easy"
+  },
+  {
+   "stem": "A 66-year-old man on apixaban for AF requires an urgent hip hemiarthroplasty after a fractured neck of femur. Last dose was this morning. CrCl is 55 mL/min.",
+   "lead": "What is the most appropriate approach to his anticoagulation?",
+   "options": [
+    "Bridge with therapeutic LMWH once apixaban is stopped",
+    "Stop apixaban and delay surgery until the appropriate interruption interval has elapsed, balancing fracture-surgery timing",
+    "Give protamine sulfate to reverse",
+    "Continue apixaban through surgery"
+   ],
+   "correct": 1,
+   "explanation": "Hip fracture surgery is high bleeding risk, so the standard interval is <b>48 hours</b> from the last apixaban dose with CrCl ≥50 — balanced against the fact that hip fracture outcomes worsen with delay, so this is an explicit multidisciplinary trade-off, not an automatic wait. <b>Bridging is not used with DOACs</b>. Protamine reverses heparin, not apixaban (andexanet alfa is the specific agent, reserved for life-threatening bleeding).",
+   "topic": "Cardiology — anticoagulation & periop",
+   "type": "discrimination",
+   "difficulty": "hard"
+  },
+  {
+   "stem": "A 58-year-old man with cirrhosis presents with haematemesis. BP 92/58, HR 112. He has known oesophageal varices.",
+   "lead": "Which combination is most appropriate initially?",
+   "options": [
+    "Fluid resuscitation, IV terlipressin (or octreotide), IV antibiotics, and urgent endoscopy",
+    "Fluid resuscitation and urgent endoscopy alone",
+    "IV proton pump inhibitor and observation",
+    "Immediate TIPS procedure"
+   ],
+   "correct": 0,
+   "explanation": "Variceal bleeding needs four things together: <b>resuscitation</b>, a <b>splanchnic vasoconstrictor</b> (terlipressin or octreotide) to reduce portal pressure, <b>prophylactic antibiotics</b> — which independently reduce mortality and are the component most often forgotten — and <b>endoscopy within 12 hours</b> for band ligation. TIPS is rescue therapy for failed endoscopic control. Aim for a restrictive transfusion threshold (~70g/L); over-transfusion raises portal pressure and worsens bleeding.",
+   "topic": "Gastroenterology — GI bleeding",
+   "type": "application",
+   "difficulty": "hard"
+  }
+ ]
+}
