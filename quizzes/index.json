@@ -64,6 +64,51 @@
    "count": 20,
    "added": "2026-08-14",
    "category": "past-paper"
+  },
+  {
+   "file": "weak-areas-a.json",
+   "title": "Weak areas — adrenal & anticoagulation",
+   "system": "Mixed",
+   "count": 5,
+   "added": "2026-08-15",
+   "category": "topic",
+   "servicedRequest": "r1786802177627"
+  },
+  {
+   "file": "weak-areas-b.json",
+   "title": "Weak areas — resuscitation & trauma",
+   "system": "Mixed",
+   "count": 5,
+   "added": "2026-08-15",
+   "category": "topic",
+   "servicedRequest": "r1786796575548"
+  },
+  {
+   "file": "neurology.json",
+   "title": "Neurology",
+   "system": "Neurology",
+   "count": 10,
+   "added": "2026-08-15",
+   "category": "topic",
+   "servicedRequest": "r1786715714823"
+  },
+  {
+   "file": "weak-areas-broad.json",
+   "title": "Weak areas — broad review (excl. Psychiatry)",
+   "system": "Mixed",
+   "count": 10,
+   "added": "2026-08-15",
+   "category": "topic",
+   "servicedRequest": "r1786715691925"
+  },
+  {
+   "file": "weak-areas-mixed.json",
+   "title": "Weak areas — mixed review",
+   "system": "Mixed",
+   "count": 10,
+   "added": "2026-08-16",
+   "category": "topic",
+   "servicedRequest": "r1786846341459"
   }
  ]
 }
