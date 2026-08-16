@@ -130,6 +130,7 @@ function doPost(e) {
     if (body.action === 'queueRequest')  return json(queueRequest(body));
     if (body.action === 'ingestOutbox')  return json(ingestOutbox());
     if (body.action === 'generateNow')   return json(generateNow(body));
+    if (body.action === 'deleteItem')   return json(deleteItem(body));
 
     // An unrecognised action must NEVER fall through to a tracker overwrite —
     // an older deployment doing exactly that would silently destroy the tracker
@@ -425,6 +426,39 @@ function listRevision() {
              questions: Number(ap.questions || 0), created: f.createdTime,
              source: ap.source || '' };
   });
+}
+
+/**
+ * Delete a quiz or revision module the script itself created.
+ *
+ * Trashed rather than hard-deleted, so a mistake is recoverable from Drive's bin
+ * for 30 days. Pinned to the two folders this script owns: a stray or malicious
+ * id cannot be used to trash the tracker, the queue, or anything else in Drive.
+ */
+function deleteItem(body) {
+  const id = String(body.id || '').trim();
+  if (!id) return { error: 'no id supplied' };
+
+  let parents = [];
+  try {
+    const meta = JSON.parse(api('https://www.googleapis.com/drive/v3/files/' + id +
+                                '?fields=parents,name'));
+    parents = meta.parents || [];
+  } catch (err) {
+    return { error: 'could not read that file: ' + err };
+  }
+
+  const allowed = [quizzesFolderId(), revisionFolderId()];
+  const ok = parents.some(function (p) { return allowed.indexOf(p) >= 0; });
+  if (!ok) {
+    return { error: 'refusing to delete — that file is not a quiz or revision module' };
+  }
+
+  api('https://www.googleapis.com/drive/v3/files/' + id, {
+    method: 'patch', contentType: 'application/json',
+    payload: JSON.stringify({ trashed: true })
+  });
+  return { ok: true, id: id, trashed: true };
 }
 
 // --- the buffer ------------------------------------------------------------------
