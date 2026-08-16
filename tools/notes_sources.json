@@ -1,360 +1,370 @@
 {
- "systems": [
-  {
-   "system": "Respiratory",
-   "slug": "respiratory",
-   "sources": [
+  "systems": [
     {
-     "path": "/mnt/project/claude_respiratory_master.md",
-     "label": "Respiratory Master Notes"
+      "system": "Respiratory",
+      "slug": "respiratory",
+      "sources": [
+        {
+          "path": "/mnt/project/claude_respiratory_master.md",
+          "label": "Respiratory Master Notes"
+        }
+      ],
+      "secondary": [
+        {
+          "path": "/tmp/out/docx/respiratory-anu.md",
+          "label": "Respiratory (ANU)"
+        }
+      ]
+    },
+    {
+      "system": "Endocrine",
+      "slug": "endocrine",
+      "sources": [
+        {
+          "path": "/mnt/project/claude_endocrine_master.md",
+          "label": "Endocrine Master Notes"
+        }
+      ],
+      "secondary": [
+        {
+          "path": "/tmp/out/docx/endocrinology-anu.md",
+          "label": "Endocrinology (ANU)"
+        },
+        {
+          "path": "/tmp/out2/docx/adrenal-summary.md",
+          "label": "Adrenal Summary"
+        },
+        {
+          "path": "/tmp/out2/docx/thyroid-and-parathyroid-summary.md",
+          "label": "Thyroid & Parathyroid Summary"
+        }
+      ]
+    },
+    {
+      "system": "Gastroenterology",
+      "slug": "gastroenterology",
+      "sources": [
+        {
+          "path": "/mnt/project/claude_gastroenterology_master.md",
+          "label": "Gastroenterology Master Notes"
+        }
+      ],
+      "secondary": [
+        {
+          "path": "/tmp/out/docx/general-surgery-and-gastroenterology-anu.md",
+          "label": "General Surgery & Gastroenterology (ANU)"
+        },
+        {
+          "path": "/tmp/out2/docx/constipation-and-aperients-summary.md",
+          "label": "Constipation & Aperients Summary"
+        },
+        {
+          "path": "/tmp/out2/docx/gi-bleeding-summary.md",
+          "label": "GI Bleeding Summary"
+        },
+        {
+          "path": "/tmp/out2/docx/pancreatitis-summary.md",
+          "label": "Pancreatitis Summary"
+        },
+        {
+          "path": "/tmp/out2/docx/peptic-ulcer-summary.md",
+          "label": "Peptic Ulcer Summary"
+        }
+      ]
+    },
+    {
+      "system": "Neurology",
+      "slug": "neurology",
+      "sources": [
+        {
+          "path": "/mnt/project/claude_neurology_master.md",
+          "label": "Neurology Master Notes"
+        }
+      ],
+      "secondary": [
+        {
+          "path": "/tmp/out/docx/neurology-anu.md",
+          "label": "Neurology (ANU)"
+        }
+      ]
+    },
+    {
+      "system": "MSK & Rheumatology",
+      "slug": "msk-rheumatology",
+      "sources": [
+        {
+          "path": "/mnt/project/claude_msk_rheumatology_notes_part1_physiology_anatomy.md",
+          "label": "MSK & Rheumatology Notes"
+        },
+        {
+          "path": "/mnt/project/claude_msk_rheumatology_notes_part2_assessment.md",
+          "label": "MSK & Rheumatology Notes"
+        },
+        {
+          "path": "/mnt/project/claude_msk_rheumatology_notes_part3_regional_trauma.md",
+          "label": "MSK & Rheumatology Notes"
+        },
+        {
+          "path": "/mnt/project/claude_msk_rheumatology_notes_part4_arthritis.md",
+          "label": "MSK & Rheumatology Notes"
+        },
+        {
+          "path": "/mnt/project/claude_msk_rheumatology_notes_part5_connective_vasculitis.md",
+          "label": "MSK & Rheumatology Notes"
+        },
+        {
+          "path": "/mnt/project/claude_msk_rheumatology_notes_part6_bone_pharmacology.md",
+          "label": "MSK & Rheumatology Notes"
+        }
+      ],
+      "secondary": [
+        {
+          "path": "/tmp/out/docx/orthopaedics-and-msk-anu.md",
+          "label": "Orthopaedics & MSK (ANU)"
+        },
+        {
+          "path": "/tmp/out/docx/orthopaedics-sneha.md",
+          "label": "Orthopaedics (SNEHA)"
+        },
+        {
+          "path": "/tmp/out/docx/rheumatology-and-immunology-anu.md",
+          "label": "Rheumatology & Immunology (ANU)"
+        }
+      ]
+    },
+    {
+      "system": "Haematology & Oncology",
+      "slug": "haematology-oncology",
+      "sources": [
+        {
+          "path": "/mnt/project/claude_haematology_oncology_notes_part1_physiology_anatomy.md",
+          "label": "Haematology & Oncology Notes"
+        },
+        {
+          "path": "/mnt/project/claude_haematology_oncology_notes_part2_assessment.md",
+          "label": "Haematology & Oncology Notes"
+        },
+        {
+          "path": "/mnt/project/claude_haematology_oncology_notes_part3_anaemia_redcell.md",
+          "label": "Haematology & Oncology Notes"
+        },
+        {
+          "path": "/mnt/project/claude_haematology_oncology_notes_part4_haemostasis_transfusion.md",
+          "label": "Haematology & Oncology Notes"
+        },
+        {
+          "path": "/mnt/project/claude_haematology_oncology_notes_part5_haematological_malignancies.md",
+          "label": "Haematology & Oncology Notes"
+        },
+        {
+          "path": "/mnt/project/claude_haematology_oncology_notes_part6_oncology_solid_tumours.md",
+          "label": "Haematology & Oncology Notes"
+        },
+        {
+          "path": "/mnt/project/claude_haematology_oncology_notes_part7_pharmacology.md",
+          "label": "Haematology & Oncology Notes"
+        }
+      ],
+      "secondary": [
+        {
+          "path": "/tmp/out/docx/haematology-anu.md",
+          "label": "Haematology (ANU)"
+        },
+        {
+          "path": "/tmp/out/docx/oncology-anu.md",
+          "label": "Oncology (ANU)"
+        }
+      ]
+    },
+    {
+      "system": "Infectious Disease",
+      "slug": "infectious-disease",
+      "sources": [
+        {
+          "path": "/mnt/project/claude_infectious_disease_master.md",
+          "label": "Infectious Disease Master Notes"
+        }
+      ],
+      "secondary": [
+        {
+          "path": "/tmp/out/docx/infectious-disease-anu.md",
+          "label": "Infectious Disease (ANU)"
+        }
+      ]
+    },
+    {
+      "system": "Immunology & Allergy",
+      "slug": "immunology-allergy",
+      "sources": [
+        {
+          "path": "/mnt/project/claude_immunology_allergy_master.md",
+          "label": "Immunology & Allergy Master Notes"
+        }
+      ],
+      "secondary": [
+        {
+          "path": "/tmp/out/docx/rheumatology-and-immunology-anu.md",
+          "label": "Rheumatology & Immunology (ANU)"
+        }
+      ]
+    },
+    {
+      "system": "Cardiology",
+      "slug": "cardiology",
+      "sources": [
+        {
+          "path": "/mnt/project/cardiology_notes_part0_physiology.md",
+          "label": "Cardiology Notes"
+        },
+        {
+          "path": "/mnt/project/cardiology_notes_part2.md",
+          "label": "Cardiology Notes"
+        },
+        {
+          "path": "/mnt/project/cardiology_notes_part3.md",
+          "label": "Cardiology Notes"
+        },
+        {
+          "path": "/mnt/project/cardiology_notes_part4.md",
+          "label": "Cardiology Notes"
+        },
+        {
+          "path": "/mnt/project/cardiology_notes_part5.md",
+          "label": "Cardiology Notes"
+        },
+        {
+          "path": "/mnt/project/cardiology_notes_part6.md",
+          "label": "Cardiology Notes"
+        }
+      ],
+      "secondary": [
+        {
+          "path": "/tmp/out/docx/cardiovascular-anu.md",
+          "label": "Cardiovascular (ANU)"
+        },
+        {
+          "path": "/tmp/out2/docx/reducing-risk-heart-disease.md",
+          "label": "Reducing Risk in Heart Disease (Heart Foundation)",
+          "split_levels": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "system": "Anaesthetics",
+      "slug": "anaesthetics",
+      "sources": [
+        {
+          "path": "/tmp/out/docx/anaesthetics-anu.md",
+          "label": "Anaesthetics (ANU)"
+        }
+      ],
+      "primary_style": "h1"
+    },
+    {
+      "system": "General Practice",
+      "slug": "general-practice",
+      "sources": [
+        {
+          "path": "/tmp/out/docx/general-practice-anu.md",
+          "label": "General Practice (ANU)"
+        }
+      ],
+      "primary_style": "h1",
+      "secondary": [
+        {
+          "path": "/tmp/out2/docx/geriatrics-summary.md",
+          "label": "Geriatrics Summary"
+        },
+        {
+          "path": "/tmp/out2/docx/justice-health.md",
+          "label": "Justice & Correctional Health",
+          "split_levels": [
+            1,
+            1
+          ]
+        },
+        {
+          "path": "/tmp/out2/docx/pre-travel-dvt-diabetes.md",
+          "label": "Pre-Travel Health Assessment",
+          "split_levels": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "system": "Paediatrics",
+      "slug": "paediatrics",
+      "sources": [
+        {
+          "path": "sources/claude_paediatrics_master.md",
+          "label": "Paediatrics Master Notes"
+        }
+      ]
+    },
+    {
+      "system": "Obstetrics & Gynaecology",
+      "slug": "obstetrics-gynaecology",
+      "sources": [
+        {
+          "path": "sources/claude_obstetrics_gynaecology_master.md",
+          "label": "O&G Master Notes"
+        }
+      ]
+    },
+    {
+      "system": "Urology",
+      "slug": "urology",
+      "sources": [
+        {
+          "path": "sources/claude_urology_master.md",
+          "label": "Urology Master Notes"
+        }
+      ]
+    },
+    {
+      "system": "ENT",
+      "slug": "ent",
+      "sources": [
+        {
+          "path": "sources/claude_ent_master.md",
+          "label": "ENT Master Notes"
+        }
+      ]
+    },
+    {
+      "system": "Geriatrics",
+      "slug": "geriatrics",
+      "sources": [
+        {
+          "path": "sources/claude_geriatrics_master.md",
+          "label": "Geriatrics Master Notes"
+        }
+      ]
+    },
+    {
+      "system": "Surgery",
+      "slug": "surgery",
+      "sources": [
+        {
+          "path": "sources/claude_surgery_master.md",
+          "label": "Surgery Master Notes"
+        }
+      ]
+    },
+    {
+      "system": "Psychiatry",
+      "slug": "psychiatry",
+      "sources": [
+        {
+          "path": "sources/claude_psychiatry_master.md",
+          "label": "Psychiatry Master Notes"
+        }
+      ]
     }
-   ],
-   "secondary": [
-    {
-     "path": "/tmp/out/docx/respiratory-anu.md",
-     "label": "Respiratory (ANU)"
-    }
-   ]
-  },
-  {
-   "system": "Endocrine",
-   "slug": "endocrine",
-   "sources": [
-    {
-     "path": "/mnt/project/claude_endocrine_master.md",
-     "label": "Endocrine Master Notes"
-    }
-   ],
-   "secondary": [
-    {
-     "path": "/tmp/out/docx/endocrinology-anu.md",
-     "label": "Endocrinology (ANU)"
-    },
-    {
-     "path": "/tmp/out2/docx/adrenal-summary.md",
-     "label": "Adrenal Summary"
-    },
-    {
-     "path": "/tmp/out2/docx/thyroid-and-parathyroid-summary.md",
-     "label": "Thyroid & Parathyroid Summary"
-    }
-   ]
-  },
-  {
-   "system": "Gastroenterology",
-   "slug": "gastroenterology",
-   "sources": [
-    {
-     "path": "/mnt/project/claude_gastroenterology_master.md",
-     "label": "Gastroenterology Master Notes"
-    }
-   ],
-   "secondary": [
-    {
-     "path": "/tmp/out/docx/general-surgery-and-gastroenterology-anu.md",
-     "label": "General Surgery & Gastroenterology (ANU)"
-    },
-    {
-     "path": "/tmp/out2/docx/constipation-and-aperients-summary.md",
-     "label": "Constipation & Aperients Summary"
-    },
-    {
-     "path": "/tmp/out2/docx/gi-bleeding-summary.md",
-     "label": "GI Bleeding Summary"
-    },
-    {
-     "path": "/tmp/out2/docx/pancreatitis-summary.md",
-     "label": "Pancreatitis Summary"
-    },
-    {
-     "path": "/tmp/out2/docx/peptic-ulcer-summary.md",
-     "label": "Peptic Ulcer Summary"
-    }
-   ]
-  },
-  {
-   "system": "Neurology",
-   "slug": "neurology",
-   "sources": [
-    {
-     "path": "/mnt/project/claude_neurology_master.md",
-     "label": "Neurology Master Notes"
-    }
-   ],
-   "secondary": [
-    {
-     "path": "/tmp/out/docx/neurology-anu.md",
-     "label": "Neurology (ANU)"
-    }
-   ]
-  },
-  {
-   "system": "MSK & Rheumatology",
-   "slug": "msk-rheumatology",
-   "sources": [
-    {
-     "path": "/mnt/project/claude_msk_rheumatology_notes_part1_physiology_anatomy.md",
-     "label": "MSK & Rheumatology Notes"
-    },
-    {
-     "path": "/mnt/project/claude_msk_rheumatology_notes_part2_assessment.md",
-     "label": "MSK & Rheumatology Notes"
-    },
-    {
-     "path": "/mnt/project/claude_msk_rheumatology_notes_part3_regional_trauma.md",
-     "label": "MSK & Rheumatology Notes"
-    },
-    {
-     "path": "/mnt/project/claude_msk_rheumatology_notes_part4_arthritis.md",
-     "label": "MSK & Rheumatology Notes"
-    },
-    {
-     "path": "/mnt/project/claude_msk_rheumatology_notes_part5_connective_vasculitis.md",
-     "label": "MSK & Rheumatology Notes"
-    },
-    {
-     "path": "/mnt/project/claude_msk_rheumatology_notes_part6_bone_pharmacology.md",
-     "label": "MSK & Rheumatology Notes"
-    }
-   ],
-   "secondary": [
-    {
-     "path": "/tmp/out/docx/orthopaedics-and-msk-anu.md",
-     "label": "Orthopaedics & MSK (ANU)"
-    },
-    {
-     "path": "/tmp/out/docx/orthopaedics-sneha.md",
-     "label": "Orthopaedics (SNEHA)"
-    },
-    {
-     "path": "/tmp/out/docx/rheumatology-and-immunology-anu.md",
-     "label": "Rheumatology & Immunology (ANU)"
-    }
-   ]
-  },
-  {
-   "system": "Haematology & Oncology",
-   "slug": "haematology-oncology",
-   "sources": [
-    {
-     "path": "/mnt/project/claude_haematology_oncology_notes_part1_physiology_anatomy.md",
-     "label": "Haematology & Oncology Notes"
-    },
-    {
-     "path": "/mnt/project/claude_haematology_oncology_notes_part2_assessment.md",
-     "label": "Haematology & Oncology Notes"
-    },
-    {
-     "path": "/mnt/project/claude_haematology_oncology_notes_part3_anaemia_redcell.md",
-     "label": "Haematology & Oncology Notes"
-    },
-    {
-     "path": "/mnt/project/claude_haematology_oncology_notes_part4_haemostasis_transfusion.md",
-     "label": "Haematology & Oncology Notes"
-    },
-    {
-     "path": "/mnt/project/claude_haematology_oncology_notes_part5_haematological_malignancies.md",
-     "label": "Haematology & Oncology Notes"
-    },
-    {
-     "path": "/mnt/project/claude_haematology_oncology_notes_part6_oncology_solid_tumours.md",
-     "label": "Haematology & Oncology Notes"
-    },
-    {
-     "path": "/mnt/project/claude_haematology_oncology_notes_part7_pharmacology.md",
-     "label": "Haematology & Oncology Notes"
-    }
-   ],
-   "secondary": [
-    {
-     "path": "/tmp/out/docx/haematology-anu.md",
-     "label": "Haematology (ANU)"
-    },
-    {
-     "path": "/tmp/out/docx/oncology-anu.md",
-     "label": "Oncology (ANU)"
-    }
-   ]
-  },
-  {
-   "system": "Infectious Disease",
-   "slug": "infectious-disease",
-   "sources": [
-    {
-     "path": "/mnt/project/claude_infectious_disease_master.md",
-     "label": "Infectious Disease Master Notes"
-    }
-   ],
-   "secondary": [
-    {
-     "path": "/tmp/out/docx/infectious-disease-anu.md",
-     "label": "Infectious Disease (ANU)"
-    }
-   ]
-  },
-  {
-   "system": "Immunology & Allergy",
-   "slug": "immunology-allergy",
-   "sources": [
-    {
-     "path": "/mnt/project/claude_immunology_allergy_master.md",
-     "label": "Immunology & Allergy Master Notes"
-    }
-   ],
-   "secondary": [
-    {
-     "path": "/tmp/out/docx/rheumatology-and-immunology-anu.md",
-     "label": "Rheumatology & Immunology (ANU)"
-    }
-   ]
-  },
-  {
-   "system": "Cardiology",
-   "slug": "cardiology",
-   "sources": [
-    {
-     "path": "/mnt/project/cardiology_notes_part0_physiology.md",
-     "label": "Cardiology Notes"
-    },
-    {
-     "path": "/mnt/project/cardiology_notes_part2.md",
-     "label": "Cardiology Notes"
-    },
-    {
-     "path": "/mnt/project/cardiology_notes_part3.md",
-     "label": "Cardiology Notes"
-    },
-    {
-     "path": "/mnt/project/cardiology_notes_part4.md",
-     "label": "Cardiology Notes"
-    },
-    {
-     "path": "/mnt/project/cardiology_notes_part5.md",
-     "label": "Cardiology Notes"
-    },
-    {
-     "path": "/mnt/project/cardiology_notes_part6.md",
-     "label": "Cardiology Notes"
-    }
-   ],
-   "secondary": [
-    {
-     "path": "/tmp/out/docx/cardiovascular-anu.md",
-     "label": "Cardiovascular (ANU)"
-    },
-    {
-     "path": "/tmp/out2/docx/reducing-risk-heart-disease.md",
-     "label": "Reducing Risk in Heart Disease (Heart Foundation)",
-     "split_levels": [
-      1,
-      1
-     ]
-    }
-   ]
-  },
-  {
-   "system": "Anaesthetics",
-   "slug": "anaesthetics",
-   "sources": [
-    {
-     "path": "/tmp/out/docx/anaesthetics-anu.md",
-     "label": "Anaesthetics (ANU)"
-    }
-   ],
-   "primary_style": "h1"
-  },
-  {
-   "system": "General Practice",
-   "slug": "general-practice",
-   "sources": [
-    {
-     "path": "/tmp/out/docx/general-practice-anu.md",
-     "label": "General Practice (ANU)"
-    }
-   ],
-   "primary_style": "h1",
-   "secondary": [
-    {
-     "path": "/tmp/out2/docx/geriatrics-summary.md",
-     "label": "Geriatrics Summary"
-    },
-    {
-     "path": "/tmp/out2/docx/justice-health.md",
-     "label": "Justice & Correctional Health",
-     "split_levels": [
-      1,
-      1
-     ]
-    },
-    {
-     "path": "/tmp/out2/docx/pre-travel-dvt-diabetes.md",
-     "label": "Pre-Travel Health Assessment",
-     "split_levels": [
-      1,
-      1
-     ]
-    }
-   ]
-  },
-  {
-   "system": "Paediatrics",
-   "slug": "paediatrics",
-   "sources": [
-    {
-     "path": "sources/claude_paediatrics_master.md",
-     "label": "Paediatrics Master Notes"
-    }
-   ]
-  },
-  {
-   "system": "Obstetrics & Gynaecology",
-   "slug": "obstetrics-gynaecology",
-   "sources": [
-    {
-     "path": "sources/claude_obstetrics_gynaecology_master.md",
-     "label": "O&G Master Notes"
-    }
-   ]
-  },
-  {
-   "system": "Urology",
-   "slug": "urology",
-   "sources": [
-    {
-     "path": "sources/claude_urology_master.md",
-     "label": "Urology Master Notes"
-    }
-   ]
-  },
-  {
-   "system": "ENT",
-   "slug": "ent",
-   "sources": [
-    {
-     "path": "sources/claude_ent_master.md",
-     "label": "ENT Master Notes"
-    }
-   ]
-  },
-  {
-   "system": "Geriatrics",
-   "slug": "geriatrics",
-   "sources": [
-    {
-     "path": "sources/claude_geriatrics_master.md",
-     "label": "Geriatrics Master Notes"
-    }
-   ]
-  },
-  {
-   "system": "Surgery",
-   "slug": "surgery",
-   "sources": [
-    {
-     "path": "sources/claude_surgery_master.md",
-     "label": "Surgery Master Notes"
-    }
-   ]
-  }
- ]
+  ]
 }

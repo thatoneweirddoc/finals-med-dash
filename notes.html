@@ -817,6 +817,10 @@
   button.panel-h.disclose:hover{color:var(--ink)}
   button.panel-h.disclose .chev{font-size:12px;line-height:1}
   #pasteBody{padding-top:12px}
+
+  /* Brief highlight so the rendered Google button is obvious after the banner
+     sends you here, rather than being one more control on a busy tab. */
+  .gsi-flash{outline:2px solid var(--ink);outline-offset:4px;border-radius:var(--r-ctl)}
 /* ==== notes-page additions ==================================== */
   /* The masthead reuses .runhead / .headline / .hl-n / .hl-u from the
      dashboard's stylesheet, which is inlined above — one definition, so the two

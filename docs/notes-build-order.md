@@ -33,7 +33,16 @@ the order below is drawn along.
 
 ---
 
-## Step 1 — Psychiatry
+## ~~Step 1 — Psychiatry~~ — **BUILT AND VERIFIED 16 Aug 2026**
+
+**Done.** 8 sections, **45,078 words** at 5,635 words/note — above every previously
+pipeline-built system, from 3,635 words at 606/note. Wired into `notes_sources.json`
+as `sources/claude_psychiatry_master.md`; the six old orphaned notes were retired.
+**Independently verified** by five adversarial reviewers — **101 corrections, 15 of them
+dangerous**, plus 16 cross-section contradictions adjudicated against a source. The
+CIWA-Ar table turned out to be carrying AWS bands under a CIWA-Ar label, and the adult
+eating-disorder admission table was QuEDS figures labelled as NSW Health. See
+`docs/psychiatry-verification.md`.
 
 **Why first.** 3,635 words across 6 notes at **606 words each**, against **4 past-paper
 questions** — joint fourth-highest yield of any system. That is the worst
@@ -171,7 +180,8 @@ Steps 5–7 are 5 past-paper questions between them, against **half a million wo
 have not finished reading**. Past papers remain the highest-yield material you own, and
 there are years of them still unconverted in Drive.
 
-If only one step gets done: **Psychiatry**.
+Psychiatry is done. If only one more step gets done: **Critical Care** — 33 bank
+questions against no notes at all.
 
 ---
 
