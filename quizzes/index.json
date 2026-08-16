@@ -121,6 +121,15 @@
    "alsoServices": [
     "r1786851269315"
    ]
+  },
+  {
+   "file": "palliative-care.json",
+   "title": "Palliative Care",
+   "system": "Palliative Care",
+   "count": 10,
+   "added": "2026-08-16",
+   "category": "topic",
+   "servicedRequest": "r1786876771812"
   }
  ]
 }
