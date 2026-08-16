@@ -23,7 +23,9 @@
    "count": 15,
    "added": "2026-08-14",
    "category": "topic",
-   "servicedRequest": null
+   "servicedRequest": null,
+   "personal": true,
+   "for": "fadi"
   },
   {
    "file": "pp-2025-a.json",
@@ -72,7 +74,9 @@
    "count": 5,
    "added": "2026-08-15",
    "category": "topic",
-   "servicedRequest": "r1786802177627"
+   "servicedRequest": "r1786802177627",
+   "personal": true,
+   "for": "fadi"
   },
   {
    "file": "weak-areas-b.json",
@@ -81,7 +85,9 @@
    "count": 5,
    "added": "2026-08-15",
    "category": "topic",
-   "servicedRequest": "r1786796575548"
+   "servicedRequest": "r1786796575548",
+   "personal": true,
+   "for": "fadi"
   },
   {
    "file": "neurology.json",
@@ -99,7 +105,9 @@
    "count": 10,
    "added": "2026-08-15",
    "category": "topic",
-   "servicedRequest": "r1786715691925"
+   "servicedRequest": "r1786715691925",
+   "personal": true,
+   "for": "fadi"
   },
   {
    "file": "weak-areas-mixed.json",
@@ -108,7 +116,9 @@
    "count": 10,
    "added": "2026-08-16",
    "category": "topic",
-   "servicedRequest": "r1786846341459"
+   "servicedRequest": "r1786846341459",
+   "personal": true,
+   "for": "fadi"
   },
   {
    "file": "surgery-2.json",
