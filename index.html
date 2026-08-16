@@ -3172,8 +3172,17 @@ async function fetchRevision(){
       if(!d.error) drive = d.modules || [];
     }
   }catch(e){ /* offline or old deployment */ }
+  /* Revision modules are NOT shared, unlike topic quizzes. A module is built
+     from the requester's own tracker — the rationale names their weak areas and
+     their scores — so it is personal data, not subject matter. Show a module
+     only to the person it was made for. Entries with no owner predate the field
+     and belong to the owner. */
+  const isMine = m => (m.for || SEED_OWNER) === (USER.id || SEED_OWNER);
+
   const all = [...drive, ...repo]
-    .filter(m => !isHidden(m.file ? 'rev:' + m.file : m.id));
+    .filter(m => !isHidden(m.file ? 'rev:' + m.file : m.id))
+    .filter(isMine);
+
   el.innerHTML = all.length ? all.map(revItem).join('')
     : '<div class="empty">None yet — request one above</div>';
 }
