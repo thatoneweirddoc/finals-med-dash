@@ -104,6 +104,12 @@ const BUFFER_TARGET = 30;
 // schedule was calibrated for.
 const TOPUP_FOR = OWNER_ID;
 
+// A queued request is marked 'running' while it is being generated, so a
+// concurrent writer cannot hand the same request to the next run and pay for it
+// twice. Apps Script kills an execution at 6 minutes, so anything still
+// 'running' after this long was stranded by a crash and is safe to requeue.
+const STALE_CLAIM_MS = 10 * 60 * 1000;
+
 const REPO_RAW = 'https://raw.githubusercontent.com/thatoneweirddoc/finals-med-dash/main/';
 const ANTHROPIC_URL = 'https://api.anthropic.com/v1/messages';
 const DEFAULT_MODEL = 'claude-sonnet-5';
@@ -576,15 +582,22 @@ function bufferStatus(uid) {
     });
   } catch (err) { /* ignore */ }
 
-  const queue = readQueue();
-  let queueDirty = false;
-  (queue.requests || []).forEach(function (r) {
-    if (r.status === 'pending' && serviced[r.id]) {
-      r.status = 'done'; r.quizId = serviced[r.id]; r.done = new Date().toISOString();
-      queueDirty = true;
-    }
-  });
-  if (queueDirty) { try { writeQueue(queue); } catch (err) { /* non-fatal */ } }
+  // Marking requests serviced is a read-modify-write on a file every user can
+  // reach, so it happens under the lock and re-reads the queue inside it. The
+  // copy is deliberately NOT taken before the lock. Failing to get the lock is
+  // harmless: the next status call marks it instead.
+  const queue = withLock(function () {
+    const q = readQueue();
+    let dirty = false;
+    (q.requests || []).forEach(function (r) {
+      if (r.status === 'pending' && serviced[r.id]) {
+        r.status = 'done'; r.quizId = serviced[r.id]; r.done = new Date().toISOString();
+        dirty = true;
+      }
+    });
+    if (dirty) { try { writeQueue(q); } catch (err) { /* non-fatal */ } }
+    return q;
+  }, null) || readQueue();
   const pending = (queue.requests || []).filter(function (r) { return r.status === 'pending'; });
 
   return {
@@ -592,6 +605,7 @@ function bufferStatus(uid) {
     target: BUFFER_TARGET,
     short: Math.max(0, BUFFER_TARGET - unattempted),
     pending: pending.length,
+    running: (queue.requests || []).filter(function (r) { return r.status === 'running'; }).length,
     pendingDetail: pending,
     quizzes: quizzes,
     lastTopUp: props().getProperty('lastTopUp') || 'never run',
@@ -611,9 +625,34 @@ function readQueue() {
 
 function writeQueue(q) { writeById(queueFileId(), JSON.stringify(q, null, 2)); }
 
+/**
+ * Serialise a read-modify-write on a SHARED file.
+ *
+ * Apps Script runs web-app requests concurrently and Drive's media upload is a
+ * blind last-write-wins PATCH with no ETag check, so any read-then-write on
+ * queue.json or a tracker can silently lose the other writer's change. That was
+ * survivable with one user; with several it is not, because bufferStatus() marks
+ * requests serviced and every user hits it on every Bank/Session tab click.
+ *
+ * Rules for using this:
+ *   - ALWAYS re-read the file INSIDE the callback. A copy read before the lock
+ *     was taken is exactly the stale copy that causes the loss.
+ *   - NEVER hold it across a generation call. Those take 30-60s and would stall
+ *     every other user's page behind them. Claim under lock, generate outside it,
+ *     finalise under lock again.
+ *
+ * Returns the callback's value, or `fallback` if the lock could not be taken.
+ */
+function withLock(fn, fallback, waitMs) {
+  const lock = LockService.getScriptLock();
+  if (!lock.tryLock(waitMs || 15000)) return fallback;
+  try { return fn(); } finally { lock.releaseLock(); }
+}
+
 function queueRequest(body) {
-  const q = readQueue();
   const id = 'r' + new Date().getTime();
+  return withLock(function () {
+  const q = readQueue();
   q.requests.unshift({
     id: id,
     system: body.system || 'Weakest areas',
@@ -629,6 +668,7 @@ function queueRequest(body) {
   writeQueue(q);
   return { ok: true, id: id,
            pending: q.requests.filter(function (r) { return r.status === 'pending'; }).length };
+  }, { error: 'The queue is busy — try again in a moment.' });
 }
 
 /**
@@ -646,9 +686,9 @@ function ingestOutbox() {
   const list = (ob && ob.quizzes) || [];
   if (!list.length) return { ok: true, ingested: 0 };
 
-  const q = readQueue();
   const made = [];
   const rejected = [];
+  const servicedIds = [];
 
   list.forEach(function (z) {
     if (!z || !Array.isArray(z.questions)) { rejected.push('not a quiz object'); return; }
@@ -661,16 +701,25 @@ function ingestOutbox() {
                    source: 'claude-scheduled' });
     if (saved.error) { rejected.push((z.title || 'untitled') + ': ' + saved.error); return; }
     made.push(saved);
-    if (z.requestId) {
-      q.requests.forEach(function (r) {
-        if (r.id === z.requestId) {
-          r.status = 'done'; r.quizId = saved.id; r.done = new Date().toISOString();
-        }
-      });
-    }
+    if (z.requestId) servicedIds.push({ id: z.requestId, quizId: saved.id });
   });
 
-  writeQueue(q);
+  // Creating the quiz files above makes new files and cannot collide. Marking
+  // the shared queue can, so it is done separately, under the lock, against a
+  // queue re-read inside it.
+  if (servicedIds.length) {
+    withLock(function () {
+      const q = readQueue();
+      servicedIds.forEach(function (h) {
+        (q.requests || []).forEach(function (r) {
+          if (r.id === h.id) {
+            r.status = 'done'; r.quizId = h.quizId; r.done = new Date().toISOString();
+          }
+        });
+      });
+      writeQueue(q);
+    }, null);
+  }
   writeById(outboxFileId(), JSON.stringify(EMPTY_OUTBOX, null, 2));
   return { ok: true, ingested: made.length, quizzes: made, rejected: rejected };
 }
@@ -1050,6 +1099,11 @@ function weakAreasFor(system, uid) {
 // --- results recorded server-side -------------------------------------------------
 
 function recordResults(body, uid) {
+  return withLock(function () { return recordResultsLocked(body, uid); },
+                  { error: 'Your tracker is busy — try recording again in a moment.' });
+}
+
+function recordResultsLocked(body, uid) {
   const t = JSON.parse(readFile(uid));
   const date = new Date().toISOString().slice(0, 10);
 
@@ -1220,21 +1274,59 @@ function topUpRun() {
   const did = [];
 
   for (let i = 0; i < MAX_PER_RUN; i++) {
-    const q = readQueue();
-    const pending = (q.requests || []).filter(function (r) { return r.status === 'pending'; });
-
-    if (pending.length) {
+    // CLAIM. Take the oldest pending request and mark it 'running' under the
+    // lock, so a concurrent bufferStatus write cannot resurrect it as pending
+    // and cause the next run to generate — and pay for — the same quiz twice.
+    const claim = withLock(function () {
+      const q = readQueue();
+      // Reclaim anything stranded 'running' by a crashed or timed-out run.
+      // Apps Script kills an execution at 6 minutes, so anything older than
+      // STALE_CLAIM_MS is definitely not still being worked on.
+      const now = new Date().getTime();
+      (q.requests || []).forEach(function (r) {
+        if (r.status === 'running' &&
+            now - new Date(r.started || 0).getTime() > STALE_CLAIM_MS) {
+          r.status = 'pending'; delete r.started;
+          r.lastError = 'previous run did not finish — requeued';
+        }
+      });
+      const pending = (q.requests || []).filter(function (r) { return r.status === 'pending'; });
+      if (!pending.length) return null;
       const r = pending[pending.length - 1];          // oldest
-      const made = generateNow({ system: r.system, n: r.n, difficulty: r.difficulty || '',
-                                 kind: r.kind || 'quiz' }, TOPUP_FOR);
+      r.status = 'running'; r.started = new Date().toISOString();
+      writeQueue(q);
+      return { id: r.id, system: r.system, n: r.n, difficulty: r.difficulty || '',
+               kind: r.kind || 'quiz' };
+    }, null);
+
+    if (claim) {
+      // GENERATE, deliberately outside the lock — this takes 30-60s and holding
+      // the lock across it would stall every user's page behind generation.
+      const made = generateNow({ system: claim.system, n: claim.n,
+                                 difficulty: claim.difficulty, kind: claim.kind }, TOPUP_FOR);
+
+      // FINALISE under the lock, against a fresh read.
+      withLock(function () {
+        const q2 = readQueue();
+        (q2.requests || []).forEach(function (r) {
+          if (r.id !== claim.id) return;
+          if (made && !made.error) {
+            r.status = 'done'; r.quizId = made.id; r.done = new Date().toISOString();
+          } else {
+            // Back to pending so it is retried next run rather than lost.
+            r.status = 'pending'; delete r.started;
+            r.lastError = String((made && made.error) || 'unknown').slice(0, 200);
+          }
+        });
+        writeQueue(q2);
+      }, null);
+
       if (made && !made.error) {
-        r.status = 'done'; r.quizId = made.id; r.done = new Date().toISOString();
-        writeQueue(q);
-        did.push((made.kind === 'revision' ? 'module' : 'request') + ' "' + r.system +
+        did.push((made.kind === 'revision' ? 'module' : 'request') + ' "' + claim.system +
                  '" served (' + made.count + 'q)');
         continue;
       }
-      did.push('request "' + r.system + '" FAILED: ' + ((made && made.error) || 'unknown'));
+      did.push('request "' + claim.system + '" FAILED: ' + ((made && made.error) || 'unknown'));
       break;
     }
 

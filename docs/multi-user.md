@@ -77,6 +77,74 @@ merging it. The connected name is shown in Data > Drive sync, so a quiz cannot b
 silently recorded against the wrong tracker. **Disconnect** clears the token without
 touching either person's data in Drive.
 
+## Concurrency — where files can and cannot collide
+
+Apps Script runs web-app requests **concurrently**, and Drive's media upload is a blind
+last-write-wins `PATCH` with no ETag check. So any read-then-write on a shared file can
+silently lose the other writer's change. This matters differently for different files.
+
+### Between two users' trackers — no conflict, by construction
+
+Each person writes only `finals-tracker-<id>.json`. Two users never write the same
+tracker. This is the one guarantee the design gives you for free.
+
+### On the shared queue — there was a real conflict, now closed
+
+`queue.json` is written by four paths, and one of them is reachable by **every** user:
+`bufferStatus()` marks requests serviced, and the dashboard calls it on every Bank or
+Session tab click. So before locking:
+
+> Fadi presses Schedule → `queueRequest` reads the queue, adds his request, writes it.
+> Sam, meanwhile, clicked Bank a moment earlier; his `bufferStatus` had already read the
+> old queue, and now writes that copy back. **Fadi's request is gone, silently.**
+
+That was survivable with one user. With several it is not, because the number of people
+clicking tabs is exactly the number of concurrent writers.
+
+The fix is `withLock()` around every read-modify-write on a shared file, with two rules
+that are the whole point:
+
+- **Re-read the file inside the lock.** A copy read before the lock was taken is the
+  stale copy that causes the loss. This is the mistake the original code made.
+- **Never hold the lock across generation.** Those calls take 30–60 s; holding a
+  script-wide lock across one would stall every user's page behind it.
+
+### The scheduled top-up — claim, generate, finalise
+
+`topUpRun` used to read the queue, generate for a minute, then write back its copy —
+a minute-wide window in which anyone's tab click could be lost, and in which a second
+overlapping run could pick up the same request and **generate it twice, billing the API
+key twice**. It now:
+
+1. **Claims** the oldest pending request under the lock, marking it `running`.
+2. **Generates** outside the lock.
+3. **Finalises** under the lock, against a fresh read — `done` on success, back to
+   `pending` with a `lastError` on failure, so a failure is retried rather than lost.
+
+A claim-based scheme strands work if the claimer dies, and Apps Script kills an
+execution at six minutes — so a request left `running` for more than `STALE_CLAIM_MS`
+(10 minutes) is reclaimed as pending on the next run. The dashboard shows claimed
+requests as "being built" rather than "queued", which is also just more truthful.
+
+### Same person, two devices — a real conflict, unchanged and worth knowing
+
+If you have the dashboard open on a laptop and a phone, the tracker is last-write-wins
+on the whole object. Multi-user neither caused nor worsened this.
+
+It matters less than it sounds, because **the path that carries real work is already
+safe**: sitting a quiz posts `recordResults`, which is a server-side read-modify-write
+(now under the lock) and merges rather than replaces. The full-object `push()` only
+carries manual edits — a flag cleared, a log line — so the worst case is losing one of
+those, not a session's results. If you are about to make manual edits on a second
+device, hit **Reload from Drive** first.
+
+### Verified, not assumed
+
+The interleavings above are modelled in a simulation of blind last-write-wins storage:
+the unlocked version loses Fadi's request, the locked version does not; two overlapping
+runs cannot both claim one request; a stranded claim is reclaimed while a live one is
+not; and concurrent recording keeps each tracker correct.
+
 ## What this is not
 
 - **Not authentication.** A token identifies, it does not authenticate. Someone who

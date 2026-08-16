@@ -1669,7 +1669,10 @@ async function refreshBuffer(){
       ? ` \u2014 <b>${d.short} short</b> of the ${d.target} floor, the hourly task will top it up`
       : ` \u2014 above the ${d.target} floor`;
     const q = d.pending ? ` \u00b7 ${d.pending} request${d.pending === 1 ? '' : 's'} queued` : '';
-    el.innerHTML = pool + floor + q;
+    // A request being generated right now is claimed, not queued — showing it as
+    // queued made it look stuck for the minute the model takes to answer.
+    const run = d.running ? ` \u00b7 ${d.running} being built` : '';
+    el.innerHTML = pool + floor + q + run;
   }catch(e){
     el.textContent = "Couldn't read the pool \u2014 " + String(e.message || e).slice(0, 70);
   }
