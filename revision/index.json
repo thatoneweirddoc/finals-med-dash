@@ -1,6 +1,28 @@
 {
  "modules": [
   {
+   "file": "endocrine.json",
+   "title": "Endocrine",
+   "system": "Endocrine",
+   "objectives": 6,
+   "questions": 10,
+   "rationale": "Requested module. Adrenal is your highest-volume weakness at 56% over 27 questions, so this covers the adrenal axis properly and then the rest of the system — thyroid, calcium and diabetes emergencies — which have barely been tested.",
+   "added": "2026-08-17",
+   "for": "fadi",
+   "servicedRequest": "r1786916212705"
+  },
+  {
+   "file": "repeat-failures.json",
+   "title": "Your Repeat Failures",
+   "system": "Weakest areas",
+   "objectives": 5,
+   "questions": 10,
+   "rationale": "Built from the four errors your tracker shows you making repeatedly: Parkland missed 3 times with the identical wrong answer, ANZCOR adrenaline timing missed 4 times, periop bridging now wrong in both directions, and the primary-vs-secondary adrenal fork missed 5 times.",
+   "added": "2026-08-17",
+   "for": "fadi",
+   "servicedRequest": "r1786916159043"
+  },
+  {
    "file": "dermatology.json",
    "title": "Dermatology",
    "system": "Dermatology",
