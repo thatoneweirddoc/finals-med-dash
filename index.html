@@ -874,11 +874,15 @@
       <div class="panel-h">Drive sync</div>
       <p style="font-size:14px;color:var(--ink-2);margin:6px 0 0">
         Your token stays on this device. Enter it once here and on your other device,
-        and both read and write the same tracker in your Drive.</p>
+        and both read and write your own tracker. Each person's progress, flags and
+        history are separate; notes and the quiz bank are shared.</p>
+      <p style="font-size:14px;color:var(--ink-2);margin:8px 0 0">
+        Connected as <strong id="whoami">Not connected</strong></p>
       <div class="row">
         <input class="grow" id="tokIn" type="password" placeholder="Sync token">
         <button class="act" id="saveTok">Connect</button>
         <button class="act ghost" id="pullNow">Reload from Drive</button>
+        <button class="act ghost" id="disconnect">Disconnect</button>
       </div>
     </div>
     <div class="panel">
@@ -916,6 +920,21 @@
 
 <script>
 (function(){
+  /* Appearance is remembered per person, so two people sharing a browser don't
+     fight over the theme. Falls back to the un-namespaced value written before
+     multi-user existed, so nobody's settings appear to reset. */
+  function userSuffix(){ 
+    try{ return ':' + (JSON.parse(localStorage.getItem('finals_user') || '{}').id || 'anon'); }
+    catch(e){ return ':anon'; }
+  }
+  function readPref(key){
+    try{ return localStorage.getItem(key + userSuffix()) || localStorage.getItem(key); }
+    catch(e){ return null; }
+  }
+  function writePref(key, v){
+    try{ localStorage.setItem(key + userSuffix(), v); }catch(e){}
+  }
+
   var KEY_T = 'finals_theme';                       // own key; the tracker's data is untouched
   var root = document.documentElement;
   var btns = document.querySelectorAll('[data-theme-set]');
@@ -931,12 +950,12 @@
   }
   btns.forEach(function(b){
     b.addEventListener('click', function(){
-      try{ localStorage.setItem(KEY_T, b.dataset.themeSet); }catch(e){}
+      writePref(KEY_T, b.dataset.themeSet);
       apply(b.dataset.themeSet);
     });
   });
   var saved = 'auto';
-  try{ saved = localStorage.getItem(KEY_T) || 'auto'; }catch(e){}
+  try{ saved = readPref(KEY_T) || 'auto'; }catch(e){}
   apply(saved);
 
   // Typeface and text-weight work the same way: a data-attribute on <html> that
@@ -952,12 +971,12 @@
     group.forEach(function(b){
       b.addEventListener('click', function(){
         var v = b.dataset[dataKey] || 'default';
-        try{ localStorage.setItem(key, v); }catch(e){}
+        writePref(key, v);
         set(v);
       });
     });
     var v = 'default';
-    try{ v = localStorage.getItem(key) || 'default'; }catch(e){}
+    try{ v = readPref(key) || 'default'; }catch(e){}
     set(v);
   }
   pref('font', 'finals_font', '[data-font]', 'font');
@@ -967,7 +986,11 @@
 
 <script>
 const EXAM = new Date('2026-09-14T09:00:00+10:00');
-const KEY = 'finals_v1';
+const KEY_BASE = 'finals_v1';
+/* The cached tracker is namespaced per user, so a shared laptop can hold two
+   people's histories without either seeing the other's, and switching tokens
+   switches the cache rather than merging it. */
+function cacheKey(){ return KEY_BASE + ':' + (USER.id || 'anon'); }
 const STAMP = '2026-08-14T18:10';  // bumped each time Claude regenerates this file
 
 /* Coverage is DERIVED from the notes library, never hand-listed. The hardcoded
@@ -1012,6 +1035,9 @@ async function loadCoverage(){
 }
 
 // Baked in from the Drive tracker at generation time — 14 Aug 2026
+/* SEED is the owner's tracker state baked in at generation time. Guarded by
+   SEED_OWNER so a second user never inherits it. */
+const SEED_OWNER = 'fadi';
 const SEED = {
   topics:{
     'Endocrine — adrenal insufficiency':{score:46,tested:13,correct:6},
@@ -1046,12 +1072,58 @@ let S = JSON.parse(JSON.stringify(SEED));
 /* ---- sync: Apps Script endpoint, with local cache as fallback ---- */
 const SYNC_URL = 'https://script.google.com/macros/s/AKfycbxCPPswg6zpb8578a94IwJ9Eeo6amgNPTOnhp0_MSCUJvTezW_zuurDDKTaendQrzU_QQ/exec';
 const TOKEN_KEY = 'finals_token';
+const USER_KEY  = 'finals_user';
+
+/* Who the token resolves to, as last reported by the server. Cached so the page
+   can pick the right local tracker before the network answers. */
+let USER = { id:'', name:'', generate:false };
+try{ USER = JSON.parse(localStorage.getItem(USER_KEY)) || USER; }catch(e){}
 
 function token(){ try{ return localStorage.getItem(TOKEN_KEY) || ''; }catch(e){ return ''; } }
 function setToken(t){ try{ localStorage.setItem(TOKEN_KEY, t); }catch(e){} }
 
-function cacheGet(){ try{ return localStorage.getItem(KEY); }catch(e){ return null; } }
-function cacheSet(v){ try{ localStorage.setItem(KEY, v); }catch(e){} }
+function setUser(u){
+  USER = { id:(u&&u.id)||'', name:(u&&u.name)||'', generate:!!(u&&u.generate) };
+  try{ localStorage.setItem(USER_KEY, JSON.stringify(USER)); }catch(e){}
+  applyUserUI();
+}
+
+/* Generation spends the owner's API credit, so the controls are hidden rather
+   than left to fail server-side with an error nobody expects. */
+const GEN_BUTTONS = ['btnSchedule','btnNow','revSchedule','revNow'];
+function applyUserUI(){
+  const who = $('whoami');
+  if(who) who.textContent = USER.name ? USER.name : 'Not connected';
+  GEN_BUTTONS.forEach(id => {
+    const b = $(id);
+    if(!b) return;
+    const allowed = !USER.id || USER.generate;   // don't hide before we know
+    b.style.display = allowed ? '' : 'none';
+    let note = document.getElementById(id + 'Note');
+    if(!allowed && !note){
+      note = document.createElement('span');
+      note.id = id + 'Note';
+      note.className = 'note';
+      note.textContent = 'New quizzes are produced centrally and appear in the Bank — sit them from there.';
+      b.parentNode.insertBefore(note, b);
+    } else if(allowed && note){ note.remove(); }
+  });
+}
+
+async function whoami(){
+  const t = token();
+  if(!t){ setUser(null); return null; }
+  try{
+    const r = await fetch(`${SYNC_URL}?action=whoami&token=${encodeURIComponent(t)}`);
+    const d = await r.json();
+    if(d.error || !d.user) return null;
+    setUser(d.user);
+    return d.user;
+  }catch(e){ return null; }
+}
+
+function cacheGet(){ try{ return localStorage.getItem(cacheKey()); }catch(e){ return null; } }
+function cacheSet(v){ try{ localStorage.setItem(cacheKey(), v); }catch(e){} }
 
 // Drive shape (topics/open/resolved/log) <-> internal shape (topics/open/cleared/log)
 function fromDrive(d){
@@ -1090,15 +1162,21 @@ async function pull(){
   const t = token();
   if(!t){ setSync('Not connected — add your token in Data', 'warn'); return false; }
   try{
+    const u = await whoami();
+    if(!u){ setSync('Token not recognised', 'warn'); return false; }
     const r = await fetch(`${SYNC_URL}?token=${encodeURIComponent(t)}`);
     const d = await r.json();
     if(d.error) throw new Error(d.error);
     S = fromDrive(d);
-    // an empty Drive tracker on first run — keep the seeded state instead
-    if(!Object.keys(S.topics).length && !S.open.length){ S = JSON.parse(JSON.stringify(SEED)); }
+    /* An empty tracker on first run. SEED is the OWNER's baked-in history, so
+       only the owner may inherit it — anyone else starts genuinely empty rather
+       than adopting someone else's scores. */
+    if(!Object.keys(S.topics).length && !S.open.length && u.id === SEED_OWNER){
+      S = JSON.parse(JSON.stringify(SEED));
+    }
     cacheSet(JSON.stringify(S));
     SYNCED = true;
-    setSync(`Synced${d.updated ? ' · ' + d.updated : ''}`, 'ok');
+    setSync(`Synced · ${u.name}${d.updated ? ' · ' + d.updated : ''}`, 'ok');
     return true;
   }catch(e){
     setSync('Offline — showing last saved copy', 'warn');
@@ -1127,6 +1205,7 @@ async function push(){
 }
 
 async function load(){
+  applyUserUI();               // hide generation controls from the cached identity
   const c = cacheGet();
   if(c){ try{ S = JSON.parse(c); }catch(e){} }
   renderAll();
@@ -2010,9 +2089,15 @@ $('saveTok').onclick = async () => {
   if(!t) return;
   setToken(t); $('tokIn').value = '';
   setSync('Connecting…','');
+  const u = await whoami();
+  if(!u){ setSync('Token not recognised', 'warn'); return; }
+  /* Identity is now known, so cacheGet/cacheSet address the right namespace.
+     Load this user's own cached copy before pulling, so a failed pull shows
+     their data and not whoever used the browser last. */
+  try{ const c = cacheGet(); if(c) S = JSON.parse(c); else S = fromDrive({}); }catch(e){}
   const ok = await pull();
   renderAll();
-  if(ok) await push();   // seed Drive with what's here on first connect
+  if(ok && u.id === SEED_OWNER) await push();   // seed Drive on the owner's first connect
 };
 
 $('pullNow').onclick = async () => { setSync('Loading…',''); await pull(); renderAll(); };
@@ -2584,13 +2669,17 @@ document.querySelector('[data-tab="revision"]').addEventListener('click', fetchR
  * submitted: nothing here touches the tracker, so an abandoned attempt never
  * affects a score. Cleared on submit, or by an explicit restart.
  */
-const PROG_KEY = 'finals_progress';
+const PROG_BASE = 'finals_progress';
+/* Namespaced like the tracker cache: a half-finished quiz belongs to the person
+   who started it, so resuming on a shared browser cannot pick up someone else's
+   answers. See docs/multi-user.md. */
+function PROG_KEY(){ return PROG_BASE + ':' + ((typeof USER !== 'undefined' && USER.id) || 'anon'); }
 
 function allProgress(){
-  try{ return JSON.parse(localStorage.getItem(PROG_KEY) || '{}'); }catch(e){ return {}; }
+  try{ return JSON.parse(localStorage.getItem(PROG_KEY()) || '{}'); }catch(e){ return {}; }
 }
 function writeProgress(map){
-  try{ localStorage.setItem(PROG_KEY, JSON.stringify(map)); }catch(e){}
+  try{ localStorage.setItem(PROG_KEY(), JSON.stringify(map)); }catch(e){}
 }
 function saveProgress(id, answers, total, title){
   if(!id) return;
@@ -2845,7 +2934,19 @@ document.querySelector('[data-tab="session"]').addEventListener('click', () => {
 
 $('resetAll').onclick = () => {
   if(!confirm('Clear all tracked data and return to the seeded state?')) return;
-  S = JSON.parse(JSON.stringify(SEED)); save(); renderAll();
+  // Only the owner has a seeded state to return to; everyone else clears to empty.
+  S = USER.id === SEED_OWNER ? JSON.parse(JSON.stringify(SEED)) : fromDrive({});
+  save(); renderAll();
+};
+
+$('disconnect').onclick = () => {
+  if(!confirm('Disconnect this device? Your progress stays safe in Drive and comes ' +
+              'back when you reconnect with your token.')) return;
+  try{ localStorage.removeItem(TOKEN_KEY); }catch(e){}
+  setUser(null);               // switches the cache namespace away from this user
+  S = fromDrive({});
+  renderAll();
+  setSync('Not connected — add your token in Data', 'warn');
 };
 
 load();

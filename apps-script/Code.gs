@@ -54,7 +54,39 @@
  *   - saveRevision returns `count`, so the scheduler stops logging "undefinedq".
  */
 
-const TOKEN = 'fadmag';
+/**
+ * USERS — one entry per person. The key is that person's token; they paste it
+ * into the dashboard once and the browser remembers it.
+ *
+ *   id       the tracker filename suffix. NEVER change an existing id — the
+ *            tracker is stored as finals-tracker-<id>.json and renaming the id
+ *            orphans that person's entire history.
+ *   name     shown in the dashboard so a shared laptop can't silently record
+ *            one person's quiz against another's tracker.
+ *   generate whether this person may spend the owner's Anthropic credit. Only
+ *            the owner should have this unless you decide otherwise.
+ *
+ * To add someone: invent a token that is not guessable (a password manager's
+ * random string is ideal), add a row, redeploy as a NEW VERSION, and send them
+ * the token privately. To remove someone: delete the row and redeploy. Their
+ * tracker file stays in Drive, so the removal is reversible.
+ *
+ * A token is a bearer credential — anyone holding it is that user. That is an
+ * acceptable trade for a small group of people who know each other; it would
+ * not be for a public site.
+ */
+const OWNER_ID = 'fadi';
+
+const USERS = {
+  'fadmag': { id: 'fadi', name: 'Fadi', generate: true }
+  // 'paste-a-random-token-here': { id: 'sam', name: 'Sam', generate: false },
+};
+
+function resolveUser(token) {
+  const u = USERS[String(token || '')];
+  if (!u) return null;
+  return { id: u.id, name: u.name, generate: !!u.generate };
+}
 
 const FOLDER_NAME = 'Finals tracker';
 const QUIZZES_FOLDER_NAME = 'Quizzes';
@@ -65,6 +97,12 @@ const OUTBOX_NAME = 'claude-outbox.json';
 
 // the standing pool of unattempted questions the scheduled task tops back up
 const BUFFER_TARGET = 30;
+
+// Whose weak areas the 6-hourly top-up aims at. Generated quizzes land in the
+// shared bank and everyone can sit them — this only decides which tracker is
+// read to choose the topic. Set to OWNER_ID because that is the exam this
+// schedule was calibrated for.
+const TOPUP_FOR = OWNER_ID;
 
 const REPO_RAW = 'https://raw.githubusercontent.com/thatoneweirddoc/finals-med-dash/main/';
 const ANTHROPIC_URL = 'https://api.anthropic.com/v1/messages';
@@ -91,6 +129,12 @@ function setup() {
   Logger.log('Queue id:   ' + queueFileId());
   Logger.log('Outbox id:  ' + outboxFileId());
   Logger.log('API key set: ' + (props().getProperty('ANTHROPIC_API_KEY') ? 'yes' : 'no (Make now will refuse)'));
+  Logger.log('Users:      ' + Object.keys(USERS).map(function (k) {
+    return USERS[k].name + ' (' + USERS[k].id + (USERS[k].generate ? ', can generate' : '') + ')';
+  }).join(', '));
+  Object.keys(USERS).forEach(function (k) {
+    Logger.log('  tracker ' + USERS[k].id + ': ' + trackerFileId(USERS[k].id));
+  });
   Logger.log('Ready.');
 }
 
@@ -106,14 +150,16 @@ function idsForClaude() {
 
 function doGet(e) {
   const p = e.parameter;
-  if ((p.token || '') !== TOKEN) return json({ error: 'bad token' });
+  const user = resolveUser(p.token);
+  if (!user) return json({ error: 'bad token' });
   try {
+    if (p.action === 'whoami')      return json({ user: user });
     if (p.action === 'listQuizzes') return json({ quizzes: listQuizzes() });
     if (p.action === 'listRevision') return json({ modules: listRevision() });
     if (p.action === 'getQuiz')     return json(JSON.parse(readById(p.id)));
-    if (p.action === 'status')      return json(bufferStatus());
+    if (p.action === 'status')      return json(bufferStatus(user.id));
     if (p.action === 'queue')       return json(readQueue());
-    return json(JSON.parse(readFile()));
+    return json(JSON.parse(readFile(user.id)));
   } catch (err) {
     return json({ error: String(err) });
   }
@@ -122,15 +168,26 @@ function doGet(e) {
 function doPost(e) {
   try {
     const body = JSON.parse(e.postData.contents);
-    if ((body.token || '') !== TOKEN) return json({ error: 'bad token' });
+    const user = resolveUser(body.token);
+    if (!user) return json({ error: 'bad token' });
+
+    // Actions that spend the owner's Anthropic credit, or that write to the
+    // shared quiz bank, are gated. Everything else — sitting quizzes, reading
+    // notes, recording your own results — is open to every user.
+    const NEEDS_GENERATE = ['saveQuiz', 'saveRevision', 'queueRequest',
+                            'ingestOutbox', 'generateNow', 'deleteItem'];
+    if (NEEDS_GENERATE.indexOf(body.action) >= 0 && !user.generate) {
+      return json({ error: 'Generating content is not enabled for your account. ' +
+                           'Quizzes appear in the bank as they are produced.' });
+    }
 
     if (body.action === 'saveQuiz')      return json(saveQuiz(body));
     if (body.action === 'saveRevision')  return json(saveRevision(body));
-    if (body.action === 'recordResults') return json(recordResults(body));
+    if (body.action === 'recordResults') return json(recordResults(body, user.id));
     if (body.action === 'queueRequest')  return json(queueRequest(body));
     if (body.action === 'ingestOutbox')  return json(ingestOutbox());
-    if (body.action === 'generateNow')   return json(generateNow(body));
-    if (body.action === 'deleteItem')   return json(deleteItem(body));
+    if (body.action === 'generateNow')   return json(generateNow(body, user.id));
+    if (body.action === 'deleteItem')    return json(deleteItem(body));
 
     // An unrecognised action must NEVER fall through to a tracker overwrite —
     // an older deployment doing exactly that would silently destroy the tracker
@@ -147,7 +204,7 @@ function doPost(e) {
 
     delete body.token;
     body.updated = new Date().toISOString().slice(0, 10);
-    writeFile(JSON.stringify(body, null, 2));
+    writeFile(JSON.stringify(body, null, 2), user.id);
     return json({ ok: true, updated: body.updated });
   } catch (err) {
     return json({ error: String(err) });
@@ -254,8 +311,20 @@ function singletonFileId(propKey, name, starter) {
 function queueFileId()  { return singletonFileId('queueFileId',  QUEUE_NAME,  EMPTY_QUEUE); }
 function outboxFileId() { return singletonFileId('outboxFileId', OUTBOX_NAME, EMPTY_OUTBOX); }
 
-function readFile() { return readById(fileId()); }
-function writeFile(text) { writeById(fileId(), text); }
+/**
+ * Per-user tracker. The OWNER keeps the original finals-tracker.json and its
+ * cached fileId property untouched — so switching this script to multi-user
+ * needs no migration and cannot lose the existing history. Everyone else gets
+ * finals-tracker-<id>.json created lazily on first use.
+ */
+function trackerFileId(uid) {
+  const id = uid || OWNER_ID;
+  if (id === OWNER_ID) return fileId();
+  return singletonFileId('trackerId:' + id, 'finals-tracker-' + id + '.json', STARTER);
+}
+
+function readFile(uid) { return readById(trackerFileId(uid)); }
+function writeFile(text, uid) { writeById(trackerFileId(uid), text); }
 
 // --- quiz bank -------------------------------------------------------------------
 
@@ -469,9 +538,9 @@ function deleteItem(body) {
  * quiz has no entry in the tracker's quiz_history — a quiz you have taken stops
  * counting toward the floor even though it's still there to redo.
  */
-function bufferStatus() {
+function bufferStatus(uid) {
   let tracker;
-  try { tracker = JSON.parse(readFile()); } catch (err) { tracker = {}; }
+  try { tracker = JSON.parse(readFile(uid)); } catch (err) { tracker = {}; }
   const taken = {};
   (tracker.quiz_history || []).forEach(function (h) { if (h.quizId) taken[h.quizId] = true; });
 
@@ -608,7 +677,7 @@ function ingestOutbox() {
 
 // --- "Make now" — direct Anthropic call ------------------------------------------
 
-function generateNow(body) {
+function generateNow(body, uid) {
   const key = props().getProperty('ANTHROPIC_API_KEY');
   if (!key) {
     return { error: 'No ANTHROPIC_API_KEY in Script Properties — use Schedule instead, ' +
@@ -616,13 +685,13 @@ function generateNow(body) {
   }
   // A revision module is the same request travelling the same path — it just
   // produces objectives + teaching + questions rather than questions alone.
-  if (body.kind === 'revision') return generateModule(key, body);
+  if (body.kind === 'revision') return generateModule(key, body, uid);
 
   const system = body.system || 'Mixed';
   const want = Math.min(20, Math.max(5, Number(body.n) || 10));
 
   const ground = groundingFor(system);
-  const weak = weakAreasFor(system);
+  const weak = weakAreasFor(system, uid || OWNER_ID);
 
   // A single difficulty generates all at that level; anything else reproduces the
   // 25/55/20 blend measured off the real papers.
@@ -672,11 +741,11 @@ function generateNow(body) {
  * objectives that came back, which also makes the questions test the module
  * rather than the topic in general.
  */
-function generateModule(key, body) {
+function generateModule(key, body, uid) {
   const system = body.system || 'Weakest areas';
   const nq = Math.min(15, Math.max(5, Number(body.n) || 10));
   const ground = groundingFor(system);
-  const weak = weakAreasFor(system);
+  const weak = weakAreasFor(system, uid || OWNER_ID);
   const plan = difficultyPlan(body.difficulty, nq);
 
   // ---- call 1: objectives + teaching -------------------------------------------
@@ -953,9 +1022,9 @@ function groundingFor(system) {
 }
 
 /** Flagged weak areas + weak scores for this system, as prompt context. */
-function weakAreasFor(system) {
+function weakAreasFor(system, uid) {
   try {
-    const t = JSON.parse(readFile());
+    const t = JSON.parse(readFile(uid));
     const want = String(system).toLowerCase();
     const lines = [];
     (t.open || []).forEach(function (o) {
@@ -980,8 +1049,8 @@ function weakAreasFor(system) {
 
 // --- results recorded server-side -------------------------------------------------
 
-function recordResults(body) {
-  const t = JSON.parse(readFile());
+function recordResults(body, uid) {
+  const t = JSON.parse(readFile(uid));
   const date = new Date().toISOString().slice(0, 10);
 
   t.topics = t.topics || {};
@@ -1079,7 +1148,7 @@ function recordResults(body) {
   });
 
   t.updated = date;
-  writeFile(JSON.stringify(t, null, 2));
+  writeFile(JSON.stringify(t, null, 2), uid);
   return { ok: true, updated: date };
 }
 
@@ -1157,7 +1226,7 @@ function topUpRun() {
     if (pending.length) {
       const r = pending[pending.length - 1];          // oldest
       const made = generateNow({ system: r.system, n: r.n, difficulty: r.difficulty || '',
-                                 kind: r.kind || 'quiz' });
+                                 kind: r.kind || 'quiz' }, TOPUP_FOR);
       if (made && !made.error) {
         r.status = 'done'; r.quizId = made.id; r.done = new Date().toISOString();
         writeQueue(q);
@@ -1170,7 +1239,7 @@ function topUpRun() {
     }
 
     let st;
-    try { st = bufferStatus(); }
+    try { st = bufferStatus(TOPUP_FOR); }
     catch (err) { did.push('status failed: ' + err); break; }
 
     if (st.short <= 0) {
@@ -1178,8 +1247,8 @@ function topUpRun() {
       break;
     }
 
-    const sys = weakestSystem();
-    const made = generateNow({ system: sys, n: Math.min(20, Math.max(5, st.short)) });
+    const sys = weakestSystem(TOPUP_FOR);
+    const made = generateNow({ system: sys, n: Math.min(20, Math.max(5, st.short)) }, TOPUP_FOR);
     if (made && !made.error) {
       did.push('topped up ' + sys + ' (' + made.count + 'q)');
     } else {
@@ -1195,9 +1264,9 @@ function topUpRun() {
  * Which system is currently hurting most: the one with the most flagged attempts
  * in `open`, falling back to the lowest-scoring topic's system prefix.
  */
-function weakestSystem() {
+function weakestSystem(uid) {
   try {
-    const t = JSON.parse(readFile());
+    const t = JSON.parse(readFile(uid));
 
     const counts = {};
     (t.open || []).forEach(function (o) {
