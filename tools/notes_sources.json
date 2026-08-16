@@ -345,6 +345,16 @@
      "label": "Geriatrics Master Notes"
     }
    ]
+  },
+  {
+   "system": "Surgery",
+   "slug": "surgery",
+   "sources": [
+    {
+     "path": "sources/claude_surgery_master.md",
+     "label": "Surgery Master Notes"
+    }
+   ]
   }
  ]
 }
