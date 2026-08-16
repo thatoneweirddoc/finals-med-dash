@@ -769,7 +769,7 @@ function withLock(fn, fallback, waitMs) {
  * owner's scheduled runs. The owner is uncapped: it is their credit and their
  * exam.
  */
-const GUEST_QUEUE_CAP = 3;
+const GUEST_QUEUE_CAP = { quiz: 2, revision: 2 };
 
 function queueRequest(body, user) {
   const id = 'r' + new Date().getTime();
@@ -779,13 +779,21 @@ function queueRequest(body, user) {
   return withLock(function () {
   const q = readQueue();
 
+  const kind = body.kind === 'revision' ? 'revision' : 'quiz';
+
+  // Capped per kind, not in total, so a guest waiting on two quizzes can still
+  // ask for a revision module. Counting only 'pending' means a request that has
+  // been built stops occupying the allowance.
   if (!mayGenerate) {
+    const cap = GUEST_QUEUE_CAP[kind];
     const mine = q.requests.filter(function (r) {
-      return r.by === uid && r.status === 'pending';
+      return r.by === uid && r.status === 'pending' &&
+             (r.kind === 'revision' ? 'revision' : 'quiz') === kind;
     }).length;
-    if (mine >= GUEST_QUEUE_CAP) {
-      return { error: 'You already have ' + mine + ' requests waiting. They are built ' +
-                      'on a schedule — let those come through first.' };
+    if (mine >= cap) {
+      return { error: 'You already have ' + mine + ' ' + kind + ' request' +
+                      (mine === 1 ? '' : 's') + ' waiting, which is the limit. ' +
+                      'They are built on a schedule — let those come through first.' };
     }
   }
 
@@ -794,7 +802,7 @@ function queueRequest(body, user) {
     system: body.system || 'Weakest areas',
     n: Math.min(40, Math.max(5, Number(body.n) || 20)),
     topics: Array.isArray(body.topics) ? body.topics : [],
-    kind: body.kind === 'revision' ? 'revision' : 'quiz',
+    kind: kind,
     difficulty: ['easy', 'medium', 'hard'].indexOf(body.difficulty) >= 0 ? body.difficulty : '',
     note: String(body.note || ''),
     status: 'pending',
