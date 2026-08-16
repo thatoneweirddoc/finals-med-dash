@@ -686,6 +686,18 @@ function bufferStatus(uid) {
     });
   } catch (err) { /* repo unreachable — Drive quizzes still count */ }
 
+  // Revision modules published to the repo carry the same servicedRequest stamp,
+  // but this only ever read the quiz manifest — so a revision request stayed
+  // 'pending' forever even after the module was live. Read both.
+  try {
+    const ridx = JSON.parse(UrlFetchApp.fetch(REPO_RAW + 'revision/index.json',
+      { muteHttpExceptions: true }).getContentText());
+    (ridx.modules || []).forEach(function (m) {
+      if (m.servicedRequest) serviced[m.servicedRequest] = 'rev:' + m.file;
+      (m.alsoServices || []).forEach(function (rid) { serviced[rid] = 'rev:' + m.file; });
+    });
+  } catch (err) { /* revision manifest unreachable — non-fatal */ }
+
   try {
     listQuizzes().forEach(function (q) {
       const done = !!taken[q.id];
