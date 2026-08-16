@@ -1,6 +1,15 @@
 {
  "modules": [
   {
+   "file": "adrenal-axis.json",
+   "title": "The Adrenal Axis",
+   "system": "Endocrine",
+   "objectives": 6,
+   "questions": 10,
+   "rationale": "Your highest-volume weakness: 47% across 17 questions. The recorded misses show one principle failing repeatedly across three different diseases — renin direction misread in Addison's, Conn's, and renal artery stenosis.",
+   "added": "2026-08-16"
+  },
+  {
    "file": "anticoagulation.json",
    "title": "Anticoagulation",
    "system": "Anticoagulation",
