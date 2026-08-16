@@ -3,6 +3,11 @@
 Written 14 Aug 2026, 31 days out. This delineates the work rather than starting it.
 Nothing here is built yet.
 
+> **The ordering below is superseded.** Six systems have been built since it was
+> written; the current order is in **`docs/notes-build-order.md`**, ranked by how empty
+> each remaining system is, how examined it is, and what source material exists. The
+> yield measurements and the definition-of-done here are still current.
+>
 > **Before starting a system, read `docs/system-build-playbook.md`.** It has the fixed
 > order of operations, the pre-flight checks, the error taxonomy from 155 verified
 > corrections, and the hardened agent prompt templates. It exists because the same
