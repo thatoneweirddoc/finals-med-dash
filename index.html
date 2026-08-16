@@ -2091,42 +2091,87 @@ async function fetchRepoQuizzes(){
 
 
 /* ---- notes search in the header ---- */
-// Counts matches against the notes manifest already fetched for NOTE_WORDS, so
-// typing costs nothing. Deliberately shows only a count — no dropdown, no result
-// list. Submitting hands off to notes.html, which already understands #q=.
-let NOTE_INDEX = [];
+// Counts against the real search index — the same one notes.html uses — so the
+// number matches what you'll actually see after hitting Search. `docs` are
+// sections; a note is a distinct path, so one note usually contributes several
+// sections. Hence "28 sections in 14 notes" rather than a bare result count.
+//
+// The index is ~6MB, so it is fetched lazily on first interaction with the box
+// rather than on page load. Until it arrives the box still submits fine — it
+// just can't preview a count.
+let NOTE_IDX = null, NOTE_IDX_STATE = 'idle';
 
-async function loadNoteIndex(){
+async function ensureNoteIndex(){
+  if(NOTE_IDX_STATE !== 'idle') return;
+  NOTE_IDX_STATE = 'loading';
   try{
-    const r = await fetch('notes/index.json?t=' + Date.now());
-    const d = await r.json();
-    (d.systems||[]).forEach(sys => (sys.notes||[]).forEach(n => {
-      NOTE_INDEX.push(((n.title||'') + ' ' + (sys.system||'') + ' ' +
-                       (n.tags||[]).join(' ')).toLowerCase());
-    }));
-  }catch(e){ /* search still submits, it just can't preview a count */ }
+    const r = await fetch('notes/search-index.json');
+    NOTE_IDX = await r.json();
+    NOTE_IDX_STATE = 'ready';
+    updateNoteHits();
+  }catch(e){ NOTE_IDX_STATE = 'failed'; }
 }
 
-function noteHitCount(q){
-  const t = q.trim().toLowerCase();
-  if(!t) return null;
-  const words = t.split(/\s+/);
-  return NOTE_INDEX.filter(h => words.every(w => h.indexOf(w) >= 0)).length;
+// Mirrors the tokenising notes.html does, so the counts agree.
+function noteTokens(q){
+  return String(q||'').toLowerCase().split(/[^a-z0-9]+/).filter(t => t.length > 1);
+}
+
+function noteHits(q){
+  if(!NOTE_IDX || !NOTE_IDX.postings) return null;
+  const terms = noteTokens(q);
+  if(!terms.length) return null;
+
+  // A term matches by prefix, as the notes page does — "aldo" should find
+  // "aldosterone" rather than nothing.
+  // Always union exact AND prefix matches. Short-circuiting on an exact hit is
+  // wrong: "aldo" happens to exist as a literal token, so it would return that
+  // one section and never expand to aldosterone.
+  const keys = Object.keys(NOTE_IDX.postings);
+  let sets = terms.map(t => {
+    const ids = new Set();
+    keys.forEach(k => {
+      if(k === t || k.startsWith(t)) NOTE_IDX.postings[k].forEach(([i]) => ids.add(i));
+    });
+    return ids;
+  });
+
+  // every term must appear, matching the notes page's AND behaviour
+  let hit = sets[0];
+  for(let i = 1; i < sets.length; i++){
+    hit = new Set([...hit].filter(x => sets[i].has(x)));
+  }
+
+  const paths = new Set();
+  hit.forEach(i => { const d = NOTE_IDX.docs[i]; if(d) paths.add(d.path); });
+  return { sections: hit.size, notes: paths.size };
 }
 
 function updateNoteHits(){
-  const q = $('noteQ').value;
-  const n = noteHitCount(q);
-  $('noteHits').textContent = n === null ? '' : `${n} result${n===1?'':'s'}`;
+  const q = $('noteQ').value.trim();
+  const el = $('noteHits');
+  if(!q){ el.textContent = ''; return; }
+  if(NOTE_IDX_STATE === 'loading'){ el.textContent = 'searching…'; return; }
+  if(NOTE_IDX_STATE === 'failed'){ el.textContent = ''; return; }
+  const h = noteHits(q);
+  if(!h){ el.textContent = ''; return; }
+  el.textContent = h.sections
+    ? `${h.sections} section${h.sections===1?'':'s'} in ${h.notes} note${h.notes===1?'':'s'}`
+    : 'no matches';
 }
 
-$('noteQ').addEventListener('input', updateNoteHits);
+let noteTmr = null;
+$('noteQ').addEventListener('focus', ensureNoteIndex);
+$('noteQ').addEventListener('input', () => {
+  ensureNoteIndex();
+  clearTimeout(noteTmr);
+  noteTmr = setTimeout(updateNoteHits, 120);
+});
 $('notesSearch').addEventListener('submit', e => {
   e.preventDefault();
   const q = $('noteQ').value.trim();
   window.open('notes.html' + (q ? '#q=' + encodeURIComponent(q) : ''), '_blank');
 });
-loadNoteIndex();
 
 /* ---- revision modules ---- */
 const REPO_REVISION = 'https://raw.githubusercontent.com/thatoneweirddoc/finals-med-dash/main/revision/';
