@@ -109,6 +109,18 @@
    "added": "2026-08-16",
    "category": "topic",
    "servicedRequest": "r1786846341459"
+  },
+  {
+   "file": "surgery-2.json",
+   "title": "Surgery — part 2",
+   "system": "Surgery",
+   "count": 20,
+   "added": "2026-08-16",
+   "category": "topic",
+   "servicedRequest": "r1786851276508",
+   "alsoServices": [
+    "r1786851269315"
+   ]
   }
  ]
 }
