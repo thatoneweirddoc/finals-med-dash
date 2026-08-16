@@ -1,0 +1,346 @@
+{
+ "title": "Obstetrics & Gynaecology",
+ "system": "Obstetrics & Gynaecology",
+ "questions": [
+  {
+   "stem": "A 28-year-old woman at 32 weeks presents with painless bright red PV bleeding of about 300 mL. The uterus is soft and non-tender. CTG is normal. She has had no scans since 12 weeks.",
+   "lead": "Which examination is contraindicated?",
+   "options": [
+    "Abdominal palpation",
+    "Digital vaginal examination",
+    "Sterile speculum examination",
+    "Fetal heart auscultation",
+    "Maternal observations"
+   ],
+   "correct": 1,
+   "explanation": "Painless bleeding with a soft non-tender uterus suggests <b>placenta praevia</b>, and a <b>digital vaginal examination</b> can disrupt a low-lying placenta and cause catastrophic haemorrhage. It is avoided in any antepartum haemorrhage until praevia is excluded by ultrasound. Speculum is acceptable. Contrast with abruption: painful bleeding, tender woody uterus, loss often concealed.",
+   "point": "Digital vaginal examination is contraindicated in antepartum haemorrhage until placenta praevia is excluded by ultrasound.",
+   "topic": "O&G — antepartum haemorrhage",
+   "type": "recall",
+   "difficulty": "easy"
+  },
+  {
+   "stem": "A 30-year-old woman at 34 weeks has BP 158/104 on two occasions four hours apart. Urine PCR is 12 mg/mmol (normal <30). Platelets 96, ALT 88 U/L (normal <40). She has epigastric pain.",
+   "lead": "Does she have pre-eclampsia?",
+   "options": [
+    "No — proteinuria is required for the diagnosis",
+    "Yes — hypertension after 20 weeks with end-organ involvement",
+    "No — she needs a 24-hour urine collection first",
+    "Yes — but only because of the epigastric pain",
+    "No — the BP threshold is 160/110"
+   ],
+   "correct": 1,
+   "explanation": "<b>Proteinuria is no longer required.</b> Pre-eclampsia is hypertension after 20 weeks <b>plus any</b> end-organ involvement — here <b>thrombocytopenia, raised transaminases and epigastric pain</b>, which together also suggest evolving <b>HELLP</b>. Waiting for proteinuria before acting is the error the criteria change was designed to prevent.",
+   "point": "Pre-eclampsia is hypertension after 20 weeks plus any end-organ involvement; proteinuria is not required.",
+   "topic": "O&G — hypertensive disorders",
+   "type": "discrimination",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "The same woman has a seizure.",
+   "lead": "What is the drug of choice?",
+   "options": [
+    "IV diazepam",
+    "IV magnesium sulfate",
+    "IV phenytoin",
+    "IV levetiracetam",
+    "IV labetalol"
+   ],
+   "correct": 1,
+   "explanation": "<b>Magnesium sulfate</b> is the anticonvulsant of choice for eclampsia, superior to diazepam and phenytoin, and is also used for prophylaxis in severe pre-eclampsia. Monitor for toxicity — <b>loss of deep tendon reflexes first</b>, then respiratory depression — with <b>calcium gluconate</b> as antidote. Definitive treatment is delivery of the placenta.",
+   "point": "Magnesium sulfate is the anticonvulsant of choice in eclampsia, with calcium gluconate as the antidote.",
+   "topic": "O&G — hypertensive disorders",
+   "type": "recall",
+   "difficulty": "easy"
+  },
+  {
+   "stem": "A 26-year-old woman with 7 weeks amenorrhoea has left iliac fossa pain and light PV bleeding. hCG is 2100 IU/L. TVUS shows no intrauterine pregnancy and a 2 cm left adnexal mass. She is stable.",
+   "lead": "Which management option requires the strictest selection criteria?",
+   "options": [
+    "Expectant management",
+    "Methotrexate",
+    "Laparoscopic salpingectomy",
+    "Laparoscopic salpingostomy",
+    "Laparotomy"
+   ],
+   "correct": 1,
+   "explanation": "<b>Methotrexate</b> has the tightest criteria: stable, unruptured, mass typically <3.5 cm, hCG below threshold, no fetal cardiac activity, and <b>reliable follow-up</b>, since failure needs rescue surgery. Avoid pregnancy for 3 months after. Surgery has fewer prerequisites, and an unstable patient goes straight to theatre.",
+   "point": "Methotrexate for ectopic pregnancy requires a stable unruptured patient with small mass, low hCG, no fetal cardiac activity and reliable follow-up.",
+   "topic": "O&G — early pregnancy",
+   "type": "application",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A 31-year-old woman is Rh D negative with no preformed anti-D antibodies, at 28 weeks in an uncomplicated pregnancy.",
+   "lead": "What is the correct anti-D prophylaxis in Australia?",
+   "options": [
+    "1500 IU as a single dose at 28 weeks",
+    "625 IU at 28 weeks and again at 34 weeks",
+    "625 IU at 28 weeks only",
+    "No antenatal prophylaxis; postpartum only",
+    "300 IU monthly from 28 weeks"
+   ],
+   "correct": 1,
+   "explanation": "Australian practice (NBA/RANZCOG) gives <b>625 IU IM at 28 and again at 34 weeks</b>. The <b>single 1500 IU dose is the UK regimen</b> and is the distractor. Anti-D is also given after sensitising events — miscarriage or termination after 10 weeks, ectopic, CVS/amniocentesis, APH, trauma, ECV — and postpartum if the baby is Rh D positive, with a Kleihauer.",
+   "point": "Australian anti-D prophylaxis is 625 IU at 28 and 34 weeks, not the UK single 1500 IU dose.",
+   "topic": "O&G — antenatal care",
+   "type": "recall",
+   "difficulty": "hard"
+  },
+  {
+   "stem": "A woman at 26 weeks has a 75 g OGTT: fasting 5.3 mmol/L, 1 hour 9.2, 2 hour 7.9.",
+   "lead": "How is this interpreted?",
+   "options": [
+    "Normal — no value meets threshold",
+    "Gestational diabetes — the fasting value meets threshold",
+    "Gestational diabetes — all three meet threshold",
+    "Impaired glucose tolerance only",
+    "Invalid without a 3-hour sample"
+   ],
+   "correct": 1,
+   "explanation": "ADIPS thresholds are <b>fasting ≥5.1, 1 hour ≥10.0, 2 hour ≥8.5</b>, and <b>any single abnormal value is diagnostic</b>. Her fasting 5.3 exceeds 5.1, so she has GDM despite the other two being below threshold. Expecting all three to be abnormal is the trap. Management is diet and exercise first, then metformin and/or insulin.",
+   "point": "Any single value above the ADIPS thresholds diagnoses gestational diabetes.",
+   "topic": "O&G — antenatal care",
+   "type": "application",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A multiparous woman has a vaginal birth. Ten minutes after delivery of the placenta she has brisk PV bleeding of 900 mL. The uterus feels soft and boggy. BP 96/58.",
+   "lead": "What is the first action?",
+   "options": [
+    "Give tranexamic acid",
+    "Rub up the fundus and give a uterotonic",
+    "Examine for genital tract trauma",
+    "Transfuse packed red cells",
+    "Prepare for hysterectomy"
+   ],
+   "correct": 1,
+   "explanation": "A <b>soft boggy uterus</b> means <b>atony</b> — the commonest of the four Ts. <b>Rub up the fundus, empty the bladder, give oxytocin</b>, escalating through ergometrine (avoid in hypertension) and carboprost (avoid in asthma). Tranexamic acid matters and is given early, but after the immediate mechanical and uterotonic response.",
+   "point": "A soft boggy uterus after delivery indicates atony, treated first by rubbing up the fundus and giving a uterotonic.",
+   "topic": "O&G — postpartum haemorrhage",
+   "type": "application",
+   "difficulty": "easy"
+  },
+  {
+   "stem": "A 29-year-old woman has cyclical pelvic pain, deep dyspareunia and has been trying to conceive for 18 months. Transvaginal ultrasound is normal.",
+   "lead": "What is the most appropriate next investigation?",
+   "options": [
+    "Repeat ultrasound in 6 months",
+    "Laparoscopy",
+    "CA-125",
+    "MRI pelvis",
+    "Hysterosalpingogram alone"
+   ],
+   "correct": 1,
+   "explanation": "The triad of cyclical dysmenorrhoea, deep dyspareunia and subfertility suggests <b>endometriosis</b>, and <b>laparoscopy with histology is the gold standard</b> — a normal ultrasound does <b>not</b> exclude it, since superficial peritoneal disease is invisible on imaging. Note the management split: hormonal suppression helps <b>pain</b> but not <b>fertility</b>, because it prevents pregnancy while used.",
+   "point": "Laparoscopy is the gold standard for diagnosing endometriosis; a normal ultrasound does not exclude it.",
+   "topic": "O&G — gynaecology",
+   "type": "application",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A 58-year-old woman has a single episode of postmenopausal bleeding. TVUS shows an endometrial thickness of 7 mm.",
+   "lead": "What is the appropriate next step?",
+   "options": [
+    "Reassure — a single episode is not concerning",
+    "Endometrial sampling",
+    "Repeat ultrasound in 6 months",
+    "Commence hormone therapy",
+    "Cervical screening test only"
+   ],
+   "correct": 1,
+   "explanation": "<b>Postmenopausal bleeding is endometrial carcinoma until proven otherwise.</b> Thickness above 4 mm requires <b>tissue</b> — Pipelle or hysteroscopy. Endometrial cancer is the commonest gynaecological malignancy in Australia, and one episode is enough to warrant investigation.",
+   "point": "Postmenopausal bleeding with endometrial thickness above 4 mm requires endometrial sampling.",
+   "topic": "O&G — gynaecological oncology",
+   "type": "recall",
+   "difficulty": "easy"
+  },
+  {
+   "stem": "A 24-year-old woman with migraine WITH aura requests contraception. Non-smoker, normal BMI and BP.",
+   "lead": "Which method is contraindicated?",
+   "options": [
+    "Levonorgestrel IUD",
+    "Combined oral contraceptive pill",
+    "Etonogestrel implant",
+    "Copper IUD",
+    "Progestogen-only pill"
+   ],
+   "correct": 1,
+   "explanation": "<b>Migraine with aura is UKMEC 4 for combined hormonal contraception</b> — the oestrogen-associated ischaemic stroke risk makes it unacceptable. All progestogen-only and non-hormonal options listed are safe. The aura is the operative word: migraine <i>without</i> aura is UKMEC 2 under 35.",
+   "point": "Migraine with aura is an absolute contraindication to combined hormonal contraception.",
+   "topic": "O&G — contraception",
+   "type": "discrimination",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A woman is 6 hours into the active first stage. Contractions are 4 in 10 minutes, the cervix has progressed from 5 cm to 6 cm, and the head remains at station -2 in an occipito-posterior position.",
+   "lead": "Which framework best structures the assessment of this slow progress?",
+   "options": [
+    "The four Ts",
+    "The four Ps: power, passenger, passage, psyche",
+    "DR C BRAVADO",
+    "The Bishop score",
+    "APGAR"
+   ],
+   "correct": 1,
+   "explanation": "Slow progress is analysed through the <b>four Ps</b>: <b>Power</b> (contraction strength and frequency), <b>Passenger</b> (size, lie, presentation, position — here OP, which lengthens labour), <b>Passage</b>, and <b>Psyche</b>. The four Ts belong to postpartum haemorrhage, DR C BRAVADO to CTG interpretation, and Bishop to cervical favourability before induction.",
+   "point": "Slow progress in labour is assessed by the four Ps: power, passenger, passage and psyche.",
+   "topic": "O&G — labour",
+   "type": "recall",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "After delivery of the fetal head, the anterior shoulder fails to deliver with routine traction. The chin retracts against the perineum.",
+   "lead": "What is the single most effective first manoeuvre?",
+   "options": [
+    "Fundal pressure",
+    "McRoberts manoeuvre with hyperflexed hips",
+    "Immediate internal rotation",
+    "Zavanelli manoeuvre",
+    "Symphysiotomy"
+   ],
+   "correct": 1,
+   "explanation": "<b>Shoulder dystocia.</b> <b>McRoberts</b> — hyperflexion and abduction of the maternal hips — resolves a large proportion alone and is followed by suprapubic pressure. HELPERR then proceeds to internal manoeuvres, delivery of the posterior arm, and all-fours. <b>Fundal pressure is contraindicated</b>: it worsens impaction and risks uterine rupture.",
+   "point": "McRoberts is the most effective first step in shoulder dystocia; fundal pressure is contraindicated.",
+   "topic": "O&G — obstetric emergencies",
+   "type": "application",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A woman at 30 weeks has spontaneous rupture of membranes with no labour. She is afebrile with normal observations and a normal CTG.",
+   "lead": "Which intervention most improves neonatal outcome?",
+   "options": [
+    "Immediate caesarean section",
+    "Antenatal corticosteroids",
+    "Tocolysis for 7 days",
+    "Digital vaginal examination to assess the cervix",
+    "Immediate induction of labour"
+   ],
+   "correct": 1,
+   "explanation": "<b>Antenatal corticosteroids</b> reduce respiratory distress syndrome, intraventricular haemorrhage, necrotising enterocolitis and neonatal death. Add <b>erythromycin</b>, monitor for chorioamnionitis, and give <b>magnesium sulfate for fetal neuroprotection</b> if delivery is expected before 30-32 weeks. <b>Avoid digital examination</b> in PPROM — it introduces infection without adding useful information.",
+   "point": "Antenatal corticosteroids are the highest-value intervention in preterm prelabour rupture of membranes before 34 weeks.",
+   "topic": "O&G — preterm labour",
+   "type": "application",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A 33-year-old woman has irregular cycles, hirsutism and BMI 34. Testosterone is mildly elevated. Ultrasound shows 24 follicles in one ovary. TSH, prolactin and 17-hydroxyprogesterone are normal.",
+   "lead": "What is first-line for her anovulatory infertility?",
+   "options": [
+    "Clomiphene citrate",
+    "Letrozole",
+    "Metformin alone",
+    "IVF",
+    "Gonadotrophin injections"
+   ],
+   "correct": 1,
+   "explanation": "She meets Rotterdam criteria for <b>PCOS</b> with other causes excluded. <b>Weight loss and lifestyle come first</b> — even 5-10% improves ovulation — and for ovulation induction <b>letrozole is now first-line</b>, with higher live birth rates than clomiphene. Metformin addresses metabolic features but is not first-line for ovulation. Ensure endometrial protection, since chronic anovulation risks hyperplasia.",
+   "point": "Letrozole is first-line for ovulation induction in PCOS, superior to clomiphene.",
+   "topic": "O&G — gynaecology",
+   "type": "discrimination",
+   "difficulty": "hard"
+  },
+  {
+   "stem": "A woman with a previous caesarean is being induced at 41 weeks. Two hours into a prostaglandin induction she develops constant abdominal pain, PV bleeding, and a prolonged fetal bradycardia. The presenting part is no longer palpable vaginally.",
+   "lead": "What is the most likely diagnosis?",
+   "options": [
+    "Placental abruption",
+    "Uterine rupture",
+    "Cord prolapse",
+    "Vasa praevia",
+    "Uterine hyperstimulation alone"
+   ],
+   "correct": 1,
+   "explanation": "<b>Uterine rupture</b> — a <b>previous caesarean scar</b>, prostaglandin induction, constant pain, bleeding, fetal bradycardia and <b>loss of the presenting part</b> (the fetus has moved into the abdomen) is characteristic. Immediate laparotomy. Prostaglandins carry increased rupture risk after caesarean, which is why induction in these women is undertaken cautiously.",
+   "point": "Loss of the presenting part with pain, bleeding and fetal bradycardia after a previous caesarean indicates uterine rupture.",
+   "topic": "O&G — obstetric emergencies",
+   "type": "discrimination",
+   "difficulty": "hard"
+  },
+  {
+   "stem": "A woman is 5 days postpartum after a prolonged labour and emergency caesarean. Temperature 38.8°C, offensive lochia, lower abdominal tenderness. HR 118, BP 92/60.",
+   "lead": "What is the immediate priority?",
+   "options": [
+    "Oral antibiotics and review in 24 hours",
+    "Blood cultures, IV broad-spectrum antibiotics within an hour, and fluid resuscitation",
+    "Ultrasound to exclude retained products before treating",
+    "Analgesia and observation",
+    "Wound swab and await results"
+   ],
+   "correct": 1,
+   "explanation": "<b>Maternal sepsis</b>, a leading cause of direct maternal death. Cultures, <b>IV antibiotics within one hour</b>, fluids, lactate, source control. The physiological changes of pregnancy and the puerperium <b>mask deterioration</b> — a young woman compensates until she suddenly does not, so tachycardia with a borderline BP is a late and ominous sign. Imaging follows resuscitation.",
+   "point": "Maternal sepsis requires IV antibiotics within one hour; pregnancy physiology masks deterioration until late.",
+   "topic": "O&G — postnatal",
+   "type": "application",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A 62-year-old woman has abdominal bloating, early satiety and weight loss over 4 months. CA-125 is 380 U/mL (normal <35). CT shows a complex pelvic mass and omental thickening.",
+   "lead": "Which statement is correct?",
+   "options": [
+    "A raised CA-125 is specific for ovarian malignancy",
+    "There is an effective national screening program for this cancer",
+    "It typically presents late with vague symptoms, which is why mortality is high",
+    "Elevated CA-125 excludes endometriosis",
+    "Surgery alone is curative in most cases"
+   ],
+   "correct": 2,
+   "explanation": "<b>Ovarian cancer presents late with vague symptoms</b> — bloating, early satiety, urinary urgency — which is why mortality is high, and why persistent vague abdominal symptoms in a postmenopausal woman warrant investigation. <b>CA-125 is not specific</b>: it rises in endometriosis, fibroids, PID and pregnancy. <b>There is no effective population screening program.</b> Treatment is cytoreductive surgery plus platinum chemotherapy.",
+   "point": "Ovarian cancer presents late with vague symptoms and has no effective population screening; CA-125 is not specific.",
+   "topic": "O&G — gynaecological oncology",
+   "type": "discrimination",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A woman at 12 weeks has hyperemesis with 6% weight loss, ketonuria and hypokalaemia. She is admitted for IV fluids.",
+   "lead": "Which additional treatment must not be omitted?",
+   "options": [
+    "Thiamine",
+    "Vitamin D",
+    "Folic acid 5 mg",
+    "Iron infusion",
+    "Calcium supplementation"
+   ],
+   "correct": 0,
+   "explanation": "<b>Thiamine</b> — prolonged vomiting depletes it, and giving glucose-containing fluids without it can precipitate <b>Wernicke's encephalopathy</b>. Also replace potassium, give antiemetics, and consider thromboprophylaxis. Scan to exclude the high-hCG states associated with hyperemesis: <b>molar and multiple pregnancy</b>.",
+   "point": "Thiamine must be given in hyperemesis before or with glucose-containing fluids to prevent Wernicke's encephalopathy.",
+   "topic": "O&G — early pregnancy",
+   "type": "recall",
+   "difficulty": "hard"
+  },
+  {
+   "stem": "A woman requests emergency contraception 3 days after unprotected intercourse. BMI 34, and she wants ongoing contraception.",
+   "lead": "Which option is most effective?",
+   "options": [
+    "Levonorgestrel 1.5 mg",
+    "Ulipristal acetate",
+    "Copper IUD",
+    "Combined oral contraceptive started immediately",
+    "Levonorgestrel IUD"
+   ],
+   "correct": 2,
+   "explanation": "The <b>copper IUD is the most effective emergency contraception</b>, usable up to 5 days, and it provides ongoing contraception — which she wants. Its efficacy is <b>unaffected by BMI</b>, whereas levonorgestrel becomes less effective as weight rises. Ulipristal beats levonorgestrel orally but still falls short of the copper IUD. The reflex oral answer is the trap.",
+   "point": "The copper IUD is the most effective emergency contraception, works up to 5 days, and is unaffected by BMI.",
+   "topic": "O&G — contraception",
+   "type": "application",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A CTG in labour shows a baseline of 140 bpm, variability of 4 bpm for the past 60 minutes, no accelerations, and decelerations beginning after the peak of each contraction with slow recovery.",
+   "lead": "How should this be interpreted?",
+   "options": [
+    "Normal CTG",
+    "Early decelerations from head compression — reassuring",
+    "Late decelerations with reduced variability — uteroplacental insufficiency",
+    "Variable decelerations from cord compression — reposition and observe",
+    "Sinusoidal pattern — fetal anaemia"
+   ],
+   "correct": 2,
+   "explanation": "Decelerations that <b>begin after the contraction peak with slow recovery are LATE</b>, indicating <b>uteroplacental insufficiency</b>. Combined with <b>reduced variability (<5 bpm for over 50 minutes)</b> and absent accelerations, this is pathological: reposition, stop oxytocin, give fluids, consider expedited delivery. Early decelerations mirror the contraction; variable ones are abrupt and unrelated to its shape.",
+   "point": "Late decelerations begin after the contraction peak and indicate uteroplacental insufficiency.",
+   "topic": "O&G — labour",
+   "type": "discrimination",
+   "difficulty": "hard"
+  }
+ ]
+}
