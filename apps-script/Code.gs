@@ -268,7 +268,7 @@ function doGet(e) {
   try {
     if (p.action === 'whoami')      return json({ user: user, signInConfigured: !!(props().getProperty('GOOGLE_CLIENT_ID') || GOOGLE_CLIENT_ID) });
     if (p.action === 'listQuizzes') return json({ quizzes: listQuizzes() });
-    if (p.action === 'listRevision') return json({ modules: listRevision() });
+    if (p.action === 'listRevision') return json({ modules: listRevision(user.id) });
     if (p.action === 'getQuiz')     return json(JSON.parse(readById(p.id)));
     if (p.action === 'status')      return json(bufferStatus(user.id));
     if (p.action === 'queue')       return json(readQueue());
@@ -605,7 +605,8 @@ function saveRevision(body) {
                       { title: mod.title, system: mod.system,
                         objectives: String(m.objectives.length),
                         questions: String(m.questions.length),
-                        source: body.source || 'make-now' });
+                        source: body.source || 'make-now',
+                        forUser: String(body.forUser || OWNER_ID) });
   // `count` and `kind` are here so the scheduler can log a revision result the
   // same way it logs a quiz — it reads made.count regardless of which it made.
   return { ok: true, id: id, title: mod.title, system: mod.system,
@@ -613,19 +614,32 @@ function saveRevision(body) {
            count: m.questions.length, kind: 'revision' };
 }
 
-function listRevision() {
+/**
+ * Revision modules are private to the person they were built for.
+ *
+ * Unlike a topic quiz, a module is generated FROM the requester's tracker — the
+ * rationale names their weak areas and quotes their scores — so it is personal
+ * data rather than subject matter. Filtered here rather than only in the page,
+ * because hiding something client-side is not the same as not sending it.
+ * Modules with no owner recorded predate the field and belong to the owner.
+ */
+function listRevision(uid) {
+  const who = uid || OWNER_ID;
   const q = encodeURIComponent(`'${revisionFolderId()}' in parents and trashed = false`);
   const fields = encodeURIComponent('files(id,name,createdTime,appProperties)');
   const order = encodeURIComponent('createdTime desc');
   const out = JSON.parse(api(
     `https://www.googleapis.com/drive/v3/files?q=${q}&fields=${fields}&orderBy=${order}`));
-  return (out.files || []).map(function (f) {
+  return (out.files || []).filter(function (f) {
+    const owner = (f.appProperties || {}).forUser || OWNER_ID;
+    return owner === who;
+  }).map(function (f) {
     const ap = f.appProperties || {};
     return { id: f.id, name: f.name,
              title: ap.title || f.name.replace(/-\d{4}-\d{2}-\d{2}-\d{4}\.json$/, ''),
              system: ap.system || '', objectives: Number(ap.objectives || 0),
              questions: Number(ap.questions || 0), created: f.createdTime,
-             source: ap.source || '' };
+             source: ap.source || '', for: ap.forUser || OWNER_ID };
   });
 }
 
@@ -1047,6 +1061,7 @@ function generateModule(key, body, uid) {
   teach.questions = qs;
   teach.system = teach.system || system;
   teach.source = 'make-now';
+  teach.forUser = body.forUser || uid || OWNER_ID;
   return saveRevision(teach);
 }
 
