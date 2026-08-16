@@ -17,7 +17,6 @@
      Urbanist + IBM Plex Mono. Light by default; dark follows the
      system setting on the same palette.
      ============================================================ */
-  @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500;600;700&display=swap');
 
   :root{
     --ink:#352B38;
@@ -61,7 +60,7 @@
 
     --sans:'Urbanist',system-ui,sans-serif;
     --mono:'IBM Plex Mono',ui-monospace,monospace;
-    --serif:'Urbanist',system-ui,sans-serif;
+    --serif:'Newsreader',Georgia,'Times New Roman',serif;
   }
 
   @media (prefers-color-scheme:dark){
@@ -141,7 +140,10 @@
   body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);
        font-size:16px;line-height:1.55;-webkit-font-smoothing:antialiased;
        -webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%}
-  .wrap{max-width:960px;margin:0 auto;
+  /* Finding 15: 960px was being used as a tall phone screen, leaving ~600px of
+     nothing between an assay row's name and its bar. Below 1100px the measure
+     is deliberately phone-shaped; above it, the width is actually used. */
+  .wrap{max-width:820px;margin:0 auto;
         padding:0 calc(18px + env(safe-area-inset-left)) calc(76px + env(safe-area-inset-bottom))
                   calc(18px + env(safe-area-inset-right))}
   a{color:var(--ink)}
@@ -150,19 +152,42 @@
   /* ---- masthead ---- */
   header{border-bottom:0;padding:calc(24px + env(safe-area-inset-top)) 0 6px;margin-bottom:0}
   .masthead{display:flex;justify-content:space-between;align-items:flex-end;gap:18px;flex-wrap:wrap}
+  .mast-main{min-width:0}
+  /* The title is a running head, not the headline. It repeats on every tab and
+     tells you nothing you did not already know. */
+  .runhead{font-family:var(--mono);font-size:12px;letter-spacing:.13em;text-transform:uppercase;
+    color:var(--ink-3);margin:0 0 10px}
   h1{font-family:var(--sans);font-weight:600;font-size:34px;letter-spacing:-.025em;margin:0;line-height:1.05}
-  .sub{font-family:var(--mono);font-size:11px;letter-spacing:.13em;text-transform:uppercase;
-       color:var(--ink-3);margin-top:7px}
-  .countdown{flex-shrink:0;text-align:right;font-family:var(--sans);
-    background:var(--lav);border:1px solid transparent;border-radius:16px;
-    padding:11px 18px 12px;box-shadow:var(--shadow)}
-  .countdown .n{font-size:36px;font-weight:600;line-height:1.05;letter-spacing:-.04em;display:block;
-    font-variant-numeric:tabular-nums;color:var(--ink)}
-  .countdown .l{font-family:var(--mono);font-size:9px;letter-spacing:.13em;text-transform:uppercase;
-    color:var(--ink);opacity:.6}
 
-  .sync{font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;
-        color:var(--untested);margin-top:14px;display:inline-flex;align-items:center;gap:7px}
+  /* The two numbers the site is actually opened for get the top line. */
+  .headline{display:flex;align-items:baseline;gap:20px;flex-wrap:wrap}
+  .hl-fig{display:flex;align-items:baseline;gap:9px}
+  .hl-n{font-family:var(--sans);font-size:44px;font-weight:600;line-height:1;
+    letter-spacing:-.04em;font-variant-numeric:tabular-nums;color:var(--ink)}
+  .hl-u{font-family:var(--sans);font-size:15px;color:var(--ink-2)}
+  .hl-sep{width:1px;align-self:stretch;background:var(--rule);margin:4px 0}
+  @media (max-width:420px){ .hl-n{font-size:36px} }
+
+  .head-actions{flex-shrink:0;display:flex;gap:8px;align-items:center}
+
+  /* A blocking state gets stated, not whispered. Removed entirely once
+     connected — a green dot is a reward for a state that should be invisible. */
+  .conn-banner{display:flex;align-items:center;gap:14px;flex-wrap:wrap;
+    margin-top:16px;padding:13px 16px;border-radius:var(--r-ctl);
+    background:var(--bord-wash);border:1px solid var(--border-flag);
+    font-size:15px;color:var(--ink)}
+  .conn-banner .act{min-height:44px;padding:0 16px;flex-shrink:0}
+  .who-via{font-size:13px;color:var(--ink-3);margin-left:8px}
+  /* input[type=search] draws a browser clear button in WebKit, which lands
+     beside the one the page already draws — two × side by side, in different
+     styles. Shared here so the notes page inherits the fix. */
+  input[type=search]::-webkit-search-cancel-button,
+  input[type=search]::-webkit-search-decoration{-webkit-appearance:none;appearance:none}
+  .who-via.warn{color:var(--border-flag)}
+  #gsiBtn:empty{display:none}
+
+  .sync{font-family:var(--sans);font-size:13px;
+        color:var(--ink-2);margin-top:14px;display:inline-flex;align-items:center;gap:7px}
   .sync::before{content:'';width:6px;height:6px;border-radius:50%;background:currentColor;flex:none}
   .sync.ok{color:var(--inrange)} .sync.warn{color:var(--border-flag)}
 
@@ -172,6 +197,14 @@
       background:var(--panel);border:1px solid var(--rule);border-radius:16px;padding:5px;
       box-shadow:var(--shadow)}
   nav::-webkit-scrollbar{display:none}
+  /* The mask is applied to the rail itself rather than an overlay, so it works
+     on any background and in both themes without a hard-coded colour. */
+  nav.fade-r{-webkit-mask-image:linear-gradient(to right,#000 calc(100% - 34px),transparent 100%);
+             mask-image:linear-gradient(to right,#000 calc(100% - 34px),transparent 100%)}
+  nav.fade-l{-webkit-mask-image:linear-gradient(to right,transparent 0,#000 34px);
+             mask-image:linear-gradient(to right,transparent 0,#000 34px)}
+  nav.fade-l.fade-r{-webkit-mask-image:linear-gradient(to right,transparent 0,#000 34px,#000 calc(100% - 34px),transparent 100%);
+                    mask-image:linear-gradient(to right,transparent 0,#000 34px,#000 calc(100% - 34px),transparent 100%)}
   nav button{appearance:none;background:none;border:0;border-radius:12px;
     font-family:var(--sans);font-size:13px;font-weight:600;letter-spacing:.01em;
     color:var(--ink-2);padding:0 17px;min-height:44px;cursor:pointer;white-space:nowrap;margin-bottom:0;
@@ -182,14 +215,24 @@
 
   /* ---- signature: reference-range bars ---- */
   .assay{border-bottom:1px solid var(--rule-2);padding:15px 0;display:grid;
-         grid-template-columns:1fr 142px 62px;gap:14px;align-items:center}
+         grid-template-columns:1fr 118px 96px;gap:14px;align-items:center}
+  /* On a phone the bar column collapses to ~74px, which is too short to read a
+     position off and too wide to spare — the name was wrapping to three lines
+     beside it. Below 520px the bar is dropped and the value carries the row,
+     which is what the number beside the marker was added for. */
+  @media (max-width:520px){
+    .assay{grid-template-columns:1fr auto !important;gap:10px}
+    .assay .range{display:none}
+    .flag{white-space:nowrap}
+    .flag .flag-n{display:inline;margin-right:7px}
+  }
   .assay:last-child{border-bottom:0}
   .assay-name{font-weight:500;letter-spacing:-.005em}
   .pri-badge{display:inline-flex;align-items:center;justify-content:center;
     width:19px;height:19px;border-radius:50%;background:var(--ink);color:var(--paper);
-    font-family:var(--mono);font-size:9px;font-weight:600;margin-right:8px;
+    font-family:var(--mono);font-size:13px;font-weight:600;margin-right:8px;
     position:relative;top:-1px}
-  .assay-meta{font-family:var(--mono);font-size:11px;color:var(--ink-3);margin-top:3px}
+  .assay-meta{font-family:var(--sans);font-size:13px;color:var(--ink-3);margin-top:3px}
 
   .range{position:relative;height:24px}
   .range-track{position:absolute;top:9px;left:0;right:0;height:6px;background:var(--rule);border-radius:999px}
@@ -197,18 +240,30 @@
               left:60%;right:0;border-radius:999px}
   .tick{position:absolute;top:2px;width:3px;height:20px;background:var(--ink);border-radius:999px;
         box-shadow:0 0 0 2.5px var(--panel)}
-  .flag{font-family:var(--mono);font-size:9.5px;letter-spacing:.07em;text-transform:uppercase;
-        text-align:right;font-weight:600}
+  .flag{font-family:var(--sans);font-size:13px;
+        text-align:right;font-weight:600;line-height:1.25}
+  /* The numeric value sits beside the marker so the chart is legible without
+     decoding the marker's position against the track. */
+  .flag-n{display:block;font-variant-numeric:tabular-nums;color:var(--ink);font-size:15px}
+  /* An untested row keeps the column's rhythm without drawing a result. */
+  .range-empty{border-bottom:1px dashed var(--rule);height:1px;align-self:center;opacity:.55}
+  .assay-untested .assay-name{font-weight:400}
+  /* Declared with a compound selector so it beats .fold, which is defined
+     later in the sheet at equal specificity. Rows 6+ must line up with 1-5. */
+  details.fold.assay-rest{border:0;margin:0;padding:0;background:none}
+  details.fold.assay-rest>summary{padding:14px 0 0;min-height:44px;display:flex;align-items:center}
+  .fold>summary{min-height:44px;display:flex;align-items:center}
+  details.fold.assay-rest .assay:first-child{border-top:1px solid var(--rule-2)}
   .f-low{color:var(--low)} .f-bord{color:var(--border-flag)}
   .f-in{color:var(--inrange)} .f-un{color:var(--untested)}
 
   /* quiz bank performance bars — the red ground showing through IS the miss */
   .qbar{height:10px;background:var(--low);margin-top:12px;border-radius:999px;overflow:hidden}
   .qbar-fill{height:10px;background:var(--in);border-radius:999px;transition:width .3s}
-  .qbar-meta{display:flex;justify-content:space-between;font-family:var(--mono);
-             font-size:10px;letter-spacing:.04em;color:var(--ink-3);margin-top:6px}
-  .qbar-none{font-family:var(--mono);font-size:10px;letter-spacing:.08em;
-             text-transform:uppercase;color:var(--un);margin-top:12px}
+  .qbar-meta{display:flex;justify-content:space-between;font-family:var(--sans);
+             font-size:13px;color:var(--ink-3);margin-top:6px}
+  .qbar-none{font-family:var(--sans);font-size:13px;
+             color:var(--un);margin-top:12px}
 
   /* ---- revision module ---- */
   .rev-obj{margin:8px 0 0;padding-left:20px;font-size:14.5px;line-height:1.55}
@@ -218,16 +273,16 @@
   .rev-body ul,.rev-body ol{margin:10px 0;padding-left:20px}
   .rev-body li{margin-bottom:5px}
   .rev-table{width:100%;border-collapse:collapse;margin:12px 0;font-size:13.5px}
-  .rev-table th{text-align:left;font-family:var(--mono);font-size:10px;letter-spacing:.08em;
+  .rev-table th{text-align:left;font-family:var(--mono);font-size:12px;letter-spacing:.08em;
     text-transform:uppercase;color:var(--ink-2);border-bottom:1px solid var(--rule);padding:7px 8px}
   .rev-table td{padding:7px 8px;border-bottom:1px solid var(--rule);vertical-align:top}
   .rev-note{margin-top:12px;padding:10px 13px;background:var(--paper);
     border-left:2px solid var(--in);font-size:13.5px;line-height:1.5;font-style:italic}
-  .rev-link{display:inline-block;margin-top:12px;font-family:var(--mono);font-size:11px;
+  .rev-link{display:inline-block;margin-top:12px;font-family:var(--mono);font-size:13px;
     letter-spacing:.05em;color:var(--ink-2);text-decoration:none;border-bottom:1px solid var(--rule);
     padding-bottom:2px}
   .rev-link:hover{color:var(--ink);border-bottom-color:var(--ink)}
-  .diff{font-family:var(--mono);font-size:9px;letter-spacing:.1em;text-transform:uppercase;
+  .diff{font-family:var(--sans);font-size:13px;
     padding:2px 7px;border-radius:2px;font-weight:600}
   .diff-easy{background:#E6F2EC;color:var(--in)}
   .diff-medium{background:#FBF0DC;color:var(--bord)}
@@ -236,9 +291,9 @@
   /* ---- quiz player ---- */
   .prog-track{height:6px;background:var(--rule);border-radius:999px;position:relative;margin-top:4px}
   .prog-fill{height:6px;background:var(--ink);border-radius:999px;transition:width .2s}
-  .prog-text{font-family:var(--mono);font-size:11px;color:var(--ink-2);margin-top:8px;
+  .prog-text{font-family:var(--sans);font-size:13px;color:var(--ink-2);margin-top:8px;
              display:flex;justify-content:space-between}
-  .qcard .q-n{font-family:var(--mono);font-size:11px;letter-spacing:.08em;color:var(--ink-3);
+  .qcard .q-n{font-family:var(--mono);font-size:12px;letter-spacing:.08em;color:var(--ink-3);
        margin-bottom:10px;display:flex;justify-content:space-between}
   .q-stem{font-size:17px;line-height:1.5;margin-bottom:16px}
   .opt{display:flex;align-items:flex-start;gap:12px;padding:13px 15px;
@@ -251,7 +306,7 @@
   .opt.correct{border-color:var(--in);background:var(--in-wash)}
   .opt.wrong{border-color:var(--low);background:var(--low-wash)}
   .opt-label{font-size:16px;line-height:1.45}
-  .mark{font-family:var(--mono);font-size:11px;font-weight:600;margin-left:auto;flex-shrink:0}
+  .mark{font-family:var(--mono);font-size:13px;font-weight:600;margin-left:auto;flex-shrink:0}
   .mark.correct{color:var(--in)} .mark.wrong{color:var(--low)}
   .expl{display:none;margin-top:14px;padding:15px 17px;background:var(--panel-2);
         border-left:3px solid var(--ink);border-radius:0 var(--r-ctl) var(--r-ctl) 0;
@@ -263,7 +318,7 @@
     border-radius:var(--r-card);box-shadow:var(--shadow-lift)}
   .results .score{font-family:var(--sans);font-size:52px;font-weight:600;line-height:1;
     letter-spacing:-.04em}
-  .results .sub{font-family:var(--mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;
+  .results .sub{font-family:var(--mono);font-size:12px;letter-spacing:.12em;text-transform:uppercase;
                 opacity:.6;margin-top:6px;color:inherit}
   .breakdown{margin-top:18px;font-size:14px}
   .breakdown div{display:flex;justify-content:space-between;padding:7px 0;
@@ -272,31 +327,38 @@
   /* ---- summary ---- */
   .summary{background:var(--panel);border:1px solid var(--rule);border-radius:var(--r-card);
     padding:22px 24px;margin-bottom:14px;box-shadow:var(--shadow)}
-  .summary h3{font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;
+  .summary h3{font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;
     color:var(--ink-3);margin:0 0 12px;font-weight:600}
   .summary p{font-family:var(--sans);font-size:18px;font-weight:400;line-height:1.5;margin:0 0 18px;
     letter-spacing:-.01em;text-wrap:pretty}
   .summary .lists{display:grid;grid-template-columns:1fr 1fr;gap:18px}
-  .summary .lists h4{font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;
+  .summary .lists h4{font-family:var(--mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase;
     margin:0 0 8px;font-weight:600}
   .summary .lists h4.s{color:var(--in)} .summary .lists h4.w{color:var(--low)}
   .summary .lists ul{margin:0;padding-left:16px;font-size:14.5px;line-height:1.55}
   .summary .lists li{margin-bottom:5px}
-  .summary .lists .none{font-family:var(--mono);font-size:11px;color:var(--un)}
+  .summary .lists .none{font-family:var(--mono);font-size:13px;color:var(--un)}
   @media (max-width:520px){.summary .lists{grid-template-columns:1fr;gap:14px}}
 
   /* ---- the one thing to do next ---- */
   .top-pri{background:var(--ink);color:var(--paper);padding:19px 22px;margin-bottom:14px;
            border-radius:var(--r-card);display:flex;flex-direction:column;gap:3px;
            box-shadow:var(--shadow-lift)}
-  .top-pri .tp-label{font-family:var(--mono);font-size:10px;letter-spacing:.13em;
+  .top-pri .tp-label{font-family:var(--mono);font-size:13px;letter-spacing:.13em;
     text-transform:uppercase;opacity:.6}
   .top-pri .tp-name{font-family:var(--sans);font-size:23px;font-weight:600;line-height:1.2;
     letter-spacing:-.02em}
-  .top-pri .tp-why{font-family:var(--mono);font-size:11px;opacity:.75}
+  .top-pri .tp-why{font-family:var(--sans);font-size:14px;opacity:.78}
+  /* The action belongs on the card that names the problem. Inverted against the
+     dark surface so it reads as the primary control on the page. */
+  .top-pri .tp-go{margin-top:15px;background:var(--paper);color:var(--ink);
+    border-color:transparent;align-self:flex-start;max-width:100%}
+  .top-pri .tp-go:hover{background:var(--panel-2)}
+  .strengths{font-size:14.5px;color:var(--ink-2);margin-top:12px}
+  .strengths .s-lab{color:var(--ink-3)}
 
   /* ---- topic include / exclude ---- */
-  .excl-h{font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;
+  .excl-h{font-family:var(--mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase;
           color:var(--ink-3);margin:18px 0 9px;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
   /* select-all control that sits in the header, outside the grid */
   .sel-all{margin-left:auto;display:flex;align-items:center;gap:9px;cursor:pointer;
@@ -312,6 +374,42 @@
   #exclAllBox:checked::after{border-color:#fff}
   #exclAllBox:indeterminate::after{background:#fff;border-color:#fff}
   .excl-count{color:var(--ink);font-weight:600}
+
+  /* ---- quiz bank rows: one line, primary action inline, destructive behind
+     an overflow. The old three-line block put Delete the same size as Start,
+     immediately beside it, fifteen times over. ---- */
+  .qgroup{margin:14px 0 18px}
+  .qgroup:last-child{margin-bottom:0}
+  .qgroup-h{font-family:var(--mono);font-size:12px;letter-spacing:.12em;
+    text-transform:uppercase;color:var(--ink-3);padding-bottom:8px;
+    border-bottom:1px solid var(--rule-2);margin-bottom:2px}
+  .qgroup-h span{color:var(--ink-2);margin-left:4px}
+  .qrow{display:flex;align-items:center;gap:12px;padding:11px 0;
+    border-bottom:1px solid var(--rule-2)}
+  .qrow:last-child{border-bottom:0}
+  .qrow-main{min-width:0;flex:1}
+  .qrow-t{font-weight:600;letter-spacing:-.01em;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .qrow-m{font-size:13px;color:var(--ink-2);margin-top:2px}
+  button.act.qrow-go{flex-shrink:0;min-height:44px;padding:0 18px}
+  .qrow-more>summary{min-height:44px}
+  .qrow-more{position:relative;flex-shrink:0}
+  .qrow-more>summary{list-style:none;cursor:pointer;width:40px;height:40px;
+    display:flex;align-items:center;justify-content:center;border-radius:var(--r-ctl);
+    color:var(--ink-2);font-size:19px;line-height:1}
+  .qrow-more>summary::-webkit-details-marker{display:none}
+  .qrow-more>summary:hover{background:var(--panel-2);color:var(--ink)}
+  .qrow-menu{position:absolute;right:0;top:44px;z-index:20;background:var(--panel);
+    border:1px solid var(--rule);border-radius:var(--r-ctl);box-shadow:var(--shadow-lift);
+    padding:6px;display:flex;flex-direction:column;gap:4px;min-width:132px}
+  .qrow-menu .mini{width:100%;justify-content:flex-start}
+  @media (max-width:480px){
+    .qrow-t{white-space:normal}
+    button.act.qrow-go{padding:0 14px}
+  }
+  button.mini.excl-all{margin-left:8px;min-height:44px;padding:0 14px;font-size:13px}
+  /* Excluded reads as dimmed rather than as a second list. */
+  .excl-row.off label{color:var(--ink-3);text-decoration:line-through;
+    text-decoration-color:var(--rule)}
   .excl-grid{display:grid;grid-template-columns:1fr 1fr;gap:2px 16px;
              max-height:240px;overflow-y:auto;-webkit-overflow-scrolling:touch;
              border:1px solid var(--rule);border-radius:var(--r-ctl);
@@ -323,41 +421,50 @@
   /* ---- panels & type ---- */
   .panel{background:var(--panel);border:1px solid var(--rule);border-radius:var(--r-card);
     padding:22px 24px;margin-bottom:14px;box-shadow:var(--shadow)}
-  .panel-h{font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;
+  .panel-h{font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;
     color:var(--ink-3);padding-bottom:12px;margin-bottom:8px;border-bottom:1px solid var(--rule-2)}
 
   .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(132px,1fr));gap:10px;
          background:none;border:0;margin-bottom:14px}
-  .stat{background:var(--tint-1);border-radius:18px;padding:18px 20px 20px;
+  /* Tinted by MEANING, not by position. Each card carries the wash of the flag
+     it counts, so the colour says the same thing here as it does in the assay,
+     the tags and the bars. These washes are defined per theme, so they stay
+     distinguishable in dark mode instead of collapsing to four purples. */
+  .stat{background:var(--panel-2);border-radius:18px;padding:18px 20px 20px;
         border:1px solid var(--stat-border)}
-  .stat:nth-child(4n+2){background:var(--tint-2)}
-  .stat:nth-child(4n+3){background:var(--tint-3)}
-  .stat:nth-child(4n+4){background:var(--tint-4)}
+  .stat.s-flag{background:var(--bord-wash);border-color:var(--border-flag)}
+  .stat.s-low{background:var(--low-wash);border-color:var(--low)}
+  .stat.s-un{background:var(--panel-2);border-color:var(--rule)}
+  .stat.s-in{background:var(--in-wash);border-color:var(--inrange)}
+  .stat.s-flag .n{color:var(--border-flag)}
+  .stat.s-low  .n{color:var(--low)}
+  .stat.s-un   .n{color:var(--untested)}
+  .stat.s-in   .n{color:var(--inrange)}
   .stat .n{font-family:var(--sans);font-size:40px;font-weight:600;letter-spacing:-.045em;
     display:block;line-height:1;font-variant-numeric:tabular-nums;color:var(--ink)}
-  .stat .l{font-family:var(--mono);font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;
-           color:var(--ink);opacity:.72;margin-top:9px}
+  .stat .l{font-family:var(--sans);font-size:13px;
+           color:var(--ink);margin-top:9px;color:var(--ink-2)}
 
   /* ---- list rows ---- */
   .item{border-bottom:1px solid var(--rule-2);padding:14px 0}
   .item:last-child{border-bottom:0}
   .item-top{display:flex;justify-content:space-between;gap:12px;align-items:baseline}
   .item-t{font-weight:600;letter-spacing:-.01em}
-  .sys{font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3)}
+  .sys{font-family:var(--sans);font-size:13px;color:var(--ink-3)}
   .item-d{font-size:15px;color:var(--ink-2);margin-top:5px}
-  .tag{font-family:var(--mono);font-size:9.5px;letter-spacing:.06em;text-transform:uppercase;
+  .tag{font-family:var(--sans);font-size:13px;
        border:1px solid var(--rule);border-radius:999px;padding:4px 11px;color:var(--ink-2);white-space:nowrap}
   .tag.recall{border-color:var(--low);color:var(--low);background:var(--low-wash)}
   .tag.disc{border-color:var(--border-flag);color:var(--border-flag);background:var(--bord-wash)}
   .tag.app{border-color:var(--rule);color:var(--ink-2);background:var(--panel-2)}
-  .attempts{font-family:var(--mono);font-size:11px;color:var(--ink-3)}
+  .attempts{font-family:var(--sans);font-size:13px;color:var(--ink-3)}
 
   .note{font-size:14px;color:var(--ink-2);font-style:normal;font-family:var(--sans);
         border-left:2px solid var(--rule);padding-left:14px;margin:16px 0 0;text-wrap:pretty}
   select.narrow{width:auto;min-width:0;flex:0 0 auto}
   .fold{border:1px solid var(--rule);border-radius:var(--r-ctl);background:var(--panel);
     padding:12px 16px;margin-bottom:18px}
-  .fold>summary{font-family:var(--mono);font-size:10px;letter-spacing:.14em;
+  .fold>summary{font-family:var(--mono);font-size:12px;letter-spacing:.14em;
     text-transform:uppercase;color:var(--ink-2);cursor:pointer;list-style:none}
   .fold>summary::-webkit-details-marker{display:none}
   .fold>summary::before{content:'+ ';font-weight:700}
@@ -365,9 +472,11 @@
   .pts{margin:9px 0 0;padding-left:17px}
   .pts li{font-size:14px;line-height:1.45;color:var(--ink);margin-bottom:5px}
   .pts li .chose{color:var(--ink-2);font-size:13px}
-  .pts-none{font-family:var(--mono);font-size:11px;color:var(--untested);margin-top:8px}
-  .diff{font-family:var(--mono);font-size:9px;letter-spacing:.1em;text-transform:uppercase;
-    padding:2px 6px;border-radius:3px;margin-left:7px;font-weight:700}
+  .pts-none{font-family:var(--sans);font-size:13px;color:var(--untested);margin-top:8px}
+  /* The difficulty chip's box and palette. Typography lives on the earlier
+     .diff rule; this used to redeclare font-family/transform and quietly undo
+     the sentence-case change. */
+  .diff{padding:2px 7px;border-radius:4px;margin-left:7px;font-weight:600}
   .diff-easy{background:rgba(90,160,110,.16);color:#4b8a5f}
   .diff-medium{background:rgba(190,150,70,.16);color:#9a7a34}
   .diff-hard{background:rgba(190,90,90,.16);color:#a35555}
@@ -408,8 +517,6 @@
   input[type=checkbox]:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
 
   /* excluded list reads as removal, so its ticks are red rather than ink */
-  #exclGrid input[type=checkbox]:checked{background:var(--low);border-color:var(--low)}
-  #exclGrid input[type=checkbox]:checked::after{border-color:#fff}
 
   button.act{font-family:var(--sans);font-size:14px;font-weight:600;letter-spacing:0;
     background:var(--ink);color:var(--paper);border:1px solid var(--ink);padding:13px 22px;
@@ -421,7 +528,7 @@
     background:var(--panel-2);border:1px solid var(--rule);color:var(--ink-2);padding:11px 18px;
     border-radius:var(--r-ctl);cursor:pointer;min-height:44px}
   button.mini:hover{border-color:var(--ink);color:var(--ink)}
-  .saved{font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;
+  .saved{font-family:var(--sans);font-size:13px;
          color:var(--inrange);opacity:0;transition:opacity .25s}
   .saved.on{opacity:1}
 
@@ -433,21 +540,21 @@
   .drop.over{border-style:solid}
   .drop-t{font-family:var(--sans);font-size:15px;font-weight:600;letter-spacing:-.01em;color:var(--ink)}
   .drop-s{font-size:14px;color:var(--ink-2);margin-top:7px;text-wrap:pretty}
-  .drop-r{font-family:var(--mono);font-size:11px;margin-top:10px}
+  .drop-r{font-family:var(--sans);font-size:13px;margin-top:10px}
   .drop-r.ok{color:var(--inrange)} .drop-r.err{color:var(--low)}
   .drop-r.busy{color:var(--ink-2)}
 
   /* ---- eMedici import queue ---- */
   .q{border:1px solid var(--rule);background:var(--panel);padding:19px 21px;margin-bottom:10px;
      border-radius:var(--r-card);box-shadow:var(--shadow)}
-  .q-n{font-family:var(--mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;
+  .q-n{font-family:var(--mono);font-size:12px;letter-spacing:.12em;text-transform:uppercase;
        color:var(--ink-3);margin-bottom:7px}
   .q-stem{font-size:16px;line-height:1.5}
   .q-topic{margin-top:12px}
   .q-topic input{width:100%;font-size:16px}
   .q-mark{display:flex;gap:9px;margin-top:12px;align-items:center;flex-wrap:wrap}
-  .q-mark .lbl{font-family:var(--mono);font-size:10px;letter-spacing:.1em;
-               text-transform:uppercase;color:var(--ink-3);margin-right:2px}
+  .q-mark .lbl{font-family:var(--sans);font-size:13px;
+               color:var(--ink-3);margin-right:2px}
   button.mark{font-family:var(--sans);font-size:13px;font-weight:600;
     background:var(--panel-2);border:1px solid var(--rule);color:var(--ink-2);padding:11px 20px;
     border-radius:var(--r-ctl);cursor:pointer;min-height:44px}
@@ -461,9 +568,10 @@
   .chat-link:hover{color:var(--ink);border-bottom-color:var(--ink)}
 
   @media (max-width:620px){
-    .assay{grid-template-columns:1fr 92px 54px;gap:10px}
-    h1{font-size:28px} .countdown .n{font-size:30px}
-    .countdown{padding:9px 15px 10px}
+    /* 521-620px only: below 521 the phone layout above drops the bar entirely,
+       and this must not put the column back. */
+    .assay{grid-template-columns:1fr 92px 78px;gap:10px}
+    h1{font-size:28px}
     .panel,.summary{padding:18px 17px}
     .stat{padding:15px 17px 17px}
     .stat .n{font-size:34px}
@@ -475,9 +583,9 @@
   .theme-sw{display:flex;justify-content:center;align-items:center;gap:4px;
     margin:8px auto calc(40px + env(safe-area-inset-bottom));padding:5px;width:max-content;
     background:var(--panel);border:1px solid var(--rule);border-radius:14px;box-shadow:var(--shadow)}
-  .theme-sw span{font-family:var(--mono);font-size:9.5px;letter-spacing:.13em;text-transform:uppercase;
+  .theme-sw span{font-family:var(--sans);font-size:13px;
     color:var(--ink-3);padding:0 10px 0 8px}
-  .theme-sw button{appearance:none;background:none;border:0;border-radius:10px;cursor:pointer;
+  .theme-sw button{appearance:none;background:none;border:0;border-radius:10px;cursor:pointer;min-height:44px;
     font-family:var(--sans);font-size:13px;font-weight:600;color:var(--ink-2);
     padding:0 16px;min-height:44px;transition:background .15s,color .15s}
   .theme-sw button:hover{color:var(--ink);background:var(--panel-2)}
@@ -493,62 +601,84 @@
         padding:10px 14px;text-align:center;min-width:104px;display:flex;
         flex-direction:column;justify-content:center}
   .countdown.tile .n{font-size:26px}
-  .drop-mini{cursor:pointer;border-style:dashed;transition:border-color .15s,background .15s}
+  .drop-mini{display:flex;align-items:center;gap:10px;cursor:pointer;
+    background:var(--panel-2);border:1px dashed var(--rule);border-radius:var(--r-ctl);
+    padding:14px 16px;transition:border-color .15s,background .15s}
   .drop-mini:hover,.drop-mini.over{border-color:var(--ink);border-style:solid;background:var(--panel)}
   .drop-mini .mini-ico{font-size:22px;line-height:1;color:var(--ink-2)}
-  .drop-mini .l{font-size:9px}
+  .drop-mini .l{font-size:13px}
 
   /* ---- notes button + search ---- */
   .head-row{display:flex;gap:10px;align-items:center;margin-top:12px;flex-wrap:wrap}
-  /* Both controls are pinned to one height. Left to their own padding they
-     diverge: the search input must stay at 16px to stop iOS zooming on focus,
-     and that taller line box made the bar overshoot the 13px button beside it. */
-  .head-row{--ctl-h:40px}
-  .notes-btn{display:inline-flex;align-items:center;gap:6px;font-family:var(--sans);
-    font-size:13px;font-weight:600;color:var(--ink-2);background:var(--panel-2);
-    border:1px solid var(--rule);padding:0 16px;border-radius:var(--r-ctl);
-    text-decoration:none;height:var(--ctl-h);box-sizing:border-box;flex-shrink:0}
+  /* Both controls are pinned to ONE height, and that height is the 44px tap
+     target — otherwise the Search button (44px) overflows a 40px bar top,
+     bottom and right, and the row stops reading as a row. The input stays at
+     16px to keep iOS from zooming on focus; the fixed height absorbs its
+     taller line box. */
+  .head-row{--ctl-h:46px}
+  .notes-btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;
+    font-family:var(--sans);font-size:13px;font-weight:600;color:var(--ink-2);
+    background:var(--panel-2);border:1px solid var(--rule);padding:0 16px;
+    border-radius:var(--r-ctl);text-decoration:none;height:var(--ctl-h);
+    box-sizing:border-box;flex-shrink:0;white-space:nowrap}
   .notes-btn:hover{color:var(--ink);border-color:var(--ink)}
-  .notes-search{display:flex;align-items:center;gap:8px;flex:1;min-width:220px;
+  .notes-search{margin:0;display:flex;align-items:stretch;gap:8px;flex:1;min-width:220px;
     background:var(--panel-2);border:1px solid var(--rule);border-radius:var(--r-ctl);
-    padding:0 4px 0 12px;height:var(--ctl-h);box-sizing:border-box}
+    padding:0 0 0 14px;height:var(--ctl-h);box-sizing:border-box;
+    /* clips the attached button to the bar's own corner radius */
+    overflow:hidden}
+  .notes-search:focus-within{border-color:var(--ink)}
   .notes-search input{border:0;background:none;flex:1;min-width:60px;padding:0;
-    font-size:16px;line-height:1.2;height:100%}
+    font-size:16px;line-height:1.2;height:100%;align-self:center}
   .notes-search input:focus{outline:none}
-  .notes-search .hits{font-family:var(--mono);font-size:10.5px;color:var(--ink-2);
-    opacity:.55;white-space:nowrap}
-  .notes-search .act{padding:0 14px;min-height:0;height:calc(var(--ctl-h) - 10px);
-    align-self:center;flex-shrink:0}
+  .notes-search .hits{font-family:var(--sans);font-size:13px;color:var(--ink-2);
+    white-space:nowrap;align-self:center}
+  /* Attached to the right edge rather than floating inside it: full bar height,
+     so it is a 44px target without overflowing the 44px bar. */
+  .notes-search .act{padding:0 20px;min-height:0;height:100%;border-radius:0;
+    align-self:stretch;flex-shrink:0;margin-left:8px}
+
+  /* Below 520px the pair stacks. Left to flex-wrap it put a 145px button above
+     a full-width bar — the same unevenness, rotated. Declared AFTER
+     .notes-search so it actually wins: a media query adds no specificity, and
+     the earlier placement was being overridden by source order. */
+  @media (max-width:520px){
+    .head-row{flex-direction:column;align-items:stretch;flex-wrap:nowrap}
+    /* flex:1 is MAIN-axis growth, and the main axis is vertical once this is a
+       column — it stretched the bar and collapsed the attached button to 18px. */
+    .head-row>.notes-btn,
+    .head-row>.notes-search{width:100%;flex:0 0 auto;height:var(--ctl-h)}
+  }
 
   /* ---- at-a-glance summary ---- */
   .glance{display:grid;grid-template-columns:minmax(150px,1fr) 1fr 1fr;gap:1px;
           background:var(--rule);border:1px solid var(--rule);border-radius:var(--r-card);
           overflow:hidden;margin-bottom:18px}
   .glance > div{background:var(--panel);padding:16px 18px}
-  .glance h4{font-family:var(--mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;
+  .glance h4{font-family:var(--mono);font-size:12px;letter-spacing:.12em;text-transform:uppercase;
     color:var(--ink-2);margin:0 0 10px;font-weight:600}
   .g-big{font-family:var(--serif);font-size:38px;line-height:1;font-weight:500}
-  .g-sub{font-family:var(--mono);font-size:10.5px;color:var(--ink-2);margin-top:5px}
+  .g-sub{font-family:var(--sans);font-size:13px;color:var(--ink-2);margin-top:5px}
   .g-ring{display:flex;align-items:center;gap:14px}
   .g-list{list-style:none;margin:0;padding:0;font-size:13px}
   .g-list li{display:flex;justify-content:space-between;gap:10px;padding:4px 0;
     border-bottom:1px solid var(--rule)}
   .g-list li:last-child{border-bottom:0}
-  .g-list .v{font-family:var(--mono);font-size:11.5px;flex-shrink:0}
+  .g-list .v{font-family:var(--sans);font-size:13px;flex-shrink:0;font-variant-numeric:tabular-nums}
   .g-good .v{color:var(--in)} .g-bad .v{color:var(--low)}
-  .g-none{font-family:var(--mono);font-size:11px;color:var(--un)}
+  .g-none{font-family:var(--sans);font-size:13px;color:var(--un)}
   @media (max-width:640px){.glance{grid-template-columns:1fr}}
 
   /* ---- settings ---- */
   .set-row{display:flex;align-items:center;gap:14px;padding:12px 0;
            border-bottom:1px solid var(--rule);flex-wrap:wrap}
   .set-row:last-of-type{border-bottom:0}
-  .set-lab{font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;
+  .set-lab{font-family:var(--mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase;
     color:var(--ink-2);min-width:96px}
   .seg{display:flex;gap:0;border:1px solid var(--rule);border-radius:var(--r-ctl);overflow:hidden}
   .seg button{appearance:none;background:var(--panel-2);border:0;border-right:1px solid var(--rule);
-    font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;
-    color:var(--ink-2);padding:10px 15px;cursor:pointer;min-height:40px}
+    font-family:var(--mono);font-size:13px;letter-spacing:.06em;text-transform:uppercase;
+    color:var(--ink-2);padding:10px 15px;cursor:pointer;min-height:44px}
   .seg button:last-child{border-right:0}
   .seg button:hover{color:var(--ink)}
   .seg button[aria-pressed="true"]{background:var(--ink);color:var(--paper);font-weight:600}
@@ -586,6 +716,7 @@
   }
 
   /* ---- typeface variants ---- */
+  /* Newsreader is fetched on demand the first time a serif is asked for. */
   :root[data-font="serif"]{
     --sans:'Newsreader',Georgia,'Times New Roman',serif;
   }
@@ -606,7 +737,7 @@
   :root[data-theme="teal"][data-ink="softer"]{ --ink:#2A4B4A; --ink-2:#5C8785; }
   :root[data-theme="teal"][data-ink="stronger"]{ --ink:#041C1C; --ink-2:#26534F; }
 
-  .inprog{font-family:var(--mono);font-size:10px;letter-spacing:.06em;text-transform:uppercase;
+  .inprog{font-family:var(--sans);font-size:13px;
     color:var(--bord);background:var(--bord-wash);border-radius:3px;padding:2px 7px;margin-left:8px}
   button.mini.danger{color:var(--low);border-color:var(--low-wash)}
   button.mini.danger:hover{border-color:var(--low);background:var(--low-wash)}
@@ -647,12 +778,21 @@
   .brk-bar{width:min(320px,80%);height:4px;background:var(--rule);border-radius:2px;overflow:hidden}
   .brk-fill{height:4px;background:var(--in);width:0%}
 
-  .brk-cycle{font-family:var(--mono);font-size:10px;letter-spacing:.12em;
-    text-transform:uppercase;color:var(--ink-2)}
+  .brk-cycle{font-family:var(--sans);font-size:13px;
+    color:var(--ink-2)}
   .brk-skip{margin-top:6px}
 
   .brk-cap{font-family:var(--serif);font-size:22px;line-height:1.45;max-width:34ch;
     color:var(--ink)}
+  /* The attribution is the point — these are real quotations traced to a named
+     primary work, and showing the source is what keeps a misattribution from
+     quietly creeping back in. Sized well down so it reads as a footnote, not as
+     a second sentence competing with the line above it. */
+  .brk-who{font-family:var(--sans);font-size:12px;
+    color:var(--ink-2);max-width:34ch;margin-top:14px;color:var(--ink-2)}
+  /* A long quotation at 22px overflows a small phone. Scale the line down but
+     leave the attribution alone — it is already at its floor. */
+  @media (max-width:420px){ .brk-cap{font-size:19px;max-width:30ch} }
 
   /* Reduced motion: the orb stops animating, the words and count still carry the
      pacing. The exercise works without movement; it just shouldn't lurch. */
@@ -660,22 +800,37 @@
     .brk-orb{transition:none}
     .brk-back{backdrop-filter:none;-webkit-backdrop-filter:none}
   }
+
+  .sync-row{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-top:10px}
+  .sync-row .sync{margin-top:0}
+  .who{font-family:var(--sans);font-size:13px;
+    color:var(--ink-2);background:var(--panel-2);border:1px solid var(--rule);
+    border-radius:var(--r-ctl);padding:4px 9px}
+
+  /* A panel heading that is also a disclosure control. Kept visually identical
+     to a plain .panel-h so the tab doesn't grow a row of odd-looking buttons. */
+  button.panel-h.disclose{display:flex;align-items:center;gap:8px;width:100%;
+    background:none;border:0;border-bottom:1px solid var(--rule);cursor:pointer;
+    text-align:left;font:inherit;font-family:var(--mono);font-size:12px;
+    letter-spacing:.14em;text-transform:uppercase;color:var(--ink-2);
+    padding:0 0 10px;margin-bottom:0;min-height:44px}
+  button.panel-h.disclose:hover{color:var(--ink)}
+  button.panel-h.disclose .chev{font-size:12px;line-height:1}
+  #pasteBody{padding-top:12px}
 /* ==== notes-page additions ==================================== */
-  .backlink{font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;
-    color:var(--ink-3);text-decoration:none;display:inline-flex;align-items:center;gap:6px}
-  .backlink:hover{color:var(--ink)}
-  .libstat{flex-shrink:0;text-align:right;font-family:var(--sans);background:var(--tint-2);
-    border-radius:16px;padding:11px 18px 12px;box-shadow:var(--shadow)}
-  .libstat .n{font-size:30px;font-weight:600;line-height:1.05;letter-spacing:-.04em;display:block;
-    font-variant-numeric:tabular-nums;color:var(--ink)}
-  .libstat .l{font-family:var(--mono);font-size:9px;letter-spacing:.13em;text-transform:uppercase;
-    color:var(--ink);opacity:.6}
+  /* The masthead reuses .runhead / .headline / .hl-n / .hl-u from the
+     dashboard's stylesheet, which is inlined above — one definition, so the two
+     pages cannot drift apart again. Only the subtitle and the back link are
+     local, and the back link is a normal .act ghost like every other control. */
+  .libsub{font-size:14px;color:var(--ink-2);margin-top:10px}
+  .backlink{text-decoration:none;display:inline-flex;align-items:center;gap:6px;
+    white-space:nowrap;min-height:44px;box-sizing:border-box}
 
   .searchbar{position:sticky;top:0;z-index:20;padding:12px 0 10px;background:var(--paper)}
   .sfield{position:relative}
   /* #sfield needed: the dashboard stylesheet styles inputs via :not() selectors that
      otherwise out-specify a plain .sfield input rule and reset the padding */
-  #sfield input{width:100%;font-family:var(--sans);font-size:16px;font-weight:500;color:var(--ink);
+  #sfield input{width:100%;font-family:var(--sans);font-size:16px;font-weight:400;color:var(--ink);
     background:var(--panel);border:1px solid var(--rule);border-radius:var(--r-ctl);
     padding:14px 92px 14px 44px;min-height:52px;box-shadow:var(--shadow);
     -webkit-appearance:none;appearance:none}
@@ -684,36 +839,38 @@
   .sfield .icon{position:absolute;left:15px;top:50%;transform:translateY(-50%);
     color:var(--ink-2);pointer-events:none;width:18px;height:18px;display:block}
   .sfield .kbd{position:absolute;right:14px;top:50%;transform:translateY(-50%);
-    font-family:var(--mono);font-size:10px;color:var(--ink-3);border:1px solid var(--rule);
+    font-family:var(--mono);font-size:12px;color:var(--ink-3);border:1px solid var(--rule);
     border-radius:6px;padding:3px 7px;pointer-events:none}
   .sfield .clear{position:absolute;right:12px;top:50%;transform:translateY(-50%);display:none;
     appearance:none;background:var(--panel-2);border:1px solid var(--rule);border-radius:9px;
     color:var(--ink-2);font-size:15px;line-height:1;width:32px;height:32px;cursor:pointer}
   .sfield.has-q .kbd{display:none} .sfield.has-q .clear{display:block}
 
-  .chips{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}
-  /* On a phone 21 systems wrap to eight rows and eat half the screen above the
-     note you are actually reading. Collapse to a single swipeable row; the
-     selected ones are sorted to the front so the active filter is always the
-     first thing in view. `.chips.open` restores the wrapped grid for picking
-     several at once. */
-  .chips-more{display:none}
-  @media (max-width:760px){
-    .chips{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;-ms-overflow-style:none;
-           margin-top:8px;padding-bottom:2px;scroll-snap-type:x proximity}
-    .chips::-webkit-scrollbar{display:none}
-    .chips>.chip{flex:0 0 auto;scroll-snap-align:start}
-    .chips.open{flex-wrap:wrap;overflow-x:visible;max-height:44vh;overflow-y:auto}
-    .chips-more{display:inline-flex;align-items:center;gap:6px;margin-top:8px;
-      background:none;border:0;padding:2px 0;color:var(--ink-2);
-      font-family:var(--mono);font-size:10.5px;letter-spacing:.06em;
-      text-transform:uppercase;cursor:pointer}
-    .chips-more:after{content:'\25be';font-size:12px}
-    .chips-more[aria-expanded="true"]:after{content:'\25b4'}
-  }
+  /* Twenty-one systems wrap to five rows at the 44px tap-target height — 240px
+     of filter above the note you came to read. Collapsed to a single swipeable
+     row at EVERY width, not just on a phone: the desktop case was no better,
+     the control already existed, and one behaviour is easier to trust than two.
+     Selected chips sort to the front so the active filter is always in view;
+     `.chips.open` restores the wrapped grid for picking several at once. */
+  .chips{display:flex;gap:6px;margin-top:10px;
+         flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;-ms-overflow-style:none;
+         padding-bottom:2px;scroll-snap-type:x proximity;
+         -webkit-mask-image:linear-gradient(to right,#000 calc(100% - 30px),transparent);
+         mask-image:linear-gradient(to right,#000 calc(100% - 30px),transparent)}
+  .chips::-webkit-scrollbar{display:none}
+  .chips>.chip{flex:0 0 auto;scroll-snap-align:start}
+  .chips.open{flex-wrap:wrap;overflow-x:visible;max-height:44vh;overflow-y:auto;
+              -webkit-mask-image:none;mask-image:none}
+  .chips-more{display:inline-flex;align-items:center;gap:6px;margin-top:8px;
+    background:none;border:0;padding:2px 0;min-height:44px;color:var(--ink-2);
+    font-family:var(--sans);font-size:13px;cursor:pointer}
+  .chips-more:hover{color:var(--ink)}
+  .chips-more:after{content:'\25be';font-size:12px}
+  .chips-more[aria-expanded="true"]:after{content:'\25b4'}
   .chip{appearance:none;background:var(--panel);border:1px solid var(--rule);border-radius:999px;
-    font-family:var(--mono);font-size:10px;letter-spacing:.06em;text-transform:uppercase;
-    font-weight:600;color:var(--ink-2);padding:7px 12px;min-height:32px;cursor:pointer;
+    font-family:var(--sans);font-size:13px;
+    font-weight:600;color:var(--ink-2);padding:0 14px;min-height:44px;cursor:pointer;
+    display:inline-flex;align-items:center;gap:6px;
     transition:background .15s,color .15s,border-color .15s}
   .chip:hover{color:var(--ink)}
   .chip[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
@@ -725,7 +882,7 @@
     .browse-tog{display:inline-flex}
   }
   .browse-tog{display:none;appearance:none;background:var(--panel);border:1px solid var(--rule);
-    border-radius:var(--r-ctl);font-family:var(--mono);font-size:10px;letter-spacing:.08em;
+    border-radius:var(--r-ctl);font-family:var(--sans);font-size:13px;font-weight:600;
     text-transform:uppercase;font-weight:600;color:var(--ink);padding:0 14px;min-height:40px;
     margin-bottom:12px;cursor:pointer;box-shadow:var(--shadow)}
 
@@ -737,11 +894,12 @@
   .tsys:last-child{border-bottom:0}
   .tsys>button{appearance:none;width:100%;background:none;border:0;text-align:left;cursor:pointer;
     font-family:var(--sans);font-size:13px;font-weight:600;color:var(--ink);
-    padding:11px 10px;display:flex;align-items:center;gap:8px;border-radius:10px}
+    padding:11px 10px;display:flex;align-items:center;gap:8px;border-radius:10px;min-height:44px}
   .tsys>button:hover{background:var(--panel-2)}
-  .tsys .caret{font-family:var(--mono);font-size:9px;color:var(--ink-3);transition:transform .15s}
+  .tsys .caret{font-family:var(--mono);font-size:12px;color:var(--ink-3);transition:transform .15s}
   .tsys[data-open="1"] .caret{transform:rotate(90deg)}
-  .tsys .cnt{margin-left:auto;font-family:var(--mono);font-size:9.5px;color:var(--ink-3)}
+  .tsys .cnt{margin-left:auto;font-family:var(--sans);font-size:13px;color:var(--ink-3);
+    font-variant-numeric:tabular-nums}
   .tsys ul{list-style:none;margin:0 0 8px;padding:0 0 0 8px;display:none}
   .tsys[data-open="1"] ul{display:block}
   .tsys li a{display:block;text-decoration:none;font-size:13px;color:var(--ink-2);
@@ -749,7 +907,7 @@
   .tsys li a:hover{background:var(--panel-2);color:var(--ink)}
   .tsys li a[aria-current="true"]{color:var(--ink);font-weight:600;border-left-color:var(--ink);
     background:var(--panel-2)}
-  .tempty{font-family:var(--mono);font-size:10.5px;color:var(--ink-3);padding:12px 10px;line-height:1.6}
+  .tempty{font-family:var(--sans);font-size:13px;color:var(--ink-3);padding:12px 10px;line-height:1.6}
 
   #pane{min-width:0}
   .note{background:var(--panel);border:1px solid var(--rule);border-radius:var(--r-card);
@@ -757,16 +915,16 @@
   @media (max-width:560px){.note{padding:20px 18px 24px}}
   .note-head{border-bottom:1px solid var(--rule);padding-bottom:16px;margin-bottom:20px}
   .note-head h2{font-size:27px;font-weight:600;letter-spacing:-.025em;margin:0;line-height:1.15}
-  .note-meta{font-family:var(--mono);font-size:10px;letter-spacing:.09em;text-transform:uppercase;
+  .note-meta{font-family:var(--sans);font-size:13px;
     color:var(--ink-3);margin-top:9px;display:flex;gap:12px;flex-wrap:wrap}
   .taglist{display:flex;gap:5px;flex-wrap:wrap;margin-top:11px}
-  .tag{font-family:var(--mono);font-size:9.5px;letter-spacing:.05em;text-transform:uppercase;
+  .tag{font-family:var(--sans);font-size:13px;
     background:var(--panel-2);border:1px solid var(--rule);border-radius:999px;
     color:var(--ink-3);padding:4px 9px}
 
   /* live tracker strip on a note */
   .tstrip{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}
-  .tpill{font-family:var(--mono);font-size:10px;letter-spacing:.06em;text-transform:uppercase;
+  .tpill{font-family:var(--sans);font-size:13px;
     font-weight:600;border-radius:999px;padding:6px 11px;border:1px solid transparent}
   .tp-low{color:var(--low);background:var(--low-wash)}
   .tp-bord{color:var(--border-flag);background:var(--bord-wash)}
@@ -774,17 +932,17 @@
   .tp-un{color:var(--untested);background:var(--panel-2);border-color:var(--rule)}
   .relflags{margin-top:16px;background:var(--low-wash);border:1px solid transparent;
     border-radius:var(--r-ctl);padding:14px 16px}
-  .relflags h4{font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;
+  .relflags h4{font-family:var(--mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase;
     color:var(--low);margin:0 0 9px;font-weight:600}
   .relflags ul{margin:0;padding-left:18px}
   .relflags li{font-size:13.5px;color:var(--ink);margin-bottom:5px;line-height:1.5}
-  .relflags .n{font-family:var(--mono);font-size:10.5px;color:var(--ink-3)}
+  .relflags .n{font-family:var(--sans);font-size:13px;color:var(--ink-3)}
 
   /* rendered markdown */
   .md h3{font-size:19px;font-weight:600;letter-spacing:-.015em;margin:30px 0 10px;
     padding-top:4px;scroll-margin-top:96px}
   .md h4{font-size:15.5px;font-weight:600;margin:22px 0 8px;color:var(--ink);scroll-margin-top:96px}
-  .md h5,.md h6{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;
+  .md h5,.md h6{font-family:var(--mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase;
     color:var(--ink-3);margin:20px 0 8px;scroll-margin-top:96px}
   .md h3:first-child,.md h4:first-child{margin-top:4px}
   .md p{margin:0 0 13px;font-size:15px;line-height:1.68}
@@ -805,7 +963,7 @@
   .md th,.md td{text-align:left;padding:9px 12px;border-bottom:1px solid var(--rule);
     border-right:1px solid var(--rule-2);vertical-align:top}
   .md th:last-child,.md td:last-child{border-right:0}
-  .md th{font-family:var(--mono);font-size:10px;letter-spacing:.08em;text-transform:uppercase;
+  .md th{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;
     color:var(--ink-3);background:var(--panel-2);border-bottom:1px solid var(--rule);
     font-weight:600;white-space:nowrap}
   .md tbody tr:last-child td{border-bottom:0}
@@ -827,7 +985,7 @@
     .md table.wide td{border-bottom:0;padding:8px 0 0}
     .md table.wide td+td{border-top:1px solid var(--rule);margin-top:8px;padding-top:9px}
     .md table.wide td:before{content:attr(data-label);display:block;
-      font-family:var(--mono);font-size:9px;letter-spacing:.11em;text-transform:uppercase;
+      font-family:var(--mono);font-size:12px;letter-spacing:.11em;text-transform:uppercase;
       color:var(--ink-2);margin-bottom:4px}
     .md table.wide td[data-label='']:before{display:none}
   }
@@ -836,7 +994,7 @@
   .md blockquote p:last-child{margin-bottom:0}
   .callout{margin:0 0 15px;padding:13px 16px;border-radius:var(--r-ctl);border-left:3px solid;
     font-size:14.5px}
-  .callout .cl-l{font-family:var(--mono);font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;
+  .callout .cl-l{font-family:var(--mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase;
     font-weight:600;display:block;margin-bottom:5px}
   .callout p:last-child{margin-bottom:0}
   .cl-key{background:var(--in-wash);border-left-color:var(--inrange)}
@@ -848,26 +1006,26 @@
   @keyframes flash{0%,35%{background:var(--lav)}100%{background:transparent}}
 
   /* search results */
-  .rmeta{font-family:var(--mono);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;
+  .rmeta{font-family:var(--sans);font-size:13px;
     color:var(--ink-3);margin:2px 0 12px}
   .rgroup{background:var(--panel);border:1px solid var(--rule);border-radius:var(--r-card);
     padding:16px 18px;box-shadow:var(--shadow);margin-bottom:12px}
   .rgroup h3{font-size:16.5px;font-weight:600;margin:0;letter-spacing:-.015em}
-  .rgroup .rsys{font-family:var(--mono);font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;
+  .rgroup .rsys{font-family:var(--mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase;
     color:var(--ink-3);margin-top:5px}
   .rhit{display:block;text-decoration:none;border-top:1px solid var(--rule-2);
     padding:12px 0 11px;margin-top:11px}
   .rhit:first-of-type{margin-top:13px}
   .rhit:hover{background:var(--panel-2);border-radius:9px;padding-left:9px;padding-right:9px;
     margin-left:-9px;margin-right:-9px}
-  .rpath{font-family:var(--mono);font-size:10px;letter-spacing:.05em;color:var(--ink-2);
+  .rpath{font-family:var(--sans);font-size:13px;color:var(--ink-2);
     margin-bottom:5px}
   .rsnip{font-size:14px;line-height:1.6;color:var(--ink)}
   .empty{background:var(--panel);border:1px solid var(--rule);border-radius:var(--r-card);
     padding:28px 24px;box-shadow:var(--shadow);text-align:center}
   .empty h3{font-size:17px;font-weight:600;margin:0 0 7px}
   .empty p{font-size:14px;color:var(--ink-2);margin:0 auto;max-width:44ch;line-height:1.6}
-  .demo{font-family:var(--mono);font-size:10px;letter-spacing:.08em;text-transform:uppercase;
+  .demo{font-family:var(--sans);font-size:13px;
     color:var(--border-flag);background:var(--bord-wash);border-radius:999px;padding:5px 10px;
     display:inline-block;font-weight:600}
 </style>
@@ -875,14 +1033,15 @@
 <div class="wrap">
   <header>
     <div class="masthead">
-      <div>
-        <a class="backlink" href="./index.html">&larr; Panel</a>
-        <h1 style="margin-top:8px">Notes</h1>
-        <div class="sub" id="libSub">Library &middot; loading…</div>
+      <div class="mast-main">
+        <div class="runhead">Notes library</div>
+        <div class="headline">
+          <span class="hl-fig"><span class="hl-n" id="libN">—</span><span class="hl-u">sections indexed</span></span>
+        </div>
+        <div class="libsub" id="libSub">Loading…</div>
       </div>
-      <div class="libstat">
-        <span class="n" id="libN">—</span>
-        <span class="l">sections indexed</span>
+      <div class="head-actions">
+        <a class="act ghost backlink" href="./index.html">&larr; Dashboard</a>
       </div>
     </div>
   </header>

@@ -14,21 +14,19 @@
    Regenerate with: python3 tools/build_notes_page.py                      */
 {{BASE_CSS}}
 /* ==== notes-page additions ==================================== */
-  .backlink{font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;
-    color:var(--ink-3);text-decoration:none;display:inline-flex;align-items:center;gap:6px}
-  .backlink:hover{color:var(--ink)}
-  .libstat{flex-shrink:0;text-align:right;font-family:var(--sans);background:var(--tint-2);
-    border-radius:16px;padding:11px 18px 12px;box-shadow:var(--shadow)}
-  .libstat .n{font-size:30px;font-weight:600;line-height:1.05;letter-spacing:-.04em;display:block;
-    font-variant-numeric:tabular-nums;color:var(--ink)}
-  .libstat .l{font-family:var(--mono);font-size:9px;letter-spacing:.13em;text-transform:uppercase;
-    color:var(--ink);opacity:.6}
+  /* The masthead reuses .runhead / .headline / .hl-n / .hl-u from the
+     dashboard's stylesheet, which is inlined above — one definition, so the two
+     pages cannot drift apart again. Only the subtitle and the back link are
+     local, and the back link is a normal .act ghost like every other control. */
+  .libsub{font-size:14px;color:var(--ink-2);margin-top:10px}
+  .backlink{text-decoration:none;display:inline-flex;align-items:center;gap:6px;
+    white-space:nowrap;min-height:44px;box-sizing:border-box}
 
   .searchbar{position:sticky;top:0;z-index:20;padding:12px 0 10px;background:var(--paper)}
   .sfield{position:relative}
   /* #sfield needed: the dashboard stylesheet styles inputs via :not() selectors that
      otherwise out-specify a plain .sfield input rule and reset the padding */
-  #sfield input{width:100%;font-family:var(--sans);font-size:16px;font-weight:500;color:var(--ink);
+  #sfield input{width:100%;font-family:var(--sans);font-size:16px;font-weight:400;color:var(--ink);
     background:var(--panel);border:1px solid var(--rule);border-radius:var(--r-ctl);
     padding:14px 92px 14px 44px;min-height:52px;box-shadow:var(--shadow);
     -webkit-appearance:none;appearance:none}
@@ -37,36 +35,38 @@
   .sfield .icon{position:absolute;left:15px;top:50%;transform:translateY(-50%);
     color:var(--ink-2);pointer-events:none;width:18px;height:18px;display:block}
   .sfield .kbd{position:absolute;right:14px;top:50%;transform:translateY(-50%);
-    font-family:var(--mono);font-size:10px;color:var(--ink-3);border:1px solid var(--rule);
+    font-family:var(--mono);font-size:12px;color:var(--ink-3);border:1px solid var(--rule);
     border-radius:6px;padding:3px 7px;pointer-events:none}
   .sfield .clear{position:absolute;right:12px;top:50%;transform:translateY(-50%);display:none;
     appearance:none;background:var(--panel-2);border:1px solid var(--rule);border-radius:9px;
     color:var(--ink-2);font-size:15px;line-height:1;width:32px;height:32px;cursor:pointer}
   .sfield.has-q .kbd{display:none} .sfield.has-q .clear{display:block}
 
-  .chips{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}
-  /* On a phone 21 systems wrap to eight rows and eat half the screen above the
-     note you are actually reading. Collapse to a single swipeable row; the
-     selected ones are sorted to the front so the active filter is always the
-     first thing in view. `.chips.open` restores the wrapped grid for picking
-     several at once. */
-  .chips-more{display:none}
-  @media (max-width:760px){
-    .chips{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;-ms-overflow-style:none;
-           margin-top:8px;padding-bottom:2px;scroll-snap-type:x proximity}
-    .chips::-webkit-scrollbar{display:none}
-    .chips>.chip{flex:0 0 auto;scroll-snap-align:start}
-    .chips.open{flex-wrap:wrap;overflow-x:visible;max-height:44vh;overflow-y:auto}
-    .chips-more{display:inline-flex;align-items:center;gap:6px;margin-top:8px;
-      background:none;border:0;padding:2px 0;color:var(--ink-2);
-      font-family:var(--mono);font-size:10.5px;letter-spacing:.06em;
-      text-transform:uppercase;cursor:pointer}
-    .chips-more:after{content:'\25be';font-size:12px}
-    .chips-more[aria-expanded="true"]:after{content:'\25b4'}
-  }
+  /* Twenty-one systems wrap to five rows at the 44px tap-target height — 240px
+     of filter above the note you came to read. Collapsed to a single swipeable
+     row at EVERY width, not just on a phone: the desktop case was no better,
+     the control already existed, and one behaviour is easier to trust than two.
+     Selected chips sort to the front so the active filter is always in view;
+     `.chips.open` restores the wrapped grid for picking several at once. */
+  .chips{display:flex;gap:6px;margin-top:10px;
+         flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;-ms-overflow-style:none;
+         padding-bottom:2px;scroll-snap-type:x proximity;
+         -webkit-mask-image:linear-gradient(to right,#000 calc(100% - 30px),transparent);
+         mask-image:linear-gradient(to right,#000 calc(100% - 30px),transparent)}
+  .chips::-webkit-scrollbar{display:none}
+  .chips>.chip{flex:0 0 auto;scroll-snap-align:start}
+  .chips.open{flex-wrap:wrap;overflow-x:visible;max-height:44vh;overflow-y:auto;
+              -webkit-mask-image:none;mask-image:none}
+  .chips-more{display:inline-flex;align-items:center;gap:6px;margin-top:8px;
+    background:none;border:0;padding:2px 0;min-height:44px;color:var(--ink-2);
+    font-family:var(--sans);font-size:13px;cursor:pointer}
+  .chips-more:hover{color:var(--ink)}
+  .chips-more:after{content:'\25be';font-size:12px}
+  .chips-more[aria-expanded="true"]:after{content:'\25b4'}
   .chip{appearance:none;background:var(--panel);border:1px solid var(--rule);border-radius:999px;
-    font-family:var(--mono);font-size:10px;letter-spacing:.06em;text-transform:uppercase;
-    font-weight:600;color:var(--ink-2);padding:7px 12px;min-height:32px;cursor:pointer;
+    font-family:var(--sans);font-size:13px;
+    font-weight:600;color:var(--ink-2);padding:0 14px;min-height:44px;cursor:pointer;
+    display:inline-flex;align-items:center;gap:6px;
     transition:background .15s,color .15s,border-color .15s}
   .chip:hover{color:var(--ink)}
   .chip[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
@@ -78,7 +78,7 @@
     .browse-tog{display:inline-flex}
   }
   .browse-tog{display:none;appearance:none;background:var(--panel);border:1px solid var(--rule);
-    border-radius:var(--r-ctl);font-family:var(--mono);font-size:10px;letter-spacing:.08em;
+    border-radius:var(--r-ctl);font-family:var(--sans);font-size:13px;font-weight:600;
     text-transform:uppercase;font-weight:600;color:var(--ink);padding:0 14px;min-height:40px;
     margin-bottom:12px;cursor:pointer;box-shadow:var(--shadow)}
 
@@ -90,11 +90,12 @@
   .tsys:last-child{border-bottom:0}
   .tsys>button{appearance:none;width:100%;background:none;border:0;text-align:left;cursor:pointer;
     font-family:var(--sans);font-size:13px;font-weight:600;color:var(--ink);
-    padding:11px 10px;display:flex;align-items:center;gap:8px;border-radius:10px}
+    padding:11px 10px;display:flex;align-items:center;gap:8px;border-radius:10px;min-height:44px}
   .tsys>button:hover{background:var(--panel-2)}
-  .tsys .caret{font-family:var(--mono);font-size:9px;color:var(--ink-3);transition:transform .15s}
+  .tsys .caret{font-family:var(--mono);font-size:12px;color:var(--ink-3);transition:transform .15s}
   .tsys[data-open="1"] .caret{transform:rotate(90deg)}
-  .tsys .cnt{margin-left:auto;font-family:var(--mono);font-size:9.5px;color:var(--ink-3)}
+  .tsys .cnt{margin-left:auto;font-family:var(--sans);font-size:13px;color:var(--ink-3);
+    font-variant-numeric:tabular-nums}
   .tsys ul{list-style:none;margin:0 0 8px;padding:0 0 0 8px;display:none}
   .tsys[data-open="1"] ul{display:block}
   .tsys li a{display:block;text-decoration:none;font-size:13px;color:var(--ink-2);
@@ -102,7 +103,7 @@
   .tsys li a:hover{background:var(--panel-2);color:var(--ink)}
   .tsys li a[aria-current="true"]{color:var(--ink);font-weight:600;border-left-color:var(--ink);
     background:var(--panel-2)}
-  .tempty{font-family:var(--mono);font-size:10.5px;color:var(--ink-3);padding:12px 10px;line-height:1.6}
+  .tempty{font-family:var(--sans);font-size:13px;color:var(--ink-3);padding:12px 10px;line-height:1.6}
 
   #pane{min-width:0}
   .note{background:var(--panel);border:1px solid var(--rule);border-radius:var(--r-card);
@@ -110,16 +111,16 @@
   @media (max-width:560px){.note{padding:20px 18px 24px}}
   .note-head{border-bottom:1px solid var(--rule);padding-bottom:16px;margin-bottom:20px}
   .note-head h2{font-size:27px;font-weight:600;letter-spacing:-.025em;margin:0;line-height:1.15}
-  .note-meta{font-family:var(--mono);font-size:10px;letter-spacing:.09em;text-transform:uppercase;
+  .note-meta{font-family:var(--sans);font-size:13px;
     color:var(--ink-3);margin-top:9px;display:flex;gap:12px;flex-wrap:wrap}
   .taglist{display:flex;gap:5px;flex-wrap:wrap;margin-top:11px}
-  .tag{font-family:var(--mono);font-size:9.5px;letter-spacing:.05em;text-transform:uppercase;
+  .tag{font-family:var(--sans);font-size:13px;
     background:var(--panel-2);border:1px solid var(--rule);border-radius:999px;
     color:var(--ink-3);padding:4px 9px}
 
   /* live tracker strip on a note */
   .tstrip{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}
-  .tpill{font-family:var(--mono);font-size:10px;letter-spacing:.06em;text-transform:uppercase;
+  .tpill{font-family:var(--sans);font-size:13px;
     font-weight:600;border-radius:999px;padding:6px 11px;border:1px solid transparent}
   .tp-low{color:var(--low);background:var(--low-wash)}
   .tp-bord{color:var(--border-flag);background:var(--bord-wash)}
@@ -127,17 +128,17 @@
   .tp-un{color:var(--untested);background:var(--panel-2);border-color:var(--rule)}
   .relflags{margin-top:16px;background:var(--low-wash);border:1px solid transparent;
     border-radius:var(--r-ctl);padding:14px 16px}
-  .relflags h4{font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;
+  .relflags h4{font-family:var(--mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase;
     color:var(--low);margin:0 0 9px;font-weight:600}
   .relflags ul{margin:0;padding-left:18px}
   .relflags li{font-size:13.5px;color:var(--ink);margin-bottom:5px;line-height:1.5}
-  .relflags .n{font-family:var(--mono);font-size:10.5px;color:var(--ink-3)}
+  .relflags .n{font-family:var(--sans);font-size:13px;color:var(--ink-3)}
 
   /* rendered markdown */
   .md h3{font-size:19px;font-weight:600;letter-spacing:-.015em;margin:30px 0 10px;
     padding-top:4px;scroll-margin-top:96px}
   .md h4{font-size:15.5px;font-weight:600;margin:22px 0 8px;color:var(--ink);scroll-margin-top:96px}
-  .md h5,.md h6{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;
+  .md h5,.md h6{font-family:var(--mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase;
     color:var(--ink-3);margin:20px 0 8px;scroll-margin-top:96px}
   .md h3:first-child,.md h4:first-child{margin-top:4px}
   .md p{margin:0 0 13px;font-size:15px;line-height:1.68}
@@ -158,7 +159,7 @@
   .md th,.md td{text-align:left;padding:9px 12px;border-bottom:1px solid var(--rule);
     border-right:1px solid var(--rule-2);vertical-align:top}
   .md th:last-child,.md td:last-child{border-right:0}
-  .md th{font-family:var(--mono);font-size:10px;letter-spacing:.08em;text-transform:uppercase;
+  .md th{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;
     color:var(--ink-3);background:var(--panel-2);border-bottom:1px solid var(--rule);
     font-weight:600;white-space:nowrap}
   .md tbody tr:last-child td{border-bottom:0}
@@ -180,7 +181,7 @@
     .md table.wide td{border-bottom:0;padding:8px 0 0}
     .md table.wide td+td{border-top:1px solid var(--rule);margin-top:8px;padding-top:9px}
     .md table.wide td:before{content:attr(data-label);display:block;
-      font-family:var(--mono);font-size:9px;letter-spacing:.11em;text-transform:uppercase;
+      font-family:var(--mono);font-size:12px;letter-spacing:.11em;text-transform:uppercase;
       color:var(--ink-2);margin-bottom:4px}
     .md table.wide td[data-label='']:before{display:none}
   }
@@ -189,7 +190,7 @@
   .md blockquote p:last-child{margin-bottom:0}
   .callout{margin:0 0 15px;padding:13px 16px;border-radius:var(--r-ctl);border-left:3px solid;
     font-size:14.5px}
-  .callout .cl-l{font-family:var(--mono);font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;
+  .callout .cl-l{font-family:var(--mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase;
     font-weight:600;display:block;margin-bottom:5px}
   .callout p:last-child{margin-bottom:0}
   .cl-key{background:var(--in-wash);border-left-color:var(--inrange)}
@@ -201,26 +202,26 @@
   @keyframes flash{0%,35%{background:var(--lav)}100%{background:transparent}}
 
   /* search results */
-  .rmeta{font-family:var(--mono);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;
+  .rmeta{font-family:var(--sans);font-size:13px;
     color:var(--ink-3);margin:2px 0 12px}
   .rgroup{background:var(--panel);border:1px solid var(--rule);border-radius:var(--r-card);
     padding:16px 18px;box-shadow:var(--shadow);margin-bottom:12px}
   .rgroup h3{font-size:16.5px;font-weight:600;margin:0;letter-spacing:-.015em}
-  .rgroup .rsys{font-family:var(--mono);font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;
+  .rgroup .rsys{font-family:var(--mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase;
     color:var(--ink-3);margin-top:5px}
   .rhit{display:block;text-decoration:none;border-top:1px solid var(--rule-2);
     padding:12px 0 11px;margin-top:11px}
   .rhit:first-of-type{margin-top:13px}
   .rhit:hover{background:var(--panel-2);border-radius:9px;padding-left:9px;padding-right:9px;
     margin-left:-9px;margin-right:-9px}
-  .rpath{font-family:var(--mono);font-size:10px;letter-spacing:.05em;color:var(--ink-2);
+  .rpath{font-family:var(--sans);font-size:13px;color:var(--ink-2);
     margin-bottom:5px}
   .rsnip{font-size:14px;line-height:1.6;color:var(--ink)}
   .empty{background:var(--panel);border:1px solid var(--rule);border-radius:var(--r-card);
     padding:28px 24px;box-shadow:var(--shadow);text-align:center}
   .empty h3{font-size:17px;font-weight:600;margin:0 0 7px}
   .empty p{font-size:14px;color:var(--ink-2);margin:0 auto;max-width:44ch;line-height:1.6}
-  .demo{font-family:var(--mono);font-size:10px;letter-spacing:.08em;text-transform:uppercase;
+  .demo{font-family:var(--sans);font-size:13px;
     color:var(--border-flag);background:var(--bord-wash);border-radius:999px;padding:5px 10px;
     display:inline-block;font-weight:600}
 </style>
@@ -228,14 +229,15 @@
 <div class="wrap">
   <header>
     <div class="masthead">
-      <div>
-        <a class="backlink" href="./index.html">&larr; Panel</a>
-        <h1 style="margin-top:8px">Notes</h1>
-        <div class="sub" id="libSub">Library &middot; loading…</div>
+      <div class="mast-main">
+        <div class="runhead">Notes library</div>
+        <div class="headline">
+          <span class="hl-fig"><span class="hl-n" id="libN">—</span><span class="hl-u">sections indexed</span></span>
+        </div>
+        <div class="libsub" id="libSub">Loading…</div>
       </div>
-      <div class="libstat">
-        <span class="n" id="libN">—</span>
-        <span class="l">sections indexed</span>
+      <div class="head-actions">
+        <a class="act ghost backlink" href="./index.html">&larr; Dashboard</a>
       </div>
     </div>
   </header>
