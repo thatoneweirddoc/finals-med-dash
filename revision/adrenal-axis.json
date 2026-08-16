@@ -1,0 +1,213 @@
+{
+ "title": "The Adrenal Axis",
+ "system": "Endocrine",
+ "created": "2026-08-16",
+ "rationale": "Your highest-volume weakness: 47% across 17 questions. The recorded misses show one principle failing repeatedly across three different diseases — renin direction misread in Addison's, Conn's, and renal artery stenosis.",
+ "objectives": [
+  "Use renin, not aldosterone, as the discriminator between primary and secondary aldosteronism, and explain why aldosterone alone carries no information.",
+  "Predict the electrolyte and glucose pattern of cortisol excess versus cortisol deficiency, in both directions.",
+  "Distinguish primary from secondary adrenal insufficiency using ACTH and the aldosterone/renin pair, and explain why aldosterone is spared in secondary disease.",
+  "Recognise adrenal crisis and state the immediate management, including why fludrocortisone is not part of it.",
+  "Apply the sick-day rules and explain when doubling oral steroid is no longer sufficient.",
+  "Interpret a short Synacthen test against current Australian thresholds."
+ ],
+ "sections": [
+  {
+   "heading": "The one rule that fixes most of these questions",
+   "body": "**Aldosterone is high in both primary and secondary aldosteronism. It tells you nothing on its own. Renin decides.**\n\n| | Renin | Aldosterone | ARR | Where the problem is |\n|---|---|---|---|---|\n| **Primary (Conn's)** | **Low/suppressed** | High | **High** | The adrenal — autonomous secretion |\n| **Secondary (e.g. renal artery stenosis)** | **High** | High | Normal | Upstream — something is driving RAAS |\n| **Addison's** | **High** | **Low** | — | The gland has failed entirely |\n\nThe logic: in Conn's the adrenal secretes autonomously, volume expands, and feedback **switches renin off**. If renin is high, something upstream is driving the system — a stenotic renal artery, heart failure, cirrhosis, or hypovolaemia.\n\nRead renin first, every time.",
+   "note": {
+    "system": "endocrine",
+    "slug": "adrenal-disorders",
+    "title": "Adrenal Disorders"
+   }
+  },
+  {
+   "heading": "Cortisol excess versus deficiency — learn it in both directions",
+   "body": "| | Cortisol EXCESS (Cushing's) | Cortisol DEFICIENCY (Addison's) |\n|---|---|---|\n| Potassium | **Low** | **High** |\n| Sodium | Normal/high | **Low** |\n| Bicarbonate | **High** (alkalosis) | Low (acidosis) |\n| Glucose | **High** | **Low** |\n| BP | **High** | **Low**, postural |\n\nCortisol is catabolic and insulin-antagonistic, so excess raises glucose. At very high concentrations it saturates 11β-HSD2 and spills onto mineralocorticoid receptors — hence hypokalaemia and alkalosis in ectopic ACTH.\n\nDeficiency inverts all of it. Hyponatraemia has two mechanisms worth separating: **aldosterone deficiency** causes salt wasting (primary only), while **loss of cortisol's suppression of ADH** causes water retention (both primary and secondary). That is why **hyponatraemia occurs in both, but hyperkalaemia only in primary** — potassium needs aldosterone to be gone.",
+   "note": {
+    "system": "endocrine",
+    "slug": "adrenal-disorders",
+    "title": "Adrenal Disorders"
+   }
+  },
+  {
+   "heading": "Primary versus secondary adrenal insufficiency",
+   "body": "The adrenal cortex has three layers, and **they are not all controlled by ACTH**:\n\n| Layer | Product | Driven by |\n|---|---|---|\n| Zona **g**lomerulosa | Aldosterone (**salt**) | **RAAS — not ACTH** |\n| Zona **f**asciculata | Cortisol (**sugar**) | ACTH |\n| Zona **r**eticularis | Androgens (**sex**) | ACTH |\n\n*Salt, sugar, sex — the deeper you go, the sweeter it gets.*\n\nThat single fact generates the discriminator:\n\n| | Primary (Addison's) | Secondary (pituitary/steroid withdrawal) |\n|---|---|---|\n| **ACTH** | **High** | **Low or inappropriately normal** |\n| **Aldosterone** | **Low** | **Normal** — RAAS is intact |\n| **Renin** | **High** | Normal |\n| **Potassium** | **High** | **Normal** |\n| Pigmentation | **Yes** (ACTH/MSH share POMC) | **No** |\n\nSecondary spares the zona glomerulosa because aldosterone never depended on ACTH. This is why a symptomatic, hypotensive patient with a **normal potassium** almost certainly does not have established primary disease.\n\n**Commonest cause of secondary AI: abrupt withdrawal of long-term exogenous corticosteroid.** The axis is suppressed and the cortex atrophies from disuse.",
+   "note": {
+    "system": "endocrine",
+    "slug": "adrenal-disorders",
+    "title": "Adrenal Disorders"
+   }
+  },
+  {
+   "heading": "Adrenal crisis and the sick-day rules",
+   "body": "**Adrenal crisis** — hypotension and shock, often with vomiting, abdominal pain, confusion, fever, hyponatraemia, hyperkalaemia and hypoglycaemia. Typically precipitated by infection, surgery, trauma, or missed doses.\n\n**Immediate management:**\n\n1. **IV/IM hydrocortisone 100mg stat** — do not wait for confirmatory cortisol or ACTH\n2. **Aggressive IV 0.9% saline**\n3. Correct hypoglycaemia\n4. Treat the precipitant\n\n**Fludrocortisone has no role acutely.** At stress doses, hydrocortisone supplies ample mineralocorticoid activity — roughly 40mg of hydrocortisone is equivalent to a usual daily fludrocortisone dose. Uptitrating fludrocortisone in a crisis is a distractor.\n\n**Sick-day rules:**\n\n- **Rule 1** — fever or intercurrent illness: **double** the oral hydrocortisone until recovered\n- **Rule 2** — vomiting, diarrhoea, or unable to absorb: **switch to IM hydrocortisone** and seek urgent help\n\nThe trap: once a patient is vomiting, doubling the *oral* dose is no longer an option. Every patient should carry an emergency injection kit and a steroid alert card.\n\n**Autoimmune polyglandular syndrome type 2 (Schmidt)** — autoimmune thyroid disease plus Addison's ± type 1 diabetes. Any patient with one organ-specific autoimmune endocrinopathy is at risk of another, so Hashimoto's in the stem is a clue, not background noise.",
+   "note": {
+    "system": "endocrine",
+    "slug": "adrenal-disorders",
+    "title": "Adrenal Disorders"
+   }
+  },
+  {
+   "heading": "Short Synacthen test — Australian thresholds",
+   "body": "250 mcg Synacthen, cortisol measured at baseline and 30 minutes.\n\n- **Pass ≈ >430 nmol/L at 30 min** (PathWest), or **>500 nmol/L at 60 min**. Many labs use **>450 nmol/L** to exclude; **350–449** is borderline\n- Older texts quote **550 nmol/L** — a deliberately conservative cutoff from older assays. Modern assays put the lower normal limit closer to **418–469**\n- The figure is **assay-dependent**, which is exactly why a well-written exam question gives you the reference range\n\n**Supporting tests:**\n\n| Test | Interpretation |\n|---|---|\n| 9am cortisol <100 nmol/L | Strongly suggests adrenal insufficiency |\n| 9am cortisol >300–400 nmol/L | Effectively excludes it; Synacthen not needed |\n| ACTH high (often >200 ng/L) | **Primary** |\n| ACTH low/normal (<10 ng/L) | **Secondary** |\n| Aldosterone low + renin high | **Primary** |",
+   "note": {
+    "system": "endocrine",
+    "slug": "clinical-assessment-and-dynamic-testing",
+    "title": "Clinical Assessment and Dynamic Testing"
+   }
+  }
+ ],
+ "questions": [
+  {
+   "difficulty": "easy",
+   "stem": "A 38-year-old woman has fatigue, weight loss and postural hypotension. Na 129, K 5.7, glucose 3.4.",
+   "lead": "Which pattern fits her diagnosis?",
+   "options": [
+    "Cortisol excess",
+    "Cortisol deficiency",
+    "Isolated aldosterone excess",
+    "Normal adrenal function"
+   ],
+   "correct": 1,
+   "explanation": "Low sodium, <b>high potassium</b>, low glucose and hypotension is <b>cortisol (and aldosterone) deficiency</b>. Cortisol excess would give the exact inversion: low K, high glucose, hypertension. Learning the pattern in both directions is what makes this fast.",
+   "topic": "Endocrine — adrenal insufficiency",
+   "type": "recall"
+  },
+  {
+   "difficulty": "easy",
+   "stem": "A patient with known Addison's disease develops influenza with a fever of 38.5°C. She is eating and drinking normally and not vomiting.",
+   "lead": "What should she do with her hydrocortisone?",
+   "options": [
+    "Continue the usual dose",
+    "Double the usual oral dose until she recovers",
+    "Switch to IM hydrocortisone immediately",
+    "Stop it until the fever settles"
+   ],
+   "correct": 1,
+   "explanation": "<b>Sick-day rule 1</b>: double the oral dose for fever or intercurrent illness. She is tolerating oral intake, so IM is not yet required — that is rule 2, for vomiting, diarrhoea, or failure to absorb. Stopping steroid in illness risks precipitating crisis.",
+   "topic": "Endocrine — adrenal insufficiency",
+   "type": "recall"
+  },
+  {
+   "difficulty": "easy",
+   "stem": "A 46-year-old woman has resistant hypertension and K 3.0. Plasma aldosterone is elevated and plasma renin activity is suppressed.",
+   "lead": "Where is the problem?",
+   "options": [
+    "The adrenal gland — primary aldosteronism",
+    "The renal artery — secondary aldosteronism",
+    "The pituitary — secondary adrenal insufficiency",
+    "The adrenal medulla — phaeochromocytoma"
+   ],
+   "correct": 0,
+   "explanation": "High aldosterone with <b>suppressed renin</b> is <b>primary aldosteronism</b> — the adrenal is secreting autonomously, and the resulting volume expansion switches renin off. If renin were <i>high</i>, something upstream would be driving RAAS, pointing to a secondary cause such as renal artery stenosis.",
+   "topic": "Endocrine — aldosterone/renin axis",
+   "type": "discrimination"
+  },
+  {
+   "difficulty": "medium",
+   "stem": "A 58-year-old man on prednisolone 15mg daily for 10 months for polymyalgia rheumatica stops it abruptly. Four days later he is fatigued and hypotensive. Na 132, K 4.1, glucose 3.3. There is no hyperpigmentation.",
+   "lead": "Which set of results do you expect?",
+   "options": [
+    "ACTH high, aldosterone low, renin high",
+    "ACTH low, aldosterone normal, renin normal",
+    "ACTH high, aldosterone normal, renin normal",
+    "ACTH low, aldosterone low, renin high"
+   ],
+   "correct": 1,
+   "explanation": "This is <b>secondary</b> adrenal insufficiency from abrupt withdrawal of exogenous steroid. The pituitary is suppressed → <b>ACTH low</b>. But <b>aldosterone is ACTH-independent</b> — the zona glomerulosa runs on RAAS, so aldosterone and renin stay <b>normal</b>, which is exactly why his <b>potassium is normal (4.1)</b> and he has no pigmentation. Contrast with primary disease, where the whole cortex fails.",
+   "topic": "Endocrine — adrenal insufficiency",
+   "type": "discrimination"
+  },
+  {
+   "difficulty": "medium",
+   "stem": "A 65-year-old man with known peripheral vascular disease has hypertension and K 2.6. Renin activity is raised, aldosterone is raised, and the aldosterone/renin ratio is normal. A left renal bruit is audible.",
+   "lead": "What is the diagnosis?",
+   "options": [
+    "Conn's syndrome",
+    "Renal artery stenosis with secondary aldosteronism",
+    "Addison's disease",
+    "Cushing's syndrome"
+   ],
+   "correct": 1,
+   "explanation": "<b>Both</b> renin and aldosterone raised with a <b>normal ratio</b> = <b>secondary</b> aldosteronism. Reduced renal perfusion drives renin → angiotensin II → aldosterone, causing hypokalaemia and hypertension. Conn's requires <b>suppressed</b> renin and a <b>high</b> ratio. The bruit and vascular history point to the renal artery as the upstream driver.",
+   "topic": "Endocrine — aldosterone/renin axis",
+   "type": "discrimination"
+  },
+  {
+   "difficulty": "medium",
+   "stem": "A 29-year-old woman with Hashimoto's thyroiditis presents with vomiting, abdominal pain and confusion during a urinary tract infection. BP 80/48, Na 125, K 6.2, glucose 2.7. She has buccal pigmentation.",
+   "lead": "What is the immediate priority?",
+   "options": [
+    "IV hydrocortisone 100mg and IV saline",
+    "Await a random cortisol and ACTH before treating",
+    "IV fludrocortisone and oral glucose",
+    "IV antibiotics alone, then reassess"
+   ],
+   "correct": 0,
+   "explanation": "<b>Adrenal crisis</b> — treat immediately with <b>IV hydrocortisone and aggressive saline</b>; do not wait for confirmatory results. Buccal pigmentation indicates <b>primary</b> disease, and Hashimoto's suggests <b>autoimmune polyglandular syndrome type 2</b>. The UTI is the precipitant and needs treating, but not before the steroid and fluids. Fludrocortisone is redundant at stress-dose hydrocortisone.",
+   "topic": "Endocrine — adrenal insufficiency",
+   "type": "application"
+  },
+  {
+   "difficulty": "medium",
+   "stem": "A patient with suspected adrenal insufficiency has a short Synacthen test: baseline cortisol 210 nmol/L, 30-minute cortisol 390 nmol/L. The laboratory reference for an adequate response is >430 nmol/L at 30 minutes.",
+   "lead": "How do you interpret this?",
+   "options": [
+    "Normal adrenal reserve",
+    "Inadequate response — adrenal insufficiency is present",
+    "Uninterpretable without a 60-minute sample",
+    "Normal, since cortisol nearly doubled"
+   ],
+   "correct": 1,
+   "explanation": "The 30-minute value of <b>390 falls below the stated threshold of 430</b>, so the response is inadequate and adrenal insufficiency is confirmed. The <i>increment</i> is irrelevant — it is the absolute peak that matters. Note the question supplies the reference range, which is how a fair exam handles an assay-dependent cutoff. ACTH then localises: high = primary, low = secondary.",
+   "topic": "Endocrine — adrenal insufficiency",
+   "type": "application"
+  },
+  {
+   "difficulty": "hard",
+   "stem": "A 61-year-old man with small cell lung cancer develops hypertension, proximal weakness and oedema over 8 weeks. K 2.7, bicarbonate 33, glucose 13.4. He is not cushingoid in appearance.",
+   "lead": "What explains the hypokalaemia and alkalosis?",
+   "options": [
+    "Aldosterone excess from an adrenal adenoma",
+    "Very high cortisol saturating 11β-HSD2 and acting on mineralocorticoid receptors",
+    "Renal tubular acidosis",
+    "Aldosterone deficiency"
+   ],
+   "correct": 1,
+   "explanation": "<b>Ectopic ACTH</b> from small cell lung cancer produces extremely high cortisol, which <b>overwhelms 11β-HSD2</b> (the enzyme that normally inactivates cortisol in the kidney), letting cortisol act on mineralocorticoid receptors → <b>hypokalaemia and metabolic alkalosis</b>, plus hyperglycaemia from cortisol's insulin antagonism. The rapid course means classic Cushingoid features have not had time to develop — weakness, oedema and hypertension dominate.",
+   "topic": "Endocrine — adrenal insufficiency",
+   "type": "application"
+  },
+  {
+   "difficulty": "hard",
+   "stem": "A patient presents collapsed with hypotension. Na 130, K 4.0, glucose 2.9. There is no hyperpigmentation. He takes no regular medications and has no known endocrine disease.",
+   "lead": "Which finding would most strongly argue AGAINST established primary adrenal insufficiency?",
+   "options": [
+    "The hyponatraemia",
+    "The hypoglycaemia",
+    "The normal potassium",
+    "The absence of hyperpigmentation"
+   ],
+   "correct": 2,
+   "explanation": "<b>Normal potassium</b> is the mechanistically incompatible finding. Primary disease destroys the whole cortex including the zona glomerulosa, so aldosterone is lost and potassium <b>must</b> rise. Hyponatraemia and hypoglycaemia occur in <b>both</b> primary and secondary disease (cortisol deficiency), so neither discriminates. Absent pigmentation is suggestive but weaker — it takes months to develop, so early primary disease may have none.",
+   "topic": "Endocrine — adrenal insufficiency",
+   "type": "discrimination"
+  },
+  {
+   "difficulty": "hard",
+   "stem": "A patient in adrenal crisis has received IV hydrocortisone 100mg and 2L of saline. He improves. The intern asks whether fludrocortisone should now be added, given his aldosterone deficiency.",
+   "lead": "What is the correct response?",
+   "options": [
+    "Yes — add fludrocortisone 100mcg now",
+    "Yes — but only at double the usual dose",
+    "No — stress-dose hydrocortisone provides sufficient mineralocorticoid activity",
+    "No — fludrocortisone is contraindicated in adrenal insufficiency"
+   ],
+   "correct": 2,
+   "explanation": "At stress doses, <b>hydrocortisone itself has substantial mineralocorticoid activity</b> — roughly 40mg of hydrocortisone approximates a usual daily fludrocortisone dose, so at 100mg it is redundant. Fludrocortisone is resumed later as the hydrocortisone dose is weaned back to maintenance. It is not contraindicated — it is simply unnecessary right now, which makes option 4 wrong for a different reason than option 1.",
+   "topic": "Endocrine — adrenal insufficiency",
+   "type": "application"
+  }
+ ]
+}
