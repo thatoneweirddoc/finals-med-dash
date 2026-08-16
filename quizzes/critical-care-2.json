@@ -1,0 +1,176 @@
+{
+ "title": "Critical Care",
+ "system": "Critical Care",
+ "questions": [
+  {
+   "stem": "A patient in cardiac arrest is in ventricular fibrillation. Two shocks have been delivered without ROSC, and CPR continues.",
+   "lead": "Per ANZCOR, what is given now?",
+   "options": [
+    "Adrenaline 1mg, then every second loop",
+    "Amiodarone 300mg",
+    "Adrenaline 1mg after the next shock",
+    "Nothing until after the third shock",
+    "Calcium gluconate 10mL of 10%"
+   ],
+   "correct": 0,
+   "explanation": "<b>ANZCOR gives adrenaline 1mg after the SECOND shock</b> in shockable rhythms, then every second loop. Amiodarone 300mg follows after the <b>third</b>. Note the regional trap: <b>ERC/UK guidance says adrenaline after the third shock</b> — as an Australian candidate, answer ANZCOR. In non-shockable rhythms adrenaline is given as soon as feasible instead.",
+   "point": "ANZCOR gives adrenaline after the second shock and amiodarone after the third in shockable cardiac arrest.",
+   "topic": "Critical Care — ALS medications",
+   "type": "recall",
+   "difficulty": "easy"
+  },
+  {
+   "stem": "A 60kg woman sustains burns to 25% total body surface area. She presents 3 hours after the injury.",
+   "lead": "Using the Parkland formula, how much crystalloid should she receive in the first 8 hours from the time of injury, and how much remains to be given in that window?",
+   "options": [
+    "6000mL total; 3000mL in the first 8 hours, of which 3000mL remains over 5 hours",
+    "3000mL total; 1500mL in the first 8 hours, of which 1500mL remains over 5 hours",
+    "6000mL total; all in the first 8 hours",
+    "1500mL total; half over 8 hours",
+    "12000mL total; 6000mL in the first 8 hours"
+   ],
+   "correct": 0,
+   "explanation": "<b>4mL × 60kg × 25% = 6000mL</b> in 24 hours, with <b>half (3000mL) in the first 8 hours measured from the time of INJURY</b>, not presentation. She is 3 hours in, so that 3000mL must run over the remaining 5 hours. The remaining 3000mL follows over the next 16 hours. Titrate to urine output 0.5-1mL/kg/hr rather than following the formula blindly.",
+   "point": "Parkland gives 4mL per kg per percent TBSA, with half in the first 8 hours measured from the time of injury.",
+   "topic": "Critical Care — burns resuscitation",
+   "type": "application",
+   "difficulty": "hard"
+  },
+  {
+   "stem": "A 55-year-old man with septic shock is on noradrenaline at escalating dose. MAP is 62mmHg despite adequate fluid resuscitation. He has no adrenal history.",
+   "lead": "What is the most appropriate next step?",
+   "options": [
+    "Add vasopressin",
+    "Add dopamine",
+    "Switch to phenylephrine",
+    "Give a further 30mL/kg fluid bolus",
+    "Start hydrocortisone as first-line"
+   ],
+   "correct": 0,
+   "explanation": "<b>Vasopressin is second-line</b>, added to noradrenaline for its noradrenaline-sparing effect. <b>Dopamine is specifically NOT recommended</b> — higher arrhythmia rates and worse outcomes. Adrenaline is third-line. Hydrocortisone is considered in <b>refractory</b> shock requiring ongoing vasopressors, not as the next step here. Repeating a full 30mL/kg bolus without reassessing risks fluid overload.",
+   "point": "In septic shock the vasopressor order is noradrenaline, then vasopressin, then adrenaline; dopamine is not recommended.",
+   "topic": "Critical Care — vasopressors",
+   "type": "recall",
+   "difficulty": "easy"
+  },
+  {
+   "stem": "A ventilated patient becomes acutely hypotensive and hypoxic. Peak airway pressure has risen sharply; plateau pressure has risen by the same amount. Breath sounds are absent on the right with tracheal deviation to the left.",
+   "lead": "What does the pressure pattern indicate, and what is the diagnosis?",
+   "options": [
+    "Airway resistance problem; bronchospasm",
+    "Compliance problem; tension pneumothorax",
+    "Airway resistance problem; blocked ETT",
+    "Compliance problem; pulmonary oedema",
+    "Circuit disconnection"
+   ],
+   "correct": 1,
+   "explanation": "<b>Peak AND plateau rising together indicates a compliance problem</b>; peak rising alone with plateau unchanged indicates airway resistance (bronchospasm, secretions, blocked tube). The clinical picture — absent breath sounds with tracheal deviation and haemodynamic collapse — makes this <b>tension pneumothorax</b>, requiring immediate needle decompression. Pulmonary oedema also reduces compliance but does not deviate the trachea.",
+   "point": "Peak and plateau pressures rising together indicate a compliance problem; peak alone indicates airway resistance.",
+   "topic": "Critical Care — ventilator troubleshooting",
+   "type": "application",
+   "difficulty": "hard"
+  },
+  {
+   "stem": "A 40-year-old man is brought in after a house fire. He has facial burns, singed nasal hairs, hoarseness and carbonaceous sputum. He is currently maintaining his airway and speaking.",
+   "lead": "What is the most appropriate action?",
+   "options": [
+    "Observe closely with humidified oxygen",
+    "Early intubation before airway oedema develops",
+    "Nebulised adrenaline and reassess in 2 hours",
+    "Await fibreoptic assessment before deciding",
+    "High-dose corticosteroids"
+   ],
+   "correct": 1,
+   "explanation": "Facial burns, singed nasal hairs, hoarseness and carbonaceous sputum predict <b>rapidly progressive airway oedema</b>. Intubation is performed <b>early and electively</b>, while it is still straightforward — waiting until stridor or distress appears means attempting a technically difficult airway in a swollen, distorted patient. That he is currently talking is not reassurance; it is the window. Also consider carbon monoxide and cyanide toxicity.",
+   "point": "Inhalational burn injury with hoarseness or carbonaceous sputum requires early elective intubation before oedema makes the airway impassable.",
+   "topic": "Critical Care — burns resuscitation",
+   "type": "application",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A patient with a severe traumatic brain injury has an ICP of 26mmHg and MAP of 70mmHg.",
+   "lead": "What is the cerebral perfusion pressure, and what does it imply?",
+   "options": [
+    "44mmHg — below target, needs MAP support or ICP reduction",
+    "96mmHg — adequate",
+    "26mmHg — critically low",
+    "70mmHg — adequate",
+    "44mmHg — adequate, no action needed"
+   ],
+   "correct": 0,
+   "explanation": "<b>CPP = MAP − ICP = 70 − 26 = 44mmHg</b>, well below the usual target of <b>60-70mmHg</b>. Management raises MAP (fluids, vasopressors) and lowers ICP (head elevation, sedation, hyperosmolar therapy). This is exactly why <b>permissive hypotension is contraindicated in head injury</b> — dropping MAP starves an already compromised brain.",
+   "point": "Cerebral perfusion pressure is MAP minus ICP, with a target of 60-70mmHg.",
+   "topic": "Critical Care — neurocritical care",
+   "type": "application",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A 30-year-old presents 6 hours after a staggered paracetamol overdose taken over 12 hours. She is asymptomatic. Paracetamol level is below the treatment nomogram line.",
+   "lead": "What is the correct management?",
+   "options": [
+    "Discharge — the level is below the treatment line",
+    "Commence N-acetylcysteine regardless of the level",
+    "Activated charcoal",
+    "Repeat the level in 4 hours and decide then",
+    "Await LFTs before deciding"
+   ],
+   "correct": 1,
+   "explanation": "The <b>treatment nomogram does not apply to staggered ingestions</b> — it is validated only for a single acute overdose with a known time. In a staggered or unknown-timing overdose, <b>start NAC regardless of the level</b> and be guided by LFTs, INR and paracetamol concentration. Discharging on a 'reassuring' nomogram reading is the trap the question is built on.",
+   "point": "The paracetamol treatment nomogram applies only to single acute ingestions, not staggered overdoses, where NAC is started regardless of level.",
+   "topic": "Critical Care — toxicology",
+   "type": "discrimination",
+   "difficulty": "hard"
+  },
+  {
+   "stem": "A patient in ICU has been on a propofol infusion at 5mg/kg/hr for 3 days. He develops a rising lactate, metabolic acidosis, rhabdomyolysis, hyperkalaemia and new bradyarrhythmia.",
+   "lead": "What is the diagnosis and immediate action?",
+   "options": [
+    "Sepsis; escalate antibiotics",
+    "Propofol infusion syndrome; stop the propofol immediately",
+    "Malignant hyperthermia; give dantrolene",
+    "Neuroleptic malignant syndrome; stop antipsychotics",
+    "Serotonin syndrome; give cyproheptadine"
+   ],
+   "correct": 1,
+   "explanation": "<b>Propofol infusion syndrome</b> — associated with doses above 4mg/kg/hr for longer than 48 hours. The combination of metabolic acidosis, rhabdomyolysis, hyperkalaemia, cardiac failure and bradyarrhythmia is characteristic. <b>Immediate cessation of propofol</b> plus supportive care. Malignant hyperthermia follows volatile anaesthetics or suxamethonium with hyperthermia and masseter spasm, which is not the picture here.",
+   "point": "Propofol infusion syndrome follows doses above 4mg/kg/hr beyond 48 hours and requires immediate cessation of propofol.",
+   "topic": "Critical Care — sedation complications",
+   "type": "discrimination",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A patient with acute severe pancreatitis is in ICU on day 3, haemodynamically stable, with a functioning gut.",
+   "lead": "What is the appropriate nutritional approach?",
+   "options": [
+    "Nil by mouth to rest the pancreas",
+    "Early enteral nutrition",
+    "Total parenteral nutrition",
+    "Clear fluids only for 7 days",
+    "Delay all nutrition until amylase normalises"
+   ],
+   "correct": 1,
+   "explanation": "<b>Early enteral nutrition</b> is preferred, within 24-48 hours in a haemodynamically stable patient — it maintains gut mucosal integrity and reduces infectious complications and mortality compared with parenteral feeding. 'Resting the pancreas' with prolonged fasting is outdated. TPN is reserved for when the enteral route fails or is contraindicated.",
+   "point": "Acute pancreatitis is fed early by the enteral route; resting the gut with prolonged fasting is outdated.",
+   "topic": "Critical Care — ICU nutrition",
+   "type": "recall",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "An intubated ICU patient is being assessed daily for extubation readiness. He is haemodynamically stable on minimal support.",
+   "lead": "Which combination best predicts successful extubation?",
+   "options": [
+    "A daily sedation hold with a spontaneous breathing trial",
+    "A normal chest X-ray",
+    "Absence of fever for 48 hours",
+    "A negative fluid balance over 24 hours",
+    "Normal serum albumin"
+   ],
+   "correct": 0,
+   "explanation": "<b>Daily sedation interruption paired with a spontaneous breathing trial</b> shortens ventilation duration and ICU stay, and is the standard readiness assessment. Adequate cough, manageable secretions, resolving underlying pathology, and a cuff leak all matter too. Imaging, fever curves and albumin do not predict extubation success and are distractors here.",
+   "point": "Daily sedation interruption combined with a spontaneous breathing trial is the standard assessment of extubation readiness.",
+   "topic": "Critical Care — mechanical ventilation",
+   "type": "recall",
+   "difficulty": "medium"
+  }
+ ]
+}
