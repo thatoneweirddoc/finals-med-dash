@@ -14,7 +14,12 @@ This is not pedantry. Misattribution in this genre is the norm, not the exceptio
 the six lines most obviously worth including, **five were wrong** (see the rejected
 list below), and every one of them is confidently repeated across hundreds of pages.
 
-## Verified and awaiting approval
+## Installed — approved by Fadi, 16 Aug 2026
+
+All sixteen are live. Each is shown with its attribution beneath the line, because the
+attribution is the safeguard: a quotation displayed bare is one that can quietly drift
+back into being misattributed. A no-repeat guard stops the same line appearing twice in
+a row.
 
 Each was traced to a primary work and then actively checked for misattribution.
 
@@ -54,5 +59,16 @@ it is from a 1942 letter to Joë Bousquet. The attribution above is the correct 
 
 ## Removed
 
-`'Helena was right about the long exhale.'` — removed 16 Aug 2026 at Fadi's request. It
-referred to a person and had no place here.
+- `'Helena was right about the long exhale.'` — removed 16 Aug 2026 at Fadi's request.
+  It referred to a person and had no place here.
+- The five generic encouragements that preceded these ("Tired is not the same as
+  unprepared", "Steady beats frantic, every time", and three others). Replaced rather
+  than supplemented, since the brief was that captions come from philosophers and
+  theologians on study and knowledge.
+
+## Verified in the browser, not by eye
+
+All sixteen were rendered into the real caption element at 390x844 and measured: none
+overflows the viewport (tallest is 273px against 844), all carry an attribution, and
+200 consecutive picks produced all sixteen with zero back-to-back repeats. The longest
+line — Weil on twenty minutes of attention — is the worst case and fits.

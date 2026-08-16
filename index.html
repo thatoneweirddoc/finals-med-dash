@@ -651,6 +651,15 @@
 
   .brk-cap{font-family:var(--serif);font-size:22px;line-height:1.45;max-width:34ch;
     color:var(--ink)}
+  /* The attribution is the point — these are real quotations traced to a named
+     primary work, and showing the source is what keeps a misattribution from
+     quietly creeping back in. Sized well down so it reads as a footnote, not as
+     a second sentence competing with the line above it. */
+  .brk-who{font-family:var(--mono);font-size:10.5px;letter-spacing:.06em;
+    text-transform:uppercase;color:var(--ink-2);max-width:34ch;margin-top:14px}
+  /* A long quotation at 22px overflows a small phone. Scale the line down but
+     leave the attribution alone — it is already at its floor. */
+  @media (max-width:420px){ .brk-cap{font-size:19px;max-width:30ch} }
 
   /* Reduced motion: the orb stops animating, the words and count still carry the
      pacing. The exercise works without movement; it just shouldn't lurch. */
@@ -1015,6 +1024,7 @@
 
     <div class="brk-end" id="brkEnd" hidden>
       <div class="brk-cap" id="brkCap"></div>
+      <div class="brk-who" id="brkWho"></div>
       <button class="act" id="brkBack2" type="button">Go back to the page</button>
     </div>
   </div>
@@ -3134,12 +3144,51 @@ const BRK_CYCLES = 2;
  * in no extant work) were all proposed and all rejected on checking.
  * Do NOT add an entry you cannot cite. See docs/break-captions.md. */
 const BRK_CAPTIONS = [
-  'Nothing about the exam changed in the last ninety seconds. Your head is just quieter.',
-  'You know more than you did last week. Go back when you\'re ready.',
-  'Tired is not the same as unprepared.',
-  'That\'s enough for now. Pick one thing and start there.',
-  'Steady beats frantic, every time.'
+  { t:'Enter not straightway into the ocean, but by way of the little streams.',
+    w:'Thomas Aquinas, Letter to Brother John' },
+  { t:'What you read, set about to understand, verifying what is doubtful.',
+    w:'Thomas Aquinas, Letter to Brother John' },
+  { t:'Do not heed by whom a thing is said, but rather what is said commit to your memory.',
+    w:'Thomas Aquinas, Letter to Brother John' },
+  { t:'The study of philosophy is not that we may know what men have thought, but what the truth of things is.',
+    w:'Thomas Aquinas, Commentary on Aristotle\u2019s On the Heavens' },
+  { t:'All men by nature desire to know.',
+    w:'Aristotle, Metaphysics I.1' },
+  { t:'Everywhere means nowhere.',
+    w:'Seneca, Letters to Lucilius 2' },
+  { t:'Let us so seek as if we should find, and so find as if we were about to seek.',
+    w:'Augustine, On the Trinity IX.1' },
+  { t:'The beginning of discipline is humility.',
+    w:'Hugh of St Victor, Didascalicon III' },
+  { t:'Do not strike into a lot of by-ways until you know the main roads.',
+    w:'Hugh of St Victor, Didascalicon III' },
+  { t:'Some wish to know only in order to know: that is shameful curiosity.',
+    w:'Bernard of Clairvaux, Sermons on the Song of Songs 36' },
+  { t:'Never is a genuine effort of the attention wasted.',
+    w:'Simone Weil, Reflections on the Right Use of School Studies' },
+  { t:'Twenty minutes of concentrated, untired attention is infinitely better than three hours of frowning application.',
+    w:'Simone Weil, Reflections on the Right Use of School Studies' },
+  { t:'Attention is an effort, the greatest of all efforts perhaps, but it is a negative effort.',
+    w:'Simone Weil, Reflections on the Right Use of School Studies' },
+  { t:'Attention is the rarest and purest form of generosity.',
+    w:'Simone Weil, letter to Jo\u00eb Bousquet, 1942' },
+  { t:'All the unhappiness of men arises from one single fact, that they cannot stay quietly in their own chamber.',
+    w:'Blaise Pascal, Pens\u00e9es 139' },
+  { t:'A great memory does not make a philosopher, any more than a dictionary can be called a grammar.',
+    w:'John Henry Newman, The Idea of a University VI' }
 ];
+
+/* Don't show the same line twice running. With 16 entries a plain random pick
+   repeats often enough to be noticeable, and a repeat reads as though the page
+   is broken rather than as though it chose. */
+let BRK_LAST = -1;
+function brkPickCaption(){
+  if(BRK_CAPTIONS.length < 2) return BRK_CAPTIONS[0];
+  let i;
+  do { i = Math.floor(Math.random() * BRK_CAPTIONS.length); } while(i === BRK_LAST);
+  BRK_LAST = i;
+  return BRK_CAPTIONS[i];
+}
 
 let BRK = { raf:null, startedAt:0, phase:0, cycle:0, running:false, prevFocus:null };
 
@@ -3206,7 +3255,9 @@ function brkFinish(){
   if(BRK.raf) cancelAnimationFrame(BRK.raf);
   $('brkStage').hidden = true;
   $('brkEnd').hidden = false;
-  $('brkCap').textContent = BRK_CAPTIONS[Math.floor(Math.random() * BRK_CAPTIONS.length)];
+  const cap = brkPickCaption();
+  $('brkCap').textContent = cap.t;
+  $('brkWho').textContent = cap.w;
   $('brkBack2').focus();
 }
 
