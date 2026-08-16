@@ -3,6 +3,11 @@
 Written 14 Aug 2026, 31 days out. This delineates the work rather than starting it.
 Nothing here is built yet.
 
+> **Before starting a system, read `docs/system-build-playbook.md`.** It has the fixed
+> order of operations, the pre-flight checks, the error taxonomy from 155 verified
+> corrections, and the hardened agent prompt templates. It exists because the same
+> process mistakes kept recurring across builds.
+
 ---
 
 ## The diagnosis: "thin" correlates exactly with "never ran the pipeline"
