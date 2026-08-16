@@ -1,0 +1,346 @@
+{
+ "title": "Anaesthetics",
+ "system": "Anaesthetics",
+ "questions": [
+  {
+   "stem": "A 68-year-old man with stable angina, controlled hypertension and a 40 pack-year history is booked for elective inguinal hernia repair. He can climb two flights of stairs without stopping.",
+   "lead": "What is his ASA physical status classification?",
+   "options": [
+    "ASA I",
+    "ASA II",
+    "ASA III",
+    "ASA IV",
+    "ASA V"
+   ],
+   "correct": 2,
+   "explanation": "<b>ASA III = severe systemic disease that is not an immediate threat to life</b>. Stable angina qualifies as severe systemic disease. ASA I is a healthy patient; ASA II is mild systemic disease (controlled hypertension alone, smoking, obesity); ASA IV is severe disease that is a constant threat to life (unstable angina, recent MI); ASA V is moribund. His functional capacity of >4 METs is reassuring for risk but does not change the ASA class.",
+   "point": "ASA III is severe systemic disease that is not an immediate threat to life, such as stable angina.",
+   "topic": "Anaesthetics — preoperative assessment",
+   "type": "application",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A patient is assessed preoperatively. She has a short thick neck, limited neck extension, and you can see only the soft palate and base of uvula on mouth opening with tongue protrusion.",
+   "lead": "What is her Mallampati class and what does it suggest?",
+   "options": [
+    "Class I — easy intubation expected",
+    "Class II — easy intubation expected",
+    "Class III — potentially difficult intubation",
+    "Class IV — potentially difficult intubation",
+    "Mallampati does not assess intubation difficulty"
+   ],
+   "correct": 2,
+   "explanation": "<b>Mallampati III: soft palate and base of uvula visible only</b>. Class I sees soft palate, fauces, uvula and pillars; class II loses the pillars; class IV sees hard palate only. Class III-IV predicts potentially difficult laryngoscopy, especially combined with limited neck extension and a short neck. No single test is reliable alone — combine with thyromental distance, mouth opening and history.",
+   "point": "Mallampati III shows only the soft palate and base of uvula and predicts potentially difficult intubation.",
+   "topic": "Anaesthetics — airway assessment",
+   "type": "recall",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "An adult is scheduled for elective surgery on a morning list.",
+   "lead": "What are the standard preoperative fasting times?",
+   "options": [
+    "6 hours for solids, 2 hours for clear fluids",
+    "12 hours for solids, 6 hours for clear fluids",
+    "4 hours for solids, 1 hour for clear fluids",
+    "8 hours for everything including water",
+    "2 hours for solids, nil for fluids"
+   ],
+   "correct": 0,
+   "explanation": "<b>6 hours for solids and 2 hours for clear fluids</b> is the standard adult regimen (ANZCA). Prolonged fasting causes dehydration, hypoglycaemia and discomfort without reducing aspiration risk, and clear fluids up to 2 hours is actively encouraged. Breast milk is 4 hours in infants, formula 6 hours.",
+   "point": "Adult preoperative fasting is 6 hours for solids and 2 hours for clear fluids.",
+   "topic": "Anaesthetics — preoperative preparation",
+   "type": "recall",
+   "difficulty": "easy"
+  },
+  {
+   "stem": "Thirty minutes into a general anaesthetic using sevoflurane and suxamethonium, a patient develops a rising end-tidal CO2 despite increased ventilation, masseter spasm, generalised rigidity, tachycardia and a temperature of 39.4°C.",
+   "lead": "What is the diagnosis and the specific treatment?",
+   "options": [
+    "Sepsis; broad-spectrum antibiotics",
+    "Malignant hyperthermia; dantrolene",
+    "Neuroleptic malignant syndrome; bromocriptine",
+    "Thyroid storm; propylthiouracil",
+    "Serotonin syndrome; cyproheptadine"
+   ],
+   "correct": 1,
+   "explanation": "<b>Malignant hyperthermia</b> — an inherited ryanodine receptor disorder triggered by <b>volatile agents and suxamethonium</b>. The earliest and most sensitive sign is a <b>rising end-tidal CO2 unresponsive to increased ventilation</b>; hyperthermia is a late sign. Treatment: stop the trigger, 100% oxygen, <b>dantrolene 2.5mg/kg</b> repeated as needed, active cooling, treat hyperkalaemia and arrhythmias, monitor for rhabdomyolysis.",
+   "point": "Malignant hyperthermia is triggered by volatile agents and suxamethonium, and rising end-tidal CO2 is the earliest sign; treatment is dantrolene.",
+   "topic": "Anaesthetics — complications",
+   "type": "application",
+   "difficulty": "easy"
+  },
+  {
+   "stem": "A patient with a penetrating eye injury and a full stomach requires emergency surgery. Suxamethonium is being considered.",
+   "lead": "What is the principal concern?",
+   "options": [
+    "It raises intraocular pressure and may extrude ocular contents",
+    "It causes prolonged paralysis in all patients",
+    "It has no effect on intraocular pressure",
+    "It is contraindicated because of the full stomach",
+    "It cannot be used for rapid sequence induction"
+   ],
+   "correct": 0,
+   "explanation": "Suxamethonium <b>raises intraocular pressure</b> via extraocular muscle fasciculation, risking extrusion of vitreous in an open globe. Rocuronium at RSI dose (1.2mg/kg) is the usual alternative, with sugammadex available for reversal. Suxamethonium's other contraindications: hyperkalaemia, burns and crush injury beyond 24-48 hours, denervation injury, and personal or family history of malignant hyperthermia.",
+   "point": "Suxamethonium raises intraocular pressure and is avoided in open globe injury; rocuronium with sugammadex is the alternative.",
+   "topic": "Anaesthetics — pharmacology",
+   "type": "discrimination",
+   "difficulty": "hard"
+  },
+  {
+   "stem": "A 25-year-old woman is undergoing rapid sequence induction for emergency appendicectomy.",
+   "lead": "Which sequence best describes RSI?",
+   "options": [
+    "Preoxygenation, induction agent and fast-acting muscle relaxant given together, cricoid pressure, no bag-mask ventilation, prompt intubation",
+    "Preoxygenation, induction agent, several minutes of bag-mask ventilation, then relaxant",
+    "Awake fibreoptic intubation",
+    "Inhalational induction with sevoflurane",
+    "Induction agent alone with spontaneous ventilation maintained"
+   ],
+   "correct": 0,
+   "explanation": "RSI minimises the window in which an unprotected airway can aspirate: <b>preoxygenate, give induction agent and fast-acting relaxant in quick succession, avoid bag-mask ventilation (which insufflates the stomach), intubate promptly and inflate the cuff</b>. Cricoid pressure is traditional though increasingly debated. It is used when the stomach is not empty — emergency surgery, pregnancy, reflux, bowel obstruction, trauma.",
+   "point": "Rapid sequence induction avoids bag-mask ventilation to prevent gastric insufflation and aspiration.",
+   "topic": "Anaesthetics — general anaesthesia",
+   "type": "recall",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A patient receiving a large-volume local anaesthetic block develops perioral tingling, tinnitus and agitation, then a generalised seizure and broad-complex bradycardia.",
+   "lead": "What is the specific treatment?",
+   "options": [
+    "Intravenous lipid emulsion",
+    "Intravenous calcium gluconate",
+    "Sodium bicarbonate",
+    "Flumazenil",
+    "Naloxone"
+   ],
+   "correct": 0,
+   "explanation": "<b>Local anaesthetic systemic toxicity (LAST)</b>. CNS signs come first — perioral tingling, tinnitus, metallic taste, agitation, then seizures — followed by cardiovascular collapse, with <b>bupivacaine the most cardiotoxic</b>. Treatment is stopping injection, airway and seizure control, and <b>20% intravenous lipid emulsion</b>, which sequesters the drug. Prolonged CPR may be needed as the lipid works.",
+   "point": "Local anaesthetic systemic toxicity is treated with 20% intravenous lipid emulsion.",
+   "topic": "Anaesthetics — regional anaesthesia",
+   "type": "recall",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A 70kg patient is to have a wound infiltrated with lidocaine 1% (10mg/mL) WITHOUT adrenaline.",
+   "lead": "What is the approximate maximum safe volume?",
+   "options": [
+    "21mL",
+    "49mL",
+    "70mL",
+    "140mL",
+    "10mL"
+   ],
+   "correct": 0,
+   "explanation": "Maximum lidocaine <b>without</b> adrenaline is <b>3mg/kg</b> = 210mg for 70kg. At 10mg/mL that is <b>21mL</b>. <b>With</b> adrenaline the limit rises to about 7mg/kg (490mg = 49mL) because vasoconstriction slows systemic absorption. Knowing both the mg/kg limit and the concentration conversion is the point — a 1% solution is 10mg/mL.",
+   "point": "Maximum lidocaine is 3mg/kg without adrenaline and about 7mg/kg with it; a 1% solution contains 10mg/mL.",
+   "topic": "Anaesthetics — regional anaesthesia",
+   "type": "application",
+   "difficulty": "hard"
+  },
+  {
+   "stem": "A patient is in recovery after a laparoscopic cholecystectomy under general anaesthesia. She has severe nausea and vomiting. She is a non-smoking young woman with previous PONV and received intraoperative opioids.",
+   "lead": "How many Apfel risk factors does she have?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "0"
+   ],
+   "correct": 3,
+   "explanation": "The <b>Apfel score</b> counts four: <b>female sex, non-smoker, history of PONV or motion sickness, and postoperative opioid use</b> — she has all <b>four</b>, giving roughly 80% risk. Management is multimodal prophylaxis with agents from different classes (ondansetron, dexamethasone, droperidol), opioid-sparing analgesia, and adequate hydration.",
+   "point": "The four Apfel risk factors for postoperative nausea are female sex, non-smoker, prior PONV or motion sickness, and postoperative opioids.",
+   "topic": "Anaesthetics — postoperative care",
+   "type": "application",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "An elderly patient becomes hypotensive with a BP of 76/40 fifteen minutes after a spinal anaesthetic for hip surgery. Heart rate is 48.",
+   "lead": "What is the mechanism and initial management?",
+   "options": [
+    "Sympathetic blockade causing vasodilatation and bradycardia; fluids and a vasopressor such as metaraminol or ephedrine",
+    "Anaphylaxis; IM adrenaline",
+    "Haemorrhage; transfuse",
+    "Local anaesthetic systemic toxicity; lipid emulsion",
+    "Vasovagal syncope; reassurance"
+   ],
+   "correct": 0,
+   "explanation": "Spinal anaesthesia blocks sympathetic outflow, causing <b>vasodilatation with reduced preload and afterload</b>; a block above T4 also blocks the cardiac accelerator fibres (T1-T4), producing <b>bradycardia</b>. Treatment is fluids plus a vasopressor — <b>ephedrine or metaraminol</b>, with atropine for significant bradycardia. There is no rash or bronchospasm to suggest anaphylaxis and no bleeding described.",
+   "point": "Spinal anaesthesia causes hypotension through sympathetic blockade, with bradycardia if the block reaches the cardiac accelerator fibres at T1-T4.",
+   "topic": "Anaesthetics — regional anaesthesia",
+   "type": "application",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A patient on long-term prednisolone 20mg daily for polymyalgia rheumatica presents for emergency laparotomy.",
+   "lead": "What additional perioperative management is required?",
+   "options": [
+    "Stress-dose corticosteroid cover",
+    "Cease steroids to reduce infection risk",
+    "Halve the usual dose",
+    "Switch to inhaled corticosteroid",
+    "No change is needed"
+   ],
+   "correct": 0,
+   "explanation": "Long-term exogenous steroid suppresses the HPA axis, so the adrenal cannot mount the cortisol surge major surgery demands — without <b>stress-dose hydrocortisone cover</b> she risks intraoperative adrenal crisis with refractory hypotension. Stopping abruptly is precisely wrong. This is the surgical face of secondary adrenal insufficiency.",
+   "point": "Patients on long-term corticosteroids require stress-dose cover for major surgery because the suppressed HPA axis cannot mount a cortisol response.",
+   "topic": "Anaesthetics — preoperative assessment",
+   "type": "application",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "Two hours after an uneventful general anaesthetic, a patient remains drowsy with a respiratory rate of 7 and pinpoint pupils. She received morphine intraoperatively.",
+   "lead": "What is the most appropriate management?",
+   "options": [
+    "Titrated naloxone to respiratory rate",
+    "Full-dose naloxone 0.4mg immediately",
+    "Flumazenil",
+    "Doxapram",
+    "Observation alone"
+   ],
+   "correct": 0,
+   "explanation": "Opioid-induced respiratory depression is reversed with <b>naloxone titrated in small increments to respiratory rate, not to full consciousness</b> — a full dose reverses analgesia entirely and can precipitate severe pain, hypertension and, in dependent patients, acute withdrawal. Naloxone's half-life is shorter than most opioids, so <b>monitor for re-sedation</b>. Flumazenil reverses benzodiazepines, not opioids.",
+   "point": "Naloxone is titrated in small increments to respiratory rate rather than consciousness, and re-sedation must be anticipated.",
+   "topic": "Anaesthetics — postoperative care",
+   "type": "application",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A patient is scheduled for surgery and reports that a family member died unexpectedly during an anaesthetic in their twenties, with a high fever.",
+   "lead": "What is the most important consequence for planning?",
+   "options": [
+    "Avoid volatile agents and suxamethonium; use a total intravenous technique",
+    "Avoid all regional anaesthesia",
+    "Postpone surgery indefinitely",
+    "Use suxamethonium but pretreat with dantrolene",
+    "Family history is not relevant to anaesthetic planning"
+   ],
+   "correct": 0,
+   "explanation": "That history suggests <b>malignant hyperthermia</b>, inherited in an autosomal dominant pattern. Plan a <b>trigger-free anaesthetic</b> — avoid all volatile agents and suxamethonium, use total intravenous anaesthesia with a clean machine or vapour-free circuit, and have dantrolene available. Prophylactic dantrolene is not given routinely. Referral for genetic or contracture testing is appropriate.",
+   "point": "A family history of unexplained anaesthetic death with fever suggests malignant hyperthermia and requires a trigger-free technique.",
+   "topic": "Anaesthetics — complications",
+   "type": "application",
+   "difficulty": "hard"
+  },
+  {
+   "stem": "A patient is being monitored during general anaesthesia. Which parameter is the most reliable indicator that the tracheal tube is correctly placed in the trachea?",
+   "lead": "Select the best answer.",
+   "options": [
+    "Sustained waveform capnography showing exhaled CO2 over several breaths",
+    "Chest rise on ventilation",
+    "Auscultation of both lung fields",
+    "Misting in the tube",
+    "Oxygen saturation remaining above 95%"
+   ],
+   "correct": 0,
+   "explanation": "<b>Sustained waveform capnography</b> is the gold standard for confirming tracheal placement — an oesophageal tube may give one or two spurious CO2 traces from gastric gas but will not sustain a normal waveform. Chest rise, auscultation, misting and saturation are all supportive but individually unreliable; saturation in particular is a <b>late</b> indicator because preoxygenation delays desaturation.",
+   "point": "Sustained waveform capnography is the gold standard for confirming tracheal tube placement.",
+   "topic": "Anaesthetics — monitoring",
+   "type": "discrimination",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "An 82-year-old woman having a hip fracture repair is at risk of postoperative delirium.",
+   "lead": "Which strategy best reduces that risk?",
+   "options": [
+    "Multicomponent prevention: orientation, early mobilisation, hearing and visual aids, sleep hygiene, hydration, and avoiding deliriogenic drugs",
+    "Routine prophylactic haloperidol",
+    "Deep sedation to prevent distress",
+    "Routine physical restraint at night",
+    "Prophylactic benzodiazepines"
+   ],
+   "correct": 0,
+   "explanation": "<b>Multicomponent non-pharmacological prevention</b> has the best evidence — reorientation, early mobilisation, restoring glasses and hearing aids, sleep hygiene, hydration, pain control, and avoiding anticholinergics and benzodiazepines. <b>Benzodiazepines and deep sedation increase delirium risk</b>. Antipsychotics are reserved for severe distress or risk, not prophylaxis, and restraint worsens outcomes.",
+   "point": "Postoperative delirium is prevented by multicomponent non-pharmacological measures, not by prophylactic antipsychotics or sedation.",
+   "topic": "Anaesthetics — postoperative care",
+   "type": "application",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A patient develops sudden hypotension, bronchospasm, urticaria and difficulty ventilating shortly after induction with a neuromuscular blocking agent.",
+   "lead": "What is the immediate management?",
+   "options": [
+    "IM or IV adrenaline, stop the suspected agent, fluids and airway support",
+    "IV hydrocortisone alone",
+    "Nebulised salbutamol alone",
+    "Antihistamine and observation",
+    "Increase the volatile agent"
+   ],
+   "correct": 0,
+   "explanation": "<b>Perioperative anaphylaxis</b> — neuromuscular blocking agents are the commonest anaesthetic trigger, with antibiotics and chlorhexidine also frequent. Treatment is <b>adrenaline</b> (IV in titrated boluses in this monitored setting), stopping the trigger, 100% oxygen, and aggressive fluids. Steroids and antihistamines are adjuncts with no role in immediate reversal. Take <b>serial mast cell tryptase</b> samples and refer for allergy testing.",
+   "point": "Neuromuscular blocking agents are the commonest trigger of perioperative anaphylaxis, and adrenaline is the immediate treatment.",
+   "topic": "Anaesthetics — complications",
+   "type": "application",
+   "difficulty": "easy"
+  },
+  {
+   "stem": "A patient having elective surgery has a potassium of 6.4 mmol/L (normal 3.5-5.2) on preoperative bloods, with peaked T waves on ECG.",
+   "lead": "What is the most appropriate action?",
+   "options": [
+    "Postpone surgery and treat the hyperkalaemia",
+    "Proceed but avoid suxamethonium",
+    "Proceed with regional anaesthesia instead",
+    "Proceed and correct intraoperatively",
+    "Repeat the sample and proceed if lower"
+   ],
+   "correct": 0,
+   "explanation": "Significant hyperkalaemia with <b>ECG changes</b> before <b>elective</b> surgery means <b>postponing and treating</b> — calcium to stabilise the myocardium, then insulin-dextrose and salbutamol to shift, then removal. Anaesthesia and surgery both risk further potassium rise, and suxamethonium is absolutely contraindicated. Proceeding regardless is only considered for genuinely emergency surgery, and then with active correction.",
+   "point": "Elective surgery is postponed for hyperkalaemia with ECG changes, and suxamethonium is contraindicated.",
+   "topic": "Anaesthetics — preoperative assessment",
+   "type": "application",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A patient reports having been aware during a previous general anaesthetic, recalling conversation but unable to move or signal.",
+   "lead": "Which monitoring approach most directly addresses this risk?",
+   "options": [
+    "Processed EEG depth-of-anaesthesia monitoring, and end-tidal volatile agent monitoring with adequate dosing",
+    "Pulse oximetry",
+    "Invasive arterial pressure monitoring",
+    "Neuromuscular monitoring alone",
+    "Temperature monitoring"
+   ],
+   "correct": 0,
+   "explanation": "<b>Accidental awareness under general anaesthesia</b> is most likely when neuromuscular blockade masks movement. Risk is reduced by ensuring adequate anaesthetic depth — <b>end-tidal volatile concentration monitoring with an adequate MAC</b>, and <b>processed EEG</b> (BIS) particularly during total intravenous anaesthesia where no gas concentration can be measured. Risk factors include TIVA with paralysis, RSI, cardiac and obstetric surgery.",
+   "point": "Awareness under anaesthesia is reduced by monitoring anaesthetic depth with end-tidal agent concentration and processed EEG, especially during TIVA with paralysis.",
+   "topic": "Anaesthetics — monitoring",
+   "type": "application",
+   "difficulty": "hard"
+  },
+  {
+   "stem": "A 30-year-old woman at 34 weeks gestation requires emergency caesarean section under general anaesthesia.",
+   "lead": "Which physiological change most increases her anaesthetic risk?",
+   "options": [
+    "Reduced functional residual capacity with increased oxygen consumption, causing rapid desaturation",
+    "Reduced cardiac output",
+    "Increased functional residual capacity",
+    "Reduced gastric acid production",
+    "Decreased blood volume"
+   ],
+   "correct": 0,
+   "explanation": "Pregnancy <b>reduces FRC</b> (the diaphragm is splinted by the gravid uterus) while <b>increasing oxygen consumption</b>, so the oxygen reserve is smaller and consumed faster — <b>desaturation during apnoea is markedly quicker</b>, which is why preoxygenation and a swift RSI matter so much. Add increased aspiration risk from reduced lower oesophageal sphincter tone and delayed gastric emptying, airway oedema making intubation harder, and aortocaval compression requiring left lateral tilt.",
+   "point": "Pregnancy reduces functional residual capacity while increasing oxygen consumption, so desaturation during apnoea is much faster.",
+   "topic": "Anaesthetics — obstetric anaesthesia",
+   "type": "application",
+   "difficulty": "hard"
+  },
+  {
+   "stem": "A patient is having a total knee replacement. The anaesthetist plans multimodal analgesia.",
+   "lead": "What is the principle behind this approach?",
+   "options": [
+    "Combining agents with different mechanisms improves analgesia while reducing opioid dose and opioid-related side effects",
+    "Using the maximum dose of a single strong opioid",
+    "Avoiding all opioids in every patient",
+    "Using regional anaesthesia exclusively",
+    "Giving analgesia only once pain is reported"
+   ],
+   "correct": 0,
+   "explanation": "<b>Multimodal analgesia</b> combines paracetamol, NSAIDs where not contraindicated, regional or local techniques, and adjuncts such as ketamine or gabapentinoids, so that each acts at a different point in the pain pathway. The result is better analgesia with a <b>lower opioid requirement</b>, which reduces nausea, sedation, ileus and respiratory depression — and it works best given <b>pre-emptively and regularly</b> rather than waiting for pain to be reported.",
+   "point": "Multimodal analgesia combines agents with different mechanisms to improve pain control while reducing opioid dose and side effects.",
+   "topic": "Anaesthetics — postoperative care",
+   "type": "recall",
+   "difficulty": "easy"
+  }
+ ]
+}
