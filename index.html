@@ -1191,9 +1191,22 @@ async function whoami(){
   try{
     const r = await fetch(`${SYNC_URL}?action=whoami&token=${encodeURIComponent(t)}`);
     const d = await r.json();
-    if(d.error || !d.user) return null;
-    setUser(d.user);
-    return d.user;
+
+    // A bad token gets an explicit error — that is a real rejection.
+    if(d.error) return null;
+    if(d.user){ setUser(d.user); return d.user; }
+
+    // No error and no user means the deployed script predates multi-user: it
+    // doesn't know the whoami action, so it fell through and handed back the
+    // tracker instead. The token is fine — the endpoint just can't introduce
+    // itself. Treat it as the single-user script it is rather than locking the
+    // page out of data it can plainly read.
+    if(d.topics && typeof d.topics === 'object'){
+      const legacy = { id: SEED_OWNER, name: 'Fadi', generate: true };
+      setUser(legacy);
+      return legacy;
+    }
+    return null;
   }catch(e){ return null; }
 }
 
