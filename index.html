@@ -2151,12 +2151,40 @@ function renderGlance(){
 
   // 2+ questions before a system can be called best or worst — one lucky or
   // unlucky answer shouldn't put a system on either list.
-  const ranked = Object.entries(bySys).filter(([,v]) => v.t >= 2)
-    .map(([n,v]) => [n, Math.round(v.c/v.t*100), v.t])
-    .sort((a,b) => b[1]-a[1]);
+  /* Ranked by the Wilson score interval rather than raw percentage.
+     Sorting on percentage alone made 2/2 outrank 90/95, so the "strongest"
+     list filled with systems tested twice while genuinely solid ones never
+     appeared. Wilson accounts for sample size: a small sample gets a wide
+     interval and is pulled toward the middle, so confidence has to be earned
+     with volume. Same idea as a product rated 5 stars by two people ranking
+     below one rated 4.6 by four hundred. */
+  const wilson = (c, t, lower) => {
+    if(!t) return 0;
+    const z = 1.96, p = c / t;
+    const d = 1 + z*z/t;
+    const centre = p + z*z/(2*t);
+    const spread = z * Math.sqrt(p*(1-p)/t + z*z/(4*t*t));
+    return ((lower ? centre - spread : centre + spread) / d);
+  };
 
-  const top = ranked.slice(0,3);
-  const bottom = ranked.slice(-3).reverse().filter(x => !top.some(t => t[0]===x[0]));
+  // 4 questions minimum before a system can be called anything. Below that the
+  // interval is so wide the ranking is noise.
+  const MIN_Q = 4;
+  const ranked = Object.entries(bySys).filter(([,v]) => v.t >= MIN_Q)
+    .map(([n,v]) => ({
+      name:n, pct:Math.round(v.c/v.t*100), t:v.t,
+      lo:wilson(v.c, v.t, true), hi:wilson(v.c, v.t, false)
+    }));
+
+  // Strongest: highest lower bound — good AND well evidenced.
+  const top = [...ranked].sort((a,b) => b.lo - a.lo).slice(0,3)
+    .map(r => [r.name, r.pct, r.t]);
+
+  // Weakest: lowest UPPER bound — even at its most generous reading, still poor.
+  const topNames = new Set(top.map(x => x[0]));
+  const bottom = [...ranked].sort((a,b) => a.hi - b.hi)
+    .filter(r => !topNames.has(r.name)).slice(0,3)
+    .map(r => [r.name, r.pct, r.t]);
 
   const circ = 2 * Math.PI * 26;
   const ring = `
@@ -2185,11 +2213,11 @@ function renderGlance(){
     </div>
     <div>
       <h4>Strongest systems</h4>
-      ${list(top, 'g-good', 'Needs 2+ questions in a system')}
+      ${list(top, 'g-good', 'Needs 4+ questions in a system')}
     </div>
     <div>
       <h4>Weakest systems</h4>
-      ${list(bottom, 'g-bad', 'Needs 2+ questions in a system')}
+      ${list(bottom, 'g-bad', 'Needs 4+ questions in a system')}
     </div>`;
 }
 
