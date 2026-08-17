@@ -99,7 +99,7 @@ they are cheap to fix and currently score zero:
 4. ~~**Surgery**~~ — **BUILT 16 Aug 2026.** 8 sections, 39,450 words; also fixes the "surgery is hidden inside Gastro" navigation problem, with GI medicine cross-referenced rather than duplicated. **Independently verified** by five adversarial reviewers — 41 corrections, three dangerous (sepsis antibiotic timing tied to shock rather than organ dysfunction; "incarcerated hernia is not an emergency"; warfarin reversal omitting FFP alongside 3-factor Prothrombinex). Both worked burn calculations were recomputed and were correct. See `docs/surgery-verification.md`. **Next in the order.**
 5. ~~**Psychiatry**~~ — **BUILT AND VERIFIED 16 Aug 2026.** 8 sections, 45,078 words, from 3,635. 101 corrections applied across five adversarial reviewers, 15 dangerous; 16 cross-section contradictions adjudicated. See `docs/psychiatry-verification.md`. **Critical Care is next.**
 6. **Anaesthetics** — 2 Qs, and it feeds the periop questions that recur.
-7. **Critical Care** — 2 Qs, but you already score well on it in the tracker.
+7. ~~**Critical Care**~~ — **BUILT AND VERIFIED 17 Aug 2026.** 8 sections, 60,299 words, from nothing, against 33 bank questions. 84 corrections, 8 dangerous; nine cross-section contradictions adjudicated (two rejected as false findings). Also corrected superseded warfarin-reversal content in six other systems. See `docs/critical-care-verification.md`.
 8. **Ophthalmology, Dermatology** — 1 Q each. Lowest priority despite being thin.
 
 ---

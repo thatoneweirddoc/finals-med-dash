@@ -45,7 +45,7 @@ updated: "2026-08-14"
 
 - Thrombolytics: alteplase or **tenecteplase as a single bolus** ⚑; risks are intracranial haemorrhage and angio-oedema (worse on ACE inhibitors).
 - Antiplatelets: aspirin 300 mg for 2 weeks acutely, then **clopidogrel long-term** after ischaemic stroke/TIA.
-- Anticoagulants: DOACs preferred in **non-valvular AF**, warfarin for mechanical valves and moderate–severe mitral stenosis; reversal is idarucizumab vs andexanet alfa.
+- Anticoagulants: DOACs preferred in **non-valvular AF**, warfarin for mechanical valves and moderate–severe mitral stenosis; reversal is idarucizumab (dabigatran) vs ⚑ **4-factor PCC (Beriplex)** for Xa inhibitors — **andexanet alfa was removed from the ARTG on 20 May 2026**; warfarin is **vitamin K + Beriplex, no FFP** since the 3-factor Prothrombinex-VF was discontinued around **June 2024** (**Critical Care §3.14**).
 - Two fixed prescriptions: high-intensity statin after ischaemic stroke (not routinely after ICH), and **nimodipine 60 mg 4-hourly for 21 days** after aneurysmal SAH.
 
 | Drug/class | Mechanism | Notes |
@@ -54,7 +54,7 @@ updated: "2026-08-14"
 | **Aspirin** | Irreversible COX-1 inhibition → ↓thromboxane A₂ | 300 mg acutely for 2 weeks, then long-term antithrombotic |
 | **Clopidogrel** | P2Y12 receptor antagonist (prodrug — activated by CYP2C19) | • **First-line long-term after ischaemic stroke/TIA**<br>• reduced effect in CYP2C19 poor metabolisers<br>• PPIs (omeprazole) may reduce activation |
 | **Dipyridamole** | Phosphodiesterase inhibitor | With aspirin if clopidogrel is not tolerated; headache is common |
-| **DOACs** (apixaban, rivaroxaban, edoxaban, dabigatran) | Factor Xa inhibitors; dabigatran is a direct thrombin inhibitor | • Preferred over warfarin in **non-valvular AF**<br>• renally dosed<br>• reversal — **idarucizumab** (dabigatran), **andexanet alfa** (Xa inhibitors) |
+| **DOACs** (apixaban, rivaroxaban, edoxaban, dabigatran) | Factor Xa inhibitors; dabigatran is a direct thrombin inhibitor | • Preferred over warfarin in **non-valvular AF**<br>• renally dosed<br>• reversal — **idarucizumab** (dabigatran), ⚑ **4-factor PCC (Beriplex)** (Xa inhibitors; andexanet alfa off the ARTG 20 May 2026 — CC §3.14) |
 | **Warfarin** | Vitamin K epoxide reductase inhibition (factors II, VII, IX, X, protein C/S) | For mechanical valves and moderate–severe mitral stenosis; INR monitoring; huge interaction list |
 | **Statins** | HMG-CoA reductase inhibition | • High-intensity after ischaemic stroke<br>• myalgia/myopathy, deranged LFTs<br>• **avoid routinely after intracerebral haemorrhage unless the indication is strong** |
 | **Nimodipine** | Dihydropyridine calcium channel blocker with cerebral selectivity | **Oral 60 mg 4-hourly for 21 days after aneurysmal SAH** — reduces delayed cerebral ischaemia |
@@ -250,7 +250,7 @@ Taken in three passes — antiseizure, then stroke/headache/Parkinson's, then th
 | Clue / question | Answer |
 |---|---|
 | Reversal agent for dabigatran | Idarucizumab |
-| Reversal agent for apixaban/rivaroxaban | Andexanet alfa (or PCC) |
+| Reversal agent for apixaban/rivaroxaban | ⚑ **4-factor PCC (Beriplex)** — andexanet alfa off the ARTG 20 May 2026 |
 | Drug given for 21 days after aneurysmal SAH | Nimodipine |
 | Triptan mechanism | 5-HT₁B/₁D agonist |
 | Migraine drug class safe in ischaemic heart disease | Gepants (CGRP receptor antagonists) ⚑ |

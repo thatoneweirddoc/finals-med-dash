@@ -15,8 +15,8 @@ updated: "2026-08-14"
 - **Aspirin** — irreversibly inhibits **COX-1** → less thromboxane A₂. Backbone of secondary prevention. Caution: GI bleeding/ulceration.
 - **P2Y12 inhibitors** — block ADP-mediated platelet activation: **clopidogrel** (prodrug, variable metabolism), **ticagrelor** and **prasugrel** (more potent, preferred in ACS). *Prasugrel is contraindicated after prior stroke/TIA*; dose-reduce if <60 kg or ≥75 y. **Dual antiplatelet therapy (DAPT)** = aspirin + a P2Y12 inhibitor, default 12 months post-ACS.
 - **Anticoagulants:**
-  - **Warfarin** — vitamin K antagonist (factors II, VII, IX, X). Needs **INR** monitoring; many interactions; reversed with vitamin K/PCC. Still first-line for **mechanical valves** and **moderate–severe mitral stenosis**.
-  - **DOACs** — direct factor **Xa inhibitors** (apixaban, rivaroxaban, edoxaban) and the direct **thrombin inhibitor** dabigatran. Preferred over warfarin for AF and VTE; no routine monitoring; reduce dose for renal impairment/age/weight criteria; reversal agents (idarucizumab for dabigatran; andexanet alfa for Xa inhibitors).
+  - **Warfarin** — vitamin K antagonist (factors II, VII, IX, X). Needs **INR** monitoring; many interactions; reversed with ⚑ **vitamin K 5–10 mg IV + 4-factor PCC (Beriplex) 50 IU/kg** (cap 100 kg; 25–50 IU/kg for lesser bleeding), **no FFP** — the 3-factor **Prothrombinex-VF** was discontinued around **June 2024**, so the familiar "Prothrombinex + FFP" is the **old** answer (**Critical Care §3.14**). Still first-line for **mechanical valves** and **moderate–severe mitral stenosis**.
+  - **DOACs** — direct factor **Xa inhibitors** (apixaban, rivaroxaban, edoxaban) and the direct **thrombin inhibitor** dabigatran. Preferred over warfarin for AF and VTE; no routine monitoring; reduce dose for renal impairment/age/weight criteria; reversal agents (idarucizumab for dabigatran — unchanged; ⚑ **4-factor PCC (Beriplex)** for Xa inhibitors, since **andexanet alfa left the ARTG on 20 May 2026** — see **Critical Care §3.14**).
   - **Heparins** — unfractionated (IV, monitored by APTT, quickly reversible with protamine) and **LMWH** (subcutaneous, predictable). **Fondaparinux** in NSTE-ACS.
 
 ##### 11.2 Lipid-lowering Therapy
@@ -88,7 +88,7 @@ updated: "2026-08-14"
 | Profound hypotension with sildenafil | Nitrates |
 | Bradycardia/asystole if combined | Verapamil + beta-blocker |
 | Reversal by idarucizumab | Dabigatran |
-| Reversal by andexanet alfa | Factor Xa inhibitors |
+| ⚑ Reversal of factor Xa inhibitors (andexanet alfa off the ARTG 20 May 2026) | **4-factor PCC (Beriplex)** |
 | Warfarin still required | Mechanical valve / mod–severe mitral stenosis |
 
 ##### C. Drug-class Cards

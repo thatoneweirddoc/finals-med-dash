@@ -3,7 +3,7 @@ title: "Perioperative Assessment and Preparation"
 system: "Surgery"
 sources: [Surgery Master Notes]
 tags: [Perioperative, ANZCA, VTE, BSL]
-updated: "2026-08-16"
+updated: "2026-08-17"
 ---
 
 ## Perioperative Assessment and Preparation

@@ -3,7 +3,7 @@ title: "Vascular Surgery and the Ischaemic Limb"
 system: "Surgery"
 sources: [Surgery Master Notes]
 tags: [Vascular, ABI, AAA, PAD]
-updated: "2026-08-16"
+updated: "2026-08-17"
 ---
 
 ## Vascular Surgery and the Ischaemic Limb

@@ -3,7 +3,7 @@ title: "Vertigo and the Dizzy Patient"
 system: "ENT"
 sources: [ENT Master Notes]
 tags: [Vertigo, BPPV, SNHL, MRI]
-updated: "2026-08-15"
+updated: "2026-08-17"
 ---
 
 ## Vertigo and the Dizzy Patient

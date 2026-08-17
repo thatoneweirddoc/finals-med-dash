@@ -78,16 +78,16 @@ Low platelets arise from **reduced production** (marrow failure/infiltration, dr
 **The short version**
 
 - Only two drugs are routinely monitored: **UFH → APTT**, **warfarin → INR**. LMWH and DOACs need none routinely.
-- Reversal is the high-yield column ⚑: **protamine** (heparin), **vitamin K + PCC** (warfarin), **idarucizumab** (dabigatran), **andexanet alfa or PCC** (apixaban/rivaroxaban/edoxaban).
+- Reversal is the high-yield column ⚑: **protamine** (heparin), **vitamin K + 4-factor PCC (Beriplex)** (warfarin), **idarucizumab** (dabigatran), **PCC** (apixaban/rivaroxaban/edoxaban). ⚑ **What changed:** the 3-factor **Prothrombinex-VF** was discontinued around **June 2024** and replaced by **Beriplex (4-factor)**, so **FFP is no longer given with PCC**; **andexanet alfa was removed from the ARTG on 20 May 2026**, so Australian Xa-inhibitor reversal is now PCC-based. Older texts still print "Prothrombinex + FFP" and "andexanet first" — recognise those as the **old** answers. Detail in **Critical Care §3.14**.
 - Know the target: warfarin hits **II, VII, IX, X**; dabigatran hits **IIa**; the "-xabans" hit **Xa**.
 
 | Drug | Target | Monitoring | Reversal ⚑ |
 |---|---|---|---|
 | **Unfractionated heparin** | Antithrombin → IIa & Xa | **APTT** (or anti-Xa) | **Protamine sulfate** |
 | **LMWH** (enoxaparin) | Antithrombin → mainly Xa | Usually none (anti-Xa if renal/pregnancy/extremes of weight) | Protamine (partial) |
-| **Warfarin** | Vitamin-K-dependent factors II, VII, IX, X | **INR** | **Vitamin K**; **PCC** (Prothrombin Complex Concentrate) for major bleeding; FFP if PCC unavailable |
+| **Warfarin** | Vitamin-K-dependent factors II, VII, IX, X | **INR** | ⚑ **Vitamin K 5–10 mg IV + 4-factor PCC (Beriplex) 50 IU/kg** (cap 100 kg) for critical bleeding, **25–50 IU/kg** for lesser bleeding — **no FFP** (needed only with the old 3-factor Prothrombinex-VF, replaced June 2024). See CC §3.14 |
 | **Dabigatran** | Direct thrombin (IIa) | None routine | **Idarucizumab** |
-| **Apixaban/rivaroxaban/edoxaban** | Direct factor **Xa** | None routine | **Andexanet alfa** (or PCC) |
+| **Apixaban/rivaroxaban/edoxaban** | Direct factor **Xa** | None routine | ⚑ **4-factor PCC (Beriplex)** — andexanet alfa left the ARTG **20 May 2026**, so Australian reversal is PCC-based. See CC §3.14 |
 
 Key safety points: **warfarin is teratogenic** (use LMWH in pregnancy); it has an **initial procoagulant effect** (protein C falls first) → bridge with heparin/LMWH when starting for acute thrombosis; countless interactions (CYP450). **DOACs** are renally cleared (avoid/reduce in severe renal impairment) and are **contraindicated in antiphospholipid syndrome (triple-positive) and mechanical heart valves** ⚑ (warfarin only there).
 
@@ -185,8 +185,8 @@ Split into two passes: bleeding and thrombosis first, then transfusion and rever
 | Hypertensive pulmonary oedema post-transfusion | TACO — diurese |
 | Hypotensive bilateral infiltrates <6 h | TRALI — support, don't diurese |
 | Anaphylaxis to transfusion | Consider IgA deficiency |
-| Warfarin major-bleed reversal | Vitamin K + PCC |
-| Dabigatran / factor Xa DOAC reversal | Idarucizumab / andexanet alfa |
+| Warfarin major-bleed reversal | ⚑ Vitamin K 5–10 mg IV + **4-factor PCC (Beriplex) 50 IU/kg — no FFP** (FFP belonged with the old 3-factor Prothrombinex-VF, replaced June 2024) |
+| Dabigatran / factor Xa DOAC reversal | Idarucizumab / ⚑ **4-factor PCC (Beriplex)** — andexanet off the ARTG 20 May 2026 |
 | Antidote to heparin | Protamine sulfate |
 
 ##### Sources

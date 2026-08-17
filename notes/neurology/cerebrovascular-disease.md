@@ -104,7 +104,7 @@ Symptoms usually last minutes (typically <1 hour). Distinguish from mimics: migr
 **Management:**
 
 - ⚑ **Rapid BP lowering to a systolic target of 130–140 mmHg within the first hour**, sustained — as part of a care bundle (INTERACT3, which showed reduced mortality/disability). Avoid dropping >70 mmHg from baseline.
-- **Reverse anticoagulation urgently:** warfarin → **IV vitamin K + prothrombin complex concentrate**; dabigatran → **idarucizumab**; factor Xa inhibitors → **andexanet alfa** (or PCC where unavailable) ⚑.
+- **Reverse anticoagulation urgently:** warfarin → **IV vitamin K 5–10 mg + 4-factor PCC (Beriplex) 50 IU/kg** (cap 100 kg), ⚑ **no FFP**; dabigatran → **idarucizumab** (unchanged); factor Xa inhibitors → ⚑ **4-factor PCC (Beriplex)**. **What changed:** the 3-factor **Prothrombinex-VF** was discontinued around **June 2024** (FFP existed only to replace its missing factor VII), and **andexanet alfa was removed from the ARTG on 20 May 2026** — so "Prothrombinex + FFP" and "andexanet first" are the **old** answers. Detail in **Critical Care §3.14**.
 - Neurosurgery for **cerebellar haemorrhage >3 cm** or with brainstem compression/hydrocephalus (this one is exam-standard), for hydrocephalus (EVD), and for selected lobar clot evacuation (minimally invasive approaches increasingly used ⚑).
 - Reverse the reversible: glucose, temperature, seizures (treat, do not prophylax), head up 30°.
 - Stop antithrombotics; the timing of restarting is individualised (often ~4–8 weeks if a strong indication such as a mechanical valve or high-risk AF).
@@ -191,7 +191,7 @@ Symptoms usually last minutes (typically <1 hour). Distinguish from mimics: migr
 | Commonest lacunar syndrome and its site | Pure motor; posterior limb of internal capsule |
 | Lobar haemorrhage with microbleeds in an 80-year-old | Cerebral amyloid angiopathy |
 | BP target in acute ICH | Systolic 130–140 mmHg within the hour ⚑ |
-| Reversal for dabigatran / for factor Xa inhibitors | Idarucizumab / andexanet alfa (or PCC) |
+| Reversal for dabigatran / for factor Xa inhibitors | Idarucizumab / ⚑ **4-factor PCC (Beriplex)** — andexanet off the ARTG 20 May 2026 |
 | Cerebellar haemorrhage size prompting surgery | >3 cm (or brainstem compression/hydrocephalus) |
 | Sensitivity of CT for SAH within 6 hours | >98% |
 | Timing of LP after thunderclap headache | ≥12 hours, for xanthochromia |

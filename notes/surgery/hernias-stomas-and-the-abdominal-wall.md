@@ -3,7 +3,7 @@ title: "Hernias, Stomas and the Abdominal Wall"
 system: "Surgery"
 sources: [Surgery Master Notes]
 tags: [Hernias, CT, IV, ASIS]
-updated: "2026-08-16"
+updated: "2026-08-17"
 ---
 
 ## Hernias, Stomas and the Abdominal Wall

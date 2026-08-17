@@ -101,6 +101,7 @@ The rule carrying most marks: **unstable + positive abdominal FAST → laparotom
 - **Monro–Kellie**: fixed box; compensation by CSF and venous displacement is finite, then ICP rises steeply.
 - **Cushing's reflex** (hypertension, bradycardia, irregular respiration) is **pre-herniation**, not an early warning.
 - **Lucid interval → extradural haematoma → middle meningeal artery → urgent CT and neurosurgical referral.**
+- ⚑ **Anticoagulated head injury:** warfarin → vitamin K + **Beriplex (4-factor PCC) 50 IU/kg, no FFP**. The "3-factor Prothrombinex-VF **plus** FFP" answer is pre-**June 2024** and is now wrong; andexanet alfa left the ARTG **20 May 2026**, so Xa-inhibitor reversal is PCC too.
 
 **GCS (score 3–15).**
 
@@ -137,8 +138,8 @@ Severity: **mild 13–15, moderate 9–12, severe ≤8**. Record components sepa
 | Agent | Reversal in traumatic ICH |
 |---|---|
 | **Dabigatran** | **Idarucizumab** 5 g IV (2 × 2.5 g) — specific antibody fragment; haemodialysis as fallback |
-| **Apixaban / rivaroxaban** | **Andexanet alfa** where stocked; otherwise **PCC** — ⚑ note Prothrombinex-VF is a **3-factor** PCC (II, IX, X); **Beriplex P/N** is the 4-factor product Australia is moving to — andexanet availability varies across Australian centres, so PCC is often what is given |
-| **Warfarin** | **Vitamin K1 5–10 mg IV + Prothrombinex-VF 50 IU/kg + FFP 150–300 mL, all three together** ⚑ — traumatic ICH is critical-organ bleeding, and FFP is given *with* the PCC (not as a fallback) because Prothrombinex-VF is a **3-factor** product lacking adequate factor VII |
+| **Apixaban / rivaroxaban** | **Beriplex (4-factor PCC) 50 IU/kg** — ⚑ **andexanet alfa is no longer available in Australia**: its provisional ARTG registration lapsed and it was removed from the ARTG on **20 May 2026** (thrombotic harm without demonstrated outcome benefit). Australian Xa-inhibitor reversal is therefore now **PCC-based**. Older texts and most revision material still list andexanet first — that is the **old** answer |
+| **Warfarin** | **Vitamin K1 5–10 mg IV + Beriplex (4-factor PCC) 50 IU/kg** — ⚑ **no FFP**. **What changed:** until **June 2024** Australia's PCC was **Prothrombinex-VF**, a **3-factor** product (II, IX, X), so FFP 150–300 mL had to be given *with* it to supply factor VII. Prothrombinex-VF was **discontinued and replaced by Beriplex, a 4-factor PCC (II, VII, IX, X)**, and **co-administration with FFP is no longer required** (THANZ / MJA position statement 2025, Lifeblood). Most textbooks still say "3-factor + FFP" — recognise it as the superseded answer. Dose capped at **100 kg**; 25–50 IU/kg for clinically significant non-life-threatening bleeding |
 | **Antiplatelets** | Platelet transfusion **not** routine (PATCH harm signal) |
 
 > **Exam point — 70-year-old on dabigatran who hit his head.** Even with GCS 15 and a normal examination: **urgent CT**, coagulation assessment, early haematology/neurosurgical involvement, and **idarucizumab** if intracranial haemorrhage is confirmed. Reversal is not deferred pending the neurosurgical opinion.
@@ -273,7 +274,8 @@ Management: high-volume isotonic crystalloid titrated to **urine output 1–2 mL
 | Pelvic binder position | Level of the **greater trochanters** |
 | Negative FAST in an unstable patient | Excludes nothing — chest, pelvis, retroperitoneum, external |
 | Lucid interval then rapid decline | Extradural — middle meningeal artery, urgent CT + neurosurgery |
-| Head injury on dabigatran / apixaban | **Idarucizumab** / andexanet alfa or prothrombinex |
+| Head injury on dabigatran / apixaban | **Idarucizumab 5 g** / ⚑ **Beriplex (4-factor PCC) 50 IU/kg** — andexanet alfa off the ARTG since 20 May 2026 |
+| Warfarin reversal in traumatic ICH | ⚑ Vitamin K 5–10 mg IV + **Beriplex 50 IU/kg — NO FFP** (FFP belonged with the old 3-factor Prothrombinex-VF, replaced June 2024) |
 | Hypotension + **bradycardia** + warm peripheries | Neurogenic shock — exclude bleeding first |
 | Upper limbs weaker than lower after hyperextension | Central cord syndrome |
 | ANZBA burn formula | 3 mL × kg × %TBSA Hartmann's/24 hrs **from injury**, half in 8 hrs |

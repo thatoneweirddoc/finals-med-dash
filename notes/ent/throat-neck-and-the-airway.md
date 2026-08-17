@@ -3,7 +3,7 @@ title: "Throat, Neck and the Airway"
 system: "ENT"
 sources: [ENT Master Notes]
 tags: [Throat, ARF, RHD, GAS]
-updated: "2026-08-15"
+updated: "2026-08-17"
 ---
 
 ## Throat, Neck and the Airway

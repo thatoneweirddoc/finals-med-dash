@@ -3,7 +3,7 @@ title: "Recognition Summary and Confusable Pairs"
 system: "Surgery"
 sources: [Surgery Master Notes]
 tags: [Recognition, CT, AF, RIF]
-updated: "2026-08-16"
+updated: "2026-08-17"
 ---
 
 ## Recognition Summary and Confusable Pairs
@@ -234,7 +234,7 @@ updated: "2026-08-16"
 
 **2. The acute abdomen by quadrant.** Visceral pain is midline by gut division (foregut epigastric, midgut periumbilical, hindgut suprapubic) and localises only once the parietal peritoneum is inflamed. **Therefore** migration is the key history item: RIF → appendicitis, LIF → diverticulitis or sigmoid cancer, epigastrium → perforated ulcer or ruptured AAA, diffuse → perforation or mesenteric ischaemia. βhCG in every woman of reproductive age.
 
-**3. The anticoagulated head injury.** The Canadian CT Head Rule excludes anticoagulated patients — their risk is uncaptured and these bleeds evolve late. **Therefore** CT regardless of GCS, and reverse without awaiting neurosurgery: **idarucizumab 5 g** for dabigatran, andexanet alfa or prothrombinex for apixaban/rivaroxaban, vitamin K plus prothrombinex for warfarin. Platelets are **not** routine.
+**3. The anticoagulated head injury.** The Canadian CT Head Rule excludes anticoagulated patients — their risk is uncaptured and these bleeds evolve late. **Therefore** CT regardless of GCS, and reverse without awaiting neurosurgery: **idarucizumab 5 g** for dabigatran, **Beriplex (4-factor PCC) 50 IU/kg** for apixaban/rivaroxaban (⚑ andexanet alfa was removed from the ARTG on 20 May 2026), and **vitamin K 5–10 mg IV + Beriplex 50 IU/kg, without FFP**, for warfarin — ⚑ FFP was only required alongside the old **3-factor** Prothrombinex-VF, which Beriplex replaced in **June 2024**. Platelets are **not** routine.
 
 **4. The burn fluid calculation** (80 kg, 30% TBSA, 1 h after injury). ANZBA: 3 mL × kg × %TBSA Hartmann's/24 h, clock from **injury**, half within 8 h. **Therefore** 3 × 80 × 30 = **7200 mL**; first half **3600 mL** over the remaining **7 h ≈ 514 mL/hr**; second half over 16 h **≈ 225 mL/hr**; urine target **40 mL/hr**.
 

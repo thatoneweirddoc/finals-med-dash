@@ -3,7 +3,7 @@ title: "The Ear and Hearing Loss"
 system: "ENT"
 sources: [ENT Master Notes]
 tags: [Hearing, SNHL, BC, AC]
-updated: "2026-08-15"
+updated: "2026-08-17"
 ---
 
 ## The Ear and Hearing Loss

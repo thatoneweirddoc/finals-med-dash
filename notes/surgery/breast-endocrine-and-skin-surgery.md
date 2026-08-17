@@ -3,7 +3,7 @@ title: "Breast, Endocrine and Skin Surgery"
 system: "Surgery"
 sources: [Surgery Master Notes]
 tags: [Breast, US, FNA, TSH]
-updated: "2026-08-16"
+updated: "2026-08-17"
 ---
 
 ## Breast, Endocrine and Skin Surgery

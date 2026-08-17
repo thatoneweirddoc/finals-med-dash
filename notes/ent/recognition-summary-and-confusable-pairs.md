@@ -3,7 +3,7 @@ title: "Recognition Summary and Confusable Pairs"
 system: "ENT"
 sources: [ENT Master Notes]
 tags: [Recognition, SNHL, AOM, BPPV]
-updated: "2026-08-15"
+updated: "2026-08-17"
 ---
 
 ## Recognition Summary and Confusable Pairs

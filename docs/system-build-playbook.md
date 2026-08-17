@@ -1,7 +1,8 @@
 # System build playbook
 
-Written 16 Aug 2026, after six systems (O&G, Paediatrics, Urology, ENT, Geriatrics,
-Surgery, Psychiatry) and **256 verified corrections**. This exists because the same mistakes kept
+Written 16 Aug 2026, updated 17 Aug. After seven systems (O&G, Paediatrics, Urology,
+ENT, Geriatrics, Surgery, Psychiatry, Critical Care) and **340 verified corrections**,
+34 of them dangerous. This exists because the same mistakes kept
 recurring across builds and were being re-learned each session instead of encoded.
 
 Read this before starting a system. It is a procedure, not a reflection.
@@ -115,7 +116,29 @@ to generate the verifier's target list, and again after corrections land, as the
 cross-file consistency check that no single-file editor can perform. Patch the
 second run's findings rather than regenerating a 10,000-word file for five lines.
 
-### 8. Assuming a slug from a display name
+### 8. Trusting a warning in the section prompt to prevent the error it warns about
+
+Critical Care §5.3 invented an Australia-versus-UK oxygen-target split and asserted it
+was "the only genuine" one — in a section whose prompt had **explicitly** warned against
+exactly that, naming the bronchiolitis "Australian 90% vs NICE 92%" fabrication from a
+previous build as the example not to repeat.
+
+**Mechanism.** A prompt warning shapes writing; it does not verify it. Warnings are
+worth keeping — they are cheap — but the verifier is the only thing that catches this
+class of error, so **never let a warned-about trap drop off the verifier's target list
+on the grounds that the writer was told about it.**
+
+### 9. Checking flagged disagreements but not flagged *agreements*
+
+§3.7 asserted that "WACHS and SESLHD agree on all doses" and that "both share the same
+trigger (≥6.0)". Both were false. A fabricated agreement is as misleading as a
+fabricated disagreement and harder to spot, because it reads as tidiness rather than as
+a claim.
+
+**Mechanism.** Extend the `⚑` rule: **a claim that two sources agree is a claim to be
+checked**, not a simplification to be waved through.
+
+### 10. Assuming a slug from a display name
 
 `assemble_notes.py --system "Obstetrics & Gynaecology"` builds **0 notes silently**.
 It takes the slug. This one was already documented and did not recur — proof the
@@ -140,7 +163,8 @@ Deviating from this order is what caused mistakes 2 and 3.
 | 7b | Harmonise leftovers | Only now, using verified facts. Each conflict goes to a verifier with a source — never resolved by preference |
 | 8 | Reassemble → assemble_notes → build_notes → build_notes_page | Word count sane; new slug appears in the index |
 | 9 | Write the verification doc | What was wrong, what survived, what could not be checked |
-| 10 | Fetch, rebase, rebuild, commit, push | |
+| 10 | **Propagate anything that reached outside the system** | A new system's verification is also a re-test of every older system it overlaps. Critical Care's warfarin-reversal check found six other systems stating a superseded fact — including one that had been applied as a *verified dangerous correction* in an earlier build. Grep the whole library for the corrected term before moving on |
+| 11 | Fetch, rebase, rebuild, commit, push | Re-run `assemble_notes.py` for any *other* system whose source you touched, or `notes/` keeps the stale text |
 
 **Nothing counts as built until step 5 has run.** Notes with a verification doc are
 revisable; notes without one are a draft.

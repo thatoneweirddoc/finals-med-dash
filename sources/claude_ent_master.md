@@ -550,8 +550,8 @@ Benign, locally destructive, highly vascular tumour arising near the sphenopalat
 
 ### The anticoagulated patient
 - Establish drug, indication, last dose, thrombotic risk (mechanical valve, recent VTE/stent) — reversal is a trade-off, not a reflex.
-- **Warfarin**: check INR; mechanical measures first. Vitamin K ± prothrombin complex concentrate (Prothrombinex-VF) only for life-threatening bleeding or markedly raised INR.
-- **DOACs**: last dose and renal function. Idarucizumab (dabigatran) or andexanet alfa, for life-threatening haemorrhage only; Prothrombinex is the usual fallback for Xa inhibitors.
+- **Warfarin**: check INR; mechanical measures first. **Vitamin K 5–10 mg IV + 4-factor PCC (Beriplex) 50 IU/kg** (capped at 100 kg; 25–50 IU/kg for lesser bleeding) only for life-threatening bleeding or markedly raised INR — ⚑ **no FFP**. **What changed:** the **3-factor Prothrombinex-VF** was discontinued around **June 2024** and replaced by Beriplex (4-factor), and FFP — which existed only to supply the missing factor VII — is no longer required; most texts still print "Prothrombinex + FFP", so recognise that as the **old** answer. Full treatment: **Critical Care §3.14**.
+- **DOACs**: last dose and renal function. **Idarucizumab** (dabigatran) for life-threatening haemorrhage — unchanged. ⚑ For **factor Xa inhibitors**, Australian reversal is now **PCC-based (Beriplex)**: **andexanet alfa was removed from the ARTG on 20 May 2026**, so the older "andexanet first" answer is superseded. See **Critical Care §3.14**.
 - **Antiplatelets**: no useful reversal; platelets only for critical bleeding.
 - ⚑ Most epistaxis on anticoagulants is controlled by pressure, cautery or packing **without** reversal — treat the nose, don't reflexively stop the drug.
 

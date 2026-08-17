@@ -61,7 +61,16 @@ and its emergencies — serotonin syndrome, NMS, lithium toxicity, clozapine mon
 
 ---
 
-## Step 2 — Critical Care
+## ~~Step 2 — Critical Care~~ — **BUILT AND VERIFIED 17 Aug 2026**
+
+**Done.** 8 sections, **60,299 words** at 7,537 words/note — the largest system in the
+library, from nothing. Wired in as `sources/claude_critical_care_master.md`.
+**Independently verified** by five adversarial reviewers — **84 corrections, 8 dangerous**,
+and nine cross-section contradictions adjudicated: seven fixed, **two rejected as false
+findings**. The build also caught a superseded fact in six *other* systems — Prothrombinex-VF
+was replaced by 4-factor Beriplex in June 2024 and FFP is no longer required for warfarin
+reversal — which the Surgery notes had stated the old way as a previously *verified*
+correction. See `docs/critical-care-verification.md`.
 
 **Why second.** **33 questions in your bank and no notes system at all.** Only 2 of 100
 past-paper questions, so the true exam yield is modest — but being quizzed 33 times on
@@ -103,7 +112,7 @@ hyperthermia, local anaesthetic systemic toxicity, post-operative nausea and pai
 
 ---
 
-## Step 4 — Palliative Care and Toxicology, together
+## Step 4 — Palliative Care (Toxicology now absorbed into Critical Care §7)
 
 **Why together.** Both are narrow, both have zero notes, and together they carry
 **12 bank questions and 4 past-paper questions**. The same reasoning that made
@@ -180,8 +189,9 @@ Steps 5–7 are 5 past-paper questions between them, against **half a million wo
 have not finished reading**. Past papers remain the highest-yield material you own, and
 there are years of them still unconverted in Drive.
 
-Psychiatry is done. If only one more step gets done: **Critical Care** — 33 bank
-questions against no notes at all.
+Psychiatry and Critical Care are done. If only one more step gets done: **Anaesthetics** —
+it is the cheapest left, its source is already wired in, and it feeds the perioperative
+questions that recur across Surgery and Endocrine.
 
 ---
 

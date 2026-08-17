@@ -365,6 +365,16 @@
           "label": "Psychiatry Master Notes"
         }
       ]
+    },
+    {
+      "system": "Critical Care",
+      "slug": "critical-care",
+      "sources": [
+        {
+          "path": "sources/claude_critical_care_master.md",
+          "label": "Critical Care Master Notes"
+        }
+      ]
     }
   ]
 }

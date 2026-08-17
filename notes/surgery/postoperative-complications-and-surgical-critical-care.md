@@ -3,7 +3,7 @@ title: "Postoperative Complications and Surgical Critical Care"
 system: "Surgery"
 sources: [Surgery Master Notes]
 tags: [Postoperative, IV, CT, PE]
-updated: "2026-08-16"
+updated: "2026-08-17"
 ---
 
 ## Postoperative Complications and Surgical Critical Care
