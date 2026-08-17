@@ -1285,6 +1285,24 @@ function weakAreasFor(system, uid) {
 
 // --- results recorded server-side -------------------------------------------------
 
+/**
+ * Reject a submission already recorded.
+ *
+ * The page queues results that fail to send and retries them on reconnect. The
+ * dangerous case is a POST that succeeds while its response is lost — normal on
+ * a flaky connection — because the client then retries something the server has
+ * already counted, silently inflating every topic score. A client-generated
+ * submissionId makes the write idempotent.
+ */
+function alreadyRecorded(t, id) {
+  if (!id) return false;                       // older clients send none
+  t.submissions = t.submissions || [];
+  if (t.submissions.indexOf(id) >= 0) return true;
+  t.submissions.unshift(id);
+  t.submissions = t.submissions.slice(0, 200);
+  return false;
+}
+
 function recordResults(body, uid) {
   return withLock(function () { return recordResultsLocked(body, uid); },
                   { error: 'Your tracker is busy — try recording again in a moment.' });
@@ -1316,6 +1334,14 @@ function pointLine(m) {
 
 function recordResultsLocked(body, uid) {
   const t = JSON.parse(readFile(uid));
+
+  // Inside the lock deliberately: two retries arriving together must not both
+  // pass the check before either has written.
+  if (alreadyRecorded(t, body.submissionId)) {
+    return { ok: true, duplicate: true,
+             error: 'already recorded — this submission was received before' };
+  }
+
   const date = new Date().toISOString().slice(0, 10);
 
   t.topics = t.topics || {};
