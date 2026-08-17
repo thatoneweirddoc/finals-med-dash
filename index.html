@@ -829,6 +829,10 @@
   /* Brief highlight so the rendered Google button is obvious after the banner
      sends you here, rather than being one more control on a busy tab. */
   .gsi-flash{outline:2px solid var(--ink);outline-offset:4px;border-radius:var(--r-ctl)}
+
+  .outbox{font-family:var(--mono);font-size:10px;letter-spacing:.08em;text-transform:uppercase;
+    color:var(--bord);background:var(--bord-wash);border:1px solid var(--bord);
+    border-radius:var(--r-ctl);padding:4px 9px}
 </style>
 
 <!-- build: 2026-08-16 09:11 UTC -->
@@ -855,6 +859,7 @@
     <div class="sync-row">
       <span class="who" id="whoTop" hidden></span>
       <span class="sync" id="syncState">Connecting…</span>
+      <span class="outbox" id="outboxState" hidden></span>
     </div>
     <div class="head-row">
       <a class="notes-btn" href="notes.html">Notes library →</a>
@@ -2443,6 +2448,8 @@ $('btnNow').onclick = async () => {
   // sessSys is filled by renderSystemPickers, which also refreshes it when the
   // notes library reports systems the baked-in list didn't know about.
   setTimeout(() => { ingestOutbox(true); refreshBuffer(); }, 1200);
+  paintOutbox();
+  flushOutbox(true);   // anything sat offline goes up as soon as we have a token
 })();
 
 $('addFlag').onclick = () => {
@@ -3100,6 +3107,84 @@ $('notesSearch').addEventListener('submit', e => {
   window.open('notes.html' + (q ? '#q=' + encodeURIComponent(q) : ''), '_blank');
 });
 
+/* ---- offline result outbox ----
+ * A quiz sat without signal must not be lost. Results that fail to reach Drive
+ * are queued here and flushed when connectivity returns.
+ *
+ * Every submission carries a client-generated submissionId, and the server
+ * rejects one it has already recorded. Without that, a POST that succeeds but
+ * whose response is lost — the normal failure on a flaky connection — would be
+ * retried and counted twice, quietly inflating the tracker.
+ */
+const OUTBOX_KEY = 'finals_outbox';
+
+function outbox(){
+  try{ return JSON.parse(localStorage.getItem(OUTBOX_KEY) || '[]'); }catch(e){ return []; }
+}
+function writeOutbox(list){
+  try{ localStorage.setItem(OUTBOX_KEY, JSON.stringify(list)); }catch(e){}
+  paintOutbox();
+}
+function queueResult(payload){
+  const list = outbox();
+  list.push({ payload, queued: Date.now() });
+  writeOutbox(list);
+}
+function newSubmissionId(){
+  return 's' + Date.now() + '-' + Math.random().toString(36).slice(2, 8);
+}
+
+/** Try to send one payload. Returns true only on a confirmed server success. */
+async function sendResult(payload){
+  const r = await fetch(SYNC_URL, {
+    method:'POST', headers:{'Content-Type':'text/plain;charset=utf-8'},
+    body: JSON.stringify(payload)
+  });
+  const d = await r.json();
+  if(d.error) throw new Error(d.error);
+  return true;
+}
+
+let FLUSHING = false;
+async function flushOutbox(quiet){
+  if(FLUSHING) return;
+  const list = outbox();
+  if(!list.length || !token()) return;
+  FLUSHING = true;
+  const left = [];
+  let sent = 0;
+  for(const item of list){
+    try{
+      await sendResult(item.payload);
+      sent++;
+    }catch(e){
+      // Keep it for next time. A rejected duplicate is a success from our side —
+      // the server already has it, so stop retrying forever.
+      if(String(e.message||e).indexOf('already recorded') >= 0){ sent++; continue; }
+      left.push(item);
+    }
+  }
+  writeOutbox(left);
+  FLUSHING = false;
+  if(sent && !quiet){
+    setSync(`Synced ${sent} saved result${sent===1?'':'s'}`, 'ok');
+    await pull(); renderAll();
+  }
+}
+
+function paintOutbox(){
+  const n = outbox().length;
+  const el = $('outboxState');
+  if(!el) return;
+  el.hidden = !n;
+  el.textContent = n ? `${n} result${n===1?'':'s'} waiting to sync` : '';
+}
+
+window.addEventListener('online', () => flushOutbox());
+document.addEventListener('visibilitychange', () => {
+  if(!document.hidden) flushOutbox(true);
+});
+
 /* ---- revision modules ---- */
 const REPO_REVISION = 'https://raw.githubusercontent.com/thatoneweirddoc/finals-med-dash/main/revision/';
 let CURRENT_REV = null, REV_ANSWERS = [], REV_SUBMITTED = false;
@@ -3467,28 +3552,28 @@ async function submitRevision(){
     </div>
     <div class="drop-r busy" id="revRec">Recording&hellip;</div>`;
 
-  try{
-    const r = await fetch(SYNC_URL, {
-      method:'POST', headers:{'Content-Type':'text/plain;charset=utf-8'},
-      body: JSON.stringify({
-        token: token(), action:'recordResults', quizId:m.id,
+  const payload = {
+        token: token(), action:'recordResults', submissionId:newSubmissionId(),
+        quizId:m.id,
         title:'Revision — ' + m.title, system:m.system,
         score: `${correct}/${m.questions.length} (${pct}%)`,
         correct, total: m.questions.length,
         results: Object.entries(byTopic).map(([topic,v]) => ({topic, correct:v.c, total:v.t})),
         flags, misses, corrects
-      })
-    });
-    const d = await r.json();
-    if(d.error) throw new Error(d.error);
+  };
+
+  try{
+    await sendResult(payload);
     $('revRec').className='drop-r ok';
     $('revRec').textContent = misses.length
       ? `Recorded &mdash; ${misses.length} to review`
       : 'Recorded &mdash; full marks';
     await pull(); renderAll(); fetchRevision();
   }catch(e){
-    $('revRec').className='drop-r err';
-    $('revRec').textContent = 'Saved locally only \u2014 ' + String(e.message||e).slice(0,60);
+    // The result is not lost — it waits on the device and goes up on reconnect.
+    queueResult(payload);
+    $('revRec').className='drop-r warn';
+    $('revRec').textContent = 'Saved on this device \u2014 will sync when you are back online';
   }
   $('revResult').scrollIntoView({behavior:'smooth'});
 }
@@ -3736,28 +3821,27 @@ async function submitQuiz(){
     </div>
     <div class="drop-r busy" id="recState">Recording…</div>`;
 
-  try{
-    const r = await fetch(SYNC_URL, {
-      method:'POST', headers:{'Content-Type':'text/plain;charset=utf-8'},
-      body: JSON.stringify({
-        token: token(), action:'recordResults', quizId:q.id, title:q.title, system:q.system,
+  const payload = {
+        token: token(), action:'recordResults', submissionId:newSubmissionId(),
+        quizId:q.id, title:q.title, system:q.system,
         score: `${correct}/${q.questions.length} (${pct}%)`,
         correct, total: q.questions.length,
         results: Object.entries(byTopic).map(([topic,v]) => ({topic, correct:v.c, total:v.t})),
         flags, misses, corrects,
         byDifficulty: Object.entries(byDiff).map(([level,v]) => ({level, total:v.t, correct:v.c}))
-      })
-    });
-    const d = await r.json();
-    if(d.error) throw new Error(d.error);
+  };
+
+  try{
+    await sendResult(payload);
     $('recState').className='drop-r ok';
     $('recState').textContent = misses.length
       ? `Recorded — ${misses.length} miss${misses.length===1?'':'es'} saved for review`
       : 'Recorded — full marks';
     await pull(); renderAll(); fetchQuizzes(); fetchRepoQuizzes();
   }catch(e){
-    $('recState').className='drop-r err';
-    $('recState').textContent = 'Saved locally only — ' + String(e.message||e).slice(0,70);
+    queueResult(payload);
+    $('recState').className='drop-r warn';
+    $('recState').textContent = 'Saved on this device — will sync when you are back online';
   }
   $('pResult').scrollIntoView({behavior:'smooth'});
 }
