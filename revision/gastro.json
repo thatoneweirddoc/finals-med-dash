@@ -1,0 +1,237 @@
+{
+  "title": "Gastroenterology",
+  "system": "Gastro",
+  "created": "2026-08-18",
+  "rationale": "Requested module. Two Gastro topics sit at 0% on the tracker — cirrhosis complications and dysphagia — and dysphagia has been missed as a discrimination failure (achalasia chosen for a progressive solids-then-liquids stem). Jaundice and GI bleeding are at 100% but on single questions, so they are taught briefly as pattern rules rather than skipped. The teaching is weighted to decompensated liver disease, which carries the most marks and the most acute decisions.",
+  "objectives": [
+    "Work through the four complications of decompensated cirrhosis and state the first move for each.",
+    "Use SAAG and the ascitic neutrophil count to classify ascites and diagnose spontaneous bacterial peritonitis.",
+    "Separate mechanical, motility and neurological dysphagia by the pattern of onset rather than the endpoint.",
+    "Read an LFT pattern to a lesion and match the autoantibody to the liver disease.",
+    "Manage acute upper GI bleeding, distinguishing the variceal from the non-variceal pathway."
+  ],
+  "sections": [
+    {
+      "heading": "Decompensated cirrhosis — four complications, four first moves",
+      "body": "Compensated cirrhosis is asymptomatic and can run for a decade. **Decompensation** means one of four things has happened, and each has a first move that exam questions test directly.\n\n| Complication | Mechanism | First move |\n|---|---|---|\n| **Variceal bleeding** | Portal hypertension | **Terlipressin + antibiotics**, resuscitate, then endoscopy |\n| **Ascites / SBP** | Portal hypertension + hypoalbuminaemia | **Diagnostic tap**; salt restriction, spironolactone-based diuresis |\n| **Hepatic encephalopathy** | Ammonia, portosystemic shunting | **Find the precipitant**; lactulose, then rifaximin |\n| **Hepatorenal syndrome** | Splanchnic vasodilatation → renal hypoperfusion | Stop diuretics and nephrotoxics, **albumin + terlipressin** |\n\n**Encephalopathy is a search for a precipitant, not just a prescription.** Constipation, GI bleeding, infection (including SBP), dehydration or overdiuresis, electrolyte disturbance, and sedatives. Treating with lactulose while missing the bleed or the infection driving it is the classic incomplete answer. Grading runs from altered sleep-wake (I) through asterixis and confusion (II–III) to coma (IV).\n\n**Hepatorenal syndrome is a diagnosis of exclusion** — renal failure in advanced liver disease with a bland urinary sediment, no proteinuria, and **no response to volume expansion with albumin**. That last part matters: you cannot call it HRS until pre-renal failure has been excluded by actually giving albumin.\n\nScoring: **Child-Pugh** (bilirubin, albumin, INR, ascites, encephalopathy) for cirrhosis severity; **MELD** for transplant prioritisation.",
+      "note": "Decompensation = varices, ascites/SBP, encephalopathy or hepatorenal syndrome; encephalopathy always means hunt for the precipitant.",
+      "link": {
+        "system": "gastroenterology",
+        "slug": "hepatology",
+        "title": "Hepatology"
+      }
+    },
+    {
+      "heading": "Ascites — SAAG splits the cause, neutrophils diagnose the infection",
+      "body": "Every new ascites gets a **diagnostic tap**, and two numbers come off it.\n\n**SAAG = serum albumin − ascitic albumin**, and it asks one question: is this portal hypertension?\n\n| SAAG | Meaning | Causes |\n|---|---|---|\n| **≥11 g/L** | **Portal hypertensive** | Cirrhosis, heart failure, Budd–Chiari, portal vein thrombosis |\n| **<11 g/L** | Not portal hypertensive | Peritoneal malignancy, TB peritonitis, pancreatitis, nephrotic syndrome |\n\nNote the counterintuitive direction: a **high** gradient means portal hypertension, because a high serum-to-ascites albumin difference reflects the oncotic/hydrostatic imbalance driving fluid out.\n\n**Ascitic neutrophils ≥250 cells/mm³ diagnoses spontaneous bacterial peritonitis** — and it diagnoses it *regardless of culture*, which is negative in around 40% of cases. Treatment starts on the cell count: **IV cefotaxime plus IV albumin** (1.5 g/kg day 1, 1 g/kg day 3), the albumin reducing hepatorenal syndrome and mortality. Waiting for culture is the error.\n\n**SBP is often silent.** Fever may be absent or low grade; the presentation may be nothing more than new encephalopathy, worsening renal function or unexplained deterioration. That is why every decompensating cirrhotic with ascites gets tapped, not just the ones with abdominal pain.\n\nSecondary prophylaxis with norfloxacin follows an episode of SBP.",
+      "note": "SAAG ≥11 g/L means portal hypertension; ascitic neutrophils ≥250/mm³ means SBP and treatment starts before culture.",
+      "link": {
+        "system": "gastroenterology",
+        "slug": "hepatology",
+        "title": "Hepatology"
+      }
+    },
+    {
+      "heading": "Dysphagia — the pattern of onset, not the endpoint",
+      "body": "Almost every dysphagia question is answered by one question: **what happened first, and what does it do to liquids?** Late in the disease everything struggles with both, so the endpoint is uninformative — it is the pattern from the outset that separates them.\n\n| Pattern | Meaning | Typical cause |\n|---|---|---|\n| **Solids first, then liquids**, progressive over months, weight loss | **Mechanical, narrowing** | Oesophageal carcinoma |\n| **Solids first**, but slow, with reflux history, no weight loss | Mechanical, benign | Peptic stricture |\n| **Solids and liquids equally from the start**, years, nocturnal regurgitation | **Motility** | Achalasia |\n| **Intermittent** solids, food bolus obstruction, young + atopy | Mechanical, inflammatory | Eosinophilic oesophagitis |\n| **Liquids first**, coughing/choking *at the moment of swallowing*, nasal regurgitation | **Neurological / oropharyngeal** | Stroke, bulbar or pseudobulbar palsy, myasthenia |\n\n**The trap runs both ways.** Progressive solids-then-liquids with weight loss over months is carcinoma — achalasia does not do that. But solids *and* liquids affected equally from the very beginning, over years, is achalasia — and reaching for carcinoma because the patient now struggles with liquids gets it wrong. Read the first sentence of the history, not the last.\n\n**Achalasia** is failed lower oesophageal sphincter relaxation with absent peristalsis: barium shows a **bird's beak**, manometry confirms, and endoscopy is mandatory first to exclude **pseudoachalasia** from a tumour at the gastro-oesophageal junction. Treatment is pneumatic dilatation, POEM or Heller myotomy.\n\n**Any new dysphagia in an adult warrants endoscopy** — it is an alarm symptom whatever the pattern suggests.",
+      "note": "Progressive solids→liquids is mechanical; solids and liquids equally from the outset is achalasia; liquids first with coughing is neurological.",
+      "link": {
+        "system": "gastroenterology",
+        "slug": "oesophageal-and-gastric-disorders",
+        "title": "Oesophageal & Gastric Disorders"
+      }
+    },
+    {
+      "heading": "LFT patterns and the antibody map",
+      "body": "LFTs answer two questions: **which compartment**, and **how bad**.\n\n| Pattern | Lesion |\n|---|---|\n| ↑↑ ALT/AST, normal ALP | **Hepatocellular** |\n| ↑ ALP + ↑ GGT + ↑ bilirubin | **Cholestatic / obstructive** |\n| ↑ ALP, **normal GGT** | **Bone**, not liver |\n| **AST:ALT >2** + ↑GGT + macrocytosis | **Alcohol** |\n| Transaminases in the thousands | Ischaemia, paracetamol, acute viral |\n| Isolated unconjugated bilirubin, else normal | **Gilbert's** or haemolysis |\n\n**ALT, AST, ALP and bilirubin measure damage. Only INR and albumin measure function** — a rising INR with a falling albumin is failing synthetic capacity and the thing that actually predicts outcome. Transaminase height does not track severity; in fulminant failure they can *fall* as hepatocytes are exhausted.\n\n| Antibody | Disease |\n|---|---|\n| **AMA** | Primary biliary cholangitis |\n| **pANCA** + UC + beaded MRCP | Primary sclerosing cholangitis |\n| ASMA / anti-LKM1 + ↑IgG | Autoimmune hepatitis |\n| Anti-tTG / endomysial IgA | Coeliac disease |\n| ASCA | Crohn's |\n\n**PBC vs PSC**: PBC is middle-aged **women**, itch and fatigue, **AMA positive**, normal ducts on MRCP, treated with ursodeoxycholic acid. PSC is younger **men**, strongly associated with **ulcerative colitis**, AMA negative, **beaded ducts** on MRCP, and carries cholangiocarcinoma risk.\n\nHepatitis B in one line: **anti-HBc separates natural infection from vaccination** — vaccinated patients have anti-HBs alone.",
+      "note": "Only INR and albumin measure liver function; AMA is PBC, pANCA with UC and beaded ducts is PSC.",
+      "link": {
+        "system": "gastroenterology",
+        "slug": "clinical-assessment-and-investigation",
+        "title": "Clinical Assessment & Investigation"
+      }
+    },
+    {
+      "heading": "Acute upper GI bleeding — two pathways",
+      "body": "Resuscitate first, then decide **variceal or not**, because the drugs differ.\n\n**Both pathways**: two large-bore cannulae, group and hold/crossmatch, correct coagulopathy, and a **restrictive transfusion threshold of Hb 70 g/L** (80–90 if cardiac disease). Over-transfusing a variceal bleed raises portal pressure and worsens it.\n\n| | Variceal | Non-variceal (ulcer) |\n|---|---|---|\n| Before endoscopy | **Terlipressin + prophylactic antibiotics** | Resuscitate; **no** pre-endoscopy PPI needed |\n| Endoscopy | Band ligation | Clips, adrenaline, thermal |\n| After | PPI has no specific role; β-blocker + banding programme | **High-dose PPI**; test and treat H. pylori |\n| Rescue | Sengstaken–Blakemore tube, **TIPS** | Repeat endoscopy, embolisation, surgery |\n\n**Antibiotics in variceal bleeding independently reduce mortality** and are the component most often forgotten — they are not optional.\n\n**Urea disproportionately raised with a normal creatinine** points to an upper GI source: absorbed blood is a protein load. **Glasgow-Blatchford** identifies patients safe for outpatient management (score 0–1); **Rockall** scores mortality after endoscopy.\n\nEndoscopy within **24 hours** for stable patients; **immediately after resuscitation** for unstable ones.",
+      "note": "Variceal bleeding gets terlipressin and antibiotics before endoscopy; non-variceal gets PPI after it — and transfuse to 70 g/L, not higher.",
+      "link": {
+        "system": "gastroenterology",
+        "slug": "gi-bleeding-and-the-acute-abdomen",
+        "title": "GI Bleeding & the Acute Abdomen"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "stem": "A 57-year-old man with alcohol-related cirrhosis and ascites is admitted with 3 days of increasing drowsiness. He is rousable but disorientated, with asterixis. Temperature 37.4°C, BP 108/64. His wife reports he has not opened his bowels for 5 days.",
+      "lead": "What is the most appropriate initial management?",
+      "options": [
+        "Lactulose alone, titrated to two to three soft stools daily",
+        "Lactulose plus rifaximin, with no further investigation needed",
+        "Restrict dietary protein and observe",
+        "Lactulose, plus a diagnostic ascitic tap and a search for other precipitants",
+        "IV mannitol for raised intracranial pressure"
+      ],
+      "correct": 3,
+      "explanation": "Hepatic encephalopathy is <b>a search for a precipitant</b>, not just a prescription. Constipation is one visible precipitant here, but a decompensating cirrhotic with ascites must also have a <b>diagnostic tap</b> — SBP frequently presents as nothing more than new encephalopathy, often with minimal fever. Other precipitants to sweep for: GI bleeding, dehydration or overdiuresis, electrolyte disturbance, sedatives. <b>Lactulose alone</b> treats the symptom while the cause runs. <b>Rifaximin</b> is added for recurrent episodes, not first-line acutely. <b>Protein restriction is outdated and harmful</b> in malnourished cirrhotics.",
+      "point": "Hepatic encephalopathy requires a hunt for the precipitant — tap the ascites, because SBP often presents as encephalopathy alone.",
+      "topic": "Gastroenterology — cirrhosis complications",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "stem": "A 63-year-old woman with new ascites has a diagnostic paracentesis. Serum albumin is 32 g/L and ascitic albumin is 8 g/L. Ascitic neutrophil count is 90 cells/mm³.",
+      "lead": "How should this be interpreted?",
+      "options": [
+        "High SAAG — suggests portal hypertension, with no evidence of infection",
+        "High SAAG with spontaneous bacterial peritonitis",
+        "Low SAAG with spontaneous bacterial peritonitis",
+        "Uninterpretable without ascitic culture results",
+        "Low SAAG — suggests peritoneal malignancy or tuberculous peritonitis"
+      ],
+      "correct": 0,
+      "explanation": "SAAG = 32 − 8 = <b>24 g/L</b>, which is <b>≥11 and therefore high</b>, indicating <b>portal hypertension</b> — cirrhosis, heart failure, Budd–Chiari or portal vein thrombosis. The direction catches people out: a <b>high</b> gradient means portal hypertension, not a low one. A <b>low</b> SAAG would point to peritoneal disease — malignancy, TB, pancreatitis, nephrotic syndrome. Neutrophils of 90 are <b>below the 250 threshold</b>, so this is not SBP. Culture would add organism data but changes neither conclusion, since SBP is defined on the cell count.",
+      "point": "SAAG ≥11 g/L means portal hypertension; SBP requires ascitic neutrophils ≥250/mm³, independent of culture.",
+      "topic": "Gastroenterology — cirrhosis complications",
+      "type": "recall",
+      "difficulty": "medium"
+    },
+    {
+      "stem": "A 60-year-old man with cirrhosis and tense ascites has a creatinine that has risen from 78 to 210 µmol/L over 5 days. Urinalysis shows no blood, no protein and a bland sediment. Renal ultrasound is normal. He is on spironolactone and frusemide and had a course of gentamicin last week.",
+      "lead": "What is the most appropriate next step before diagnosing hepatorenal syndrome?",
+      "options": [
+        "Commence renal replacement therapy",
+        "Start terlipressin and albumin immediately",
+        "Withhold diuretics and nephrotoxics and give a volume challenge with albumin",
+        "Arrange urgent renal biopsy",
+        "Insert a TIPS"
+      ],
+      "correct": 2,
+      "explanation": "<b>Hepatorenal syndrome is a diagnosis of exclusion</b> and cannot be made until pre-renal failure has been ruled out — which means actually <b>stopping the diuretics and nephrotoxics</b> (both present here) and giving a <b>volume challenge with albumin</b>. Only if creatinine fails to improve does the label apply. Jumping straight to <b>terlipressin and albumin</b> treats a diagnosis not yet established and leaves the gentamicin and diuretics running. The bland sediment and normal ultrasound already argue against intrinsic renal disease and obstruction, so <b>biopsy</b> adds nothing.",
+      "point": "Hepatorenal syndrome requires no response to withdrawal of diuretics/nephrotoxics plus albumin volume expansion — exclusion comes before treatment.",
+      "topic": "Gastroenterology — cirrhosis complications",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "stem": "A 66-year-old man has 4 months of difficulty swallowing. It began with meat and bread, and over the last few weeks he has struggled with fluids as well. He has lost 9 kg. He has a 40 pack-year smoking history.",
+      "lead": "What is the most likely diagnosis?",
+      "options": [
+        "Pharyngeal pouch",
+        "Achalasia",
+        "Peptic stricture",
+        "Oesophageal carcinoma",
+        "Eosinophilic oesophagitis"
+      ],
+      "correct": 3,
+      "explanation": "<b>Progressive solids first, then liquids, over months, with marked weight loss</b> is mechanical narrowing — <b>oesophageal carcinoma</b> until proven otherwise, and the smoking history supports it. <b>Achalasia</b> affects solids and liquids <i>equally from the outset</i> and evolves over years, not months. <b>Peptic stricture</b> is also solids-first but indolent, with a reflux history and without this degree of weight loss. Read the sequence in the first sentence: the fact that he now struggles with liquids is the natural endpoint of any narrowing and does not point to a motility disorder.",
+      "point": "Progressive solids-then-liquids dysphagia with weight loss over months is oesophageal carcinoma, not achalasia.",
+      "topic": "Gastroenterology — dysphagia",
+      "type": "discrimination",
+      "difficulty": "easy"
+    },
+    {
+      "stem": "A 39-year-old woman has 3 years of intermittent swallowing difficulty affecting both food and drinks, present since the symptoms began. She regurgitates undigested food on lying flat and has lost 2 kg. Barium swallow shows a dilated oesophagus tapering smoothly to a narrow segment at the gastro-oesophageal junction.",
+      "lead": "What is the most appropriate next investigation?",
+      "options": [
+        "Oesophageal manometry",
+        "Upper GI endoscopy",
+        "CT chest and abdomen",
+        "24-hour pH monitoring",
+        "No further investigation — proceed to pneumatic dilatation"
+      ],
+      "correct": 1,
+      "explanation": "The history and the bird's-beak barium are classic <b>achalasia</b> — solids and liquids equally from the outset over years, with nocturnal regurgitation. But <b>endoscopy comes before manometry or treatment</b>, to exclude <b>pseudoachalasia</b>: a tumour at the gastro-oesophageal junction can mimic this picture exactly, and dilating it would be a serious error. <b>Manometry</b> is the confirmatory test (absent peristalsis, failed LOS relaxation) but follows endoscopy. Any new adult dysphagia warrants endoscopy regardless of what the pattern suggests.",
+      "point": "Achalasia is solids and liquids from the outset — but endoscopy comes first to exclude pseudoachalasia from a junctional tumour.",
+      "topic": "Gastroenterology — dysphagia",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "stem": "A 72-year-old man 3 days after a stroke coughs and splutters when drinking water, and has had a fever with new right basal crackles. He manages pureed food more easily than fluids.",
+      "lead": "Which pattern of dysphagia does this represent and what is the immediate priority?",
+      "options": [
+        "Motility dysphagia — arrange manometry",
+        "Oropharyngeal (neurological) dysphagia — keep nil by mouth pending swallow assessment and treat the aspiration",
+        "Globus — reassure and encourage oral intake",
+        "Oesophageal candidiasis — commence fluconazole",
+        "Mechanical dysphagia — arrange urgent endoscopy"
+      ],
+      "correct": 1,
+      "explanation": "<b>Liquids worse than solids, with coughing at the moment of swallowing</b>, is the <b>oropharyngeal/neurological</b> pattern — the opposite of mechanical obstruction, where thin liquids are the last thing to be affected. The fever and basal crackles indicate <b>aspiration pneumonia</b>. The priority is to stop further aspiration: <b>nil by mouth pending formal swallow assessment</b>, plus treatment of the pneumonia. <b>Endoscopy and manometry</b> answer oesophageal questions and would delay the thing that actually protects him.",
+      "point": "Liquids-first dysphagia with coughing during the swallow is neurological — nil by mouth and swallow assessment, not endoscopy.",
+      "topic": "Gastroenterology — dysphagia",
+      "type": "discrimination",
+      "difficulty": "medium"
+    },
+    {
+      "stem": "A 45-year-old man is found to have ALP 420 U/L, GGT 310 U/L, bilirubin 46 µmol/L, ALT 68 U/L. He has ulcerative colitis. AMA is negative. MRCP shows multifocal strictures and dilatations of the intra- and extrahepatic ducts.",
+      "lead": "What is the diagnosis and its most important long-term complication?",
+      "options": [
+        "Primary sclerosing cholangitis — cholangiocarcinoma",
+        "Autoimmune hepatitis — cirrhosis",
+        "Choledocholithiasis — ascending cholangitis",
+        "IgG4-related sclerosing cholangitis — pancreatic insufficiency",
+        "Primary biliary cholangitis — hepatocellular carcinoma"
+      ],
+      "correct": 0,
+      "explanation": "A <b>cholestatic pattern</b>, association with <b>ulcerative colitis</b>, <b>AMA negative</b>, and <b>beaded ducts</b> on MRCP is <b>primary sclerosing cholangitis</b>, and the complication that dominates surveillance is <b>cholangiocarcinoma</b> (with an increased colorectal cancer risk too, so colonoscopic surveillance intensifies). <b>PBC</b> is the mirror image: middle-aged women, <b>AMA positive</b>, normal ducts on MRCP, treated with ursodeoxycholic acid. <b>Autoimmune hepatitis</b> gives a hepatocellular pattern with raised IgG and ASMA/anti-LKM1, not this.",
+      "point": "PSC: male, ulcerative colitis, AMA negative, beaded ducts, cholangiocarcinoma risk. PBC: female, AMA positive, normal ducts.",
+      "topic": "Gastroenterology — hepatology",
+      "type": "discrimination",
+      "difficulty": "medium"
+    },
+    {
+      "stem": "A 34-year-old woman presents 18 hours after a staggered paracetamol overdose. ALT is 6800 U/L, bilirubin 62 µmol/L, INR 3.4, albumin 30 g/L, creatinine 140 µmol/L. She is drowsy but rousable.",
+      "lead": "Which result most reflects the severity of her liver injury?",
+      "options": [
+        "The ALT of 6800 U/L",
+        "The bilirubin of 62 µmol/L",
+        "The INR of 3.4",
+        "The albumin of 30 g/L",
+        "The ALT and bilirubin together"
+      ],
+      "correct": 2,
+      "explanation": "<b>INR is a measure of synthetic function</b> — clotting factors have a short half-life, so a rising INR reflects hepatocytes that can no longer synthesise, and it is a King's College criterion for transplant referral. <b>Transaminases measure damage, not function</b>, and their absolute height does not grade severity; in fulminant failure they can fall as hepatocytes are exhausted, which looks deceptively reassuring. <b>Albumin</b> is also synthetic but has a half-life of about 20 days, so it is far too slow to reflect an acute insult. Note the encephalopathy and rising creatinine here are equally ominous and warrant urgent liver unit discussion.",
+      "point": "Transaminases measure damage; only INR and albumin measure function, and INR is the one that moves fast enough to matter acutely.",
+      "topic": "Gastroenterology — liver function tests",
+      "type": "discrimination",
+      "difficulty": "hard"
+    },
+    {
+      "stem": "A 55-year-old man with known cirrhosis has a large haematemesis. After resuscitation, terlipressin and antibiotics, endoscopy shows actively bleeding oesophageal varices, which are banded. Six hours later he has a further large haematemesis with haemodynamic instability.",
+      "lead": "What is the most appropriate next step?",
+      "options": [
+        "Immediate splenectomy",
+        "Start a non-selective beta blocker",
+        "High-dose IV proton pump inhibitor infusion",
+        "Repeat banding at a third attempt after 24 hours",
+        "Balloon tamponade as a bridge to TIPS"
+      ],
+      "correct": 4,
+      "explanation": "Rebleeding after banding with instability is <b>failure of endoscopic therapy</b>, and the pathway is <b>balloon tamponade (Sengstaken–Blakemore) as a temporising bridge to TIPS</b>, which decompresses the portal system definitively. <b>PPI</b> belongs to the non-variceal pathway and does nothing for portal pressure. <b>Beta blockers</b> are secondary prophylaxis once bleeding has stopped — giving one to an unstable, actively bleeding patient blunts the compensatory tachycardia and is dangerous. Delaying for repeat banding in an unstable patient wastes the window.",
+      "point": "Variceal rebleeding after banding goes to balloon tamponade as a bridge to TIPS; beta blockers are secondary prophylaxis, never acute.",
+      "topic": "Gastroenterology — GI bleeding",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "stem": "A 24-year-old woman has 6 weeks of bloody diarrhoea, now 8 times a day. Temperature 38.1°C, HR 104, Hb 98 g/L, CRP 78 mg/L. Colonoscopy confirms extensive ulcerative colitis. She is admitted and started on IV hydrocortisone. By day 3 she is still passing 7 bloody stools a day with a CRP of 60.",
+      "lead": "What is the most appropriate next step?",
+      "options": [
+        "Start azathioprine",
+        "Commence loperamide to reduce stool frequency",
+        "Continue IV steroids for a further 5 days before reassessing",
+        "Add oral mesalazine and continue steroids",
+        "Rescue therapy with infliximab or ciclosporin, with surgical review"
+      ],
+      "correct": 4,
+      "explanation": "She meets <b>Truelove and Witts criteria for acute severe UC</b> (>6 bloody stools daily plus systemic features — fever, tachycardia, anaemia, raised inflammatory markers). The rule is <b>assess response at day 3</b>: failure to respond mandates <b>rescue therapy with infliximab or ciclosporin, alongside early surgical involvement</b>. <b>Continuing steroids and waiting</b> is the dangerous answer — it risks toxic megacolon and perforation. <b>Azathioprine</b> takes months to work and has no acute role. <b>Antimotility agents are contraindicated</b> in acute severe colitis: they precipitate toxic megacolon.",
+      "point": "Acute severe UC: assess at day 3, and non-response means rescue infliximab or ciclosporin with surgical review — never antimotility agents.",
+      "topic": "Gastroenterology — inflammatory bowel disease",
+      "type": "application",
+      "difficulty": "medium"
+    }
+  ]
+}
