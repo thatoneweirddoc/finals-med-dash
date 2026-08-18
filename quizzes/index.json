@@ -211,6 +211,24 @@
    "category": "topic",
    "for": "fadi",
    "servicedRequest": "r1786916191546"
+  },
+  {
+   "file": "gastro.json",
+   "title": "Gastroenterology",
+   "system": "Gastro",
+   "count": 10,
+   "added": "2026-08-18",
+   "category": "topic",
+   "servicedRequest": "r1787009259481"
+  },
+  {
+   "file": "family-medicine.json",
+   "title": "Family Medicine",
+   "system": "Family Medicine",
+   "count": 10,
+   "added": "2026-08-18",
+   "category": "topic",
+   "servicedRequest": "r1787009280835"
   }
  ]
 }
