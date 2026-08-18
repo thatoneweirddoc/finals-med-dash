@@ -1,0 +1,176 @@
+{
+ "title": "Neurology — hard",
+ "system": "Neurology",
+ "questions": [
+  {
+   "stem": "A 44-year-old man has a stab wound to the back. Examination shows weakness of the right leg with a right extensor plantar response, loss of vibration and proprioception in the right leg, and loss of pain and temperature in the left leg from the umbilicus down. Light touch is largely preserved bilaterally.",
+   "lead": "At which spinal level is the lesion, and on which side?",
+   "options": [
+    "Right hemisection at T10",
+    "Left hemisection at T10",
+    "Right hemisection at L1",
+    "Left hemisection at T4",
+    "Central cord lesion at T10"
+   ],
+   "correct": 0,
+   "explanation": "<b>Brown-Séquard syndrome.</b> Corticospinal and dorsal column fibres decussate high, so weakness and proprioceptive loss are <b>ipsilateral</b> to the lesion — here the right. Spinothalamic fibres decussate within one or two segments of entry, so pain and temperature loss is <b>contralateral</b> — the left. The sensory level at the <b>umbilicus is T10</b>. Light touch is preserved because it travels in both pathways. Getting the side right requires knowing which tract crosses where, not just naming the syndrome.",
+   "point": "In Brown-Sequard syndrome motor and proprioceptive loss are ipsilateral while pain and temperature loss is contralateral, and the umbilicus marks T10.",
+   "topic": "Neurology — spinal cord",
+   "type": "application",
+   "difficulty": "hard"
+  },
+  {
+   "stem": "A 68-year-old woman has a two-day history of double vision and a droopy right eyelid. The right pupil is 6mm and unreactive. The right eye rests in a 'down and out' position. She has a severe headache.",
+   "lead": "What does the pupillary involvement most importantly indicate?",
+   "options": [
+    "A microvascular diabetic third nerve palsy",
+    "A compressive lesion such as a posterior communicating artery aneurysm",
+    "A midbrain infarct",
+    "Myasthenia gravis",
+    "Horner syndrome"
+   ],
+   "correct": 1,
+   "explanation": "The parasympathetic pupillomotor fibres run on the <b>outer surface</b> of the third nerve, so a <b>compressive</b> lesion strikes them first — a <b>'surgical' third nerve palsy with a fixed dilated pupil</b>. A <b>microvascular</b> palsy infarcts the nerve's core and characteristically <b>spares the pupil</b>. With headache, this is a posterior communicating artery aneurysm until excluded by urgent angiography. Myasthenia never affects the pupil, which is a useful absolute.",
+   "point": "A third nerve palsy with pupil involvement suggests compression; a pupil-sparing palsy suggests a microvascular cause.",
+   "topic": "Neurology — cranial nerves",
+   "type": "discrimination",
+   "difficulty": "hard"
+  },
+  {
+   "stem": "A 73-year-old man has a broad-based shuffling gait, urinary urgency and mild cognitive slowing over 8 months. He has a mild symmetrical rest tremor. Levodopa produced no benefit over a three-month trial. CT shows ventriculomegaly out of proportion to sulcal atrophy.",
+   "lead": "Which finding most supports the likely diagnosis?",
+   "options": [
+    "The rest tremor",
+    "The absence of levodopa response with ventriculomegaly disproportionate to atrophy",
+    "The urinary urgency alone",
+    "The cognitive slowing alone",
+    "His age"
+   ],
+   "correct": 1,
+   "explanation": "<b>Normal pressure hydrocephalus</b> — the triad of gait apraxia, urinary incontinence and cognitive impairment ('wet, wacky, wobbly'), with the <b>gait typically first and most responsive</b> to shunting. The discriminating pair is <b>failure to respond to levodopa</b> plus <b>ventriculomegaly out of proportion to atrophy</b>: idiopathic Parkinson's responds well to levodopa, and ventricular enlargement there is proportionate to generalised atrophy. A large-volume lumbar puncture with gait assessment before and after predicts shunt response.",
+   "point": "Normal pressure hydrocephalus shows ventriculomegaly out of proportion to atrophy and does not respond to levodopa.",
+   "topic": "Neurology — movement disorders",
+   "type": "discrimination",
+   "difficulty": "hard"
+  },
+  {
+   "stem": "A 29-year-old woman is brought in after a witnessed generalised seizure. On arrival she has a dense right hemiparesis and is drowsy but rousable. She has a history of epilepsy. CT brain is normal. Two hours later the weakness has fully resolved.",
+   "lead": "What is the most likely explanation?",
+   "options": [
+    "Todd's paresis",
+    "Acute ischaemic stroke with spontaneous recanalisation",
+    "Hemiplegic migraine",
+    "Functional neurological disorder",
+    "Transient ischaemic attack"
+   ],
+   "correct": 0,
+   "explanation": "<b>Todd's paresis</b> — postictal focal weakness, typically resolving within minutes to 48 hours, thought to reflect neuronal exhaustion after the seizure. The known epilepsy, witnessed seizure and complete resolution fit. The trap is that this <b>mimics stroke exactly</b>, and in a first presentation you must exclude stroke first, because thrombolysis decisions turn on it — a seizure at stroke onset is a recognised stroke mimic and a relative contraindication that requires care rather than automatic exclusion.",
+   "point": "Todd's paresis is postictal focal weakness resolving within 48 hours and is a recognised stroke mimic.",
+   "topic": "Neurology — seizures",
+   "type": "discrimination",
+   "difficulty": "hard"
+  },
+  {
+   "stem": "A 52-year-old man with alcohol dependence is admitted confused. He is given IV dextrose for a glucose of 2.9 mmol/L. Over the next hours he develops horizontal nystagmus, bilateral lateral rectus palsies and ataxia. MRI brain is reported as normal.",
+   "lead": "How should the normal MRI be interpreted?",
+   "options": [
+    "It excludes the diagnosis",
+    "It is expected, as MRI is insensitive early and the diagnosis remains clinical",
+    "It indicates the cause is metabolic rather than nutritional",
+    "It suggests a functional disorder",
+    "It excludes thiamine deficiency specifically"
+   ],
+   "correct": 1,
+   "explanation": "<b>Wernicke's encephalopathy</b> — confusion, ophthalmoplegia and ataxia, here precipitated by giving <b>glucose before thiamine</b>, which consumes remaining thiamine as a cofactor. <b>MRI is insensitive, particularly early, and a normal scan does not exclude it</b>: the diagnosis is clinical and treatment must not wait. Give <b>high-dose parenteral thiamine</b>. Untreated it progresses to Korsakoff syndrome with irreversible anterograde amnesia and confabulation. The trap is treating a normal investigation as reassurance.",
+   "point": "A normal MRI does not exclude Wernicke's encephalopathy, which is a clinical diagnosis requiring immediate parenteral thiamine.",
+   "topic": "Neurology — nutritional",
+   "type": "application",
+   "difficulty": "hard"
+  },
+  {
+   "stem": "A 61-year-old smoker has 4 months of proximal leg weakness and difficulty rising from chairs. He reports dry mouth and impotence. On examination, knee reflexes are absent initially but become detectable after 15 seconds of sustained quadriceps contraction.",
+   "lead": "What would repetitive nerve stimulation show, and what is the diagnosis?",
+   "options": [
+    "Decremental response at low frequency; myasthenia gravis",
+    "Incremental response at high frequency; Lambert-Eaton myasthenic syndrome",
+    "Normal study; polymyositis",
+    "Conduction block; Guillain-Barré syndrome",
+    "Myotonic discharges; myotonic dystrophy"
+   ],
+   "correct": 1,
+   "explanation": "<b>Post-exercise facilitation</b> — reflexes and power improving briefly after sustained contraction — is characteristic of <b>Lambert-Eaton</b>, where antibodies against presynaptic voltage-gated calcium channels reduce acetylcholine release; sustained activity accumulates calcium and temporarily improves transmission. So repetitive stimulation shows an <b>incremental</b> response at high frequency. <b>Myasthenia is the mirror image</b>: fatigable weakness, worse with activity, decremental response. The autonomic features (dry mouth, impotence) and the smoking history pointing to small cell lung cancer complete the picture.",
+   "point": "Lambert-Eaton shows post-exercise facilitation and an incremental response to high-frequency stimulation, the opposite of myasthenia gravis.",
+   "topic": "Neurology — neuromuscular",
+   "type": "discrimination",
+   "difficulty": "hard"
+  },
+  {
+   "stem": "A 34-year-old woman has a facial droop. She cannot wrinkle her forehead on the affected side, cannot close the eye fully, and reports that sounds seem uncomfortably loud in the ipsilateral ear. Taste is altered on the anterior tongue.",
+   "lead": "What does the combination of hyperacusis and altered taste indicate about the lesion?",
+   "options": [
+    "It is an upper motor neurone lesion",
+    "It lies proximal to the branches to stapedius and chorda tympani, within the facial canal",
+    "It lies distal to the stylomastoid foramen",
+    "It is at the level of the parotid gland",
+    "It is in the internal capsule"
+   ],
+   "correct": 1,
+   "explanation": "Forehead involvement establishes a <b>lower</b> motor neurone lesion — the upper face has bilateral cortical innervation, so a UMN lesion spares it. The additional features localise further: <b>stapedius</b> (hyperacusis) and <b>chorda tympani</b> (taste, anterior two-thirds of tongue) both branch within the facial canal, so the lesion must be <b>proximal to them</b>. A lesion at the stylomastoid foramen or in the parotid would cause weakness alone. Treat with prednisolone within 72 hours, and protect the cornea — the eye that cannot close is the thing that causes lasting harm.",
+   "point": "Hyperacusis and altered taste with facial weakness localise the lesion proximally within the facial canal, above the branches to stapedius and chorda tympani.",
+   "topic": "Neurology — cranial nerves",
+   "type": "application",
+   "difficulty": "hard"
+  },
+  {
+   "stem": "A 26-year-old woman with obesity has daily headaches worse on lying flat and on coughing, with transient episodes of visual greying lasting seconds. Fundoscopy shows bilateral disc swelling. Visual acuity is 6/6 bilaterally. MRI brain and MR venography are normal. Lumbar puncture opening pressure is 32 cmH2O with normal CSF constituents.",
+   "lead": "Which feature most indicates the need for urgent intervention rather than observation?",
+   "options": [
+    "The opening pressure of 32 cmH2O",
+    "The normal visual acuity",
+    "The transient visual obscurations with disc swelling",
+    "The headache pattern",
+    "Her body mass index"
+   ],
+   "correct": 2,
+   "explanation": "This is <b>idiopathic intracranial hypertension</b>. The threat is not the headache but <b>permanent visual loss</b>, and the warning sign is <b>transient visual obscurations with papilloedema</b> — episodes of greying lasting seconds indicate the optic nerve is already being compromised. <b>Normal acuity is falsely reassuring</b>: central vision is preserved until late, and it is the <b>visual fields</b> that deteriorate first, so formal perimetry is essential. Opening pressure alone correlates poorly with visual risk. Management includes weight loss, acetazolamide, and surgical options if vision is threatened.",
+   "point": "In idiopathic intracranial hypertension, transient visual obscurations with papilloedema signal threatened vision even when acuity is normal.",
+   "topic": "Neurology — raised intracranial pressure",
+   "type": "application",
+   "difficulty": "hard"
+  },
+  {
+   "stem": "A 55-year-old man is brought in with a generalised tonic-clonic seizure that began 8 minutes before arrival and is continuing. He has had one dose of IV midazolam from the ambulance 4 minutes ago. Glucose is 6.1 mmol/L.",
+   "lead": "What is the most appropriate next step?",
+   "options": [
+    "Wait a further 10 minutes before escalating",
+    "A second dose of benzodiazepine, then move to a second-line antiseizure agent if it continues",
+    "Immediate rapid sequence induction and intubation",
+    "IV thiamine and glucose",
+    "CT brain before further treatment"
+   ],
+   "correct": 1,
+   "explanation": "<b>Convulsive status epilepticus</b> is defined at <b>5 minutes</b> of continuous seizure, so he is already in it. The sequence is <b>a second benzodiazepine dose</b> (a maximum of two in total) and, if seizures persist beyond roughly 20 minutes, a <b>second-line agent</b> — levetiracetam, sodium valproate or phenytoin, which the ESETT trial found equally effective. Anaesthesia and intubation follow refractory status at around 40 minutes, not now. Waiting is the error: mortality and neuronal injury rise with duration.",
+   "point": "Convulsive status epilepticus is defined at 5 minutes, allows a maximum of two benzodiazepine doses, then a second-line agent.",
+   "topic": "Neurology — seizures",
+   "type": "application",
+   "difficulty": "hard"
+  },
+  {
+   "stem": "A 70-year-old woman presents 90 minutes after sudden left-sided weakness and neglect. BP is 186/98, glucose 7.2. CT brain shows no haemorrhage and an early hyperdense right middle cerebral artery. CT angiography confirms a proximal M1 occlusion. She takes apixaban, last dose 6 hours ago.",
+   "lead": "Which factor most directly affects her eligibility for intravenous thrombolysis?",
+   "options": [
+    "The blood pressure of 186/98",
+    "The recent apixaban dose",
+    "The presence of neglect",
+    "The hyperdense artery sign",
+    "Her age of 70"
+   ],
+   "correct": 1,
+   "explanation": "<b>DOAC use within 48 hours is a contraindication to intravenous thrombolysis</b> unless coagulation testing is reassuring or a specific reversal agent has been given — she took apixaban 6 hours ago, so lysis is excluded on that basis. Her BP is high but <b>below the 185/110 threshold after treatment</b> and is manageable, age is not a barrier, and neglect and the hyperdense artery are findings rather than contraindications. Crucially, <b>she remains a candidate for endovascular thrombectomy</b>, which the confirmed M1 occlusion makes the definitive treatment — DOAC use does not exclude it.",
+   "point": "DOAC use within 48 hours contraindicates intravenous thrombolysis but does not exclude endovascular thrombectomy.",
+   "topic": "Neurology — stroke",
+   "type": "application",
+   "difficulty": "hard"
+  }
+ ]
+}
