@@ -1,0 +1,176 @@
+{
+  "title": "Gastroenterology",
+  "system": "Gastro",
+  "questions": [
+    {
+      "stem": "A 34-year-old woman has 8 months of bloating, loose pale stools and fatigue. Hb 104 g/L, MCV 76 fL, ferritin 8 µg/L. She has type 1 diabetes and a sister with autoimmune thyroid disease. She has already started a gluten-free diet on a friend's advice and feels better.",
+      "lead": "What is the most appropriate next step?",
+      "options": [
+        "Accept the symptomatic response and continue the gluten-free diet without testing",
+        "Request anti-tTG IgA and total IgA now",
+        "Ask her to return to a gluten-containing diet for at least 6 weeks, then test anti-tTG IgA and total IgA",
+        "Request HLA-DQ2/DQ8 typing to confirm the diagnosis",
+        "Proceed straight to duodenal biopsy while she remains gluten-free"
+      ],
+      "correct": 2,
+      "explanation": "Coeliac serology and histology both <b>depend on ongoing gluten exposure</b> — testing after gluten withdrawal risks a false negative and leaves her with a lifelong dietary label that was never confirmed. She needs a gluten challenge before testing. <b>Total IgA</b> is measured alongside anti-tTG because selective IgA deficiency (over-represented in coeliac) makes IgA-based tests falsely negative; IgG-DGP is then used instead. <b>HLA-DQ2/DQ8</b> is not a diagnostic test — it has high negative predictive value (absence largely excludes coeliac) but is present in about a third of the general population, so a positive result proves nothing.",
+      "point": "Coeliac serology and biopsy are only valid on a gluten-containing diet — a patient already gluten-free needs a challenge before testing.",
+      "topic": "Gastroenterology — coeliac disease",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "stem": "A 48-year-old man has 2 years of intermittent difficulty swallowing. It has affected both solids and liquids equally since it began. He regurgitates undigested food, particularly at night, and has lost 3 kg. There is no smoking or alcohol history.",
+      "lead": "What is the most likely diagnosis?",
+      "options": [
+        "Peptic stricture",
+        "Achalasia",
+        "Bulbar palsy",
+        "Eosinophilic oesophagitis",
+        "Oesophageal carcinoma"
+      ],
+      "correct": 1,
+      "explanation": "The discriminator is the <b>pattern from the outset</b>. <b>Achalasia</b> obstructs both solids and liquids equally from the start, is slowly progressive over years, and causes nocturnal regurgitation of undigested food. <b>Mechanical obstruction</b> (carcinoma, peptic stricture) is progressive <i>solids first, then liquids</i> — carcinoma over months with marked weight loss, not two years. <b>Neurological dysphagia</b> (bulbar palsy) starts with liquids and involves coughing/aspiration at the moment of swallowing. Diagnosis is by manometry (failed LOS relaxation, absent peristalsis) after endoscopy excludes pseudoachalasia from tumour.",
+      "point": "Solids and liquids affected equally from the outset is achalasia; progressive solids-then-liquids is mechanical; liquids first is neurological.",
+      "topic": "Gastroenterology — dysphagia",
+      "type": "discrimination",
+      "difficulty": "medium"
+    },
+    {
+      "stem": "A 58-year-old man with alcohol-related cirrhosis and known ascites presents with 2 days of increasing abdominal distension and mild diffuse abdominal discomfort. Temperature 37.6°C, BP 104/62, and he is mildly confused. Diagnostic paracentesis shows an ascitic neutrophil count of 380 cells/mm³ with no organisms seen on Gram stain.",
+      "lead": "What is the most appropriate management?",
+      "options": [
+        "IV cefotaxime plus IV albumin",
+        "Oral norfloxacin prophylaxis alone",
+        "Large-volume paracentesis with albumin cover",
+        "IV cefotaxime, withholding albumin unless renal function deteriorates",
+        "Await ascitic culture before starting antibiotics"
+      ],
+      "correct": 0,
+      "explanation": "An ascitic <b>neutrophil count ≥250 cells/mm³ diagnoses spontaneous bacterial peritonitis</b> — culture is negative in around 40% of cases and waiting for it costs lives, so treatment starts on the cell count alone. Empirical <b>IV cefotaxime</b> plus <b>IV albumin</b> (1.5 g/kg day 1, 1 g/kg day 3) is standard: albumin reduces hepatorenal syndrome and mortality, and giving it only after renal function deteriorates loses that benefit. Note SBP is often subtle — fever may be low grade and encephalopathy or unexplained deterioration may be the only clue, which is why any decompensating cirrhotic with ascites gets a diagnostic tap.",
+      "point": "Ascitic neutrophils ≥250/mm³ diagnoses SBP regardless of culture — treat immediately with cefotaxime and albumin.",
+      "topic": "Gastroenterology — cirrhosis complications",
+      "type": "recall",
+      "difficulty": "medium"
+    },
+    {
+      "stem": "A 62-year-old man with known cirrhosis presents with haematemesis. BP 88/54, HR 118. Bloods show Hb 74 g/L, urea 18.2 mmol/L, creatinine 82 µmol/L.",
+      "lead": "Which combination should be given before endoscopy?",
+      "options": [
+        "IV proton pump inhibitor and tranexamic acid",
+        "IV terlipressin and IV antibiotics",
+        "IV terlipressin alone",
+        "IV antibiotics and fresh frozen plasma",
+        "IV proton pump inhibitor and IV antibiotics"
+      ],
+      "correct": 1,
+      "explanation": "In suspected <b>variceal bleeding</b>, two things go in before the scope: a <b>vasoactive drug</b> (terlipressin, or octreotide) to drop portal pressure, and <b>prophylactic antibiotics</b>, which independently reduce mortality, rebleeding and infection in cirrhotic GI bleeding — the antibiotic is the part most often forgotten, and it is not optional. <b>PPIs</b> belong to non-variceal bleeding and are given after endoscopy confirms the source. The <b>disproportionately raised urea with normal creatinine</b> is the classic marker of an upper GI source: absorbed blood protein is a nitrogen load.",
+      "point": "Suspected variceal bleed: terlipressin plus antibiotics before endoscopy — antibiotics reduce mortality independently.",
+      "topic": "Gastroenterology — GI bleeding",
+      "type": "recall",
+      "difficulty": "medium"
+    },
+    {
+      "stem": "A 26-year-old man has 4 months of right lower quadrant pain, non-bloody diarrhoea and 6 kg weight loss. He has perianal skin tags and a small anal fistula. Colonoscopy shows patchy ulceration in the terminal ileum and ascending colon with normal mucosa in between. He smokes 15 cigarettes a day.",
+      "lead": "Which feature most specifically distinguishes his condition from ulcerative colitis?",
+      "options": [
+        "Skip lesions with perianal fistulising disease",
+        "Raised faecal calprotectin",
+        "A positive pANCA",
+        "The presence of diarrhoea and weight loss",
+        "Crypt abscesses on histology"
+      ],
+      "correct": 0,
+      "explanation": "<b>Skip lesions and perianal fistulising disease</b> are Crohn's-defining: UC is continuous from the rectum proximally, confined to the colon, and does not fistulise. Crohn's is transmural (hence fistulae, strictures, abscesses) with non-caseating granulomas; <b>crypt abscesses</b> are the UC pattern. <b>Calprotectin</b> is raised in both — it separates IBD from IBS, not Crohn's from UC. <b>pANCA</b> favours UC (ASCA favours Crohn's), so it points the wrong way. Smoking fits too: it worsens Crohn's but is paradoxically protective in UC.",
+      "point": "Skip lesions, transmural disease and perianal fistulae are Crohn's; continuous colonic mucosal disease with crypt abscesses is UC.",
+      "topic": "Gastroenterology — inflammatory bowel disease",
+      "type": "discrimination",
+      "difficulty": "easy"
+    },
+    {
+      "stem": "A 41-year-old woman has pre-employment screening bloods. Results: HBsAg negative, anti-HBc IgG positive, anti-HBs positive. LFTs are normal.",
+      "lead": "How should this be interpreted?",
+      "options": [
+        "Chronic hepatitis B infection",
+        "Acute hepatitis B infection",
+        "Susceptible — non-immune",
+        "Successful vaccination",
+        "Past infection, now resolved and immune"
+      ],
+      "correct": 4,
+      "explanation": "<b>Anti-HBc is the discriminator between vaccination and past infection</b>: core antibody only appears after natural infection, because vaccines contain surface antigen alone. So anti-HBc positive with anti-HBs positive and HBsAg negative is <b>past resolved infection with immunity</b>. Vaccination gives anti-HBs positive with anti-HBc <i>negative</i>. Chronic infection requires <b>HBsAg positive for over 6 months</b>; acute infection shows HBsAg positive with anti-HBc <b>IgM</b>.",
+      "point": "Anti-HBc separates natural infection from vaccination — vaccinated patients have anti-HBs without anti-HBc.",
+      "topic": "Gastroenterology — viral hepatitis",
+      "type": "recall",
+      "difficulty": "easy"
+    },
+    {
+      "stem": "A 52-year-old woman presents with severe epigastric pain radiating to the back and vomiting. Lipase is 1450 U/L (ULN 60). She drinks minimal alcohol. Ultrasound shows gallstones with a normal common bile duct. She is afebrile, BP 118/70, and observations are otherwise normal.",
+      "lead": "Which investigation result would most change immediate management?",
+      "options": [
+        "A repeat lipase at 48 hours",
+        "A CT abdomen showing pancreatic oedema",
+        "An amylase level three times the upper limit of normal",
+        "A rising bilirubin with fever and rigors",
+        "A serum triglyceride level of 4 mmol/L"
+      ],
+      "correct": 3,
+      "explanation": "The management question in gallstone pancreatitis is whether there is <b>coexisting cholangitis or persistent bile duct obstruction</b>, because that mandates <b>urgent ERCP</b> rather than supportive care alone. A rising bilirubin with fever and rigors is that trigger. <b>Early CT adds nothing</b> in the first 72 hours — necrosis is not yet visible and the diagnosis is already made. <b>Lipase level does not track severity</b> and serial measurement is unhelpful. Triglycerides only cause pancreatitis above roughly 11 mmol/L. Note diagnosis needs 2 of 3: characteristic pain, lipase >3× ULN, or imaging.",
+      "point": "In gallstone pancreatitis, cholangitis or persistent obstruction is the finding that converts supportive care into urgent ERCP — and lipase level does not indicate severity.",
+      "topic": "Gastroenterology — pancreatitis",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "stem": "A 29-year-old woman has 8 months of lower abdominal pain relieved by defaecation, alternating stool form, and bloating. There is no rectal bleeding, no weight loss and no nocturnal symptoms. FBC, ferritin, CRP and coeliac serology are normal.",
+      "lead": "Which single test best discriminates the two leading diagnoses?",
+      "options": [
+        "ESR",
+        "Abdominal ultrasound",
+        "Hydrogen breath test",
+        "Faecal elastase",
+        "Faecal calprotectin"
+      ],
+      "correct": 4,
+      "explanation": "<b>Faecal calprotectin</b> is a neutrophil-derived protein that is raised in mucosal inflammation and normal in IBS — it is the specific tool for separating <b>IBD from IBS</b> and avoiding colonoscopy in young patients with no alarm features. <b>ESR and CRP</b> are too insensitive for mild or limited IBD. <b>Faecal elastase</b> tests pancreatic exocrine function, and <b>hydrogen breath testing</b> looks for bacterial overgrowth — both answer different questions. Her history already meets positive IBS criteria with no red flags, so the calprotectin is for confidence rather than a fishing expedition.",
+      "point": "Faecal calprotectin separates IBD from IBS; it does not distinguish Crohn's from ulcerative colitis.",
+      "topic": "Gastroenterology — functional bowel disorders",
+      "type": "recall",
+      "difficulty": "easy"
+    },
+    {
+      "stem": "A 55-year-old man has deranged liver function. AST 180 U/L, ALT 76 U/L, GGT 340 U/L, ALP 130 U/L, bilirubin 28 µmol/L, MCV 104 fL, platelets 120 × 10⁹/L.",
+      "lead": "What does this biochemical pattern most suggest?",
+      "options": [
+        "Biliary obstruction",
+        "Ischaemic hepatitis",
+        "Non-alcoholic fatty liver disease",
+        "Alcohol-related liver disease",
+        "Acute viral hepatitis"
+      ],
+      "correct": 3,
+      "explanation": "An <b>AST:ALT ratio above 2</b> with a raised GGT, macrocytosis and thrombocytopenia is the alcohol signature. <b>NAFLD</b> typically shows the reverse (ALT > AST) until advanced fibrosis develops. <b>Acute viral hepatitis</b> and <b>ischaemic hepatitis</b> produce transaminases in the hundreds to thousands, not this modest rise. <b>Biliary obstruction</b> would show ALP and bilirubin rising disproportionately to the transaminases. The low platelets here also hint at portal hypertension and established cirrhosis rather than simple fatty change.",
+      "point": "AST:ALT above 2 with raised GGT and macrocytosis indicates alcohol; ALT above AST suggests NAFLD or viral hepatitis.",
+      "topic": "Gastroenterology — liver function tests",
+      "type": "recall",
+      "difficulty": "easy"
+    },
+    {
+      "stem": "A 61-year-old man has epigastric pain worse after eating. Gastroscopy shows a 1.5 cm gastric ulcer with clean base; biopsies show chronic gastritis with Helicobacter pylori and no dysplasia. He is treated with quadruple therapy and his symptoms resolve completely.",
+      "lead": "What should happen next?",
+      "options": [
+        "No further action — the biopsies were benign and symptoms have resolved",
+        "Urea breath test at 4 weeks only, with no further endoscopy",
+        "Repeat gastroscopy at 6–8 weeks to confirm ulcer healing with repeat biopsy",
+        "Lifelong maintenance proton pump inhibitor without further endoscopy",
+        "CT abdomen to stage for malignancy"
+      ],
+      "correct": 2,
+      "explanation": "<b>Gastric ulcers are re-scoped to confirm healing and re-biopsied</b>, because a proportion of ulcerated gastric cancers look benign and initial biopsies can sample the wrong area — symptom resolution is reassuring but proves nothing about the mucosa. <b>Duodenal ulcers</b> do not need this: they essentially never harbour malignancy, and confirming eradication with a urea breath test (off PPI for 2 weeks) is sufficient. That asymmetry is the exam point. Note the pain pattern also fits: gastric ulcers hurt <i>with</i> food, duodenal ulcers are relieved by it.",
+      "point": "Gastric ulcers require repeat endoscopy and biopsy to exclude malignancy; duodenal ulcers do not.",
+      "topic": "Gastroenterology — peptic ulcer disease",
+      "type": "discrimination",
+      "difficulty": "hard"
+    }
+  ]
+}
