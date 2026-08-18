@@ -229,6 +229,17 @@
    "added": "2026-08-18",
    "category": "topic",
    "servicedRequest": "r1787009280835"
+  },
+  {
+   "file": "neurology-hard.json",
+   "title": "Neurology — hard",
+   "system": "Neurology",
+   "count": 10,
+   "added": "2026-08-19",
+   "category": "topic",
+   "difficulty": "hard",
+   "for": "fadi",
+   "servicedRequest": "r1787096042082"
   }
  ]
 }
