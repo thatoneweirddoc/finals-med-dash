@@ -932,7 +932,7 @@
       <div class="excl-grid" id="inclGrid"></div>
       <div class="row">
         <button class="act" id="btnSchedule">Schedule</button>
-        <button class="act" id="btnNow">Make now</button>
+        <button class="act" id="btnNow">Make in Claude</button>
         <button class="mini" id="genSess">Copy prompt instead</button>
       </div>
       <div class="sync" id="sessStatus" hidden></div>
@@ -943,7 +943,8 @@
           <button class="act" id="copySess">Copy</button>
           <span class="saved" id="sessSaved">Copied</span>
         </div>
-        <p class="note">Fallback only — paste into a chat to run the session live. Schedule and Make now both skip it.</p>
+        <p class="note">Fallback only — paste into a chat to run the session live. Use this if
+          Make in Claude can't reach the app on this device.</p>
       </div>
     </div>
   </section>
@@ -1035,7 +1036,7 @@
         </div>
         <div class="row">
           <button class="act" id="revSchedule">Schedule</button>
-          <button class="act" id="revNow">Make now</button>
+          <button class="act" id="revNow">Make in Claude</button>
           <button class="mini" id="revGen">Copy prompt instead</button>
         </div>
         <div class="sync" id="revStatus" hidden></div>
@@ -1043,8 +1044,8 @@
           <textarea id="revText" rows="3" readonly
             style="width:100%;margin-top:12px;font-family:var(--mono);font-size:13px"></textarea>
           <span class="saved" id="revSaved">Copied</span>
-          <p class="note">Fallback only — Schedule queues it for the scheduled task, Make now
-            generates it immediately through the API.</p>
+          <p class="note">Fallback only — Schedule queues it for the scheduled task, Make in
+            Claude opens a chat with the same request already typed.</p>
         </div>
       </div>
       <div class="panel">
@@ -2364,11 +2365,31 @@ $('copySess').onclick = async () => {
   $('sessSaved').classList.add('on'); setTimeout(()=>$('sessSaved').classList.remove('on'), 1600);
 };
 
-/* ---- generation loop: Schedule (free, hourly) and Make now (API, seconds) ----
-   Neither path can poke a Claude chat directly. Schedule writes a request into a
-   Drive queue that the hourly scheduled task drains; Make now has Apps Script call
-   the Anthropic API itself. Both end up as an ordinary quiz in the bank, so the
+/* ---- generation loop: Schedule (queued) and Make in Claude (handoff) ----
+   Schedule writes a request into a Drive queue that the hourly scheduled task
+   drains. Make in Claude opens the Claude app with the request already typed,
+   so the work runs against the ordinary chat allowance rather than billing an
+   API call per press. Both end up as an ordinary quiz in the bank, so the
    player doesn't care which produced it. */
+
+/* claude:// is a URL scheme, not a web address: the OS hands it to the Claude
+   app, and if no app is registered nothing happens at all. It only fills the
+   composer — Claude sends nothing until the prompt is read and entered, which
+   is Anthropic's rule and not something a page can override. */
+const CLAUDE_Q_MAX = 14000;   // longer prompts get truncated by the app
+
+function handoffToClaude(text, msg){
+  const body = text.length > CLAUDE_Q_MAX ? text.slice(0, CLAUDE_Q_MAX) : text;
+  msg('Opening Claude with the request typed out — read it, then send it. ' +
+      'Nothing happens here until the quiz is published back.', '');
+  // A failed scheme navigation is silent by design, so say so rather than
+  // leaving the last status line looking like success.
+  setTimeout(() => {
+    if(!document.hidden) msg("Claude didn't open — the app may not be installed " +
+      'on this device. Use Copy prompt instead.', 'warn');
+  }, 2500);
+  window.location.href = 'claude://claude.ai/new?q=' + encodeURIComponent(body);
+}
 
 let BUFFER = null;
 
@@ -2457,20 +2478,27 @@ $('btnSchedule').onclick = async () => {
   btn.disabled = false;
 };
 
-$('btnNow').onclick = async () => {
-  const btn = $('btnNow');
+function sessPrompt(){
   const req = sessRequest();
-  btn.disabled = true; $('btnSchedule').disabled = true;
-  sessMsg(`Generating ${req.n} questions\u2026 this takes up to a minute or two, keep the tab open.`, '');
-  try{
-    const d = await callSync('generateNow', req);
-    sessMsg(`Done \u2014 "${d.title}", ${d.count} questions. It's in the bank under Sessions.`, 'ok');
-    fetchQuizzes(); refreshBuffer();
-  }catch(e){
-    sessMsg('Generation failed \u2014 ' + String(e.message || e).slice(0, 120), 'warn');
-  }
-  btn.disabled = false; $('btnSchedule').disabled = false;
-};
+  const excluded = excludedSystems();
+  return [
+    `Build me a quiz for my finals dashboard \u2014 ${req.n} questions on ${req.system}.`,
+    req.difficulty ? `Difficulty: ${req.difficulty} only.` : 'Difficulty: exam mix.',
+    excluded.length ? `Leave out: ${excluded.join(', ')}.` : '',
+    '',
+    'Single-best-answer clinical vignettes at written-finals depth \u2014 history, exam ' +
+    'findings, sometimes one investigation result, then diagnosis, next step, ' +
+    'threshold or mechanism. Five options each, one clearly best, distractors that ' +
+    'are plausible rather than filler. Ground them in my master notes and recognition ' +
+    'summaries rather than inventing content from general memory, and add a short ' +
+    'explanation to every question.',
+    '',
+    'Publish it to the finals-med-dash repo under quizzes/ in the usual schema so it ' +
+    'lands in the bank. Run this in my finals project so you can read the notes and tracker.'
+  ].filter(Boolean).join('\n');
+}
+
+$('btnNow').onclick = () => { handoffToClaude(sessPrompt(), sessMsg); };
 
 (function initGeneration(){
   // sessSys is filled by renderSystemPickers, which also refreshes it when the
@@ -3248,16 +3276,25 @@ $('revSchedule').onclick = async () => {
   b.disabled = false;
 };
 
-$('revNow').onclick = async () => {
-  const b = $('revNow'); b.disabled = true; $('revSchedule').disabled = true;
-  revMsg('Building the module\u2026 this takes a minute or two, keep the tab open.','');
-  try{
-    const d = await callSync('generateNow', revRequest());
-    revMsg(`Done \u2014 "${d.title}": ${d.objectives} objectives, ${d.questions} questions.`, 'ok');
-    fetchRevision();
-  }catch(e){ revMsg('Build failed \u2014 ' + String(e.message||e).slice(0,120), 'warn'); }
-  b.disabled = false; $('revSchedule').disabled = false;
-};
+function revPrompt(){
+  const req = revRequest();
+  const scope = $('revScope').value;
+  return [
+    scope === 'system'
+      ? `Build me a revision module on ${req.system} for my finals dashboard.`
+      : 'Build me a revision module on my weakest flagged areas for my finals dashboard.',
+    '',
+    'Read my tracker first and aim the module at the gaps it shows' +
+      (scope === 'system' ? ' within that system' : '') + '. Teach first, test second: ' +
+      `objectives, short teaching sections on exactly those weak points, then ${req.n} ` +
+      'questions on the same points \u2014 not a general survey of the topic.',
+    '',
+    'Publish it to the revision folder so it appears in my module list. Run this in my ' +
+    'finals project so you can read the notes and tracker.'
+  ].join('\n');
+}
+
+$('revNow').onclick = () => { handoffToClaude(revPrompt(), revMsg); };
 
 $('revGen').onclick = async () => {
   const scope = $('revScope').value;
