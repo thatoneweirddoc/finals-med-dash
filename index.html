@@ -1026,6 +1026,7 @@
           <select id="revScope" class="narrow">
             <option value="weak">My flagged weaknesses</option>
             <option value="system">A specific system</option>
+            <option value="random">A random system</option>
           </select>
           <select id="revSystem" class="narrow" hidden></select>
           <select id="revLen" class="narrow">
@@ -3285,16 +3286,89 @@ document.addEventListener('visibilitychange', () => {
 /* ---- revision modules ---- */
 const REPO_REVISION = 'https://raw.githubusercontent.com/thatoneweirddoc/finals-med-dash/main/revision/';
 let CURRENT_REV = null, REV_ANSWERS = [], REV_SUBMITTED = false;
+// Last list fetched by fetchRevision — read by the random picker to know which
+// systems are already covered.
+let REV_MODULES = [];
 
 // populate the system picker from the systems we know about
 $('revSystem').innerHTML = [...BUILT, ...UNBUILT].map(s => `<option>${esc(s)}</option>`).join('');
-$('revScope').onchange = e => { $('revSystem').hidden = e.target.value !== 'system'; };
+
+/* Random scope exists so a system that never gets picked deliberately still
+   gets covered. "Random" that can hand back a system you already have a module
+   for is just noise, so the pick is drawn from what is genuinely uncovered:
+   every system already carrying a module, plus every system sitting unbuilt in
+   the queue, is off the table. Both are read live rather than remembered
+   locally, so it stays correct across devices and after a module is deleted. */
+let RANDOM_PICK = null;
+
+async function pendingRevisionSystems(){
+  try{
+    const t = token();
+    if(!t) return [];
+    const r = await fetch(`${SYNC_URL}?token=${encodeURIComponent(t)}&action=queue`);
+    const d = await r.json();
+    return (d.requests || [])
+      .filter(q => q.kind === 'revision' && q.status === 'pending')
+      .map(q => q.system);
+  }catch(e){ return []; }   // offline: fall back to modules alone
+}
+
+async function pickRandomSystem(){
+  const covered = new Set([
+    ...REV_MODULES.map(m => m.system),
+    ...await pendingRevisionSystems()
+  ].filter(Boolean));
+
+  const pool = ALL_SYSTEMS.filter(s => !covered.has(s));
+  if(!pool.length) return null;
+  return pool[Math.floor(Math.random() * pool.length)];
+}
+
+async function chooseRandom(){
+  revMsg('Picking a system\u2026', '');
+  // Drawing against an empty list would happily return a system that already
+  // has a module, so make sure the list has actually been fetched first.
+  if(!REV_MODULES.length) { try{ await fetchRevision(); }catch(e){} }
+  const pick = await pickRandomSystem();
+  if(!pick){
+    // Everything is covered. Silently recycling would quietly hand back a
+    // duplicate, so say so and let the choice be deliberate instead.
+    RANDOM_PICK = null;
+    $('revSystem').hidden = true;
+    revMsg('Every system already has a module or one queued \u2014 pick a specific ' +
+           'system to go deeper, or build from your flagged weaknesses.', 'warn');
+    return;
+  }
+  RANDOM_PICK = pick;
+  $('revSystem').value = pick;
+  $('revSystem').hidden = false;
+  $('revSystem').disabled = true;      // shown so the pick is visible, not editable
+  revMsg(`Random pick: ${pick} \u2014 nothing built for it yet. Re-select "A random ` +
+         'system" to draw again.', 'ok');
+}
+
+$('revScope').onchange = e => {
+  const v = e.target.value;
+  $('revSystem').disabled = false;
+  if(v === 'random'){ chooseRandom(); return; }
+  RANDOM_PICK = null;
+  $('revSystem').hidden = v !== 'system';
+  revMsg('', '');
+};
+
+// The scope picker and the two prompt builders all need the same answer to
+// "which system is this module about", so it lives in one place.
+function revSystemName(){
+  const scope = $('revScope').value;
+  if(scope === 'system') return $('revSystem').value;
+  if(scope === 'random') return RANDOM_PICK;
+  return 'Weakest areas';
+}
 
 function revRequest(){
-  const scope = $('revScope').value;
   return {
     kind: 'revision',
-    system: scope === 'system' ? $('revSystem').value : 'Weakest areas',
+    system: revSystemName() || 'Weakest areas',
     n: Number($('revLen').value) || 10,
     topics: [], note: ''
   };
@@ -3307,12 +3381,21 @@ function revMsg(msg, cls){
 }
 
 $('revSchedule').onclick = async () => {
+  // A random scope with no pick means the pool was exhausted; queueing anyway
+  // would quietly build "Weakest areas" instead of what was asked for.
+  if($('revScope').value === 'random' && !RANDOM_PICK){
+    revMsg('No random system to queue \u2014 every system is already covered. ' +
+           'Choose a specific system instead.', 'warn');
+    return;
+  }
   const b = $('revSchedule'); b.disabled = true;
   revMsg('Queueing\u2026','');
   try{
     const req = revRequest();
     await callSync('queueRequest', req);
     revMsg(`Queued \u2014 revision module on ${req.system}. The scheduled task will build it.`, 'ok');
+    // The queue now covers this system, so a later draw must not offer it again.
+    if($('revScope').value === 'random') RANDOM_PICK = null;
   }catch(e){ revMsg('Could not queue \u2014 ' + String(e.message||e).slice(0,80), 'warn'); }
   b.disabled = false;
 };
@@ -3320,9 +3403,9 @@ $('revSchedule').onclick = async () => {
 $('revNow').onclick = () => generateAllPending(revMsg);
 
 $('revGen').onclick = async () => {
-  const scope = $('revScope').value;
-  const text = scope === 'system'
-    ? `Build me a revision module on ${$('revSystem').value}. Read my tracker, find my weak points within that system, and publish it to the revision folder.`
+  const sys = revSystemName();
+  const text = (sys && sys !== 'Weakest areas')
+    ? `Build me a revision module on ${sys}. Read my tracker, find my weak points within that system, and publish it to the revision folder.`
     : `Build me a revision module on my weakest flagged areas. Read my tracker, pick the biggest gap, and publish it to the revision folder.`;
   $('revText').value = text;
   $('revOut').hidden = false;
@@ -3384,6 +3467,7 @@ async function fetchRevision(){
   const all = [...drive, ...repo]
     .filter(m => !isHidden(m.file ? 'rev:' + m.file : m.id))
     .filter(isMine);
+  REV_MODULES = all;
 
   el.innerHTML = all.length ? all.map(revItem).join('')
     : '<div class="empty">None yet — request one above</div>';
