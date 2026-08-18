@@ -932,7 +932,7 @@
       <div class="excl-grid" id="inclGrid"></div>
       <div class="row">
         <button class="act" id="btnSchedule">Schedule</button>
-        <button class="act" id="btnNow">Make in Claude</button>
+        <button class="act" id="btnNow">Generate all pending</button>
         <button class="mini" id="genSess">Copy prompt instead</button>
       </div>
       <div class="sync" id="sessStatus" hidden></div>
@@ -943,8 +943,8 @@
           <button class="act" id="copySess">Copy</button>
           <span class="saved" id="sessSaved">Copied</span>
         </div>
-        <p class="note">Fallback only — paste into a chat to run the session live. Use this if
-          Make in Claude can't reach the app on this device.</p>
+        <p class="note">Fallback only — paste into a chat to run the session live.
+          Schedule queues the request instead; Generate all pending builds the whole queue.</p>
       </div>
     </div>
   </section>
@@ -1036,7 +1036,7 @@
         </div>
         <div class="row">
           <button class="act" id="revSchedule">Schedule</button>
-          <button class="act" id="revNow">Make in Claude</button>
+          <button class="act" id="revNow">Generate all pending</button>
           <button class="mini" id="revGen">Copy prompt instead</button>
         </div>
         <div class="sync" id="revStatus" hidden></div>
@@ -1044,8 +1044,8 @@
           <textarea id="revText" rows="3" readonly
             style="width:100%;margin-top:12px;font-family:var(--mono);font-size:13px"></textarea>
           <span class="saved" id="revSaved">Copied</span>
-          <p class="note">Fallback only — Schedule queues it for the scheduled task, Make in
-            Claude opens a chat with the same request already typed.</p>
+          <p class="note">Fallback only — Schedule queues it for the scheduled task,
+            Generate all pending opens a chat set up to build the whole queue at once.</p>
         </div>
       </div>
       <div class="panel">
@@ -2376,34 +2376,80 @@ $('copySess').onclick = async () => {
    app, and if nothing is registered for it the press does nothing at all and
    says nothing about why. The chat route is documented for Claude Desktop; the
    mobile apps only register the Code routes, so on a phone this usually will
-   not open a chat. So the prompt goes to the clipboard first and the scheme is
-   only attempted after \u2014 that way the button is never a dead end, it is at
-   worst a copy. Nothing sends on its own either way: Claude fills the composer
-   and waits, which is Anthropic's rule and not something a page can override. */
-const CLAUDE_Q_MAX = 14000;   // longer prompts get truncated by the app
+   not open a chat. So the prompt goes to the clipboard first and the app is
+   only opened after \u2014 that way the button is never a dead end, it is at
+   worst a copy. Nothing sends on its own either way: the composer is filled and
+   waits, which is Anthropic's rule and not something a page can override.
 
-async function handoffToClaude(text, msg){
-  const body = text.length > CLAUDE_Q_MAX ? text.slice(0, CLAUDE_Q_MAX) : text;
+   No link can open a *new chat inside a project*: the project route takes no
+   prompt parameter and the new-chat route takes no project. So the honest best
+   is to land on the project with the request already on the clipboard. */
+const CLAUDE_Q_MAX = 14000;   // longer prompts get truncated by the app
+const PROJECT_KEY  = 'finals:claudeProject';
+
+function projectUrl(){
+  try{ return localStorage.getItem(PROJECT_KEY) || ''; }catch(e){ return ''; }
+}
+function setProjectUrl(){
+  const cur = projectUrl();
+  const v = window.prompt(
+    'Paste the link to your finals project in Claude.\n' +
+    'Open the project, copy the address bar \u2014 it looks like\n' +
+    'https://claude.ai/project/xxxxxxxx', cur);
+  if(v === null) return cur;
+  const clean = v.trim();
+  try{ clean ? localStorage.setItem(PROJECT_KEY, clean)
+             : localStorage.removeItem(PROJECT_KEY); }catch(e){}
+  return clean;
+}
+
+/* One instruction covers both queues \u2014 the scheduled task and the dashboard
+   both write into the same pending list, so there is nothing to disambiguate
+   here. Whatever is waiting gets built in one sitting. */
+function pendingPrompt(){
+  const n = BUFFER && BUFFER.pending;
+  return [
+    'Generate everything pending on my finals dashboard.',
+    '',
+    'Read the queued requests from the tracker in Drive' +
+      (n ? ` \u2014 there ${n === 1 ? 'was 1 request' : `were ${n} requests`} ` +
+           'queued when I pressed this' : '') + '. Build each one and publish it so it ' +
+      'shows up in the bank, then tell me what you built and what you skipped.',
+    '',
+    'Quizzes: single-best-answer clinical vignettes at written-finals depth \u2014 history, ' +
+    'exam findings, sometimes one investigation result, then diagnosis, next step, ' +
+    'threshold or mechanism. Five options, one clearly best, plausible distractors, a ' +
+    'short explanation on every question. Publish under quizzes/.',
+    '',
+    'Revision modules: teach first, test second. Read my tracker, aim the teaching at the ' +
+    'gaps it actually shows, then question those same points rather than surveying the ' +
+    'topic. Publish to the revision folder.',
+    '',
+    'Ground all of it in my master notes and recognition summaries rather than inventing ' +
+    'content from general memory.'
+  ].join('\n');
+}
+
+async function generateAllPending(msg){
+  const body = (() => { const t = pendingPrompt();
+    return t.length > CLAUDE_Q_MAX ? t.slice(0, CLAUDE_Q_MAX) : t; })();
+
   let copied = false;
-  try{
-    await navigator.clipboard.writeText(body);
-    copied = true;
-  }catch(e){ /* no clipboard permission \u2014 the fold below still has the text */ }
+  try{ await navigator.clipboard.writeText(body); copied = true; }
+  catch(e){ /* no clipboard permission \u2014 fall through to the fold below */ }
+
+  let url = projectUrl();
+  if(!url) url = setProjectUrl();
+  if(!url){
+    msg(copied ? 'Prompt copied \u2014 paste it into a new chat in your finals project.'
+               : 'Set the project link first, then press this again.', 'warn');
+    return;
+  }
 
   msg(copied
-    ? 'Prompt copied. Trying to open Claude \u2014 if it stays put, paste it into a chat yourself.'
-    : 'Trying to open Claude \u2014 if it stays put, use Copy prompt instead.', '');
-
-  window.location.href = 'claude://claude.ai/new?q=' + encodeURIComponent(body);
-
-  // A failed scheme navigation is silent, so the page has to speak for it. If
-  // we are still visible a beat later, nothing took the link.
-  setTimeout(() => {
-    if(document.hidden) return;
-    msg(copied
-      ? "Claude didn't open on this device \u2014 the prompt is on your clipboard, paste it into a chat."
-      : "Claude didn't open on this device \u2014 use Copy prompt instead.", 'warn');
-  }, 2500);
+    ? 'Prompt copied. Opening the project \u2014 start a new chat there and paste it.'
+    : "Opening the project \u2014 the prompt didn't copy, use Copy prompt instead.", 'ok');
+  window.open(url, '_blank', 'noopener');
 }
 
 let BUFFER = null;
@@ -2493,27 +2539,7 @@ $('btnSchedule').onclick = async () => {
   btn.disabled = false;
 };
 
-function sessPrompt(){
-  const req = sessRequest();
-  const excluded = excludedSystems();
-  return [
-    `Build me a quiz for my finals dashboard \u2014 ${req.n} questions on ${req.system}.`,
-    req.difficulty ? `Difficulty: ${req.difficulty} only.` : 'Difficulty: exam mix.',
-    excluded.length ? `Leave out: ${excluded.join(', ')}.` : '',
-    '',
-    'Single-best-answer clinical vignettes at written-finals depth \u2014 history, exam ' +
-    'findings, sometimes one investigation result, then diagnosis, next step, ' +
-    'threshold or mechanism. Five options each, one clearly best, distractors that ' +
-    'are plausible rather than filler. Ground them in my master notes and recognition ' +
-    'summaries rather than inventing content from general memory, and add a short ' +
-    'explanation to every question.',
-    '',
-    'Publish it to the finals-med-dash repo under quizzes/ in the usual schema so it ' +
-    'lands in the bank. Run this in my finals project so you can read the notes and tracker.'
-  ].filter(Boolean).join('\n');
-}
-
-$('btnNow').onclick = () => { handoffToClaude(sessPrompt(), sessMsg); };
+$('btnNow').onclick = () => generateAllPending(sessMsg);
 
 (function initGeneration(){
   // sessSys is filled by renderSystemPickers, which also refreshes it when the
@@ -3291,25 +3317,7 @@ $('revSchedule').onclick = async () => {
   b.disabled = false;
 };
 
-function revPrompt(){
-  const req = revRequest();
-  const scope = $('revScope').value;
-  return [
-    scope === 'system'
-      ? `Build me a revision module on ${req.system} for my finals dashboard.`
-      : 'Build me a revision module on my weakest flagged areas for my finals dashboard.',
-    '',
-    'Read my tracker first and aim the module at the gaps it shows' +
-      (scope === 'system' ? ' within that system' : '') + '. Teach first, test second: ' +
-      `objectives, short teaching sections on exactly those weak points, then ${req.n} ` +
-      'questions on the same points \u2014 not a general survey of the topic.',
-    '',
-    'Publish it to the revision folder so it appears in my module list. Run this in my ' +
-    'finals project so you can read the notes and tracker.'
-  ].join('\n');
-}
-
-$('revNow').onclick = () => { handoffToClaude(revPrompt(), revMsg); };
+$('revNow').onclick = () => generateAllPending(revMsg);
 
 $('revGen').onclick = async () => {
   const scope = $('revScope').value;
