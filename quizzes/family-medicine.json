@@ -1,0 +1,176 @@
+{
+  "title": "Family Medicine",
+  "system": "Family Medicine",
+  "questions": [
+    {
+      "stem": "A 27-year-old woman attends for a routine check. She has never had a cervical screening test. She is sexually active, has no symptoms, and was vaccinated against HPV at school.",
+      "lead": "What is the appropriate cervical screening for her under the Australian National Cervical Screening Program?",
+      "options": [
+        "Primary HPV test every 5 years",
+        "Co-testing with HPV and cytology every 3 years",
+        "No screening required given HPV vaccination",
+        "Primary HPV test every 3 years",
+        "Liquid-based cytology every 2 years"
+      ],
+      "correct": 0,
+      "explanation": "The Australian program uses <b>primary HPV testing every 5 years from age 25 to 74</b>, with cytology performed reflexively only if HPV is detected. Screening starts at 25 regardless of age at first intercourse. <b>Vaccination does not exempt anyone</b> — the vaccine does not cover every oncogenic type and coverage of the pre-vaccination cohort is incomplete, so vaccinated women screen on the same schedule. Self-collection is now available to all screening participants as an equally accurate option, which matters for patients who decline a speculum examination.",
+      "point": "Australian cervical screening is a primary HPV test 5-yearly from 25 to 74, and HPV vaccination does not change that schedule.",
+      "topic": "General Practice — screening",
+      "type": "recall",
+      "difficulty": "easy"
+    },
+    {
+      "stem": "A 47-year-old man with no bowel symptoms, no family history of bowel cancer and no personal history of polyps asks about bowel cancer screening after a colleague was diagnosed.",
+      "lead": "What is the most appropriate advice?",
+      "options": [
+        "He is not eligible until age 50, when a kit will be posted automatically",
+        "He is eligible now and can request a free faecal immunochemical test kit, repeated 2-yearly",
+        "He should be referred for a screening colonoscopy",
+        "He should have an annual faecal immunochemical test from now",
+        "He should have CT colonography every 5 years"
+      ],
+      "correct": 1,
+      "explanation": "Since 1 July 2024 the National Bowel Cancer Screening Program covers ages <b>45 to 74</b>. Those aged <b>50–74 are sent a kit automatically every 2 years</b>; those aged <b>45–49 are eligible but must request their first kit</b> (via the National Cancer Screening Register or their GP) — which is exactly why a GP should raise it opportunistically rather than wait. The test is a <b>faecal immunochemical test, 2-yearly</b>. <b>Colonoscopy is not a population screening tool</b> for average-risk people; it is the response to a positive FIT or to a high-risk family history.",
+      "point": "Bowel screening in Australia is 2-yearly FIT from 45 to 74 — automatic from 50, but 45–49-year-olds must request the first kit.",
+      "topic": "General Practice — screening",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "stem": "A GP practice introduces a new screening test for a chronic disease. After a year the practice notes that patients diagnosed through screening appear to survive longer from the point of diagnosis than patients previously diagnosed once symptomatic, although the age at death is unchanged.",
+      "lead": "What best explains this observation?",
+      "options": [
+        "Length-time bias",
+        "Confounding by indication",
+        "The screening test is genuinely effective",
+        "Selection bias",
+        "Lead-time bias"
+      ],
+      "correct": 4,
+      "explanation": "<b>Lead-time bias</b> is exactly this: screening moves the moment of diagnosis earlier, so survival measured <i>from diagnosis</i> lengthens even when the date of death does not change and nothing has been gained. The giveaway in the stem is <b>unchanged age at death</b>. <b>Length-time bias</b> is different — screening preferentially catches slow-growing indolent disease because it spends longer in the detectable preclinical phase, making screen-detected disease look more survivable. Both are why screening programs must show <b>mortality reduction</b>, not improved survival from diagnosis, before adoption.",
+      "point": "Lead-time bias lengthens survival from diagnosis without changing date of death; only mortality reduction proves a screening program works.",
+      "topic": "General Practice — screening principles",
+      "type": "discrimination",
+      "difficulty": "hard"
+    },
+    {
+      "stem": "A 56-year-old man has a blood pressure of 148/88, total cholesterol 5.8 mmol/L, HDL 1.2 mmol/L, is a current smoker and has no diabetes or established cardiovascular disease. He asks whether he needs a statin.",
+      "lead": "What should guide the decision?",
+      "options": [
+        "The number of individual risk factors present, treating if three or more",
+        "The cholesterol level alone, treating if total cholesterol exceeds 5.5 mmol/L",
+        "Calculated absolute cardiovascular disease risk over the next 5 years",
+        "The blood pressure alone, treating once it exceeds 140/90",
+        "A coronary artery calcium score in all patients before any decision"
+      ],
+      "correct": 2,
+      "explanation": "Australian practice is built on <b>absolute cardiovascular risk</b> — the calculated probability of an event over the next 5 years using age, sex, smoking, blood pressure, cholesterol ratio, diabetes status and related factors — not on individual risk factor thresholds. Treating single numbers <b>overtreats</b> the young patient with isolated hypercholesterolaemia and <b>undertreats</b> the older smoker whose individual readings all look unremarkable but who combines them into high risk. Some patients are automatically high risk without calculation (established CVD, eGFR under 45, familial hypercholesterolaemia). <b>Calcium scoring</b> is a selective tool to reclassify intermediate risk, not a first-line test for everyone.",
+      "point": "Cardiovascular treatment decisions in Australia are driven by calculated absolute risk, not by individual risk-factor thresholds.",
+      "topic": "General Practice — cardiovascular risk",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "stem": "A 34-year-old man new to the practice requests diazepam for anxiety. He reports a previous prescriber who 'understood him', says he has run out early, declines referral for psychological therapy, and asks for a larger quantity because he is travelling. He becomes irritable when this is questioned.",
+      "lead": "What is the most appropriate initial approach?",
+      "options": [
+        "Provide a short limited supply to maintain the therapeutic relationship, then review",
+        "Check the real-time prescription monitoring system and obtain previous records before prescribing",
+        "Refuse and discharge him from the practice",
+        "Prescribe an equivalent dose of a longer-acting benzodiazepine to reduce the risk of misuse",
+        "Prescribe on condition that he agrees to psychological referral"
+      ],
+      "correct": 1,
+      "explanation": "The features here — new patient, early running out, requesting a specific drug, resisting alternatives, pressure and irritability — are the recognised pattern of <b>drug-seeking behaviour</b>, but they are not proof of it, and undertreated anxiety looks similar. The safe move is to <b>gather information before prescribing</b>: real-time prescription monitoring (SafeScript / QScript and equivalents) and previous records. <b>Prescribing a small supply to keep the peace</b> is the common trap — it rewards the pressure and starts a dependence relationship. <b>Discharging him outright</b> abandons a patient who may have genuine untreated illness or established dependence needing management. Benzodiazepines are not first-line for generalised anxiety in any case.",
+      "point": "When a benzodiazepine request raises concern, check real-time prescription monitoring and past records before writing anything — do not prescribe a token supply to defuse the consultation.",
+      "topic": "General Practice — drugs of dependence",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "stem": "A 45-year-old woman drinks 3 standard drinks most weeknights and 6 on Saturdays. She has no features of dependence, normal LFTs and no withdrawal history.",
+      "lead": "How does her intake compare with current Australian guidelines for healthy adults?",
+      "options": [
+        "Within guidelines on both weekly and single-day limits",
+        "Exceeds the weekly limit only",
+        "Exceeds the single-day limit only",
+        "Exceeds both the weekly and single-day limits",
+        "Guidelines specify only a weekly limit, which she meets"
+      ],
+      "correct": 3,
+      "explanation": "The NHMRC guideline for healthy adults is <b>no more than 10 standard drinks per week and no more than 4 on any one day</b>. She drinks roughly 21 per week (well over 10) and 6 on Saturdays (over 4), so both limits are breached. The two limits address different harms: the <b>weekly</b> figure targets long-term disease risk, the <b>daily</b> figure targets acute injury. Absence of dependence, normal LFTs and no withdrawal do not make the intake safe — they simply place her in the <b>risky drinking</b> group where brief intervention in general practice is effective, rather than the dependent group needing withdrawal management.",
+      "point": "NHMRC limits are 10 standard drinks per week and 4 on any single day — two separate limits covering chronic disease and acute injury risk.",
+      "topic": "General Practice — substance misuse",
+      "type": "recall",
+      "difficulty": "medium"
+    },
+    {
+      "stem": "A 68-year-old woman trips on a flat footpath and sustains a distal radius fracture. She is otherwise well. Her DXA bone mineral density T-score is −2.1 at the femoral neck.",
+      "lead": "How should she be classified and managed?",
+      "options": [
+        "Normal bone density for age — no further action",
+        "Osteopenia — calcium and vitamin D only, with treatment deferred until T-score reaches −2.5",
+        "Indeterminate — repeat DXA at a second site before deciding",
+        "Osteopenia — lifestyle advice and repeat DXA in 2 years",
+        "Osteoporosis — she meets the diagnosis on the fracture alone and warrants treatment"
+      ],
+      "correct": 4,
+      "explanation": "A <b>minimal-trauma fracture</b> (one from a fall at standing height or less) in a person over 50 <b>is</b> osteoporosis clinically, whatever the T-score says — the fracture is the outcome that bone density is only a surrogate for. Waiting for the number to cross −2.5 leaves a high-risk patient untreated, and in Australia a minimal-trauma fracture over 50 is itself the PBS criterion for anti-resorptive therapy. She also needs assessment for <b>secondary causes</b> and a <b>falls review</b>: a trip on a flat surface may signal gait, vision or medication problems that treating bone alone will not fix.",
+      "point": "A minimal-trauma fracture over 50 diagnoses osteoporosis regardless of T-score and warrants treatment without waiting for −2.5.",
+      "topic": "General Practice — osteoporosis",
+      "type": "discrimination",
+      "difficulty": "medium"
+    },
+    {
+      "stem": "A 32-year-old woman with a history of childhood sexual abuse repeatedly cancels appointments for a cervical screening test. When she attends, she appears guarded and asks a lot of questions about what will happen.",
+      "lead": "Which approach best reflects trauma-informed care?",
+      "options": [
+        "Explain each step in advance, make clear she can stop at any time, and offer self-collection",
+        "Avoid raising the topic of screening again to prevent re-traumatisation",
+        "Ask for a detailed account of the abuse to understand her triggers",
+        "Arrange the procedure under sedation",
+        "Complete the examination quickly to minimise the time she is distressed"
+      ],
+      "correct": 0,
+      "explanation": "Trauma-informed care is built on <b>safety, trustworthiness, choice, collaboration and empowerment</b> — in practice, explaining what will happen, giving explicit and repeated permission to stop, and offering alternatives that return control to the patient. <b>Self-collection</b> for HPV is accurate and available to all participants, and it removes the speculum entirely, so it is the concrete option here rather than a compromise. Working <b>faster</b> increases loss of control, which is the core of the traumatic experience. <b>Dropping the subject</b> denies her preventive care. Trauma-informed practice explicitly does <b>not</b> require disclosure of the trauma — asking for the details serves the clinician's curiosity, not the patient.",
+      "point": "Trauma-informed care means restoring control — explanation, permission to stop, and alternatives like self-collection — and never requires the patient to recount the trauma.",
+      "topic": "General Practice — trauma-informed care",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "stem": "Ten minutes after a routine immunisation in a suburban general practice, a 24-year-old man develops widespread urticaria, wheeze, and a sensation of throat tightness. BP 88/50, HR 124. Weight approximately 70 kg.",
+      "lead": "What is the immediate treatment?",
+      "options": [
+        "Intravenous adrenaline 0.5 mg (5 mL of 1:10 000)",
+        "Intramuscular promethazine with nebulised salbutamol",
+        "Intravenous hydrocortisone 200 mg with an antihistamine",
+        "Intramuscular adrenaline 0.5 mg (0.5 mL of 1:1000) into the anterolateral thigh",
+        "Subcutaneous adrenaline 0.5 mg (0.5 mL of 1:1000) into the upper arm"
+      ],
+      "correct": 3,
+      "explanation": "Anaphylaxis is treated with <b>IM adrenaline into the anterolateral thigh</b> — 0.5 mg (0.5 mL of 1:1000) in an adult, repeated every 5 minutes as needed, with the patient <b>lain flat</b> (sitting or standing a hypotensive anaphylaxis patient up can cause cardiac arrest). The thigh is chosen for reliable absorption; <b>subcutaneous and deltoid</b> routes are absorbed too slowly. <b>IV adrenaline</b> is for arrest or a specialist-monitored setting — giving it in a GP room risks arrhythmia and hypertensive crisis. <b>Steroids and antihistamines</b> treat neither the airway nor the circulation and are strictly adjuncts; reaching for them first is the classic fatal delay.",
+      "point": "Anaphylaxis: IM adrenaline 0.5 mg of 1:1000 into the anterolateral thigh, patient lying flat — steroids and antihistamines are adjuncts only.",
+      "topic": "General Practice — emergencies",
+      "type": "recall",
+      "difficulty": "easy"
+    },
+    {
+      "stem": "A 15-year-old girl attends alone requesting contraception. She is articulate, understands how the pill works, its risks and the need for STI protection, and does not want her parents told. There is no suggestion of coercion, exploitation or an age-inappropriate partner.",
+      "lead": "What is the correct approach?",
+      "options": [
+        "Notify child protection services because she is under 16",
+        "Parental consent is required before prescribing at this age",
+        "She may consent herself if assessed as a mature minor, and confidentiality should be maintained",
+        "Prescribe, but confidentiality cannot be offered to anyone under 16",
+        "Decline and refer to a sexual health service, which alone can treat minors"
+      ],
+      "correct": 2,
+      "explanation": "Under the <b>mature minor</b> doctrine (Gillick), a young person under 16 who demonstrates sufficient understanding of the treatment, its risks and alternatives can consent independently, and the <b>same duty of confidentiality applies</b> as to an adult. The stem deliberately establishes her competence and the absence of red flags. <b>Automatic parental consent</b> is wrong, and telling her confidentiality is unavailable is the reliable way to stop her seeking care at all. <b>Mandatory reporting is triggered by risk of harm</b> — coercion, exploitation, a much older partner, or a very young age — not by the fact of being under 16, so it does not apply here. Encouraging parental involvement remains good practice, but it cannot be a precondition.",
+      "point": "A competent mature minor can consent to contraception and is owed confidentiality; reporting is triggered by evidence of harm or exploitation, not by age alone.",
+      "topic": "Ethics & Law — consent in minors",
+      "type": "application",
+      "difficulty": "medium"
+    }
+  ]
+}
