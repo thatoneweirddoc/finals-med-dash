@@ -2417,6 +2417,10 @@ function pendingPrompt(){
            'queued when I pressed this' : '') + '. Build each one and publish it so it ' +
       'shows up in the bank, then tell me what you built and what you skipped.',
     '',
+    'Each request may carry a note listing objectives already covered by an earlier ' +
+    'module on that system. Treat that as binding: teach different ground within the ' +
+    'system rather than repeating those objectives.',
+    '',
     'Quizzes: single-best-answer clinical vignettes at written-finals depth \u2014 history, ' +
     'exam findings, sometimes one investigation result, then diagnosis, next step, ' +
     'threshold or mechanism. Five options, one clearly best, plausible distractors, a ' +
@@ -3294,64 +3298,83 @@ let REV_MODULES = [];
 $('revSystem').innerHTML = [...BUILT, ...UNBUILT].map(s => `<option>${esc(s)}</option>`).join('');
 
 /* Random scope exists so a system that never gets picked deliberately still
-   gets covered. "Random" that can hand back a system you already have a module
-   for is just noise, so the pick is drawn from what is genuinely uncovered:
-   every system already carrying a module, plus every system sitting unbuilt in
-   the queue, is off the table. Both are read live rather than remembered
-   locally, so it stays correct across devices and after a module is deleted. */
-let RANDOM_PICK = null;
+   gets covered. The thing that must not repeat is the *learning objectives*,
+   not the system — a second Endocrine module is fine and often wanted, as long
+   as it teaches the parts the first one didn't. So the draw is never blocked,
+   and instead the request carries the objectives already covered so the
+   generator can steer around them.
 
-async function pendingRevisionSystems(){
+   To spread coverage without excluding anything, the draw is uniform among the
+   systems holding the fewest modules — untouched systems come up first, but a
+   system never becomes permanently ineligible. */
+let RANDOM_PICK = null;
+let RANDOM_AVOID = [];
+
+async function pendingRevisionRequests(){
   try{
     const t = token();
     if(!t) return [];
     const r = await fetch(`${SYNC_URL}?token=${encodeURIComponent(t)}&action=queue`);
     const d = await r.json();
-    return (d.requests || [])
-      .filter(q => q.kind === 'revision' && q.status === 'pending')
-      .map(q => q.system);
-  }catch(e){ return []; }   // offline: fall back to modules alone
+    return (d.requests || []).filter(q => q.kind === 'revision' && q.status === 'pending');
+  }catch(e){ return []; }   // offline: fall back to the module list alone
 }
 
 async function pickRandomSystem(){
-  const covered = new Set([
-    ...REV_MODULES.map(m => m.system),
-    ...await pendingRevisionSystems()
-  ].filter(Boolean));
+  // A queued-but-unbuilt request counts as coverage, or scheduling two in a row
+  // draws the same untouched system twice.
+  const pendingSystems = (await pendingRevisionRequests()).map(q => q.system);
+  const count = s => REV_MODULES.filter(m => m.system === s).length
+                   + pendingSystems.filter(x => x === s).length;
 
-  const pool = ALL_SYSTEMS.filter(s => !covered.has(s));
-  if(!pool.length) return null;
+  const counts = ALL_SYSTEMS.map(count);
+  const fewest = Math.min(...counts);
+  const pool = ALL_SYSTEMS.filter((s, i) => counts[i] === fewest);
   return pool[Math.floor(Math.random() * pool.length)];
+}
+
+/* Objective text lives in the module files, not the manifest, so covering
+   requires fetching them. Only the drawn system's modules are read: that is
+   where overlap actually happens, and it keeps this to a couple of requests
+   rather than one per module ever built. */
+async function coveredObjectives(system){
+  const mine = REV_MODULES.filter(m => m.system === system).slice(0, 6);
+  const out = [];
+  for(const m of mine){
+    try{
+      const url = m.file
+        ? REPO_REVISION + m.file + '?t=' + Date.now()
+        : `${SYNC_URL}?token=${encodeURIComponent(token())}&action=getQuiz&id=${m.id}`;
+      const d = await (await fetch(url)).json();
+      (d.objectives || []).forEach(o => out.push(o));
+    }catch(e){ /* unreadable module — better to miss one than to fail the draw */ }
+  }
+  return out;
 }
 
 async function chooseRandom(){
   revMsg('Picking a system\u2026', '');
-  // Drawing against an empty list would happily return a system that already
-  // has a module, so make sure the list has actually been fetched first.
+  // Drawing against an empty list would ignore everything already built.
   if(!REV_MODULES.length) { try{ await fetchRevision(); }catch(e){} }
+
   const pick = await pickRandomSystem();
-  if(!pick){
-    // Everything is covered. Silently recycling would quietly hand back a
-    // duplicate, so say so and let the choice be deliberate instead.
-    RANDOM_PICK = null;
-    $('revSystem').hidden = true;
-    revMsg('Every system already has a module or one queued \u2014 pick a specific ' +
-           'system to go deeper, or build from your flagged weaknesses.', 'warn');
-    return;
-  }
   RANDOM_PICK = pick;
+  RANDOM_AVOID = await coveredObjectives(pick);
+
   $('revSystem').value = pick;
   $('revSystem').hidden = false;
   $('revSystem').disabled = true;      // shown so the pick is visible, not editable
-  revMsg(`Random pick: ${pick} \u2014 nothing built for it yet. Re-select "A random ` +
-         'system" to draw again.', 'ok');
+  revMsg(RANDOM_AVOID.length
+    ? `Random pick: ${pick} \u2014 ${RANDOM_AVOID.length} objectives already covered, ` +
+      'so this one will go elsewhere in the system. Re-select to draw again.'
+    : `Random pick: ${pick} \u2014 nothing built for it yet. Re-select to draw again.`, 'ok');
 }
 
 $('revScope').onchange = e => {
   const v = e.target.value;
   $('revSystem').disabled = false;
   if(v === 'random'){ chooseRandom(); return; }
-  RANDOM_PICK = null;
+  RANDOM_PICK = null; RANDOM_AVOID = [];
   $('revSystem').hidden = v !== 'system';
   revMsg('', '');
 };
@@ -3365,12 +3388,20 @@ function revSystemName(){
   return 'Weakest areas';
 }
 
+// Carried on the request so whoever builds it knows what not to teach again.
+function avoidNote(){
+  if($('revScope').value !== 'random' || !RANDOM_AVOID.length) return '';
+  return 'Already covered by existing modules on this system \u2014 do not repeat these ' +
+         'objectives, teach different ground within the system:\n\u2022 ' +
+         RANDOM_AVOID.join('\n\u2022 ');
+}
+
 function revRequest(){
   return {
     kind: 'revision',
     system: revSystemName() || 'Weakest areas',
     n: Number($('revLen').value) || 10,
-    topics: [], note: ''
+    topics: [], note: avoidNote()
   };
 }
 
@@ -3381,21 +3412,15 @@ function revMsg(msg, cls){
 }
 
 $('revSchedule').onclick = async () => {
-  // A random scope with no pick means the pool was exhausted; queueing anyway
-  // would quietly build "Weakest areas" instead of what was asked for.
-  if($('revScope').value === 'random' && !RANDOM_PICK){
-    revMsg('No random system to queue \u2014 every system is already covered. ' +
-           'Choose a specific system instead.', 'warn');
-    return;
-  }
   const b = $('revSchedule'); b.disabled = true;
   revMsg('Queueing\u2026','');
   try{
     const req = revRequest();
     await callSync('queueRequest', req);
     revMsg(`Queued \u2014 revision module on ${req.system}. The scheduled task will build it.`, 'ok');
-    // The queue now covers this system, so a later draw must not offer it again.
-    if($('revScope').value === 'random') RANDOM_PICK = null;
+    // That system now has one more pending request, so redraw rather than
+    // leaving a stale pick that would queue the same thing twice.
+    if($('revScope').value === 'random') chooseRandom();
   }catch(e){ revMsg('Could not queue \u2014 ' + String(e.message||e).slice(0,80), 'warn'); }
   b.disabled = false;
 };
@@ -3404,9 +3429,11 @@ $('revNow').onclick = () => generateAllPending(revMsg);
 
 $('revGen').onclick = async () => {
   const sys = revSystemName();
-  const text = (sys && sys !== 'Weakest areas')
+  const avoid = avoidNote();
+  let text = (sys && sys !== 'Weakest areas')
     ? `Build me a revision module on ${sys}. Read my tracker, find my weak points within that system, and publish it to the revision folder.`
     : `Build me a revision module on my weakest flagged areas. Read my tracker, pick the biggest gap, and publish it to the revision folder.`;
+  if(avoid) text += '\n\n' + avoid;
   $('revText').value = text;
   $('revOut').hidden = false;
   try{ await navigator.clipboard.writeText(text); $('revSaved').classList.add('on');
