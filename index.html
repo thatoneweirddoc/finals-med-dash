@@ -2373,22 +2373,37 @@ $('copySess').onclick = async () => {
    player doesn't care which produced it. */
 
 /* claude:// is a URL scheme, not a web address: the OS hands it to the Claude
-   app, and if no app is registered nothing happens at all. It only fills the
-   composer — Claude sends nothing until the prompt is read and entered, which
-   is Anthropic's rule and not something a page can override. */
+   app, and if nothing is registered for it the press does nothing at all and
+   says nothing about why. The chat route is documented for Claude Desktop; the
+   mobile apps only register the Code routes, so on a phone this usually will
+   not open a chat. So the prompt goes to the clipboard first and the scheme is
+   only attempted after \u2014 that way the button is never a dead end, it is at
+   worst a copy. Nothing sends on its own either way: Claude fills the composer
+   and waits, which is Anthropic's rule and not something a page can override. */
 const CLAUDE_Q_MAX = 14000;   // longer prompts get truncated by the app
 
-function handoffToClaude(text, msg){
+async function handoffToClaude(text, msg){
   const body = text.length > CLAUDE_Q_MAX ? text.slice(0, CLAUDE_Q_MAX) : text;
-  msg('Opening Claude with the request typed out — read it, then send it. ' +
-      'Nothing happens here until the quiz is published back.', '');
-  // A failed scheme navigation is silent by design, so say so rather than
-  // leaving the last status line looking like success.
-  setTimeout(() => {
-    if(!document.hidden) msg("Claude didn't open — the app may not be installed " +
-      'on this device. Use Copy prompt instead.', 'warn');
-  }, 2500);
+  let copied = false;
+  try{
+    await navigator.clipboard.writeText(body);
+    copied = true;
+  }catch(e){ /* no clipboard permission \u2014 the fold below still has the text */ }
+
+  msg(copied
+    ? 'Prompt copied. Trying to open Claude \u2014 if it stays put, paste it into a chat yourself.'
+    : 'Trying to open Claude \u2014 if it stays put, use Copy prompt instead.', '');
+
   window.location.href = 'claude://claude.ai/new?q=' + encodeURIComponent(body);
+
+  // A failed scheme navigation is silent, so the page has to speak for it. If
+  // we are still visible a beat later, nothing took the link.
+  setTimeout(() => {
+    if(document.hidden) return;
+    msg(copied
+      ? "Claude didn't open on this device \u2014 the prompt is on your clipboard, paste it into a chat."
+      : "Claude didn't open on this device \u2014 use Copy prompt instead.", 'warn');
+  }, 2500);
 }
 
 let BUFFER = null;
