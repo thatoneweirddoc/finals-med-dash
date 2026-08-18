@@ -1,0 +1,237 @@
+{
+  "title": "Neurology",
+  "system": "Neurology",
+  "created": "2026-08-18",
+  "rationale": "Requested module, aimed at where the tracker actually shows failure rather than the whole system. Stroke is 0% over 2 questions and both misses were application, not recall — thrombolysis timing and posterior-circulation localisation. Movement disorders 0%, nerve roots 0% (L3 for L4), head injury 50% and neurosurgical head injury 0%, with the same subdural stem missed twice. Headache, seizures, demyelination and neuromuscular are all at 100%, so they are left alone.",
+  "objectives": [
+    "Decide reperfusion in acute stroke: the thrombolysis window and its absolute contraindications, and when thrombectomy applies instead.",
+    "Localise a stroke to a vascular territory, including the posterior-circulation syndromes that do not present with hemiparesis.",
+    "Separate extradural, subdural and subarachnoid haemorrhage by history and CT appearance, and act on a blown pupil.",
+    "Assign a lumbosacral radiculopathy to L4, L5 or S1 using the myotome, dermatome and reflex triad.",
+    "Distinguish idiopathic Parkinson's disease from drug-induced parkinsonism, the Parkinson-plus syndromes and essential tremor."
+  ],
+  "sections": [
+    {
+      "heading": "Acute stroke — the reperfusion decision",
+      "body": "Two separate treatments with two separate clocks, and the exam tests whether you know they are separate.\n\n**Thrombolysis** (alteplase or tenecteplase) is given within **4.5 hours of known onset**. If onset is unwitnessed or on waking, the clock starts from **last known well** — not from when they were found. Perfusion imaging can extend this in selected patients, but the default answer to a straightforward stem is 4.5 hours.\n\n**Thrombectomy** is for **large-vessel occlusion** (ICA, M1, basilar) and the window is far longer — out to **24 hours** with favourable perfusion imaging. So \"outside the thrombolysis window\" does **not** mean \"no reperfusion\": it means image the vessels and consider thrombectomy. That distinction is the commonest trap.\n\n| Step | Answer |\n|---|---|\n| First investigation | **Non-contrast CT brain** — to exclude haemorrhage |\n| CT is normal, 2 h from onset | Thrombolyse |\n| CT shows haemorrhage | No thrombolysis ever; BP control, reverse anticoagulation |\n| 8 h from onset, M1 occlusion | Thrombectomy |\n| Not eligible for either | Aspirin 300 mg, stroke unit |\n\n**Absolute contraindications to thrombolysis** worth holding: any intracranial haemorrhage, recent ischaemic stroke or head injury (within 3 months), recent intracranial or spinal surgery, active internal bleeding, BP that stays above **185/110** despite treatment, glucose under 2.8 mmol/L, platelets under 100, and current anticoagulation with a therapeutic INR or a recent DOAC dose.\n\nA normal CT is expected early and is not a reason to withhold treatment — it is the point of doing it.",
+      "note": "Thrombolysis is 4.5 hours from last known well; thrombectomy for large-vessel occlusion runs to 24 hours — missing the lysis window is not the end of reperfusion.",
+      "link": {
+        "system": "neurology",
+        "slug": "cerebrovascular-disease",
+        "title": "Cerebrovascular Disease"
+      }
+    },
+    {
+      "heading": "Localising the stroke — including the ones without hemiparesis",
+      "body": "Anterior circulation strokes look like strokes. The marks are lost on the **posterior circulation**, where the patient has no weakness at all.\n\n| Territory | Picture |\n|---|---|\n| **ACA** | Contralateral **leg** > arm weakness, abulia, incontinence |\n| **MCA** | Contralateral **face and arm** > leg, aphasia (dominant), neglect (non-dominant), gaze **towards** the lesion |\n| **PCA** | Contralateral **homonymous hemianopia** with macular sparing; midbrain signs |\n| **PICA** (lateral medullary / Wallenberg) | **No limb weakness.** Ipsilateral face + contralateral body sensory loss, Horner's, ataxia, vertigo, **dysphagia and hoarseness** |\n| **Basilar** | Reduced consciousness, quadriparesis, locked-in, crossed signs |\n| **Lacunar** | Pure motor, pure sensory, ataxic hemiparesis — **no** cortical signs |\n\n**Wallenberg is the one to know cold.** Vertigo, vomiting, hiccups, hoarse voice and difficulty swallowing, with *crossed* sensory loss and a Horner's, and normal power. Called PICA by convention, though vertebral artery occlusion is the usual mechanism.\n\n**Crossed signs — one side of the face, the other side of the body — localise to the brainstem** and nowhere else. That single rule answers most posterior-circulation stems.\n\nEye deviation is a useful shortcut: a cortical (MCA) lesion drives the eyes **towards** the lesion and away from the weak side; a pontine lesion drives them **away** from the lesion and towards the weak side.",
+      "note": "Crossed signs — ipsilateral face, contralateral body — mean brainstem; lateral medullary syndrome has vertigo, Horner's, hoarseness and dysphagia with normal power.",
+      "link": {
+        "system": "neurology",
+        "slug": "neuroanatomy-and-localisation",
+        "title": "Neuroanatomy and localisation"
+      }
+    },
+    {
+      "heading": "Intracranial haemorrhage — three histories, three shapes",
+      "body": "The history separates these before the CT does.\n\n| | Extradural | Subdural | Subarachnoid |\n|---|---|---|---|\n| Vessel | Middle meningeal **artery** | **Bridging veins** | Berry aneurysm |\n| Typical patient | Young, temporal blow | **Elderly, anticoagulated, alcohol** | 40–60, often hypertensive |\n| Time course | **Lucid interval**, then rapid decline over hours | **Days to weeks**, fluctuating, often trivial or forgotten injury | **Instant** thunderclap, maximal at onset |\n| CT shape | **Biconvex/lens**, does not cross sutures | **Crescent**, crosses sutures, follows the convexity | Blood in the **basal cisterns and sulci** |\n\n**Delayed deterioration days to weeks after a minor head injury in an elderly or anticoagulated patient is a subdural until proven otherwise** — the mechanism is a slow venous ooze, so the presentation is slow, the injury may be forgotten, and the patient looked fine at the time. Reaching for intracerebral haemorrhage instead loses this: a hypertensive intracerebral bleed is a sudden deficit at the moment it happens, not a stuttering decline a week later.\n\n**A unilaterally dilated, poorly reactive pupil with the eye deviated down and out is uncal herniation** compressing the third nerve — parasympathetic fibres run on the outside of CN III, so pupil involvement is the early sign. It means an expanding mass on that side and it is a **neurosurgical emergency now**: airway, elevate the head, treat the pressure, urgent CT and immediate neurosurgical referral. Cushing's response (**hypertension with bradycardia**) is the systemic counterpart — a high BP with a slow pulse in a head-injured patient is raised intracranial pressure, not a cardiac problem to be treated.\n\nFor SAH: CT is highly sensitive in the first 6 hours and falls away after; if the CT is normal and the story is right, **LP at 12 hours for xanthochromia**.",
+      "note": "Subdural = slow decline, elderly or anticoagulated, crescent crossing sutures; a blown pupil down-and-out is uncal herniation needing neurosurgery immediately.",
+      "link": {
+        "system": "neurology",
+        "slug": "neurological-emergencies-and-disorders-of-consciousness",
+        "title": "Neurological Emergencies and Disorders of Consciousness"
+      }
+    },
+    {
+      "heading": "Lumbosacral roots — the myotome, dermatome, reflex triad",
+      "body": "Three roots produce nearly every exam radiculopathy. Learn them as triads and the question answers itself.\n\n| Root | Movement | Sensation | Reflex |\n|---|---|---|---|\n| **L4** | Knee **extension**, ankle **inversion** | **Medial** calf and **medial malleolus** | **Knee jerk** |\n| **L5** | **Dorsiflexion**, great toe extension, hip abduction | **Dorsum of foot**, first web space | **None** |\n| **S1** | **Plantarflexion**, eversion | **Lateral** foot, sole | **Ankle jerk** |\n\n**L4 owns the knee jerk and the medial side of the leg.** L3 is thigh adduction and the anterior thigh, with a knee jerk contribution but not the ankle-inversion or medial-malleolus sensation — medial malleolus is the detail that pins it to L4 rather than L3.\n\n**L5 is the root with no reflex**, which is why a foot drop with a normal ankle jerk is L5 and not a peripheral nerve problem. Distinguish it from a **common peroneal palsy** at the fibular head: peroneal palsy spares **inversion** (tibialis posterior is tibial nerve, L4/5) and spares **hip abduction**, so weak inversion or weak hip abduction means the lesion is at the root.\n\n**Red flags override all of this**: bilateral sciatica, saddle anaesthesia, urinary retention with overflow, or reduced anal tone is **cauda equina** — immediate MRI and surgical decompression, not a radiculopathy workup.",
+      "note": "L4 = knee jerk, ankle inversion, medial malleolus; L5 = dorsiflexion, dorsum of foot, no reflex; S1 = ankle jerk, plantarflexion, lateral foot.",
+      "link": {
+        "system": "neurology",
+        "slug": "neuromuscular-and-spinal-disorders",
+        "title": "Neuromuscular and Spinal Disorders"
+      }
+    },
+    {
+      "heading": "Parkinsonism — idiopathic, drug-induced, plus, or not parkinsonism at all",
+      "body": "Parkinsonism means **bradykinesia plus at least one of** rigidity, rest tremor or postural instability. Naming the cause is the actual question.\n\n**Idiopathic Parkinson's disease**: **asymmetrical** onset, **4–6 Hz rest** tremor (pill-rolling, worse with distraction, better on movement), cogwheel rigidity, micrographia, hyposmia and REM sleep behaviour disorder often preceding motor signs by years, and a **good levodopa response**.\n\n| Mimic | The giveaway |\n|---|---|\n| **Drug-induced** (metoclopramide, prochlorperazine, antipsychotics) | **Symmetrical**, no rest tremor asymmetry, temporally linked to the drug, reversible — always review the medication list |\n| **Progressive supranuclear palsy** | Early **falls backwards**, **vertical gaze palsy**, axial > limb rigidity, poor levodopa response |\n| **Multiple system atrophy** | Early **autonomic failure** — postural hypotension, urinary problems — plus cerebellar signs |\n| **Lewy body dementia** | **Cognition and visual hallucinations within a year** of motor signs; antipsychotic sensitivity |\n| **Vascular parkinsonism** | **Lower body** predominant, stepwise, vascular risk factors |\n| **Essential tremor** | **Postural/action** tremor, **not** at rest; **bilateral**, head and voice, **better with alcohol**, no bradykinesia |\n\nThe two most useful discriminators: **rest versus action tremor** separates Parkinson's from essential tremor, and **symmetry** separates idiopathic disease from drug-induced parkinsonism. Early falls, early autonomic failure or early dementia all argue against idiopathic disease, which stays motor and asymmetrical for years.",
+      "note": "Asymmetrical rest tremor with bradykinesia and a levodopa response is idiopathic Parkinson's; symmetrical parkinsonism means check the drug chart; action tremor without bradykinesia is essential tremor.",
+      "link": {
+        "system": "neurology",
+        "slug": "movement-disorders-and-neurodegeneration",
+        "title": "Movement Disorders and Neurodegeneration"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "stem": "A 74-year-old woman is brought in with sudden right-sided weakness and expressive dysphasia. She was last seen well 2 hours ago. BP 168/94, glucose 7.1 mmol/L, INR 1.0. Non-contrast CT brain shows no haemorrhage and no established infarct.",
+      "lead": "What is the most appropriate immediate management?",
+      "options": [
+        "Withhold thrombolysis because the CT shows no infarct",
+        "Lower the blood pressure to below 140/90, then reassess",
+        "Aspirin 300 mg and admission to the stroke unit",
+        "IV thrombolysis with alteplase or tenecteplase",
+        "CT perfusion before any treatment decision"
+      ],
+      "correct": 3,
+      "explanation": "She is <b>2 hours from a witnessed onset</b>, haemorrhage is excluded, and nothing here contraindicates lysis — BP 168/94 is below the 185/110 threshold, glucose and INR are fine. <b>A normal CT is the expected finding</b> and is the green light, not a reason to hold off: early ischaemic change is often invisible. <b>Aspirin alone</b> undertreats a thrombolysis-eligible patient. <b>Perfusion imaging</b> is for extending the window or selecting thrombectomy, and waiting for it inside 4.5 hours costs brain.",
+      "point": "Within 4.5 hours with haemorrhage excluded, a normal CT is the indication to thrombolyse, not a reason to withhold.",
+      "topic": "Neurology — stroke",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "stem": "A 68-year-old man wakes with a dense left hemiparesis and gaze deviation to the right. He was last seen well 9 hours ago when he went to bed. CT brain excludes haemorrhage; CT angiography shows an occluded right M1 segment. CT perfusion shows a small core with a large area of salvageable tissue.",
+      "lead": "What is the most appropriate treatment?",
+      "options": [
+        "Decompressive hemicraniectomy",
+        "Aspirin 300 mg only — he is outside all reperfusion windows",
+        "IV thrombolysis alone",
+        "Mechanical thrombectomy",
+        "Therapeutic heparin infusion"
+      ],
+      "correct": 3,
+      "explanation": "Being outside the thrombolysis window is <b>not</b> the end of reperfusion. This is a <b>large-vessel occlusion</b> with a favourable perfusion mismatch, and thrombectomy extends to <b>24 hours</b> in selected patients — exactly why the angiogram and perfusion study were done. Settling for <b>aspirin</b> is the error the stem is built to catch. <b>Lysis alone</b> is both outside its window and poorly effective against large clots. <b>Therapeutic heparin</b> has no role in acute ischaemic stroke and risks haemorrhagic transformation. <b>Hemicraniectomy</b> is a rescue for malignant MCA oedema days later.",
+      "point": "A large-vessel occlusion with salvageable tissue is a thrombectomy candidate out to 24 hours, well beyond the lysis window.",
+      "topic": "Neurology — stroke",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "stem": "A 58-year-old man develops sudden vertigo, vomiting and hiccups. He is hoarse and has difficulty swallowing. There is reduced pain and temperature sensation on the right side of the face and the left side of the body, a right-sided ptosis with a small pupil, and right-sided limb ataxia. Power is normal in all four limbs.",
+      "lead": "Which vessel is occluded?",
+      "options": [
+        "Right anterior cerebral artery",
+        "Right posterior inferior cerebellar artery",
+        "Basilar artery",
+        "Left middle cerebral artery",
+        "Right posterior cerebral artery"
+      ],
+      "correct": 1,
+      "explanation": "This is <b>lateral medullary (Wallenberg) syndrome</b>: crossed sensory loss, Horner's, ataxia, vertigo, and — the pair that clinches it — <b>hoarseness and dysphagia</b> from nucleus ambiguus involvement. <b>Normal power is the point</b>: absence of weakness makes people reach for a hemispheric artery and get it wrong. <b>Crossed signs localise to the brainstem</b>, and the side is given by the ipsilateral findings (face, Horner's, ataxia all right-sided). <b>PCA</b> would give a hemianopia; <b>basilar</b> occlusion causes depressed consciousness and quadriparesis, not an alert patient with full power.",
+      "point": "Crossed sensory loss with Horner's, ataxia, hoarseness and dysphagia and normal power is lateral medullary syndrome — PICA territory.",
+      "topic": "Neurology — stroke",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "stem": "An 82-year-old man on apixaban is brought in confused and drowsy. His family say he has been \"not himself\" for about ten days, with a gradual decline and one fall three weeks ago from which he seemed to recover. GCS is 12.",
+      "lead": "What is the most likely diagnosis?",
+      "options": [
+        "Hypertensive intracerebral haemorrhage",
+        "Ischaemic stroke with haemorrhagic transformation",
+        "Extradural haematoma",
+        "Subarachnoid haemorrhage",
+        "Subdural haematoma"
+      ],
+      "correct": 4,
+      "explanation": "Elderly, anticoagulated, a trivial or remote injury, and a <b>fluctuating decline over days to weeks</b> is a <b>subdural haematoma</b> — the bleed is a slow venous ooze from stretched bridging veins, which is why the tempo is slow and why the fall looked unimportant at the time. <b>Intracerebral haemorrhage</b> produces a sudden deficit at the moment of the bleed, not a stuttering ten-day course. <b>Extradural</b> is arterial, young, and declines over hours after a lucid interval. <b>SAH</b> is instantaneous thunderclap headache. On CT the subdural is a <b>crescent that crosses suture lines</b> and follows the convexity.",
+      "point": "Delayed, fluctuating decline days to weeks after minor head injury in an elderly or anticoagulated patient is a subdural haematoma.",
+      "topic": "Neurology — head injury",
+      "type": "discrimination",
+      "difficulty": "medium"
+    },
+    {
+      "stem": "During observation after a head injury, a patient's GCS falls from 14 to 8. The left pupil is now 6 mm, sluggishly reactive, and the left eye is deviated down and out. BP has risen to 190/95 and the heart rate has fallen to 48.",
+      "lead": "What does this indicate and what is the priority?",
+      "options": [
+        "Brainstem infarction — arrange urgent thrombolysis",
+        "Third nerve palsy from an isolated orbital injury — arrange ophthalmology review",
+        "Uncal herniation with raised intracranial pressure — urgent neurosurgical referral and measures to lower ICP",
+        "Autonomic dysreflexia — treat the hypertension with a beta blocker",
+        "Post-traumatic seizure — load with levetiracetam"
+      ],
+      "correct": 2,
+      "explanation": "A <b>unilateral dilated, sluggish pupil with the eye down and out</b> is third nerve compression from <b>uncal herniation</b> — the parasympathetic fibres sit superficially on CN III, so the pupil goes first. Coupled with a falling GCS and <b>Cushing's response (hypertension with bradycardia)</b>, this is an expanding intracranial mass and a surgical emergency: airway protection, head elevation, ICP-lowering measures and immediate neurosurgical referral with urgent CT. <b>Treating the hypertension</b> is actively harmful — it is the compensatory drive maintaining cerebral perfusion against the rising pressure, not the problem.",
+      "point": "A blown pupil down-and-out with falling GCS is uncal herniation; hypertension with bradycardia is Cushing's response and must not be treated as primary hypertension.",
+      "topic": "Neurosurgery — head injury",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "stem": "A 46-year-old man has back pain radiating down the leg. Examination shows weak knee extension, weak ankle inversion, reduced sensation over the medial calf and medial malleolus, and a diminished knee jerk. Ankle jerk is normal.",
+      "lead": "Which nerve root is affected?",
+      "options": [
+        "L4",
+        "L5",
+        "S1",
+        "S2",
+        "L3"
+      ],
+      "correct": 0,
+      "explanation": "The triad is <b>L4</b>: knee extension and <b>ankle inversion</b>, sensation over the <b>medial malleolus</b>, and the <b>knee jerk</b>. <b>L3</b> also contributes to the knee jerk and knee extension, which is why it tempts — but L3 sensation is the <b>anterior thigh</b>, and L3 has nothing to do with ankle inversion. Those two distal findings are what pin it to L4. <b>L5</b> is dorsiflexion and the dorsum of the foot with <b>no reflex</b>; <b>S1</b> is plantarflexion, the lateral foot and the ankle jerk.",
+      "point": "Ankle inversion and medial malleolus sensation separate L4 from L3; both share the knee jerk.",
+      "topic": "Neurology — nerve roots",
+      "type": "recall",
+      "difficulty": "medium"
+    },
+    {
+      "stem": "A 54-year-old woman has a right foot drop. She has weak ankle dorsiflexion and weak great toe extension, weak hip abduction on the right, and reduced sensation over the dorsum of the foot. Ankle inversion is weak. Ankle jerk and knee jerk are both normal.",
+      "lead": "Where is the lesion?",
+      "options": [
+        "S1 nerve root",
+        "Sciatic nerve in the thigh",
+        "Tibial nerve at the tarsal tunnel",
+        "Common peroneal nerve at the fibular head",
+        "L5 nerve root"
+      ],
+      "correct": 4,
+      "explanation": "Foot drop with sensory loss over the dorsum of the foot fits either an <b>L5 radiculopathy</b> or a <b>common peroneal palsy</b>, and two findings separate them. <b>Weak ankle inversion</b> implicates tibialis posterior, which is <b>tibial</b> nerve supplied but <b>L5</b> innervated — so weak inversion means the lesion is proximal to the nerve split, at the root. <b>Weak hip abduction</b> (gluteus medius, superior gluteal nerve, L5) says the same thing. A peroneal palsy at the fibular head spares both. The <b>normal ankle jerk</b> is expected either way, since L5 has no reflex — it does not distinguish them.",
+      "point": "Foot drop with weak inversion or weak hip abduction is L5 root, not common peroneal palsy — peroneal palsy spares both.",
+      "topic": "Neurology — nerve roots",
+      "type": "discrimination",
+      "difficulty": "hard"
+    },
+    {
+      "stem": "A 71-year-old man has a 14-month history of a tremor in the right hand, present at rest and improving when he reaches for objects. His wife reports his handwriting has shrunk and he no longer swings the right arm when walking. There is cogwheel rigidity at the right wrist and reduced blink rate. He takes no regular medications.",
+      "lead": "What is the most likely diagnosis?",
+      "options": [
+        "Drug-induced parkinsonism",
+        "Idiopathic Parkinson's disease",
+        "Progressive supranuclear palsy",
+        "Multiple system atrophy",
+        "Essential tremor"
+      ],
+      "correct": 1,
+      "explanation": "<b>Asymmetrical</b> onset, a <b>rest</b> tremor that improves with movement, micrographia, reduced arm swing and cogwheel rigidity is <b>idiopathic Parkinson's disease</b>. <b>Essential tremor</b> is the opposite tremor — postural and action, bilateral, often head and voice, no bradykinesia. <b>Drug-induced parkinsonism</b> is symmetrical and requires a culprit drug, and he takes none. <b>PSP</b> declares itself with early backward falls and a vertical gaze palsy, and <b>MSA</b> with early autonomic failure — neither present here, and both would be unusual to stay this purely motor and asymmetrical for over a year.",
+      "point": "Asymmetrical rest tremor with bradykinesia and rigidity is idiopathic Parkinson's; action tremor without bradykinesia is essential tremor.",
+      "topic": "Neurology — movement disorders",
+      "type": "discrimination",
+      "difficulty": "easy"
+    },
+    {
+      "stem": "A 78-year-old woman in a residential facility has developed a symmetrical tremor, generalised rigidity and slowed movement over the past 6 weeks. Her medications include metoclopramide, started 2 months ago for nausea.",
+      "lead": "What is the most appropriate first step?",
+      "options": [
+        "Start an anticholinergic for the tremor",
+        "Start levodopa and review in 6 weeks",
+        "Review and cease the metoclopramide",
+        "Arrange a DaTscan to confirm Parkinson's disease",
+        "Start a dopamine agonist"
+      ],
+      "correct": 2,
+      "explanation": "<b>Symmetrical</b> parkinsonism developing over weeks with a temporally linked dopamine antagonist is <b>drug-induced parkinsonism</b> — metoclopramide, prochlorperazine and antipsychotics are the usual culprits, and older patients are most susceptible. The treatment is to <b>stop the drug</b>, with the expectation of slow improvement over weeks to months. <b>Starting levodopa</b> treats a diagnosis she may not have and leaves the cause running. <b>DaTscan</b> may eventually help if symptoms persist after withdrawal, but it is not the first move when a reversible cause is sitting in the chart. The symmetry is the clue — idiopathic disease is asymmetrical.",
+      "point": "Symmetrical parkinsonism means interrogate the drug chart — dopamine antagonists like metoclopramide are reversible causes.",
+      "topic": "Neurology — movement disorders",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "stem": "A 65-year-old man has an 18-month history of parkinsonism. He has fallen backwards several times in the past 6 months, has marked axial rigidity with a relatively upright posture, difficulty looking downwards, and has had minimal benefit from a trial of levodopa.",
+      "lead": "What is the most likely diagnosis?",
+      "options": [
+        "Progressive supranuclear palsy",
+        "Vascular parkinsonism",
+        "Idiopathic Parkinson's disease",
+        "Multiple system atrophy",
+        "Lewy body dementia"
+      ],
+      "correct": 0,
+      "explanation": "<b>Early falls backwards, a vertical gaze palsy, axial rigidity and a poor levodopa response</b> is the <b>progressive supranuclear palsy</b> quartet. <b>Idiopathic Parkinson's</b> responds well to levodopa and postural instability comes late, not in the first two years. <b>MSA</b> is distinguished by <b>early autonomic failure</b> — postural hypotension, urinary dysfunction — with cerebellar signs, not by gaze palsy. <b>Lewy body dementia</b> requires cognitive decline and visual hallucinations within a year of the motor signs. The general rule: any Parkinson-plus feature arriving <i>early</i> — falls, autonomic failure, dementia — argues against idiopathic disease.",
+      "point": "Early backward falls with vertical gaze palsy and poor levodopa response is PSP; early autonomic failure is MSA.",
+      "topic": "Neurology — movement disorders",
+      "type": "discrimination",
+      "difficulty": "hard"
+    }
+  ]
+}
