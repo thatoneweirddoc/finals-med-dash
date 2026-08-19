@@ -1,0 +1,237 @@
+{
+  "title": "Cardiology",
+  "system": "Cardiology",
+  "created": "2026-08-20",
+  "rationale": "Requested module, aimed at the Cardiology gaps the tracker actually shows. STEMI reperfusion is 0% — the miss was transferring for primary PCI when the centre was 150 minutes away, and dropping the anticoagulant from the fibrinolysis package. Myocarditis is 0%. RV infarct versus posterior MI has sat open since 14 August as an unresolved discrimination. Perioperative anticoagulation and bridging are deliberately excluded here because the Anticoagulation module already teaches them.",
+  "objectives": [
+    "Choose between primary PCI and fibrinolysis in STEMI using the time-to-PCI rule, and state the full drug package that accompanies each.",
+    "Recognise right ventricular infarction from an inferior STEMI and explain why nitrates are withheld.",
+    "Separate myocarditis from acute rheumatic fever and from ACS in a young patient with chest pain.",
+    "Build heart failure treatment from ejection fraction, and name what changes in HFpEF.",
+    "Decide rate versus rhythm control in atrial fibrillation, and recognise when immediate cardioversion is required."
+  ],
+  "sections": [
+    {
+      "heading": "STEMI — the 120-minute rule and the whole package",
+      "body": "Two decisions, and the second is the one that gets dropped.\n\n**Decision 1 — which reperfusion.** The threshold is **time from first medical contact to balloon**:\n\n| Time to PCI | Strategy |\n|---|---|\n| **≤120 minutes** | **Primary PCI** |\n| **>120 minutes** | **Fibrinolysis now**, then transfer for angiography within 3–24 h |\n\nA centre 150 minutes away is **outside** the window. Transferring anyway and accepting a 2.5-hour delay to reperfusion is the classic error: lysing locally and *then* transferring beats a long transfer for PCI.\n\n**Decision 2 — what goes with it.** Fibrinolysis is never a single drug:\n\n| | Give |\n|---|---|\n| **Primary PCI** | Aspirin 300 mg + a P2Y12 inhibitor (ticagrelor or prasugrel) + procedural anticoagulation |\n| **Fibrinolysis** | **Tenecteplase** + aspirin + **clopidogrel** + an **anticoagulant** (enoxaparin, or heparin) |\n\n**The anticoagulant is the part most often forgotten**, and omitting it raises reinfarction. Note also that clopidogrel — not ticagrelor or prasugrel — is the P2Y12 agent paired with lysis, since the more potent agents were not studied with fibrinolytics and raise bleeding.\n\n**Rescue PCI** if there is failed reperfusion at 60–90 minutes: ongoing pain, or less than 50% resolution of ST elevation.\n\n**Absolute contraindications to fibrinolysis**: any prior intracranial haemorrhage, ischaemic stroke within 6 months, known cerebral vascular malformation or intracranial tumour, active bleeding, suspected aortic dissection, recent major trauma, surgery or head injury within 3 weeks.",
+      "note": "PCI within 120 minutes of first medical contact, otherwise lyse then transfer — and fibrinolysis means tenecteplase plus aspirin plus clopidogrel plus an anticoagulant.",
+      "link": {
+        "system": "cardiology",
+        "slug": "coronary-circulation",
+        "title": "Coronary Circulation"
+      }
+    },
+    {
+      "heading": "Inferior STEMI — the right ventricle and the posterior wall",
+      "body": "An inferior STEMI (II, III, aVF) prompts **two extra leads**, because two things hide behind it.\n\n**Right ventricular infarction.** Suspect it whenever inferior ST elevation is bigger in **III than II**, or there is hypotension with **clear lung fields and a raised JVP**. Confirm with **right-sided leads — ST elevation in V4R**.\n\nThe consequence is a management reversal: the failing RV is **preload dependent**, so it needs volume and cannot tolerate anything that drops filling. **Nitrates, and equally opiates and diuretics, are withheld** — GTN in RV infarction can cause profound hypotension and arrest. Treat instead with **IV fluid loading**, then inotropes if fluid alone is insufficient.\n\n**Posterior infarction.** Suspect it from **tall R waves and ST depression in V1–V3** — a mirror image, because no anterior lead faces the posterior wall. Confirm with **posterior leads V7–V9**, where you will see the true ST elevation. Posterior MI is a STEMI equivalent and needs reperfusion.\n\n**Do not merge the two.** They often coexist and both arise from the right coronary or circumflex territory, but the exam point is separate: **posterior MI does not itself contraindicate GTN — RV infarction does**. Withholding nitrates is a response to RV involvement, and the trigger for that is V4R, not V7–V9.\n\nInferior MI also carries **bradyarrhythmias and heart block** through the AV nodal artery, which is usually transient and atropine-responsive.",
+      "note": "Inferior STEMI: get V4R and V7–V9. RV infarction is preload dependent so nitrates are withheld and fluid is given; posterior MI is a reperfusion decision, not a nitrate one.",
+      "link": {
+        "system": "cardiology",
+        "slug": "coronary-circulation",
+        "title": "Coronary Circulation"
+      }
+    },
+    {
+      "heading": "Myocarditis — and what it is mistaken for",
+      "body": "**Myocarditis** is new cardiac dysfunction after a viral prodrome, most often in a **young patient** where coronary disease is improbable.\n\nThe picture: coryzal or diarrhoeal illness one to two weeks earlier, then **chest pain, breathlessness, palpitations**, with signs of new heart failure — **raised JVP, third heart sound, functional mitral regurgitation** from ventricular dilatation. Troponin is raised, ECG shows non-specific ST/T change or **widespread saddle-shaped ST elevation with PR depression** if the pericardium is involved, and echo shows global hypokinesis. Cardiac MRI is the non-invasive confirmatory test.\n\n| Confused with | How to exclude it |\n|---|---|\n| **Acute rheumatic fever** | ARF needs **Jones criteria including serological proof of preceding group A strep** — negative ASOT and anti-DNase B with carditis alone rules it out |\n| **ACS** | Young, viral prodrome, **global** rather than territorial wall motion abnormality, unobstructed coronaries |\n| **Pericarditis** | Pain relieved sitting forward, rub, **preserved** ventricular function — myocarditis has the dysfunction |\n\n**Management is supportive**: standard heart failure therapy, and **avoid exercise** for 3–6 months because exertion during active myocarditis is associated with sudden death. **NSAIDs are avoided** where there is ventricular dysfunction. Most recover; a minority progress to dilated cardiomyopathy.",
+      "note": "New heart failure after a viral illness in a young patient is myocarditis; acute rheumatic fever cannot be diagnosed without serological evidence of preceding strep.",
+      "link": {
+        "system": "cardiology",
+        "slug": "infective-inflammatory-and-pericardial-disease",
+        "title": "Infective, Inflammatory and Pericardial Disease"
+      }
+    },
+    {
+      "heading": "Heart failure — build it from the ejection fraction",
+      "body": "**HFrEF (EF ≤40%)** has four drug classes that each independently reduce mortality — the **four pillars**, started early and together rather than sequentially:\n\n| Pillar | Agent |\n|---|---|\n| RAAS | **ARNI** (sacubitril/valsartan) preferred over ACE inhibitor; ARB if intolerant |\n| Beta blocker | Bisoprolol, carvedilol, metoprolol succinate |\n| MRA | Spironolactone, eplerenone |\n| **SGLT2 inhibitor** | Dapagliflozin, empagliflozin — **regardless of diabetes** |\n\n**Diuretics treat symptoms, not mortality** — frusemide makes people feel better and changes no outcome, which is why it is not a pillar.\n\n**HFpEF (EF ≥50%)** is the one where most of that evidence evaporates. **SGLT2 inhibitors are the exception**: they reduce hospitalisation and cardiovascular death in HFpEF, and are the only class with convincing benefit. Otherwise: diuretics for congestion, and aggressive treatment of the drivers — hypertension, atrial fibrillation, obesity, sleep apnoea.\n\n**Devices in HFrEF**: an **ICD** for primary prevention where EF stays ≤35% despite optimal therapy; **CRT** where there is left bundle branch block with QRS ≥150 ms.\n\n**Do not start a beta blocker in acute decompensation** — it is a therapy for the stable, euvolaemic patient, and starting it in pulmonary oedema worsens output.",
+      "note": "HFrEF gets all four pillars including an SGLT2 inhibitor regardless of diabetes; in HFpEF the SGLT2 inhibitor is the one class that still works.",
+      "link": {
+        "system": "cardiology",
+        "slug": "heart-failure",
+        "title": "Heart Failure"
+      }
+    },
+    {
+      "heading": "Atrial fibrillation — rate, rhythm, or shock now",
+      "body": "The first question is not rate versus rhythm. It is **is the patient unstable?**\n\n**Immediate synchronised DC cardioversion** if AF is causing any of: **hypotension/shock, ischaemic chest pain, acute heart failure, or syncope**. Haemodynamic instability overrides every other consideration, including anticoagulation status.\n\nIf stable, the **48-hour rule** governs cardioversion:\n\n| Onset | Approach |\n|---|---|\n| **<48 h**, no high-risk features | Cardiovert (electrical or chemical) with anticoagulation started |\n| **>48 h or unknown** | Either **3 weeks of therapeutic anticoagulation** first, or a **TOE** to exclude atrial thrombus — then cardiovert, and anticoagulate for at least 4 weeks after either way |\n\nCardioverting an unanticoagulated patient in AF of uncertain duration risks embolising an established atrial thrombus.\n\n**Rate versus rhythm for the long term**: rate control with a beta blocker or a non-dihydropyridine calcium channel blocker suits older, minimally symptomatic patients. Rhythm control (antiarrhythmic or ablation) is favoured in younger patients, persistent symptoms despite rate control, or heart failure — where early rhythm control improves outcomes.\n\n**Anticoagulation is decided separately from both**, by **CHA₂DS₂-VASc**, and is unaffected by whether sinus rhythm is restored — a patient who cardioverts successfully still carries their stroke risk.\n\n**Avoid verapamil, diltiazem and digoxin in AF with pre-excitation (WPW)**: blocking the AV node pushes conduction down the accessory pathway and can precipitate VF.",
+      "note": "Instability means immediate cardioversion; beyond 48 hours anticoagulate for 3 weeks or do a TOE first, and CHA₂DS₂-VASc decides anticoagulation independently of rhythm.",
+      "link": {
+        "system": "cardiology",
+        "slug": "arrhythmias-and-conduction-disorders",
+        "title": "Arrhythmias and Conduction Disorders"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "stem": "A 58-year-old man has an inferior STEMI diagnosed by paramedics in a rural town. Symptom onset was 90 minutes ago. The nearest PCI-capable centre is a 145-minute road transfer. He has no bleeding history, no prior stroke and BP is 132/78.",
+      "lead": "What is the most appropriate reperfusion strategy?",
+      "options": [
+        "Aspirin and heparin alone, then transfer for primary PCI",
+        "Tenecteplase alone, with antiplatelets withheld until angiography",
+        "Aspirin, ticagrelor and enoxaparin, then transfer for rescue PCI if pain persists",
+        "Aspirin, ticagrelor and immediate transfer for primary PCI",
+        "Aspirin, clopidogrel, enoxaparin and tenecteplase now, then transfer for angiography"
+      ],
+      "correct": 4,
+      "explanation": "Time from first medical contact to balloon would be well over <b>120 minutes</b>, so the strategy is <b>fibrinolysis now, then transfer</b> for angiography within 3–24 hours — not a long transfer for primary PCI. The package matters as much as the decision: tenecteplase goes with <b>aspirin, clopidogrel and an anticoagulant</b> (enoxaparin). <b>Omitting the anticoagulant</b> raises reinfarction and is the commonest incomplete answer. <b>Ticagrelor</b> is the wrong P2Y12 agent alongside lysis — clopidogrel is the one studied with fibrinolytics.",
+      "point": "PCI beyond 120 minutes means lyse then transfer, and fibrinolysis is tenecteplase plus aspirin plus clopidogrel plus an anticoagulant.",
+      "topic": "Cardiology — STEMI reperfusion",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "stem": "A 64-year-old man has an inferior STEMI with ST elevation greater in lead III than lead II. BP is 84/56, HR 58. The chest is clear on auscultation and the JVP is elevated. He is given sublingual GTN for ongoing pain and becomes profoundly hypotensive.",
+      "lead": "What explains the deterioration, and what is the correct management?",
+      "options": [
+        "Posterior extension — obtain posterior leads V7–V9 and reperfuse",
+        "Cardiogenic shock from LV failure — start an inotrope and give frusemide",
+        "Right ventricular infarction — give an IV fluid bolus and withhold further nitrates",
+        "Vasovagal response — lie the patient flat and repeat the GTN at a lower dose",
+        "Complete heart block — give atropine and prepare for pacing"
+      ],
+      "correct": 2,
+      "explanation": "Inferior STEMI with elevation greater in <b>III than II</b>, hypotension, <b>clear lungs and a raised JVP</b> is <b>right ventricular infarction</b> — confirmed by ST elevation in <b>V4R</b>. The failing RV is <b>preload dependent</b>, so GTN, opiates and diuretics all drop filling and can cause collapse. Treatment is <b>fluid loading</b>, then inotropes if needed. <b>Frusemide</b> would compound the problem. <b>Posterior infarction</b> is a real and commonly coexisting finding, but it is a reperfusion question — it is RV involvement, not posterior involvement, that contraindicates nitrates.",
+      "point": "RV infarction is preload dependent: withhold nitrates, opiates and diuretics, and give fluid. Posterior MI does not itself contraindicate GTN.",
+      "topic": "Cardiology — ACS / RV infarct",
+      "type": "discrimination",
+      "difficulty": "medium"
+    },
+    {
+      "stem": "A 24-year-old man presents with 3 days of chest pain, breathlessness on exertion and palpitations. He had a coryzal illness 10 days ago. HR 108, BP 106/64, JVP elevated, third heart sound and a soft pansystolic murmur at the apex. Troponin 890 ng/L. ECG shows widespread non-specific T wave changes. Echo shows global hypokinesis with EF 38%. ASOT and anti-DNase B are negative.",
+      "lead": "What is the most likely diagnosis?",
+      "options": [
+        "Myocarditis",
+        "Acute pericarditis",
+        "Acute rheumatic fever",
+        "Acute coronary syndrome",
+        "Infective endocarditis"
+      ],
+      "correct": 0,
+      "explanation": "New heart failure — raised JVP, S3, functional mitral regurgitation from ventricular dilatation — with a raised troponin and <b>global</b> hypokinesis in a young patient after a viral illness is <b>myocarditis</b>. <b>Acute rheumatic fever</b> requires Jones criteria <b>including serological evidence of preceding group A streptococcal infection</b>: negative ASOT and anti-DNase B with carditis alone excludes it, which is the specific trap here. <b>ACS</b> would give a territorial wall motion abnormality in a patient with plausible coronary risk. <b>Pericarditis</b> preserves ventricular function. Management is supportive with heart failure therapy, and <b>exercise restriction for 3–6 months</b>.",
+      "point": "Acute rheumatic fever cannot be diagnosed without serological proof of preceding strep — carditis after a viral illness with negative titres is myocarditis.",
+      "topic": "Cardiology — myocarditis",
+      "type": "discrimination",
+      "difficulty": "medium"
+    },
+    {
+      "stem": "A 67-year-old man has HFrEF with EF 30%. He is euvolaemic on frusemide, and already established on sacubitril/valsartan, bisoprolol and spironolactone at target doses. He does not have diabetes. eGFR 62 mL/min. He remains NYHA class II.",
+      "lead": "What should be added?",
+      "options": [
+        "Ivabradine",
+        "A higher dose of frusemide",
+        "Amiodarone",
+        "Digoxin",
+        "An SGLT2 inhibitor such as dapagliflozin"
+      ],
+      "correct": 4,
+      "explanation": "The <b>fourth pillar</b> is an <b>SGLT2 inhibitor</b>, and its mortality and hospitalisation benefit in HFrEF is <b>independent of diabetes status</b> — the absence of diabetes in the stem is there to test exactly that. <b>Increasing frusemide</b> in a euvolaemic patient treats nothing: diuretics relieve congestion and do not change mortality. <b>Ivabradine</b> is considered only if the heart rate remains ≥70 in sinus rhythm on a maximally tolerated beta blocker. <b>Digoxin</b> reduces hospitalisation but not mortality and sits well down the list. <b>Amiodarone</b> has no mortality benefit in heart failure.",
+      "point": "SGLT2 inhibitors are a mortality pillar in HFrEF regardless of diabetes; diuretics are symptomatic only.",
+      "topic": "Cardiology — heart failure",
+      "type": "recall",
+      "difficulty": "easy"
+    },
+    {
+      "stem": "A 72-year-old woman presents with palpitations. ECG shows atrial fibrillation at 148 bpm. She reports the palpitations began \"a few weeks ago, on and off\". BP is 138/82, she has no chest pain, clear lungs and is comfortable at rest. She takes no anticoagulant.",
+      "lead": "What is the most appropriate management?",
+      "options": [
+        "Digoxin loading and discharge with outpatient follow-up",
+        "Immediate synchronised DC cardioversion",
+        "Immediate chemical cardioversion with flecainide",
+        "Rate control and anticoagulation, with cardioversion deferred pending 3 weeks of anticoagulation or a TOE",
+        "Rate control alone, with anticoagulation decided after echocardiography"
+      ],
+      "correct": 3,
+      "explanation": "She is <b>haemodynamically stable</b>, so nothing needs to happen immediately — and the AF has been present for <b>more than 48 hours</b>, so cardioverting now risks embolising an established atrial thrombus. The correct path is <b>rate control plus anticoagulation</b>, with cardioversion after either <b>3 weeks of therapeutic anticoagulation</b> or a <b>TOE</b> excluding thrombus, followed by at least 4 weeks of anticoagulation afterwards. <b>Immediate cardioversion</b> is reserved for instability: hypotension, ischaemic pain, acute heart failure or syncope. Anticoagulation is decided by <b>CHA₂DS₂-VASc</b>, not by echo findings.",
+      "point": "Beyond 48 hours or unknown duration, cardioversion waits for 3 weeks of anticoagulation or a TOE — unless the patient is unstable.",
+      "topic": "Cardiology — atrial fibrillation",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "stem": "A 26-year-old man presents with a rapid irregular tachycardia at 210 bpm with varying QRS morphology. His baseline ECG from last year shows a short PR interval and a delta wave. BP is 118/70 and he is alert.",
+      "lead": "Which drug must be avoided?",
+      "options": [
+        "Flecainide",
+        "Magnesium sulfate",
+        "Procainamide",
+        "Verapamil",
+        "Amiodarone"
+      ],
+      "correct": 3,
+      "explanation": "The baseline delta wave and short PR indicate <b>Wolff–Parkinson–White</b>, and this is pre-excited atrial fibrillation. <b>AV nodal blocking drugs — verapamil, diltiazem, digoxin, adenosine and beta blockers — are contraindicated</b>: blocking the node diverts conduction down the accessory pathway, accelerating the ventricular rate and potentially precipitating <b>ventricular fibrillation</b>. <b>Procainamide</b> (or flecainide) acts on the accessory pathway and is the appropriate pharmacological choice, with <b>DC cardioversion</b> for any instability.",
+      "point": "In pre-excited AF, AV nodal blockers can precipitate VF — use procainamide or flecainide, or cardiovert.",
+      "topic": "Cardiology — arrhythmias",
+      "type": "recall",
+      "difficulty": "hard"
+    },
+    {
+      "stem": "A 55-year-old man is 90 minutes into treatment for an anterior STEMI with tenecteplase in a rural hospital. He still has chest pain, and the ST elevation in V2–V4 has reduced by only about 20% compared with the pre-treatment ECG.",
+      "lead": "What does this indicate and what should happen?",
+      "options": [
+        "Failed reperfusion — repeat the dose of tenecteplase",
+        "Failed reperfusion — arrange urgent transfer for rescue PCI",
+        "Reperfusion arrhythmia — observe and repeat the ECG in 2 hours",
+        "Pericarditis — commence colchicine and an NSAID",
+        "Successful reperfusion — continue medical therapy and transfer routinely"
+      ],
+      "correct": 1,
+      "explanation": "Successful reperfusion is judged at <b>60–90 minutes</b> by <b>resolution of pain and ≥50% reduction in ST elevation</b>. Ongoing pain with only 20% resolution is <b>failed fibrinolysis</b>, and the answer is <b>urgent transfer for rescue PCI</b> — the delay that made lysis the right initial choice does not make PCI the wrong rescue. <b>Repeating the lytic</b> is not done: it adds bleeding risk without benefit. <b>NSAIDs</b> in early infarction impair healing and increase the risk of myocardial rupture.",
+      "point": "Assess reperfusion at 60–90 minutes: ongoing pain or under 50% ST resolution means failed lysis and rescue PCI.",
+      "topic": "Cardiology — STEMI reperfusion",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "stem": "A 78-year-old woman has HFpEF with EF 58%. She has hypertension, obesity and permanent atrial fibrillation. She is breathless on exertion with mild ankle oedema, and is already on frusemide and an anticoagulant.",
+      "lead": "Which additional treatment has the best evidence for reducing hospitalisation?",
+      "options": [
+        "Digoxin",
+        "An SGLT2 inhibitor",
+        "Spironolactone",
+        "Sacubitril/valsartan",
+        "Bisoprolol"
+      ],
+      "correct": 1,
+      "explanation": "Most HFrEF therapy does not transfer to <b>HFpEF</b>, where trials of ARNI, beta blockers and MRAs have been largely neutral. <b>SGLT2 inhibitors are the exception</b> — they reduce heart failure hospitalisation and cardiovascular death across the ejection fraction range, and are the class to add. Beyond that, HFpEF management is aggressive treatment of the <b>drivers</b>: blood pressure, atrial fibrillation, obesity and sleep apnoea, with diuretics for congestion alone.",
+      "point": "SGLT2 inhibitors are the one drug class with convincing benefit in HFpEF; the other HFrEF pillars do not transfer.",
+      "topic": "Cardiology — heart failure",
+      "type": "discrimination",
+      "difficulty": "medium"
+    },
+    {
+      "stem": "A 61-year-old man presents with chest pain. ECG shows ST depression of 2 mm in V1–V3 with tall R waves in V2, and upright T waves in those leads. Troponin is rising. There is no ST elevation in the limb leads.",
+      "lead": "What is the most appropriate next step?",
+      "options": [
+        "Commence thrombolysis on the basis of the anterior ST depression",
+        "Treat as NSTEMI with medical therapy and inpatient angiography within 72 hours",
+        "Record posterior leads V7–V9 and, if ST elevation is present, treat as STEMI",
+        "Record right-sided leads V4R and give a fluid bolus",
+        "Repeat the ECG in 6 hours before making any decision"
+      ],
+      "correct": 2,
+      "explanation": "<b>ST depression with tall R waves in V1–V3</b> is the <b>mirror image of posterior ST elevation</b> — no standard lead faces the posterior wall, so the finding appears reversed anteriorly. The step is to record <b>posterior leads V7–V9</b>; ST elevation there confirms a <b>posterior STEMI</b>, which is a STEMI equivalent requiring immediate reperfusion. Treating it as an <b>NSTEMI</b> with routine timing is the error, since it delays reperfusion in a patient who needs it now. <b>V4R</b> answers a different question — right ventricular involvement in inferior infarction.",
+      "point": "ST depression with tall R waves in V1–V3 is posterior STEMI in disguise — record V7–V9 and reperfuse.",
+      "topic": "Cardiology — ACS / RV infarct",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "stem": "A 48-year-old man is admitted with acute pulmonary oedema on a background of newly diagnosed HFrEF (EF 25%). He is dyspnoeic at rest with crackles to the mid-zones, BP 104/68, HR 112.",
+      "lead": "Which treatment should NOT be commenced now?",
+      "options": [
+        "Bisoprolol",
+        "An SGLT2 inhibitor once stabilised",
+        "Non-invasive ventilation if hypoxaemic despite oxygen",
+        "An ACE inhibitor once haemodynamically stable",
+        "IV frusemide"
+      ],
+      "correct": 0,
+      "explanation": "<b>Beta blockers are not started during acute decompensation.</b> Their negative inotropic effect worsens output in a congested, poorly perfused patient; they are commenced once the patient is <b>stable and euvolaemic</b>, and if already established are usually continued at a reduced dose rather than stopped outright. <b>IV frusemide</b> and <b>non-invasive ventilation</b> are appropriate acute measures, and the disease-modifying agents are layered in as the patient stabilises. The distinction is between drugs that treat congestion now and drugs that change the trajectory later.",
+      "point": "Never start a beta blocker in acute decompensated heart failure — stabilise and achieve euvolaemia first.",
+      "topic": "Cardiology — heart failure",
+      "type": "application",
+      "difficulty": "easy"
+    }
+  ]
+}
