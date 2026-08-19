@@ -1,6 +1,39 @@
 {
   "modules": [
     {
+      "file": "cardiology.json",
+      "title": "Cardiology",
+      "system": "Cardiology",
+      "objectives": 5,
+      "questions": 10,
+      "rationale": "STEMI reperfusion and myocarditis are both 0%, and RV infarct versus posterior MI has been open since 14 August. Perioperative anticoagulation is excluded because the Anticoagulation module already covers it.",
+      "added": "2026-08-20",
+      "for": "fadi",
+      "servicedRequest": "r1787155593126"
+    },
+    {
+      "file": "infectious-disease.json",
+      "title": "Infectious Disease",
+      "system": "Infectious Disease",
+      "objectives": 5,
+      "questions": 10,
+      "rationale": "Antimicrobials sits at 0% and has been open since 16 August — the miss was assuming penicillin resistance in S. pyogenes. Built around empirical choice by syndrome under Australian guidelines, plus penicillin allergy, sepsis and the febrile returned traveller.",
+      "added": "2026-08-20",
+      "for": "fadi",
+      "servicedRequest": "r1787155603203"
+    },
+    {
+      "file": "weak-areas-2.json",
+      "title": "Weak Areas — Round Two",
+      "system": "Weakest areas",
+      "objectives": 5,
+      "questions": 10,
+      "rationale": "Second pass at the flagged failures, deliberately avoiding everything the first weak-areas module already teaches. Takes the next tier instead: cord localisation, third nerve palsy, raised intracranial pressure, the neuromuscular junction, and gout when NSAIDs are contraindicated.",
+      "added": "2026-08-20",
+      "for": "fadi",
+      "servicedRequest": "r1787155581057"
+    },
+    {
       "file": "gastro.json",
       "title": "Gastroenterology",
       "system": "Gastro",
