@@ -1,0 +1,176 @@
+{
+  "title": "Weak areas — open flags",
+  "system": "Weakest areas",
+  "questions": [
+    {
+      "stem": "An 85 kg man sustains partial and full thickness burns to 30% of his total body surface area. He is brought to hospital 2 hours after the injury.",
+      "lead": "According to the Parkland formula, how much crystalloid should he receive in the first 8 hours after injury, and over what remaining period?",
+      "options": [
+        "5100 mL over the next 8 hours from now",
+        "10 200 mL over the 6 hours from now",
+        "2550 mL over the next 8 hours from now",
+        "5100 mL over the 6 hours from now",
+        "2550 mL over the 6 hours from now"
+      ],
+      "correct": 3,
+      "explanation": "<b>Parkland is 4 mL × kg × %TBSA over 24 hours</b> = 4 × 85 × 30 = <b>10 200 mL total</b>, with <b>half (5100 mL) in the first 8 hours</b> and the remainder over the following 16. The second half of the rule is the one that catches people: the clock runs <b>from the time of injury, not from arrival</b>, so with 2 hours already elapsed the 5100 mL must go in over the <b>remaining 6 hours</b>, at a correspondingly faster rate. Using 2 mL/kg/%TBSA halves the total and under-resuscitates.",
+      "point": "Parkland is 4 mL/kg/%TBSA over 24 h, half in the first 8 hours measured from the time of injury, not from presentation.",
+      "topic": "Critical Care — burns resuscitation",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "stem": "An adult is in cardiac arrest with ventricular fibrillation. CPR is in progress in an Australian emergency department. Two shocks have been delivered and VF persists after the second rhythm check.",
+      "lead": "Under ANZCOR guidelines, which drugs should be given at this point?",
+      "options": [
+        "Neither — both are given after the third shock",
+        "Adrenaline 1 mg and amiodarone 300 mg",
+        "Adrenaline 1 mg and lignocaine 100 mg, with amiodarone contraindicated",
+        "Adrenaline 1 mg only, with amiodarone withheld until after the fourth shock",
+        "Amiodarone 300 mg only, with adrenaline withheld until after the third shock"
+      ],
+      "correct": 1,
+      "explanation": "<b>ANZCOR gives adrenaline 1 mg after the second shock</b> in a shockable rhythm, and <b>amiodarone 300 mg is also given after the second shock</b>, with adrenaline then repeated every second cycle. This is a genuine regional difference worth holding: the <b>UK Resuscitation Council and ERC</b> give both after the <b>third</b> shock. Answering \"third shock\" is correct for a European paper and wrong for an Australian one — which guideline the question is written to is decided by where you are sitting the exam.",
+      "point": "ANZCOR: adrenaline and amiodarone both after the second shock in shockable arrest; UK/ERC gives them after the third.",
+      "topic": "Critical Care — ALS medications",
+      "type": "recall",
+      "difficulty": "medium"
+    },
+    {
+      "stem": "A 27-year-old man is brought in after a motorcycle crash. He is agitated, RR 34, SpO₂ 88% on 15 L oxygen, BP 78/44, HR 132. The trachea is deviated to the left, there are absent breath sounds and hyperresonance on the right, and the neck veins are distended.",
+      "lead": "What is the immediate next step?",
+      "options": [
+        "Immediate finger or needle decompression of the right chest, then continue the primary survey",
+        "Intubation and positive pressure ventilation",
+        "Rapid infusion of 2 L crystalloid, then reassess",
+        "FAST scan to exclude intra-abdominal haemorrhage",
+        "Chest X-ray to confirm the diagnosis before intervening"
+      ],
+      "correct": 0,
+      "explanation": "This is a <b>tension pneumothorax</b> — a clinical diagnosis treated <b>before</b> imaging. Immediate <b>finger or needle decompression</b> of the affected side, followed by a definitive intercostal catheter, and then the primary survey continues from where it stopped. <b>Waiting for a chest X-ray</b> is the classic fatal delay. <b>Positive pressure ventilation before decompression</b> will worsen the tension and can precipitate arrest. Distended neck veins with hypotension distinguish this from simple haemorrhagic shock, where the veins are flat.",
+      "point": "Tension pneumothorax is diagnosed clinically and decompressed immediately — never delayed for imaging, never ventilated first.",
+      "topic": "Surgery — trauma",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "stem": "A 68-year-old man has 4 months of worsening back and rib pain. Bloods: Hb 92 g/L normochromic normocytic, calcium 2.92 mmol/L, creatinine 168 µmol/L, ALP 92 U/L (30–110), ESR 88 mm/h. Skeletal survey shows well-defined lytic lesions in the skull.",
+      "lead": "What is the most likely diagnosis?",
+      "options": [
+        "Osteoporosis with vertebral fractures",
+        "Multiple myeloma",
+        "Primary hyperparathyroidism",
+        "Metastatic prostate carcinoma",
+        "Paget disease of bone"
+      ],
+      "correct": 1,
+      "explanation": "<b>CRAB</b> — hyper<b>C</b>alcaemia, <b>R</b>enal impairment, <b>A</b>naemia, <b>B</b>one lesions — with a very high ESR and <b>lytic</b> skull lesions is <b>multiple myeloma</b>. The discriminator from <b>Paget disease</b> is the biochemistry: Paget gives a <b>markedly raised ALP with normal calcium</b>, and sclerotic, thickened bone rather than punched-out lysis. Here ALP is <b>normal</b> and calcium is high — the exact reverse. <b>Prostate metastases</b> are characteristically <b>sclerotic</b>, and primary hyperparathyroidism would not produce this degree of anaemia and ESR elevation.",
+      "point": "Myeloma: high calcium with normal ALP and lytic lesions. Paget: very high ALP with normal calcium and sclerotic bone.",
+      "topic": "Haematology — myeloma",
+      "type": "discrimination",
+      "difficulty": "medium"
+    },
+    {
+      "stem": "A 31-year-old man has noticed a painless firm swelling in the left testis. Ultrasound confirms a 3 cm solid, hypoechoic intratesticular mass with increased vascularity. AFP and beta-hCG are pending.",
+      "lead": "How should the diagnosis be established?",
+      "options": [
+        "Open trans-scrotal excisional biopsy",
+        "PET scan followed by targeted biopsy",
+        "Observation with repeat ultrasound in 6 weeks",
+        "Trans-scrotal needle biopsy",
+        "Radical inguinal orchidectomy"
+      ],
+      "correct": 4,
+      "explanation": "A solid intratesticular mass is testicular cancer until proven otherwise, and the diagnosis is made by <b>radical inguinal orchidectomy</b> — which is simultaneously the diagnostic and the primary therapeutic procedure. <b>Any trans-scrotal approach is contraindicated</b>: the testis drains via the spermatic cord to the <b>para-aortic nodes</b> (following its embryological origin), and breaching the scrotum seeds the <b>inguinal</b> nodes, creating a metastatic route that would not otherwise exist and altering staging and radiotherapy fields. The same anatomy is why staging is by <b>CT abdomen</b>.",
+      "point": "Testicular cancer is diagnosed by radical inguinal orchidectomy — never trans-scrotal biopsy, which seeds inguinal nodes outside the para-aortic drainage.",
+      "topic": "Urology — testicular mass",
+      "type": "recall",
+      "difficulty": "easy"
+    },
+    {
+      "stem": "A 58-year-old man has a gastric ulcer found at endoscopy, biopsied as benign with Helicobacter pylori present. He completes eradication therapy and a urea breath test 6 weeks later is negative. He remains asymptomatic.",
+      "lead": "What further management is required?",
+      "options": [
+        "Lifelong proton pump inhibitor without endoscopic follow-up",
+        "No further endoscopic follow-up, as eradication is confirmed and he is asymptomatic",
+        "Repeat gastroscopy with biopsy to confirm ulcer healing",
+        "Annual gastroscopy for 5 years",
+        "CT abdomen to complete staging"
+      ],
+      "correct": 2,
+      "explanation": "<b>Gastric ulcers are re-scoped and re-biopsied</b> to confirm healing, because an ulcerated gastric carcinoma can look benign and the initial biopsies can sample the wrong area. Neither <b>symptom resolution</b> nor <b>confirmed eradication</b> says anything about the mucosa, which is precisely why both are in the stem. <b>Duodenal ulcers do not need this</b> — they essentially never harbour malignancy, and a negative breath test closes the loop. That asymmetry is the point being tested.",
+      "point": "Gastric ulcers need repeat endoscopy and biopsy to exclude malignancy; duodenal ulcers do not.",
+      "topic": "Gastroenterology — peptic ulcer disease",
+      "type": "discrimination",
+      "difficulty": "medium"
+    },
+    {
+      "stem": "A 49-year-old man has abnormal liver tests on a routine check. AST 142 U/L, ALT 61 U/L, GGT 288 U/L, ALP 118 U/L (30–110), bilirubin 22 µmol/L, MCV 103 fL, platelets 134 × 10⁹/L, INR 1.1, albumin 38 g/L.",
+      "lead": "Which interpretation is correct?",
+      "options": [
+        "Acute viral hepatitis — request hepatitis serology as the priority",
+        "Normal synthetic function excludes significant chronic liver disease",
+        "A cholestatic picture — arrange urgent biliary imaging for obstruction",
+        "An alcohol-related hepatocellular pattern, with the platelet count raising concern for portal hypertension",
+        "Non-alcoholic fatty liver disease, given the modest transaminase elevation"
+      ],
+      "correct": 3,
+      "explanation": "<b>AST:ALT above 2</b> (142/61 = 2.3) with a raised <b>GGT</b> and <b>macrocytosis</b> is the alcohol signature; <b>NAFLD</b> characteristically shows ALT above AST. The pattern is <b>hepatocellular</b>, not cholestatic — the ALP is only marginally raised and bilirubin is near normal, so obstruction is not the story. <b>Thrombocytopenia</b> is the finding not to skip past: it suggests hypersplenism from <b>portal hypertension</b> and therefore established cirrhosis. <b>Normal INR and albumin do not exclude cirrhosis</b> — synthetic function is preserved until decompensation, so a normal set is not reassurance.",
+      "point": "AST:ALT above 2 with high GGT and macrocytosis is alcohol; low platelets suggest portal hypertension even when INR and albumin are normal.",
+      "topic": "Gastroenterology — liver function tests",
+      "type": "discrimination",
+      "difficulty": "medium"
+    },
+    {
+      "stem": "A 74-year-old woman with metastatic lung cancer has distressing breathlessness at rest. She is on maximal treatment of the underlying disease. SpO₂ is 95% on room air, respiratory rate 26. She is opioid-naive.",
+      "lead": "What is the most appropriate treatment for the breathlessness?",
+      "options": [
+        "High-flow oxygen therapy",
+        "Regular nebulised salbutamol",
+        "Low-dose oral morphine",
+        "A benzodiazepine as first-line",
+        "Reassurance alone, as her oxygen saturation is normal"
+      ],
+      "correct": 2,
+      "explanation": "<b>Low-dose opioid is first-line for refractory breathlessness</b> in advanced disease, and works <b>independently of oxygen saturation</b> — it reduces the central perception of breathlessness rather than correcting hypoxia. A <b>normal SpO₂ is not a reason to withhold treatment</b>, and <b>oxygen</b> confers no benefit in a non-hypoxaemic patient. <b>Benzodiazepines</b> are second-line, useful where anxiety is a major component, but not the starting point. Note that in an opioid-naive patient this means small doses with careful titration, not the doses used for pain.",
+      "point": "Refractory breathlessness in advanced disease is treated with low-dose morphine regardless of oxygen saturation; oxygen does not help the non-hypoxaemic.",
+      "topic": "Palliative Care — symptom control",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "stem": "A patient is being assessed preoperatively. On mouth opening with tongue protrusion, the soft palate and the base of the uvula are visible, but neither the uvular tip nor the tonsillar pillars can be seen.",
+      "lead": "What is the Mallampati class, and what does it predict?",
+      "options": [
+        "Class IV — potentially difficult intubation",
+        "Class III — predicts difficult bag-mask ventilation but not intubation",
+        "Class I — no anticipated difficulty",
+        "Class II — intubation likely to be straightforward",
+        "Class III — potentially difficult intubation"
+      ],
+      "correct": 4,
+      "explanation": "<b>Mallampati III</b> is soft palate and <b>base of uvula</b> only, and predicts <b>potentially difficult intubation</b>. The classes run: <b>I</b> soft palate, fauces, uvula and pillars; <b>II</b> soft palate, fauces and uvula; <b>III</b> soft palate and uvular base; <b>IV</b> <b>hard palate only</b> — no soft palate visible at all. Since some soft palate is visible here, class IV is excluded. Mallampati is only one component of airway assessment and is a weak predictor alone — it is combined with thyromental distance, mouth opening, neck extension and jaw protrusion.",
+      "point": "Mallampati III is soft palate plus uvular base; class IV shows hard palate only.",
+      "topic": "Anaesthetics — airway assessment",
+      "type": "recall",
+      "difficulty": "medium"
+    },
+    {
+      "stem": "A 62-year-old woman with metastatic ovarian cancer has a malignant small bowel obstruction. She has colicky abdominal pain and vomiting. She is not a surgical candidate and is being managed medically for symptom control.",
+      "lead": "Which antiemetic should be avoided?",
+      "options": [
+        "Metoclopramide",
+        "Ondansetron",
+        "Cyclizine",
+        "Levomepromazine",
+        "Haloperidol"
+      ],
+      "correct": 0,
+      "explanation": "<b>Metoclopramide is a prokinetic</b>, and increasing peristalsis against a mechanical obstruction <b>worsens colic</b> and risks perforation — it is contraindicated where obstruction is complete or colic is prominent. The appropriate agents act centrally without stimulating motility: <b>haloperidol</b> (chemoreceptor trigger zone), <b>cyclizine</b> (antihistaminergic, useful in bowel obstruction), or <b>levomepromazine</b> as a broad-spectrum option. <b>Hyoscine butylbromide</b> is added as an antispasmodic and antisecretory agent, with <b>octreotide</b> for high-volume vomiting.",
+      "point": "Metoclopramide is avoided in bowel obstruction — prokinesis against a mechanical block worsens colic.",
+      "topic": "Palliative Care — symptom control",
+      "type": "recall",
+      "difficulty": "medium"
+    }
+  ]
+}
