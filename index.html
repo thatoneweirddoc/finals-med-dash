@@ -813,7 +813,8 @@
   .sync-row .sync{margin-top:0}
   .who{font-family:var(--sans);font-size:13px;
     color:var(--ink-2);background:var(--panel-2);border:1px solid var(--rule);
-    border-radius:var(--r-ctl);padding:4px 9px}
+    border-radius:var(--r-ctl);padding:4px 9px;cursor:pointer}
+  .outbox:hover{background:var(--bord);color:var(--paper)}
 
   /* A panel heading that is also a disclosure control. Kept visually identical
      to a plain .panel-h so the tab doesn't grow a row of odd-looking buttons. */
@@ -1820,6 +1821,11 @@ async function load(){
   renderAll();
   await pull();
   renderAll();
+  // Now that the token is resolved and the first pull is done, anything sat
+  // offline can go up. Not quiet: if a result has been waiting, you should be
+  // told it went through — or why it did not.
+  paintOutbox();
+  flushOutbox(false);
 }
 const save = push;
 
@@ -2551,7 +2557,10 @@ $('btnNow').onclick = () => generateAllPending(sessMsg);
   // notes library reports systems the baked-in list didn't know about.
   setTimeout(() => { ingestOutbox(true); refreshBuffer(); }, 1200);
   paintOutbox();
-  flushOutbox(true);   // anything sat offline goes up as soon as we have a token
+  // The flush is NOT started here: this runs at parse time, before load() has
+  // authenticated and pulled, so the one attempt would fail and — since
+  // 'online' only fires on a transition — never retry. It is kicked off from
+  // load() instead, and retried on a timer while anything is still waiting.
 })();
 
 $('addFlag').onclick = () => {
@@ -3247,7 +3256,7 @@ async function sendResult(payload){
   return true;
 }
 
-let FLUSHING = false;
+let FLUSHING = false, lastFlushError = 'unknown error';
 async function flushOutbox(quiet){
   if(FLUSHING) return;
   const list = outbox();
@@ -3263,14 +3272,19 @@ async function flushOutbox(quiet){
       // Keep it for next time. A rejected duplicate is a success from our side —
       // the server already has it, so stop retrying forever.
       if(String(e.message||e).indexOf('already recorded') >= 0){ sent++; continue; }
+      lastFlushError = String(e.message||e).slice(0,70);
       left.push(item);
     }
   }
   writeOutbox(left);
   FLUSHING = false;
-  if(sent && !quiet){
-    setSync(`Synced ${sent} saved result${sent===1?'':'s'}`, 'ok');
+  if(sent){
+    if(!quiet) setSync(`Synced ${sent} saved result${sent===1?'':'s'}`, 'ok');
     await pull(); renderAll();
+  }
+  // Silence on repeated failure is what let a stuck result sit unnoticed.
+  if(left.length && !quiet){
+    setSync(`Could not sync ${left.length} result${left.length===1?'':'s'} — ${lastFlushError}`, 'warn');
   }
 }
 
@@ -3285,6 +3299,22 @@ function paintOutbox(){
 window.addEventListener('online', () => flushOutbox());
 document.addEventListener('visibilitychange', () => {
   if(!document.hidden) flushOutbox(true);
+});
+
+/* A single attempt is not enough. The 'online' event only fires on an actual
+   offline-to-online transition, so an app reopened while already connected
+   never receives it, and a flush that failed once would wait forever. This
+   retries every 60s for as long as anything is queued, and stops on its own
+   when the queue empties. */
+setInterval(() => { if(outbox().length) flushOutbox(true); }, 60000);
+
+// Tapping the badge forces a flush and reports what happened — a manual lever
+// for when the automatic paths have not worked.
+document.addEventListener('click', e => {
+  if(e.target && e.target.id === 'outboxState'){
+    setSync('Syncing saved results\u2026', '');
+    flushOutbox(false);
+  }
 });
 
 /* ---- revision modules ---- */
