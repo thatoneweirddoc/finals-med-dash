@@ -1,0 +1,237 @@
+{
+  "title": "Infectious Disease",
+  "system": "Infectious Disease",
+  "created": "2026-08-20",
+  "rationale": "Requested module. Antimicrobials is 0% on the tracker and has been an open item since 16 August — the miss was assuming penicillin resistance in Streptococcus pyogenes and generalising empirical cellulitis cover to confirmed streptococcal infection. This module is built around empirical choice by syndrome under Australian Therapeutic Guidelines, which is where finals questions live, plus the penicillin-allergy and sepsis decisions that surround them.",
+  "objectives": [
+    "Select empirical antimicrobial therapy by syndrome for cellulitis, pneumonia, urinary tract infection and meningitis under Australian guidelines.",
+    "Explain why Streptococcus pyogenes remains penicillin-susceptible and when narrow penicillin is correct rather than an antistaphylococcal agent.",
+    "Stratify a reported penicillin allergy and decide what can safely be given.",
+    "Recognise sepsis and state the interventions of the first hour.",
+    "Approach the febrile returned traveller, starting with the diagnosis that kills fastest."
+  ],
+  "sections": [
+    {
+      "heading": "Empirical therapy by syndrome — the Australian answers",
+      "body": "Empirical choice is driven by **the organisms the syndrome usually involves**, not by the sickest organism imaginable.\n\n| Syndrome | Empirical therapy |\n|---|---|\n| **Cellulitis** (non-purulent, mild–moderate) | **Flucloxacillin** or **dicloxacillin**; **cefalexin** as an oral alternative |\n| **Confirmed streptococcal** erysipelas / GAS pharyngitis | **Phenoxymethylpenicillin** or **benzylpenicillin** — narrow, not antistaphylococcal |\n| **CAP, mild** | **Amoxicillin**; add **doxycycline** for atypical cover if indicated |\n| **CAP, severe** | **Ceftriaxone** + **azithromycin** |\n| **Uncomplicated cystitis** | **Trimethoprim** (or nitrofurantoin) |\n| **Pyelonephritis** | **Gentamicin** + **amoxicillin**, or ceftriaxone |\n| **Bacterial meningitis** | **Ceftriaxone** + **dexamethasone**; add **benzylpenicillin** if Listeria is a concern (>50, pregnant, immunocompromised) |\n| **Meningococcaemia in the community** | **Benzylpenicillin or ceftriaxone immediately**, before transfer |\n\n**Why cellulitis gets flucloxacillin but confirmed strep gets penicillin.** Empirical cellulitis must cover **Staphylococcus aureus** as well as streptococci, and *S. aureus* is usually penicillinase-producing — hence the antistaphylococcal penicillin. But once the organism is known to be **Streptococcus pyogenes**, that cover is unnecessary and narrow penicillin is the better drug.\n\n**Streptococcus pyogenes has never acquired clinically significant penicillin resistance.** This is unusual and worth holding as a fact: penicillin remains first-line for GAS pharyngitis, confirmed streptococcal erysipelas, and rheumatic fever prophylaxis. Assuming resistance and reaching for something broader is both wrong and worse therapy.\n\n**Narrow when you can.** The general principle: start empirically broad enough for the likely organisms, then **de-escalate on culture**.",
+      "note": "Empirical cellulitis is flucloxacillin because it must cover S. aureus; confirmed S. pyogenes gets narrow penicillin, which has never developed meaningful resistance.",
+      "link": {
+        "system": "infectious-disease",
+        "slug": "empiric-antibiotic-therapy-by-syndrome",
+        "title": "Empiric Antibiotic Therapy by Syndrome"
+      }
+    },
+    {
+      "heading": "Penicillin allergy — stratify before you abandon the best drug",
+      "body": "Around 10% of patients report penicillin allergy; **fewer than 1 in 10 of those are truly allergic** on testing. Accepting the label uncritically means worse antibiotics, more *C. difficile*, more resistance and higher mortality — so the history is a clinical decision, not a formality.\n\n| Reported reaction | Interpretation | Action |\n|---|---|---|\n| Nausea, diarrhoea, headache | **Not allergy** — intolerance | Give penicillin |\n| Childhood rash, details lost, decades ago | Low risk | Usually give penicillin; consider de-labelling |\n| Delayed maculopapular rash, no systemic features | **Non-immediate, low risk** | **Cephalosporins safe**; penicillin often tolerated |\n| Urticaria, angioedema, bronchospasm, anaphylaxis | **Immediate, IgE-mediated** | Avoid penicillins; cephalosporins usually safe if side chains differ, but seek advice |\n| **SJS/TEN, DRESS, AGEP** | **Severe delayed** | **Avoid the entire beta-lactam class**; never re-challenge or test |\n\n**Cross-reactivity between penicillins and cephalosporins is low** — in the order of 2% or less — and is driven by **shared R1 side chains** rather than the beta-lactam ring itself. Ceftriaxone and cefazolin have side chains unrelated to amoxicillin, which is why they are usually acceptable even in immediate penicillin allergy.\n\nThe hard stop is the **severe delayed reactions**: a history of SJS/TEN or DRESS to a beta-lactam removes the whole class, and skin testing is contraindicated because it can reproduce the reaction.",
+      "note": "Most reported penicillin allergy is not allergy; cephalosporin cross-reactivity is low and side-chain driven, but SJS/TEN or DRESS excludes the whole beta-lactam class.",
+      "link": {
+        "system": "infectious-disease",
+        "slug": "antimicrobial-pharmacology",
+        "title": "Antimicrobial Pharmacology"
+      }
+    },
+    {
+      "heading": "Sepsis — recognition and the first hour",
+      "body": "**Sepsis** is life-threatening organ dysfunction from a dysregulated response to infection — formally, an increase in **SOFA score ≥2**. **Septic shock** is sepsis with **vasopressors required to maintain MAP ≥65 mmHg** *and* **lactate >2 mmol/L despite adequate fluid resuscitation**. Both criteria are needed; hypotension alone is not septic shock.\n\n**The first hour**, in whatever order the team can manage in parallel:\n\n| Take | Give |\n|---|---|\n| Blood **cultures** (before antibiotics, if it causes no delay) | **Oxygen** to target saturation |\n| **Lactate** | **IV fluids** — 30 mL/kg crystalloid for hypotension or lactate ≥4 |\n| **Urine output** monitoring | **IV antibiotics** — broad spectrum, within the hour |\n\n**Antibiotics are not delayed for cultures.** If drawing cultures would take more than a few minutes, give the antibiotic first: mortality rises measurably with each hour of delay.\n\n**Targets**: **MAP ≥65 mmHg**, with **noradrenaline** as first-line vasopressor, then vasopressin, then adrenaline. Vasopressors are started **through a peripheral line if needed** rather than waiting for central access — waiting is the greater harm.\n\n**Source control** is the part that gets forgotten: an abscess needs draining, an infected line needs removing, an obstructed ureter needs decompressing. **No antibiotic cures an undrained collection**, and an obstructed infected kidney is a urological emergency, not a medical one.",
+      "note": "Septic shock needs both vasopressor dependence and lactate above 2; antibiotics within the hour and never delayed for cultures; and source control is not optional.",
+      "link": {
+        "system": "critical-care",
+        "slug": "sepsis-and-septic-shock",
+        "title": "Sepsis and Septic Shock"
+      }
+    },
+    {
+      "heading": "Meningitis — sequence matters more than the drug",
+      "body": "The drug is easy: **ceftriaxone**. The marks are in the ordering.\n\n**Give dexamethasone with or just before the first antibiotic dose** in suspected bacterial meningitis — it reduces hearing loss and neurological sequelae, particularly in pneumococcal disease, and giving it after the antibiotic has already triggered inflammatory lysis loses much of the benefit.\n\n**Do not delay antibiotics for the LP, and do not delay antibiotics for a CT.** The sequence when imaging is indicated is: **blood cultures → antibiotics → CT → LP**. CSF culture yield falls after antibiotics, but PCR and cell count remain informative, and the trade is entirely worth it.\n\n**CT before LP** is indicated for: reduced or fluctuating consciousness, focal neurological signs, seizures, papilloedema, or significant immunocompromise.\n\n**LP is contraindicated** in shock, coagulopathy or thrombocytopenia, or a purpuric rash suggesting meningococcaemia — in a shocked child with purpura the answer is **IV ceftriaxone immediately**, and the LP does not happen.\n\n| CSF | Bacterial | Viral | TB |\n|---|---|---|---|\n| Appearance | Turbid | Clear | Fibrin web |\n| Cells | **Neutrophils** | **Lymphocytes** | Lymphocytes |\n| Protein | **High** | Normal/mildly high | **Very high** |\n| Glucose (CSF:serum) | **Low (<0.4)** | **Normal** | **Very low** |\n\n**Add benzylpenicillin (or substitute amoxicillin) for Listeria** in patients over 50, pregnant, or immunocompromised — ceftriaxone does not cover it.\n\n**Prophylaxis** for close contacts of meningococcal disease: **ciprofloxacin** as a single dose, or rifampicin.",
+      "note": "Dexamethasone goes with or before the first antibiotic dose; antibiotics are never delayed for CT or LP; and purpura with shock means ceftriaxone now and no LP.",
+      "link": {
+        "system": "infectious-disease",
+        "slug": "empiric-antibiotic-therapy-by-syndrome",
+        "title": "Empiric Antibiotic Therapy by Syndrome"
+      }
+    },
+    {
+      "heading": "The febrile returned traveller — exclude the one that kills this week",
+      "body": "Fever after travel is approached by asking **what can kill quickly**, not what is most likely.\n\n**Malaria is the answer until excluded.** Any fever within a year of travel to an endemic area needs **thick and thin films or a rapid antigen test**, and a single negative set does not exclude it — **repeat at 12–24 hour intervals, three sets in total** before calling it negative. *Plasmodium falciparum* can progress from well to cerebral malaria in hours, and it accounts for most travel-related deaths.\n\n**Incubation period narrows the field fast:**\n\n| Onset after exposure | Consider |\n|---|---|\n| **Under 10 days** | Dengue, chikungunya, rickettsial infection, bacterial gastroenteritis, meningococcus |\n| **10–21 days** | **Malaria**, typhoid, leptospirosis |\n| **Over 21 days** | **Malaria** (still), tuberculosis, viral hepatitis, HIV seroconversion, amoebic liver abscess |\n\n**Malaria spans every bracket**, which is precisely why it is excluded rather than reasoned away.\n\n**Pattern pointers**: dengue with a rash, retro-orbital pain and **thrombocytopenia with leukopenia**; typhoid with **relative bradycardia** and constipation rather than diarrhoea; rickettsial infection with an **eschar** at the bite site; schistosomiasis with **eosinophilia** after freshwater exposure.\n\n**Isolate first, ask later** if there is a viral haemorrhagic fever risk — travel to an outbreak region within 21 days with fever and bleeding means isolation and public health notification before routine phlebotomy.",
+      "note": "Fever after travel is malaria until three negative films exclude it, and incubation period does most of the differential work.",
+      "link": {
+        "system": "infectious-disease",
+        "slug": "systemic-opportunistic-and-travel-related-infection",
+        "title": "Systemic, Opportunistic and Travel-related Infection"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "stem": "A 34-year-old man has a well-demarcated, raised, spreading erythematous rash on the lower leg with a sharp border, fever and tender inguinal nodes. Blood cultures grow Streptococcus pyogenes. He has no drug allergies.",
+      "lead": "What is the most appropriate definitive therapy?",
+      "options": [
+        "Flucloxacillin",
+        "Trimethoprim-sulfamethoxazole",
+        "Ceftriaxone",
+        "Vancomycin, because streptococcal resistance to beta-lactams is now common",
+        "Benzylpenicillin"
+      ],
+      "correct": 4,
+      "explanation": "Once the organism is confirmed as <b>Streptococcus pyogenes</b>, the correct drug is <b>narrow penicillin</b>. <b>Flucloxacillin</b> is the right <i>empirical</i> choice for undifferentiated cellulitis because that must also cover <b>Staphylococcus aureus</b>, but keeping antistaphylococcal cover after the organism is known is unnecessarily broad and is a less active drug against streptococci. <b>S. pyogenes has never acquired clinically significant penicillin resistance</b>, so assuming resistance and escalating to vancomycin or ceftriaxone is both wrong and worse therapy.",
+      "point": "Empirical cellulitis gets flucloxacillin to cover S. aureus; confirmed S. pyogenes gets narrow penicillin, which remains universally susceptible.",
+      "topic": "Infectious Disease — antimicrobials",
+      "type": "discrimination",
+      "difficulty": "medium"
+    },
+    {
+      "stem": "A 62-year-old woman needs surgical prophylaxis. She reports that penicillin gave her a widespread itchy maculopapular rash on day 6 of a course when she was 20, with no swelling, breathing difficulty, blistering or mucosal involvement, and no hospital admission.",
+      "lead": "What is the most appropriate approach?",
+      "options": [
+        "Give penicillin only after formal skin testing on the day of surgery",
+        "Give a carbapenem as the safest beta-lactam alternative",
+        "Avoid all beta-lactams and use vancomycin",
+        "Give cefazolin",
+        "Avoid all beta-lactams and use clindamycin"
+      ],
+      "correct": 3,
+      "explanation": "A <b>delayed maculopapular rash without systemic or mucosal features</b> is a low-risk non-immediate reaction, not IgE-mediated anaphylaxis. <b>Cefazolin</b> is appropriate: cross-reactivity is low (around 2%) and is driven by <b>shared R1 side chains</b>, and cefazolin's side chain is unrelated to any penicillin. Defaulting to <b>vancomycin or clindamycin</b> on the strength of an unexamined allergy label gives inferior prophylaxis with more resistance and more <i>C. difficile</i>. The reactions that <b>do</b> exclude the whole class are the severe delayed ones — SJS/TEN, DRESS — none of which are described here.",
+      "point": "Stratify reported penicillin allergy: a delayed benign rash does not preclude a cephalosporin, but SJS/TEN or DRESS excludes all beta-lactams.",
+      "topic": "Infectious Disease — antimicrobials",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "stem": "A 3-year-old is brought in febrile at 39.4°C, drowsy, with a spreading purpuric rash on the trunk and limbs. Capillary refill is 5 seconds, HR 175, BP 72/40. IV access has been obtained.",
+      "lead": "What is the immediate priority?",
+      "options": [
+        "CT head, then lumbar puncture, then antibiotics",
+        "IV ceftriaxone and fluid resuscitation immediately",
+        "Blood cultures and observation pending results",
+        "IV dexamethasone alone until the diagnosis is confirmed",
+        "Lumbar puncture to confirm the organism before antibiotics"
+      ],
+      "correct": 1,
+      "explanation": "Fever with <b>purpura and shock</b> is <b>meningococcal sepsis</b> until proven otherwise, and it kills in hours. <b>IV ceftriaxone plus fluid resuscitation now</b> — nothing precedes it. <b>Lumbar puncture is contraindicated</b> while the child is shocked or coagulopathic, and would delay the only intervention that matters. Cultures are taken if they cause no delay, but the antibiotic is not held for them. <b>Dexamethasone</b> is an adjunct in bacterial meningitis given with or just before the antibiotic — never instead of it.",
+      "point": "Purpura with shock means immediate ceftriaxone; LP is contraindicated in shock or coagulopathy and never delays antibiotics.",
+      "topic": "Infectious Disease — meningitis",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "stem": "A 68-year-old man presents with fever, headache, neck stiffness and confusion. GCS is 13. There are no focal neurological signs, no papilloedema and no seizures. He is immunocompetent.",
+      "lead": "What is the correct sequence and regimen?",
+      "options": [
+        "Blood cultures, then ceftriaxone and dexamethasone, with LP deferred indefinitely",
+        "LP first, then ceftriaxone alone once CSF is obtained",
+        "Blood cultures, then dexamethasone with ceftriaxone and benzylpenicillin, then CT, then LP",
+        "Ceftriaxone alone, then LP, with dexamethasone added at 24 hours",
+        "CT first, then LP, then ceftriaxone and dexamethasone once results are available"
+      ],
+      "correct": 2,
+      "explanation": "His <b>reduced consciousness</b> is an indication for <b>CT before LP</b>, and the sequence is <b>cultures → antibiotics → CT → LP</b> — antibiotics are never held for imaging, and CSF PCR and cell count remain informative afterwards. <b>Dexamethasone goes with or just before the first antibiotic dose</b>; adding it at 24 hours loses the benefit, which depends on blunting the inflammatory response to bacterial lysis. He is <b>over 50</b>, so <b>Listeria cover</b> must be added — benzylpenicillin or amoxicillin — because ceftriaxone does not cover it.",
+      "point": "Cultures, antibiotics, CT, LP — in that order; dexamethasone with the first dose; and add Listeria cover if over 50, pregnant or immunocompromised.",
+      "topic": "Infectious Disease — meningitis",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "stem": "A 29-year-old woman returns from 3 weeks in Papua New Guinea and presents 12 days later with fever to 39°C, rigors, headache and myalgia. She took no chemoprophylaxis. A rapid malaria antigen test and one set of thick and thin films are negative. Platelets 108 × 10⁹/L.",
+      "lead": "What is the most appropriate next step?",
+      "options": [
+        "Commence empirical ceftriaxone for presumed typhoid",
+        "Discharge with review if the fever persists beyond a week",
+        "Malaria is excluded — investigate for dengue and typhoid instead",
+        "Repeat thick and thin films at 12–24 hour intervals, up to three sets, while investigating other causes",
+        "Commence empirical artemether-lumefantrine without further testing"
+      ],
+      "correct": 3,
+      "explanation": "<b>A single negative film does not exclude malaria.</b> Parasitaemia fluctuates, so the standard is <b>three negative sets at 12–24 hour intervals</b> before malaria is excluded — and the 12-day incubation, absent prophylaxis, PNG exposure and thrombocytopenia all fit falciparum. <b>Calling it excluded after one set</b> is the error, and <i>P. falciparum</i> can progress to cerebral malaria within hours. Empirical antimalarials before a diagnosis are not standard where testing is rapidly available, and <b>discharge</b> is unsafe in a potentially falciparum-infected patient.",
+      "point": "Malaria needs three negative film sets at 12–24 hour intervals to exclude — one negative set proves nothing.",
+      "topic": "Infectious Disease — travel-related infection",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "stem": "A 71-year-old man with a urinary catheter has fever, rigors and confusion. BP 82/48 after 30 mL/kg of crystalloid, lactate 4.2 mmol/L, and noradrenaline has been started. CT shows a 6 cm obstructed, infected right kidney with a proximal ureteric stone.",
+      "lead": "Which intervention is most important for survival?",
+      "options": [
+        "Escalating the noradrenaline dose to achieve a MAP of 75 mmHg",
+        "Broadening antibiotic cover to a carbapenem",
+        "Urgent decompression of the obstructed kidney by nephrostomy or stent",
+        "A further 30 mL/kg fluid bolus",
+        "Adding vasopressin as a second vasopressor"
+      ],
+      "correct": 2,
+      "explanation": "This is <b>septic shock</b> — vasopressor dependence <i>plus</i> lactate above 2 after adequate fluid — with an identified, drainable source. <b>Source control is the intervention that changes outcome</b>: an obstructed infected kidney is a urological emergency, and no antibiotic sterilises an obstructed system. <b>Escalating vasopressors</b> chases a number rather than treating the cause, and the target is <b>MAP ≥65</b>, not 75. <b>Broadening antibiotics</b> without drainage does not address the obstruction. Further large-volume fluid in a patient already resuscitated risks harm.",
+      "point": "Source control is not optional in sepsis — an obstructed infected kidney needs decompression, and no antibiotic substitutes for it.",
+      "topic": "Infectious Disease — sepsis",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "stem": "A 45-year-old previously well man presents with 4 days of productive cough, pleuritic pain and fever. RR 30, BP 88/56, confusion, urea 8.2 mmol/L, SpO₂ 90% on room air. Chest X-ray shows right lower lobe consolidation.",
+      "lead": "What is the most appropriate empirical antibiotic regimen?",
+      "options": [
+        "IV ceftriaxone plus azithromycin",
+        "IV vancomycin plus piperacillin-tazobactam",
+        "Oral amoxicillin",
+        "Oral doxycycline alone",
+        "IV benzylpenicillin alone"
+      ],
+      "correct": 0,
+      "explanation": "Confusion, RR ≥30, hypotension and raised urea mark this as <b>severe community-acquired pneumonia</b>, which under Australian guidelines is treated with <b>IV ceftriaxone plus azithromycin</b> — the macrolide covering atypicals including <i>Legionella</i>, which is a genuine cause of severe CAP. <b>Amoxicillin or doxycycline alone</b> are mild-disease regimens and undertreat him. <b>Benzylpenicillin alone</b> leaves atypicals uncovered. <b>Vancomycin plus piperacillin-tazobactam</b> is hospital-acquired or MRSA-risk territory, and is unnecessarily broad for community-acquired disease in a previously well man.",
+      "point": "Severe CAP in Australia is ceftriaxone plus azithromycin — the macrolide is there for Legionella and other atypicals.",
+      "topic": "Infectious Disease — antimicrobials",
+      "type": "recall",
+      "difficulty": "medium"
+    },
+    {
+      "stem": "A 24-year-old woman is treated with amoxicillin for sinusitis. Three weeks later she develops a widespread rash, fever to 39°C, facial oedema, eosinophilia of 2.4 × 10⁹/L and ALT 340 U/L.",
+      "lead": "What has occurred, and what are the implications for future antibiotic use?",
+      "options": [
+        "DRESS — avoid the entire beta-lactam class and do not perform skin testing",
+        "Serum sickness — penicillins may be re-challenged under observation",
+        "A simple delayed maculopapular rash — penicillins may be used again if needed",
+        "Acute interstitial nephritis — avoid only amoxicillin",
+        "IgE-mediated anaphylaxis — avoid penicillins but cephalosporins are safe"
+      ],
+      "correct": 0,
+      "explanation": "Rash with <b>fever, facial oedema, eosinophilia and organ involvement</b> (hepatitis) appearing <b>2–6 weeks</b> after drug exposure is <b>DRESS</b> — a severe delayed hypersensitivity reaction with real mortality. It sits alongside <b>SJS/TEN</b> as an absolute contraindication to the <b>entire beta-lactam class</b>, and <b>skin testing is contraindicated</b> because it can reproduce the reaction. This is the situation the allergy-stratification rule is designed to catch: most penicillin labels can be worked around, but this one cannot. <b>Anaphylaxis</b> is immediate and minutes-to-hours, not weeks.",
+      "point": "DRESS and SJS/TEN are the reactions that exclude the whole beta-lactam class outright — no re-challenge, no skin testing.",
+      "topic": "Infectious Disease — antimicrobials",
+      "type": "discrimination",
+      "difficulty": "hard"
+    },
+    {
+      "stem": "A 55-year-old woman presents with fever and rigors. She is hypotensive at 86/50 with a lactate of 3.8 mmol/L. The team is preparing to take blood cultures but peripheral access is proving difficult and a further 20 minutes is anticipated.",
+      "lead": "What should happen with antibiotics?",
+      "options": [
+        "Wait for cultures, since post-antibiotic cultures are uninterpretable",
+        "Give broad-spectrum IV antibiotics now, without waiting for cultures",
+        "Give oral antibiotics while awaiting IV access",
+        "Wait for the lactate to be repeated before committing to antibiotics",
+        "Wait for central access to be established, then give antibiotics"
+      ],
+      "correct": 1,
+      "explanation": "Cultures are taken before antibiotics <b>only when this causes no meaningful delay</b>. Mortality in sepsis rises measurably with each hour antibiotics are withheld, so a 20-minute wait is not acceptable — <b>give the antibiotic now</b>, by whatever access is available, including intraosseous if required. Blood cultures still have value afterwards, and other sources may yield the organism. Waiting for <b>central access</b> or for <b>repeat biochemistry</b> applies the same error: prioritising process over the intervention that saves the patient.",
+      "point": "Antibiotics within the hour, and never delayed for cultures or for central access.",
+      "topic": "Infectious Disease — sepsis",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "stem": "A 38-year-old man returns from rural Thailand and presents 10 days later with fever, abdominal discomfort and constipation. Temperature is 39.2°C with a pulse of 68. There are a few faint blanching macules on the trunk. WCC is 3.2 × 10⁹/L. Malaria films are negative on three sets.",
+      "lead": "What is the most likely diagnosis?",
+      "options": [
+        "Leptospirosis",
+        "Scrub typhus",
+        "Amoebic liver abscess",
+        "Dengue fever",
+        "Typhoid fever"
+      ],
+      "correct": 4,
+      "explanation": "<b>Relative bradycardia</b> (pulse 68 with a temperature of 39.2°C), <b>constipation rather than diarrhoea</b>, faint <b>rose spots</b> and <b>leukopenia</b> at around 10 days after exposure is <b>typhoid</b>. <b>Dengue</b> would give retro-orbital pain, a more prominent rash and <b>thrombocytopenia</b> alongside the leukopenia, and its incubation is shorter. <b>Scrub typhus</b> usually shows an <b>eschar</b> at the bite site. Note the film sets have properly excluded malaria — three negatives at intervals, not one.",
+      "point": "Relative bradycardia with constipation, rose spots and leukopenia after travel is typhoid; dengue is shorter incubation with thrombocytopenia.",
+      "topic": "Infectious Disease — travel-related infection",
+      "type": "discrimination",
+      "difficulty": "hard"
+    }
+  ]
+}
