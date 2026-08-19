@@ -1,0 +1,237 @@
+{
+  "title": "Weak Areas — Round Two",
+  "system": "Weakest areas",
+  "created": "2026-08-20",
+  "rationale": "Second pass at the flagged failures. The existing 'Your Repeat Failures' module already teaches Parkland, the ANZCOR arrest drug sequence, perioperative bridging and primary-versus-secondary adrenal insufficiency, so none of those are repeated here. This module takes the next tier of open items instead: spinal cord localisation (0%), third nerve palsy (50%, missed as Horner's), raised intracranial pressure (0%), neuromuscular junction disease (60%, missed twice) and acute gout in renal impairment (0%).",
+  "objectives": [
+    "Localise a cord lesion from the pattern of motor, dorsal column and spinothalamic loss, including the side.",
+    "Interpret pupillary involvement in a third nerve palsy and separate it from Horner syndrome.",
+    "Identify when raised intracranial pressure threatens vision and requires intervention rather than observation.",
+    "Distinguish Lambert-Eaton myasthenic syndrome from myasthenia gravis on examination and neurophysiology.",
+    "Treat acute gout when NSAIDs are contraindicated, and place allopurinol correctly relative to the flare."
+  ],
+  "sections": [
+    {
+      "heading": "Cord localisation — which tracts cross, and where",
+      "body": "Every cord question is answered by knowing **which tracts have crossed by the time they reach the lesion**.\n\n| Tract | Carries | Crosses |\n|---|---|---|\n| **Corticospinal** | Motor | In the **medulla** — so already crossed; cord lesion → **ipsilateral** weakness |\n| **Dorsal columns** | Vibration, proprioception | In the **medulla** — already crossed; → **ipsilateral** loss |\n| **Spinothalamic** | Pain, temperature | **At the level of entry**, within 1–2 segments → **contralateral** loss |\n\n**Brown-Séquard (hemisection)** therefore gives **ipsilateral motor and dorsal column loss with contralateral pain and temperature loss**. The side of the lesion is the side of the **weakness**, because two of the three findings are ipsilateral — the crossed sensory level is the outlier, not the guide.\n\nSo: weak right leg with loss of vibration and proprioception on the right, and loss of pain and temperature on the left, is a **right** hemisection. Reading the contralateral spinothalamic level as the side is the standard error.\n\n**Sensory landmarks** worth memorising, since the level comes from the spinothalamic loss:\n\n| Level | Landmark |\n|---|---|\n| **C4** | Shoulder tip |\n| **T4** | **Nipple** |\n| **T10** | **Umbilicus** |\n| **L1** | Inguinal ligament |\n| **S4–S5** | Perianal |\n\n**Other cord syndromes**: **anterior cord** spares dorsal columns (vibration and proprioception preserved, everything else lost); **central cord** gives arms worse than legs, classically after hyperextension in an older person; **posterior cord** loses proprioception alone; **cauda equina** gives flaccid weakness, saddle anaesthesia and sphincter disturbance, and is a surgical emergency.",
+      "note": "Motor and dorsal columns are ipsilateral because they cross in the medulla; spinothalamic is contralateral because it crosses at entry. The side of the weakness is the side of the lesion.",
+      "link": {
+        "system": "neurology",
+        "slug": "neuroanatomy-and-localisation",
+        "title": "Neuroanatomy and localisation"
+      }
+    },
+    {
+      "heading": "Third nerve palsy — the pupil decides the urgency",
+      "body": "A **complete third nerve palsy** gives **ptosis**, a **down and out** eye (unopposed lateral rectus and superior oblique), and — sometimes — a **dilated, unreactive pupil**. Whether the pupil is involved is the entire clinical question.\n\n**The anatomy explains it.** Parasympathetic pupillomotor fibres run on the **outside** of the nerve and take their blood supply from surrounding pial vessels. So:\n\n| Pupil | Mechanism | Implication |\n|---|---|---|\n| **Dilated, unreactive** | **Compression** from outside | **Posterior communicating artery aneurysm** or uncal herniation — urgent imaging (CTA), neurosurgical involvement |\n| **Spared, reactive** | **Microvascular** infarction of the nerve core | Diabetes, hypertension — usually recovers over ~3 months |\n\n**Do not confuse this with Horner syndrome**, which is the opposite in every respect:\n\n| | Third nerve palsy | Horner syndrome |\n|---|---|---|\n| Pupil | **Dilated** | **Constricted** |\n| Ptosis | **Complete** — levator palpebrae | **Partial** — Müller's muscle only |\n| Eye position | **Down and out** | **Normal** |\n| Extras | Diplopia | **Anhidrosis** |\n\nThe discriminator is a single observation: **a big pupil is third nerve, a small pupil is Horner's**. If the eye is also down and out with a full ptosis, Horner's is not on the table at all.\n\n**A painful pupil-involving third nerve palsy is a posterior communicating artery aneurysm until imaging says otherwise** — headache plus this sign means urgent CT angiography, because the aneurysm may be about to rupture.",
+      "note": "Pupil-involving third nerve palsy means compression — PCom aneurysm or herniation; pupil-sparing means microvascular. Horner's has a small pupil and partial ptosis with a normal eye position.",
+      "link": {
+        "system": "neurology",
+        "slug": "neuroanatomy-and-localisation",
+        "title": "Neuroanatomy and localisation"
+      }
+    },
+    {
+      "heading": "Raised intracranial pressure — what makes it urgent",
+      "body": "**Idiopathic intracranial hypertension** typically affects **young women with obesity**: daily headache **worse lying flat and on coughing or straining**, pulsatile tinnitus, **papilloedema**, and sometimes a **sixth nerve palsy** as a false localising sign. Diagnosis needs **normal imaging including venography** (to exclude venous sinus thrombosis) and an **opening pressure above 25 cmH₂O** with normal CSF constituents.\n\n**The sight-threatening feature is not the acuity.** Central acuity is preserved until very late, so a normal 6/6 is reassuring about nothing. The findings that mean **vision is at risk now** are:\n\n- **Transient visual obscurations** — seconds of greying or blacking out, often on standing or straining\n- **Progressive visual field loss** (enlarged blind spot, then peripheral constriction) on formal perimetry\n- Severe or worsening **papilloedema**\n\nThose demand urgent intervention — acetazolamide, weight management, and **surgical decompression** (optic nerve sheath fenestration or CSF shunting) if vision continues to deteriorate. Waiting for acuity to fall means waiting until damage is irreversible.\n\n**Do not conflate this with raised ICP from a mass**, where the concern is herniation rather than optic nerve damage: there, the signs are **falling GCS, a dilated pupil, and Cushing's response (hypertension with bradycardia)**, and the response is neurosurgical.\n\n**Serial formal visual fields, not acuity, are how IIH is monitored.**",
+      "note": "In IIH, transient visual obscurations and field loss signal threatened vision — normal acuity is not reassurance, and fields are what get monitored.",
+      "link": {
+        "system": "neurology",
+        "slug": "neurological-emergencies-and-disorders-of-consciousness",
+        "title": "Neurological Emergencies and Disorders of Consciousness"
+      }
+    },
+    {
+      "heading": "The neuromuscular junction — two diseases, opposite in every direction",
+      "body": "Both cause fatigable weakness, and almost every feature runs the opposite way.\n\n| | **Myasthenia gravis** | **Lambert-Eaton (LEMS)** |\n|---|---|---|\n| Target | **Postsynaptic** ACh receptor | **Presynaptic** voltage-gated calcium channel |\n| Antibody | **Anti-AChR** (or anti-MuSK) | **Anti-VGCC** |\n| Weakness | **Ocular and bulbar first** — ptosis, diplopia, dysphagia | **Proximal legs first**; eyes usually spared |\n| On repetition | **Worsens** with use | **Improves** with use — post-exercise facilitation |\n| Reflexes | **Normal** | **Absent**, returning after sustained contraction |\n| Autonomic | Absent | **Dry mouth, impotence, constipation** |\n| Nerve stimulation | **Decrement** at low frequency | **Increment** at high frequency |\n| Association | **Thymoma** (15%) | **Small cell lung cancer** (~50%) |\n\n**The giveaway triad for LEMS**: proximal leg weakness, **autonomic symptoms**, and **reflexes that appear after sustained contraction**. A smoker of the right age with that combination has small cell lung cancer until a CT chest says otherwise — LEMS often precedes the tumour diagnosis by months.\n\n**Neither is Guillain-Barré**, which is the other reflex-losing diagnosis but is **ascending, areflexic throughout, post-infectious**, with **albuminocytological dissociation** in CSF and conduction block or slowing on studies — not a junctional increment or decrement.\n\n**Confirmation**: **anti-AChR antibodies** for myasthenia (positive in about 85% of generalised disease), **anti-VGCC** for LEMS, with repetitive nerve stimulation supporting either. CT chest is mandatory in both — thymoma in one, small cell in the other.",
+      "note": "Myasthenia fatigues with use and spares reflexes; LEMS improves with use, abolishes reflexes, adds autonomic features, and points at small cell lung cancer.",
+      "link": {
+        "system": "neurology",
+        "slug": "neuromuscular-and-spinal-disorders",
+        "title": "Neuromuscular and Spinal Disorders"
+      }
+    },
+    {
+      "heading": "Acute gout when NSAIDs are off the table",
+      "body": "Three drug classes treat the flare, and comorbidity decides which.\n\n| Option | Avoid when |\n|---|---|\n| **NSAID** | **CKD, heart failure, anticoagulation, peptic ulcer disease, elderly** |\n| **Colchicine** | Dose-reduce in renal impairment; avoid with strong CYP3A4/P-gp inhibitors (clarithromycin, verapamil) |\n| **Corticosteroid** | Oral prednisolone, or intra-articular if a single joint — the fallback when both others are problematic |\n\nThe common exam patient is **elderly with CKD and heart failure** — an NSAID is contraindicated on both counts, and the answer is **dose-reduced colchicine or a corticosteroid**.\n\n**Allopurinol does not treat the flare.** It lowers urate over weeks and, started alone during an attack, can prolong or worsen it by mobilising crystals. Two nuances the newer guidance has changed:\n\n- **Starting allopurinol during a flare is now acceptable** provided the patient is under **anti-inflammatory cover** — the old advice to defer until the attack settled has been dropped, because patients lost to follow-up never started it.\n- **Prophylactic cover (low-dose colchicine or NSAID) continues for up to 6 months** after starting urate-lowering therapy, because paradoxical flares are common as urate falls.\n\n**Target urate is below 0.36 mmol/L**, or below 0.30 with tophi, titrating allopurinol upward to reach it.\n\n**Always consider septic arthritis.** A hot joint with fever needs **aspiration** — gout and infection can coexist, and negatively birefringent needle-shaped crystals do not exclude sepsis.",
+      "note": "NSAID-contraindicated gout gets dose-reduced colchicine or a steroid; allopurinol never treats the flare but may now be started during one under cover.",
+      "link": {
+        "system": "msk-rheumatology",
+        "slug": "the-arthritides-degenerative-inflammatory-crystal-and-septic",
+        "title": "The Arthritides"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "stem": "A 39-year-old woman sustains a stab wound to the back. Examination shows weakness of the left leg with an upgoing left plantar response, loss of vibration and joint position sense in the left leg, and loss of pain and temperature sensation in the right leg from the level of the umbilicus downwards.",
+      "lead": "Where is the lesion?",
+      "options": [
+        "Left hemisection at T10",
+        "Right hemisection at T10",
+        "Left hemisection at T4",
+        "Central cord lesion at T10",
+        "Right hemisection at T4"
+      ],
+      "correct": 0,
+      "explanation": "<b>Brown-Séquard</b>: corticospinal and dorsal column fibres have already crossed in the medulla, so their loss is <b>ipsilateral</b> — the weak, proprioception-losing <b>left</b> leg gives the side. Spinothalamic fibres cross at entry, so pain and temperature loss appears <b>contralaterally</b>, on the right. Reading the crossed sensory level as the side of the lesion is the standard trap. The <b>umbilicus is T10</b> (nipple is T4), giving a left hemisection at T10.",
+      "point": "In Brown-Séquard the side of the weakness is the side of the lesion; the umbilicus marks T10 and the nipple T4.",
+      "topic": "Neurology — spinal cord",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "stem": "A 59-year-old woman with poorly controlled type 2 diabetes develops sudden painless double vision. There is complete ptosis of the left eye, which rests down and out. The left pupil is 3 mm and reacts briskly to light. CT brain is normal.",
+      "lead": "What is the most appropriate management?",
+      "options": [
+        "Urgent lumbar puncture to exclude subarachnoid haemorrhage",
+        "Commence pyridostigmine for presumed ocular myasthenia",
+        "Urgent MRI brain to exclude a brainstem infarct",
+        "Urgent CT angiography to exclude a posterior communicating artery aneurysm",
+        "Risk factor management with observation, expecting recovery over about 3 months"
+      ],
+      "correct": 4,
+      "explanation": "This is a <b>pupil-sparing</b> third nerve palsy: parasympathetic fibres run superficially and take their supply from pial vessels, so a <b>microvascular</b> infarct of the nerve core spares them. In a diabetic with a painless onset, this is the expected picture and it <b>usually recovers over about three months</b> with risk factor control. <b>Pupil involvement</b> would change everything — that implies external <b>compression</b> and mandates urgent CTA for a posterior communicating artery aneurysm. <b>Myasthenia</b> is a genuine mimic of ocular palsies but characteristically <b>spares the pupil entirely and fluctuates</b>, and would not give a fixed down-and-out eye.",
+      "point": "Pupil-sparing third nerve palsy is microvascular and observed; pupil-involving means compression and urgent angiography.",
+      "topic": "Neurology — cranial nerves",
+      "type": "discrimination",
+      "difficulty": "medium"
+    },
+    {
+      "stem": "A 28-year-old woman with a BMI of 38 has 4 months of daily headache worse on lying flat and on coughing, with pulsatile tinnitus. She reports episodes where her vision \"greys out completely\" for a few seconds when she stands up. Fundoscopy shows bilateral papilloedema. Visual acuity is 6/6 bilaterally. MRI and MR venography are normal; opening pressure is 34 cmH₂O with normal CSF.",
+      "lead": "Which feature most indicates that intervention is needed rather than observation?",
+      "options": [
+        "The pulsatile tinnitus",
+        "The headache worsening on coughing",
+        "The opening pressure of 34 cmH₂O",
+        "The transient visual obscurations with papilloedema",
+        "The normal visual acuity"
+      ],
+      "correct": 3,
+      "explanation": "<b>Transient visual obscurations in the presence of papilloedema</b> mean the optic nerve is under threat and vision can be lost — this is the marker for urgent treatment, and it appears well before acuity changes. <b>Normal acuity is not reassurance</b>: central vision is preserved until very late in IIH, which is why <b>formal visual fields</b>, not acuity, are the monitoring tool. The <b>opening pressure</b> confirms the diagnosis but does not by itself grade the risk to vision, and <b>tinnitus</b> and <b>positional headache</b> are characteristic but not sight-threatening.",
+      "point": "In IIH, transient visual obscurations with papilloedema signal threatened vision; normal acuity is not reassurance and fields are monitored.",
+      "topic": "Neurology — raised intracranial pressure",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "stem": "A 63-year-old man with a 45 pack-year smoking history has 5 months of difficulty climbing stairs and rising from chairs. He mentions a persistently dry mouth and erectile dysfunction. Knee reflexes are absent at rest but become elicitable after 15 seconds of sustained quadriceps contraction. Ocular movements and eyelids are normal.",
+      "lead": "What is the diagnosis and what must be excluded?",
+      "options": [
+        "Motor neurone disease — exclude structural cord compression with MRI",
+        "Myasthenia gravis — exclude thymoma with CT chest",
+        "Lambert-Eaton myasthenic syndrome — exclude small cell lung cancer with CT chest",
+        "Guillain-Barré syndrome — exclude respiratory failure with serial spirometry",
+        "Polymyositis — exclude malignancy with CT chest, abdomen and pelvis"
+      ],
+      "correct": 2,
+      "explanation": "<b>Proximal leg weakness, autonomic features</b> (dry mouth, impotence) and <b>post-exercise facilitation of absent reflexes</b> is the Lambert-Eaton triad. It is a <b>presynaptic</b> disorder of voltage-gated calcium channels, and around half of cases are <b>paraneoplastic from small cell lung cancer</b> — often preceding the tumour's diagnosis by months, so a CT chest is mandatory in this smoker. <b>Myasthenia</b> runs the opposite way in every respect: ocular and bulbar onset, weakness that <b>worsens</b> with use, and <b>preserved</b> reflexes. <b>Guillain-Barré</b> is areflexic throughout without facilitation and is acute and ascending.",
+      "point": "LEMS improves with use and abolishes reflexes that return after sustained contraction — and points to small cell lung cancer.",
+      "topic": "Neurology — neuromuscular",
+      "type": "discrimination",
+      "difficulty": "medium"
+    },
+    {
+      "stem": "A 76-year-old man with heart failure (EF 35%), CKD stage 3 (eGFR 38) and atrial fibrillation on apixaban develops an acutely hot, swollen, exquisitely painful first metatarsophalangeal joint overnight. He is afebrile. Aspiration shows negatively birefringent needle-shaped crystals and no organisms.",
+      "lead": "What is the most appropriate acute treatment?",
+      "options": [
+        "Allopurinol 300 mg daily",
+        "Aspirin at anti-inflammatory dose",
+        "Probenecid",
+        "Indomethacin",
+        "Dose-reduced colchicine or oral prednisolone"
+      ],
+      "correct": 4,
+      "explanation": "<b>NSAIDs are contraindicated</b> here on three separate counts — CKD, heart failure and anticoagulation — so indomethacin and aspirin are out. That leaves <b>dose-reduced colchicine</b> (reduced for the eGFR) or a <b>corticosteroid</b>, either oral or intra-articular for a single joint. <b>Allopurinol does not treat a flare</b>: it lowers urate over weeks and, started alone during an attack, can prolong it — though current guidance does permit starting it during a flare <i>under anti-inflammatory cover</i>. <b>Probenecid</b> is likewise urate-lowering, and is poorly effective in renal impairment.",
+      "point": "When NSAIDs are contraindicated, acute gout is treated with dose-reduced colchicine or a steroid — urate-lowering drugs never treat the flare.",
+      "topic": "Rheumatology — gout",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "stem": "A 71-year-old man falls forwards down stairs, striking his forehead. He has marked weakness of both hands and arms with relatively preserved leg strength, and a patchy sensory disturbance over the upper limbs. Cervical X-rays show degenerative change without fracture.",
+      "lead": "What is the most likely cord syndrome?",
+      "options": [
+        "Cauda equina syndrome",
+        "Brown-Séquard syndrome",
+        "Central cord syndrome",
+        "Anterior cord syndrome",
+        "Posterior cord syndrome"
+      ],
+      "correct": 2,
+      "explanation": "<b>Arms disproportionately worse than legs</b> after a <b>hyperextension</b> injury in an older person with pre-existing cervical spondylosis is <b>central cord syndrome</b> — the corticospinal fibres serving the upper limbs are arranged more medially, so a central lesion hits them first. <b>Anterior cord</b> spares vibration and proprioception while losing everything else and carries the worst prognosis. <b>Brown-Séquard</b> is the asymmetrical hemisection pattern. <b>Cauda equina</b> is below the conus and gives flaccid leg weakness with saddle anaesthesia and sphincter disturbance, not upper limb signs.",
+      "point": "Central cord syndrome: hyperextension in an older spondylotic patient, arms weaker than legs.",
+      "topic": "Neurology — spinal cord",
+      "type": "discrimination",
+      "difficulty": "medium"
+    },
+    {
+      "stem": "A 34-year-old woman describes 6 weeks of drooping eyelids and double vision that are barely noticeable in the morning and pronounced by evening. She has begun to find chewing tiring towards the end of a meal. Pupils are normal and reactive. Reflexes are normal. Power is full on brief testing but declines on sustained effort.",
+      "lead": "Which single feature would most argue against Lambert-Eaton myasthenic syndrome?",
+      "options": [
+        "The fatigability on sustained effort",
+        "The prominent ocular and bulbar involvement with normal reflexes",
+        "Her age and sex",
+        "The absence of a smoking history in the stem",
+        "The 6-week duration of symptoms"
+      ],
+      "correct": 1,
+      "explanation": "<b>Ocular and bulbar onset with preserved reflexes</b> is characteristic of <b>myasthenia gravis</b> and distinctly unusual in <b>LEMS</b>, which begins in the <b>proximal legs</b>, largely spares the eyes, and abolishes reflexes until sustained contraction restores them. <b>Fatigability</b> is not the discriminator — both fatigue, but myasthenia <b>worsens</b> with use while LEMS <b>improves</b>. Age, sex and smoking shift probability but are not features of the disease itself. Confirmation would be <b>anti-AChR antibodies</b>, with a CT chest for thymoma.",
+      "point": "Ocular/bulbar onset with normal reflexes is myasthenia; proximal legs with absent reflexes and autonomic features is LEMS.",
+      "topic": "Neurology — neuromuscular",
+      "type": "discrimination",
+      "difficulty": "medium"
+    },
+    {
+      "stem": "A 44-year-old man presents with the sudden onset of a severe headache and double vision. There is complete ptosis on the right with the eye deviated down and out, and the right pupil is 7 mm and unreactive. He is fully alert with no limb weakness. Non-contrast CT brain is reported as normal.",
+      "lead": "What is the most appropriate immediate step?",
+      "options": [
+        "Commence high-dose corticosteroids for presumed orbital inflammation",
+        "Screen for diabetes and manage vascular risk factors",
+        "Reassure and review in 3 months, as most third nerve palsies are microvascular",
+        "Urgent CT angiography",
+        "Tensilon test for suspected myasthenia gravis"
+      ],
+      "correct": 3,
+      "explanation": "A <b>painful, pupil-involving</b> third nerve palsy is a <b>posterior communicating artery aneurysm</b> until imaging excludes it — the pupillomotor fibres run superficially and are the first casualty of external compression. This needs <b>urgent CT angiography</b>, and a normal non-contrast CT excludes neither an unruptured aneurysm nor an early subarachnoid bleed. <b>Observing</b> it as microvascular is the dangerous answer: microvascular palsies are <b>painless and pupil-sparing</b>, which this is not. <b>Myasthenia</b> never involves the pupil.",
+      "point": "Painful pupil-involving third nerve palsy is a PCom aneurysm until CTA proves otherwise — a normal plain CT does not exclude it.",
+      "topic": "Neurology — cranial nerves",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "stem": "A 58-year-old woman with gout and CKD stage 3 has had three flares in the past year. Her urate is 0.51 mmol/L. She is currently 4 days into an acute flare of the right ankle, settling on prednisolone.",
+      "lead": "What is the most appropriate approach to urate-lowering therapy?",
+      "options": [
+        "Start allopurinol now, continuing anti-inflammatory cover for up to 6 months",
+        "Defer allopurinol until at least 4 weeks after the flare has completely resolved",
+        "Avoid allopurinol entirely because of her renal impairment",
+        "Start allopurinol at a full dose of 300 mg with no anti-inflammatory cover",
+        "Start allopurinol only if a fourth flare occurs within the next 12 months"
+      ],
+      "correct": 0,
+      "explanation": "She meets the indications for urate-lowering therapy — <b>recurrent flares</b> (≥2 per year) with a raised urate. Current guidance <b>permits starting allopurinol during a flare</b> provided <b>anti-inflammatory cover</b> is in place, and she is already on prednisolone; the old practice of deferring was dropped because patients discharged with a plan to start later frequently never did. <b>Prophylactic cover continues for up to 6 months</b> because falling urate mobilises crystals and provokes paradoxical flares. <b>CKD is not a contraindication</b> — it means starting low (e.g. 50–100 mg) and titrating to a target urate below <b>0.36 mmol/L</b>, not avoiding the drug.",
+      "point": "Allopurinol can now be started during a flare under anti-inflammatory cover, continued for up to 6 months, titrated to urate below 0.36.",
+      "topic": "Rheumatology — gout",
+      "type": "recall",
+      "difficulty": "hard"
+    },
+    {
+      "stem": "A 66-year-old man has sudden painless loss of power in both legs after an episode of hypotension during aortic surgery. Pain and temperature sensation are absent below the level of the nipples, but vibration and joint position sense are preserved throughout.",
+      "lead": "What is the diagnosis and the sensory level?",
+      "options": [
+        "Central cord syndrome at T4",
+        "Anterior cord syndrome at T4",
+        "Posterior cord syndrome at T10",
+        "Anterior cord syndrome at T10",
+        "Brown-Séquard syndrome at T4"
+      ],
+      "correct": 1,
+      "explanation": "<b>Preserved vibration and proprioception with loss of motor, pain and temperature</b> is <b>anterior cord syndrome</b> — the dorsal columns have a separate posterior blood supply and survive, while the anterior spinal artery territory infarcts. The classic setting is exactly this: <b>hypotension during aortic surgery</b>. The <b>nipple line is T4</b> (umbilicus is T10). <b>Posterior cord syndrome</b> is the mirror image, losing proprioception alone, and anterior cord carries the worst functional prognosis of the cord syndromes.",
+      "point": "Anterior cord syndrome spares the dorsal columns because they have a separate posterior supply; nipple is T4, umbilicus T10.",
+      "topic": "Neurology — spinal cord",
+      "type": "application",
+      "difficulty": "hard"
+    }
+  ]
+}
