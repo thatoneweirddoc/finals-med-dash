@@ -3117,7 +3117,10 @@ async function fetchRepoQuizzes(){
   }
 }
 
-['repoList','ppList'].forEach(id => $(id).addEventListener('click', async e => {
+/* othersList must be here too. It renders the same repoItem cards with the same
+   data-repo attributes, but without a listener on that container the Start
+   buttons silently did nothing — the cards looked live and were inert. */
+['repoList','ppList','othersList'].forEach(id => $(id).addEventListener('click', async e => {
   const t = e.target;
   if(t.dataset.hide){
     return confirmDelete({ key:t.dataset.hide, title:rowTitle(t),
