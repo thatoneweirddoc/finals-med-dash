@@ -224,16 +224,6 @@
   /* ---- signature: reference-range bars ---- */
   .assay{border-bottom:1px solid var(--rule-2);padding:15px 0;display:grid;
          grid-template-columns:1fr 118px 96px;gap:14px;align-items:center}
-  /* On a phone the bar column collapses to ~74px, which is too short to read a
-     position off and too wide to spare — the name was wrapping to three lines
-     beside it. Below 520px the bar is dropped and the value carries the row,
-     which is what the number beside the marker was added for. */
-  @media (max-width:520px){
-    .assay{grid-template-columns:1fr auto !important;gap:10px}
-    .assay .range{display:none}
-    .flag{white-space:nowrap}
-    .flag .flag-n{display:inline;margin-right:7px}
-  }
   .assay:last-child{border-bottom:0}
   .assay-name{font-weight:500;letter-spacing:-.005em}
   .pri-badge{display:inline-flex;align-items:center;justify-content:center;
@@ -242,28 +232,53 @@
     position:relative;top:-1px}
   .assay-meta{font-family:var(--sans);font-size:13px;color:var(--ink-3);margin-top:3px}
 
-  .range{position:relative;height:24px}
-  .range-track{position:absolute;top:9px;left:0;right:0;height:6px;background:var(--rule);border-radius:999px}
-  .range-band{position:absolute;top:9px;height:6px;background:var(--inrange);opacity:var(--band-op);
-              left:60%;right:0;border-radius:999px}
-  .tick{position:absolute;top:2px;width:3px;height:20px;background:var(--ink);border-radius:999px;
-        box-shadow:0 0 0 2.5px var(--panel)}
   .flag{font-family:var(--sans);font-size:13px;
         text-align:right;font-weight:600;line-height:1.25}
-  /* The numeric value sits beside the marker so the chart is legible without
-     decoding the marker's position against the track. */
-  .flag-n{display:block;font-variant-numeric:tabular-nums;color:var(--ink);font-size:15px}
-  /* An untested row keeps the column's rhythm without drawing a result. */
-  .range-empty{border-bottom:1px dashed var(--rule);height:1px;align-self:center;opacity:.55}
-  .assay-untested .assay-name{font-weight:400}
-  /* Declared with a compound selector so it beats .fold, which is defined
-     later in the sheet at equal specificity. Rows 6+ must line up with 1-5. */
-  details.fold.assay-rest{border:0;margin:0;padding:0;background:none}
-  details.fold.assay-rest>summary{padding:14px 0 0;min-height:44px;display:flex;align-items:center}
   .fold>summary{min-height:44px;display:flex;align-items:center}
-  details.fold.assay-rest .assay:first-child{border-top:1px solid var(--rule-2)}
   .f-low{color:var(--low)} .f-bord{color:var(--border-flag)}
   .f-in{color:var(--inrange)} .f-un{color:var(--untested)}
+
+  /* ---- grouped assay: system rows that open onto their own topics ----
+     The reference-range bar was dropped below 520px because it needed its own
+     column. This bar sits under the name at full width instead, so it survives
+     on a phone — which is where this list is actually read. It is filled and
+     coloured by band rather than a marker on a track: the length is the score,
+     so it reads without decoding a tick position. */
+  details.grp{border:0;border-bottom:1px solid var(--rule-2);border-radius:0;
+              margin:0;padding:4px 0;background:none}
+  details.grp:last-of-type{border-bottom:0}
+  details.grp>summary{list-style:none;cursor:pointer;padding:9px 0;min-height:44px;
+    display:grid;grid-template-columns:16px 1fr auto;gap:11px;align-items:center}
+  details.grp>summary::-webkit-details-marker{display:none}
+  details.grp>summary:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+  .grp-chev{font-family:var(--mono);font-size:12px;color:var(--ink-3);
+    transition:transform .15s ease;line-height:1}
+  details.grp[open] .grp-chev{transform:rotate(90deg)}
+  .grp-name{font-weight:500;letter-spacing:-.005em}
+  .grp-meta{font-family:var(--sans);font-size:13px;color:var(--ink-3);margin-top:3px}
+  .grp-pct{font-family:var(--sans);font-variant-numeric:tabular-nums;
+    font-weight:600;font-size:16px;text-align:right;line-height:1.2}
+  .grp-sub{font-family:var(--sans);font-size:12px;font-weight:400;
+    color:var(--ink-3);display:block;margin-top:2px}
+
+  .mbar{grid-column:2/-1;position:relative;height:6px;border-radius:999px;
+        background:var(--rule);overflow:hidden}
+  .mbar i{display:block;height:100%;border-radius:999px}
+  .b-low i{background:var(--low)} .b-bord i{background:var(--border-flag)}
+  .b-in i{background:var(--inrange)}
+  /* Untested draws a dashed rule, never an empty track: a track with nothing in
+     it reads as zero, and zero is not what 'never tested' means. */
+  .mbar-none{grid-column:2/-1;border-bottom:1px dashed var(--rule);opacity:.6}
+
+  .tpc{display:grid;grid-template-columns:1fr auto;gap:10px 11px;
+       align-items:center;padding:8px 0 8px 27px}
+  .tpc+.tpc{border-top:1px solid var(--rule-2)}
+  .tpc-name{font-family:var(--sans);font-size:14px;color:var(--ink-2)}
+  .tpc-meta{font-family:var(--sans);font-size:12px;color:var(--ink-3);margin-top:2px}
+  .tpc-pct{font-family:var(--sans);font-size:14px;font-weight:600;
+    font-variant-numeric:tabular-nums;text-align:right}
+  .tpc .mbar,.tpc .mbar-none{grid-column:1/-1;margin-top:1px}
+  .grp-topics{padding-bottom:6px}
 
   /* quiz bank performance bars — the red ground showing through IS the miss */
   .qbar{height:10px;background:var(--low);margin-top:12px;border-radius:999px;overflow:hidden}
@@ -576,8 +591,6 @@
   .chat-link:hover{color:var(--ink);border-bottom-color:var(--ink)}
 
   @media (max-width:620px){
-    /* 521-620px only: below 521 the phone layout above drops the bar entirely,
-       and this must not put the column back. */
     .assay{grid-template-columns:1fr 92px 78px;gap:10px}
     h1{font-size:28px}
     .panel,.summary{padding:18px 17px}
@@ -892,9 +905,9 @@
     <div class="top-pri" id="topPriority"></div>
 
     <div class="panel">
-      <div class="panel-h">Topic assay &mdash; ranked by priority, worst first</div>
+      <div class="panel-h">Topic assay &mdash; by system, worst first</div>
       <div id="assays"></div>
-      <p class="note">Worst first, by score and staleness together.</p>
+      <p class="note">Tap a system to see its own topics.</p>
       <details class="fold"><summary>How this is ranked</summary>
         <p class="note" style="margin-top:0">Three things at once: how bad the score is,
         how long since it was tested, and whether it's built at all. A stale good score
@@ -1972,46 +1985,82 @@ function renderAssays(){
     if(panel) panel.scrollIntoView({block:'start', behavior:'smooth'});
   };
 
-  // Rows 1-5 are numbered; the rest sit behind a disclosure so the triage list
-  // is a triage list and not twenty-one items of equal weight.
-  const TOP_N = 5;
-  const row = ({name,d,unbuilt,days,pri}, i) => {
-    const [flag,cls] = band(d.score);
-    const tested = d.score !== null;
-    return `<div class="assay${tested?'':' assay-untested'}">
-      <div>
-        <div class="assay-name"${tested?'':' style="color:var(--ink-2)"'}>
-          ${i<TOP_N?'<span class="pri-badge">'+(i+1)+'</span>':''}${esc(name)}</div>
-        <div class="assay-meta">${
-          tested
-            ? `${d.tested} ${d.tested===1?'question':'questions'} · ${fmtAge(days)}`
-            : (unbuilt ? 'No notes built yet' : 'Not tested yet')}</div>
+  /* Systems first, their own topics underneath. A flat list of 130 topics
+     answers "what is the single worst thing" and nothing else; grouping answers
+     "which field am I weakest in", which is how revision is actually planned.
+     The topic detail is still there, one tap down, so nothing is lost. */
+  const barCls = s => s >= 75 ? 'b-in' : s >= 50 ? 'b-bord' : 'b-low';
+  const bar = s => s === null
+    ? '<div class="mbar-none" aria-hidden="true"></div>'
+    : `<div class="mbar ${barCls(s)}" role="img" aria-label="${s} percent">
+         <i style="width:${Math.max(s,2)}%"></i></div>`;
+
+  // Prefixes that map to no system in the list keep their own heading rather
+  // than being forced into a parent they were never asked about.
+  const groups = {};
+  Object.entries(S.topics).forEach(([k,d]) => {
+    if(!d.tested) return;
+    const sys = systemOf(k) || 'Other topics';
+    const g = groups[sys] = groups[sys] || {c:0, t:0, days:Infinity, topics:[]};
+    g.t += d.tested;
+    g.c += (d.correct != null ? d.correct : Math.round((d.score||0)/100*d.tested));
+    g.days = Math.min(g.days, daysSince(d.last));
+    // Strip the system prefix — it is already the heading above.
+    g.topics.push({ label: k.includes('—') ? k.split('—').slice(1).join('—').trim() : k,
+                    d, days: daysSince(d.last) });
+  });
+
+  const KNOWN = [...BUILT, ...UNBUILT];
+  KNOWN.forEach(sys => { if(!groups[sys]) groups[sys] = {c:0,t:0,days:Infinity,topics:[]}; });
+
+  const glist = Object.entries(groups).map(([name,g]) => {
+    const score = g.t ? Math.round(g.c/g.t*100) : null;
+    return {name, g, score, unbuilt: KNOWN.includes(name) && !BUILT.includes(name),
+            pri: priority(score, g.days, KNOWN.includes(name) && !BUILT.includes(name))};
+  }).sort((a,b) => b.pri - a.pri);
+
+  const GRP_N = 3;
+  const grpHtml = ({name,g,score,unbuilt}, i) => {
+    const [flag,cls] = band(score);
+    // Worst topic is surfaced on the closed row: a system can average 65% with
+    // a 0% sitting inside it, and the average alone would hide that.
+    const worst = g.topics.length
+      ? g.topics.reduce((a,b) => (b.d.score < a.d.score ? b : a)) : null;
+    const sub = score === null
+      ? (unbuilt ? 'No notes built yet' : 'Not tested yet')
+      : `${g.t} ${g.t===1?'question':'questions'} · ${fmtAge(g.days)}`;
+    const topics = [...g.topics].sort((a,b) =>
+      priority(b.d.score, b.days, false) - priority(a.d.score, a.days, false));
+
+    return `<details class="grp">
+      <summary>
+        <span class="grp-chev" aria-hidden="true">\u203a</span>
+        <span>
+          <span class="grp-name">${i<GRP_N?'<span class="pri-badge">'+(i+1)+'</span>':''}${esc(name)}</span>
+          <span class="grp-meta">${sub}${worst && worst.d.score < 50
+            ? ` \u00b7 worst ${worst.d.score}%` : ''}</span>
+        </span>
+        <span class="grp-pct ${cls}">${score === null ? '\u2014' : score+'%'}
+          <span class="grp-sub">${flag}</span></span>
+        ${bar(score)}
+      </summary>
+      <div class="grp-topics">${topics.length
+        ? topics.map(t => `<div class="tpc">
+            <span>
+              <span class="tpc-name">${esc(t.label)}</span>
+              <span class="tpc-meta">${t.d.tested} ${t.d.tested===1?'q':'q'} \u00b7 ${fmtAge(t.days)}</span>
+            </span>
+            <span class="tpc-pct ${band(t.d.score)[1]}">${t.d.score}%</span>
+            ${bar(t.d.score)}
+          </div>`).join('')
+        : '<div class="tpc"><span class="tpc-name" style="color:var(--ink-3)">Nothing tested in this system yet</span></div>'}
       </div>
-      ${tested
-        // Only a scored row gets a bar. An untested row draws nothing, because a
-        // full-width track with a green band on it reads as "fine" when the truth
-        // is "unknown" — which is the opposite of what this column is for.
-        ? `<div class="range" role="img" aria-label="${d.score} percent, ${flag}">
-             <div class="range-track"></div>
-             <div class="range-band"></div>
-             <div class="tick" style="left:calc(${d.score}% - 1px)"></div>
-           </div>
-           <div class="flag ${cls}"><span class="flag-n">${d.score}%</span>${flag}</div>`
-        : `<div class="range range-empty" aria-hidden="true"></div>
-           <div class="flag ${cls}">${flag}</div>`}
-    </div>`;
+    </details>`;
   };
 
-  if(!all.length){
-    $('assays').innerHTML = '<div class="empty">No topics drilled yet</div>';
-  } else {
-    const head = all.slice(0, TOP_N).map(row).join('');
-    const rest = all.slice(TOP_N);
-    $('assays').innerHTML = head + (rest.length
-      ? `<details class="fold assay-rest"><summary>Show all ${all.length} topics</summary>
-           <div>${rest.map((r,i) => row(r, i + TOP_N)).join('')}</div></details>`
-      : '');
-  }
+  $('assays').innerHTML = glist.length
+    ? glist.map(grpHtml).join('')
+    : '<div class="empty">No topics drilled yet</div>';
 }
 
 function renderOpen(){
