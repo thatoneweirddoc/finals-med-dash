@@ -272,18 +272,18 @@
 
   /* ---- subtopics: contained, railed and marked ----
      Three separate signals, because indentation alone was not reading as
-     nesting on a phone: a recessed surface says 'inside', an unbroken rail in
-     the parent's band colour says 'belongs to the row above', and a dot in
-     front of each name says 'this is an item, not a heading'. The rail takes
-     the SYSTEM's colour while each bar keeps its OWN — so the rail groups and
-     the bars still report. */
+     nesting on a phone: a recessed surface says 'inside', an unbroken rail says
+     'belongs to the row above', and a dot in front of each name says 'this is
+     an item, not a heading'.
+
+     The rail is deliberately NEUTRAL. It was tinted by the parent's band, which
+     meant a healthy system rendered as a green rail above green bars \u2014 so much
+     of one colour that the bars stopped reporting and just looked decorative.
+     Colour now means one thing only: how a score sits against its range. The
+     rail's job is grouping, and grey does that without competing. */
   .grp-topics{margin:8px 0 6px 5px;padding:2px 11px 2px 12px;
     background:var(--panel-2);border-left:2px solid var(--rule);
     border-radius:0 var(--r-ctl) var(--r-ctl) 0}
-  .r-low{border-left-color:var(--low)}
-  .r-bord{border-left-color:var(--border-flag)}
-  .r-in{border-left-color:var(--inrange)}
-  .r-un{border-left-color:var(--untested)}
 
   .tpc{display:grid;grid-template-columns:auto 1fr auto;gap:7px 8px;
        align-items:center;padding:9px 0}
@@ -2063,7 +2063,7 @@ function renderAssays(){
           <span class="grp-sub">${flag}</span></span>
         ${bar(score)}
       </summary>
-      <div class="grp-topics ${cls.replace('f-','r-')}">${topics.length
+      <div class="grp-topics">${topics.length
         ? topics.map(t => `<div class="tpc">
             <span class="tpc-dot" aria-hidden="true"></span>
             <span>
