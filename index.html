@@ -51,15 +51,6 @@
     --border-flag:#A87B2B;
     --inrange:#2F7A62;
     --untested:#78798A;
-
-    /* Confidence hues — how much evidence is behind a score, NOT how good the
-       score is. Deliberately a shade off the flag hues above so the two scales
-       do not read as the same statement: a green dot beside a red bar means
-       "that 30% is well established", which is the opposite of reassuring. */
-    --conf-1:#C0392B;   /* under 10 questions  */
-    --conf-2:#CE6F1E;   /* 10 to 39            */
-    --conf-3:#B8960F;   /* 40 to 59            */
-    --conf-4:#2F7A62;   /* 60 and over         */
     --low-wash:#FAEBEA;
     --bord-wash:#FAF3E5;
     --in-wash:#E9F3EF;
@@ -105,7 +96,6 @@
       --border-flag:#D5A24C;
       --inrange:#5CBD97;
       --untested:#9B9CAB;
-      --conf-1:#EE7C72; --conf-2:#E8944A; --conf-3:#D9BC46; --conf-4:#5CBD97;
       --low-wash:#37211F;
       --bord-wash:#332916;
       --in-wash:#19302A;
@@ -142,7 +132,6 @@
     --border-flag:#D5A24C;
     --inrange:#5CBD97;
     --untested:#9B9CAB;
-    --conf-1:#EE7C72; --conf-2:#E8944A; --conf-3:#D9BC46; --conf-4:#5CBD97;
     --low-wash:#37211F;
     --bord-wash:#332916;
     --in-wash:#19302A;
@@ -281,23 +270,12 @@
   .grp-sub{font-family:var(--sans);font-size:12px;font-weight:400;
     color:var(--ink-3);display:block;margin-top:2px}
 
-  /* Confidence dot: how much evidence sits behind the score, not how good the
-     score is. It is a DOT because everything else in this panel is a bar or a
-     number — a different shape keeps the two colour scales from being read as
-     one statement. The margin itself is revealed on hover or tap rather than
-     printed, since a figure on all 134 rows becomes wallpaper. */
-  .conf{appearance:none;-webkit-appearance:none;border:0;padding:0;margin-left:7px;
-    cursor:help;width:9px;height:9px;border-radius:50%;vertical-align:1px;
-    background:var(--conf-4);position:relative;display:inline-block}
-  .conf-1{background:var(--conf-1)} .conf-2{background:var(--conf-2)}
-  .conf-3{background:var(--conf-3)} .conf-4{background:var(--conf-4)}
-  .conf::after{content:attr(data-m);position:absolute;right:100%;top:-4px;
-    margin-right:7px;font-family:var(--mono);font-size:11px;line-height:16px;
-    color:var(--ink);background:var(--panel);border:1px solid var(--rule);
-    border-radius:999px;padding:0 6px;white-space:nowrap;
-    opacity:0;pointer-events:none;transition:opacity .12s ease}
-  .conf:hover::after,.conf:focus-visible::after,.conf.on::after{opacity:1}
-  .conf:focus-visible{outline:2px solid var(--ink);outline-offset:3px}
+  /* Sits beside a score, never on top of it: this qualifies the number, it does
+     not compete with it. Deliberately colourless \u2014 colour is the score band,
+     and a warning tint here would read as 'bad' when the meaning is 'unproven'. */
+  .lown{font-family:var(--mono);font-size:11px;font-weight:400;color:var(--ink-3);
+    border:1px solid var(--rule);border-radius:999px;padding:1px 5px;
+    margin-left:6px;white-space:nowrap;vertical-align:1px;cursor:help}
 
   .mbar{grid-column:2/-1;position:relative;height:6px;border-radius:999px;
         background:var(--rule);overflow:hidden}
@@ -964,9 +942,9 @@
     <div class="panel">
       <div class="panel-h">Topic assay &mdash; by system, worst first</div>
       <div id="assays"></div>
-      <p class="note">Tap a system to see its own topics. The dot beside a score says how
-        much evidence is behind it &mdash; red under 10 questions, orange to 40, yellow to 60,
-        green above. Tap the dot for the margin of error.</p>
+      <p class="note">Tap a system to see its own topics. A &plusmn; figure marks a score
+        with fewer than 50 questions behind it &mdash; the number is the margin of error,
+        so &plusmn;40 is a guess and &plusmn;9 is close to settled.</p>
       <details class="fold"><summary>How this is ranked</summary>
         <p class="note" style="margin-top:0">Three things at once: how bad the score is,
         how long since it was tested, and whether it's built at all. A stale good score
@@ -1588,10 +1566,16 @@ function clearCred(){ try{ localStorage.removeItem(CRED_KEY); }catch(e){} }
 
 /* Signed in wins; the shared token is the fallback so deploying sign-in cannot
    lock anyone out before the client ID is configured. */
+/* The stored session token comes FIRST. It is long-lived and already verified,
+   whereas the Google JWT lapses after an hour — preferring the JWT meant the
+   credential silently became empty and the app looked signed out. The JWT is
+   now only used for the initial exchange, or if no session exists yet. */
 function token(){
-  const g = googleCred();
-  if(g) return g;
-  try{ return localStorage.getItem(TOKEN_KEY) || ''; }catch(e){ return ''; }
+  try{
+    const t = localStorage.getItem(TOKEN_KEY);
+    if(t) return t;
+  }catch(e){}
+  return googleCred();
 }
 function setToken(t){ try{ localStorage.setItem(TOKEN_KEY, t); }catch(e){} }
 
@@ -1693,6 +1677,11 @@ function gisWatch(){
     let c = null;
     try{ c = JSON.parse(localStorage.getItem(CRED_KEY) || 'null'); }catch(e){}
     if(!c || !c.exp) return;
+    // With a session token there is nothing to refresh — the JWT has done its
+    // job and can be allowed to lapse quietly.
+    let hasSession = false;
+    try{ hasSession = !!localStorage.getItem(TOKEN_KEY); }catch(e){}
+    if(hasSession) return;
     if(c.exp * 1000 - Date.now() < 10 * 60 * 1000 && gisInit()){
       try{ google.accounts.id.prompt(); }catch(e){}
     }
@@ -1760,7 +1749,16 @@ async function whoami(){
 
     // A bad token gets an explicit error — that is a real rejection.
     if(d.error) return null;
-    if(d.user){ SIGNIN_CONFIGURED = !!d.signInConfigured; setUser(d.user); return d.user; }
+    if(d.user){
+      SIGNIN_CONFIGURED = !!d.signInConfigured;
+      /* A durable token issued in exchange for the verified Google identity.
+         Storing it is what makes sign-in a once-per-device act: the Google JWT
+         expires after an hour, and without this the app fell back to nothing
+         and demanded a fresh sign-in on the next launch. */
+      if(d.sessionToken){ try{ localStorage.setItem(TOKEN_KEY, d.sessionToken); }catch(e){} }
+      setUser(d.user);
+      return d.user;
+    }
 
     // No error and no user means the deployed script predates multi-user: it
     // doesn't know the whoami action, so it fell through and handed back the
@@ -1995,12 +1993,14 @@ function band(score){
 /* Below this many questions a percentage is not a measurement, it is an
    impression. Kept as a named constant because it is a judgement call, not a
    fact, and it appears in two places. */
-const RELIABLE_N = 60;
+const RELIABLE_N = 50;
 
 /* Half-width of the 95% Wilson interval, as whole percentage points.
-   Wilson rather than the normal approximation because the latter collapses to
-   \u00b10 at 0% and 100%, which is exactly where a one-question sample deserves
-   the loudest warning. */
+   A flat "small sample" badge would fire on every topic \u2014 the largest has 34
+   questions \u2014 so it would say nothing. The margin does discriminate: 34
+   questions carries about \u00b116, a single question about \u00b140. Wilson rather than
+   the normal approximation because the latter collapses to \u00b10 at 0% and 100%,
+   which is exactly where the sample is least trustworthy. */
 function marginPct(correct, tested){
   if(!tested) return null;
   const z = 1.96, p = correct / tested;
@@ -2010,23 +2010,11 @@ function marginPct(correct, tested){
   return Math.round((((centre+spread)/d) - ((centre-spread)/d)) / 2 * 100);
 }
 
-/* A dot coloured by how much evidence sits behind the score. The margin itself
-   is held back until asked for: printing \u00b1 on all 134 rows makes it
-   wallpaper, and the thing worth noticing is which rows are thin. Hover on a
-   pointer, tap on a phone \u2014 which is why this is a button and not a span
-   carrying only a title attribute. */
+// Rendered beside a score that has not earned confidence yet.
 function cautionChip(correct, tested){
-  if(!tested) return '';
-  const tier = tested < 10 ? 1 : tested < 40 ? 2 : tested < RELIABLE_N ? 3 : 4;
+  if(!tested || tested >= RELIABLE_N) return '';
   const m = marginPct(correct, tested);
-  const word = tier === 1 ? 'far too few to conclude anything'
-             : tier === 2 ? 'provisional'
-             : tier === 3 ? 'firming up'
-             : 'enough to trust';
-  const label = tested + ' question' + (tested===1?'':'s') + ' \u2014 ' + word +
-                '. True score is within about \u00b1' + m + ' points.';
-  return '<button type="button" class="conf conf-' + tier + '" data-m="\u00b1' + m +
-         '" aria-label="' + esc(label) + '" title="' + esc(label) + '"></button>';
+  return `<span class="lown" title="${tested} question${tested===1?'':'s'} only \u2014 the true score is roughly \u00b1${m} points either side. Treat as provisional until about ${RELIABLE_N}.">\u00b1${m}</span>`;
 }
 
 function renderStats(){
@@ -2161,19 +2149,6 @@ function renderAssays(){
     ? glist.map(grpHtml).join('')
     : '<div class="empty">No topics drilled yet</div>';
 }
-
-/* Hover shows the margin on a desktop; a phone has no hover, so the dot is a
-   button and a tap latches it open. Bound once on the container rather than
-   per dot, because the list is rebuilt on every render. */
-document.addEventListener('click', e => {
-  const dot = e.target.closest && e.target.closest('.conf');
-  document.querySelectorAll('.conf.on').forEach(el => { if(el !== dot) el.classList.remove('on'); });
-  if(!dot) return;
-  // Inside a <summary>, a tap would also toggle the disclosure — the dot is a
-  // read, not a navigation.
-  e.preventDefault(); e.stopPropagation();
-  dot.classList.toggle('on');
-});
 
 function renderOpen(){
   const o = [...S.open].sort((a,b) => b.n - a.n);
@@ -4303,6 +4278,7 @@ $('disconnect').onclick = () => {
               'back when you sign in again.')) return;
   gisSignOut();
   try{ localStorage.removeItem(TOKEN_KEY); }catch(e){}
+  clearCred();                 // the session token AND the Google credential
   setUser(null);               // switches the cache namespace away from this user
   S = fromDrive({});
   renderAll();
