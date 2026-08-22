@@ -260,6 +260,26 @@
    "category": "weak",
    "personal": true,
    "servicedRequest": "r1787155614843"
+  },
+  {
+   "file": "ophthalmology.json",
+   "title": "Ophthalmology",
+   "system": "Ophthalmology",
+   "count": 10,
+   "added": "2026-08-22",
+   "category": "topic",
+   "for": "fadi",
+   "servicedRequest": "r1787367415649"
+  },
+  {
+   "file": "urology.json",
+   "title": "Urology",
+   "system": "Urology",
+   "count": 20,
+   "added": "2026-08-22",
+   "category": "topic",
+   "for": "fadi",
+   "servicedRequest": "r1787368472759"
   }
  ]
 }
