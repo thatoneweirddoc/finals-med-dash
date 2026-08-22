@@ -59,7 +59,7 @@
     --conf-1:#C0392B;   /* under 10 questions */
     --conf-2:#CE6F1E;   /* 10 to 39           */
     --conf-3:#B8960F;   /* 40 to 59           */
-    --conf-4:#2F7A62;   /* 60 and over        */
+    /* 60 and over gets no marker at all — see cautionChip */
     --low-wash:#FAEBEA;
     --bord-wash:#FAF3E5;
     --in-wash:#E9F3EF;
@@ -105,7 +105,7 @@
       --border-flag:#D5A24C;
       --inrange:#5CBD97;
       --untested:#9B9CAB;
-      --conf-1:#EE7C72; --conf-2:#E8944A; --conf-3:#D9BC46; --conf-4:#5CBD97;
+      --conf-1:#EE7C72; --conf-2:#E8944A; --conf-3:#D9BC46;
       --low-wash:#37211F;
       --bord-wash:#332916;
       --in-wash:#19302A;
@@ -142,7 +142,7 @@
     --border-flag:#D5A24C;
     --inrange:#5CBD97;
     --untested:#9B9CAB;
-    --conf-1:#EE7C72; --conf-2:#E8944A; --conf-3:#D9BC46; --conf-4:#5CBD97;
+    --conf-1:#EE7C72; --conf-2:#E8944A; --conf-3:#D9BC46;
     --low-wash:#37211F;
     --bord-wash:#332916;
     --in-wash:#19302A;
@@ -292,9 +292,9 @@
     padding:0;margin-left:7px;cursor:help;width:12px;height:11px;
     vertical-align:0;position:relative;display:inline-block;line-height:0}
   .conf::before{content:'';position:absolute;inset:0;
-    clip-path:polygon(50% 0%, 100% 100%, 0% 100%);background:var(--conf-4)}
+    clip-path:polygon(50% 0%, 100% 100%, 0% 100%);background:var(--conf-2)}
   .conf-1::before{background:var(--conf-1)} .conf-2::before{background:var(--conf-2)}
-  .conf-3::before{background:var(--conf-3)} .conf-4::before{background:var(--conf-4)}
+  .conf-3::before{background:var(--conf-3)}
   .conf::after{content:attr(data-m);position:absolute;right:100%;top:-3px;
     margin-right:7px;font-family:var(--mono);font-size:11px;line-height:16px;
     color:var(--ink);background:var(--panel);border:1px solid var(--rule);
@@ -968,9 +968,9 @@
     <div class="panel">
       <div class="panel-h">Topic assay &mdash; by system, worst first</div>
       <div id="assays"></div>
-      <p class="note">Tap a system to see its own topics. The triangle beside a score says how
-        much evidence is behind it &mdash; red under 10 questions, orange to 40, yellow to 60,
-        green above. Tap it for the margin of error.</p>
+      <p class="note">Tap a system to see its own topics. Colour on a bar means the score.
+        A triangle appears only where there are too few questions to trust it &mdash; red under
+        10, orange to 40, yellow to 60, nothing above. Tap one for the margin of error.</p>
       <details class="fold"><summary>How this is ranked</summary>
         <p class="note" style="margin-top:0">Three things at once: how bad the score is,
         how long since it was tested, and whether it's built at all. A stale good score
@@ -1415,7 +1415,7 @@ const EXAM = new Date('2026-09-14T09:00:00+10:00');
    installed home-screen app holds its own cache and will happily serve a build
    from days ago, which is indistinguishable from a change that never shipped
    unless the page can say which build it is. */
-const BUILD = '2026-08-22 · confidence triangles, coverage wording';
+const BUILD = '2026-08-22b · warning triangles only below 60 questions';
 const KEY_BASE = 'finals_v1';
 /* The cached tracker is namespaced per user, so a shared laptop can hold two
    people's histories without either seeing the other's, and switching tokens
@@ -2058,13 +2058,17 @@ function marginPct(correct, tested){
    pointer, tap on a phone \u2014 which is why this is a button rather than a span
    carrying only a title attribute. */
 function cautionChip(correct, tested){
-  if(!tested) return '';
-  const tier = tested < 10 ? 1 : tested < 40 ? 2 : tested < RELIABLE_N ? 3 : 4;
+  // No marker once the sample is big enough. A green warning triangle beside a
+  // green bar is redundant, and beside a RED bar it actively contradicts it:
+  // two red-amber-green scales on one row read as one statement that disagrees
+  // with itself. Absence now means "no caution needed", so the only coloured
+  // marker on screen is one that warns.
+  if(!tested || tested >= RELIABLE_N) return '';
+  const tier = tested < 10 ? 1 : tested < 40 ? 2 : 3;
   const m = marginPct(correct, tested);
   const word = tier === 1 ? 'far too few to conclude anything'
              : tier === 2 ? 'provisional'
-             : tier === 3 ? 'firming up'
-             : 'enough to trust';
+             : 'firming up';
   const label = tested + ' question' + (tested===1?'':'s') + ' \u2014 ' + word +
                 '. True score is within about \u00b1' + m + ' points.';
   return '<button type="button" class="conf conf-' + tier + '" data-m="\u00b1' + m +
