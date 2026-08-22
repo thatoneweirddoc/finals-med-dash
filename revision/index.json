@@ -1,6 +1,39 @@
 {
   "modules": [
     {
+      "file": "psychiatry.json",
+      "title": "Psychiatry",
+      "system": "Psychiatry",
+      "objectives": 5,
+      "questions": 10,
+      "rationale": "First proper pass at an under-built system. Involuntary admission criteria, antipsychotic complications including clozapine monitoring, lithium interactions and toxicity, the three lookalike toxidromes, and the delirium–dementia–depression separation.",
+      "added": "2026-08-20",
+      "for": "fadi",
+      "servicedRequest": "r1787215850816"
+    },
+    {
+      "file": "immunology-allergy.json",
+      "title": "Immunology & Allergy",
+      "system": "Immunology & Allergy",
+      "objectives": 5,
+      "questions": 10,
+      "rationale": "First proper pass at an under-tested system — only food allergy was tracked, on a single question. Anaphylaxis beyond the adrenaline, the Gell and Coombs classification, the two mechanisms of angioedema, Australian testing and prevention advice, and immunodeficiency pattern recognition.",
+      "added": "2026-08-20",
+      "for": "fadi",
+      "servicedRequest": "r1787215847068"
+    },
+    {
+      "file": "weak-areas-3.json",
+      "title": "Weak Areas — Round Three",
+      "system": "Weakest areas",
+      "objectives": 5,
+      "questions": 10,
+      "rationale": "Third pass, repeating nothing from Rounds One and Two. Takes the remaining cluster sitting at 0%: trauma primary survey and shock classes, malignant hyperthermia and suxamethonium, obstetric emergencies, the neonatal and paediatric presentations, and the three respiratory topics at zero.",
+      "added": "2026-08-20",
+      "for": "fadi",
+      "servicedRequest": "r1787215820995"
+    },
+    {
       "file": "cardiology.json",
       "title": "Cardiology",
       "system": "Cardiology",
