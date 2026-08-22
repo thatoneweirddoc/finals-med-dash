@@ -1,0 +1,346 @@
+{
+ "title": "Urology",
+ "system": "Urology",
+ "questions": [
+  {
+   "stem": "A 24-year-old man wakes with sudden severe left testicular pain and vomiting, present for 3 hours. The left testis is high-riding with a horizontal lie and the cremasteric reflex is absent.",
+   "lead": "What is the most appropriate management?",
+   "options": [
+    "Urgent scrotal ultrasound before deciding",
+    "Immediate surgical exploration",
+    "Antibiotics for epididymo-orchitis",
+    "Analgesia and review in 12 hours",
+    "Urine culture and outpatient urology referral"
+   ],
+   "correct": 1,
+   "explanation": "<b>Testicular torsion is a clinical diagnosis and a surgical emergency.</b> Salvage rates fall steeply after about 6 hours, so imaging must not delay theatre when the presentation is classic. Absent cremasteric reflex, high-riding testis and horizontal lie separate it from epididymo-orchitis, which is gradual, febrile and eased by elevation (Prehn's sign). Both testes are fixed at surgery, since the underlying bell-clapper deformity is usually bilateral.",
+   "point": "Testicular torsion is diagnosed clinically and explored immediately; imaging must not delay surgery.",
+   "topic": "Urology — scrotal emergencies",
+   "type": "application",
+   "difficulty": "easy"
+  },
+  {
+   "stem": "A 68-year-old man has painless visible haematuria on two occasions. He is a lifelong smoker. Urine culture is negative, there is no proteinuria, and renal function is normal.",
+   "lead": "What is the essential next step?",
+   "options": [
+    "Repeat urinalysis in 3 months",
+    "Trial of antibiotics",
+    "CT urogram and cystoscopy",
+    "Renal biopsy",
+    "Reassurance if it settles"
+   ],
+   "correct": 2,
+   "explanation": "<b>Painless visible haematuria in an adult is urothelial malignancy until proven otherwise</b>, and smoking is the dominant risk factor for bladder cancer. Investigation requires <b>both upper tract imaging (CT urogram) and cystoscopy</b> — imaging alone misses bladder lesions and cystoscopy alone misses upper tract tumours, so neither is sufficient by itself. That pairing is the point of the question.",
+   "point": "Painless visible haematuria requires both CT urogram and cystoscopy, because neither alone covers the whole urothelium.",
+   "topic": "Urology — haematuria",
+   "type": "application",
+   "difficulty": "easy"
+  },
+  {
+   "stem": "A 34-year-old woman has sudden severe left loin pain radiating to the groin with nausea and macroscopic haematuria. She is afebrile. Non-contrast CT KUB shows a 4mm stone at the vesicoureteric junction with mild hydronephrosis.",
+   "lead": "What is the most appropriate management?",
+   "options": [
+    "Immediate ureteroscopy",
+    "Analgesia, hydration and expectant management with follow-up",
+    "Urgent nephrostomy",
+    "Shockwave lithotripsy today",
+    "Admission for IV antibiotics"
+   ],
+   "correct": 1,
+   "explanation": "Stones <b>under 5mm pass spontaneously in the large majority</b>. Management is analgesia — <b>NSAIDs are first-line and more effective than opioids</b> in renal colic — plus hydration, a tamsulosin trial for distal stones, and follow-up. Intervention is reserved for <b>obstruction with infection</b> (a urological emergency needing urgent decompression), solitary kidney, AKI, uncontrolled pain, or failure to pass. She is afebrile, so there is no infected obstruction.",
+   "point": "Ureteric stones under 5mm usually pass spontaneously; urgent decompression is for obstruction with infection.",
+   "topic": "Urology — stones",
+   "type": "application",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A 62-year-old man with a 6mm proximal ureteric stone develops a temperature of 39.1°C, rigors, and BP 88/54. CT confirms hydronephrosis.",
+   "lead": "What is the immediate priority after resuscitation and antibiotics?",
+   "options": [
+    "Ureteroscopy and stone extraction",
+    "Urgent decompression with a nephrostomy or ureteric stent",
+    "Shockwave lithotripsy",
+    "Await blood culture results",
+    "Increase analgesia and observe"
+   ],
+   "correct": 1,
+   "explanation": "<b>Infected obstructed kidney</b> — pyonephrosis — is a urological emergency with high mortality. The infected system must be <b>decompressed urgently</b> by percutaneous nephrostomy or retrograde stent. <b>Definitive stone treatment is deferred</b>: operating on the stone in the presence of infection risks disseminating it and worsening sepsis. Antibiotics alone cannot sterilise an obstructed system, which is the reasoning being tested.",
+   "point": "An infected obstructed kidney requires urgent decompression; definitive stone treatment is deferred.",
+   "topic": "Urology — stones",
+   "type": "application",
+   "difficulty": "hard"
+  },
+  {
+   "stem": "A 70-year-old man cannot pass urine for 14 hours and has suprapubic pain. Bladder scan shows 850mL. He has a long history of poor stream and nocturia. Creatinine is normal.",
+   "lead": "What is the immediate management?",
+   "options": [
+    "Urethral catheterisation",
+    "Suprapubic catheterisation",
+    "Tamsulosin and review in 48 hours",
+    "Urgent TURP",
+    "Fluid restriction"
+   ],
+   "correct": 0,
+   "explanation": "<b>Acute urinary retention</b> — decompress with a <b>urethral catheter</b>. Start an <b>alpha-blocker before a trial without catheter</b>, which improves success rates. Watch for <b>post-obstructive diuresis</b> in high-volume or chronic retention, monitoring urine output, electrolytes and renal function. Suprapubic catheterisation is for failed urethral attempts or suspected urethral injury.",
+   "point": "Acute urinary retention is managed by urethral catheterisation, with an alpha-blocker before a trial without catheter.",
+   "topic": "Urology — retention",
+   "type": "recall",
+   "difficulty": "easy"
+  },
+  {
+   "stem": "A 71-year-old man reports poor stream, hesitancy, nocturia and incomplete emptying over two years. DRE shows a smooth, symmetrically enlarged prostate. PSA is 3.2 ng/mL and post-void residual is 80mL.",
+   "lead": "What is the most appropriate first-line medical therapy?",
+   "options": [
+    "Alpha-blocker such as tamsulosin",
+    "5-alpha reductase inhibitor alone",
+    "Antimuscarinic therapy",
+    "Long-term indwelling catheter",
+    "Immediate TURP"
+   ],
+   "correct": 0,
+   "explanation": "<b>Alpha-blockers</b> relax prostatic smooth muscle and work within days, making them first-line for symptomatic BPH. <b>5-alpha reductase inhibitors shrink the gland but take 3-6 months</b> and suit larger prostates. Warn about postural hypotension and — importantly if cataract surgery is planned — <b>intraoperative floppy iris syndrome</b>. Antimuscarinics risk precipitating retention in a man with outflow obstruction.",
+   "point": "Alpha-blockers act within days in BPH; 5-alpha reductase inhibitors take three to six months.",
+   "topic": "Urology — benign prostatic hyperplasia",
+   "type": "recall",
+   "difficulty": "easy"
+  },
+  {
+   "stem": "A 68-year-old man has a PSA of 7.1 ng/mL and a hard irregular nodule on DRE. Biopsy shows adenocarcinoma with a Gleason score of 4+3=7.",
+   "lead": "How does this compare with a Gleason 3+4=7?",
+   "options": [
+    "They are equivalent as both total 7",
+    "4+3 has a worse prognosis because the predominant pattern is higher grade",
+    "3+4 is worse because the secondary pattern is higher",
+    "The order carries no clinical meaning",
+    "4+3 indicates metastatic disease by definition"
+   ],
+   "correct": 1,
+   "explanation": "The <b>first number is the predominant pattern</b>, the second the next most common. So <b>4+3 carries a worse prognosis than 3+4</b> despite the same total — they fall into different ISUP grade groups (3 versus 2). Reading only the sum and ignoring the order is the trap. Staging then guides management: active surveillance, radical prostatectomy, radiotherapy, or androgen deprivation.",
+   "point": "In Gleason scoring the first number is the predominant pattern, so 4+3 is worse than 3+4.",
+   "topic": "Urology — prostate cancer",
+   "type": "discrimination",
+   "difficulty": "hard"
+  },
+  {
+   "stem": "A 25-year-old man has a painless scrotal swelling that transilluminates. You can get above it on examination and the testis cannot be palpated separately.",
+   "lead": "What is the diagnosis and the important caveat?",
+   "options": [
+    "Inguinal hernia; needs surgical repair",
+    "Hydrocele; ultrasound is warranted to exclude an underlying testicular tumour",
+    "Varicocele; investigate for renal malignancy",
+    "Epididymal cyst; no action needed",
+    "Testicular torsion; explore urgently"
+   ],
+   "correct": 1,
+   "explanation": "<b>Transilluminates and you can get above it</b> = <b>hydrocele</b>. If you cannot get above the swelling, think inguinoscrotal hernia. The caveat that makes this examinable: <b>a new hydrocele in a young man warrants ultrasound to exclude an underlying testicular tumour</b>, since a reactive hydrocele can mask one. Varicoceles feel like a bag of worms and do not transilluminate.",
+   "point": "A new hydrocele in a young man warrants ultrasound to exclude an underlying testicular tumour.",
+   "topic": "Urology — scrotal swellings",
+   "type": "discrimination",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A 22-year-old man has a painless, firm, craggy lump arising from the body of the right testis, noticed 3 weeks ago. It does not transilluminate.",
+   "lead": "What is the correct diagnostic pathway?",
+   "options": [
+    "Ultrasound and tumour markers (AFP, beta-hCG, LDH), then urgent urology referral",
+    "Fine needle aspiration of the lump",
+    "Trial of antibiotics and review",
+    "Scrotal biopsy through the scrotal skin",
+    "Observation for 3 months"
+   ],
+   "correct": 0,
+   "explanation": "<b>Testicular cancer</b> — the commonest solid malignancy in young men, and highly curable if treated promptly. Investigation is <b>scrotal ultrasound plus tumour markers (AFP, beta-hCG, LDH)</b>, then urgent referral for <b>radical inguinal orchidectomy</b>. Critically, <b>never biopsy or aspirate through the scrotum</b>: it breaches the scrotal lymphatic barrier and seeds tumour into inguinal nodes, changing the disease's spread pattern. Sperm banking should be offered before treatment.",
+   "point": "Suspected testicular cancer is never biopsied through the scrotum, because it seeds tumour into inguinal lymphatics.",
+   "topic": "Urology — testicular cancer",
+   "type": "application",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A 45-year-old man presents with a left-sided varicocele that does not decompress when he lies flat. He has no other symptoms.",
+   "lead": "What does this finding suggest?",
+   "options": [
+    "A normal variant requiring no action",
+    "Possible retroperitoneal pathology obstructing the renal vein — imaging is indicated",
+    "Testicular torsion",
+    "Epididymo-orchitis",
+    "Inguinal hernia"
+   ],
+   "correct": 1,
+   "explanation": "Most varicoceles are left-sided (the left testicular vein drains into the left renal vein at a right angle) and <b>decompress on lying flat</b>. One that <b>fails to decompress</b>, or a new <b>right-sided</b> varicocele, suggests obstruction of venous drainage — classically a <b>renal cell carcinoma invading the renal vein</b> — and warrants abdominal imaging. This is the detail that turns a benign finding into a red flag.",
+   "point": "A varicocele that does not decompress when lying flat suggests retroperitoneal pathology and needs imaging.",
+   "topic": "Urology — scrotal swellings",
+   "type": "discrimination",
+   "difficulty": "hard"
+  },
+  {
+   "stem": "A 28-year-old woman has dysuria, frequency and suprapubic discomfort for two days. She is afebrile with no loin pain and is not pregnant. Urinalysis shows nitrites and leucocytes.",
+   "lead": "What is the most appropriate management?",
+   "options": [
+    "Short-course oral antibiotics such as trimethoprim or nitrofurantoin",
+    "Await urine culture before treating",
+    "IV antibiotics and admission",
+    "Renal tract ultrasound first",
+    "No treatment — this resolves spontaneously"
+   ],
+   "correct": 0,
+   "explanation": "<b>Uncomplicated lower UTI</b> in a non-pregnant woman is treated empirically with a <b>short course</b> — trimethoprim or nitrofurantoin per Therapeutic Guidelines — without waiting for culture. Culture is reserved for treatment failure, recurrence, pregnancy, males, or suspected pyelonephritis. Note nitrofurantoin is avoided if eGFR is low, since it needs renal excretion to reach therapeutic urinary concentrations.",
+   "point": "Uncomplicated lower UTI in a non-pregnant woman is treated empirically with a short antibiotic course without awaiting culture.",
+   "topic": "Urology — urinary tract infection",
+   "type": "recall",
+   "difficulty": "easy"
+  },
+  {
+   "stem": "A 24-year-old woman at 12 weeks gestation is found to have asymptomatic bacteriuria on routine screening.",
+   "lead": "What is the correct management?",
+   "options": [
+    "No treatment as she is asymptomatic",
+    "Treat with an antibiotic safe in pregnancy",
+    "Repeat the sample in the third trimester",
+    "Cranberry supplements",
+    "Treat only if she develops symptoms"
+   ],
+   "correct": 1,
+   "explanation": "<b>Asymptomatic bacteriuria is treated in pregnancy</b> — one of the few situations where it is. Untreated, roughly 20-30% progress to pyelonephritis, and it is associated with <b>preterm birth and low birth weight</b>. This is why routine antenatal MSU screening exists. In non-pregnant, non-instrumented adults, asymptomatic bacteriuria is generally NOT treated, which is the contrast being tested.",
+   "point": "Asymptomatic bacteriuria is treated in pregnancy because of the risk of pyelonephritis and preterm birth.",
+   "topic": "Urology — urinary tract infection",
+   "type": "discrimination",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A 65-year-old man has a raised PSA of 5.8 ng/mL. He had a urinary tract infection treated two weeks ago and a digital rectal examination performed the same morning as the blood test.",
+   "lead": "How should the result be interpreted?",
+   "options": [
+    "It confirms prostate cancer",
+    "It should be repeated after several weeks, as recent infection and DRE can elevate PSA",
+    "It excludes prostate cancer",
+    "Proceed directly to biopsy",
+    "Start androgen deprivation therapy"
+   ],
+   "correct": 1,
+   "explanation": "PSA is <b>prostate-specific, not cancer-specific</b>. It rises with <b>UTI, prostatitis, recent DRE or instrumentation, ejaculation, and benign hyperplasia</b>. Both confounders are present here, so the result is uninterpretable and should be <b>repeated after the infection has fully settled</b> — typically several weeks. Note also that 5-alpha reductase inhibitors roughly halve PSA, so values need doubling in men taking them.",
+   "point": "PSA rises with UTI, prostatitis, recent DRE and BPH, so a raised result in those settings should be repeated.",
+   "topic": "Urology — prostate",
+   "type": "application",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A 58-year-old woman describes leakage of urine when she coughs, laughs or lifts. There is no urgency and no nocturia. She has had three vaginal deliveries.",
+   "lead": "What is the diagnosis and first-line management?",
+   "options": [
+    "Urge incontinence; antimuscarinic therapy",
+    "Stress incontinence; supervised pelvic floor muscle training",
+    "Overflow incontinence; catheterisation",
+    "Functional incontinence; mobility aids",
+    "Fistula; surgical repair"
+   ],
+   "correct": 1,
+   "explanation": "Leakage on effort without urgency is <b>stress incontinence</b>, from urethral sphincter weakness and pelvic floor laxity — parity is the classic risk factor. <b>First-line is supervised pelvic floor muscle training for at least 3 months</b>, along with weight loss and reducing caffeine. Duloxetine and surgery follow if conservative measures fail. <b>Urge incontinence is the opposite picture</b>: sudden urgency with urge-associated leakage, treated with bladder training then antimuscarinics or mirabegron.",
+   "point": "Stress incontinence is leakage on effort without urgency, treated first with supervised pelvic floor muscle training.",
+   "topic": "Urology — incontinence",
+   "type": "discrimination",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A 72-year-old man with known metastatic prostate cancer develops back pain, bilateral leg weakness and urinary retention over 48 hours. There is a sensory level at T10.",
+   "lead": "What is the immediate management?",
+   "options": [
+    "Urgent MRI whole spine and high-dose corticosteroids",
+    "Plain spinal X-rays",
+    "Analgesia and outpatient MRI",
+    "Bone scan",
+    "Physiotherapy referral"
+   ],
+   "correct": 0,
+   "explanation": "<b>Metastatic spinal cord compression</b> — a neurosurgical and oncological emergency. Give <b>high-dose corticosteroids immediately</b> (typically dexamethasone) and arrange <b>urgent MRI of the WHOLE spine</b>, since multiple levels are involved in a substantial minority and imaging one level can miss disease. Definitive treatment is radiotherapy or surgical decompression. <b>Neurological function at treatment predicts outcome</b> — once someone loses the ability to walk, it rarely returns, which is why hours matter.",
+   "point": "Metastatic spinal cord compression requires immediate corticosteroids and urgent MRI of the whole spine.",
+   "topic": "Urology — prostate cancer",
+   "type": "application",
+   "difficulty": "hard"
+  },
+  {
+   "stem": "A 55-year-old man is 6 hours post transurethral resection of the prostate. He becomes confused and agitated. Sodium is 118 mmol/L (135-145).",
+   "lead": "What has occurred?",
+   "options": [
+    "TUR syndrome from absorption of irrigation fluid",
+    "Acute urinary retention",
+    "Post-obstructive diuresis",
+    "Sepsis",
+    "Hypercalcaemia"
+   ],
+   "correct": 0,
+   "explanation": "<b>TUR syndrome</b> — systemic absorption of hypotonic irrigation fluid through opened prostatic venous sinuses, producing <b>dilutional hyponatraemia</b> with confusion, visual disturbance, bradycardia and hypertension, and progressing to seizures. Risk rises with longer resection times. Management is stopping irrigation, fluid restriction, careful sodium correction, and diuresis. Modern bipolar resection using normal saline irrigation has made it much less common.",
+   "point": "TUR syndrome is dilutional hyponatraemia from absorbed irrigation fluid during prostate resection.",
+   "topic": "Urology — operative complications",
+   "type": "discrimination",
+   "difficulty": "hard"
+  },
+  {
+   "stem": "A 30-year-old man has a 6-hour history of a painful, sustained erection unrelated to sexual stimulation. It is rigid and tender. He takes no medications and has sickle cell trait.",
+   "lead": "What is the most appropriate management?",
+   "options": [
+    "Reassurance and observation",
+    "Urgent urological assessment with cavernosal blood gas and aspiration",
+    "Oral sildenafil",
+    "Cold compress and discharge",
+    "Topical glyceryl trinitrate"
+   ],
+   "correct": 1,
+   "explanation": "<b>Ischaemic (low-flow) priapism</b> is a <b>compartment syndrome of the penis</b> and an emergency — irreversible fibrosis and permanent erectile dysfunction follow after roughly 24-48 hours. <b>Cavernosal blood gas distinguishes it</b>: ischaemic blood is dark, hypoxic and acidotic; non-ischaemic is bright red with near-arterial values. Treatment is aspiration and intracavernosal phenylephrine, then surgical shunting if needed. Causes include sickle cell disease, intracavernosal injections and some antipsychotics.",
+   "point": "Ischaemic priapism is a compartment syndrome of the penis and is distinguished from non-ischaemic by cavernosal blood gas.",
+   "topic": "Urology — emergencies",
+   "type": "application",
+   "difficulty": "hard"
+  },
+  {
+   "stem": "A 67-year-old man is found to have a 4cm solid enhancing mass in the upper pole of the right kidney on CT performed for abdominal pain. He is asymptomatic and has normal renal function.",
+   "lead": "What is the most appropriate management?",
+   "options": [
+    "Percutaneous biopsy to confirm the diagnosis before any surgery",
+    "Partial nephrectomy",
+    "Radical nephrectomy in all cases",
+    "Observation with repeat CT in 12 months",
+    "Chemotherapy"
+   ],
+   "correct": 1,
+   "explanation": "A solid enhancing renal mass is <b>renal cell carcinoma until proven otherwise</b>. For a small tumour like this, <b>partial nephrectomy (nephron-sparing surgery) is preferred</b> — equivalent oncological outcomes with better preserved renal function. <b>Biopsy is generally not required before surgery</b> for a typical enhancing mass, since a negative result would not be trusted enough to avoid operating. The classic triad of haematuria, flank pain and a mass is uncommon and indicates advanced disease.",
+   "point": "A small renal cell carcinoma is treated with partial nephrectomy, and biopsy is not generally needed beforehand.",
+   "topic": "Urology — renal cancer",
+   "type": "application",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A 78-year-old man has an indwelling catheter for chronic retention. Routine urine culture grows Escherichia coli. He is afebrile, systemically well and has no new symptoms.",
+   "lead": "What is the correct management?",
+   "options": [
+    "Oral antibiotics for 7 days",
+    "No antibiotic treatment",
+    "IV antibiotics",
+    "Change the catheter and give antibiotics",
+    "Continuous low-dose antibiotic prophylaxis"
+   ],
+   "correct": 1,
+   "explanation": "<b>Asymptomatic bacteriuria in a catheterised patient should not be treated.</b> All long-term catheters become colonised, and treating colonisation selects resistant organisms without benefit. Treat only if there are <b>systemic features</b> — fever, rigors, delirium, suprapubic or loin pain. The exceptions where asymptomatic bacteriuria IS treated are pregnancy and before urological procedures likely to cause mucosal bleeding.",
+   "point": "Asymptomatic bacteriuria in a catheterised patient is not treated; only symptomatic infection is.",
+   "topic": "Urology — urinary tract infection",
+   "type": "discrimination",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A 35-year-old man is kicked in the perineum. He has blood at the urethral meatus, cannot pass urine, and has a high-riding prostate on rectal examination.",
+   "lead": "What must be avoided?",
+   "options": [
+    "Urethral catheterisation",
+    "Analgesia",
+    "Retrograde urethrogram",
+    "Suprapubic catheterisation",
+    "CT imaging"
+   ],
+   "correct": 0,
+   "explanation": "<b>Blood at the meatus, inability to void and a high-riding prostate indicate urethral injury</b>, and <b>urethral catheterisation is contraindicated</b> — passing a catheter can convert a partial tear into a complete transection. Diagnose with a <b>retrograde urethrogram</b> and drain the bladder by <b>suprapubic catheter</b> instead. This is one of the clearest 'do not do the obvious thing' answers in urology.",
+   "point": "Blood at the urethral meatus with a high-riding prostate contraindicates urethral catheterisation; use a suprapubic catheter.",
+   "topic": "Urology — trauma",
+   "type": "application",
+   "difficulty": "medium"
+  }
+ ]
+}
