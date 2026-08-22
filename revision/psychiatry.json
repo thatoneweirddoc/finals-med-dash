@@ -1,0 +1,237 @@
+{
+  "title": "Psychiatry",
+  "system": "Psychiatry",
+  "created": "2026-08-20",
+  "rationale": "Requested module for an under-built system. Psychiatry has only four tracked topics, three at 100% on a single question each and neurobiology at 0%, so this is a first proper pass rather than gap-patching — built around the decisions written papers actually test: involuntary admission criteria, antipsychotic complications, lithium, serotonin syndrome, and the delirium–dementia–depression separation.",
+  "objectives": [
+    "State the criteria for involuntary admission under Australian mental health legislation and distinguish capacity from detainability.",
+    "Choose and monitor antipsychotic therapy, and recognise its dangerous complications.",
+    "Monitor lithium safely and manage toxicity.",
+    "Separate serotonin syndrome from neuroleptic malignant syndrome and anticholinergic toxicity.",
+    "Distinguish delirium from dementia and from depression, and structure the organic screen."
+  ],
+  "sections": [
+    {
+      "heading": "Involuntary admission — what actually has to be true",
+      "body": "Australian mental health legislation is state-based but the structure is consistent. A person can be detained as a **mentally ill person** only if **all** of the following hold:\n\n1. They have a **mental illness** (in NSW: a condition producing delusions, hallucinations, serious disorder of thought form, severe mood disturbance, or sustained irrational behaviour indicating these);\n2. **Care, treatment or control is necessary** for their own protection from serious harm, or for the protection of others; **and**\n3. **No less restrictive care** is appropriate and reasonably available.\n\n**The third limb is the one that gets skipped.** Detention is a last resort, not the first response to risk: if the person will accept voluntary admission or a community treatment order, or has capable family supervision, that is what should happen.\n\n**Capacity and detainability are separate questions.** A person with capacity can still be detained if they meet the criteria — the Act does not require incapacity. Conversely, a person lacking capacity from delirium or intellectual disability is not thereby mentally ill under the Act; **guardianship legislation** is the right instrument there. Reaching for the Mental Health Act to treat a delirious medical patient is a common error — those patients are treated under **duty of care and guardianship**, not the MHA.\n\n**Substance intoxication or dependence alone is not grounds for detention**, nor is antisocial behaviour, an unusual religious or political belief, or a particular sexual preference or lifestyle — these are explicitly excluded.\n\n**Practical points**: any medical practitioner can complete the initial certificate; the person must then be examined by an authorised medical officer, and by a psychiatrist, within set timeframes, and appear before the Mental Health Review Tribunal. Detention permits **treatment for the mental illness**, not unrelated medical treatment.",
+      "note": "Involuntary admission needs mental illness, necessity for protection, and no less restrictive option; capacity is a separate question, and delirium belongs under guardianship, not the Mental Health Act.",
+      "link": {
+        "system": "psychiatry",
+        "slug": "treatments-law-and-services",
+        "title": "Treatments, Law and Services"
+      }
+    },
+    {
+      "heading": "Antipsychotics — the complications that matter",
+      "body": "All antipsychotics block **D2** receptors; the differences are in what else they hit.\n\n**Extrapyramidal side effects**, in the order they appear:\n\n| Timeframe | Effect | Treatment |\n|---|---|---|\n| **Hours to days** | **Acute dystonia** — oculogyric crisis, torticollis | **Benztropine** or benzhexol |\n| Days to weeks | **Akathisia** — inner restlessness, unable to sit still | Reduce dose, propranolol; often **mistaken for agitation** and wrongly treated with more antipsychotic |\n| Weeks to months | **Parkinsonism** — symmetrical | Reduce dose, switch agent |\n| **Months to years** | **Tardive dyskinesia** — orofacial choreoathetosis | Often irreversible; switch to clozapine |\n\n**Metabolic effects** dominate long-term morbidity, worst with olanzapine and clozapine: weight gain, dyslipidaemia, type 2 diabetes. Baseline and ongoing **weight, waist, lipids, glucose/HbA1c, BP** are mandatory, alongside **ECG for QTc** (worst with haloperidol and ziprasidone) and **prolactin** (worst with risperidone — galactorrhoea, amenorrhoea, sexual dysfunction).\n\n**Clozapine** is reserved for **treatment-resistant schizophrenia** — failure of two adequate trials of other antipsychotics, one of them atypical — and is the only agent with proven superiority there. It requires a monitoring program because of:\n\n- **Agranulocytosis** — mandatory FBC weekly for 18 weeks, then monthly; any fever demands an urgent count\n- **Myocarditis** — typically in the first 4–8 weeks; troponin and CRP monitoring\n- **Severe constipation → ileus**, which is the commonest cause of clozapine-related death\n- Seizures, sedation, hypersalivation, weight gain\n\n**Neuroleptic malignant syndrome** is covered in the next section, but the trigger is worth stating here: any dopamine antagonist, and equally **abrupt withdrawal of a dopamine agonist**.",
+      "note": "Akathisia is frequently mistaken for psychotic agitation and made worse by increasing the dose; clozapine needs FBC, troponin and bowel monitoring.",
+      "link": {
+        "system": "psychiatry",
+        "slug": "psychosis-and-schizophrenia",
+        "title": "Psychosis and Schizophrenia"
+      }
+    },
+    {
+      "heading": "Lithium — narrow window, predictable traps",
+      "body": "Lithium remains the most effective mood stabiliser and the one with **anti-suicidal** effect, but the therapeutic range is narrow: **0.6–0.8 mmol/L** for maintenance (up to 1.0 in acute mania), measured **12 hours post-dose**.\n\n**Monitoring**: level, **renal function** and **thyroid function** — plus calcium — at baseline, then levels every 3 months and renal/thyroid every 6 months, and a level 5–7 days after any dose change.\n\n**What raises the level** — the exam's favourite territory, because lithium is renally cleared and handled like sodium:\n\n| Cause | Mechanism |\n|---|---|\n| **NSAIDs** | Reduced renal clearance |\n| **ACE inhibitors / ARBs** | Reduced clearance |\n| **Thiazides** | Increased proximal reabsorption (loop diuretics less so) |\n| **Dehydration, vomiting, diarrhoea** | Volume depletion → avid sodium and lithium reabsorption |\n| **Low sodium intake** | Same mechanism |\n\n**Toxicity** progresses: coarse tremor (as distinct from the benign fine tremor of therapeutic use), vomiting and diarrhoea, ataxia, dysarthria, confusion, then seizures, arrhythmia and coma. **Severity correlates with the clinical picture more than the number** — a chronically intoxicated patient at 1.8 mmol/L can be sicker than an acute overdose at 3.0.\n\n**Management**: stop lithium, **IV normal saline** to restore volume and promote excretion, and **haemodialysis** for severe toxicity (level above ~4.0, or above 2.5 with significant neurological features or renal failure). **Activated charcoal does not bind lithium.**\n\n**Long-term effects**: nephrogenic diabetes insipidus, chronic kidney disease, **hypothyroidism** (common, treat and continue lithium), hyperparathyroidism. In pregnancy, first-trimester exposure carries a small increased risk of **Ebstein anomaly** — a real risk requiring specialist discussion, not an automatic reason to stop.",
+      "note": "NSAIDs, ACE inhibitors, thiazides and volume depletion all raise lithium; charcoal does not bind it, and clinical severity outweighs the number.",
+      "link": {
+        "system": "psychiatry",
+        "slug": "mood-disorders",
+        "title": "Mood Disorders"
+      }
+    },
+    {
+      "heading": "Three toxidromes that look alike — and don't",
+      "body": "All three produce a hot, agitated, rigid or unstable patient. The **pupils, the reflexes and the tempo** separate them.\n\n| | **Serotonin syndrome** | **Neuroleptic malignant syndrome** | **Anticholinergic** |\n|---|---|---|---|\n| Trigger | Serotonergic drug **added or increased** | **Dopamine antagonist**, or dopamine agonist withdrawn | Antimuscarinic drug |\n| Onset | **Hours** | **Days to weeks** | Hours |\n| Tone | **Clonus, hyperreflexia**, lower limbs worse | **Lead-pipe rigidity**, hyporeflexia | Normal |\n| Pupils | **Dilated** | Normal | **Dilated** |\n| Skin | **Sweating**, flushed | **Sweating**, pale | **Dry**, flushed |\n| Bowel sounds | **Increased** | Normal/reduced | **Absent** |\n| CK | Mildly raised | **Markedly raised** | Normal |\n| Treatment | Stop drug, benzodiazepines, **cyproheptadine** | Stop drug, benzodiazepines, **dantrolene** or bromocriptine | Stop drug, benzodiazepines, **physostigmine** if severe |\n\n**Clonus with hyperreflexia over hours is serotonin syndrome; lead-pipe rigidity with a very high CK over days is NMS.** That single contrast answers most questions. \"**Dry as a bone**\" versus sweating separates anticholinergic toxicity from both.\n\n**Malignant hyperthermia** belongs in the same differential but the setting gives it away: **volatile anaesthetic or suxamethonium**, with a **rising end-tidal CO₂** as the earliest sign, treated with **dantrolene**.\n\n**Common serotonergic combinations to recognise**: SSRI plus tramadol, plus linezolid, plus triptan, plus St John's wort, or an SSRI started before an MAOI has washed out.",
+      "note": "Clonus and hyperreflexia over hours is serotonin syndrome; lead-pipe rigidity with a high CK over days is NMS; dry skin with absent bowel sounds is anticholinergic.",
+      "link": {
+        "system": "psychiatry",
+        "slug": "treatments-law-and-services",
+        "title": "Treatments, Law and Services"
+      }
+    },
+    {
+      "heading": "Delirium, dementia, depression — and the organic screen",
+      "body": "Getting this wrong in an older patient means missing a reversible, potentially fatal medical illness.\n\n| | **Delirium** | **Dementia** | **Depression** |\n|---|---|---|---|\n| Onset | **Hours to days** | Months to years | Weeks to months |\n| Course | **Fluctuating**, worse at night | Steadily progressive | Persistent, diurnal variation |\n| **Attention** | **Impaired — the core feature** | Preserved until late | Variable, effort-dependent |\n| Consciousness | **Altered** | Clear | Clear |\n| Perception | Hallucinations, often **visual** | Late, if at all | Mood-congruent if psychotic |\n| Answers | Muddled | Confabulates, near-misses | \"**I don't know**\" |\n\n**Inattention is the diagnostic core of delirium** — not confusion, not agitation. A **hypoactive delirium** in a quiet withdrawn older patient is the commonest missed presentation and is frequently mislabelled as depression or \"just dementia\"; it carries a worse prognosis than the hyperactive form precisely because it is missed.\n\n**Delirium is a medical diagnosis, not a psychiatric one.** Sweep for causes: infection, drugs (opioids, benzodiazepines, anticholinergics, and **withdrawal** from alcohol or benzodiazepines), metabolic derangement, hypoxia, retention and constipation, pain, and intracranial causes.\n\n**Management is non-pharmacological first**: orientation, familiar people, daylight, sleep, glasses and hearing aids, mobilise, remove lines and catheters. **Antipsychotics are reserved for severe distress or danger**, at low dose and briefly — they do not shorten delirium and increase mortality in dementia.\n\n**In alcohol withdrawal delirium, benzodiazepines are the treatment**, not antipsychotics — and **thiamine before glucose**, to avoid precipitating Wernicke encephalopathy.\n\n**\"Pseudodementia\"**: depression presenting as cognitive impairment. The pointers are relatively **abrupt onset, prominent complaint** about memory (dementia patients minimise), \"I don't know\" answers rather than confabulation, and improvement with antidepressant treatment.",
+      "note": "Inattention is the core of delirium and hypoactive delirium is the one that gets missed; treat the cause, not the behaviour, and use benzodiazepines rather than antipsychotics in alcohol withdrawal.",
+      "link": {
+        "system": "psychiatry",
+        "slug": "assessment-formulation-and-risk",
+        "title": "Assessment, Formulation and Risk"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "stem": "An 82-year-old man admitted with pneumonia becomes confused and agitated overnight, pulling at his cannula. He is disorientated, inattentive, and his conscious level fluctuates. He has no psychiatric history. The nursing staff ask whether he should be scheduled under the Mental Health Act so he can be treated against his wishes.",
+      "lead": "What is the correct answer?",
+      "options": [
+        "No — this is delirium; treat under duty of care and guardianship legislation, not the Mental Health Act",
+        "Yes — but only after psychiatric review confirms a mental illness",
+        "No — he cannot be treated at all without his consent",
+        "Yes — lacking capacity is itself sufficient grounds for detention under the Act",
+        "Yes — his confusion constitutes a mental illness and he is at risk of harm"
+      ],
+      "correct": 0,
+      "explanation": "This is <b>delirium</b>, an acute medical problem, and it is <b>not a mental illness</b> under mental health legislation. Confused medical patients are treated under <b>duty of care and, where ongoing substitute decision-making is needed, guardianship legislation</b> — reaching for the Mental Health Act here is a common and consequential error. Note also that <b>capacity and detainability are separate</b>: the Act does not require incapacity, and incapacity does not create grounds under it. Nor is he untreatable — necessary treatment can be given to a patient lacking capacity in their best interests.",
+      "point": "Delirium is not a mental illness under the Act — treat under duty of care and guardianship, and remember capacity and detainability are separate questions.",
+      "topic": "Psychiatry — mental health law",
+      "type": "discrimination",
+      "difficulty": "medium"
+    },
+    {
+      "stem": "A 24-year-old man with schizophrenia was started on haloperidol 4 days ago. He now paces constantly, cannot sit still, and describes an unbearable inner restlessness. He is distressed but not thought-disordered, and his psychotic symptoms have improved. The intern proposes increasing the haloperidol because he appears agitated.",
+      "lead": "What is happening, and what should be done?",
+      "options": [
+        "Worsening psychosis — increase the antipsychotic dose",
+        "Akathisia — reduce the dose or switch agent, and consider propranolol",
+        "Acute dystonia — give benztropine",
+        "Neuroleptic malignant syndrome — stop the antipsychotic and give dantrolene",
+        "Tardive dyskinesia — switch to clozapine"
+      ],
+      "correct": 1,
+      "explanation": "Subjective inner restlessness with an inability to remain still, days into antipsychotic treatment, is <b>akathisia</b>. It is frequently <b>mistaken for psychotic agitation and treated with more antipsychotic</b>, which worsens it — the stem sets that trap deliberately, and the improving psychosis is the clue that the distress is not psychotic. Manage by <b>reducing the dose or switching</b>, with propranolol as adjunct. <b>Acute dystonia</b> is a sustained muscle contraction (oculogyric crisis, torticollis) within hours. <b>NMS</b> requires rigidity, fever and autonomic instability. <b>Tardive dyskinesia</b> takes months to years. Akathisia matters: it is associated with suicide.",
+      "point": "Akathisia is subjective restlessness days into treatment and is worsened by increasing the antipsychotic — reduce or switch instead.",
+      "topic": "Psychiatry — antipsychotics",
+      "type": "discrimination",
+      "difficulty": "medium"
+    },
+    {
+      "stem": "A 46-year-old woman on lithium for bipolar disorder presents with 3 days of vomiting and diarrhoea from gastroenteritis. She has continued her lithium and has been taking ibuprofen for a headache. She has a coarse tremor, is ataxic and mildly confused. Lithium level is 2.4 mmol/L, creatinine 148 µmol/L.",
+      "lead": "Which combination of factors explains the toxicity, and what is the immediate treatment?",
+      "options": [
+        "The NSAID alone; give activated charcoal",
+        "Volume depletion and the NSAID both reducing lithium clearance; stop lithium and give IV normal saline",
+        "The gastroenteritis alone; stop lithium and observe without fluids",
+        "An unrelated acute kidney injury; commence immediate haemodialysis regardless of clinical state",
+        "Reduced absorption from diarrhoea; increase the lithium dose to compensate"
+      ],
+      "correct": 1,
+      "explanation": "Lithium is handled by the kidney <b>like sodium</b>, so <b>volume depletion</b> drives avid reabsorption, and <b>NSAIDs</b> independently reduce clearance — both are operating here, alongside ACE inhibitors and thiazides as the other classic culprits. Treatment is to <b>stop lithium and restore volume with IV normal saline</b>, which also promotes excretion. <b>Activated charcoal does not bind lithium</b> and is useless. <b>Haemodialysis</b> is reserved for severe toxicity — levels above about 4.0, or above 2.5 with significant neurological features or renal failure — and severity is judged clinically as much as by the number.",
+      "point": "NSAIDs, ACE inhibitors, thiazides and volume depletion all raise lithium; treat with saline, and charcoal has no role.",
+      "topic": "Psychiatry — lithium",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "stem": "A 29-year-old man on sertraline is given tramadol for back pain. Twelve hours later he is agitated and sweating, with a temperature of 38.6°C. He has sustained ankle clonus, brisk reflexes worse in the legs than the arms, dilated pupils and hyperactive bowel sounds. CK is 320 U/L.",
+      "lead": "What is the diagnosis and specific antidote?",
+      "options": [
+        "Sepsis; broad-spectrum antibiotics",
+        "Neuroleptic malignant syndrome; dantrolene",
+        "Serotonin syndrome; cyproheptadine",
+        "Anticholinergic toxicity; physostigmine",
+        "Malignant hyperthermia; dantrolene"
+      ],
+      "correct": 2,
+      "explanation": "<b>Clonus and hyperreflexia, worse in the lower limbs, developing over hours</b> after a serotonergic drug was added is <b>serotonin syndrome</b> — tramadol plus an SSRI is a classic precipitant. Treatment is to stop the agents, give <b>benzodiazepines</b>, and use <b>cyproheptadine</b> as the specific antiserotonergic. <b>NMS</b> runs the other way in every respect: <b>lead-pipe rigidity with hyporeflexia</b>, onset over <b>days to weeks</b>, and a <b>markedly raised CK</b> — 320 U/L is nowhere near it. <b>Anticholinergic toxicity</b> gives <b>dry</b> skin and <b>absent</b> bowel sounds, not sweating and hyperactive bowel sounds.",
+      "point": "Clonus, hyperreflexia and hours-long onset is serotonin syndrome; rigidity, hyporeflexia, days and a huge CK is NMS.",
+      "topic": "Psychiatry — toxidromes",
+      "type": "discrimination",
+      "difficulty": "easy"
+    },
+    {
+      "stem": "A 78-year-old woman is referred with 'depression'. Over 3 weeks she has become withdrawn, eats little and answers questions slowly. Nursing staff note she is drowsier in the evenings and more alert some mornings. On testing she cannot recite the months backwards and loses track mid-sentence. She has a urinary catheter in situ.",
+      "lead": "What is the most likely diagnosis?",
+      "options": [
+        "Pseudodementia",
+        "Lewy body dementia",
+        "Major depressive disorder with psychomotor retardation",
+        "Hypoactive delirium",
+        "Alzheimer disease"
+      ],
+      "correct": 3,
+      "explanation": "<b>Impaired attention</b> — she cannot sustain months backwards and loses track — with a <b>fluctuating</b> course over days and an obvious candidate cause (indwelling catheter, likely urinary infection) is <b>hypoactive delirium</b>. Inattention is the <b>core diagnostic feature</b>, not confusion or agitation. Hypoactive delirium is the commonest <b>missed</b> presentation precisely because the quiet withdrawn patient gets labelled as depressed or demented, and it carries a <b>worse</b> prognosis than the hyperactive form. <b>Dementia</b> does not develop over three weeks and preserves attention until late. Management is to find and treat the cause, with non-pharmacological measures first.",
+      "point": "Inattention plus fluctuation is delirium; the hypoactive form is the one mislabelled as depression and carries the worse prognosis.",
+      "topic": "Psychiatry — delirium",
+      "type": "discrimination",
+      "difficulty": "medium"
+    },
+    {
+      "stem": "A 33-year-old man with schizophrenia has failed adequate trials of risperidone and olanzapine. Clozapine is commenced. Five weeks later he presents with fever, malaise, tachycardia at 118 and mild dyspnoea. Troponin is elevated and CRP is 88 mg/L. FBC shows a neutrophil count of 4.2 × 10⁹/L.",
+      "lead": "What is the most likely complication?",
+      "options": [
+        "Clozapine-induced myocarditis",
+        "Neuroleptic malignant syndrome",
+        "Community-acquired pneumonia",
+        "Clozapine-induced ileus",
+        "Agranulocytosis"
+      ],
+      "correct": 0,
+      "explanation": "<b>Clozapine-induced myocarditis</b> characteristically occurs in the <b>first 4–8 weeks</b> and presents with fever, tachycardia, dyspnoea and a raised troponin and CRP — which is why troponin and CRP monitoring accompanies the FBC during initiation. <b>Agranulocytosis</b> is excluded here by the <b>normal neutrophil count</b>; that is what the FBC in the stem is for. <b>NMS</b> requires rigidity and autonomic instability. <b>Ileus</b> from severe constipation is the commonest cause of clozapine-related death and must always be asked about, but it does not present with a raised troponin.",
+      "point": "Clozapine myocarditis appears in the first 4–8 weeks with fever, tachycardia and raised troponin and CRP — distinct from agranulocytosis, which the FBC excludes.",
+      "topic": "Psychiatry — antipsychotics",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "stem": "A 19-year-old man is brought to the emergency department by police after being found on a roof, saying that a broadcaster is transmitting instructions into his mind. He is agitated and refuses assessment. His mother is present and reports 6 months of decline. He has no medical history and no substance use.",
+      "lead": "Which requirement must ALSO be satisfied before he can be detained as a mentally ill person?",
+      "options": [
+        "That a psychiatrist has already examined him",
+        "That a family member consents to the detention",
+        "That he has been diagnosed with schizophrenia",
+        "That he lacks capacity to make treatment decisions",
+        "That no less restrictive care is appropriate and reasonably available"
+      ],
+      "correct": 4,
+      "explanation": "The three limbs are: <b>mental illness</b>, <b>necessity</b> for protection from serious harm, and <b>no less restrictive care</b> being appropriate and reasonably available. The first two are clearly met here; the third is the one routinely forgotten and is the answer. <b>Capacity is not a criterion</b> — a person with capacity may still be detained if the criteria are met. A <b>psychiatrist examination</b> is required within statutory timeframes but follows the initial certificate rather than preceding it, and <b>family consent</b> is not part of the framework. A specific diagnosis is not needed — the definition is symptom-based.",
+      "point": "The third limb — no less restrictive care available — is a genuine requirement, and capacity is not a criterion for detention.",
+      "topic": "Psychiatry — mental health law",
+      "type": "recall",
+      "difficulty": "medium"
+    },
+    {
+      "stem": "A 55-year-old man with chronic alcohol dependence is admitted after a fall. Thirty-six hours after his last drink he becomes tremulous, sweating, disorientated and reports seeing insects on the walls. HR 122, BP 168/94, temperature 37.9°C.",
+      "lead": "What is the most appropriate management?",
+      "options": [
+        "Immediate recommencement of alcohol to prevent progression",
+        "Haloperidol as first-line, with thiamine given after glucose",
+        "Diazepam titrated to symptoms, plus parenteral thiamine before any glucose-containing fluid",
+        "Olanzapine, with thiamine given orally after 24 hours",
+        "Reassurance and observation, as visual hallucinations indicate a primary psychotic illness"
+      ],
+      "correct": 2,
+      "explanation": "This is <b>delirium tremens</b>, and the treatment is a <b>benzodiazepine titrated to symptoms</b> — diazepam, or lorazepam in liver disease — not an antipsychotic. Antipsychotics lower the seizure threshold and do not treat the underlying GABA-glutamate disturbance, so they are adjuncts at most. <b>Parenteral thiamine must precede glucose</b>: giving glucose to a thiamine-deficient patient can precipitate <b>Wernicke encephalopathy</b>. Visual hallucinations here reflect delirium, not a primary psychotic illness — and untreated DT carries meaningful mortality, so observation alone is unsafe.",
+      "point": "Alcohol withdrawal delirium is treated with benzodiazepines, not antipsychotics, and thiamine always goes before glucose.",
+      "topic": "Psychiatry — substance use",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "stem": "A 27-year-old woman on olanzapine for 3 years has gained 18 kg. Her fasting glucose is 7.4 mmol/L and HbA1c 6.9%. Triglycerides are elevated. She is otherwise well and her psychotic symptoms are stable.",
+      "lead": "What is the most appropriate approach?",
+      "options": [
+        "Switch to clozapine, which has fewer metabolic effects",
+        "Add metformin and make no change to psychotropic therapy or monitoring",
+        "Continue olanzapine unchanged, since her mental state is stable",
+        "Address the metabolic complications and consider switching to a more weight-neutral antipsychotic such as aripiprazole",
+        "Stop the antipsychotic entirely and monitor for relapse"
+      ],
+      "correct": 3,
+      "explanation": "She has developed <b>antipsychotic-induced metabolic syndrome with new type 2 diabetes</b> — olanzapine and clozapine are the worst offenders, and metabolic disease is the leading cause of the <b>reduced life expectancy</b> in severe mental illness. The response is to treat the metabolic problem <i>and</i> reconsider the agent: switching to a more <b>weight-neutral</b> option such as aripiprazole or lurasidone, with careful cross-titration. <b>Continuing unchanged</b> accepts avoidable cardiovascular death. <b>Clozapine is worse</b>, not better, metabolically. <b>Stopping antipsychotics entirely</b> in stable schizophrenia carries a high relapse risk.",
+      "point": "Metabolic complications are the leading driver of premature death in severe mental illness — treat them and reconsider the agent, don't just monitor.",
+      "topic": "Psychiatry — antipsychotics",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "stem": "A 71-year-old woman reports 4 months of poor memory. She complains at length about her forgetfulness and is distressed by it. On cognitive testing she frequently answers \"I don't know\" and puts in little effort, but performs better with encouragement. She has lost 6 kg, wakes at 4 am and has stopped attending her bowls club.",
+      "lead": "What is the most likely diagnosis?",
+      "options": [
+        "Delirium",
+        "Vascular dementia",
+        "Mild cognitive impairment",
+        "Alzheimer disease",
+        "Depression presenting with cognitive impairment"
+      ],
+      "correct": 4,
+      "explanation": "The pattern is <b>depression presenting as cognitive impairment</b> (\"pseudodementia\"): relatively <b>abrupt onset</b>, a <b>prominent subjective complaint</b> about memory, <b>\"I don't know\" answers</b> with poor effort that improve with encouragement, and clear biological features of depression — weight loss, early morning waking, social withdrawal. <b>Dementia patients characteristically minimise</b> their deficits and <b>confabulate or near-miss</b> rather than declining to answer. <b>Delirium</b> would show inattention and a fluctuating conscious level over days. This matters because it is treatable — though a proportion later declare a true dementia, so follow-up is still required.",
+      "point": "Depression complains about memory and answers \"I don't know\"; dementia minimises deficits and confabulates.",
+      "topic": "Psychiatry — mood disorders",
+      "type": "discrimination",
+      "difficulty": "medium"
+    }
+  ]
+}
