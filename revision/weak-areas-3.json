@@ -1,0 +1,237 @@
+{
+  "title": "Weak Areas — Round Three",
+  "system": "Weakest areas",
+  "created": "2026-08-20",
+  "rationale": "Third pass. Rounds One and Two already teach Parkland, ANZCOR arrest drugs, bridging, adrenal insufficiency, cord localisation, third nerve palsy, raised intracranial pressure, the neuromuscular junction and gout — none are repeated. This module takes the remaining cluster of topics sitting at 0%: trauma (33%), anaesthetic emergencies and airway pharmacology, obstetric emergencies, the neonatal and paediatric presentations missed in the past papers, and the three respiratory topics at zero.",
+  "objectives": [
+    "Work a trauma primary survey in order and classify haemorrhagic shock from the observations.",
+    "Recognise malignant hyperthermia and state the contraindications to suxamethonium.",
+    "Manage postpartum haemorrhage, shoulder dystocia and uterine rupture.",
+    "Separate the neonatal emergencies: bilious vomiting, respiratory distress by gestation, and stridor by toxicity.",
+    "Interpret spirometry and pleural fluid, and grade COPD on the two separate axes."
+  ],
+  "sections": [
+    {
+      "heading": "Trauma — the order is the answer",
+      "body": "**Do not move on until the current step is fixed.** Most trauma questions test whether you interrupt the survey to treat, then resume.\n\n**<C>ABCDE**: catastrophic haemorrhage (tourniquet, pressure), **A**irway with cervical spine control, **B**reathing, **C**irculation, **D**isability, **E**xposure.\n\n| Found in B | Immediate action |\n|---|---|\n| **Tension pneumothorax** — deviated trachea, absent breath sounds, **distended** neck veins, hypotension | **Finger/needle decompression now**, then ICC. **Clinical diagnosis — no X-ray first** |\n| **Massive haemothorax** | ICC, and thoracotomy if >1500 mL immediately or >200 mL/h |\n| **Open pneumothorax** | Three-sided dressing |\n| **Cardiac tamponade** — hypotension, distended veins, **muffled** sounds | Pericardiocentesis / thoracotomy |\n\n**Tension pneumothorax and tamponade both give distended neck veins with hypotension** — haemorrhagic shock gives **flat** veins. That distinction directs you to the chest rather than to blood.\n\n**Haemorrhagic shock classes** — note that **blood pressure falls last**, so a normal BP does not exclude significant loss:\n\n| Class | Loss | HR | BP | Pulse pressure | Mental state |\n|---|---|---|---|---|---|\n| **I** | <15% | <100 | Normal | Normal | Slightly anxious |\n| **II** | 15–30% | **100–120** | **Normal** | **Narrowed** | Mildly anxious |\n| **III** | **30–40%** | 120–140 | **Decreased** | Decreased | **Confused** |\n| **IV** | >40% | >140 | Decreased | Decreased | **Lethargic** |\n\n**Narrowed pulse pressure and tachycardia with a normal systolic is class II** — the commonest thing missed, because the systolic looks reassuring. **Young patients and athletes compensate hard, then crash**; the elderly and beta-blocked may not mount a tachycardia at all.\n\n**Resuscitation**: limited crystalloid, then **blood products in balanced ratio** (massive transfusion protocol), **tranexamic acid within 3 hours** of injury, permissive hypotension until haemorrhage control in penetrating trauma, and keep the patient **warm** — the lethal triad is **hypothermia, acidosis and coagulopathy**.",
+      "note": "Distended neck veins with hypotension means chest, not blood loss; class II shock has a normal systolic with a narrowed pulse pressure; TXA within 3 hours.",
+      "link": {
+        "system": "surgery",
+        "slug": "trauma-and-burns",
+        "title": "Trauma and Burns"
+      }
+    },
+    {
+      "heading": "Anaesthetic emergencies and the suxamethonium list",
+      "body": "**Malignant hyperthermia** is a pharmacogenetic disorder of the ryanodine receptor causing uncontrolled sarcoplasmic calcium release.\n\n**Triggers**: **volatile agents** (sevoflurane, desflurane, isoflurane) and **suxamethonium**. Nothing else — propofol, opioids, nitrous oxide and non-depolarising relaxants are safe.\n\n**The earliest sign is a rising end-tidal CO₂** despite increased ventilation — before the temperature moves. Then masseter spasm, generalised rigidity, tachycardia, arrhythmia, hyperkalaemia, rhabdomyolysis and a late, steep temperature rise.\n\n**Treatment**: stop the trigger, 100% oxygen at high flows, **dantrolene 2.5 mg/kg IV repeated to effect**, active cooling, treat hyperkalaemia and arrhythmia, monitor for rhabdomyolysis and DIC. Refer the family for testing.\n\n**Distinguish from NMS** (dopamine antagonist, days, lead-pipe rigidity) and **serotonin syndrome** (serotonergic drug, hours, clonus and hyperreflexia) — the setting does most of the work: an operating theatre with a volatile agent running is malignant hyperthermia.\n\n**Suxamethonium — when not to use it:**\n\n| Contraindication | Why |\n|---|---|\n| **Penetrating/open globe injury** | **Raises intraocular pressure** → extrusion of ocular contents |\n| **Hyperkalaemia**, or risk of it — burns >24–48 h old, crush injury, denervation, prolonged immobility, spinal cord injury | Massive potassium release via upregulated receptors → **arrest** |\n| **Malignant hyperthermia** history | Trigger |\n| Known **pseudocholinesterase deficiency** | Prolonged paralysis |\n| Raised ICP | Transient further rise |\n\n**Rocuronium with sugammadex** is the alternative where rapid-sequence conditions are needed and suxamethonium is contraindicated — including the open globe with a full stomach, where the airway risk cannot be traded against the eye.\n\n**Fasting for elective surgery in adults: 6 hours for solids, 2 hours for clear fluids.**",
+      "note": "Rising end-tidal CO₂ under a volatile agent is malignant hyperthermia — dantrolene; suxamethonium is contraindicated in open globe injury and in any hyperkalaemia-risk state.",
+      "link": {
+        "system": "anaesthetics",
+        "slug": "6-airway-management",
+        "title": "Airway Management"
+      }
+    },
+    {
+      "heading": "Obstetric emergencies — three, each with a first move",
+      "body": "**Postpartum haemorrhage.** Causes are the **four Ts**: **Tone** (70% — atony), **Trauma**, **Tissue** (retained products), **Thrombin** (coagulopathy).\n\nA **soft, boggy uterus** means atony, and the sequence is:\n\n1. **Rub up the fundus** (bimanual compression) — mechanical, immediate, free\n2. **Uterotonic**: **oxytocin** first; then **ergometrine** (**contraindicated in hypertension and pre-eclampsia**), misoprostol, carboprost (**avoid in asthma**)\n3. Empty the bladder, examine for tears and retained tissue\n4. **Tranexamic acid**\n5. Surgical: balloon tamponade, B-Lynch suture, uterine artery ligation, hysterectomy\n\n**Active management of the third stage** — prophylactic oxytocin at delivery — is what prevents this, and is given routinely.\n\n**Shoulder dystocia.** Call for help, then **McRoberts** (hyperflex hips onto abdomen) with **suprapubic pressure** — the most effective and quickest first manoeuvre, resolving most cases. Then internal rotational manoeuvres, delivery of the posterior arm. **Fundal pressure is contraindicated** — it impacts the shoulder further and risks uterine rupture. Complications: brachial plexus injury, fracture, hypoxic injury, and maternal PPH and tears.\n\n**Uterine rupture.** In a woman with a **previous caesarean**, the triad is **sudden abdominal pain, vaginal bleeding and fetal bradycardia**, often with **loss of the presenting part** on examination and cessation of contractions. It is an immediate **laparotomy** — not a trial of continued labour.\n\n**Eclampsia**: **magnesium sulfate** is the anticonvulsant of choice (not diazepam, not phenytoin), with **calcium gluconate** as the antidote for toxicity — watched for by loss of deep tendon reflexes, respiratory depression and reduced urine output.",
+      "note": "Boggy uterus → rub up the fundus then oxytocin; McRoberts first in dystocia and never fundal pressure; pain, bleeding and fetal bradycardia after previous caesarean is rupture.",
+      "link": {
+        "system": "obstetrics-gynaecology",
+        "slug": "labour-and-intrapartum-care",
+        "title": "Labour and Intrapartum Care"
+      }
+    },
+    {
+      "heading": "Neonatal and paediatric emergencies — three separations",
+      "body": "**Bilious vomiting.** In any neonate, **bilious (green) vomiting is malrotation with midgut volvulus until excluded** — by **urgent upper GI contrast study** — because the bowel infarcts within hours. This holds even when another diagnosis looks more likely.\n\n| | Hirschsprung | Malrotation with volvulus | Pyloric stenosis |\n|---|---|---|---|\n| Vomit | Bilious | **Bilious** | **Non-bilious**, projectile |\n| Timing | First days | Any, often first month | **3–6 weeks** |\n| Clue | **No meconium by 48 h**, explosive stool on PR | **Sudden**, unwell, shock | Hungry after vomiting, **hypochloraemic hypokalaemic metabolic alkalosis**, palpable olive |\n| Action | Contrast enema, biopsy | **Urgent contrast, then theatre** | Correct electrolytes **first**, then pyloromyotomy |\n\n**Respiratory distress — gestation names it:**\n\n| | Gestation | Course |\n|---|---|---|\n| **RDS** (surfactant deficiency) | **Preterm** | Worsens over hours; ground-glass with air bronchograms. **Antenatal steroids reduce but do not eliminate it** |\n| **TTN** | **Term**, often caesarean | Resolves in 24–72 h; wet lungs, fluid in fissures |\n| **Meconium aspiration** | **Term/post-term** | Meconium-stained liquor, patchy infiltrates |\n\nA 31-weeker with respiratory distress has **RDS even if antenatal steroids were given** — steroids reduce severity, not occurrence.\n\n**Stridor — how toxic is the child?**\n\n| | Croup | Epiglottitis | Bacterial tracheitis |\n|---|---|---|---|\n| Onset | Days of coryza | **Hours** | Days then rapid deterioration |\n| Cough | **Barking** | Absent | Barking |\n| Appearance | **Well between episodes** | **Toxic, drooling, tripod** | **Toxic** |\n| Cause | **Parainfluenza** | *H. influenzae* type b | *Staph aureus* |\n| Action | **Oral dexamethasone**; nebulised adrenaline if severe | **Do not examine the throat** — senior airway team to theatre | Airway team, IV antibiotics |\n\n**A febrile child with purpura and shock**: **IV ceftriaxone immediately**; **lumbar puncture is contraindicated** while shocked or coagulopathic.",
+      "note": "Bilious vomiting in a neonate is volvulus until excluded; a preterm baby with distress has RDS despite steroids; a toxic drooling child is not croup and the throat is not examined.",
+      "link": {
+        "system": "paediatrics",
+        "slug": "the-acutely-unwell-child",
+        "title": "The Acutely Unwell Child"
+      }
+    },
+    {
+      "heading": "Respiratory — the three that keep scoring zero",
+      "body": "**Spirometry: the ratio decides the pattern.**\n\n| | Obstructive | Restrictive |\n|---|---|---|\n| **FEV₁/FVC** | **<0.7** | **Normal or increased** |\n| FVC | Normal or reduced | **Reduced** |\n| TLC | Increased | **Reduced** |\n| **DLCO** | Reduced in emphysema, **normal in asthma** | **Reduced** in ILD, normal in chest wall/neuromuscular |\n\n**Restriction keeps the ratio** — both numbers fall together, so FEV₁/FVC is preserved or high. Expecting a low ratio in ILD is the error. **DLCO** then separates parenchymal restriction (ILD, low) from extrapulmonary restriction (obesity, kyphoscoliosis, neuromuscular — normal).\n\n**COPD is graded on two separate axes**, and conflating them is the standard mistake:\n\n| Axis | Basis |\n|---|---|\n| **GOLD 1–4** | **Post-bronchodilator FEV₁ % predicted** — ≥80, 50–79, 30–49, <30 |\n| **Group A / B / E** | **Symptoms** (mMRC, CAT) **and exacerbations** |\n\n**Group E is assigned by exacerbations alone** — ≥2 moderate exacerbations, or ≥1 requiring admission, in the past year — **regardless of symptom score**. A patient with mild symptoms and two admissions is Group E, and the spirometric grade does not change that. Group E gets **LABA + LAMA**, with an inhaled corticosteroid added if **eosinophils ≥300**.\n\n**Pleural fluid: Light's criteria.** The fluid is an **exudate** if **any one** holds:\n\n- Pleural/serum **protein > 0.5**\n- Pleural/serum **LDH > 0.6**\n- Pleural LDH **> two-thirds the upper limit** of normal serum LDH\n\n**Any one is enough** — requiring all three is the common error, and Light's criteria are deliberately sensitive for exudate.\n\n| Transudate | Exudate |\n|---|---|\n| Heart failure, cirrhosis, nephrotic syndrome, hypoalbuminaemia | Infection, malignancy, PE, TB, connective tissue disease |\n\n**Complicated parapneumonic effusion or empyema** — **pH < 7.2**, glucose low, LDH high, or frank pus — requires **chest drain**, not antibiotics alone.",
+      "note": "Restriction preserves the FEV₁/FVC ratio; GOLD Group E is set by exacerbations regardless of symptoms; any one of Light's criteria makes an exudate; pleural pH below 7.2 means drain.",
+      "link": {
+        "system": "respiratory",
+        "slug": "pleural-disease-and-pneumothorax-acute-high-yield",
+        "title": "Pleural Disease and Pneumothorax"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "stem": "A 24-year-old man is brought in after a high-speed crash. HR 116, BP 124/102, RR 24, GCS 15, cool peripheries with a capillary refill of 3 seconds. He is anxious. There is no external haemorrhage and his neck veins are flat.",
+      "lead": "How would you classify his haemorrhagic shock?",
+      "options": [
+        "Class I — less than 15% loss",
+        "Class II — 15–30% loss",
+        "Class III — 30–40% loss",
+        "Class IV — over 40% loss",
+        "Not in shock — his systolic blood pressure is normal"
+      ],
+      "correct": 1,
+      "explanation": "Tachycardia of 116 with a <b>normal systolic but a markedly narrowed pulse pressure</b> (124/102 = 22 mmHg) and cool peripheries is <b>class II</b>, representing 15–30% loss. <b>Blood pressure falls last</b>, so a normal systolic is not reassurance — this is exactly the presentation that gets called \"not in shock\" and then deteriorates, especially in a young patient who compensates hard and then crashes. <b>Class III</b> requires a fallen systolic and confusion. <b>Flat neck veins</b> confirm hypovolaemia rather than a chest cause — tension pneumothorax and tamponade both distend them.",
+      "point": "Class II shock has a normal systolic with a narrowed pulse pressure and tachycardia — blood pressure falls last.",
+      "topic": "Surgery — trauma",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "stem": "During a general anaesthetic using sevoflurane and suxamethonium, a 22-year-old develops an end-tidal CO₂ rising from 38 to 68 mmHg despite increased minute ventilation, masseter spasm and generalised rigidity. HR is 140. Temperature is 37.6°C and rising.",
+      "lead": "What is the diagnosis and the specific treatment?",
+      "options": [
+        "Malignant hyperthermia; dantrolene",
+        "Serotonin syndrome; cyproheptadine",
+        "Thyroid storm; propylthiouracil and beta blockade",
+        "Sepsis; broad-spectrum antibiotics and fluid resuscitation",
+        "Neuroleptic malignant syndrome; bromocriptine"
+      ],
+      "correct": 0,
+      "explanation": "A <b>rising end-tidal CO₂ despite increased ventilation</b> under a <b>volatile agent and suxamethonium</b> is <b>malignant hyperthermia</b> — and the CO₂ is the <b>earliest</b> sign, appearing before the temperature moves, which is why the near-normal temperature here is not reassuring. Treatment is to stop the triggers and give <b>dantrolene 2.5 mg/kg IV</b>, repeated to effect, with cooling and treatment of hyperkalaemia. <b>NMS</b> requires a dopamine antagonist and evolves over days; <b>serotonin syndrome</b> gives clonus and hyperreflexia over hours. The theatre setting with a volatile running is what names this one.",
+      "point": "Rising end-tidal CO₂ under volatile anaesthesia is the earliest sign of malignant hyperthermia — dantrolene, and do not wait for fever.",
+      "topic": "Anaesthetics — complications",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "stem": "A 34-year-old man requires emergency surgery for a penetrating eye injury with an open globe. He ate a large meal 90 minutes ago and requires a rapid sequence induction.",
+      "lead": "Which neuromuscular blocking strategy is most appropriate?",
+      "options": [
+        "Vecuronium at standard dose",
+        "Atracurium at standard dose",
+        "Awake fibreoptic intubation without neuromuscular blockade",
+        "Suxamethonium, as rapid sequence conditions outweigh other considerations",
+        "High-dose rocuronium, with sugammadex available for reversal"
+      ],
+      "correct": 4,
+      "explanation": "<b>Suxamethonium raises intraocular pressure</b> and risks <b>extrusion of ocular contents</b> through an open globe, so it is contraindicated here — and the full stomach does not license it, because <b>high-dose rocuronium with sugammadex</b> provides equivalent rapid-sequence conditions with rapid reversibility. <b>Vecuronium and atracurium</b> at standard doses have too slow an onset for RSI in a patient at aspiration risk. Suxamethonium's other contraindications are worth holding alongside: <b>hyperkalaemia or its risk</b> — burns beyond 24–48 hours, crush injury, denervation, prolonged immobility — and malignant hyperthermia.",
+      "point": "Suxamethonium is contraindicated in open globe injury; rocuronium with sugammadex gives RSI conditions without raising intraocular pressure.",
+      "topic": "Anaesthetics — pharmacology",
+      "type": "discrimination",
+      "difficulty": "medium"
+    },
+    {
+      "stem": "A 31-year-old woman has a vaginal delivery. Ten minutes later she has brisk ongoing bleeding estimated at 900 mL. The uterus feels soft and boggy on palpation. She has gestational hypertension with a BP of 158/98. The placenta appeared complete.",
+      "lead": "What is the correct immediate sequence?",
+      "options": [
+        "Immediate transfer to theatre for examination under anaesthesia",
+        "Tranexamic acid alone, with uterotonics withheld until coagulation studies return",
+        "Insert a balloon tamponade device as the first intervention",
+        "IV ergometrine, then rub up the fundus if bleeding continues",
+        "Rub up the fundus and give oxytocin; avoid ergometrine because of her hypertension"
+      ],
+      "correct": 4,
+      "explanation": "A <b>soft, boggy uterus</b> means <b>atony</b> — the commonest of the four Ts. The first move is <b>mechanical</b>: rub up the fundus, which is immediate and free, followed by <b>oxytocin</b>. The specific trap is <b>ergometrine</b>, which is <b>contraindicated in hypertension and pre-eclampsia</b> — her BP of 158/98 rules it out, and reaching for it first compounds the error. <b>Tranexamic acid</b> is given, but alongside uterotonics rather than instead of them, and <b>balloon tamponade and theatre</b> come after medical measures fail. Carboprost, further down the list, is avoided in asthma.",
+      "point": "Atonic PPH: rub up the fundus, then oxytocin — and ergometrine is contraindicated in hypertension and pre-eclampsia.",
+      "topic": "O&G — postpartum haemorrhage",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "stem": "A 2-day-old term neonate has vomited twice, both times green. He passed meconium at 20 hours. He is alert with a soft abdomen and normal observations.",
+      "lead": "What is the most appropriate next step?",
+      "options": [
+        "Urgent upper gastrointestinal contrast study to exclude malrotation with midgut volvulus",
+        "Abdominal ultrasound to assess pyloric thickness",
+        "Contrast enema to exclude Hirschsprung disease",
+        "Trial of a hydrolysed formula for suspected cow's milk protein allergy",
+        "Observe, since he is well and has passed meconium"
+      ],
+      "correct": 0,
+      "explanation": "<b>Bilious vomiting in a neonate is malrotation with midgut volvulus until excluded</b>, by <b>urgent upper GI contrast</b> — the bowel infarcts within hours, and a well-looking baby with normal observations does not buy time, because deterioration is sudden. Passing meconium normally makes <b>Hirschsprung</b> less likely but does not address the emergency. <b>Pyloric stenosis</b> is excluded by the vomit being bilious — pyloric obstruction is proximal to the ampulla, so its vomit is <b>non-bilious</b> and it presents at 3–6 weeks, not day 2.",
+      "point": "Green vomit in a neonate is volvulus until an urgent contrast study says otherwise — being well does not buy time.",
+      "topic": "Paediatrics — neonatal bowel obstruction",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "stem": "A baby is born at 31 weeks after a course of antenatal corticosteroids. From 30 minutes of age he has grunting, intercostal recession and tachypnoea, worsening over the following hours. Chest X-ray shows diffuse ground-glass opacification with air bronchograms.",
+      "lead": "What is the most likely diagnosis?",
+      "options": [
+        "Congenital pneumonia",
+        "Congenital diaphragmatic hernia",
+        "Transient tachypnoea of the newborn",
+        "Respiratory distress syndrome",
+        "Meconium aspiration syndrome"
+      ],
+      "correct": 3,
+      "explanation": "<b>Surfactant deficiency RDS</b> — the gestation names it. The trap is the antenatal steroids: they <b>reduce the severity and incidence</b> of RDS but do not eliminate it, so a steroid-exposed preterm baby with worsening distress and <b>ground-glass with air bronchograms</b> still has RDS. <b>TTN</b> belongs to <b>term</b> babies, often after caesarean, and <b>improves</b> over 24–72 hours rather than worsening. <b>Meconium aspiration</b> occurs in term and post-term babies with meconium-stained liquor and gives patchy infiltrates.",
+      "point": "Preterm respiratory distress is RDS even after antenatal steroids; TTN is a term diagnosis that improves rather than worsens.",
+      "topic": "Paediatrics — neonatal respiratory distress",
+      "type": "discrimination",
+      "difficulty": "easy"
+    },
+    {
+      "stem": "A 62-year-old man has progressive exertional breathlessness and a dry cough. Spirometry: FEV₁ 1.9 L (62% predicted), FVC 2.3 L (58% predicted), FEV₁/FVC 0.83. DLCO is 48% predicted.",
+      "lead": "How should this be interpreted?",
+      "options": [
+        "Obstructive defect — consistent with COPD",
+        "Restrictive defect with impaired gas transfer — consistent with interstitial lung disease",
+        "Restrictive defect with normal gas transfer — consistent with obesity or neuromuscular weakness",
+        "Mixed obstructive and restrictive defect",
+        "Normal spirometry — investigate cardiac causes"
+      ],
+      "correct": 1,
+      "explanation": "Both FEV₁ and FVC are reduced, but the <b>ratio is preserved at 0.83</b> — that is a <b>restrictive</b> pattern. Restriction keeps the ratio because both volumes fall together; expecting a low ratio in ILD is the standard error. The <b>reduced DLCO</b> then localises the restriction to the <b>parenchyma</b>: interstitial disease impairs gas transfer, whereas <b>extrapulmonary</b> restriction from obesity, kyphoscoliosis or neuromuscular weakness leaves DLCO <b>normal</b>. An obstructive defect would require FEV₁/FVC below 0.7.",
+      "point": "Restriction preserves FEV₁/FVC; a low DLCO then separates parenchymal ILD from extrapulmonary restriction.",
+      "topic": "Respiratory — interstitial lung disease",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "stem": "A 68-year-old woman with COPD has a post-bronchodilator FEV₁ of 61% predicted. Her mMRC score is 1 and her CAT score is 8, indicating mild symptoms. In the past 12 months she has had two exacerbations, one requiring hospital admission. Blood eosinophils are 340 cells/µL.",
+      "lead": "How should she be classified and treated?",
+      "options": [
+        "GOLD 3, Group E — triple therapy",
+        "GOLD 1, Group A — no maintenance therapy required",
+        "GOLD 2, Group A — short-acting bronchodilator as needed",
+        "GOLD 2, Group E — LABA plus LAMA, with an inhaled corticosteroid given the eosinophil count",
+        "GOLD 2, Group B — LABA plus LAMA"
+      ],
+      "correct": 3,
+      "explanation": "The two axes are <b>independent</b>. FEV₁ 61% is <b>GOLD 2</b> (50–79%). Her <b>exacerbation history</b> — two moderate exacerbations, one with admission — places her in <b>Group E regardless of her mild symptom scores</b>, which is precisely the point being tested: Group E is assigned by exacerbations alone. Treatment is <b>LABA + LAMA</b>, with an <b>inhaled corticosteroid</b> added because eosinophils are <b>≥300</b>. Reading the mild CAT score as Group A ignores the exacerbations that define her risk.",
+      "point": "GOLD grade and group are separate axes; Group E is set by exacerbations regardless of symptom score, and ICS is added at eosinophils ≥300.",
+      "topic": "Respiratory — COPD",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "stem": "A 58-year-old man with pneumonia has a moderate pleural effusion. Aspiration shows: pleural protein 28 g/L, serum protein 62 g/L; pleural LDH 340 U/L, serum LDH 400 U/L (upper limit of normal 250 U/L); pleural pH 7.11; glucose 1.8 mmol/L. The fluid is cloudy but not frankly purulent.",
+      "lead": "How should this be classified and managed?",
+      "options": [
+        "Empyema — requiring immediate surgical decortication as the first step",
+        "Transudate — treat the underlying heart failure",
+        "Exudate meeting Light's criteria on LDH, and a complicated parapneumonic effusion requiring chest drain insertion",
+        "Exudate, but simple parapneumonic — antibiotics alone are sufficient",
+        "Indeterminate — the protein ratio is below 0.5 so Light's criteria are not met"
+      ],
+      "correct": 2,
+      "explanation": "<b>Any single one</b> of Light's criteria makes it an exudate — requiring all three is the common error. The protein ratio is 0.45 (below 0.5), but the <b>pleural LDH of 340 exceeds two-thirds of the upper limit of normal serum LDH</b> (167), so it is an <b>exudate</b>. The <b>pH of 7.11 (below 7.2)</b> with a low glucose defines a <b>complicated parapneumonic effusion</b>, which requires <b>chest drainage</b> — antibiotics alone will not sterilise it. <b>Decortication</b> is for organised empyema failing drainage, not the first step.",
+      "point": "Any one of Light's criteria makes an exudate; pleural pH below 7.2 in a parapneumonic effusion means drain it.",
+      "topic": "Respiratory — pleural disease",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "stem": "A 29-year-old woman with one previous caesarean section is in labour at 39 weeks. She suddenly develops severe constant abdominal pain, contractions cease, and there is fresh vaginal bleeding. Fetal heart rate falls to 70 bpm. On vaginal examination the presenting part, previously at station 0, can no longer be felt.",
+      "lead": "What is the diagnosis and the appropriate action?",
+      "options": [
+        "Uterine hyperstimulation — cease oxytocin and give tocolysis",
+        "Placental abruption — continuous fetal monitoring and expedite vaginal delivery",
+        "Uterine rupture — immediate laparotomy",
+        "Vasa praevia — urgent caesarean section",
+        "Cord prolapse — elevate the presenting part and prepare for caesarean"
+      ],
+      "correct": 2,
+      "explanation": "Previous caesarean, <b>sudden severe pain, cessation of contractions, bleeding, fetal bradycardia</b> and — the near-pathognomonic sign — <b>loss of the presenting part</b> as the fetus retracts into the abdomen, is <b>uterine rupture</b>. This is an <b>immediate laparotomy</b>: both mother and baby are at risk within minutes and there is no role for continued labour. <b>Abruption</b> gives a woody, tender, <i>contracting</i> uterus without loss of station. <b>Cord prolapse</b> presents with a palpable cord and a normally positioned presenting part.",
+      "point": "Loss of the presenting part with pain, bleeding and fetal bradycardia after previous caesarean is uterine rupture — immediate laparotomy.",
+      "topic": "O&G — obstetric emergencies",
+      "type": "discrimination",
+      "difficulty": "medium"
+    }
+  ]
+}
