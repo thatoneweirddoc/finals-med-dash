@@ -1265,6 +1265,15 @@
         it into the other to bring them level.</p>
       <textarea id="mdOut" rows="9" style="width:100%;margin-top:12px;font-family:var(--mono);font-size:13px" readonly></textarea>
     </div>
+
+    <div class="panel">
+      <div class="panel-h">This copy</div>
+      <p class="note" style="margin-top:0">A home-screen app keeps its own cache, separate from the
+        browser &mdash; so it can keep showing an old build long after the site has changed. If this
+        build stamp is older than a change you expect to see, you are looking at a cached copy:
+        delete the home-screen icon, reload in the browser, then add it again.</p>
+      <p class="note" style="font-family:var(--mono);color:var(--ink)" id="buildStamp"></p>
+    </div>
   </section>
 </div>
 
@@ -1401,6 +1410,12 @@
 
 <script>
 const EXAM = new Date('2026-09-14T09:00:00+10:00');
+
+/* Bumped on every deploy. Its only job is to make a stale cache visible: an
+   installed home-screen app holds its own cache and will happily serve a build
+   from days ago, which is indistinguishable from a change that never shipped
+   unless the page can say which build it is. */
+const BUILD = '2026-08-22 · confidence triangles, coverage wording';
 const KEY_BASE = 'finals_v1';
 /* The cached tracker is namespaced per user, so a shared laptop can hold two
    people's histories without either seeing the other's, and switching tokens
@@ -2466,6 +2481,7 @@ function renderGlance(){
 
 function renderAll(){
   $('days').textContent = daysLeft();
+  const bs = $('buildStamp'); if(bs) bs.textContent = 'Build ' + BUILD;
   renderStats(); renderSummary(); renderGlance(); renderAssays(); renderOpen(); renderCleared(); renderLog(); renderCoverage(); renderLinks(); renderMd();
 }
 
