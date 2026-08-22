@@ -261,6 +261,13 @@
   .grp-sub{font-family:var(--sans);font-size:12px;font-weight:400;
     color:var(--ink-3);display:block;margin-top:2px}
 
+  /* Sits beside a score, never on top of it: this qualifies the number, it does
+     not compete with it. Deliberately colourless \u2014 colour is the score band,
+     and a warning tint here would read as 'bad' when the meaning is 'unproven'. */
+  .lown{font-family:var(--mono);font-size:11px;font-weight:400;color:var(--ink-3);
+    border:1px solid var(--rule);border-radius:999px;padding:1px 5px;
+    margin-left:6px;white-space:nowrap;vertical-align:1px;cursor:help}
+
   .mbar{grid-column:2/-1;position:relative;height:6px;border-radius:999px;
         background:var(--rule);overflow:hidden}
   .mbar i{display:block;height:100%;border-radius:999px}
@@ -926,7 +933,9 @@
     <div class="panel">
       <div class="panel-h">Topic assay &mdash; by system, worst first</div>
       <div id="assays"></div>
-      <p class="note">Tap a system to see its own topics.</p>
+      <p class="note">Tap a system to see its own topics. A &plusmn; figure marks a score
+        with fewer than 50 questions behind it &mdash; the number is the margin of error,
+        so &plusmn;40 is a guess and &plusmn;9 is close to settled.</p>
       <details class="fold"><summary>How this is ranked</summary>
         <p class="note" style="margin-top:0">Three things at once: how bad the score is,
         how long since it was tested, and whether it's built at all. A stale good score
@@ -1952,6 +1961,33 @@ function band(score){
   return ['Below range','f-low'];
 }
 
+/* Below this many questions a percentage is not a measurement, it is an
+   impression. Kept as a named constant because it is a judgement call, not a
+   fact, and it appears in two places. */
+const RELIABLE_N = 50;
+
+/* Half-width of the 95% Wilson interval, as whole percentage points.
+   A flat "small sample" badge would fire on every topic \u2014 the largest has 34
+   questions \u2014 so it would say nothing. The margin does discriminate: 34
+   questions carries about \u00b116, a single question about \u00b140. Wilson rather than
+   the normal approximation because the latter collapses to \u00b10 at 0% and 100%,
+   which is exactly where the sample is least trustworthy. */
+function marginPct(correct, tested){
+  if(!tested) return null;
+  const z = 1.96, p = correct / tested;
+  const d = 1 + z*z/tested;
+  const centre = p + z*z/(2*tested);
+  const spread = z * Math.sqrt(p*(1-p)/tested + z*z/(4*tested*tested));
+  return Math.round((((centre+spread)/d) - ((centre-spread)/d)) / 2 * 100);
+}
+
+// Rendered beside a score that has not earned confidence yet.
+function cautionChip(correct, tested){
+  if(!tested || tested >= RELIABLE_N) return '';
+  const m = marginPct(correct, tested);
+  return `<span class="lown" title="${tested} question${tested===1?'':'s'} only \u2014 the true score is roughly \u00b1${m} points either side. Treat as provisional until about ${RELIABLE_N}.">\u00b1${m}</span>`;
+}
+
 function renderStats(){
   const t = Object.values(S.topics);
   const weak = t.filter(x => x.score < 50).length;
@@ -2060,7 +2096,7 @@ function renderAssays(){
             ? ` \u00b7 worst ${worst.d.score}%` : ''}</span>
         </span>
         <span class="grp-pct ${cls}">${score === null ? '\u2014' : score+'%'}
-          <span class="grp-sub">${flag}</span></span>
+          <span class="grp-sub">${flag}${score === null ? '' : cautionChip(g.c, g.t)}</span></span>
         ${bar(score)}
       </summary>
       <div class="grp-topics">${topics.length
@@ -2070,7 +2106,9 @@ function renderAssays(){
               <span class="tpc-name">${esc(t.label)}</span>
               <span class="tpc-meta">${t.d.tested} q \u00b7 ${fmtAge(t.days)}</span>
             </span>
-            <span class="tpc-pct ${band(t.d.score)[1]}">${t.d.score}%</span>
+            <span class="tpc-pct ${band(t.d.score)[1]}">${t.d.score}%${
+              cautionChip(t.d.correct != null ? t.d.correct
+                          : Math.round((t.d.score||0)/100*t.d.tested), t.d.tested)}</span>
             ${bar(t.d.score)}
           </div>`).join('')
         : '<div class="tpc"><span class="tpc-dot" aria-hidden="true"></span><span class="tpc-name" style="color:var(--ink-3)">Nothing tested in this system yet</span></div>'}
