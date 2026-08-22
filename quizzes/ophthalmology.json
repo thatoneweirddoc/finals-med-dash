@@ -1,0 +1,176 @@
+{
+ "title": "Ophthalmology",
+ "system": "Ophthalmology",
+ "questions": [
+  {
+   "stem": "A 68-year-old woman has sudden painless loss of vision in her right eye on waking. Acuity is hand movements only. There is a right relative afferent pupillary defect. Fundoscopy shows a pale retina with a cherry-red spot at the macula.",
+   "lead": "What is the most important condition to exclude urgently?",
+   "options": [
+    "Diabetic retinopathy",
+    "Giant cell arteritis",
+    "Open-angle glaucoma",
+    "Cataract",
+    "Vitreous haemorrhage"
+   ],
+   "correct": 1,
+   "explanation": "This is <b>central retinal artery occlusion</b> — a stroke of the eye. In anyone over 50 you must exclude <b>giant cell arteritis</b>, because the fellow eye can be lost within days and <b>high-dose corticosteroids are started on clinical suspicion</b>, without waiting for ESR, CRP or temporal artery biopsy. Ask about headache, jaw claudication and scalp tenderness. Also investigate the embolic source — carotids and cardiac.",
+   "point": "Sudden painless vision loss over 50 requires urgent exclusion of giant cell arteritis, with steroids started on suspicion.",
+   "topic": "Ophthalmology — sudden vision loss",
+   "type": "application",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A 55-year-old woman presents with a severely painful red right eye, headache, nausea and vomiting. She reports haloes around lights. The cornea is hazy, the pupil is mid-dilated and fixed, and the globe feels hard.",
+   "lead": "What is the diagnosis?",
+   "options": [
+    "Acute angle-closure glaucoma",
+    "Anterior uveitis",
+    "Bacterial conjunctivitis",
+    "Scleritis",
+    "Corneal abrasion"
+   ],
+   "correct": 0,
+   "explanation": "<b>Acute angle-closure glaucoma</b> — the combination of a <b>fixed mid-dilated pupil</b>, hazy cornea, hard globe and haloes is characteristic. The <b>nausea and vomiting</b> are the trap: patients are sometimes worked up for an abdominal or neurological cause while the eye goes unexamined. Treat urgently with pressure-lowering agents, acetazolamide and pilocarpine, then <b>laser peripheral iridotomy to BOTH eyes</b>, since the fellow eye is anatomically at risk.",
+   "point": "Acute angle-closure glaucoma gives a fixed mid-dilated pupil with a hard globe, and often presents with vomiting.",
+   "topic": "Ophthalmology — red eye",
+   "type": "recall",
+   "difficulty": "easy"
+  },
+  {
+   "stem": "A 24-year-old contact lens wearer has a painful red left eye with photophobia and blurred vision for two days. There is a white corneal infiltrate with an overlying epithelial defect that stains with fluorescein.",
+   "lead": "What is the most appropriate management?",
+   "options": [
+    "Topical corticosteroid drops",
+    "Same-day ophthalmology referral for corneal scrape and intensive topical antibiotics",
+    "Eye patching and review in one week",
+    "Oral aciclovir",
+    "Topical chloramphenicol and review in 5 days"
+   ],
+   "correct": 1,
+   "explanation": "<b>A contact lens wearer with a red painful eye has microbial keratitis until proven otherwise</b> — including <i>Pseudomonas</i> and <i>Acanthamoeba</i>. This is sight-threatening and needs <b>same-day referral</b> for scrape and intensive fortified topical antibiotics. <b>Do not patch</b> (it incubates infection) and <b>do not give topical steroid</b>, which worsens infection and risks corneal melt.",
+   "point": "A contact lens wearer with a red painful eye has microbial keratitis until proven otherwise and needs same-day referral.",
+   "topic": "Ophthalmology — red eye",
+   "type": "application",
+   "difficulty": "easy"
+  },
+  {
+   "stem": "A 32-year-old man with ankylosing spondylitis has a painful red right eye with photophobia. The redness is most marked around the limbus. The pupil is small and irregular. Vision is mildly reduced.",
+   "lead": "What is the diagnosis and its significance?",
+   "options": [
+    "Conjunctivitis; treat with topical antibiotics",
+    "Anterior uveitis; associated with HLA-B27 conditions",
+    "Episcleritis; self-limiting",
+    "Subconjunctival haemorrhage; check BP",
+    "Acute glaucoma; urgent pressure reduction"
+   ],
+   "correct": 1,
+   "explanation": "<b>Circumciliary (limbal) flush with a small irregular pupil</b> from posterior synechiae is <b>anterior uveitis</b>. The systemic link is what makes it examinable: <b>HLA-B27</b> conditions — ankylosing spondylitis, reactive arthritis, IBD, psoriatic arthritis — plus sarcoidosis, TB and juvenile idiopathic arthritis. Treatment is topical corticosteroid <b>plus a cycloplegic</b>, which relieves ciliary spasm and prevents further synechiae.",
+   "point": "Anterior uveitis causes circumciliary flush with a small irregular pupil and is associated with HLA-B27 conditions.",
+   "topic": "Ophthalmology — red eye",
+   "type": "discrimination",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A 70-year-old man reports that straight lines on his bathroom tiles now appear wavy, and he has a grey patch in his central vision that developed over two weeks. Peripheral vision is unaffected.",
+   "lead": "What has most likely happened?",
+   "options": [
+    "Progression of dry age-related macular degeneration",
+    "Conversion to wet (neovascular) age-related macular degeneration",
+    "Cataract formation",
+    "Open-angle glaucoma",
+    "Retinal detachment"
+   ],
+   "correct": 1,
+   "explanation": "<b>Metamorphopsia</b> — straight lines appearing wavy — with rapid central loss is the hallmark of conversion to <b>wet AMD</b>. This matters because it is <b>treatable and urgent</b>: intravitreal anti-VEGF preserves vision, and delay costs it. Dry AMD progresses slowly over years without distortion. Patients monitor with an <b>Amsler grid</b> and are told to present immediately if it changes. Peripheral vision is preserved in AMD, which distinguishes it from glaucoma.",
+   "point": "Metamorphopsia with rapid central vision loss indicates conversion to wet AMD and needs urgent anti-VEGF.",
+   "topic": "Ophthalmology — gradual vision loss",
+   "type": "discrimination",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A 58-year-old man with type 2 diabetes has an eye examination. Fundoscopy shows microaneurysms, dot and blot haemorrhages, hard exudates and several cotton wool spots, but no new vessels.",
+   "lead": "How is this classified and what is the main threat to his vision?",
+   "options": [
+    "Proliferative retinopathy; vitreous haemorrhage",
+    "Non-proliferative retinopathy; diabetic maculopathy",
+    "Non-proliferative retinopathy; retinal detachment",
+    "Hypertensive retinopathy; papilloedema",
+    "Normal findings for diabetes"
+   ],
+   "correct": 1,
+   "explanation": "New vessels are absent, so this is <b>non-proliferative</b> diabetic retinopathy. The commonest cause of visual loss in diabetes is <b>diabetic maculopathy</b> — macular oedema or exudates threatening the fovea — and crucially it <b>can occur at any retinopathy stage</b>, including this one. Cotton wool spots are nerve fibre layer infarcts indicating ischaemia. Treat maculopathy with anti-VEGF; panretinal photocoagulation is for proliferative disease.",
+   "point": "Diabetic maculopathy is the commonest cause of vision loss in diabetes and can occur at any stage of retinopathy.",
+   "topic": "Ophthalmology — diabetic eye disease",
+   "type": "application",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A 28-year-old woman has blurred vision in her left eye developing over three days, with pain on eye movement. Acuity is 6/24 on the left and 6/6 on the right. Colour vision is markedly reduced on the left. There is a left relative afferent pupillary defect. The optic disc appears normal.",
+   "lead": "How should the normal-looking disc be interpreted?",
+   "options": [
+    "It excludes optic nerve pathology",
+    "It is consistent with retrobulbar optic neuritis",
+    "It indicates a functional visual disorder",
+    "It suggests a refractive cause",
+    "It rules out multiple sclerosis"
+   ],
+   "correct": 1,
+   "explanation": "A normal disc is entirely compatible with <b>retrobulbar optic neuritis</b> — the classic phrase is that <b>the patient sees nothing and the doctor sees nothing</b>, because the inflammation is behind the globe. The RAPD and disproportionate <b>colour desaturation</b> localise the lesion to the optic nerve regardless of disc appearance. Strongly associated with <b>multiple sclerosis</b>; IV methylprednisolone speeds recovery but does not change final acuity, and <b>oral prednisolone alone is avoided</b>.",
+   "point": "Retrobulbar optic neuritis presents with a normal-looking optic disc, so a normal fundus does not exclude it.",
+   "topic": "Ophthalmology — sudden vision loss",
+   "type": "discrimination",
+   "difficulty": "hard"
+  },
+  {
+   "stem": "A 62-year-old man is found on screening to have an intraocular pressure of 26 mmHg, a cup-to-disc ratio of 0.7 with inferior notching, and an arcuate scotoma on perimetry. He has no symptoms.",
+   "lead": "What is the first-line treatment?",
+   "options": [
+    "Topical prostaglandin analogue",
+    "Oral acetazolamide",
+    "Laser peripheral iridotomy",
+    "Immediate trabeculectomy",
+    "Observation alone as he is asymptomatic"
+   ],
+   "correct": 0,
+   "explanation": "<b>Primary open-angle glaucoma</b> — asymptomatic until advanced, because peripheral field is lost first while central acuity is preserved. <b>Topical prostaglandin analogue (latanoprost) is first-line</b>. Note the side effects worth knowing: iris darkening, eyelash growth and periorbital fat atrophy. <b>Laser peripheral iridotomy treats angle-CLOSURE</b>, not open-angle, and is the distractor. Absence of symptoms is not a reason to observe — the field loss is irreversible.",
+   "point": "Topical prostaglandin analogues are first-line for primary open-angle glaucoma; iridotomy is for angle-closure.",
+   "topic": "Ophthalmology — glaucoma",
+   "type": "discrimination",
+   "difficulty": "medium"
+  },
+  {
+   "stem": "A 26-year-old woman has headaches worse on lying flat and transient episodes of visual greying lasting seconds. Fundoscopy shows bilateral optic disc swelling. Visual acuity is 6/6 bilaterally. MRI brain and venography are normal; CSF opening pressure is 31 cmH2O with normal constituents.",
+   "lead": "Which assessment is most important for monitoring her vision?",
+   "options": [
+    "Serial visual acuity",
+    "Formal visual field perimetry",
+    "Serial intraocular pressure",
+    "Repeat MRI monthly",
+    "Colour vision testing alone"
+   ],
+   "correct": 1,
+   "explanation": "<b>Idiopathic intracranial hypertension.</b> The threat is permanent visual loss, and <b>the visual FIELDS deteriorate first</b> while <b>central acuity is preserved until very late</b> — so normal 6/6 vision is falsely reassuring and acuity is a poor monitor. <b>Formal perimetry</b> is the required assessment. Transient visual obscurations with papilloedema indicate the nerve is already threatened. Management: weight loss, acetazolamide, and surgical options if vision deteriorates.",
+   "point": "In idiopathic intracranial hypertension the visual fields are monitored, because central acuity is preserved until late.",
+   "topic": "Ophthalmology — raised intracranial pressure",
+   "type": "application",
+   "difficulty": "hard"
+  },
+  {
+   "stem": "A 3-day-old neonate has bilateral purulent eye discharge with marked lid swelling. The mother had no antenatal care.",
+   "lead": "What is the most appropriate action?",
+   "options": [
+    "Reassure — this is normal neonatal stickiness",
+    "Topical chloramphenicol and review in 48 hours",
+    "Urgent assessment with swabs and systemic antibiotics for possible gonococcal infection",
+    "Saline bathing alone",
+    "Await spontaneous resolution"
+   ],
+   "correct": 2,
+   "explanation": "<b>Ophthalmia neonatorum</b> presenting in the <b>first days</b> with copious purulent discharge suggests <b>Neisseria gonorrhoeae</b>, which can perforate the cornea within hours and cause blindness. It requires <b>urgent assessment, swabs including PCR, and SYSTEMIC antibiotics</b> — topical alone is inadequate. Chlamydia typically presents later, around days 5-14. Both are notifiable and require maternal and partner treatment.",
+   "point": "Purulent neonatal conjunctivitis in the first days of life suggests gonococcal infection and needs systemic antibiotics urgently.",
+   "topic": "Ophthalmology — paediatric",
+   "type": "application",
+   "difficulty": "hard"
+  }
+ ]
+}
