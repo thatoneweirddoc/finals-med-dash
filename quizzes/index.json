@@ -250,6 +250,16 @@
    "category": "weak",
    "personal": true,
    "servicedRequest": "r1787155620368"
+  },
+  {
+   "file": "weak-areas-d.json",
+   "title": "Weak areas — open flags II",
+   "system": "Weakest areas",
+   "count": 10,
+   "added": "2026-08-20",
+   "category": "weak",
+   "personal": true,
+   "servicedRequest": "r1787155614843"
   }
  ]
 }
