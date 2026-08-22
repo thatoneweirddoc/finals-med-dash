@@ -1,0 +1,237 @@
+{
+  "title": "Immunology & Allergy",
+  "system": "Immunology & Allergy",
+  "created": "2026-08-20",
+  "rationale": "Requested module for an under-tested system — only food allergy is tracked, on a single question. Built as a first proper pass around the parts written papers reliably test: anaphylaxis management, the hypersensitivity classification that underpins every allergy question, the two mechanisms of angioedema (which have completely different treatments), Australian allergy testing and prevention guidance, and the infection patterns that point to primary immunodeficiency.",
+  "objectives": [
+    "Recognise and treat anaphylaxis, including biphasic reactions, tryptase and safe discharge.",
+    "Classify a hypersensitivity reaction by Gell and Coombs type and predict its timing and mechanism.",
+    "Separate histaminergic from bradykinin-mediated angioedema and treat each correctly.",
+    "Select and interpret allergy tests, and state current Australian advice on food allergy prevention.",
+    "Recognise the infection patterns that suggest primary immunodeficiency and identify which arm of immunity is failing."
+  ],
+  "sections": [
+    {
+      "heading": "Anaphylaxis — the parts beyond the adrenaline",
+      "body": "**Diagnosis is clinical**: acute onset with **skin or mucosal involvement plus either respiratory compromise or hypotension**, or hypotension after exposure to a known allergen. Note the trap — **20% of anaphylaxis has no skin signs at all**, so an absent rash does not exclude it.\n\n**Treatment**:\n\n| Step | Detail |\n|---|---|\n| **IM adrenaline** | **0.5 mg (0.5 mL of 1:1000)** adult, **anterolateral thigh**, repeat every 5 min as needed |\n| **Position** | **Lie flat**, legs raised; **sitting or standing can cause arrest** — empty ventricle syndrome |\n| Airway/breathing | High-flow oxygen, nebulised salbutamol for wheeze, nebulised adrenaline for stridor |\n| Circulation | Large-volume IV crystalloid — massive fluid shift occurs |\n| Refractory | Adrenaline **infusion**; consider glucagon if on a beta blocker |\n\n**Steroids and antihistamines treat neither the airway nor the circulation.** They are adjuncts for cutaneous symptoms, and reaching for them first is the classic fatal delay. Steroids are no longer thought to prevent biphasic reactions.\n\n**Mast cell tryptase** is the confirmatory test, taken as **three samples** — as soon as feasible, at 1–2 hours, and a **baseline at least 24 hours later** or at follow-up. It is the delta between acute and baseline that matters, and a normal tryptase does not exclude anaphylaxis (it is often normal in food-triggered reactions).\n\n**Biphasic reactions** occur in up to about 5%, typically within 4–12 hours. Observe for a **minimum of 4 hours** after resolution, longer if the reaction was severe, required repeated adrenaline, or the patient lives far from help.\n\n**Discharge is not complete without**: an **adrenaline autoinjector** and training, an **ASCIA action plan**, allergen avoidance advice, medical alert advice, and **referral to a clinical immunologist/allergist**.\n\n**Beta blockers** blunt the response to adrenaline and worsen severity — hence glucagon in refractory cases.",
+      "note": "IM adrenaline into the thigh with the patient lying flat; 20% have no skin signs; steroids and antihistamines are adjuncts, and discharge needs an autoinjector, an action plan and referral.",
+      "link": {
+        "system": "immunology-allergy",
+        "slug": "anaphylaxis-emergency-highest-yield-in-this-section",
+        "title": "Anaphylaxis"
+      }
+    },
+    {
+      "heading": "Gell and Coombs — timing tells you the type",
+      "body": "| Type | Mechanism | Timing | Examples |\n|---|---|---|---|\n| **I** | **IgE** → mast cell degranulation | **Minutes** | Anaphylaxis, urticaria, allergic rhinitis, asthma |\n| **II** | **IgG/IgM against cell-surface antigen** | Hours–days | Autoimmune haemolytic anaemia, ITP, Goodpasture, myasthenia gravis, **acute haemolytic transfusion reaction** |\n| **III** | **Immune complex** deposition | **Days–weeks** | SLE, post-streptococcal glomerulonephritis, serum sickness, hypersensitivity pneumonitis |\n| **IV** | **T cell** mediated, no antibody | **48–72 h or longer** | Contact dermatitis, Mantoux, SJS/TEN, DRESS, coeliac, graft rejection |\n\n**Timing is the shortcut.** Minutes means type I; two to three days or longer means type IV; a week to ten days after a drug or infection, with fever, rash and arthralgia, means immune complexes.\n\n**Type II versus III** is a common confusion: type II antibodies bind a **fixed antigen on a cell**, so the damage is organ-specific and predictable (the antigen's location determines the disease). Type III complexes form **in the circulation** and deposit wherever flow and filtration favour it — hence the **multisystem** pattern of skin, joints and kidney.\n\n**Some conditions span types.** Drug reactions in particular: an immediate urticarial penicillin reaction is type I, a delayed maculopapular rash is type IV, and drug-induced haemolysis is type II. That is why the **timing of the reaction** decides both the classification and the clinical advice.\n\n**Test to match**: skin prick and specific IgE for **type I**; direct antiglobulin (Coombs) test for **type II**; complement and immune complex studies for **type III**; **patch testing** for **type IV**.",
+      "note": "Minutes is type I, hours-to-days with a cell-bound antibody is type II, days-to-weeks and multisystem is type III immune complex, 48–72 hours and T-cell mediated is type IV.",
+      "link": {
+        "system": "immunology-allergy",
+        "slug": "hypersensitivity-reactions-types-i-iv",
+        "title": "Hypersensitivity Reactions I–IV"
+      }
+    },
+    {
+      "heading": "Angioedema — two mechanisms, two entirely different treatments",
+      "body": "Giving adrenaline and steroids to bradykinin-mediated angioedema achieves nothing, and the airway keeps swelling. The distinction is therefore urgent.\n\n| | **Histaminergic** (mast cell) | **Bradykinin-mediated** |\n|---|---|---|\n| **Urticaria / itch** | **Present** | **Absent** — the key discriminator |\n| Onset | Minutes | **Hours**, evolving over 24–72 h |\n| Triggers | Food, drug, sting, idiopathic | **ACE inhibitor**, hereditary/acquired C1-INH deficiency |\n| Responds to adrenaline, antihistamine, steroid | **Yes** | **No** |\n| Treatment | Adrenaline, antihistamine, steroid | **C1-INH concentrate**, **icatibant**, or FFP; **airway management is paramount** |\n\n**No urticaria and no itch means think bradykinin.** Mast cell degranulation essentially always produces some itch or weal; its complete absence in a swollen patient should prompt the alternative pathway.\n\n**ACE inhibitor angioedema** is the commonest bradykinin cause. Two features catch people out: it can begin **years** into uneventful therapy, so a long-standing prescription does not exonerate the drug; and it is **more common in patients of African ancestry**. The drug must be stopped permanently, and **ARBs are used with caution** — the risk is much lower but not zero.\n\n**Hereditary angioedema** (C1 esterase inhibitor deficiency) presents with recurrent episodes from adolescence, often with **abdominal pain attacks** from bowel wall oedema that get mistaken for a surgical abdomen, and a **family history**. Screen with a **low C4** — which is low both during and between attacks and is the useful screening test — then C1-INH level and function. Attacks are precipitated by **trauma, dental work, stress and oestrogens**.\n\n**Adrenaline is still given** if there is any diagnostic doubt in a patient with airway compromise — the harm of withholding it in true anaphylaxis outweighs its futility in HAE.",
+      "note": "Angioedema without urticaria or itch is bradykinin-mediated — ACE inhibitor or C1-INH deficiency — and does not respond to adrenaline, antihistamine or steroid; screen with C4.",
+      "link": {
+        "system": "immunology-allergy",
+        "slug": "hypersensitivity-reactions-types-i-iv",
+        "title": "Hypersensitivity Reactions I–IV"
+      }
+    },
+    {
+      "heading": "Allergy testing and prevention — the Australian position",
+      "body": "**Testing detects sensitisation, not allergy.** A positive skin prick test or specific IgE in someone who eats the food without symptoms means nothing clinically — which is why **testing is directed by history**, never used as a screening panel. Indiscriminate panels generate false positives and cause unnecessary, harmful food exclusion in children.\n\n| Test | Use |\n|---|---|\n| **Skin prick test** | First-line for IgE-mediated allergy; results in 15–20 min. Antihistamines must be withheld beforehand |\n| **Specific IgE (serum)** | When SPT is unavailable, skin disease is extensive, or antihistamines cannot be stopped |\n| **Oral food challenge** | **Gold standard**; supervised, for diagnosis or to confirm resolution |\n| **Patch testing** | **Delayed, type IV** contact allergy — not for IgE-mediated food allergy |\n\n**Tests with no validity** that patients ask about: IgG food antibody testing, kinesiology, hair analysis, cytotoxic food testing, Vega testing. ASCIA advises against all of them; they are a common source of unnecessary dietary restriction.\n\n**Prevention has reversed.** Current Australian (ASCIA) advice is to **introduce common allergenic solids, including egg and peanut, in the first year of life** — around 6 months, not before 4 months — and **not to delay** them, including in infants with eczema or a family history. Delayed introduction, the previous advice, **increases** the risk of food allergy. Regular ongoing exposure once introduced is important; a food eaten once and then dropped for months may be reacted to on re-exposure.\n\n**Other points**: breastfeeding is encouraged but maternal diet restriction during pregnancy or lactation is **not** recommended for prevention; and infants with severe eczema warrant early specialist input, not exclusion.",
+      "note": "Testing detects sensitisation and must be history-directed; ASCIA advises introducing egg and peanut in the first year, and IgG food testing has no validity.",
+      "link": {
+        "system": "immunology-allergy",
+        "slug": "atopic-dermatitis-eczema",
+        "title": "Atopic Dermatitis / Eczema"
+      }
+    },
+    {
+      "heading": "Primary immunodeficiency — the organism names the arm",
+      "body": "The pattern of infection points to the failing compartment.\n\n| Failing arm | Characteristic infections | Examples |\n|---|---|---|\n| **Antibody (B cell)** | **Encapsulated bacteria** — pneumococcus, *Haemophilus*, meningococcus; recurrent sinopulmonary infection, giardia | **CVID**, X-linked agammaglobulinaemia, IgA deficiency |\n| **T cell / combined** | **Opportunists** — *Pneumocystis*, candida, CMV; **failure to thrive**, chronic diarrhoea from early infancy | **SCID**, DiGeorge |\n| **Phagocyte** | **Catalase-positive** organisms — *Staph aureus*, *Serratia*, *Burkholderia*, *Aspergillus*; **abscesses**, poor wound healing, **delayed umbilical cord separation** | Chronic granulomatous disease, leukocyte adhesion deficiency |\n| **Complement** | **Recurrent *Neisseria*** — meningococcal or gonococcal | **Terminal complement (C5–C9) deficiency**; early components → lupus-like disease |\n\n**Recurrent neisserial infection is complement deficiency until proven otherwise** — test with **CH50**, which screens the whole classical pathway, and vaccinate against meningococcus.\n\n**The warning signs** in a child: **≥4 new ear infections or ≥2 serious sinus infections in a year**, ≥2 pneumonias in a year, **≥2 months of antibiotics with little effect**, persistent thrush after age 1, failure to thrive, deep-seated abscesses, need for **IV** antibiotics to clear infections, **≥2 deep-seated infections including septicaemia**, and a **family history** of primary immunodeficiency.\n\n**CVID** is the commonest symptomatic primary immunodeficiency presenting in adults — typically **recurrent sinopulmonary infection with bronchiectasis**, low IgG with low IgA or IgM, poor vaccine responses, and an increased risk of **autoimmunity and lymphoma**. Treatment is immunoglobulin replacement.\n\n**Selective IgA deficiency** is the commonest of all and usually asymptomatic, but matters twice: it causes **false-negative coeliac serology** (hence always measuring total IgA), and it carries a risk of **anaphylactic transfusion reactions** to IgA-containing blood products.\n\n**Live vaccines are contraindicated** in significant T cell or combined immunodeficiency.",
+      "note": "Encapsulated organisms mean antibody failure, opportunists mean T cell, catalase-positive abscesses mean phagocyte, and recurrent Neisseria means complement.",
+      "link": {
+        "system": "immunology-allergy",
+        "slug": "primary-immunodeficiency-pattern-recognition",
+        "title": "Primary Immunodeficiency Pattern Recognition"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "stem": "A 62-year-old man on perindopril for 4 years presents with progressive swelling of the lips and tongue developing over 8 hours. There is no urticaria and he reports no itch. He has taken no new medications and had no unusual food. He is given IM adrenaline, hydrocortisone and an antihistamine, with no improvement, and the swelling continues to progress.",
+      "lead": "What is the diagnosis and the appropriate management?",
+      "options": [
+        "ACE inhibitor-induced bradykinin angioedema — secure the airway, cease the drug permanently, and consider C1-INH concentrate or icatibant",
+        "Hereditary angioedema — give fresh frozen plasma and arrange genetic testing",
+        "Idiopathic urticaria with angioedema — increase the antihistamine to four times the standard dose",
+        "Cellulitis of the lip — commence IV flucloxacillin",
+        "Anaphylaxis — repeat adrenaline every 5 minutes until improvement"
+      ],
+      "correct": 0,
+      "explanation": "<b>Absent urticaria and absent itch</b>, onset over <b>hours</b>, and <b>no response to adrenaline, steroid or antihistamine</b> together indicate <b>bradykinin-mediated</b> angioedema — here from the ACE inhibitor. Two traps: it can begin <b>years</b> into uneventful therapy, so the four-year history does not exonerate perindopril; and mast cell treatments simply do not work on this pathway. Management is <b>airway first</b>, permanent cessation of the drug, and <b>C1-INH concentrate or icatibant</b>. <b>Hereditary angioedema</b> would present far earlier in life with recurrent attacks and a family history.",
+      "point": "Angioedema without urticaria or itch that fails adrenaline is bradykinin-mediated — and ACE inhibitors cause it years into treatment.",
+      "topic": "Immunology — angioedema",
+      "type": "discrimination",
+      "difficulty": "medium"
+    },
+    {
+      "stem": "A 22-year-old woman collapses 10 minutes after eating at a restaurant. She is pale and clammy with BP 76/40, HR 128, and audible wheeze. There is no rash or urticaria anywhere. A staff member helps her sit upright in a chair.",
+      "lead": "What is the most appropriate immediate action?",
+      "options": [
+        "Keep her sitting upright to ease her breathing and give nebulised salbutamol",
+        "Give IV adrenaline 1 mg as for cardiac arrest",
+        "Give IM adrenaline 0.5 mg into the deltoid and keep her seated",
+        "Withhold adrenaline pending a rash, and give IV hydrocortisone and an antihistamine",
+        "Lie her flat with legs elevated and give IM adrenaline 0.5 mg into the anterolateral thigh"
+      ],
+      "correct": 4,
+      "explanation": "Hypotension and bronchospasm minutes after a likely food trigger is <b>anaphylaxis</b>, and <b>around 20% have no skin signs</b> — waiting for a rash is a fatal error. Two positional and route details matter: <b>lie the patient flat with legs raised</b>, because sitting or standing a hypotensive anaphylaxis patient can precipitate arrest through an empty ventricle; and give adrenaline <b>IM into the anterolateral thigh</b>, which is absorbed far more reliably than the deltoid. <b>IV adrenaline at arrest doses</b> risks arrhythmia and hypertensive crisis outside a monitored setting.",
+      "point": "Absent rash does not exclude anaphylaxis, and the patient must be laid flat — sitting them up can cause arrest.",
+      "topic": "Immunology — anaphylaxis",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "stem": "A 34-year-old man develops fever, a widespread urticarial rash, arthralgia and proteinuria 9 days after starting a course of an antibiotic. Complement C3 and C4 are low.",
+      "lead": "Which type of hypersensitivity reaction is this?",
+      "options": [
+        "Type IV",
+        "A mixed type I and type IV reaction",
+        "Type I",
+        "Type II",
+        "Type III"
+      ],
+      "correct": 4,
+      "explanation": "Onset at <b>9 days</b> with a <b>multisystem</b> picture — fever, rash, joints and kidney — and <b>consumed complement</b> is <b>type III immune complex</b> disease (serum sickness). The timing is the shortcut: <b>days to weeks</b> and multisystem means complexes forming in the circulation and depositing where flow and filtration favour it. <b>Type I</b> is minutes and IgE-mediated. <b>Type II</b> antibodies bind a <b>fixed antigen on a cell surface</b>, so the disease is organ-specific and complement is not consumed in this pattern. <b>Type IV</b> is T-cell mediated at 48–72 hours or longer, without antibody or complement consumption.",
+      "point": "Days-to-weeks onset, multisystem involvement and low complement is type III immune complex disease.",
+      "topic": "Immunology — hypersensitivity",
+      "type": "recall",
+      "difficulty": "medium"
+    },
+    {
+      "stem": "A 17-year-old man has had four episodes of meningococcal disease over 6 years, caused by different serogroups. He is otherwise well, grows normally, and has had no unusual respiratory or skin infections.",
+      "lead": "Which investigation is most likely to reveal the underlying defect?",
+      "options": [
+        "Serum immunoglobulins and vaccine response titres",
+        "CH50 to assess the classical complement pathway",
+        "Nitroblue tetrazolium or dihydrorhodamine testing for neutrophil function",
+        "Lymphocyte subsets to assess T cell numbers",
+        "HIV serology alone"
+      ],
+      "correct": 1,
+      "explanation": "<b>Recurrent neisserial infection is terminal complement deficiency (C5–C9) until proven otherwise</b> — the membrane attack complex is required to lyse <i>Neisseria</i>, and its absence produces exactly this picture: repeated meningococcal disease with different serogroups in an otherwise well person. <b>CH50</b> screens the whole classical pathway and is the right first test. <b>Antibody deficiency</b> would give recurrent encapsulated sinopulmonary infection, <b>phagocyte defects</b> catalase-positive abscesses, and <b>T cell defects</b> opportunists with failure to thrive — none of which are described. He also needs meningococcal vaccination.",
+      "point": "Recurrent Neisseria means terminal complement deficiency — screen with CH50 and vaccinate.",
+      "topic": "Immunology — primary immunodeficiency",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "stem": "New parents ask when to introduce peanut and egg to their 5-month-old, who has moderate eczema. The father has hay fever and the mother has a shellfish allergy. They have read that allergenic foods should be delayed until age 3 in high-risk infants.",
+      "lead": "What is the current Australian advice?",
+      "options": [
+        "Avoid them and have the mother exclude them from her diet while breastfeeding",
+        "Delay egg and peanut until age 3, given the eczema and family history",
+        "Introduce common allergenic foods including egg and peanut in the first year, around 6 months, with regular ongoing exposure",
+        "Introduce them only after skin prick testing has excluded sensitisation",
+        "Delay until 12 months, then introduce one allergenic food per month"
+      ],
+      "correct": 2,
+      "explanation": "The advice has <b>reversed</b>: ASCIA now recommends introducing common allergenic solids including <b>egg and peanut in the first year of life</b>, around <b>6 months</b> (not before 4 months), and explicitly <b>not delaying</b> them in infants with eczema or a family history — that group benefits most. Delayed introduction <b>increases</b> the risk of food allergy. <b>Regular ongoing exposure</b> matters, since a food given once then dropped may be reacted to later. <b>Routine pre-testing is not required</b> and generates false positives that cause needless exclusion, and <b>maternal dietary restriction</b> during lactation is not recommended.",
+      "point": "Introduce egg and peanut in the first year with regular ongoing exposure — delay increases risk, and routine pre-testing is not required.",
+      "topic": "Immunology — food allergy",
+      "type": "recall",
+      "difficulty": "easy"
+    },
+    {
+      "stem": "A 41-year-old woman has had recurrent sinus infections and three episodes of pneumonia over 4 years, with early bronchiectasis on CT. Investigations show IgG 3.1 g/L (low), IgA low, IgM low, and poor antibody responses to pneumococcal vaccination. She has also developed immune thrombocytopenia.",
+      "lead": "What is the most likely diagnosis?",
+      "options": [
+        "Chronic granulomatous disease",
+        "Terminal complement deficiency",
+        "Selective IgA deficiency",
+        "Common variable immunodeficiency",
+        "X-linked agammaglobulinaemia"
+      ],
+      "correct": 3,
+      "explanation": "<b>CVID</b> is the commonest symptomatic primary immunodeficiency presenting in adults: <b>recurrent sinopulmonary infection with bronchiectasis</b>, <b>low IgG with low IgA or IgM</b>, and <b>poor vaccine responses</b>. The associated <b>autoimmunity</b> (here ITP) is characteristic, alongside an increased lymphoma risk. Treatment is immunoglobulin replacement. <b>Selective IgA deficiency</b> would not depress IgG and IgM. <b>X-linked agammaglobulinaemia</b> presents in male infants once maternal antibody wanes, with absent B cells. <b>CGD</b> and <b>complement deficiency</b> produce entirely different infection patterns.",
+      "point": "CVID: adult onset, recurrent sinopulmonary infection with bronchiectasis, low immunoglobulins, poor vaccine responses, and autoimmunity.",
+      "topic": "Immunology — primary immunodeficiency",
+      "type": "discrimination",
+      "difficulty": "medium"
+    },
+    {
+      "stem": "A 28-year-old woman was treated for anaphylaxis to a bee sting 90 minutes ago. She received one dose of IM adrenaline and has been symptom-free for an hour. She feels well and asks to go home to collect her children.",
+      "lead": "What is the most appropriate plan?",
+      "options": [
+        "Observe at least 4 hours from resolution, then discharge with an adrenaline autoinjector, an ASCIA action plan and immunologist referral",
+        "Admit for 24 hours of observation in all cases of anaphylaxis",
+        "Discharge now, with a follow-up tryptase in 1 week to confirm the diagnosis",
+        "Discharge with an autoinjector only, as referral is unnecessary for a known trigger",
+        "Discharge now with an antihistamine and a 3-day course of prednisolone"
+      ],
+      "correct": 0,
+      "explanation": "<b>Biphasic reactions</b> occur in up to about 5%, typically within 4–12 hours, so a minimum of <b>4 hours' observation from resolution</b> is standard, extended if the reaction was severe, needed repeated adrenaline, or the patient lives far from care. <b>Steroids are not a substitute</b> for observation and are no longer thought to prevent biphasic reactions. Discharge is incomplete without an <b>adrenaline autoinjector with training</b>, a written <b>ASCIA action plan</b>, and <b>specialist referral</b> — which for venom allergy matters particularly, since <b>venom immunotherapy</b> is highly effective and she would be a candidate.",
+      "point": "Observe at least 4 hours for biphasic reaction, and discharge requires autoinjector, action plan and referral — steroids do not replace observation.",
+      "topic": "Immunology — anaphylaxis",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "stem": "A 19-year-old woman has recurrent episodes of facial and limb swelling since age 13, each lasting 2–3 days, with no itch or urticaria. She has had two laparotomies for severe abdominal pain that found nothing. Her father had similar episodes. C4 is persistently low between attacks.",
+      "lead": "What is the diagnosis and what is the appropriate acute treatment?",
+      "options": [
+        "ACE inhibitor angioedema; cease the drug",
+        "Chronic spontaneous urticaria; high-dose antihistamines",
+        "Hereditary angioedema; C1 esterase inhibitor concentrate or icatibant",
+        "Idiopathic anaphylaxis; adrenaline autoinjector",
+        "Mast cell activation syndrome; cromoglycate and antihistamines"
+      ],
+      "correct": 2,
+      "explanation": "Recurrent swelling from adolescence <b>without urticaria or itch</b>, a <b>family history</b>, and <b>abdominal pain attacks</b> from bowel wall oedema mistaken for a surgical abdomen — two negative laparotomies is the classic history — with a <b>persistently low C4</b> is <b>hereditary angioedema</b> from C1 esterase inhibitor deficiency. C4 is low both during and between attacks, which makes it the useful screening test. Acute treatment is <b>C1-INH concentrate or icatibant</b>; adrenaline, antihistamines and steroids do not work. Attacks are precipitated by trauma, dental work, stress and oestrogens.",
+      "point": "Hereditary angioedema: no urticaria, family history, abdominal attacks and a low C4 between episodes — treat with C1-INH concentrate or icatibant.",
+      "topic": "Immunology — angioedema",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "stem": "A 6-year-old boy develops an itchy vesicular rash confined to the skin under his nickel belt buckle, appearing about 2 days after wearing it and persisting for a week.",
+      "lead": "Which hypersensitivity type is this, and which test would confirm the trigger?",
+      "options": [
+        "Type I; skin prick testing",
+        "Type IV; patch testing",
+        "Type I; specific IgE testing",
+        "Type III; complement studies",
+        "Type II; direct antiglobulin test"
+      ],
+      "correct": 1,
+      "explanation": "Allergic contact dermatitis is <b>type IV</b>, T-cell mediated, and the timing gives it away: <b>48–72 hours or longer</b> after contact, persisting for days — no antibody is involved, so there is nothing IgE-based to detect. Confirmation is by <b>patch testing</b>, where the allergen is applied under occlusion and read at 48 and 96 hours. <b>Skin prick and specific IgE</b> answer a different question entirely (immediate, IgE-mediated type I hypersensitivity) and would be negative here — using them for contact allergy is the error being tested.",
+      "point": "Contact dermatitis is type IV and confirmed by patch testing; skin prick and specific IgE test only type I.",
+      "topic": "Immunology — hypersensitivity",
+      "type": "discrimination",
+      "difficulty": "easy"
+    },
+    {
+      "stem": "A 30-year-old man with chronic diarrhoea, weight loss and iron deficiency has coeliac serology requested. Anti-tissue transglutaminase IgA returns negative. He has been eating a normal gluten-containing diet throughout.",
+      "lead": "Which additional result would most change the interpretation?",
+      "options": [
+        "A normal C4 level",
+        "A raised IgE level",
+        "A raised faecal calprotectin",
+        "A total IgA level below the detectable range",
+        "A positive HLA-DQ2"
+      ],
+      "correct": 3,
+      "explanation": "<b>Selective IgA deficiency</b> is the commonest primary immunodeficiency and is <b>over-represented in coeliac disease</b>. Because anti-tTG is an <b>IgA-based assay</b>, an IgA-deficient patient produces a <b>false negative</b> — which is exactly why <b>total IgA is measured alongside</b> the serology, and why IgG-based testing (IgG-DGP or IgG-tTG) is used instead when IgA is deficient. <b>HLA-DQ2</b> is present in about a third of the general population and cannot confirm anything, though its absence has good negative predictive value. IgA deficiency also matters for <b>anaphylactic transfusion reactions</b> to IgA-containing products.",
+      "point": "Always check total IgA with coeliac serology — IgA deficiency causes false-negative anti-tTG and is over-represented in coeliac disease.",
+      "topic": "Immunology — primary immunodeficiency",
+      "type": "application",
+      "difficulty": "medium"
+    }
+  ]
+}
