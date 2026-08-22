@@ -270,15 +270,34 @@
      it reads as zero, and zero is not what 'never tested' means. */
   .mbar-none{grid-column:2/-1;border-bottom:1px dashed var(--rule);opacity:.6}
 
-  .tpc{display:grid;grid-template-columns:1fr auto;gap:10px 11px;
-       align-items:center;padding:8px 0 8px 27px}
+  /* ---- subtopics: contained, railed and marked ----
+     Three separate signals, because indentation alone was not reading as
+     nesting on a phone: a recessed surface says 'inside', an unbroken rail in
+     the parent's band colour says 'belongs to the row above', and a dot in
+     front of each name says 'this is an item, not a heading'. The rail takes
+     the SYSTEM's colour while each bar keeps its OWN — so the rail groups and
+     the bars still report. */
+  .grp-topics{margin:8px 0 6px 5px;padding:2px 11px 2px 12px;
+    background:var(--panel-2);border-left:2px solid var(--rule);
+    border-radius:0 var(--r-ctl) var(--r-ctl) 0}
+  .r-low{border-left-color:var(--low)}
+  .r-bord{border-left-color:var(--border-flag)}
+  .r-in{border-left-color:var(--inrange)}
+  .r-un{border-left-color:var(--untested)}
+
+  .tpc{display:grid;grid-template-columns:auto 1fr auto;gap:7px 8px;
+       align-items:center;padding:9px 0}
   .tpc+.tpc{border-top:1px solid var(--rule-2)}
+  .tpc-dot{width:4px;height:4px;border-radius:50%;background:var(--ink-3);
+    opacity:.75;align-self:start;margin-top:7px}
   .tpc-name{font-family:var(--sans);font-size:14px;color:var(--ink-2)}
   .tpc-meta{font-family:var(--sans);font-size:12px;color:var(--ink-3);margin-top:2px}
   .tpc-pct{font-family:var(--sans);font-size:14px;font-weight:600;
     font-variant-numeric:tabular-nums;text-align:right}
-  .tpc .mbar,.tpc .mbar-none{grid-column:1/-1;margin-top:1px}
-  .grp-topics{padding-bottom:6px}
+  /* Inset past the dot so a topic bar can never be mistaken for a system one,
+     and thinner, because the parent bar is the summary of these. */
+  .tpc .mbar,.tpc .mbar-none{grid-column:2/-1;height:4px;margin-top:1px}
+  .tpc .mbar-none{height:0}
 
   /* quiz bank performance bars — the red ground showing through IS the miss */
   .qbar{height:10px;background:var(--low);margin-top:12px;border-radius:999px;overflow:hidden}
@@ -2044,16 +2063,17 @@ function renderAssays(){
           <span class="grp-sub">${flag}</span></span>
         ${bar(score)}
       </summary>
-      <div class="grp-topics">${topics.length
+      <div class="grp-topics ${cls.replace('f-','r-')}">${topics.length
         ? topics.map(t => `<div class="tpc">
+            <span class="tpc-dot" aria-hidden="true"></span>
             <span>
               <span class="tpc-name">${esc(t.label)}</span>
-              <span class="tpc-meta">${t.d.tested} ${t.d.tested===1?'q':'q'} \u00b7 ${fmtAge(t.days)}</span>
+              <span class="tpc-meta">${t.d.tested} q \u00b7 ${fmtAge(t.days)}</span>
             </span>
             <span class="tpc-pct ${band(t.d.score)[1]}">${t.d.score}%</span>
             ${bar(t.d.score)}
           </div>`).join('')
-        : '<div class="tpc"><span class="tpc-name" style="color:var(--ink-3)">Nothing tested in this system yet</span></div>'}
+        : '<div class="tpc"><span class="tpc-dot" aria-hidden="true"></span><span class="tpc-name" style="color:var(--ink-3)">Nothing tested in this system yet</span></div>'}
       </div>
     </details>`;
   };
