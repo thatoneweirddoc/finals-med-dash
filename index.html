@@ -292,9 +292,13 @@
     padding:0;margin-left:7px;cursor:help;width:12px;height:11px;
     vertical-align:0;position:relative;display:inline-block;line-height:0}
   .conf::before{content:'';position:absolute;inset:0;
-    clip-path:polygon(50% 0%, 100% 100%, 0% 100%);background:var(--conf-2)}
-  .conf-1::before{background:var(--conf-1)} .conf-2::before{background:var(--conf-2)}
-  .conf-3::before{background:var(--conf-3)}
+    clip-path:polygon(50% 0%, 100% 100%, 0% 100%);background:var(--ink)}
+  /* Coverage tiers: black = not covered, then red, yellow, green as the volume
+     of questions builds. This is the ONLY meaning colour carries on a triangle. */
+  .cv-0::before{background:var(--ink)}
+  .cv-1::before{background:var(--conf-1)}
+  .cv-2::before{background:var(--conf-3)}
+  .cv-3::before{background:var(--inrange)}
   .conf::after{content:attr(data-m);position:absolute;right:100%;top:-3px;
     margin-right:7px;font-family:var(--mono);font-size:11px;line-height:16px;
     color:var(--ink);background:var(--panel);border:1px solid var(--rule);
@@ -968,9 +972,9 @@
     <div class="panel">
       <div class="panel-h">Topic assay &mdash; by system, worst first</div>
       <div id="assays"></div>
-      <p class="note">Tap a system to see its own topics. Colour on a bar means the score.
-        A triangle appears only where there are too few questions to trust it &mdash; red under
-        10, orange to 40, yellow to 60, nothing above. Tap one for the margin of error.</p>
+      <p class="note">Tap a system to see its own topics. The triangle is coverage &mdash; how many
+        questions you have done, not how well you did: black under 20, red to 40, yellow to 70,
+        green above. The bar is the score. Tap a triangle for the margin of error.</p>
       <details class="fold"><summary>How this is ranked</summary>
         <p class="note" style="margin-top:0">Three things at once: how bad the score is,
         how long since it was tested, and whether it's built at all. A stale good score
@@ -1415,7 +1419,7 @@ const EXAM = new Date('2026-09-14T09:00:00+10:00');
    installed home-screen app holds its own cache and will happily serve a build
    from days ago, which is indistinguishable from a change that never shipped
    unless the page can say which build it is. */
-const BUILD = '2026-08-22b · warning triangles only below 60 questions';
+const BUILD = '2026-08-22c · coverage keyed to question count';
 const KEY_BASE = 'finals_v1';
 /* The cached tracker is namespaced per user, so a shared laptop can hold two
    people's histories without either seeing the other's, and switching tokens
@@ -1999,7 +2003,7 @@ function daysSince(dateStr){
 
 function fmtAge(days){
   // 'no date recorded' — NOT 'never tested'. A topic can have a score with no
-  // date against it, and saying "never tested" beside "0% · Barely covered" is
+  // date against it, and saying "never tested" beside a score is
   // a straight contradiction.
   if(days === Infinity) return 'no date recorded';
   if(days === 0) return 'tested today';
@@ -2028,12 +2032,23 @@ function daysLeft(){ return Math.max(0, Math.ceil((EXAM - new Date())/864e5)); }
    "Borderline" are how a pathology result is described, and beside a mark out
    of 100 they read as though 68% were a normal value rather than a score. The
    five coverage terms describe how well the ground is held instead. */
+/* Coverage is a statement about VOLUME, not accuracy. How well a topic is
+   covered is how much of it you have actually been asked about; how well you
+   answered is the separate number beside it. Conflating the two was what made
+   a 100% on one question read as "very well covered". */
+function coverage(tested){
+  if(!tested || tested < 20) return ['Not covered','cv-0'];
+  if(tested < 40)            return ['Poorly covered','cv-1'];
+  if(tested < 70)            return ['Well covered','cv-2'];
+  return ['Very well covered','cv-3'];
+}
+
+// Score band, used only to colour the bar. Kept separate from coverage above.
 function band(score){
-  if(score === null) return ['Not covered','f-un'];
-  if(score >= 90) return ['Very well covered','f-in'];
-  if(score >= 75) return ['Well covered','f-in'];
-  if(score >= 50) return ['Adequately covered','f-bord'];
-  return ['Barely covered','f-low'];
+  if(score === null) return ['','f-un'];
+  if(score >= 75) return ['','f-in'];
+  if(score >= 50) return ['','f-bord'];
+  return ['','f-low'];
 }
 
 /* Below this many questions a percentage is not a measurement, it is an
@@ -2058,20 +2073,12 @@ function marginPct(correct, tested){
    pointer, tap on a phone \u2014 which is why this is a button rather than a span
    carrying only a title attribute. */
 function cautionChip(correct, tested){
-  // No marker once the sample is big enough. A green warning triangle beside a
-  // green bar is redundant, and beside a RED bar it actively contradicts it:
-  // two red-amber-green scales on one row read as one statement that disagrees
-  // with itself. Absence now means "no caution needed", so the only coloured
-  // marker on screen is one that warns.
-  if(!tested || tested >= RELIABLE_N) return '';
-  const tier = tested < 10 ? 1 : tested < 40 ? 2 : 3;
-  const m = marginPct(correct, tested);
-  const word = tier === 1 ? 'far too few to conclude anything'
-             : tier === 2 ? 'provisional'
-             : 'firming up';
-  const label = tested + ' question' + (tested===1?'':'s') + ' \u2014 ' + word +
-                '. True score is within about \u00b1' + m + ' points.';
-  return '<button type="button" class="conf conf-' + tier + '" data-m="\u00b1' + m +
+  const [word, cls] = coverage(tested);
+  const m = tested ? marginPct(correct, tested) : null;
+  const label = (tested || 'No') + ' question' + (tested===1?'':'s') + ' \u2014 ' +
+    word.toLowerCase() + (m === null ? '.' : '. True score is within about \u00b1' + m + ' points.');
+  return '<button type="button" class="conf ' + cls + '" data-m="' +
+         (m === null ? 'no data' : '\u00b1' + m) +
          '" aria-label="' + esc(label) + '" title="' + esc(label) + '"></button>';
 }
 
@@ -2082,8 +2089,8 @@ function renderStats(){
   const untested = [...BUILT, ...UNBUILT].filter(s => !touched.has(s.toLowerCase())).length;
   $('stats').innerHTML = `
     <div class="stat s-flag"><span class="n">${S.open.length}</span><span class="l">Flagged</span></div>
-    <div class="stat s-low"><span class="n">${weak}</span><span class="l">Barely covered</span></div>
-    <div class="stat s-un"><span class="n">${untested}</span><span class="l">Not covered</span></div>
+    <div class="stat s-low"><span class="n">${weak}</span><span class="l">Scoring under 50%</span></div>
+    <div class="stat s-un"><span class="n">${untested}</span><span class="l">Never tested</span></div>
     <div class="stat s-in"><span class="n">${S.cleared.length}</span><span class="l">Cleared</span></div>`;
 }
 
@@ -2163,7 +2170,8 @@ function renderAssays(){
 
   const GRP_N = 3;
   const grpHtml = ({name,g,score,unbuilt}, i) => {
-    const [flag,cls] = band(score);
+    const [,cls] = band(score);
+    const [covWord] = coverage(g.t);
     // Worst topic is surfaced on the closed row: a system can average 65% with
     // a 0% sitting inside it, and the average alone would hide that.
     const worst = g.topics.length
@@ -2183,7 +2191,7 @@ function renderAssays(){
             ? ` \u00b7 worst ${worst.d.score}%` : ''}</span>
         </span>
         <span class="grp-pct ${cls}">${score === null ? '\u2014' : score+'%'}
-          <span class="grp-sub">${flag}${score === null ? '' : cautionChip(g.c, g.t)}</span></span>
+          <span class="grp-sub">${covWord}${cautionChip(g.c, g.t)}</span></span>
         ${bar(score)}
       </summary>
       <div class="grp-topics">${topics.length
