@@ -1353,6 +1353,54 @@ let BUILT = ['Renal','Cardiology','Respiratory','Endocrine','Gastro','MSK & Rheu
 let UNBUILT = NO_NOTES.slice();
 let NOTE_WORDS = {};
 
+/* Topic keys are written the way a clinician names the subject \u2014 "General
+   Practice \u2014 screening", "Gastroenterology \u2014 dysphagia" \u2014 while the system
+   list uses the course's names: "Family Medicine", "Gastro". Matching the two
+   by raw string leaves a system reading "never tested" while its own topics sit
+   scored two panels away, which is worse than useless: it sends you to revise
+   something you have already covered.
+
+   Left side is what appears before the em dash in a topic key; right side is
+   the system it belongs to. Anything absent falls through unchanged. */
+const SYSTEM_ALIASES = {
+  'general practice':'Family Medicine',
+  'gastroenterology':'Gastro',
+  'haematology':'Haem & Onc',
+  'oncology':'Haem & Onc',
+  'rheumatology':'MSK & Rheum',
+  'msk':'MSK & Rheum',
+  'orthopaedics':'Surgery',
+  'neurosurgery':'Surgery',
+  'urology':'Surgery',
+  'vascular':'Surgery',
+  'immunology':'Immunology & Allergy',
+  'obstetrics & gynaecology':'O&G',
+  'toxicology':'Critical Care'
+};
+
+/* Some prefixes are not systems at all \u2014 "Past paper" is a source, and
+   "Mixed" and "Weakest areas" are quiz scopes. They must not be treated as a
+   system, or they show up in rankings as though they were one. */
+const NON_SYSTEMS = new Set(['past paper','mixed','weakest areas']);
+
+// The single place a topic key is turned into a system name.
+function systemOf(topicKey){
+  const raw = String(topicKey).split('\u2014')[0].trim();
+  const k = raw.toLowerCase();
+  if(NON_SYSTEMS.has(k)) return '';
+  return SYSTEM_ALIASES[k] || raw;
+}
+
+// Systems with at least one scored topic, lower-cased for comparison.
+function touchedSystems(){
+  const s = new Set();
+  Object.keys(S.topics).forEach(k => {
+    const sys = systemOf(k);
+    if(sys) s.add(sys.toLowerCase());
+  });
+  return s;
+}
+
 async function loadCoverage(){
   try{
     const r = await fetch('notes/index.json?t=' + Date.now());
@@ -1875,8 +1923,7 @@ function band(score){
 function renderStats(){
   const t = Object.values(S.topics);
   const weak = t.filter(x => x.score < 50).length;
-  const touched = new Set(Object.keys(S.topics)
-    .map(k => k.split('—')[0].trim().toLowerCase()));
+  const touched = touchedSystems();
   const untested = [...BUILT, ...UNBUILT].filter(s => !touched.has(s.toLowerCase())).length;
   $('stats').innerHTML = `
     <div class="stat s-flag"><span class="n">${S.open.length}</span><span class="l">Flagged</span></div>
@@ -1886,8 +1933,7 @@ function renderStats(){
 }
 
 function renderAssays(){
-  const touched = new Set(Object.keys(S.topics)
-    .map(k => k.split('—')[0].trim().toLowerCase()));
+  const touched = touchedSystems();
   const gaps = [...BUILT, ...UNBUILT]
     .filter(sys => !touched.has(sys.toLowerCase()))
     .map(sys => [sys, {score:null, tested:0, last:null}, !BUILT.includes(sys)]);
@@ -1901,7 +1947,7 @@ function renderAssays(){
 
   const top = all[0];
   // The one place the priority is stated, and it does something about it.
-  TOP_SYSTEM = top ? top.name.split('—')[0].trim() : '';
+  TOP_SYSTEM = top ? (systemOf(top.name) || top.name.split('—')[0].trim()) : '';
   $('topPriority').innerHTML = top ? `
     <span class="tp-label">Start here</span>
     <span class="tp-name">${esc(top.name)}</span>
@@ -2087,7 +2133,7 @@ function renderSummary(){
                     : Math.round((d.score||0)/100*d.tested)), 0);
   const acc = totalQ ? Math.round(totalC/totalQ*100) : null;
 
-  const touched = new Set(Object.keys(S.topics).map(k => k.split('—')[0].trim().toLowerCase()));
+  const touched = touchedSystems();
   const untested = [...BUILT, ...UNBUILT].filter(x => !touched.has(x.toLowerCase()));
 
   // A strength needs enough attempts to mean something — one lucky answer isn't
@@ -2142,7 +2188,8 @@ function renderGlance(){
   const bySys = {};
   Object.entries(S.topics).forEach(([k,d]) => {
     if(!d.tested) return;
-    const sys = k.split('—')[0].trim() || 'Other';
+    const sys = systemOf(k);
+    if(!sys) return;   // 'Past paper' and quiz scopes are not systems
     bySys[sys] = bySys[sys] || {c:0,t:0};
     bySys[sys].t += d.tested;
     bySys[sys].c += (d.correct != null ? d.correct : Math.round((d.score||0)/100*d.tested));
@@ -2802,7 +2849,7 @@ $('queue').addEventListener('click', e => {
         const t = `${topic} — eMedici Q${q.n}`;
         const hit = S.open.find(o => o.t.toLowerCase() === t.toLowerCase());
         if(hit) hit.n++;
-        else S.open.push({t, s:topic.split('—')[0].trim(), ty:'recall', n:1, d:date});
+        else S.open.push({t, s:systemOf(topic) || topic.split('—')[0].trim(), ty:'recall', n:1, d:date});
       }
       n++;
     });
