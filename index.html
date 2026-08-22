@@ -56,9 +56,9 @@
        score is. A shade off the flag hues above so the two scales do not read
        as one statement: a green marker beside a red bar means "that 30% is well
        established", which is the opposite of reassuring. */
-    --conf-1:#C0392B;   /* under 10 questions */
-    --conf-2:#CE6F1E;   /* 10 to 39           */
-    --conf-3:#B8960F;   /* 40 to 59           */
+    --conf-1:#C0392B;   /* barely covered  — 5 to 19  */
+    --conf-2:#CE6F1E;   /* poorly covered  — 20 to 39 */
+    --conf-3:#B8960F;   /* well covered    — 40 to 69 */
     /* 60 and over gets no marker at all — see cautionChip */
     --low-wash:#FAEBEA;
     --bord-wash:#FAF3E5;
@@ -297,8 +297,9 @@
      of questions builds. This is the ONLY meaning colour carries on a triangle. */
   .cv-0::before{background:var(--ink)}
   .cv-1::before{background:var(--conf-1)}
-  .cv-2::before{background:var(--conf-3)}
-  .cv-3::before{background:var(--inrange)}
+  .cv-2::before{background:var(--conf-2)}
+  .cv-3::before{background:var(--conf-3)}
+  .cv-4::before{background:var(--inrange)}
   .conf::after{content:attr(data-m);position:absolute;right:100%;top:-3px;
     margin-right:7px;font-family:var(--mono);font-size:11px;line-height:16px;
     color:var(--ink);background:var(--panel);border:1px solid var(--rule);
@@ -973,8 +974,8 @@
       <div class="panel-h">Topic assay &mdash; by system, worst first</div>
       <div id="assays"></div>
       <p class="note">Tap a system to see its own topics. The triangle is coverage &mdash; how many
-        questions you have done, not how well you did: black under 20, red to 40, yellow to 70,
-        green above. The bar is the score. Tap a triangle for the margin of error.</p>
+        questions you have done, not how well you did: black under 5, red to 20, orange to 40,
+        yellow to 70, green above. The bar is the score. Tap a triangle for the margin of error.</p>
       <details class="fold"><summary>How this is ranked</summary>
         <p class="note" style="margin-top:0">Three things at once: how bad the score is,
         how long since it was tested, and whether it's built at all. A stale good score
@@ -1419,7 +1420,7 @@ const EXAM = new Date('2026-09-14T09:00:00+10:00');
    installed home-screen app holds its own cache and will happily serve a build
    from days ago, which is indistinguishable from a change that never shipped
    unless the page can say which build it is. */
-const BUILD = '2026-08-22c · coverage keyed to question count';
+const BUILD = '2026-08-22d · five coverage tiers from 5 questions up';
 const KEY_BASE = 'finals_v1';
 /* The cached tracker is namespaced per user, so a shared laptop can hold two
    people's histories without either seeing the other's, and switching tokens
@@ -2037,10 +2038,11 @@ function daysLeft(){ return Math.max(0, Math.ceil((EXAM - new Date())/864e5)); }
    answered is the separate number beside it. Conflating the two was what made
    a 100% on one question read as "very well covered". */
 function coverage(tested){
-  if(!tested || tested < 20) return ['Not covered','cv-0'];
-  if(tested < 40)            return ['Poorly covered','cv-1'];
-  if(tested < 70)            return ['Well covered','cv-2'];
-  return ['Very well covered','cv-3'];
+  if(!tested || tested < 5) return ['Not covered','cv-0'];
+  if(tested < 20)           return ['Barely covered','cv-1'];
+  if(tested < 40)           return ['Poorly covered','cv-2'];
+  if(tested < 70)           return ['Well covered','cv-3'];
+  return ['Very well covered','cv-4'];
 }
 
 // Score band, used only to colour the bar. Kept separate from coverage above.
