@@ -184,11 +184,51 @@ function resolveUser(credential) {
              email: v.email, via: 'google' };
   }
 
+  // A durable session token issued after a successful Google sign-in.
+  const sess = sessionEmail(c);
+  if (sess && USERS[sess]) {
+    const su = USERS[sess];
+    return { id: su.id, name: su.name, generate: !!su.generate, email: sess, via: 'session' };
+  }
+
   const email = LEGACY_TOKENS[c];
   if (!email) return null;
   const u = USERS[email];
   if (!u) return null;
   return { id: u.id, name: u.name, generate: !!u.generate, email: email, via: 'token' };
+}
+
+/**
+ * Session tokens.
+ *
+ * A Google ID token is an authentication assertion, not a session: it expires
+ * after an hour. Using it directly as the API credential meant the app demanded
+ * a fresh sign-in every time the JWT lapsed — which is what happens on each
+ * launch once an hour has passed.
+ *
+ * So sign-in is verified once, and a long-lived opaque token is issued in
+ * exchange. That token is what the page stores and sends thereafter. Revoke by
+ * deleting the property, or by removing the user from USERS.
+ */
+function sessionEmail(tok) {
+  if (!tok || tok.indexOf('fs_') !== 0) return '';
+  return props().getProperty('sess:' + tok) || '';
+}
+
+function issueSession(email) {
+  if (!email) return '';
+  const existing = props().getProperty('sessFor:' + email);
+  if (existing) return existing;
+  const tok = 'fs_' + Utilities.getUuid().replace(/-/g, '');
+  props().setProperty('sess:' + tok, email);
+  props().setProperty('sessFor:' + email, tok);
+  return tok;
+}
+
+function revokeSession(email) {
+  const tok = props().getProperty('sessFor:' + email);
+  if (tok) props().deleteProperty('sess:' + tok);
+  props().deleteProperty('sessFor:' + email);
 }
 
 const FOLDER_NAME = 'Finals tracker';
@@ -266,7 +306,13 @@ function doGet(e) {
   const user = resolveUser(p.token);
   if (!user) return json({ error: 'bad token' });
   try {
-    if (p.action === 'whoami')      return json({ user: user, signInConfigured: !!(props().getProperty('GOOGLE_CLIENT_ID') || GOOGLE_CLIENT_ID) });
+    if (p.action === 'whoami') {
+      // Only mint on a fresh Google verification. A request already using a
+      // session token gets its identity back and nothing new.
+      const sessionToken = user.via === 'google' ? issueSession(user.email) : '';
+      return json({ user: user, sessionToken: sessionToken,
+                    signInConfigured: !!(props().getProperty('GOOGLE_CLIENT_ID') || GOOGLE_CLIENT_ID) });
+    }
     if (p.action === 'listQuizzes') return json({ quizzes: listQuizzes() });
     if (p.action === 'listRevision') return json({ modules: listRevision(user.id) });
     if (p.action === 'getQuiz')     return json(JSON.parse(readById(p.id)));
