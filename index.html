@@ -1958,8 +1958,8 @@ function daysSince(dateStr){
 
 function fmtAge(days){
   // 'no date recorded' — NOT 'never tested'. A topic can have a score with no
-  // date against it, and saying "never tested" beside "0% · Below range" is a
-  // straight contradiction.
+  // date against it, and saying "never tested" beside "0% · Barely covered" is
+  // a straight contradiction.
   if(days === Infinity) return 'no date recorded';
   if(days === 0) return 'tested today';
   if(days === 1) return 'tested yesterday';
@@ -1983,11 +1983,16 @@ function priority(score, days, unbuilt){
 
 function daysLeft(){ return Math.max(0, Math.ceil((EXAM - new Date())/864e5)); }
 
+/* Wording deliberately avoids clinical reference-range language. "In range" and
+   "Borderline" are how a pathology result is described, and beside a mark out
+   of 100 they read as though 68% were a normal value rather than a score. The
+   five coverage terms describe how well the ground is held instead. */
 function band(score){
-  if(score === null) return ['Never tested','f-un'];
-  if(score >= 75) return ['In range','f-in'];
-  if(score >= 50) return ['Borderline','f-bord'];
-  return ['Below range','f-low'];
+  if(score === null) return ['Not covered','f-un'];
+  if(score >= 90) return ['Very well covered','f-in'];
+  if(score >= 75) return ['Well covered','f-in'];
+  if(score >= 50) return ['Adequately covered','f-bord'];
+  return ['Barely covered','f-low'];
 }
 
 /* Below this many questions a percentage is not a measurement, it is an
@@ -2024,8 +2029,8 @@ function renderStats(){
   const untested = [...BUILT, ...UNBUILT].filter(s => !touched.has(s.toLowerCase())).length;
   $('stats').innerHTML = `
     <div class="stat s-flag"><span class="n">${S.open.length}</span><span class="l">Flagged</span></div>
-    <div class="stat s-low"><span class="n">${weak}</span><span class="l">Below range</span></div>
-    <div class="stat s-un"><span class="n">${untested}</span><span class="l">Never tested</span></div>
+    <div class="stat s-low"><span class="n">${weak}</span><span class="l">Barely covered</span></div>
+    <div class="stat s-un"><span class="n">${untested}</span><span class="l">Not covered</span></div>
     <div class="stat s-in"><span class="n">${S.cleared.length}</span><span class="l">Cleared</span></div>`;
 }
 
