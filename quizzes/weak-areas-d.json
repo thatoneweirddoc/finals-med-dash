@@ -1,0 +1,176 @@
+{
+  "title": "Weak areas — open flags II",
+  "system": "Weakest areas",
+  "questions": [
+    {
+      "stem": "A 51-year-old woman has hypertension resistant to three agents. Potassium is 3.0 mmol/L on no diuretic. Plasma aldosterone is elevated and plasma renin activity is suppressed.",
+      "lead": "What is the diagnosis and the appropriate next step?",
+      "options": [
+        "Primary aldosteronism; CT adrenals with consideration of adrenal vein sampling",
+        "Phaeochromocytoma; plasma metanephrines",
+        "Cushing syndrome; overnight dexamethasone suppression test",
+        "Liddle syndrome; genetic testing",
+        "Secondary aldosteronism; imaging of the renal arteries"
+      ],
+      "correct": 0,
+      "explanation": "<b>Renin is the discriminator, not aldosterone.</b> <b>Suppressed renin</b> with a high aldosterone means the adrenal is driving the process autonomously — <b>primary aldosteronism</b> — and the next step is <b>CT adrenals</b>, with <b>adrenal vein sampling</b> to determine whether disease is unilateral (surgically curable) or bilateral. In <b>secondary</b> aldosteronism, such as renal artery stenosis, <b>renin is high</b> and is doing the driving — so renal artery imaging answers the wrong question here. Aldosterone alone carries no information without the renin beside it.",
+      "point": "Primary aldosteronism has suppressed renin; secondary has high renin driving the aldosterone. Read renin first.",
+      "topic": "Endocrine — aldosterone/renin axis",
+      "type": "discrimination",
+      "difficulty": "medium"
+    },
+    {
+      "stem": "A 41-year-old woman with untreated Graves disease develops fever 39.8°C, agitation, atrial fibrillation at 150 bpm and vomiting, 12 hours after an emergency laparotomy.",
+      "lead": "Which sequence of drug administration is correct?",
+      "options": [
+        "Radioactive iodine immediately, with beta blockade",
+        "Beta blocker alone until thyroid function tests return",
+        "Lugol's iodine and propylthiouracil given simultaneously, with steroids withheld",
+        "Lugol's iodine first, then propylthiouracil an hour later, plus a beta blocker",
+        "Propylthiouracil first, then Lugol's iodine at least an hour later, plus a beta blocker and hydrocortisone"
+      ],
+      "correct": 4,
+      "explanation": "The <b>order is the whole question</b>. The <b>thionamide (propylthiouracil) goes first</b> to block new hormone synthesis; <b>iodine is given at least an hour later</b> to block release. Giving <b>iodine first supplies substrate</b> for further hormone synthesis and can worsen the storm. A <b>beta blocker</b> controls the adrenergic features (propranolol also reduces T4→T3 conversion), and <b>hydrocortisone</b> is added for both the conversion block and possible relative adrenal insufficiency. <b>Radioactive iodine</b> has no role in the acute setting.",
+      "point": "Thyroid storm: thionamide first, iodine at least an hour later — iodine first fuels further synthesis.",
+      "topic": "Endocrine — thyroid emergencies",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "stem": "A 68-year-old man complains of waking three to four times nightly to pass large volumes of urine. Daytime frequency is normal and his stream is unchanged. IPSS is otherwise low. Prostate is smoothly enlarged and PSA is normal.",
+      "lead": "What is the most appropriate first step?",
+      "options": [
+        "Urodynamic studies",
+        "Transurethral resection of the prostate",
+        "Commence tamsulosin",
+        "A frequency-volume (bladder) diary",
+        "Commence finasteride"
+      ],
+      "correct": 3,
+      "explanation": "<b>Large</b> nocturnal volumes with normal daytime voiding points to <b>nocturnal polyuria</b> rather than bladder outlet obstruction, and the <b>frequency-volume diary</b> is what distinguishes them — it is the first investigation in any nocturia. Nocturnal polyuria has medical causes: heart failure, obstructive sleep apnoea, diabetes mellitus or insipidus, evening fluid or diuretic timing, and peripheral oedema redistributing when supine. <b>Prostate-directed drugs and surgery treat obstruction</b>, which is not what is happening here, and would leave the actual cause untouched.",
+      "point": "Nocturia starts with a bladder diary — large nocturnal volumes mean nocturnal polyuria, which prostate drugs will not fix.",
+      "topic": "Urology — LUTS",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "stem": "A 27-year-old woman has 6 weeks of amenorrhoea, right iliac fossa pain and light vaginal bleeding. She is haemodynamically stable. Serum hCG is 1450 IU/L. Transvaginal ultrasound shows an empty uterus and a 2.1 cm right adnexal mass with no fetal cardiac activity and no free fluid.",
+      "lead": "Which factor would most strongly contraindicate methotrexate?",
+      "options": [
+        "Inability to attend for reliable follow-up",
+        "The hCG of 1450 IU/L",
+        "The absence of fetal cardiac activity",
+        "The presence of light vaginal bleeding",
+        "The adnexal mass measuring 2.1 cm"
+      ],
+      "correct": 0,
+      "explanation": "Medical management of ectopic pregnancy requires a <b>stable, unruptured</b> patient with a <b>small mass</b>, <b>low hCG</b>, <b>no fetal cardiac activity</b> — all satisfied here — and, critically, <b>reliable follow-up</b>, because methotrexate demands serial hCG measurement and immediate presentation if pain worsens. Without that, treatment failure or rupture goes undetected, so it is an absolute practical contraindication. The other listed findings are all <b>favourable</b> criteria being offered back as distractors: fetal cardiac activity would count against methotrexate, but its <i>absence</i> supports it.",
+      "point": "Methotrexate for ectopic requires stability, small mass, low hCG, no cardiac activity and reliable follow-up — follow-up is a real contraindication, not a formality.",
+      "topic": "O&G — early pregnancy",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "stem": "A 6-year-old is treated for scabies with topical permethrin, correctly applied and repeated after 7 days. Three weeks later the itch persists, though no new burrows are visible and household contacts were treated simultaneously.",
+      "lead": "What is the most likely explanation?",
+      "options": [
+        "Misdiagnosis — this is atopic dermatitis",
+        "Treatment failure requiring oral ivermectin",
+        "Post-scabetic itch, which persists for 2–4 weeks after successful treatment",
+        "Permethrin resistance requiring benzyl benzoate",
+        "Reinfestation from an untreated contact"
+      ],
+      "correct": 2,
+      "explanation": "<b>Itch persists for 2–4 weeks after successful scabies treatment</b> — it is a hypersensitivity response to retained mite antigen in the skin, not evidence that live mites remain. Absent new burrows and simultaneous treatment of contacts both support eradication. Treating this as failure leads to <b>repeated unnecessary scabicide</b>, which causes irritant dermatitis and perpetuates the itch. Management is symptomatic — emollients, topical corticosteroid, antihistamine at night — with re-treatment reserved for <b>new burrows or new lesions</b>.",
+      "point": "Post-scabetic itch lasts 2–4 weeks and does not indicate treatment failure — re-treat only for new burrows.",
+      "topic": "Dermatology — infestations",
+      "type": "discrimination",
+      "difficulty": "easy"
+    },
+    {
+      "stem": "A 34-year-old contact lens wearer has a 2-day history of a painful red left eye with photophobia, watering and blurred vision. There is circumcorneal injection and a corneal opacity with an overlying epithelial defect staining with fluorescein. Visual acuity is 6/24.",
+      "lead": "What is the diagnosis and the appropriate action?",
+      "options": [
+        "Subconjunctival haemorrhage — reassurance",
+        "Viral conjunctivitis — lubricants and hygiene advice",
+        "Microbial keratitis — same-day ophthalmology referral, stop lens wear, corneal scrape before intensive topical antibiotics",
+        "Acute angle-closure glaucoma — urgent intraocular pressure lowering",
+        "Anterior uveitis — commence topical corticosteroid and cycloplegic"
+      ],
+      "correct": 2,
+      "explanation": "Contact lens wear with a <b>painful red eye, photophobia, reduced acuity and a staining corneal infiltrate</b> is <b>microbial keratitis</b> — sight-threatening, with <i>Pseudomonas</i> prominent in lens wearers, and requiring <b>same-day ophthalmology</b>, corneal scrape and intensive fortified topical antibiotics. <b>Conjunctivitis does not reduce acuity or cause true photophobia</b>, and those two features are the screening discriminators for a serious red eye. <b>Topical corticosteroid</b> would be actively harmful here, worsening infection and risking perforation. Angle-closure gives a fixed mid-dilated pupil with a hazy cornea and high pressure, not a focal staining infiltrate.",
+      "point": "Reduced acuity and photophobia mark a dangerous red eye; a contact lens wearer with a staining infiltrate has microbial keratitis — never steroids.",
+      "topic": "Ophthalmology — red eye",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "stem": "A 46-year-old man has been vomiting for 3 days from gastric outlet obstruction. Bloods: Na 134, K 2.9, Cl 88 mmol/L, bicarbonate 36 mmol/L, urea 11 mmol/L, creatinine 106 µmol/L.",
+      "lead": "Which fluid should be prescribed?",
+      "options": [
+        "4% dextrose with 0.18% sodium chloride",
+        "Sodium bicarbonate 8.4% infusion",
+        "Hartmann's solution with added potassium",
+        "0.9% sodium chloride with added potassium",
+        "5% dextrose with added potassium"
+      ],
+      "correct": 3,
+      "explanation": "Vomiting produces a <b>hypochloraemic, hypokalaemic metabolic alkalosis</b>, and the deficits are <b>chloride, potassium and volume</b> — replaced with <b>0.9% saline plus potassium</b>, which supplies the chloride that allows the kidney to excrete bicarbonate. <b>Hartmann's</b> is wrong on two counts: its <b>lactate is metabolised to bicarbonate</b>, worsening the alkalosis, and it carries only 5 mmol/L of potassium, far too little for this deficit. <b>Dextrose solutions</b> supply free water without the chloride or sodium needed. <b>Bicarbonate</b> would compound an existing alkalosis.",
+      "point": "Vomiting causes hypochloraemic hypokalaemic alkalosis — replace with normal saline plus potassium, and avoid Hartmann's because its lactate becomes bicarbonate.",
+      "topic": "Surgery — fluid prescribing",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "stem": "A 68-year-old woman with metastatic breast cancer takes 60 mg of oral morphine daily in divided doses with good pain control. She is now vomiting and unable to take oral medication, so a continuous subcutaneous infusion is planned.",
+      "lead": "What total dose of subcutaneous morphine should be given over 24 hours?",
+      "options": [
+        "60 mg",
+        "20 mg",
+        "30 mg",
+        "120 mg",
+        "10 mg"
+      ],
+      "correct": 1,
+      "explanation": "Australian Therapeutic Guidelines convert <b>oral to subcutaneous morphine at 3:1</b> — so 60 mg orally becomes <b>20 mg subcutaneously</b> over 24 hours, with breakthrough doses of about one-sixth of the daily total (roughly 3–5 mg). The error that matters clinically is using a 2:1 ratio or transcribing the oral dose directly: giving 60 mg subcutaneously would be a threefold overdose in a patient who is already vomiting and may be dehydrated. Note that oral to subcutaneous <b>hydromorphone</b> uses a different ratio, so the conversion must be checked per drug.",
+      "point": "Oral to subcutaneous morphine converts at 3:1 in Australian guidelines — 60 mg oral is 20 mg subcutaneous over 24 hours.",
+      "topic": "Palliative Care — pain management",
+      "type": "recall",
+      "difficulty": "medium"
+    },
+    {
+      "stem": "A previously well 26-year-old woman has a laparoscopic cholecystectomy under general anaesthesia. She is a non-smoker with a history of motion sickness and received intraoperative fentanyl.",
+      "lead": "How many Apfel risk factors does she have?",
+      "options": [
+        "3",
+        "1",
+        "0",
+        "2",
+        "4"
+      ],
+      "correct": 4,
+      "explanation": "The four <b>Apfel</b> risk factors are <b>female sex</b>, <b>non-smoker</b>, <b>previous PONV or motion sickness</b>, and <b>postoperative opioids</b> — she has all four, giving a predicted risk of around 80%. The commonest error is counting only three by overlooking <b>female sex</b> as a factor in its own right, or by not counting <b>motion sickness</b> as equivalent to previous PONV. With four factors she warrants <b>multimodal prophylaxis</b> — two or more antiemetics from different classes, plus opioid-sparing analgesia and consideration of total intravenous anaesthesia.",
+      "point": "Apfel: female sex, non-smoker, previous PONV or motion sickness, postoperative opioids — four factors means multimodal prophylaxis.",
+      "topic": "Anaesthetics — postoperative care",
+      "type": "recall",
+      "difficulty": "easy"
+    },
+    {
+      "stem": "A 72-year-old man with severe COPD is admitted with an exacerbation. On arrival his SpO₂ is 84%. He is placed on a non-rebreather mask at 15 L/min. Ninety minutes later he is drowsy. ABG: pH 7.21, PaCO₂ 88 mmHg, PaO₂ 130 mmHg, HCO₃⁻ 34 mmol/L.",
+      "lead": "What has happened and what is the appropriate response?",
+      "options": [
+        "Progressive pneumonia — escalate antibiotics and continue high-flow oxygen",
+        "Oxygen-induced hypercapnia — reduce oxygen to target SpO₂ 88–92% and commence non-invasive ventilation",
+        "Opioid toxicity — give naloxone",
+        "Acute pulmonary oedema — give IV frusemide and continue high-flow oxygen",
+        "Metabolic acidosis — give IV sodium bicarbonate"
+      ],
+      "correct": 1,
+      "explanation": "Uncontrolled high-flow oxygen in COPD has produced <b>worsening hypercapnia with a respiratory acidosis</b> — driven mainly by <b>increased dead space from reversal of hypoxic pulmonary vasoconstriction</b> and the <b>Haldane effect</b>, rather than simply by loss of hypoxic drive. The response is to <b>titrate oxygen down to a target SpO₂ of 88–92%</b> and start <b>non-invasive ventilation</b>, which is indicated for a pH below 7.35 with hypercapnia. Note that oxygen is never withheld from a hypoxaemic patient — it is <b>targeted</b>, not withdrawn. Bicarbonate does not treat a respiratory acidosis; ventilation does.",
+      "point": "In COPD, target SpO₂ 88–92%; a pH below 7.35 with hypercapnia is the trigger for non-invasive ventilation.",
+      "topic": "Respiratory — COPD",
+      "type": "application",
+      "difficulty": "medium"
+    }
+  ]
+}
