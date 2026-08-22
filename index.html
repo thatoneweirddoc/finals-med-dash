@@ -51,6 +51,15 @@
     --border-flag:#A87B2B;
     --inrange:#2F7A62;
     --untested:#78798A;
+
+    /* Confidence hues — how much evidence is behind a score, NOT how good the
+       score is. A shade off the flag hues above so the two scales do not read
+       as one statement: a green marker beside a red bar means "that 30% is well
+       established", which is the opposite of reassuring. */
+    --conf-1:#C0392B;   /* under 10 questions */
+    --conf-2:#CE6F1E;   /* 10 to 39           */
+    --conf-3:#B8960F;   /* 40 to 59           */
+    --conf-4:#2F7A62;   /* 60 and over        */
     --low-wash:#FAEBEA;
     --bord-wash:#FAF3E5;
     --in-wash:#E9F3EF;
@@ -96,6 +105,7 @@
       --border-flag:#D5A24C;
       --inrange:#5CBD97;
       --untested:#9B9CAB;
+      --conf-1:#EE7C72; --conf-2:#E8944A; --conf-3:#D9BC46; --conf-4:#5CBD97;
       --low-wash:#37211F;
       --bord-wash:#332916;
       --in-wash:#19302A;
@@ -132,6 +142,7 @@
     --border-flag:#D5A24C;
     --inrange:#5CBD97;
     --untested:#9B9CAB;
+    --conf-1:#EE7C72; --conf-2:#E8944A; --conf-3:#D9BC46; --conf-4:#5CBD97;
     --low-wash:#37211F;
     --bord-wash:#332916;
     --in-wash:#19302A;
@@ -270,12 +281,27 @@
   .grp-sub{font-family:var(--sans);font-size:12px;font-weight:400;
     color:var(--ink-3);display:block;margin-top:2px}
 
-  /* Sits beside a score, never on top of it: this qualifies the number, it does
-     not compete with it. Deliberately colourless \u2014 colour is the score band,
-     and a warning tint here would read as 'bad' when the meaning is 'unproven'. */
-  .lown{font-family:var(--mono);font-size:11px;font-weight:400;color:var(--ink-3);
-    border:1px solid var(--rule);border-radius:999px;padding:1px 5px;
-    margin-left:6px;white-space:nowrap;vertical-align:1px;cursor:help}
+  /* Confidence marker: how much evidence sits behind the score, not how good
+     the score is. A triangle rather than a dot — it is the shape a warning is
+     already understood to have, and it is unmistakably not one of the bars or
+     round markers this panel uses for anything else, which keeps the two colour
+     scales from being read as one statement. The margin itself is revealed on
+     hover or tap rather than printed, since a figure on all 134 rows becomes
+     wallpaper. */
+  .conf{appearance:none;-webkit-appearance:none;background:none;border:0;
+    padding:0;margin-left:7px;cursor:help;width:12px;height:11px;
+    vertical-align:0;position:relative;display:inline-block;line-height:0}
+  .conf::before{content:'';position:absolute;inset:0;
+    clip-path:polygon(50% 0%, 100% 100%, 0% 100%);background:var(--conf-4)}
+  .conf-1::before{background:var(--conf-1)} .conf-2::before{background:var(--conf-2)}
+  .conf-3::before{background:var(--conf-3)} .conf-4::before{background:var(--conf-4)}
+  .conf::after{content:attr(data-m);position:absolute;right:100%;top:-3px;
+    margin-right:7px;font-family:var(--mono);font-size:11px;line-height:16px;
+    color:var(--ink);background:var(--panel);border:1px solid var(--rule);
+    border-radius:999px;padding:0 6px;white-space:nowrap;
+    opacity:0;pointer-events:none;transition:opacity .12s ease}
+  .conf:hover::after,.conf:focus-visible::after,.conf.on::after{opacity:1}
+  .conf:focus-visible{outline:2px solid var(--ink);outline-offset:3px}
 
   .mbar{grid-column:2/-1;position:relative;height:6px;border-radius:999px;
         background:var(--rule);overflow:hidden}
@@ -942,9 +968,9 @@
     <div class="panel">
       <div class="panel-h">Topic assay &mdash; by system, worst first</div>
       <div id="assays"></div>
-      <p class="note">Tap a system to see its own topics. A &plusmn; figure marks a score
-        with fewer than 50 questions behind it &mdash; the number is the margin of error,
-        so &plusmn;40 is a guess and &plusmn;9 is close to settled.</p>
+      <p class="note">Tap a system to see its own topics. The triangle beside a score says how
+        much evidence is behind it &mdash; red under 10 questions, orange to 40, yellow to 60,
+        green above. Tap it for the margin of error.</p>
       <details class="fold"><summary>How this is ranked</summary>
         <p class="note" style="margin-top:0">Three things at once: how bad the score is,
         how long since it was tested, and whether it's built at all. A stale good score
@@ -1998,14 +2024,12 @@ function band(score){
 /* Below this many questions a percentage is not a measurement, it is an
    impression. Kept as a named constant because it is a judgement call, not a
    fact, and it appears in two places. */
-const RELIABLE_N = 50;
+const RELIABLE_N = 60;
 
 /* Half-width of the 95% Wilson interval, as whole percentage points.
-   A flat "small sample" badge would fire on every topic \u2014 the largest has 34
-   questions \u2014 so it would say nothing. The margin does discriminate: 34
-   questions carries about \u00b116, a single question about \u00b140. Wilson rather than
-   the normal approximation because the latter collapses to \u00b10 at 0% and 100%,
-   which is exactly where the sample is least trustworthy. */
+   Wilson rather than the normal approximation because the latter collapses to
+   \u00b10 at 0% and 100%, which is exactly where a one-question sample deserves
+   the loudest warning. */
 function marginPct(correct, tested){
   if(!tested) return null;
   const z = 1.96, p = correct / tested;
@@ -2015,11 +2039,21 @@ function marginPct(correct, tested){
   return Math.round((((centre+spread)/d) - ((centre-spread)/d)) / 2 * 100);
 }
 
-// Rendered beside a score that has not earned confidence yet.
+/* A triangle coloured by how much evidence sits behind the score. Hover on a
+   pointer, tap on a phone \u2014 which is why this is a button rather than a span
+   carrying only a title attribute. */
 function cautionChip(correct, tested){
-  if(!tested || tested >= RELIABLE_N) return '';
+  if(!tested) return '';
+  const tier = tested < 10 ? 1 : tested < 40 ? 2 : tested < RELIABLE_N ? 3 : 4;
   const m = marginPct(correct, tested);
-  return `<span class="lown" title="${tested} question${tested===1?'':'s'} only \u2014 the true score is roughly \u00b1${m} points either side. Treat as provisional until about ${RELIABLE_N}.">\u00b1${m}</span>`;
+  const word = tier === 1 ? 'far too few to conclude anything'
+             : tier === 2 ? 'provisional'
+             : tier === 3 ? 'firming up'
+             : 'enough to trust';
+  const label = tested + ' question' + (tested===1?'':'s') + ' \u2014 ' + word +
+                '. True score is within about \u00b1' + m + ' points.';
+  return '<button type="button" class="conf conf-' + tier + '" data-m="\u00b1' + m +
+         '" aria-label="' + esc(label) + '" title="' + esc(label) + '"></button>';
 }
 
 function renderStats(){
@@ -2154,6 +2188,19 @@ function renderAssays(){
     ? glist.map(grpHtml).join('')
     : '<div class="empty">No topics drilled yet</div>';
 }
+
+/* Hover reveals the margin on a desktop; a phone has no hover, so the marker is
+   a button and a tap latches it open. Bound once on the document rather than
+   per marker, because the list is rebuilt on every render. */
+document.addEventListener('click', e => {
+  const t = e.target.closest && e.target.closest('.conf');
+  document.querySelectorAll('.conf.on').forEach(el => { if(el !== t) el.classList.remove('on'); });
+  if(!t) return;
+  // Inside a <summary> a tap would also toggle the disclosure. This is a read,
+  // not a navigation.
+  e.preventDefault(); e.stopPropagation();
+  t.classList.toggle('on');
+});
 
 function renderOpen(){
   const o = [...S.open].sort((a,b) => b.n - a.n);
