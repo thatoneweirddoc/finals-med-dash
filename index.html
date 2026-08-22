@@ -5,6 +5,15 @@
 <title>Medical School Finals Study Dashboard</title>
 <meta name="apple-mobile-web-app-title" content="Finals Dashboard">
 <meta name="theme-color" content="#F7F8F6">
+<!-- Home-screen install. iOS ignores the manifest's icons entirely and reads
+     apple-touch-icon, so both are declared; without the former, saving to the
+     home screen on an iPhone produces a screenshot of the page instead of an
+     icon. Paths are relative so this keeps working under the /finals-med-dash/
+     project path on GitHub Pages. -->
+<link rel="apple-touch-icon" sizes="180x180" href="icons/icon-180.png">
+<link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+<link rel="manifest" href="manifest.webmanifest">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <!-- Only the two faces the default theme actually uses. IBM Plex Sans was
